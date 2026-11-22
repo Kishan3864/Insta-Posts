@@ -239,3 +239,7 @@
 - (b059) Kanban boards: when columns have 1-3 cards the dashed "open" placeholders become huge; give each column 2-5 cards so placeholders take at most a third of the height.
 - (b059) Email/list rows beside a drawing: use 22/18px text and 16px padding so the list carries as much weight as the drawing; 19/16px looked like a footnote in the feed.
 - (b059) New techniques: pond map with paddle aerators, SVG multi-line growth chart with end labels, CSS pav trays with returned buns, fanned paper stack, skate blade hollow cross-sections, driver duty ribbons. Next: isometric shelf, receipt-style weekly bill, diagonal before/after split.
+- (b060) Cross-slide assignments must agree: slide 2 gave a ticket to tech R-1 while slide 3 showed it on R-2's route. Build ticket and route lists from one data list.
+- (b060) Reminder states must respect "today": a reminder "2 days before" a Thursday cannot already be "sent" on Sunday; derive status from the run date.
+- (b060) Order progress must be bigger than today's output (1,240 done vs 1,476 today); compute done = earlier + today in code.
+- (b060) Bottom-aligned object stacks (flat-pack boxes) leave a dead top; put a dark summary card at the top of the column. New techniques: SVG gold trophies with engraving plates, hourly production heat board, exam hall desk map + OMR bubbles, kraft box stack, building riser status map.

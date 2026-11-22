@@ -3,7 +3,7 @@
  "drive_index_sheet_id": "1kVmhTtzsjrmEhG59w3V2Odgx_cXBEIsDAxMe59zWmgU",
  "lock_until_utc": "2026-11-23T00:32:51Z",
  "last_run": "2026-11-22T22:48:55Z \u00b7 posts 276-300 made (batches 52-56), Drive 1-300 done, index sheet refreshed at 290 (old sheet 15xA... could not be trashed: permission denied, listed in old_index_sheets_to_trash), 15 new targets added",
- "next_post_no": 316,
+ "next_post_no": 321,
  "posts_done": [
   {
    "n": 1,
@@ -2524,11 +2524,51 @@
    "slides": 1,
    "market": "India",
    "category": "DriverOnCall"
+  },
+  {
+   "n": 316,
+   "dir": "posts/0316_CAROUSEL_India_TrophyShop",
+   "format": "CAROUSEL",
+   "slides": 5,
+   "market": "India",
+   "category": "TrophyShop"
+  },
+  {
+   "n": 317,
+   "dir": "posts/0317_SINGLE_India_GarmentJobWork",
+   "format": "SINGLE",
+   "slides": 1,
+   "market": "India",
+   "category": "GarmentJobWork"
+  },
+  {
+   "n": 318,
+   "dir": "posts/0318_SINGLE_India_MockTestCentre",
+   "format": "SINGLE",
+   "slides": 1,
+   "market": "India",
+   "category": "MockTestCentre"
+  },
+  {
+   "n": 319,
+   "dir": "posts/0319_SINGLE_USA_FurnitureAssembly",
+   "format": "SINGLE",
+   "slides": 1,
+   "market": "USA",
+   "category": "FurnitureAssembly"
+  },
+  {
+   "n": 320,
+   "dir": "posts/0320_CAROUSEL_India_LocalBroadband",
+   "format": "CAROUSEL",
+   "slides": 5,
+   "market": "India",
+   "category": "LocalBroadband"
   }
  ],
  "market_counts": {
-  "India": 221,
-  "Abroad": 94
+  "India": 225,
+  "Abroad": 95
  },
  "used_categories": [
   "Boutique",
@@ -2852,14 +2892,14 @@
   "PavSupplier",
   "TaxPreparer",
   "SkateSharpening",
-  "DriverOnCall"
+  "DriverOnCall",
+  "TrophyShop",
+  "GarmentJobWork",
+  "MockTestCentre",
+  "FurnitureAssembly",
+  "LocalBroadband"
  ],
  "recent_palettes": [
-  "mango yellow/crate green/slate",
-  "pine/off-white/tangerine",
-  "sprout green/coir brown/tray black",
-  "key brass/teal/ink",
-  "frost white/ice blue/lawn olive",
   "racing green/champagne/ivory",
   "papad beige/chilli red/mustard",
   "lagoon aqua/cedar/navy",
@@ -2879,7 +2919,12 @@
   "pav golden/tray red/flour white",
   "cream paper/forest ink/stamp red",
   "rink blue/hockey black/blade steel",
-  "night navy/headlight yellow/white"
+  "night navy/headlight yellow/white",
+  "trophy gold/velvet navy/ivory",
+  "denim blue/thread orange/chalk",
+  "answer-sheet white/pencil yellow/graphite",
+  "kraft brown/allen-key silver/teal",
+  "fibre cyan/router black/signal green"
  ],
  "drive_files_done": [
   1,
@@ -3200,66 +3245,6 @@
  ],
  "log": [
   {
-   "n": 286,
-   "date": "2026-11-22",
-   "format": "SINGLE",
-   "market": "India",
-   "category": "IroningService",
-   "palette": "starch white/indigo/ember orange",
-   "fonts": "Lora + Poppins",
-   "layout": "three cards of CSS folded-clothes stacks per flat with count chips + pickup and month-end cards",
-   "dots": 2,
-   "phone": false
-  },
-  {
-   "n": 287,
-   "date": "2026-11-22",
-   "format": "CAROUSEL",
-   "market": "India",
-   "category": "ColdStorage",
-   "palette": "ice blue/jute brown/charcoal",
-   "fonts": "Bitter + Roboto",
-   "layout": "top-down chamber map with bays tinted by lot, lot card with code square, jute bag isotype ledger, message request + dark withdrawal slip, bags + tiles CTA",
-   "dots": 5,
-   "phone": false
-  },
-  {
-   "n": 288,
-   "date": "2026-11-22",
-   "format": "SINGLE",
-   "market": "USA",
-   "category": "DryerVentCleaning",
-   "palette": "lint gray/blueprint blue/amber",
-   "fonts": "Anton + Open Sans",
-   "layout": "house wall cutaway with dryer-to-outside duct route, lengths and numbered turns + phone booking form",
-   "dots": 1,
-   "phone": true
-  },
-  {
-   "n": 289,
-   "date": "2026-11-22",
-   "format": "SINGLE",
-   "market": "India",
-   "category": "DripIrrigation",
-   "palette": "field green/soil brown/water cyan",
-   "fonts": "Cardo + Fira Sans",
-   "layout": "to-scale plot plan with lateral rows and dripper dots + parts tiles derived from the drawing + dates strip",
-   "dots": 4,
-   "phone": false
-  },
-  {
-   "n": 290,
-   "date": "2026-11-22",
-   "format": "SINGLE",
-   "market": "India",
-   "category": "SteelAlmirah",
-   "palette": "steel grey/maroon/cream",
-   "fonts": "TeX Gyre Adventor + DM Sans",
-   "layout": "almirah front elevations drawn to size + fits-your-wall bar + colour swatches + maroon order card",
-   "dots": 3,
-   "phone": false
-  },
-  {
    "n": 291,
    "date": "2026-11-22",
    "format": "SINGLE",
@@ -3558,14 +3543,69 @@
    "layout": "driver duty ribbon board by hour + phone driver booking",
    "dots": 4,
    "phone": true
+  },
+  {
+   "n": 316,
+   "date": "2026-11-22",
+   "format": "CAROUSEL",
+   "market": "India",
+   "category": "TrophyShop",
+   "palette": "trophy gold/velvet navy/ivory",
+   "fonts": "Cardo + Poppins",
+   "layout": "SVG gold trophies on podium, event order table, gold engraving plate proofs with status, steps + cup + message, trophies + tiles CTA",
+   "dots": 3,
+   "phone": false
+  },
+  {
+   "n": 317,
+   "date": "2026-11-22",
+   "format": "SINGLE",
+   "market": "India",
+   "category": "GarmentJobWork",
+   "palette": "denim blue/thread orange/chalk",
+   "fonts": "Anton + Roboto",
+   "layout": "dark hourly production board lines x hours vs target + bundle stage tracker + orange order progress card",
+   "dots": 5,
+   "phone": false
+  },
+  {
+   "n": 318,
+   "date": "2026-11-22",
+   "format": "SINGLE",
+   "market": "India",
+   "category": "MockTestCentre",
+   "palette": "answer-sheet white/pencil yellow/graphite",
+   "fonts": "TeX Gyre Adventor + Roboto",
+   "layout": "top-down exam hall desk seat map + seat booked card + next tests + OMR bubble strip",
+   "dots": 1,
+   "phone": false
+  },
+  {
+   "n": 319,
+   "date": "2026-11-22",
+   "format": "SINGLE",
+   "market": "USA",
+   "category": "FurnitureAssembly",
+   "palette": "kraft brown/allen-key silver/teal",
+   "fonts": "Montserrat + Open Sans",
+   "layout": "stacked CSS kraft flat-pack boxes + browser booking page with summed time estimate",
+   "dots": 2,
+   "phone": false
+  },
+  {
+   "n": 320,
+   "date": "2026-11-22",
+   "format": "CAROUSEL",
+   "market": "India",
+   "category": "LocalBroadband",
+   "palette": "fibre cyan/router black/signal green",
+   "fonts": "Gelasio + Roboto",
+   "layout": "building cross-section flats around fibre riser with status dots + call notes, ticket list, tech route timeline, renewals list, building + tiles CTA",
+   "dots": 4,
+   "phone": false
   }
  ],
  "recent_fonts": [
-  "Archivo Black + Fira Sans",
-  "Montserrat + Source Sans 3",
-  "Gelasio + Inter",
-  "Bitter + Poppins",
-  "Crimson Text + Roboto",
   "Cardo + DM Sans",
   "Anton + Inter",
   "Lora + DM Sans",
@@ -3585,14 +3625,14 @@
   "Lora + Inter",
   "Crimson Text + DM Sans",
   "Archivo Black + Open Sans",
-  "Montserrat + Fira Sans"
+  "Montserrat + Fira Sans",
+  "Cardo + Poppins",
+  "Anton + Roboto",
+  "TeX Gyre Adventor + Roboto",
+  "Montserrat + Open Sans",
+  "Gelasio + Roboto"
  ],
  "recent_layouts": [
-  "returnable crate ledger: CSS slotted crates per grower (faded = back, dashed = out) + legend + reminder message",
-  "phone booking form + CSS van with shelf bins counted from bookings + today list",
-  "CSS plug tray hero, crop rows with mini trays, stage timeline with tray per stage, order card + tray return, trays + tiles CTA",
-  "key ring job card with SVG keys (coloured caps, cut blades) per line + big copies count + home visit card",
-  "top-down yard with irrigation zones and spray-arc heads + booking form + same-street route card",
   "dark job tray of CSS analog watch faces whose hands point to ready time, status rings + message + legend",
   "drying mats of speckled papad discs + voice note hook, shop x product order sheet, packets-to-dough rule cards, packet icon dispatch rows, discs + tiles CTA",
   "top-down cedar hot tub with seats and jets + visit log table + phone visit report",
@@ -3612,14 +3652,14 @@
   "6 stall cards with CSS pav trays (pale buns = returned) + dark bake total + message card",
   "SVG fanned paper stack + email list, client document checklist with progress, weekly booking bar grid, 4-column return board, checklist + papers CTA",
   "SVG skate profile with steel blade + yellow drop-off tag, hollow cross-section options, rack list + text card",
-  "driver duty ribbon board by hour + phone driver booking"
+  "driver duty ribbon board by hour + phone driver booking",
+  "SVG gold trophies on podium, event order table, gold engraving plate proofs with status, steps + cup + message, trophies + tiles CTA",
+  "dark hourly production board lines x hours vs target + bundle stage tracker + orange order progress card",
+  "top-down exam hall desk seat map + seat booked card + next tests + OMR bubble strip",
+  "stacked CSS kraft flat-pack boxes + browser booking page with summed time estimate",
+  "building cross-section flats around fibre riser with status dots + call notes, ticket list, tech route timeline, renewals list, building + tiles CTA"
  ],
  "used_hashtag_sets": [
-  "#screenguard #mobileaccessories #temperedglass #mobileshopindia",
-  "#pianotuner #pianotuning #pianotechnician #smallbusinessowner",
-  "#granite #marble #stonecutting #marbledealer #constructionindia",
-  "#motorrewinding #electricmotor #motorrepair #workshopindia",
-  "#deckbuilder #deckdesign #dockbuilder #canadacontractor",
   "#falseceiling #gypsumceiling #ceilingdesign #interiorcontractor",
   "#paneer #dairybusiness #dairyproducts #foodbusinessindia",
   "#locksmith #mobilelocksmith #lockout #localbusinessusa",
@@ -3674,7 +3714,12 @@
   "#pav #bakerysupply #streetfoodindia #breadsupplier",
   "#taxpreparer #taxseason #taxprofessional #smallbusinessusa",
   "#skatesharpening #hockeycanada #hockeyskates #localbusinesscanada",
-  "#driveroncall #hiredriver #chauffeurservice #localserviceindia"
+  "#driveroncall #hiredriver #chauffeurservice #localserviceindia",
+  "#trophyshop #trophiesandmedals #corporateawards #engraving",
+  "#garmentmanufacturing #stitchingunit #apparelindustry #textileindia",
+  "#mocktest #exampreparation #coachingcentre #competitiveexams",
+  "#furnitureassembly #handymanservices #flatpackfurniture #smallbusinessusa",
+  "#broadband #fibreinternet #internetserviceprovider #localbusinessindia"
  ],
  "drive_index_at_post": 290,
  "old_index_sheets_to_trash": [
