@@ -255,3 +255,35 @@ US | Appliance installer | install slots, haul-away list
 CA | Gutter cleaning | seasonal routes, before/after photos
 US | Junk-free estate sale company | item catalogue, sale day map
 US | Bike shop (repairs) | repair tickets, ready texts
+IN | Street food cart owner (chaat / pani puri, many carts) | morning stock out per cart, evening return, cart-wise sales notes
+IN | Office stationery supplier | monthly supply lists per office, delivery day, bills
+IN | Scented candle maker | batch, wick size, pour and cure dates, orders by scent
+IN | Mobile phone screen guard kiosk | stock by model, fitting queue
+IN | Bulk paper cup and plate supplier | shop orders by size, reorder days
+IN | Home salon at doorstep (women) | stylist route, kit checklist, booking slots
+IN | Wedding car decorator | car bookings by date, flower list per car
+IN | Interior painting with texture designs | texture catalogue, wall measurement quote
+IN | Modular wardrobe installer | site measure, panel list, install day
+IN | CCTV AMC for shops | visit log per camera, faults
+IN | Water tank cleaning service | society tank list, last cleaned, booking
+IN | Mosquito net and window mesh fitter | window sizes, fitting slots
+IN | Packaged drinking water dealer (20 L jars, offices) | jar count per office, empties returned
+IN | Ready-mix dosa / idli batter maker | daily packets per shop, returns
+IN | Pet food home delivery | monthly refill reminders per pet profile
+IN | Tuition-free adult computer classes for seniors | batch slots, practice sheets
+IN | Bike servicing at doorstep | service slot, parts used, next service date
+IN | Event photo booth rental | bookings, props list, print counts
+IN | Sofa and curtain fabric store | swatch catalogue, measurement orders
+IN | Local courier for documents (same day) | pickup slots, proof photos
+US | Appliance installer | install slots, haul-away list
+US | Estate sale company | item catalogue, sale day map, holds
+US | Bike shop (repairs) | repair tickets, ready texts
+US | Window tint shop | film options by car, booking slots
+US | Mobile tire service | on-site tire swap booking, tire size form
+US | Closet installer | measurement form, design approval
+US | Christmas-free holiday lights installer (seasonal lights) | install and takedown routes (no religion)
+CA | Chimney inspection-free stove installer (wood stove) | site survey, install day, permits checklist
+US | Moving labor only (load/unload) | hourly crew booking, item list
+US | Garage floor coating | measurement quote, colour chips
+US | Fence installer | linear feet quote form, gate options
+US | Lawn aeration (seasonal) | route by neighbourhood, booking window
