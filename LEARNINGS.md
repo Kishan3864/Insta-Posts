@@ -235,3 +235,7 @@
 - (b058) Story times must agree across slides: the delivery slip photo time (11:52) did not match the truck round on the board (8-9:30 AM), and "delivered" counts must equal rounds finished by "now". Derive slip times and delivered counts from the round list.
 - (b058) Small SVG heroes in tall cards (stockpiles) leave empty skies; give the drawing a taller viewBox (H=400) and scale heights x1.8 so the objects fill ~80% of the card.
 - (b058) A stamp laid over a mockup flags OVERLAP; put the stamp in its own row (beside the colour bar) instead. New techniques: gravel-textured stockpiles, chest freezer tub lids, print sheet imposition with crop/registration marks, frozen lake hut map, album spread with pins + thumbnail status grid.
+- (b059) A small label stacked over a big number inside a flex row (tomorrow's bake) flags OVERLAP; make both block, label margin-bottom 8px, number line-height 1.3.
+- (b059) Kanban boards: when columns have 1-3 cards the dashed "open" placeholders become huge; give each column 2-5 cards so placeholders take at most a third of the height.
+- (b059) Email/list rows beside a drawing: use 22/18px text and 16px padding so the list carries as much weight as the drawing; 19/16px looked like a footnote in the feed.
+- (b059) New techniques: pond map with paddle aerators, SVG multi-line growth chart with end labels, CSS pav trays with returned buns, fanned paper stack, skate blade hollow cross-sections, driver duty ribbons. Next: isometric shelf, receipt-style weekly bill, diagonal before/after split.
