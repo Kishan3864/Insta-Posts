@@ -3,7 +3,7 @@
  "drive_index_sheet_id": "1F6_13BvlGOZBZoPtG0OjbJFOh0QVELSZvuHhZt5HxbA",
  "lock_until_utc": "2026-11-22T14:15:24Z",
  "last_run": "2026-11-22T12:51:28Z \u00b7 posts 101-125 made, Drive 1-125 done, index sheet refreshed at 115 (refresh due ~140)",
- "next_post_no": 126,
+ "next_post_no": 131,
  "posts_done": [
   {
    "n": 1,
@@ -1004,11 +1004,51 @@
    "slides": 1,
    "market": "India",
    "category": "StudentPlanner"
+  },
+  {
+   "n": 126,
+   "dir": "posts/0126_CAROUSEL_India_ACService",
+   "format": "CAROUSEL",
+   "slides": 5,
+   "market": "India",
+   "category": "ACService"
+  },
+  {
+   "n": 127,
+   "dir": "posts/0127_SINGLE_Canada_Wholesaler",
+   "format": "SINGLE",
+   "slides": 1,
+   "market": "Canada",
+   "category": "Wholesaler"
+  },
+  {
+   "n": 128,
+   "dir": "posts/0128_SINGLE_India_UpholsteryShop",
+   "format": "SINGLE",
+   "slides": 1,
+   "market": "India",
+   "category": "UpholsteryShop"
+  },
+  {
+   "n": 129,
+   "dir": "posts/0129_SINGLE_USA_UsedCarDealer",
+   "format": "SINGLE",
+   "slides": 1,
+   "market": "USA",
+   "category": "UsedCarDealer"
+  },
+  {
+   "n": 130,
+   "dir": "posts/0130_CAROUSEL_India_NamkeenMaker",
+   "format": "CAROUSEL",
+   "slides": 6,
+   "market": "India",
+   "category": "NamkeenMaker"
   }
  ],
  "market_counts": {
-  "India": 88,
-  "Abroad": 37
+  "India": 91,
+  "Abroad": 39
  },
  "used_categories": [
   "Boutique",
@@ -1142,14 +1182,14 @@
   "Videographer",
   "TruckingCompany",
   "ReadymadeGarments",
-  "StudentPlanner"
+  "StudentPlanner",
+  "ACService",
+  "Wholesaler",
+  "UpholsteryShop",
+  "UsedCarDealer",
+  "NamkeenMaker"
  ],
  "recent_palettes": [
-  "eggshell/barn red/straw yellow/charcoal",
-  "deep teal/rust orange/unbleached cotton",
-  "mustard/forest green/manila tag",
-  "workshop blue/signal yellow/concrete grey",
-  "walnut brown/pistachio green/almond cream",
   "paprika red/cardamom green/cream paper",
   "dusty rose/olive/ivory",
   "jade/tangerine/asphalt",
@@ -1169,7 +1209,12 @@
   "editing-suite black/neon purple/clip colours",
   "highway blue/chrome/amber",
   "denim/coral/khaki",
-  "notebook mint/graphite/pencil yellow"
+  "notebook mint/graphite/pencil yellow",
+  "ice blue/navy/signal orange",
+  "carton kraft/cherry red/slate",
+  "velvet teal/mustard/oatmeal",
+  "charcoal/candy red/silver",
+  "sev yellow/chilli red/kraft"
  ],
  "drive_files_done": [
   1,
@@ -1299,66 +1344,6 @@
   125
  ],
  "log": [
-  {
-   "n": 96,
-   "date": "2026-11-22",
-   "format": "SINGLE",
-   "market": "India",
-   "category": "ROWaterPurifier",
-   "palette": "aqua mist/ink blue/coral",
-   "fonts": "Poppins + Inter",
-   "layout": "SVG cutaway RO unit with filter cartridges + filter-life bar list + reminder text",
-   "dots": 2,
-   "phone": false
-  },
-  {
-   "n": 97,
-   "date": "2026-11-22",
-   "format": "CAROUSEL",
-   "market": "USA",
-   "category": "TowingCompany",
-   "palette": "night black/amber light/steel blue",
-   "fonts": "Anton + Roboto",
-   "layout": "SVG flatbed tow truck, browser call form, horizontal lane dispatch board, phone live-tracking text, amber CTA card",
-   "dots": 4,
-   "phone": true
-  },
-  {
-   "n": 98,
-   "date": "2026-11-22",
-   "format": "SINGLE",
-   "market": "India",
-   "category": "LatheWorkshop",
-   "palette": "hammertone green/brass yellow/drawing paper",
-   "fonts": "Bitter + Fira Sans",
-   "layout": "SVG engineering drawing of stepped shaft on grid paper + job card + machine load board",
-   "dots": 1,
-   "phone": false
-  },
-  {
-   "n": 99,
-   "date": "2026-11-22",
-   "format": "CAROUSEL",
-   "market": "India",
-   "category": "PowerloomUnit",
-   "palette": "cotton white/madder red/charcoal/indigo",
-   "fonts": "Lora + Roboto",
-   "layout": "SVG warp beam roll, 24-loom status grid, paired day/night bars, beam progress cards, thread-stripe CTA",
-   "dots": 3,
-   "phone": false
-  },
-  {
-   "n": 100,
-   "date": "2026-11-22",
-   "format": "SINGLE",
-   "market": "Canada",
-   "category": "FarmersMarket",
-   "palette": "kraft beige/beet purple/leaf green",
-   "fonts": "Cardo + Source Sans 3",
-   "layout": "SVG striped market awning with chalkboard sign + crates, browser pre-order page with reserved bars",
-   "dots": 5,
-   "phone": false
-  },
   {
    "n": 101,
    "date": "2026-11-22",
@@ -1658,14 +1643,69 @@
    "layout": "ruled-notebook background, exam countdown card, chapter-square syllabus rows, phone day plan",
    "dots": 5,
    "phone": true
+  },
+  {
+   "n": 126,
+   "date": "2026-11-22",
+   "format": "CAROUSEL",
+   "market": "India",
+   "category": "ACService",
+   "palette": "ice blue/navy/signal orange",
+   "fonts": "Archivo Black + Roboto",
+   "layout": "SVG split AC unit with hanging AMC tag + month bar strip, browser AMC table with visit dots, portrait street-grid route map + stop list, phone service report, numbered tiles CTA",
+   "dots": 2,
+   "phone": true
+  },
+  {
+   "n": 127,
+   "date": "2026-11-22",
+   "format": "SINGLE",
+   "market": "Canada",
+   "category": "Wholesaler",
+   "palette": "carton kraft/cherry red/slate",
+   "fonts": "Bitter + Source Sans 3",
+   "layout": "clipboard with carbon-copy order pad (yellow over pink, pen notes) beside browser reorder portal with qty steppers + 3 dark cards",
+   "dots": 4,
+   "phone": false
+  },
+  {
+   "n": 128,
+   "date": "2026-11-22",
+   "format": "SINGLE",
+   "market": "India",
+   "category": "UpholsteryShop",
+   "palette": "velvet teal/mustard/oatmeal",
+   "fonts": "Gelasio + Montserrat",
+   "layout": "SVG pattern-filled sofa preview + fabric swatch catalogue grid (SVG patterns) + 5-step job strip",
+   "dots": 1,
+   "phone": false
+  },
+  {
+   "n": 129,
+   "date": "2026-11-22",
+   "format": "SINGLE",
+   "market": "USA",
+   "category": "UsedCarDealer",
+   "palette": "charcoal/candy red/silver",
+   "fonts": "Poppins + DM Sans",
+   "layout": "browser inventory 2x3 with parametric SVG car side profiles + status pills + test drive bar",
+   "dots": 3,
+   "phone": false
+  },
+  {
+   "n": 130,
+   "date": "2026-11-22",
+   "format": "CAROUSEL",
+   "market": "India",
+   "category": "NamkeenMaker",
+   "palette": "sev yellow/chilli red/kraft",
+   "fonts": "Lora + Fira Sans",
+   "layout": "SVG pillow-pouch snack packets on shelf + stat cards, order matrix with total/packed/to-make rows, day-list week plan, batch card + film stock, dispatch checklist",
+   "dots": 2,
+   "phone": false
   }
  ],
  "recent_fonts": [
-  "Montserrat + Source Sans 3",
-  "Bitter + Open Sans",
-  "TeX Gyre Adventor + DM Sans",
-  "Archivo Black + Inter",
-  "Cardo + Poppins",
   "Anton + DM Sans",
   "Gelasio + DM Sans",
   "Poppins + Roboto",
@@ -1685,14 +1725,14 @@
   "Poppins + Lora",
   "Anton + Fira Sans",
   "Cardo + Fira Sans",
-  "TeX Gyre Adventor + Open Sans"
+  "TeX Gyre Adventor + Open Sans",
+  "Archivo Black + Roboto",
+  "Bitter + Source Sans 3",
+  "Gelasio + Montserrat",
+  "Poppins + DM Sans",
+  "Lora + Fira Sans"
  ],
  "recent_layouts": [
-  "top-down SVG egg tray + side tray stack counter + route table with empties-back column",
-  "SVG fabric roll stack, CSS fabric swatch catalogue grid, broker order list, dispatch slip with step rail, credit-days aging rows",
-  "SVG hang tags on a rail with barcodes + browser 3x2 item grid with on/off-site pills",
-  "top-down SVG car inspection diagram with numbered pins, browser job card with fuel gauge + photo tiles, phone approval list, number-plate reminder list",
-  "top-down SVG 4-section gift box with scattered drawn nuts + 4-step box builder card",
   "SVG spice heaps on plates with batch tags + trace-flow diagram (batch \u2192 cartons \u2192 distributors) with SVG curve layer",
   "couple portal with conic countdown ring, month-band checklist, 3x3 vendor status grid, run sheet on a time rail",
   "SVG city map with river, dashed route and pins + floating booking card + SVG vehicle size picker",
@@ -1712,14 +1752,14 @@
   "video editor UI: SVG preview monitor, timecode ruler, 4 tracks of clips, playhead + project status cards",
   "front-view SVG semi truck on road + renewal countdown list with urgency bars + office text",
   "style x size stock heatmap, browser bill + stock-after cards, reorder table, catalogue with SVG garment silhouettes + size chips",
-  "ruled-notebook background, exam countdown card, chapter-square syllabus rows, phone day plan"
+  "ruled-notebook background, exam countdown card, chapter-square syllabus rows, phone day plan",
+  "SVG split AC unit with hanging AMC tag + month bar strip, browser AMC table with visit dots, portrait street-grid route map + stop list, phone service report, numbered tiles CTA",
+  "clipboard with carbon-copy order pad (yellow over pink, pen notes) beside browser reorder portal with qty steppers + 3 dark cards",
+  "SVG pattern-filled sofa preview + fabric swatch catalogue grid (SVG patterns) + 5-step job strip",
+  "browser inventory 2x3 with parametric SVG car side profiles + status pills + test drive bar",
+  "SVG pillow-pouch snack packets on shelf + stat cards, order matrix with total/packed/to-make rows, day-list week plan, batch card + film stock, dispatch checklist"
  ],
  "used_hashtag_sets": [
-  "#flexprinting #signageindia #printingpress #bannerprinting",
-  "#fishshop #meatshop #freshfish #chickenshop",
-  "#kurtiwholesale #kurtimanufacturer #resellersindia #dressmaterial #suratwholesale",
-  "#tattoostudio #tattooshop #tattooartist #tattoobooking",
-  "#propertymanagement #propertymanager #landlordlife #rentalproperty #canadarealestate",
   "#interiordesignerindia #interiorstudio #homeinteriors #2bhkinterior",
   "#modularkitchen #modularkitchenindia #kitchendesign #kitchenmanufacturer",
   "#gentstailor #tailorshop #customtailoring #tailoringbusiness",
@@ -1774,7 +1814,12 @@
   "#videographer #reelmaker #videoeditor #videoproductionindia",
   "#truckingcompany #truckingbusiness #fleetmanagement #owneroperator",
   "#readymadegarments #clothingstore #garmentshop #fashionretailindia",
-  "#studyplanner #collegestudents #exampreparation #studentlifeindia"
+  "#studyplanner #collegestudents #exampreparation #studentlifeindia",
+  "#acservice #acrepair #amcservice #hvacindia",
+  "#wholesalebusiness #distributor #b2bordering #canadasmallbusiness",
+  "#upholstery #sofarepair #sofafabric #upholsteryindia",
+  "#usedcardealer #usedcars #cardealership #autodealer",
+  "#namkeen #snackmanufacturer #foodmanufacturing #namkeenbusiness #msmeindia"
  ],
  "drive_index_at_post": 115
 }

@@ -89,3 +89,7 @@
 - (b021) Placeholder icons (tag icon on a colour block) as product images look unfinished. Draw simple SVG silhouettes (polo, kurta, hoodie, chinos) on white tiles instead.
 - (b021) App UIs drawn as UIs (video editor tracks + playhead, timecode ruler) are a fresh look for creative niches; keep monitor timecode and playhead position consistent (00:18 of 00:30 = 60%).
 - (b021) Never put a swatch the same colour as its panel (teal on teal vanished); check every colour chip against its background in the contact sheet.
+- (b022) SVG <pattern> fills (velvet dots, linen grid, check, jute, floral) make fabric/material swatches and let one drawing (sofa) show any material; give every pattern id a per-SVG prefix so repeated SVGs do not clash.
+- (b022) preserveAspectRatio "slice" on a landscape map inside a tall panel cut off edge pins (ESCAPES). Draw maps in the panel's own aspect (500x760 for a portrait panel) and keep pins 80px+ inside the viewBox.
+- (b022) Text inside SVG tags (hanging AMC tag) does not wrap or get checked: size the tag rect to the longest label + 30px and verify in a crop. Phone header labels must be short (VISIT 2 OF 3 · SAMPLE); put the name in the title line.
+- (b022) Key-value tiles in a 2x2 grid still look empty at 22px; Lora 30px values + 17px labels and fewer tiles work better. Next: try a split-flap / departure-board style list and an isometric parcel stack.
