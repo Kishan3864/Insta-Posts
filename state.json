@@ -3,7 +3,7 @@
  "drive_index_sheet_id": "17DMiIlgQarmABZGJbxLXvzbk7KOnOPqW6-Ffiq0jHcc",
  "lock_until_utc": "2026-11-22T16:20:43Z",
  "last_run": "2026-11-22T14:42:49Z \u00b7 posts 146-160 made, Drive 1-160 done, index sheet last at 140 (refresh due ~165)",
- "next_post_no": 166,
+ "next_post_no": 171,
  "posts_done": [
   {
    "n": 1,
@@ -1324,11 +1324,51 @@
    "slides": 1,
    "market": "India",
    "category": "TshirtPrinting"
+  },
+  {
+   "n": 166,
+   "dir": "posts/0166_CAROUSEL_India_ScooterRental",
+   "format": "CAROUSEL",
+   "slides": 5,
+   "market": "India",
+   "category": "ScooterRental"
+  },
+  {
+   "n": 167,
+   "dir": "posts/0167_SINGLE_USA_WindowCleaning",
+   "format": "SINGLE",
+   "slides": 1,
+   "market": "USA",
+   "category": "WindowCleaning"
+  },
+  {
+   "n": 168,
+   "dir": "posts/0168_SINGLE_India_ElectricalShop",
+   "format": "SINGLE",
+   "slides": 1,
+   "market": "India",
+   "category": "ElectricalShop"
+  },
+  {
+   "n": 169,
+   "dir": "posts/0169_CAROUSEL_USA_HomeOrganizer",
+   "format": "CAROUSEL",
+   "slides": 5,
+   "market": "USA",
+   "category": "HomeOrganizer"
+  },
+  {
+   "n": 170,
+   "dir": "posts/0170_SINGLE_India_MobileAccessoriesWholesale",
+   "format": "SINGLE",
+   "slides": 1,
+   "market": "India",
+   "category": "MobileAccessoriesWholesale"
   }
  ],
  "market_counts": {
-  "India": 116,
-  "Abroad": 49
+  "India": 119,
+  "Abroad": 51
  },
  "used_categories": [
   "Boutique",
@@ -1502,14 +1542,14 @@
   "GarageDoorRepair",
   "GasStoveRepair",
   "CarpetCleaning",
-  "TshirtPrinting"
+  "TshirtPrinting",
+  "ScooterRental",
+  "WindowCleaning",
+  "ElectricalShop",
+  "HomeOrganizer",
+  "MobileAccessoriesWholesale"
  ],
  "recent_palettes": [
-  "gunmetal/tomato/fog",
-  "concrete grey/terracotta/sky",
-  "buttercream/raspberry/cocoa",
-  "aqua/sunny yellow/charcoal",
-  "golden oil/deep green/cream",
   "sunset orange/deep teal/sand",
   "midnight violet/mint/white",
   "pool blue/lane red/white tile",
@@ -1529,7 +1569,12 @@
   "graphite/lime/white",
   "flame blue/copper/cream",
   "soft mint/charcoal/tangerine",
-  "raspberry/off-white/ink"
+  "raspberry/off-white/ink",
+  "deep teal/sunset orange/sand",
+  "cornflower/lemon/white",
+  "electric yellow/charcoal/paper",
+  "blush/olive/cream",
+  "deep purple/mint/white"
  ],
  "drive_files_done": [
   1,
@@ -1699,66 +1744,6 @@
   165
  ],
  "log": [
-  {
-   "n": 136,
-   "date": "2026-11-22",
-   "format": "CAROUSEL",
-   "market": "USA",
-   "category": "EventVenue",
-   "palette": "champagne/ink navy/blush",
-   "fonts": "Lora + Open Sans",
-   "layout": "Saturday matrix (every 2027 Saturday as status dot), browser spaces by date with SVG thumbs, tour slot day list, run sheet timeline + stat cards, dot panel CTA",
-   "dots": 4,
-   "phone": false
-  },
-  {
-   "n": 137,
-   "date": "2026-11-22",
-   "format": "SINGLE",
-   "market": "India",
-   "category": "CCTVInstaller",
-   "palette": "graphite/lime/ice",
-   "fonts": "Poppins + Inter",
-   "layout": "SVG floor plan with camera field-of-view wedges + quote card without prices",
-   "dots": 1,
-   "phone": false
-  },
-  {
-   "n": 138,
-   "date": "2026-11-22",
-   "format": "CAROUSEL",
-   "market": "India",
-   "category": "SecurityAgency",
-   "palette": "olive/brass/off-white",
-   "fonts": "TeX Gyre Adventor + Source Sans 3",
-   "layout": "site tile matrix with post dots, roster table, phone check-in + alert cards, QR checkpoint rail with missed scan, icon tiles + report bar",
-   "dots": 5,
-   "phone": true
-  },
-  {
-   "n": 139,
-   "date": "2026-11-22",
-   "format": "SINGLE",
-   "market": "Canada",
-   "category": "PilatesStudio",
-   "palette": "eucalyptus/clay pink/bone",
-   "fonts": "Crimson Text + Poppins",
-   "layout": "class time chips + top-down studio seat map of reformers + class pack bar",
-   "dots": 3,
-   "phone": false
-  },
-  {
-   "n": 140,
-   "date": "2026-11-22",
-   "format": "SINGLE",
-   "market": "India",
-   "category": "FreelancerPortfolio",
-   "palette": "ink black/lemon/lilac",
-   "fonts": "Bitter + Poppins",
-   "layout": "browser bento-grid portfolio with CSS project art + invoice status strip",
-   "dots": 2,
-   "phone": false
-  },
   {
    "n": 141,
    "date": "2026-11-22",
@@ -2058,14 +2043,69 @@
    "layout": "SVG tee with dashed print area card + colour x size quantity matrix with totals + proof v1/v2 strip",
    "dots": 4,
    "phone": false
+  },
+  {
+   "n": 166,
+   "date": "2026-11-22",
+   "format": "CAROUSEL",
+   "market": "India",
+   "category": "ScooterRental",
+   "palette": "deep teal/sunset orange/sand",
+   "fonts": "Montserrat + Inter",
+   "layout": "top-view scooter fleet board with status chips + stat row, paper pickup slip checklist, receipt-roll return list with side cards, scooter top view with numbered damage marks, 4 scooters + tiles CTA",
+   "dots": 3,
+   "phone": false
+  },
+  {
+   "n": 167,
+   "date": "2026-11-22",
+   "format": "SINGLE",
+   "market": "USA",
+   "category": "WindowCleaning",
+   "palette": "cornflower/lemon/white",
+   "fonts": "Bitter + Roboto",
+   "layout": "big window whose 6 panes are route days (clean = done, streaked = to do, dashed make-up day) + recurring cycle cards",
+   "dots": 1,
+   "phone": false
+  },
+  {
+   "n": 168,
+   "date": "2026-11-22",
+   "format": "SINGLE",
+   "market": "India",
+   "category": "ElectricalShop",
+   "palette": "electric yellow/charcoal/paper",
+   "fonts": "Anton + Open Sans",
+   "layout": "receipt roll of counter slips tagged by contractor + dark contractor account cards",
+   "dots": 5,
+   "phone": false
+  },
+  {
+   "n": 169,
+   "date": "2026-11-22",
+   "format": "CAROUSEL",
+   "market": "USA",
+   "category": "HomeOrganizer",
+   "palette": "blush/olive/cream",
+   "fonts": "Crimson Text + Poppins",
+   "layout": "SVG closet plan with labelled bins + stat column, browser booking form with chips, vertical session stepper, shopping list with size swatches, closet + tiles CTA",
+   "dots": 2,
+   "phone": false
+  },
+  {
+   "n": 170,
+   "date": "2026-11-22",
+   "format": "SINGLE",
+   "market": "India",
+   "category": "MobileAccessoriesWholesale",
+   "palette": "deep purple/mint/white",
+   "fonts": "Fira Sans + Roboto",
+   "layout": "tablet dealer catalogue with SVG product drawings + stock dot tags + order bar",
+   "dots": 4,
+   "phone": false
   }
  ],
  "recent_fonts": [
-  "Anton + Roboto",
-  "Cardo + Montserrat",
-  "Crimson Text + Inter",
-  "Montserrat + Lora",
-  "Gelasio + Source Sans 3",
   "Archivo Black + DM Sans",
   "Montserrat + Inter",
   "Anton + Open Sans",
@@ -2085,14 +2125,14 @@
   "Poppins + Fira Sans",
   "Lora + Open Sans",
   "Cardo + DM Sans",
-  "TeX Gyre Adventor + Inter"
+  "TeX Gyre Adventor + Inter",
+  "Montserrat + Inter",
+  "Bitter + Roboto",
+  "Anton + Open Sans",
+  "Crimson Text + Poppins",
+  "Fira Sans + Roboto"
  ],
  "recent_layouts": [
-  "parts bin wall with label cards + search result with godown/rack/bin rows",
-  "building facade availability grid (floor x flat), browser flat page with SVG plan, stage tiles tracker, monthly SVG build thumbnails + progress bar",
-  "SVG tiered drip cake preview panel + option-chip order form",
-  "pet passport cards with SVG faces + visit stamps, phone groomer day plan",
-  "SVG storage tanks with liquid levels + dark dealer order list with shortage alert",
   "top-down SVG tempo traveller seat map + stat cards, browser trip page with SVG mountain banner + day cards, payment status table, phone pickup list, seat strip + boarding pass ticket CTA",
   "anatomy landing page in browser with numbered pins + numbered legend column",
   "top-down pool with lane-rope rows as batches + member dots, phone pool pass with QR",
@@ -2112,14 +2152,14 @@
   "SVG sectional garage door with bent panel + alert card, browser problem-tile picker form, tall SVG street map with numbered pins + job list, job card with parts and before/after door drawings, text thread + side cards, door + tiles CTA",
   "top-down copper toolbox with part compartments (low stock highlighted) + phone visit list with in box/not in box chips",
   "top-down SVG floor plan with tapped rooms in a carpet stripe pattern + stairs strip + dark quote request card",
-  "SVG tee with dashed print area card + colour x size quantity matrix with totals + proof v1/v2 strip"
+  "SVG tee with dashed print area card + colour x size quantity matrix with totals + proof v1/v2 strip",
+  "top-view scooter fleet board with status chips + stat row, paper pickup slip checklist, receipt-roll return list with side cards, scooter top view with numbered damage marks, 4 scooters + tiles CTA",
+  "big window whose 6 panes are route days (clean = done, streaked = to do, dashed make-up day) + recurring cycle cards",
+  "receipt roll of counter slips tagged by contractor + dark contractor account cards",
+  "SVG closet plan with labelled bins + stat column, browser booking form with chips, vertical session stepper, shopping list with size swatches, closet + tiles CTA",
+  "tablet dealer catalogue with SVG product drawings + stock dot tags + order bar"
  ],
  "used_hashtag_sets": [
-  "#masalamanufacturer #spicesbusiness #foodmanufacturingindia #batchtracking",
-  "#weddingplanner #weddingplanning #eventplannerlife #weddingplannerbusiness",
-  "#tempobooking #minitruck #goodstransport #logisticsindia",
-  "#housekeepingservices #facilitymanagement #staffingagency #manpowerservices",
-  "#hairsalon #salonowner #salonbooking #canadasalon",
   "#dhaba #highwayrestaurant #restaurantownerindia #kitchenmanagement",
   "#grocerywholesale #fmcgdistributor #kiranastore #wholesalebusiness",
   "#realestatephotography #realestatephotographer #listingphotos #photographybusiness",
@@ -2174,7 +2214,12 @@
   "#garagedoorrepair #garagedoorservice #homeservicebusiness #fieldservice #contractorlife",
   "#gasstoverepair #gasstoveservice #kitchenappliancerepair #homeservicesindia",
   "#carpetcleaning #carpetcleaningbusiness #cleaningbusinessowner #smallbusinessusa",
-  "#tshirtprinting #customtshirts #merchprinting #screenprinting #printingbusiness"
+  "#tshirtprinting #customtshirts #merchprinting #screenprinting #printingbusiness",
+  "#scooterrental #bikerental #bikeonrent #tourismbusiness",
+  "#windowcleaning #windowcleaningbusiness #routeplanning #homeservicepros",
+  "#electricalshop #electricalgoods #electricalcontractor #shopkeeperlife",
+  "#homeorganizer #professionalorganizer #closetorganization #organizingbusiness #smallbusinessowner",
+  "#mobileaccessories #mobileaccessorieswholesale #wholesalebusiness #b2bindia"
  ],
  "drive_index_at_post": 165
 }
