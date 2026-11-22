@@ -61,3 +61,7 @@
 - (b014) Seven narrow day columns make event text tiny (14-17px). For week calendars with few events, use a vertical day list (day label + wide event bar, 22px+ text) instead.
 - (b014) Timeline pins near the right edge escape their panel: right-align late pins (transform translateX(-100%)) and give each pin its own stem height so neighbouring cards never touch.
 - (b014) Count logic again: "6 of 9 documents" broke when one item was "not needed". Count only required items and repeat the same number on every slide. New techniques: thermal receipt roll with zigzag clip-path, velvet tray with SVG jewellery, manila folder tabs, CSS bouquet.
+- (b015) Inline SVG for illustrated objects (plants, polish bottles, courts, thali, gem, parcel packet) is fast and passes check_gfx cleanly; prefer it over CSS shapes for any organic object.
+- (b015) A rotated (45deg) badge inside an inline-flex kicker causes VOVERFLOW: the rotated box is taller than the row. Make diamond badges with clip-path polygon instead of rotate.
+- (b015) aspect-ratio:1 on a flex:1 child does not hold (stamps became ovals). Give round items fixed width+height and flex:none, spread them with justify-content:space-between.
+- (b015) Check weekday words against today's real date ("tomorrow · Wednesday" on a Sunday) and keep totals consistent across slides (headcount 470 reused as "expected" on the scan slide; bill lunch total = sum of the chart). CTA slides: varied away from peep + 4 cards (cut-corner checklist card, numbered 01-04 tiles with big faint numerals).

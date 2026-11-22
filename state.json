@@ -1,9 +1,9 @@
 {
  "drive_folder_id": "1OZvW8MCiA-_SSNn5_9g3o8k5sMyHUcxE",
  "drive_index_sheet_id": "1Xm_GVSy0LOP0qTZRGbc7oetVItCiiI7Cbn4Bn9kFbfE",
- "lock_until_utc": "2026-11-22T12:13:54Z",
+ "lock_until_utc": "2026-11-22T12:20:55Z",
  "last_run": "2026-11-22T10:46:55Z \u00b7 posts 71-90 made, Drive 1-90 done, index sheet refreshed at 90 (also fixed index.csv missing 41-45)",
- "next_post_no": 91,
+ "next_post_no": 96,
  "posts_done": [
   {
    "n": 1,
@@ -724,11 +724,51 @@
    "slides": 5,
    "market": "USA",
    "category": "Bookkeeper"
+  },
+  {
+   "n": 91,
+   "dir": "posts/0091_SINGLE_India_PlantNursery",
+   "format": "SINGLE",
+   "slides": 1,
+   "market": "India",
+   "category": "PlantNursery"
+  },
+  {
+   "n": 92,
+   "dir": "posts/0092_CAROUSEL_India_DiamondUnit",
+   "format": "CAROUSEL",
+   "slides": 6,
+   "market": "India",
+   "category": "DiamondUnit"
+  },
+  {
+   "n": 93,
+   "dir": "posts/0093_SINGLE_USA_NailSalon",
+   "format": "SINGLE",
+   "slides": 1,
+   "market": "USA",
+   "category": "NailSalon"
+  },
+  {
+   "n": 94,
+   "dir": "posts/0094_SINGLE_India_BadmintonCourt",
+   "format": "SINGLE",
+   "slides": 1,
+   "market": "India",
+   "category": "BadmintonCourt"
+  },
+  {
+   "n": 95,
+   "dir": "posts/0095_CAROUSEL_India_CanteenContractor",
+   "format": "CAROUSEL",
+   "slides": 5,
+   "market": "India",
+   "category": "CanteenContractor"
   }
  ],
  "market_counts": {
-  "India": 63,
-  "Abroad": 27
+  "India": 67,
+  "Abroad": 28
  },
  "used_categories": [
   "Boutique",
@@ -827,14 +867,14 @@
   "Florist",
   "InsuranceAgency",
   "ImitationJewellery",
-  "Bookkeeper"
+  "Bookkeeper",
+  "PlantNursery",
+  "DiamondUnit",
+  "NailSalon",
+  "BadmintonCourt",
+  "CanteenContractor"
  ],
  "recent_palettes": [
-  "process cyan/magenta/ink black",
-  "deep sea blue/ice white/salmon",
-  "indigo/madder red/unbleached",
-  "charcoal/bone/teal ink",
-  "slate/brick red/snow",
   "charcoal green/oat/brass",
   "blueprint navy/graph white/marker yellow",
   "charcoal/tape mustard/chalk white",
@@ -854,7 +894,12 @@
   "marigold/deep leaf green/off-white",
   "deep navy/sky/sunflower",
   "velvet teal/rose gold/blush",
-  "ledger green/ivory/amber"
+  "ledger green/ivory/amber",
+  "olive moss/clay pink/linen",
+  "midnight indigo/ice blue/silver",
+  "lilac/cherry red/porcelain",
+  "emerald court/white lines/neon lime",
+  "turmeric/charcoal brown/steel/rice white"
  ],
  "drive_files_done": [
   1,
@@ -949,66 +994,6 @@
   90
  ],
  "log": [
-  {
-   "n": 61,
-   "date": "2026-11-22",
-   "format": "SINGLE",
-   "market": "India",
-   "category": "TyreShop",
-   "palette": "rubber black/signal red/cool grey",
-   "fonts": "Inter Display + Source Sans 3",
-   "layout": "side-view tyre stack + size search card",
-   "dots": 2,
-   "phone": false
-  },
-  {
-   "n": 62,
-   "date": "2026-11-22",
-   "format": "CAROUSEL",
-   "market": "India",
-   "category": "HomeBaker",
-   "palette": "strawberry pink/chocolate/vanilla",
-   "fonts": "Cardo + DM Sans",
-   "layout": "top-view cake + field/chat/why checklist cards",
-   "dots": 4,
-   "phone": false
-  },
-  {
-   "n": 63,
-   "date": "2026-11-22",
-   "format": "SINGLE",
-   "market": "India",
-   "category": "LawyerOffice",
-   "palette": "legal navy/parchment/oxblood",
-   "fonts": "Crimson Text + Roboto",
-   "layout": "tear-off desk calendar + week list",
-   "dots": 1,
-   "phone": false
-  },
-  {
-   "n": 64,
-   "date": "2026-11-22",
-   "format": "SINGLE",
-   "market": "India",
-   "category": "TractorRental",
-   "palette": "field green/mustard/soil brown",
-   "fonts": "Fira Sans + Gelasio",
-   "layout": "Gantt week booking chart",
-   "dots": 3,
-   "phone": false
-  },
-  {
-   "n": 65,
-   "date": "2026-11-22",
-   "format": "CAROUSEL",
-   "market": "USA",
-   "category": "MovingCompany",
-   "palette": "kraft brown/tape blue/white",
-   "fonts": "Bitter + Open Sans",
-   "layout": "stacked cardboard boxes + room counters, step carousel",
-   "dots": 5,
-   "phone": false
-  },
   {
    "n": 66,
    "date": "2026-11-22",
@@ -1308,14 +1293,69 @@
    "layout": "stacked manila folders with tabs, document checklist, browser upload, client board",
    "dots": 5,
    "phone": false
+  },
+  {
+   "n": 91,
+   "date": "2026-11-22",
+   "format": "SINGLE",
+   "market": "India",
+   "category": "PlantNursery",
+   "palette": "olive moss/clay pink/linen",
+   "fonts": "Gelasio + Open Sans",
+   "layout": "SVG potted plants on wooden plank with hanging care tags + delivery list + filter chips",
+   "dots": 3,
+   "phone": false
+  },
+  {
+   "n": 92,
+   "date": "2026-11-22",
+   "format": "CAROUSEL",
+   "market": "India",
+   "category": "DiamondUnit",
+   "palette": "midnight indigo/ice blue/silver",
+   "fonts": "TeX Gyre Adventor + Inter",
+   "layout": "SVG parcel packet + faceted gem, QR lot card, stage pipeline with lot chips, worker bars, weight table",
+   "dots": 1,
+   "phone": false
+  },
+  {
+   "n": 93,
+   "date": "2026-11-22",
+   "format": "SINGLE",
+   "market": "USA",
+   "category": "NailSalon",
+   "palette": "lilac/cherry red/porcelain",
+   "fonts": "Crimson Text + Inter",
+   "layout": "SVG polish bottle rack shade picker + reminder text + stamp card + phone booking",
+   "dots": 4,
+   "phone": true
+  },
+  {
+   "n": 94,
+   "date": "2026-11-22",
+   "format": "SINGLE",
+   "market": "India",
+   "category": "BadmintonCourt",
+   "palette": "emerald court/white lines/neon lime",
+   "fonts": "Archivo Black + DM Sans",
+   "layout": "top-down SVG court diagrams with live status + browser slot grid",
+   "dots": 2,
+   "phone": false
+  },
+  {
+   "n": 95,
+   "date": "2026-11-22",
+   "format": "CAROUSEL",
+   "market": "India",
+   "category": "CanteenContractor",
+   "palette": "turmeric/charcoal brown/steel/rice white",
+   "fonts": "Montserrat + Fira Sans",
+   "layout": "top-down SVG steel thali + tear-off coupons, headcount bars, tablet scan counter, bill doc with sparkline, numbered tile CTA",
+   "dots": 5,
+   "phone": false
   }
  ],
  "recent_fonts": [
-  "Montserrat + Fira Sans",
-  "Lora + Poppins",
-  "Gelasio + Montserrat",
-  "Cardo + Fira Sans",
-  "Archivo Black + Inter",
   "Gelasio + DM Sans",
   "Montserrat + Roboto",
   "Bitter + Inter",
@@ -1335,14 +1375,14 @@
   "Crimson Text + Poppins",
   "Bitter + Source Sans 3",
   "Cardo + Montserrat",
-  "Lora + DM Sans"
+  "Lora + DM Sans",
+  "Gelasio + Open Sans",
+  "TeX Gyre Adventor + Inter",
+  "Crimson Text + Inter",
+  "Archivo Black + DM Sans",
+  "Montserrat + Fira Sans"
  ],
  "recent_layouts": [
-  "annotated print proof with crop marks + numbered pins",
-  "without vs with timelines side by side + cut list",
-  "clip-path kurti silhouettes with block-print motifs, 4-part",
-  "consult form + CSS line-art portfolio grid",
-  "CSS building cross-section with flagged units, kanban, portal",
   "CSS material swatch board + approval comment thread",
   "blueprint floor plan with dimension lines, mini layout plans, quotation doc",
   "measuring tape band + phone profile + delivery list",
@@ -1362,14 +1402,14 @@
   "CSS bouquet in paper cone, delivery-slot columns, week list, buying list",
   "30-day ruler with staggered policy pins + reminder cards",
   "velvet display tray with SVG jewellery + reseller order list",
-  "stacked manila folders with tabs, document checklist, browser upload, client board"
+  "stacked manila folders with tabs, document checklist, browser upload, client board",
+  "SVG potted plants on wooden plank with hanging care tags + delivery list + filter chips",
+  "SVG parcel packet + faceted gem, QR lot card, stage pipeline with lot chips, worker bars, weight table",
+  "SVG polish bottle rack shade picker + reminder text + stamp card + phone booking",
+  "top-down SVG court diagrams with live status + browser slot grid",
+  "top-down SVG steel thali + tear-off coupons, headcount bars, tablet scan counter, bill doc with sparkline, numbered tile CTA"
  ],
  "used_hashtag_sets": [
-  "#pgowner #hostelmanagement #pgaccommodation #rentalbusiness",
-  "#hvacbusiness #hvaccontractor #hvaclife #heatingandcooling #hvacowner",
-  "#tilesshowroom #tilesdesign #sanitaryware #buildingmaterials #interiorindia",
-  "#cateringservices #caterersofindia #cateringbusiness #eventcatering",
-  "#poolservice #poolcleaning #poolbusiness #poolguy #smallbusinessusa",
   "#banquethall #weddingvenue #eventvenue #banquetbooking",
   "#mehendiartist #mehndidesign #bridalmehendi #mehendibusiness #hennaartist",
   "#barbershop #barberindia #salonbusiness #mensalon #queuemanagement",
@@ -1424,7 +1464,12 @@
   "#florist #flowershop #flowerdelivery #floristindia #bouquet",
   "#insuranceagency #insuranceagent #independentagent #policyrenewal",
   "#imitationjewellery #artificialjewellery #jewelleryreseller #fashionjewelleryindia",
-  "#bookkeeper #accountant #taxseason #cpafirm #smallbusinessaccounting"
+  "#bookkeeper #accountant #taxseason #cpafirm #smallbusinessaccounting",
+  "#plantnursery #plantshop #indoorplants #plantsofindia",
+  "#diamondunit #diamondpolishing #suratdiamond #diamondmanufacturing",
+  "#nailsalon #nailtech #salonowner #nailbusiness",
+  "#badmintoncourt #boxcricket #courtbooking #sportsfacility #badmintonindia",
+  "#canteencontractor #factorycanteen #industrialcanteen #cateringservices"
  ],
  "drive_index_at_post": 90
 }
