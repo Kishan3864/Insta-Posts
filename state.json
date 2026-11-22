@@ -1,7 +1,7 @@
 {
  "drive_folder_id": "1OZvW8MCiA-_SSNn5_9g3o8k5sMyHUcxE",
  "drive_index_sheet_id": "1Xm_GVSy0LOP0qTZRGbc7oetVItCiiI7Cbn4Bn9kFbfE",
- "lock_until_utc": null,
+ "lock_until_utc": "2026-11-22T12:13:54Z",
  "last_run": "2026-11-22T10:46:55Z \u00b7 posts 71-90 made, Drive 1-90 done, index sheet refreshed at 90 (also fixed index.csv missing 41-45)",
  "next_post_no": 91,
  "posts_done": [
