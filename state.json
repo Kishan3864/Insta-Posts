@@ -3,7 +3,7 @@
  "drive_index_sheet_id": "1coQdBJQWZqxgH_ihlDiBaigqYbBn9EE7YXo7UsrX1lk",
  "lock_until_utc": "2026-11-22T20:15:10Z",
  "last_run": "2026-11-22T18:37:35Z \u00b7 posts 201-210 made (batches 37-38), Drive 1-210 done, index sheet due at ~215",
- "next_post_no": 211,
+ "next_post_no": 216,
  "posts_done": [
   {
    "n": 1,
@@ -1684,11 +1684,51 @@
    "slides": 1,
    "market": "USA",
    "category": "TreeService"
+  },
+  {
+   "n": 211,
+   "dir": "posts/0211_SINGLE_India_TenderCoconutSupplier",
+   "format": "SINGLE",
+   "slides": 1,
+   "market": "India",
+   "category": "TenderCoconutSupplier"
+  },
+  {
+   "n": 212,
+   "dir": "posts/0212_CAROUSEL_India_PhotoFrameShop",
+   "format": "CAROUSEL",
+   "slides": 5,
+   "market": "India",
+   "category": "PhotoFrameShop"
+  },
+  {
+   "n": 213,
+   "dir": "posts/0213_SINGLE_USA_MobileNotary",
+   "format": "SINGLE",
+   "slides": 1,
+   "market": "USA",
+   "category": "MobileNotary"
+  },
+  {
+   "n": 214,
+   "dir": "posts/0214_SINGLE_India_RubberStampMaker",
+   "format": "SINGLE",
+   "slides": 1,
+   "market": "India",
+   "category": "RubberStampMaker"
+  },
+  {
+   "n": 215,
+   "dir": "posts/0215_SINGLE_India_TempoTravellerRental",
+   "format": "SINGLE",
+   "slides": 1,
+   "market": "India",
+   "category": "TempoTravellerRental"
   }
  ],
  "market_counts": {
-  "India": 147,
-  "Abroad": 63
+  "India": 151,
+  "Abroad": 64
  },
  "used_categories": [
   "Boutique",
@@ -1907,14 +1947,14 @@
   "CorporateUniformMaker",
   "HotelLinenLaundry",
   "LaptopRepair",
-  "TreeService"
+  "TreeService",
+  "TenderCoconutSupplier",
+  "PhotoFrameShop",
+  "MobileNotary",
+  "RubberStampMaker",
+  "TempoTravellerRental"
  ],
  "recent_palettes": [
-  "lavender/deep navy/coral",
-  "oatmeal/glaze teal/clay brown",
-  "cement grey/emerald/charcoal",
-  "midnight/electric violet/lemon",
-  "brass/black/off-white",
   "earth brown/water blue/off-white",
   "strawberry pink/pistachio/plum",
   "off-white/cobalt/amber",
@@ -1934,7 +1974,12 @@
   "steel blue/khaki/charcoal",
   "powder blue/white/plum",
   "graphite/mint/coral",
-  "moss green/sky/bark brown"
+  "moss green/sky/bark brown",
+  "coconut green/husk tan/cream",
+  "walnut brown/gallery white/gold leaf",
+  "navy ink/parchment/seal red",
+  "stamp violet/kraft/black",
+  "asphalt/lane yellow/sky"
  ],
  "drive_files_done": [
   1,
@@ -2149,66 +2194,6 @@
   210
  ],
  "log": [
-  {
-   "n": 181,
-   "date": "2026-11-22",
-   "format": "SINGLE",
-   "market": "India",
-   "category": "WaterCanSupplier",
-   "palette": "pale sky/marine navy/sunflower",
-   "fonts": "Archivo Black + Fira Sans",
-   "layout": "3 stat cards with jar icons + per-customer can strip ledger of drawn 20 L jars (out/back/late) + remind chips",
-   "dots": 3,
-   "phone": false
-  },
-  {
-   "n": 182,
-   "date": "2026-11-22",
-   "format": "CAROUSEL",
-   "market": "India",
-   "category": "PrintCopyShop",
-   "palette": "paper white/process cyan/magenta",
-   "fonts": "TeX Gyre Adventor + Fira Sans",
-   "layout": "chat file bubbles with dashed magenta question stickers, browser print-job toggles form, counter TV token columns (printing/next/ready), dark ready message + 4 stat tiles with colour edges, SVG printer feeding a page + numbered tiles CTA",
-   "dots": 5,
-   "phone": false
-  },
-  {
-   "n": 183,
-   "date": "2026-11-22",
-   "format": "SINGLE",
-   "market": "USA",
-   "category": "BridalBoutique",
-   "palette": "dove grey/champagne/plum",
-   "fonts": "Lora + Poppins",
-   "layout": "5 arched fitting suites with curtains as time slots (closed booked/open mirror/dashed hold) + plum try-on form + pick card with mini arch",
-   "dots": 2,
-   "phone": false
-  },
-  {
-   "n": 184,
-   "date": "2026-11-22",
-   "format": "SINGLE",
-   "market": "India",
-   "category": "ScrapDealer",
-   "palette": "rust orange/gunmetal/bone",
-   "fonts": "Bitter + Open Sans",
-   "layout": "item tap chips + SVG platform scale with green digital readout + zigzag-top weight slip + dark pickups strip of 4",
-   "dots": 1,
-   "phone": false
-  },
-  {
-   "n": 185,
-   "date": "2026-11-22",
-   "format": "SINGLE",
-   "market": "India",
-   "category": "WeddingCardPrinter",
-   "palette": "ivory/vermilion/bottle green",
-   "fonts": "Crimson Text + DM Sans",
-   "layout": "proof timeline strip v1-v2-v3 card proofs with red-pen rings + margin notes, approved stamp, proof history list + green order card",
-   "dots": 4,
-   "phone": false
-  },
   {
    "n": 186,
    "date": "2026-11-22",
@@ -2508,14 +2493,69 @@
    "layout": "tall customer photo scene (tree, house, stump) with numbered dashed cut marks + estimate job list + approved and crew cards",
    "dots": 4,
    "phone": false
+  },
+  {
+   "n": 211,
+   "date": "2026-11-22",
+   "format": "SINGLE",
+   "market": "India",
+   "category": "TenderCoconutSupplier",
+   "palette": "coconut green/husk tan/cream",
+   "fonts": "Anton + Source Sans 3",
+   "layout": "isotype pictogram chart: drawn coconut = 10 per stall row with OTP chips + 3 dark stat cards",
+   "dots": 2,
+   "phone": false
+  },
+  {
+   "n": 212,
+   "date": "2026-11-22",
+   "format": "CAROUSEL",
+   "market": "India",
+   "category": "PhotoFrameShop",
+   "palette": "walnut brown/gallery white/gold leaf",
+   "fonts": "Cardo + Inter",
+   "layout": "proportional frame wall with question tags, tablet order form with wood moulding swatches, frame preview with dimension arrows, bench job list + ready text, tile CTA",
+   "dots": 5,
+   "phone": false
+  },
+  {
+   "n": 213,
+   "date": "2026-11-22",
+   "format": "SINGLE",
+   "market": "USA",
+   "category": "MobileNotary",
+   "palette": "navy ink/parchment/seal red",
+   "fonts": "Crimson Text + DM Sans",
+   "layout": "booking phone + travel-area zone rings map with visit pins + day visit list",
+   "dots": 1,
+   "phone": true
+  },
+  {
+   "n": 214,
+   "date": "2026-11-22",
+   "format": "SINGLE",
+   "market": "India",
+   "category": "RubberStampMaker",
+   "palette": "stamp violet/kraft/black",
+   "fonts": "Bitter + DM Sans",
+   "layout": "two round stamp proofs (SVG textPath + ink turbulence) change vs approved + 4-step time strip",
+   "dots": 3,
+   "phone": false
+  },
+  {
+   "n": 215,
+   "date": "2026-11-22",
+   "format": "SINGLE",
+   "market": "India",
+   "category": "TempoTravellerRental",
+   "palette": "asphalt/lane yellow/sky",
+   "fonts": "Archivo Black + Roboto",
+   "layout": "horizontal road ribbon timeline with day pins + odometer digit readouts + dark trip log totals + 3 side cards",
+   "dots": 4,
+   "phone": false
   }
  ],
  "recent_fonts": [
-  "Montserrat + DM Sans",
-  "Gelasio + Open Sans",
-  "Anton + Roboto",
-  "Poppins + Inter",
-  "Cardo + Roboto",
   "Archivo Black + Open Sans",
   "Lora + DM Sans",
   "Montserrat + Open Sans",
@@ -2535,14 +2575,14 @@
   "Poppins + Roboto",
   "Montserrat + Inter",
   "Archivo Black + Inter",
-  "TeX Gyre Adventor + Source Sans 3"
+  "TeX Gyre Adventor + Source Sans 3",
+  "Anton + Source Sans 3",
+  "Cardo + Inter",
+  "Crimson Text + DM Sans",
+  "Bitter + DM Sans",
+  "Archivo Black + Roboto"
  ],
  "recent_layouts": [
-  "top-down SVG bed frame with red dimension arrows + navy order card with proportional layer stack + confirm bar",
-  "SVG drying shelf with hanging question tags, browser class list with seat dots, piece tracker with 4-stage pips, kiln load arches + text bubble, coloured pot shelf + tiles CTA",
-  "SVG pallet stacks of cement bags as godown stock + dark site delivery rows with status chips + totals",
-  "glowing dance-floor tile attendance grid, week bar timetable, fee list + phone reminder chat, numbered sign-up tiles coloured by group, 4 colour block CTA",
-  "SVG key ring with 4 keys each carrying a job tag (type, area, time) + dark request form bar",
   "SVG ground cross-section with depth ruler + drill line and water tag, dark borewell report card, rig week list",
   "diagonal clip-path before/after split: call note with question chips vs dark order form with drawn ice cream cups, centre badge",
   "staggered notification card stack with appliance icons, browser booking with appliance picker, parts board tied to jobs, vertical tech day timeline, appliance icon row + tiles CTA",
@@ -2562,14 +2602,14 @@
   "shirt SVG with size tag + quote note cards, browser size form + progress bar, stacked size bars per department + size total tiles, carton progress cards + dashed pack label, shirt + 4 row tiles CTA",
   "out vs back table with folded linen stacks sized by count + diff chips, 3 total tiles, navy note",
   "SMS card, CSS laptop with status stepper page + rotated paper repair tag, 4 job chips row",
-  "tall customer photo scene (tree, house, stump) with numbered dashed cut marks + estimate job list + approved and crew cards"
+  "tall customer photo scene (tree, house, stump) with numbered dashed cut marks + estimate job list + approved and crew cards",
+  "isotype pictogram chart: drawn coconut = 10 per stall row with OTP chips + 3 dark stat cards",
+  "proportional frame wall with question tags, tablet order form with wood moulding swatches, frame preview with dimension arrows, bench job list + ready text, tile CTA",
+  "booking phone + travel-area zone rings map with visit pins + day visit list",
+  "two round stamp proofs (SVG textPath + ink turbulence) change vs approved + 4-step time strip",
+  "horizontal road ribbon timeline with day pins + odometer digit readouts + dark trip log totals + 3 side cards"
  ],
  "used_hashtag_sets": [
-  "#ngoindia #volunteerindia #nonprofitindia #socialimpactindia",
-  "#usedbikes #secondhandbikes #bikedealer #preownedbikes",
-  "#caraccessories #carmodification #seatcovers #carcareindia",
-  "#smallbusinessindia #teammanagement #taskmanagement #shopowners",
-  "#petboarding #dogboarding #petcarebusiness #doghotel",
   "#watertanker #watersupply #tankerservice #smallbusinessowner",
   "#bridalwearrental #lehengaonrent #rentaloutfits #bridalboutique",
   "#skirental #snowboardrental #skishop #skiseason",
@@ -2624,7 +2664,12 @@
   "#uniformmanufacturer #corporateuniforms #uniformmaker #garmentbusinessindia",
   "#commerciallaundry #hotellinen #laundrybusiness #hospitalityindia",
   "#laptoprepair #computerrepairshop #laptopservice #repairshopindia",
-  "#treeservice #treetrimming #arborist #smallbusinessusa"
+  "#treeservice #treetrimming #arborist #smallbusinessusa",
+  "#tendercoconut #coconutsupplier #coconutwater #wholesalebusinessindia",
+  "#photoframes #customframing #framingshop #homedecorindia #smallbusinessindia",
+  "#mobilenotary #notarypublic #notaryservices #smallbusinessowner",
+  "#rubberstamp #selfinkingstamp #stampmaker #printingbusinessindia",
+  "#tempotraveller #tempotravellerrental #travelbusinessindia #fleetowners"
  ],
  "drive_index_at_post": 190
 }
