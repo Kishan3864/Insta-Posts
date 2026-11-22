@@ -3,7 +3,7 @@
  "drive_index_sheet_id": "1LhrDKUuLzLHPuDB4fOhGo-Fs3w2AlNXXC4ZDTY75eus",
  "lock_until_utc": "2026-11-22T11:26:23Z",
  "last_run": "2026-11-22T09:39:09Z \u00b7 posts 56-70 made, Drive 1-70 done, index sheet refreshed at 65",
- "next_post_no": 81,
+ "next_post_no": 86,
  "posts_done": [
   {
    "n": 1,
@@ -644,11 +644,51 @@
    "slides": 5,
    "market": "USA",
    "category": "CommercialCleaning"
+  },
+  {
+   "n": 81,
+   "dir": "posts/0081_SINGLE_India_SteelRailing",
+   "format": "SINGLE",
+   "slides": 1,
+   "market": "India",
+   "category": "SteelRailing"
+  },
+  {
+   "n": 82,
+   "dir": "posts/0082_CAROUSEL_India_CorporateGifting",
+   "format": "CAROUSEL",
+   "slides": 5,
+   "market": "India",
+   "category": "CorporateGifting"
+  },
+  {
+   "n": 83,
+   "dir": "posts/0083_SINGLE_India_PhotoStudio",
+   "format": "SINGLE",
+   "slides": 1,
+   "market": "India",
+   "category": "PhotoStudio"
+  },
+  {
+   "n": 84,
+   "dir": "posts/0084_SINGLE_USA_Realtor",
+   "format": "SINGLE",
+   "slides": 1,
+   "market": "USA",
+   "category": "Realtor"
+  },
+  {
+   "n": 85,
+   "dir": "posts/0085_CAROUSEL_India_CourierFranchise",
+   "format": "CAROUSEL",
+   "slides": 5,
+   "market": "India",
+   "category": "CourierFranchise"
   }
  ],
  "market_counts": {
-  "India": 56,
-  "Abroad": 24
+  "India": 60,
+  "Abroad": 25
  },
  "used_categories": [
   "Boutique",
@@ -737,14 +777,14 @@
   "FootwearShop",
   "Handyman",
   "EmbroideryUnit",
-  "CommercialCleaning"
+  "CommercialCleaning",
+  "SteelRailing",
+  "CorporateGifting",
+  "PhotoStudio",
+  "Realtor",
+  "CourierFranchise"
  ],
  "recent_palettes": [
-  "powder blue/lavender/ink navy",
-  "tortoise brown/cream/teal",
-  "forest green/safety orange/off-white",
-  "cork brown/marker red/paper white",
-  "taro purple/milk tea beige/tapioca black",
   "rubber black/signal red/cool grey",
   "strawberry pink/chocolate/vanilla",
   "legal navy/parchment/oxblood",
@@ -764,7 +804,12 @@
   "cobalt/tomato/sneaker white",
   "pegboard tan/deep green/tomato",
   "deep maroon/zari gold/ivory",
-  "navy charcoal/mint/lemon"
+  "navy charcoal/mint/lemon",
+  "brushed steel/ink/electric teal",
+  "forest navy/coral/blush cream",
+  "darkroom black/signal red/paper white",
+  "sage/charcoal/terracotta",
+  "royal purple/kraft/lime"
  ],
  "drive_files_done": [
   1,
@@ -849,66 +894,6 @@
   80
  ],
  "log": [
-  {
-   "n": 51,
-   "date": "2026-11-22",
-   "format": "SINGLE",
-   "market": "India",
-   "category": "CoWorking",
-   "palette": "concrete grey/electric lime/black",
-   "fonts": "Fira Sans + Inter",
-   "layout": "isometric desk floor + booking card",
-   "dots": 2,
-   "phone": false
-  },
-  {
-   "n": 52,
-   "date": "2026-11-22",
-   "format": "CAROUSEL",
-   "market": "India",
-   "category": "ComputerInstitute",
-   "palette": "royal blue/tangerine/white",
-   "fonts": "Bitter + Poppins",
-   "layout": "process journey with progress rail, staircase steps",
-   "dots": 4,
-   "phone": false
-  },
-  {
-   "n": 53,
-   "date": "2026-11-22",
-   "format": "SINGLE",
-   "market": "India",
-   "category": "TravelAgent",
-   "palette": "deep ocean/postcard cream/sun yellow",
-   "fonts": "Crimson Text + Montserrat",
-   "layout": "chat column vs folded paper itinerary",
-   "dots": 1,
-   "phone": false
-  },
-  {
-   "n": 54,
-   "date": "2026-11-22",
-   "format": "SINGLE",
-   "market": "USA",
-   "category": "PressureWashing",
-   "palette": "aqua/concrete/navy",
-   "fonts": "Archivo Black + Open Sans",
-   "layout": "laptop quote form + top-down yard map",
-   "dots": 3,
-   "phone": false
-  },
-  {
-   "n": 55,
-   "date": "2026-11-22",
-   "format": "SINGLE",
-   "market": "India",
-   "category": "TestSeries",
-   "palette": "OMR pink/ink navy/white",
-   "fonts": "Crimson Text + Inter",
-   "layout": "OMR bubble sheet vs result card",
-   "dots": 5,
-   "phone": false
-  },
   {
    "n": 56,
    "date": "2026-11-22",
@@ -1208,14 +1193,69 @@
    "layout": "office floor plan zone fills, checklist cards, crew week board, browser report",
    "dots": 5,
    "phone": false
+  },
+  {
+   "n": 81,
+   "date": "2026-11-22",
+   "format": "SINGLE",
+   "market": "India",
+   "category": "SteelRailing",
+   "palette": "brushed steel/ink/electric teal",
+   "fonts": "Lora + Fira Sans",
+   "layout": "inline SVG stair railing elevation with dimensions + status stepper",
+   "dots": 2,
+   "phone": false
+  },
+  {
+   "n": 82,
+   "date": "2026-11-22",
+   "format": "CAROUSEL",
+   "market": "India",
+   "category": "CorporateGifting",
+   "palette": "forest navy/coral/blush cream",
+   "fonts": "Gelasio + Poppins",
+   "layout": "CSS gift box stack with bows, gift set cards, bulk form, delivery bars",
+   "dots": 4,
+   "phone": false
+  },
+  {
+   "n": 83,
+   "date": "2026-11-22",
+   "format": "SINGLE",
+   "market": "India",
+   "category": "PhotoStudio",
+   "palette": "darkroom black/signal red/paper white",
+   "fonts": "Archivo Black + Roboto",
+   "layout": "film strip with sprocket holes + order card + phone message",
+   "dots": 1,
+   "phone": true
+  },
+  {
+   "n": 84,
+   "date": "2026-11-22",
+   "format": "SINGLE",
+   "market": "USA",
+   "category": "Realtor",
+   "palette": "sage/charcoal/terracotta",
+   "fonts": "Lora + Open Sans",
+   "layout": "CSS house facade + tablet sign-in form",
+   "dots": 3,
+   "phone": false
+  },
+  {
+   "n": 85,
+   "date": "2026-11-22",
+   "format": "CAROUSEL",
+   "market": "India",
+   "category": "CourierFranchise",
+   "palette": "royal purple/kraft/lime",
+   "fonts": "Montserrat + DM Sans",
+   "layout": "parcel with printed shipping label + barcode, tracking steppers, day-end list",
+   "dots": 5,
+   "phone": false
   }
  ],
  "recent_fonts": [
-  "Lora + Montserrat",
-  "TeX Gyre Adventor + Inter",
-  "Anton + Roboto",
-  "Gelasio + Inter",
-  "Archivo Black + DM Sans",
   "Inter Display + Source Sans 3",
   "Cardo + DM Sans",
   "Crimson Text + Roboto",
@@ -1235,14 +1275,14 @@
   "Poppins + Fira Sans",
   "Crimson Text + DM Sans",
   "Cardo + Inter",
-  "Fira Sans + Roboto"
+  "Fira Sans + Roboto",
+  "Lora + Fira Sans",
+  "Gelasio + Poppins",
+  "Archivo Black + Roboto",
+  "Lora + Open Sans",
+  "Montserrat + DM Sans"
  ],
  "recent_layouts": [
-  "clothes rail with SVG hangers + status tags",
-  "CSS spectacles hero + frame-shape catalogue, numbered things",
-  "side-view truck load-level selector + photo form",
-  "cork notice board with pinned notes vs app card",
-  "CSS drink cup hero + tablet drink builder, step carousel",
   "side-view tyre stack + size search card",
   "top-view cake + field/chat/why checklist cards",
   "tear-off desk calendar + week list",
@@ -1262,14 +1302,14 @@
   "CSS shoe-box shelf wall with sold-out slots + size bars",
   "pegboard with CSS tools + phone job list",
   "CSS embroidery hoop + thread spools + job cards with piece bars",
-  "office floor plan zone fills, checklist cards, crew week board, browser report"
+  "office floor plan zone fills, checklist cards, crew week board, browser report",
+  "inline SVG stair railing elevation with dimensions + status stepper",
+  "CSS gift box stack with bows, gift set cards, bulk form, delivery bars",
+  "film strip with sprocket holes + order card + phone message",
+  "CSS house facade + tablet sign-in form",
+  "parcel with printed shipping label + barcode, tracking steppers, day-end list"
  ],
  "used_hashtag_sets": [
-  "#kiranastore #udhaar #kiranashop #retailindia #shopowners",
-  "#dairybusiness #milkdelivery #doodhwala #dairyfarmindia",
-  "#tiffinservice #homemadefood #dabbaservice #cloudkitchenindia #mealsubscription",
-  "#plumbingbusiness #plumbersofinstagram #plumbingcompany #homeservicesbusiness #contractorlife",
-  "#sweetshop #mithaishop #indiansweets #bulkorders",
   "#bikeservicecenter #twowheelerservice #bikemechanic #autoworkshopindia",
   "#beautyparlour #salonowner #beautysalonindia #parlourbusiness #salonbooking",
   "#snowremoval #snowplowing #snowremovalbusiness #canadianbusiness",
@@ -1324,7 +1364,12 @@
   "#footwearshop #shoeshop #footwearbusiness #shoestoreindia",
   "#handyman #handymanservices #handymanbusiness #homerepair",
   "#embroideryunit #zariwork #embroiderywork #jobworkindia",
-  "#commercialcleaning #janitorialservices #officecleaning #cleaningbusiness"
+  "#commercialcleaning #janitorialservices #officecleaning #cleaningbusiness",
+  "#steelrailing #ssrailing #fabricationwork #railingdesign",
+  "#corporategifting #corporategiftsindia #giftshop #stationeryshop #bulkgifting",
+  "#photostudio #passportphoto #photostudioindia #studiobusiness",
+  "#realtor #openhouse #realestateagent #realtorlife",
+  "#courierfranchise #courierservice #courierbusiness #parcelbooking"
  ],
  "drive_index_at_post": 65
 }
