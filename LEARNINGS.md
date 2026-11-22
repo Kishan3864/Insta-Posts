@@ -17,3 +17,7 @@
 - (b003) When fg (page text colour) is white but the header sits on a light area, set .wm/h1/.sub colours explicitly, and set the mockup's inner color, or text vanishes (tiles post).
 - (b003) List columns in tall cards: make rows flex:1 with align-items:center so items spread evenly instead of leaving an empty bottom.
 - (b003) New ideas that worked: floor-plan grid (PG), myth-vs-fact with strikethrough, ticket-stub cards via CSS mask, marker whiteboard with red numbered rings. Next: try an isometric/3D-ish card stack, a big receipt mock, and a before/after slider handle.
+- (b004) CTA slides with a peep keep coming out half empty at the top. Fix pattern: peep w~400 h~650 + option cards with 34-38px padding and 24-26px text; or add a scene object above (cloud/sun) in single-hero slides.
+- (b004) Pure-CSS "henna" rings looked like tree rings. Small repeated motifs (dot + ring + conic rays, 64px tile, masked by the skin colour) read as a pattern; prefer tiled motifs over one big radial.
+- (b004) 3D tilt (perspective + rotateX 24deg) on a data board passed check_text/check_gfx cleanly and added depth; pair it with a flat answer card overlapping the bottom edge.
+- (b004) Next to try: a real before/after slider handle, a stacked "paper pile vs one app" isometric, and a dark-mode dashboard single for a US niche.

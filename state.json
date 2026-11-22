@@ -1,9 +1,9 @@
 {
  "drive_folder_id": "1OZvW8MCiA-_SSNn5_9g3o8k5sMyHUcxE",
  "drive_index_sheet_id": null,
- "lock_until_utc": "2026-11-22T08:35:09Z",
+ "lock_until_utc": "2026-11-22T08:19:57Z",
  "last_run": null,
- "next_post_no": 36,
+ "next_post_no": 41,
  "posts_done": [
   {
    "n": 1,
@@ -284,11 +284,51 @@
    "slides": 1,
    "market": "USA",
    "category": "PoolService"
+  },
+  {
+   "n": 36,
+   "dir": "posts/0036_SINGLE_India_BanquetHall",
+   "format": "SINGLE",
+   "slides": 1,
+   "market": "India",
+   "category": "BanquetHall"
+  },
+  {
+   "n": 37,
+   "dir": "posts/0037_CAROUSEL_India_MehendiArtist",
+   "format": "CAROUSEL",
+   "slides": 5,
+   "market": "India",
+   "category": "MehendiArtist"
+  },
+  {
+   "n": 38,
+   "dir": "posts/0038_SINGLE_India_BarberShop",
+   "format": "SINGLE",
+   "slides": 1,
+   "market": "India",
+   "category": "BarberShop"
+  },
+  {
+   "n": 39,
+   "dir": "posts/0039_CAROUSEL_USA_Roofing",
+   "format": "CAROUSEL",
+   "slides": 6,
+   "market": "USA",
+   "category": "Roofing"
+  },
+  {
+   "n": 40,
+   "dir": "posts/0040_SINGLE_India_YogaStudio",
+   "format": "SINGLE",
+   "slides": 1,
+   "market": "India",
+   "category": "YogaStudio"
   }
  ],
  "market_counts": {
-  "India": 24,
-  "Abroad": 11
+  "India": 28,
+  "Abroad": 12
  },
  "used_categories": [
   "Boutique",
@@ -332,14 +372,14 @@
   "HVAC",
   "TilesShowroom",
   "Caterer",
-  "PoolService"
+  "PoolService",
+  "BanquetHall",
+  "MehendiArtist",
+  "BarberShop",
+  "Roofing",
+  "YogaStudio"
  ],
  "recent_palettes": [
-  "mint/peach",
-  "steel blue/orange",
-  "cardboard/forest",
-  "midnight/neon",
-  "teal/mustard retro",
   "lavender/coral",
   "aqua/white",
   "charcoal/red",
@@ -359,7 +399,12 @@
   "hot red/cool cyan/off-white",
   "terracotta/stone",
   "maroon/gold/cream",
-  "sand/coral/deep teal"
+  "sand/coral/deep teal",
+  "ivory/emerald/champagne",
+  "henna orange/olive/blush",
+  "cream/navy/barber red",
+  "charcoal/sky/shingle brown",
+  "sage/charcoal/peach"
  ],
  "drive_files_done": [
   1,
@@ -578,6 +623,66 @@
    "layout": "spot-the-problem whiteboard",
    "dots": 2,
    "phone": false
+  },
+  {
+   "n": 36,
+   "date": "2026-11-22",
+   "format": "SINGLE",
+   "market": "India",
+   "category": "BanquetHall",
+   "palette": "ivory/emerald/champagne",
+   "fonts": "Gelasio + Poppins",
+   "layout": "3D tilted availability board",
+   "dots": 4,
+   "phone": false
+  },
+  {
+   "n": 37,
+   "date": "2026-11-22",
+   "format": "CAROUSEL",
+   "market": "India",
+   "category": "MehendiArtist",
+   "palette": "henna orange/olive/blush",
+   "fonts": "Gelasio + Poppins",
+   "layout": "arch frames + CSS motif pattern",
+   "dots": 1,
+   "phone": false
+  },
+  {
+   "n": 38,
+   "date": "2026-11-22",
+   "format": "SINGLE",
+   "market": "India",
+   "category": "BarberShop",
+   "palette": "cream/navy/barber red",
+   "fonts": "TeX Gyre Heros Cn + Inter",
+   "layout": "wall TV queue display + phone",
+   "dots": 3,
+   "phone": true
+  },
+  {
+   "n": 39,
+   "date": "2026-11-22",
+   "format": "CAROUSEL",
+   "market": "USA",
+   "category": "Roofing",
+   "palette": "charcoal/sky/shingle brown",
+   "fonts": "Poppins + Source Sans 3",
+   "layout": "questions before you build, big Q numbers",
+   "dots": 5,
+   "phone": false
+  },
+  {
+   "n": 40,
+   "date": "2026-11-22",
+   "format": "SINGLE",
+   "market": "India",
+   "category": "YogaStudio",
+   "palette": "sage/charcoal/peach",
+   "fonts": "Crimson Text + DM Sans",
+   "layout": "zigzag receipt slip",
+   "dots": 2,
+   "phone": false
   }
  ],
  "recent_fonts": [
@@ -595,7 +700,12 @@
   "Archivo Black + Roboto",
   "Open Sans + Cardo",
   "Lora + Fira Sans",
-  "Comic Relief + DM Sans"
+  "Comic Relief + DM Sans",
+  "Gelasio + Poppins",
+  "Gelasio + Poppins",
+  "TeX Gyre Heros Cn + Inter",
+  "Poppins + Source Sans 3",
+  "Crimson Text + DM Sans"
  ],
  "recent_layouts": [
   "notebook vs ledger carousel",
@@ -612,7 +722,12 @@
   "myth vs fact, split hot/cold bg",
   "laptop mockup catalogue + CSS tile patterns",
   "ticket-stub cards, process story",
-  "spot-the-problem whiteboard"
+  "spot-the-problem whiteboard",
+  "3D tilted availability board",
+  "arch frames + CSS motif pattern",
+  "wall TV queue display + phone",
+  "questions before you build, big Q numbers",
+  "zigzag receipt slip"
  ],
  "used_hashtag_sets": [
   "#kiranastore #udhaar #kiranashop #retailindia #shopowners",
@@ -629,6 +744,11 @@
   "#hvacbusiness #hvaccontractor #hvaclife #heatingandcooling #hvacowner",
   "#tilesshowroom #tilesdesign #sanitaryware #buildingmaterials #interiorindia",
   "#cateringservices #caterersofindia #cateringbusiness #eventcatering",
-  "#poolservice #poolcleaning #poolbusiness #poolguy #smallbusinessusa"
+  "#poolservice #poolcleaning #poolbusiness #poolguy #smallbusinessusa",
+  "#banquethall #weddingvenue #eventvenue #banquetbooking",
+  "#mehendiartist #mehndidesign #bridalmehendi #mehendibusiness #hennaartist",
+  "#barbershop #barberindia #salonbusiness #mensalon #queuemanagement",
+  "#roofingcontractor #roofingbusiness #roofer #roofingcompany",
+  "#yogastudio #yogateacher #yogastudioowner #fitnessbusinessindia"
  ]
 }
