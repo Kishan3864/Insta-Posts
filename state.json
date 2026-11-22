@@ -1,7 +1,7 @@
 {
  "drive_folder_id": "1OZvW8MCiA-_SSNn5_9g3o8k5sMyHUcxE",
- "drive_index_sheet_id": "17DMiIlgQarmABZGJbxLXvzbk7KOnOPqW6-Ffiq0jHcc",
- "lock_until_utc": "2026-11-22T18:23:21Z",
+ "drive_index_sheet_id": "1coQdBJQWZqxgH_ihlDiBaigqYbBn9EE7YXo7UsrX1lk",
+ "lock_until_utc": "2026-11-22T18:29:37Z",
  "last_run": "2026-11-22T15:43:02Z \u00b7 posts 161-180 made, Drive 1-180 done, index sheet refreshed at 165 (new id stored; old sheet 1Mjh6gj6... could not be trashed, permission denied, delete by hand)",
  "next_post_no": 191,
  "posts_done": [
@@ -1941,7 +1941,12 @@
   182,
   183,
   184,
-  185
+  185,
+  186,
+  187,
+  188,
+  189,
+  190
  ],
  "log": [
   {
@@ -2421,5 +2426,5 @@
   "#danceclasses #dancestudio #adultdanceclass #danceacademyindia",
   "#locksmith #locksmithservice #lockoutservice #torontosmallbusiness"
  ],
- "drive_index_at_post": 165
+ "drive_index_at_post": 190
 }
