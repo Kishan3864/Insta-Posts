@@ -3,7 +3,7 @@
  "drive_index_sheet_id": "1F6_13BvlGOZBZoPtG0OjbJFOh0QVELSZvuHhZt5HxbA",
  "lock_until_utc": "2026-11-22T13:36:45Z",
  "last_run": "2026-11-22T11:36:45Z \u00b7 posts 91-100 made, Drive 1-100 done, index sheet last refreshed at 90 (refresh due ~115)",
- "next_post_no": 121,
+ "next_post_no": 126,
  "posts_done": [
   {
    "n": 1,
@@ -964,11 +964,51 @@
    "slides": 1,
    "market": "India",
    "category": "PaintDealer"
+  },
+  {
+   "n": 121,
+   "dir": "posts/0121_CAROUSEL_India_DyeingMill",
+   "format": "CAROUSEL",
+   "slides": 5,
+   "market": "India",
+   "category": "DyeingMill"
+  },
+  {
+   "n": 122,
+   "dir": "posts/0122_SINGLE_India_Videographer",
+   "format": "SINGLE",
+   "slides": 1,
+   "market": "India",
+   "category": "Videographer"
+  },
+  {
+   "n": 123,
+   "dir": "posts/0123_SINGLE_USA_TruckingCompany",
+   "format": "SINGLE",
+   "slides": 1,
+   "market": "USA",
+   "category": "TruckingCompany"
+  },
+  {
+   "n": 124,
+   "dir": "posts/0124_CAROUSEL_India_ReadymadeGarments",
+   "format": "CAROUSEL",
+   "slides": 5,
+   "market": "India",
+   "category": "ReadymadeGarments"
+  },
+  {
+   "n": 125,
+   "dir": "posts/0125_SINGLE_India_StudentPlanner",
+   "format": "SINGLE",
+   "slides": 1,
+   "market": "India",
+   "category": "StudentPlanner"
   }
  ],
  "market_counts": {
-  "India": 84,
-  "Abroad": 36
+  "India": 88,
+  "Abroad": 37
  },
  "used_categories": [
   "Boutique",
@@ -1097,14 +1137,14 @@
   "OrganicVegBox",
   "WarehouseRental",
   "MusicTeacher",
-  "PaintDealer"
+  "PaintDealer",
+  "DyeingMill",
+  "Videographer",
+  "TruckingCompany",
+  "ReadymadeGarments",
+  "StudentPlanner"
  ],
  "recent_palettes": [
-  "aqua mist/ink blue/coral",
-  "night black/amber light/steel blue",
-  "hammertone green/brass yellow/drawing paper",
-  "cotton white/madder red/charcoal/indigo",
-  "kraft beige/beet purple/leaf green",
   "eggshell/barn red/straw yellow/charcoal",
   "deep teal/rust orange/unbleached cotton",
   "mustard/forest green/manila tag",
@@ -1124,7 +1164,12 @@
   "soil brown/leaf lime/cream",
   "pallet pine/charcoal/teal",
   "ebony/ivory/brass",
-  "gallery white/ink/brick + shade swatches"
+  "gallery white/ink/brick + shade swatches",
+  "dye vat teal/magenta/greige",
+  "editing-suite black/neon purple/clip colours",
+  "highway blue/chrome/amber",
+  "denim/coral/khaki",
+  "notebook mint/graphite/pencil yellow"
  ],
  "drive_files_done": [
   1,
@@ -1249,66 +1294,6 @@
   120
  ],
  "log": [
-  {
-   "n": 91,
-   "date": "2026-11-22",
-   "format": "SINGLE",
-   "market": "India",
-   "category": "PlantNursery",
-   "palette": "olive moss/clay pink/linen",
-   "fonts": "Gelasio + Open Sans",
-   "layout": "SVG potted plants on wooden plank with hanging care tags + delivery list + filter chips",
-   "dots": 3,
-   "phone": false
-  },
-  {
-   "n": 92,
-   "date": "2026-11-22",
-   "format": "CAROUSEL",
-   "market": "India",
-   "category": "DiamondUnit",
-   "palette": "midnight indigo/ice blue/silver",
-   "fonts": "TeX Gyre Adventor + Inter",
-   "layout": "SVG parcel packet + faceted gem, QR lot card, stage pipeline with lot chips, worker bars, weight table",
-   "dots": 1,
-   "phone": false
-  },
-  {
-   "n": 93,
-   "date": "2026-11-22",
-   "format": "SINGLE",
-   "market": "USA",
-   "category": "NailSalon",
-   "palette": "lilac/cherry red/porcelain",
-   "fonts": "Crimson Text + Inter",
-   "layout": "SVG polish bottle rack shade picker + reminder text + stamp card + phone booking",
-   "dots": 4,
-   "phone": true
-  },
-  {
-   "n": 94,
-   "date": "2026-11-22",
-   "format": "SINGLE",
-   "market": "India",
-   "category": "BadmintonCourt",
-   "palette": "emerald court/white lines/neon lime",
-   "fonts": "Archivo Black + DM Sans",
-   "layout": "top-down SVG court diagrams with live status + browser slot grid",
-   "dots": 2,
-   "phone": false
-  },
-  {
-   "n": 95,
-   "date": "2026-11-22",
-   "format": "CAROUSEL",
-   "market": "India",
-   "category": "CanteenContractor",
-   "palette": "turmeric/charcoal brown/steel/rice white",
-   "fonts": "Montserrat + Fira Sans",
-   "layout": "top-down SVG steel thali + tear-off coupons, headcount bars, tablet scan counter, bill doc with sparkline, numbered tile CTA",
-   "dots": 5,
-   "phone": false
-  },
   {
    "n": 96,
    "date": "2026-11-22",
@@ -1608,14 +1593,69 @@
    "layout": "SVG shade fan deck + shades-by-site list, painter order card with swatch rows, account stat strip",
    "dots": 5,
    "phone": false
+  },
+  {
+   "n": 121,
+   "date": "2026-11-22",
+   "format": "CAROUSEL",
+   "market": "India",
+   "category": "DyeingMill",
+   "palette": "dye vat teal/magenta/greige",
+   "fonts": "Crimson Text + Fira Sans",
+   "layout": "lab-dip card with stapled pinked swatches, job card + 6-step stage tracker, dye recipe card, stage lanes with lot chips, swatch-grid CTA",
+   "dots": 3,
+   "phone": false
+  },
+  {
+   "n": 122,
+   "date": "2026-11-22",
+   "format": "SINGLE",
+   "market": "India",
+   "category": "Videographer",
+   "palette": "editing-suite black/neon purple/clip colours",
+   "fonts": "Poppins + Lora",
+   "layout": "video editor UI: SVG preview monitor, timecode ruler, 4 tracks of clips, playhead + project status cards",
+   "dots": 1,
+   "phone": false
+  },
+  {
+   "n": 123,
+   "date": "2026-11-22",
+   "format": "SINGLE",
+   "market": "USA",
+   "category": "TruckingCompany",
+   "palette": "highway blue/chrome/amber",
+   "fonts": "Anton + Fira Sans",
+   "layout": "front-view SVG semi truck on road + renewal countdown list with urgency bars + office text",
+   "dots": 4,
+   "phone": false
+  },
+  {
+   "n": 124,
+   "date": "2026-11-22",
+   "format": "CAROUSEL",
+   "market": "India",
+   "category": "ReadymadeGarments",
+   "palette": "denim/coral/khaki",
+   "fonts": "Cardo + Fira Sans",
+   "layout": "style x size stock heatmap, browser bill + stock-after cards, reorder table, catalogue with SVG garment silhouettes + size chips",
+   "dots": 2,
+   "phone": false
+  },
+  {
+   "n": 125,
+   "date": "2026-11-22",
+   "format": "SINGLE",
+   "market": "India",
+   "category": "StudentPlanner",
+   "palette": "notebook mint/graphite/pencil yellow",
+   "fonts": "TeX Gyre Adventor + Open Sans",
+   "layout": "ruled-notebook background, exam countdown card, chapter-square syllabus rows, phone day plan",
+   "dots": 5,
+   "phone": true
   }
  ],
  "recent_fonts": [
-  "Poppins + Inter",
-  "Anton + Roboto",
-  "Bitter + Fira Sans",
-  "Lora + Roboto",
-  "Cardo + Source Sans 3",
   "Montserrat + Source Sans 3",
   "Bitter + Open Sans",
   "TeX Gyre Adventor + DM Sans",
@@ -1635,14 +1675,14 @@
   "Lora + Poppins",
   "Montserrat + Open Sans",
   "Cardo + DM Sans",
-  "Anton + Open Sans"
+  "Anton + Open Sans",
+  "Crimson Text + Fira Sans",
+  "Poppins + Lora",
+  "Anton + Fira Sans",
+  "Cardo + Fira Sans",
+  "TeX Gyre Adventor + Open Sans"
  ],
  "recent_layouts": [
-  "SVG cutaway RO unit with filter cartridges + filter-life bar list + reminder text",
-  "SVG flatbed tow truck, browser call form, horizontal lane dispatch board, phone live-tracking text, amber CTA card",
-  "SVG engineering drawing of stepped shaft on grid paper + job card + machine load board",
-  "SVG warp beam roll, 24-loom status grid, paired day/night bars, beam progress cards, thread-stripe CTA",
-  "SVG striped market awning with chalkboard sign + crates, browser pre-order page with reserved bars",
   "top-down SVG egg tray + side tray stack counter + route table with empties-back column",
   "SVG fabric roll stack, CSS fabric swatch catalogue grid, broker order list, dispatch slip with step rail, credit-days aging rows",
   "SVG hang tags on a rail with barcodes + browser 3x2 item grid with on/off-site pills",
@@ -1662,14 +1702,14 @@
   "top-down SVG veg crate + phone subscription with skip/swap + packing chips strip",
   "top-down bay map coloured by client with dock doors, dimmed map with free bays, GRN doc with photos, picking list by bay, stock statement table",
   "piano keyboard as week calendar with lesson chips on white keys + practice bar log",
-  "SVG shade fan deck + shades-by-site list, painter order card with swatch rows, account stat strip"
+  "SVG shade fan deck + shades-by-site list, painter order card with swatch rows, account stat strip",
+  "lab-dip card with stapled pinked swatches, job card + 6-step stage tracker, dye recipe card, stage lanes with lot chips, swatch-grid CTA",
+  "video editor UI: SVG preview monitor, timecode ruler, 4 tracks of clips, playhead + project status cards",
+  "front-view SVG semi truck on road + renewal countdown list with urgency bars + office text",
+  "style x size stock heatmap, browser bill + stock-after cards, reorder table, catalogue with SVG garment silhouettes + size chips",
+  "ruled-notebook background, exam countdown card, chapter-square syllabus rows, phone day plan"
  ],
  "used_hashtag_sets": [
-  "#tyreshop #tyredealer #autopartsindia #wheelalignment",
-  "#homebaker #homebakersofinstagram #cakeorders #homebakeryindia #customcakes",
-  "#advocate #lawyersofindia #lawoffice #legalpractice",
-  "#tractorrental #farmequipment #agribusinessindia #farmmachinery",
-  "#movingcompany #movers #movingservices #localmovers",
   "#flexprinting #signageindia #printingpress #bannerprinting",
   "#fishshop #meatshop #freshfish #chickenshop",
   "#kurtiwholesale #kurtimanufacturer #resellersindia #dressmaterial #suratwholesale",
@@ -1724,7 +1764,12 @@
   "#organicfarming #vegbox #farmtohome #organicvegetables #farmersofindia",
   "#warehouse #godownforrent #warehousingindia #3pllogistics #warehousemanagement",
   "#musicteacher #pianoteacher #musiclessons #canadamusic",
-  "#paintdealer #paintshop #paintcontractor #hardwareshopindia"
+  "#paintdealer #paintshop #paintcontractor #hardwareshopindia",
+  "#dyeingmill #textileprocessing #fabricdyeing #textileindustryindia",
+  "#videographer #reelmaker #videoeditor #videoproductionindia",
+  "#truckingcompany #truckingbusiness #fleetmanagement #owneroperator",
+  "#readymadegarments #clothingstore #garmentshop #fashionretailindia",
+  "#studyplanner #collegestudents #exampreparation #studentlifeindia"
  ],
  "drive_index_at_post": 115
 }

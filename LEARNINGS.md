@@ -85,3 +85,7 @@
 - (b020) An object turned into a UI (piano keys as a week calendar, crate as a box) is a strong new hook. Black keys: draw them as :after on the white key (right:-25px, z-index 2) so they never need absolute math across the row.
 - (b020) Grids used on several slides (warehouse bays) must keep one layout string; derive every bay mentioned later (GRN, picking list, statement) from it and re-check that each named bay really belongs to that client.
 - (b020) Show "—" instead of "+0/−0" in statement tables. A hero panel with one SVG gains a lot from a small real-data card on top (quote Q-214 · sent the same day).
+- (b021) Heatmap grids (style × size, colour by stock level) read in 2 seconds and are very save-worthy for retail niches; repeat the exact numbers on billing/reorder/catalogue slides so the story checks out.
+- (b021) Placeholder icons (tag icon on a colour block) as product images look unfinished. Draw simple SVG silhouettes (polo, kurta, hoodie, chinos) on white tiles instead.
+- (b021) App UIs drawn as UIs (video editor tracks + playhead, timecode ruler) are a fresh look for creative niches; keep monitor timecode and playhead position consistent (00:18 of 00:30 = 60%).
+- (b021) Never put a swatch the same colour as its panel (teal on teal vanished); check every colour chip against its background in the contact sheet.
