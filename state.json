@@ -3,7 +3,7 @@
  "drive_index_sheet_id": "1kVmhTtzsjrmEhG59w3V2Odgx_cXBEIsDAxMe59zWmgU",
  "lock_until_utc": "2026-11-23T00:21:41Z",
  "last_run": "2026-11-22T22:48:55Z \u00b7 posts 276-300 made (batches 52-56), Drive 1-300 done, index sheet refreshed at 290 (old sheet 15xA... could not be trashed: permission denied, listed in old_index_sheets_to_trash), 15 new targets added",
- "next_post_no": 306,
+ "next_post_no": 311,
  "posts_done": [
   {
    "n": 1,
@@ -2444,11 +2444,51 @@
    "slides": 1,
    "market": "Canada",
    "category": "BoatStorage"
+  },
+  {
+   "n": 306,
+   "dir": "posts/0306_CAROUSEL_India_StoneCrusher",
+   "format": "CAROUSEL",
+   "slides": 5,
+   "market": "India",
+   "category": "StoneCrusher"
+  },
+  {
+   "n": 307,
+   "dir": "posts/0307_SINGLE_India_IceCreamDistributor",
+   "format": "SINGLE",
+   "slides": 1,
+   "market": "India",
+   "category": "IceCreamDistributor"
+  },
+  {
+   "n": 308,
+   "dir": "posts/0308_SINGLE_India_OffsetPrinter",
+   "format": "SINGLE",
+   "slides": 1,
+   "market": "India",
+   "category": "OffsetPrinter"
+  },
+  {
+   "n": 309,
+   "dir": "posts/0309_SINGLE_Canada_IceHutRental",
+   "format": "SINGLE",
+   "slides": 1,
+   "market": "Canada",
+   "category": "IceHutRental"
+  },
+  {
+   "n": 310,
+   "dir": "posts/0310_CAROUSEL_India_AlbumPrintingLab",
+   "format": "CAROUSEL",
+   "slides": 5,
+   "market": "India",
+   "category": "AlbumPrintingLab"
   }
  ],
  "market_counts": {
-  "India": 214,
-  "Abroad": 91
+  "India": 218,
+  "Abroad": 92
  },
  "used_categories": [
   "Boutique",
@@ -2762,14 +2802,14 @@
   "HandloomWeaver",
   "MealPrep",
   "MessService",
-  "BoatStorage"
+  "BoatStorage",
+  "StoneCrusher",
+  "IceCreamDistributor",
+  "OffsetPrinter",
+  "IceHutRental",
+  "AlbumPrintingLab"
  ],
  "recent_palettes": [
-  "water blue/rust red/concrete",
-  "midnight indigo/bulb amber/rose",
-  "tire black/teal green/sand",
-  "navy suiting/chalk stripe/camel",
-  "oxblood/paper/navy",
   "starch white/indigo/ember orange",
   "ice blue/jute brown/charcoal",
   "lint gray/blueprint blue/amber",
@@ -2789,7 +2829,12 @@
   "turmeric/kora cotton/peacock teal",
   "basil green/tomato/oat cream",
   "manila/brick red/ink navy",
-  "shrink-wrap white/marine navy/buoy orange"
+  "shrink-wrap white/marine navy/buoy orange",
+  "quarry grey/safety yellow/rust",
+  "freezer white/berry pink/mint",
+  "process cyan/magenta/paper white",
+  "frozen lake blue/hut red/pine",
+  "linen beige/charcoal/gold foil"
  ],
  "drive_files_done": [
   1,
@@ -3100,66 +3145,6 @@
  ],
  "log": [
   {
-   "n": 276,
-   "date": "2026-11-22",
-   "format": "SINGLE",
-   "market": "India",
-   "category": "ToolRental",
-   "palette": "safety orange/steel grey/chalk white",
-   "fonts": "Montserrat + Inter",
-   "layout": "dark tool shadow board with filled tools in shop and dashed outlines for rented tools + return tags + rentals list + reminder card",
-   "dots": 4,
-   "phone": false
-  },
-  {
-   "n": 277,
-   "date": "2026-11-22",
-   "format": "CAROUSEL",
-   "market": "USA",
-   "category": "ClosetInstaller",
-   "palette": "white oak/sage/ink",
-   "fonts": "Crimson Text + DM Sans",
-   "layout": "blurred photo vs dimensioned wall hook, browser measuring form, 3 CSS closet elevations as options, install timeline + installed closet, closets + tiles CTA",
-   "dots": 1,
-   "phone": false
-  },
-  {
-   "n": 278,
-   "date": "2026-11-22",
-   "format": "SINGLE",
-   "market": "India",
-   "category": "EWasteCollector",
-   "palette": "circuit green/copper/charcoal",
-   "fonts": "Anton + Source Sans 3",
-   "layout": "phone item picker with +/- counters and slot chips + weight slip with LCD scale reading + after-pickup card",
-   "dots": 5,
-   "phone": true
-  },
-  {
-   "n": 279,
-   "date": "2026-11-22",
-   "format": "SINGLE",
-   "market": "India",
-   "category": "WallPuttyPOP",
-   "palette": "putty grey/ultramarine/ivory",
-   "fonts": "Cardo + Inter",
-   "layout": "wall cross-section strata legend (brick to primer) + room x layer table with done/next cells + 6 site day tiles",
-   "dots": 2,
-   "phone": false
-  },
-  {
-   "n": 280,
-   "date": "2026-11-22",
-   "format": "SINGLE",
-   "market": "India",
-   "category": "AluminiumWindowMaker",
-   "palette": "anodized bronze/sky glass/graphite",
-   "fonts": "TeX Gyre Adventor + Inter",
-   "layout": "building elevation of 8 flats with windows coloured by job stage + one flat's window list with drawn glass types + dispatch card",
-   "dots": 3,
-   "phone": false
-  },
-  {
    "n": 281,
    "date": "2026-11-22",
    "format": "SINGLE",
@@ -3458,14 +3443,69 @@
    "layout": "top-down storage yard of shrink-wrapped SVG hulls with status outlines + phone spring launch booking",
    "dots": 3,
    "phone": true
+  },
+  {
+   "n": 306,
+   "date": "2026-11-22",
+   "format": "CAROUSEL",
+   "market": "India",
+   "category": "StoneCrusher",
+   "palette": "quarry grey/safety yellow/rust",
+   "fonts": "Anton + Source Sans 3",
+   "layout": "SVG gravel stockpiles by tonnes, site order table + material totals, truck round ribbons with % positions, photo delivery slip + loads ordered vs delivered, piles + tiles CTA",
+   "dots": 2,
+   "phone": false
+  },
+  {
+   "n": 307,
+   "date": "2026-11-22",
+   "format": "SINGLE",
+   "market": "India",
+   "category": "IceCreamDistributor",
+   "palette": "freezer white/berry pink/mint",
+   "fonts": "Poppins + Fira Sans",
+   "layout": "top-down chest freezer with glass sheen and flavour tub lids + shop tubs-left bars + refill round card",
+   "dots": 5,
+   "phone": false
+  },
+  {
+   "n": 308,
+   "date": "2026-11-22",
+   "format": "SINGLE",
+   "market": "India",
+   "category": "OffsetPrinter",
+   "palette": "process cyan/magenta/paper white",
+   "fonts": "Cardo + Inter",
+   "layout": "8-up print sheet with crop and registration marks, CMYK bar and approved stamp + dark job card stages",
+   "dots": 3,
+   "phone": false
+  },
+  {
+   "n": 309,
+   "date": "2026-11-22",
+   "format": "SINGLE",
+   "market": "Canada",
+   "category": "IceHutRental",
+   "palette": "frozen lake blue/hut red/pine",
+   "fonts": "TeX Gyre Adventor + Inter",
+   "layout": "top-down frozen lake with cracks, shore pines, numbered huts booked/free + phone hut booking",
+   "dots": 4,
+   "phone": true
+  },
+  {
+   "n": 310,
+   "date": "2026-11-22",
+   "format": "CAROUSEL",
+   "market": "India",
+   "category": "AlbumPrintingLab",
+   "palette": "linen beige/charcoal/gold foil",
+   "fonts": "Gelasio + DM Sans",
+   "layout": "open album spread of landscape blocks with numbered pins, job code table, 25 spread thumbnail status grid, cover swatch books + steps, spread with ticked pins CTA",
+   "dots": 1,
+   "phone": false
   }
  ],
  "recent_fonts": [
-  "Bitter + Fira Sans",
-  "Gelasio + Montserrat",
-  "Archivo Black + Inter",
-  "Lora + Inter",
-  "Crimson Text + Source Sans 3",
   "Lora + Poppins",
   "Bitter + Roboto",
   "Anton + Open Sans",
@@ -3485,14 +3525,14 @@
   "Lora + Open Sans",
   "Archivo Black + DM Sans",
   "Crimson Text + Fira Sans",
-  "Bitter + Inter"
+  "Bitter + Inter",
+  "Anton + Source Sans 3",
+  "Poppins + Fira Sans",
+  "Cardo + Inter",
+  "TeX Gyre Adventor + Inter",
+  "Gelasio + DM Sans"
  ],
  "recent_layouts": [
-  "site cross-section SVG (house, roof tank, bore depth ticks, water level, pump) + customer site form + install card",
-  "glowing SVG string-light catenaries over tent hook, out/in split bars, 3 event load cards, crew time ribbon, count-back rows with sent/back, lights + tiles CTA",
-  "drawn tire with size on sidewall via textPath + size decoder list + phone booking form",
-  "pinstripe blazer SVG with lettered measuring lines + staff size sheet keyed to the letters + dark summary",
-  "stacked index cards with ruled front session card + topic plan checklist + booking day strip",
   "three cards of CSS folded-clothes stacks per flat with count chips + pickup and month-end cards",
   "top-down chamber map with bays tinted by lot, lot card with code square, jute bag isotype ledger, message request + dark withdrawal slip, bags + tiles CTA",
   "house wall cutaway with dryer-to-outside duct route, lengths and numbered turns + phone booking form",
@@ -3512,14 +3552,14 @@
   "SVG handloom with woven part as progress, yarn issue table with swatches, woven-fabric progress bars per loom, saree icon yarn balance cards, three looms + tiles CTA",
   "browser weekly order page + dark cook list of CSS top-down meal containers with counts + ZIP route card",
   "manila punch card month grid with punched/struck/open holes + today's cook count cards + skip app card",
-  "top-down storage yard of shrink-wrapped SVG hulls with status outlines + phone spring launch booking"
+  "top-down storage yard of shrink-wrapped SVG hulls with status outlines + phone spring launch booking",
+  "SVG gravel stockpiles by tonnes, site order table + material totals, truck round ribbons with % positions, photo delivery slip + loads ordered vs delivered, piles + tiles CTA",
+  "top-down chest freezer with glass sheen and flavour tub lids + shop tubs-left bars + refill round card",
+  "8-up print sheet with crop and registration marks, CMYK bar and approved stamp + dark job card stages",
+  "top-down frozen lake with cracks, shore pines, numbered huts booked/free + phone hut booking",
+  "open album spread of landscape blocks with numbered pins, job code table, 25 spread thumbnail status grid, cover swatch books + steps, spread with ticked pins CTA"
  ],
  "used_hashtag_sets": [
-  "#windowtint #windowtinting #cartint #autofilm",
-  "#idlibatter #dosabatter #foodbusinessindia #homemadefood",
-  "#courierservice #samedaydelivery #documentdelivery #localbusinessindia",
-  "#papercups #disposablecups #packagingsupplier #teastall",
-  "#lightinstallation #holidaylights #outdoorlighting #canadabusiness",
   "#mosquitonet #windowmesh #homeimprovementindia #smallbusinessindia",
   "#texturepainting #wallpainting #interiorpainting #paintingcontractor #homedecorindia",
   "#movinglabor #movingservices #movinghelp #smallbusinessusa",
@@ -3574,7 +3614,12 @@
   "#handloom #handloomsaree #weaversofindia #handwoven",
   "#mealprepbusiness #mealprepdelivery #foodbusiness #smallbusinessusa",
   "#messservice #messfood #homestylefood #foodbusinessindia",
-  "#boatstorage #winterstorage #marinalife #boatingcanada"
+  "#boatstorage #winterstorage #marinalife #boatingcanada",
+  "#stonecrusher #aggregates #constructionmaterial #buildingmaterialsindia",
+  "#icecreamdistributor #frozenfood #distributorsindia #fmcgdistribution",
+  "#offsetprinting #printingpress #visitingcards #printshopindia",
+  "#icefishing #icehut #icefishingcanada #winteroutdoors",
+  "#albumprinting #photoalbum #albumdesign #photographersindia"
  ],
  "drive_index_at_post": 290,
  "old_index_sheets_to_trash": [
