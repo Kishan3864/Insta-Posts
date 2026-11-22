@@ -1,9 +1,9 @@
 {
  "drive_folder_id": "1OZvW8MCiA-_SSNn5_9g3o8k5sMyHUcxE",
  "drive_index_sheet_id": "1coQdBJQWZqxgH_ihlDiBaigqYbBn9EE7YXo7UsrX1lk",
- "lock_until_utc": "2026-11-22T19:22:15Z",
+ "lock_until_utc": "2026-11-22T19:27:08Z",
  "last_run": "2026-11-22T17:49:27Z \u00b7 posts 181-200 made (batches 33-36), Drive 1-200 done, index sheet refreshed at 190 (old one trashed)",
- "next_post_no": 206,
+ "next_post_no": 211,
  "posts_done": [
   {
    "n": 1,
@@ -1644,11 +1644,51 @@
    "slides": 1,
    "market": "India",
    "category": "AquariumShop"
+  },
+  {
+   "n": 206,
+   "dir": "posts/0206_SINGLE_Canada_FirewoodDelivery",
+   "format": "SINGLE",
+   "slides": 1,
+   "market": "Canada",
+   "category": "FirewoodDelivery"
+  },
+  {
+   "n": 207,
+   "dir": "posts/0207_CAROUSEL_India_CorporateUniformMaker",
+   "format": "CAROUSEL",
+   "slides": 5,
+   "market": "India",
+   "category": "CorporateUniformMaker"
+  },
+  {
+   "n": 208,
+   "dir": "posts/0208_SINGLE_India_HotelLinenLaundry",
+   "format": "SINGLE",
+   "slides": 1,
+   "market": "India",
+   "category": "HotelLinenLaundry"
+  },
+  {
+   "n": 209,
+   "dir": "posts/0209_SINGLE_India_LaptopRepair",
+   "format": "SINGLE",
+   "slides": 1,
+   "market": "India",
+   "category": "LaptopRepair"
+  },
+  {
+   "n": 210,
+   "dir": "posts/0210_SINGLE_USA_TreeService",
+   "format": "SINGLE",
+   "slides": 1,
+   "market": "USA",
+   "category": "TreeService"
   }
  ],
  "market_counts": {
-  "India": 144,
-  "Abroad": 61
+  "India": 147,
+  "Abroad": 63
  },
  "used_categories": [
   "Boutique",
@@ -1862,14 +1902,14 @@
   "CurtainBlinds",
   "ChimneySweep",
   "LiftAMC",
-  "AquariumShop"
+  "AquariumShop",
+  "FirewoodDelivery",
+  "CorporateUniformMaker",
+  "HotelLinenLaundry",
+  "LaptopRepair",
+  "TreeService"
  ],
  "recent_palettes": [
-  "pale sky/marine navy/sunflower",
-  "paper white/process cyan/magenta",
-  "dove grey/champagne/plum",
-  "rust orange/gunmetal/bone",
-  "ivory/vermilion/bottle green",
   "lavender/deep navy/coral",
   "oatmeal/glaze teal/clay brown",
   "cement grey/emerald/charcoal",
@@ -1889,7 +1929,12 @@
   "linen/terracotta/olive",
   "brick red/soot black/snow cream",
   "graphite/LED amber/mist",
-  "deep sea teal/coral/sand"
+  "deep sea teal/coral/sand",
+  "forest green/birch cream/rust",
+  "steel blue/khaki/charcoal",
+  "powder blue/white/plum",
+  "graphite/mint/coral",
+  "moss green/sky/bark brown"
  ],
  "drive_files_done": [
   1,
@@ -2099,66 +2144,6 @@
   205
  ],
  "log": [
-  {
-   "n": 176,
-   "date": "2026-11-22",
-   "format": "SINGLE",
-   "market": "India",
-   "category": "LabelPouchSupplier",
-   "palette": "kraft/ink black/tomato",
-   "fonts": "Poppins + Fira Sans",
-   "layout": "SVG label roll unrolling into printed labels + ticket-stub job card with perforated dispatch stub and stage punches",
-   "dots": 1,
-   "phone": false
-  },
-  {
-   "n": 177,
-   "date": "2026-11-22",
-   "format": "CAROUSEL",
-   "market": "USA",
-   "category": "LawOffice",
-   "palette": "oxford navy/cream/burgundy",
-   "fonts": "Lora + Source Sans 3",
-   "layout": "missed call vs booked list, browser intake form with topic chips, week slot grid court/consult/open/selected, document checklist with upload buttons, legal pad CTA",
-   "dots": 3,
-   "phone": false
-  },
-  {
-   "n": 178,
-   "date": "2026-11-22",
-   "format": "SINGLE",
-   "market": "India",
-   "category": "InverterInstaller",
-   "palette": "deep blue/electric cyan/white",
-   "fonts": "TeX Gyre Adventor + Roboto",
-   "layout": "appliance toggle-switch grid with counts + segmented load bar + result cards",
-   "dots": 5,
-   "phone": false
-  },
-  {
-   "n": 179,
-   "date": "2026-11-22",
-   "format": "SINGLE",
-   "market": "India",
-   "category": "LoanAgent",
-   "palette": "slate green/peach/white",
-   "fonts": "Bitter + DM Sans",
-   "layout": "filing drawer of lead folders with coloured tabs + open folder document checklist + upload link button",
-   "dots": 2,
-   "phone": false
-  },
-  {
-   "n": 180,
-   "date": "2026-11-22",
-   "format": "SINGLE",
-   "market": "Canada",
-   "category": "RestaurantOrdering",
-   "palette": "tomato/cream/espresso",
-   "fonts": "Montserrat + Lora",
-   "layout": "wooden pickup shelf cubbies with SVG paper bags + name tags + status, direct order counter card",
-   "dots": 4,
-   "phone": false
-  },
   {
    "n": 181,
    "date": "2026-11-22",
@@ -2458,14 +2443,69 @@
    "layout": "wide SVG aquarium hero with tag + 15-day visit cycle strip, last-visit checklist + coral reminder card",
    "dots": 1,
    "phone": false
+  },
+  {
+   "n": 206,
+   "date": "2026-11-22",
+   "format": "SINGLE",
+   "market": "Canada",
+   "category": "FirewoodDelivery",
+   "palette": "forest green/birch cream/rust",
+   "fonts": "Lora + Fira Sans",
+   "layout": "woodpile of log ends with growth rings split into 3 order-coloured sections + order cards, 5-day area delivery strip, rust note bar",
+   "dots": 3,
+   "phone": false
+  },
+  {
+   "n": 207,
+   "date": "2026-11-22",
+   "format": "CAROUSEL",
+   "market": "India",
+   "category": "CorporateUniformMaker",
+   "palette": "steel blue/khaki/charcoal",
+   "fonts": "Poppins + Roboto",
+   "layout": "shirt SVG with size tag + quote note cards, browser size form + progress bar, stacked size bars per department + size total tiles, carton progress cards + dashed pack label, shirt + 4 row tiles CTA",
+   "dots": 2,
+   "phone": false
+  },
+  {
+   "n": 208,
+   "date": "2026-11-22",
+   "format": "SINGLE",
+   "market": "India",
+   "category": "HotelLinenLaundry",
+   "palette": "powder blue/white/plum",
+   "fonts": "Montserrat + Inter",
+   "layout": "out vs back table with folded linen stacks sized by count + diff chips, 3 total tiles, navy note",
+   "dots": 5,
+   "phone": false
+  },
+  {
+   "n": 209,
+   "date": "2026-11-22",
+   "format": "SINGLE",
+   "market": "India",
+   "category": "LaptopRepair",
+   "palette": "graphite/mint/coral",
+   "fonts": "Archivo Black + Inter",
+   "layout": "SMS card, CSS laptop with status stepper page + rotated paper repair tag, 4 job chips row",
+   "dots": 1,
+   "phone": false
+  },
+  {
+   "n": 210,
+   "date": "2026-11-22",
+   "format": "SINGLE",
+   "market": "USA",
+   "category": "TreeService",
+   "palette": "moss green/sky/bark brown",
+   "fonts": "TeX Gyre Adventor + Source Sans 3",
+   "layout": "tall customer photo scene (tree, house, stump) with numbered dashed cut marks + estimate job list + approved and crew cards",
+   "dots": 4,
+   "phone": false
   }
  ],
  "recent_fonts": [
-  "Archivo Black + Fira Sans",
-  "TeX Gyre Adventor + Fira Sans",
-  "Lora + Poppins",
-  "Bitter + Open Sans",
-  "Crimson Text + DM Sans",
   "Montserrat + DM Sans",
   "Gelasio + Open Sans",
   "Anton + Roboto",
@@ -2485,14 +2525,14 @@
   "Crimson Text + Source Sans 3",
   "Gelasio + Fira Sans",
   "Montserrat + Roboto",
-  "TeX Gyre Adventor + Inter"
+  "TeX Gyre Adventor + Inter",
+  "Lora + Fira Sans",
+  "Poppins + Roboto",
+  "Montserrat + Inter",
+  "Archivo Black + Inter",
+  "TeX Gyre Adventor + Source Sans 3"
  ],
  "recent_layouts": [
-  "3 stat cards with jar icons + per-customer can strip ledger of drawn 20 L jars (out/back/late) + remind chips",
-  "chat file bubbles with dashed magenta question stickers, browser print-job toggles form, counter TV token columns (printing/next/ready), dark ready message + 4 stat tiles with colour edges, SVG printer feeding a page + numbered tiles CTA",
-  "5 arched fitting suites with curtains as time slots (closed booked/open mirror/dashed hold) + plum try-on form + pick card with mini arch",
-  "item tap chips + SVG platform scale with green digital readout + zigzag-top weight slip + dark pickups strip of 4",
-  "proof timeline strip v1-v2-v3 card proofs with red-pen rings + margin notes, approved stamp, proof history list + green order card",
   "top-down SVG bed frame with red dimension arrows + navy order card with proportional layer stack + confirm bar",
   "SVG drying shelf with hanging question tags, browser class list with seat dots, piece tracker with 4-stage pips, kiln load arches + text bubble, coloured pot shelf + tiles CTA",
   "SVG pallet stacks of cement bags as godown stock + dark site delivery rows with status chips + totals",
@@ -2512,14 +2552,14 @@
   "torn paper slip with handwritten sizes + problem cards, 2x2 drawn windows with dimension lines, CSS fabric swatches + metres table, item x stage dot matrix + fitting card, big window + 4 tiles CTA",
   "drawn house with brick chimney + tag panel beside browser booking (ZIP check, service radio, day and time chips) + dark report chip bar",
   "3x2 lift cards with glowing LED floor displays over steel doors (one open, dark = breakdown) + 2 technician cards",
-  "wide SVG aquarium hero with tag + 15-day visit cycle strip, last-visit checklist + coral reminder card"
+  "wide SVG aquarium hero with tag + 15-day visit cycle strip, last-visit checklist + coral reminder card",
+  "woodpile of log ends with growth rings split into 3 order-coloured sections + order cards, 5-day area delivery strip, rust note bar",
+  "shirt SVG with size tag + quote note cards, browser size form + progress bar, stacked size bars per department + size total tiles, carton progress cards + dashed pack label, shirt + 4 row tiles CTA",
+  "out vs back table with folded linen stacks sized by count + diff chips, 3 total tiles, navy note",
+  "SMS card, CSS laptop with status stepper page + rotated paper repair tag, 4 job chips row",
+  "tall customer photo scene (tree, house, stump) with numbered dashed cut marks + estimate job list + approved and crew cards"
  ],
  "used_hashtag_sets": [
-  "#touroperator #grouptours #weekendtrips #travelbusinessindia",
-  "#saasfounder #indiehackers #landingpagedesign #startupideas",
-  "#swimmingpool #swimmingclasses #poolmembership #swimmingindia",
-  "#gstpractitioner #gstfiling #taxconsultant #accountingoffice",
-  "#martialartsschool #dojolife #beltpromotion #gymownerscanada",
   "#ngoindia #volunteerindia #nonprofitindia #socialimpactindia",
   "#usedbikes #secondhandbikes #bikedealer #preownedbikes",
   "#caraccessories #carmodification #seatcovers #carcareindia",
@@ -2574,7 +2614,12 @@
   "#curtainshop #blindsandcurtains #homefurnishing #curtainstitching #interiorsindia",
   "#chimneysweep #chimneycleaning #fireplaceservice #smallbusinessusa",
   "#liftamc #liftservice #elevatormaintenance #facilitymanagement",
-  "#aquariumshop #aquariumcare #fishtank #aquariumindia"
+  "#aquariumshop #aquariumcare #fishtank #aquariumindia",
+  "#firewood #firewooddelivery #seasonedfirewood #canadasmallbusiness",
+  "#uniformmanufacturer #corporateuniforms #uniformmaker #garmentbusinessindia",
+  "#commerciallaundry #hotellinen #laundrybusiness #hospitalityindia",
+  "#laptoprepair #computerrepairshop #laptopservice #repairshopindia",
+  "#treeservice #treetrimming #arborist #smallbusinessusa"
  ],
  "drive_index_at_post": 190
 }
