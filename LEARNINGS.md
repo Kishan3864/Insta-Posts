@@ -93,3 +93,7 @@
 - (b022) preserveAspectRatio "slice" on a landscape map inside a tall panel cut off edge pins (ESCAPES). Draw maps in the panel's own aspect (500x760 for a portrait panel) and keep pins 80px+ inside the viewBox.
 - (b022) Text inside SVG tags (hanging AMC tag) does not wrap or get checked: size the tag rect to the longest label + 30px and verify in a crop. Phone header labels must be short (VISIT 2 OF 3 · SAMPLE); put the name in the title line.
 - (b022) Key-value tiles in a 2x2 grid still look empty at 22px; Lora 30px values + 17px labels and fewer tiles work better. Next: try a split-flap / departure-board style list and an isometric parcel stack.
+- (b023) Split-flap board (one 23x38 cell per character, gradient with a dark centre line) is a strong scroll-stopper for schedule/duty lists; cap words so a row is ~32 characters to fit 952px.
+- (b023) A generic `.panel svg{position:absolute;inset:0}` also grabbed icon SVGs inside overlay cards (check icon flew to the card corner). Always use a child selector (`.panel>svg`) for full-bleed scene SVGs.
+- (b023) Overlay cards on a scene (booking card on a hill scene) must be sized for the feed: 34-36px title, 19-20px body; 16px text on a big scene reads as tiny.
+- (b023) Isometric boxes from three paths (top/left/right) are fast, but random overlaps look messy; next time lay them out on a strict grid (back row first, then front) and crop the viewBox to the stack.

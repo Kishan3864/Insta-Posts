@@ -3,7 +3,7 @@
  "drive_index_sheet_id": "1F6_13BvlGOZBZoPtG0OjbJFOh0QVELSZvuHhZt5HxbA",
  "lock_until_utc": "2026-11-22T14:23:50Z",
  "last_run": "2026-11-22T12:51:28Z \u00b7 posts 101-125 made, Drive 1-125 done, index sheet refreshed at 115 (refresh due ~140)",
- "next_post_no": 131,
+ "next_post_no": 136,
  "posts_done": [
   {
    "n": 1,
@@ -1044,11 +1044,51 @@
    "slides": 6,
    "market": "India",
    "category": "NamkeenMaker"
+  },
+  {
+   "n": 131,
+   "dir": "posts/0131_SINGLE_India_CabOperator",
+   "format": "SINGLE",
+   "slides": 1,
+   "market": "India",
+   "category": "CabOperator"
+  },
+  {
+   "n": 132,
+   "dir": "posts/0132_CAROUSEL_India_Homestay",
+   "format": "CAROUSEL",
+   "slides": 6,
+   "market": "India",
+   "category": "Homestay"
+  },
+  {
+   "n": 133,
+   "dir": "posts/0133_SINGLE_USA_DeliveryStartup",
+   "format": "SINGLE",
+   "slides": 1,
+   "market": "USA",
+   "category": "DeliveryStartup"
+  },
+  {
+   "n": 134,
+   "dir": "posts/0134_SINGLE_India_FlourMill",
+   "format": "SINGLE",
+   "slides": 1,
+   "market": "India",
+   "category": "FlourMill"
+  },
+  {
+   "n": 135,
+   "dir": "posts/0135_SINGLE_India_ExpenseTracker",
+   "format": "SINGLE",
+   "slides": 1,
+   "market": "India",
+   "category": "ExpenseTracker"
   }
  ],
  "market_counts": {
-  "India": 91,
-  "Abroad": 39
+  "India": 95,
+  "Abroad": 40
  },
  "used_categories": [
   "Boutique",
@@ -1187,14 +1227,14 @@
   "Wholesaler",
   "UpholsteryShop",
   "UsedCarDealer",
-  "NamkeenMaker"
+  "NamkeenMaker",
+  "CabOperator",
+  "Homestay",
+  "DeliveryStartup",
+  "FlourMill",
+  "ExpenseTracker"
  ],
  "recent_palettes": [
-  "paprika red/cardamom green/cream paper",
-  "dusty rose/olive/ivory",
-  "jade/tangerine/asphalt",
-  "mint/plum/white",
-  "espresso/peach/sage",
   "mustard road/tar black/milestone red",
   "jute/forest/brick",
   "slate/warm white/sunset orange",
@@ -1214,7 +1254,12 @@
   "carton kraft/cherry red/slate",
   "velvet teal/mustard/oatmeal",
   "charcoal/candy red/silver",
-  "sev yellow/chilli red/kraft"
+  "sev yellow/chilli red/kraft",
+  "matte black/cab yellow/steel",
+  "deodar green/sunrise peach/mist",
+  "kraft brown/cobalt/off-white",
+  "wheat/flour white/indigo",
+  "manila/terracotta/ink"
  ],
  "drive_files_done": [
   1,
@@ -1349,66 +1394,6 @@
   130
  ],
  "log": [
-  {
-   "n": 101,
-   "date": "2026-11-22",
-   "format": "SINGLE",
-   "market": "India",
-   "category": "EggSupplier",
-   "palette": "eggshell/barn red/straw yellow/charcoal",
-   "fonts": "Montserrat + Source Sans 3",
-   "layout": "top-down SVG egg tray + side tray stack counter + route table with empties-back column",
-   "dots": 2,
-   "phone": false
-  },
-  {
-   "n": 102,
-   "date": "2026-11-22",
-   "format": "CAROUSEL",
-   "market": "India",
-   "category": "TextileWholesaler",
-   "palette": "deep teal/rust orange/unbleached cotton",
-   "fonts": "Bitter + Open Sans",
-   "layout": "SVG fabric roll stack, CSS fabric swatch catalogue grid, broker order list, dispatch slip with step rail, credit-days aging rows",
-   "dots": 4,
-   "phone": false
-  },
-  {
-   "n": 103,
-   "date": "2026-11-22",
-   "format": "SINGLE",
-   "market": "USA",
-   "category": "ThriftStore",
-   "palette": "mustard/forest green/manila tag",
-   "fonts": "TeX Gyre Adventor + DM Sans",
-   "layout": "SVG hang tags on a rail with barcodes + browser 3x2 item grid with on/off-site pills",
-   "dots": 1,
-   "phone": false
-  },
-  {
-   "n": 104,
-   "date": "2026-11-22",
-   "format": "CAROUSEL",
-   "market": "India",
-   "category": "CarGarage",
-   "palette": "workshop blue/signal yellow/concrete grey",
-   "fonts": "Archivo Black + Inter",
-   "layout": "top-down SVG car inspection diagram with numbered pins, browser job card with fuel gauge + photo tiles, phone approval list, number-plate reminder list",
-   "dots": 3,
-   "phone": true
-  },
-  {
-   "n": 105,
-   "date": "2026-11-22",
-   "format": "SINGLE",
-   "market": "India",
-   "category": "DryFruitsSeller",
-   "palette": "walnut brown/pistachio green/almond cream",
-   "fonts": "Cardo + Poppins",
-   "layout": "top-down SVG 4-section gift box with scattered drawn nuts + 4-step box builder card",
-   "dots": 5,
-   "phone": false
-  },
   {
    "n": 106,
    "date": "2026-11-22",
@@ -1708,14 +1693,69 @@
    "layout": "SVG pillow-pouch snack packets on shelf + stat cards, order matrix with total/packed/to-make rows, day-list week plan, batch card + film stock, dispatch checklist",
    "dots": 2,
    "phone": false
+  },
+  {
+   "n": 131,
+   "date": "2026-11-22",
+   "format": "SINGLE",
+   "market": "India",
+   "category": "CabOperator",
+   "palette": "matte black/cab yellow/steel",
+   "fonts": "Montserrat + Fira Sans",
+   "layout": "split-flap departure board of duties (per-character flap cells) + 3 feature cards",
+   "dots": 5,
+   "phone": false
+  },
+  {
+   "n": 132,
+   "date": "2026-11-22",
+   "format": "CAROUSEL",
+   "market": "India",
+   "category": "Homestay",
+   "palette": "deodar green/sunrise peach/mist",
+   "fonts": "Crimson Text + DM Sans",
+   "layout": "SVG hill cottage scene with booking card, browser room cards with SVG rooms, month calendar with rooms-left, phone booking + message cards, folded guest guide",
+   "dots": 3,
+   "phone": true
+  },
+  {
+   "n": 133,
+   "date": "2026-11-22",
+   "format": "SINGLE",
+   "market": "USA",
+   "category": "DeliveryStartup",
+   "palette": "kraft brown/cobalt/off-white",
+   "fonts": "TeX Gyre Adventor + Inter",
+   "layout": "isometric SVG parcel stack + browser tracking page with vertical step timeline and ETA",
+   "dots": 1,
+   "phone": false
+  },
+  {
+   "n": 134,
+   "date": "2026-11-22",
+   "format": "SINGLE",
+   "market": "India",
+   "category": "FlourMill",
+   "palette": "wheat/flour white/indigo",
+   "fonts": "Bitter + DM Sans",
+   "layout": "SVG flour mill with sack + perforated token ticket + queue list + WhatsApp ready bubble",
+   "dots": 4,
+   "phone": false
+  },
+  {
+   "n": 135,
+   "date": "2026-11-22",
+   "format": "SINGLE",
+   "market": "India",
+   "category": "ExpenseTracker",
+   "palette": "manila/terracotta/ink",
+   "fonts": "Cardo + Roboto",
+   "layout": "CSS envelope budget rows with fill inserts + phone today list and add-expense pad",
+   "dots": 2,
+   "phone": true
   }
  ],
  "recent_fonts": [
-  "Anton + DM Sans",
-  "Gelasio + DM Sans",
-  "Poppins + Roboto",
-  "Archivo Black + Source Sans 3",
-  "Crimson Text + Montserrat",
   "Montserrat + Roboto",
   "Poppins + Source Sans 3",
   "Lora + Inter",
@@ -1735,14 +1775,14 @@
   "Bitter + Source Sans 3",
   "Gelasio + Montserrat",
   "Poppins + DM Sans",
-  "Lora + Fira Sans"
+  "Lora + Fira Sans",
+  "Montserrat + Fira Sans",
+  "Crimson Text + DM Sans",
+  "TeX Gyre Adventor + Inter",
+  "Bitter + DM Sans",
+  "Cardo + Roboto"
  ],
  "recent_layouts": [
-  "SVG spice heaps on plates with batch tags + trace-flow diagram (batch \u2192 cartons \u2192 distributors) with SVG curve layer",
-  "couple portal with conic countdown ring, month-band checklist, 3x3 vendor status grid, run sheet on a time rail",
-  "SVG city map with river, dashed route and pins + floating booking card + SVG vehicle size picker",
-  "site cards with staff dot matrix, QR poster + phone check-ins, relief staff list, staff x day roster grid, man-days sheet, faint-number tile CTA",
-  "browser multi-column stylist day calendar with duration blocks and dashed open slots + icon side cards",
   "SVG highway milestone + bus pre-order card + kitchen ticket rail with clips",
   "SVG jute sack stack with stencils, phone order app, credit-limit bars with hold, van loading list + drop order",
   "camera viewfinder overlay (corners, thirds grid, focus box) on SVG living room + booking and delivery cards",
@@ -1762,14 +1802,14 @@
   "clipboard with carbon-copy order pad (yellow over pink, pen notes) beside browser reorder portal with qty steppers + 3 dark cards",
   "SVG pattern-filled sofa preview + fabric swatch catalogue grid (SVG patterns) + 5-step job strip",
   "browser inventory 2x3 with parametric SVG car side profiles + status pills + test drive bar",
-  "SVG pillow-pouch snack packets on shelf + stat cards, order matrix with total/packed/to-make rows, day-list week plan, batch card + film stock, dispatch checklist"
+  "SVG pillow-pouch snack packets on shelf + stat cards, order matrix with total/packed/to-make rows, day-list week plan, batch card + film stock, dispatch checklist",
+  "split-flap departure board of duties (per-character flap cells) + 3 feature cards",
+  "SVG hill cottage scene with booking card, browser room cards with SVG rooms, month calendar with rooms-left, phone booking + message cards, folded guest guide",
+  "isometric SVG parcel stack + browser tracking page with vertical step timeline and ETA",
+  "SVG flour mill with sack + perforated token ticket + queue list + WhatsApp ready bubble",
+  "CSS envelope budget rows with fill inserts + phone today list and add-expense pad"
  ],
  "used_hashtag_sets": [
-  "#interiordesignerindia #interiorstudio #homeinteriors #2bhkinterior",
-  "#modularkitchen #modularkitchenindia #kitchendesign #kitchenmanufacturer",
-  "#gentstailor #tailorshop #customtailoring #tailoringbusiness",
-  "#pestcontrol #pestcontrolservice #pestcontrolbusiness #homeservicebusiness",
-  "#plywooddealer #plywoodindia #laminates #plywoodshop #interiormaterials",
   "#civilcontractor #constructionindia #sitemanagement #buildersindia",
   "#footwearshop #shoeshop #footwearbusiness #shoestoreindia",
   "#handyman #handymanservices #handymanbusiness #homerepair",
@@ -1824,7 +1864,12 @@
   "#wholesalebusiness #distributor #b2bordering #canadasmallbusiness",
   "#upholstery #sofarepair #sofafabric #upholsteryindia",
   "#usedcardealer #usedcars #cardealership #autodealer",
-  "#namkeen #snackmanufacturer #foodmanufacturing #namkeenbusiness #msmeindia"
+  "#namkeen #snackmanufacturer #foodmanufacturing #namkeenbusiness #msmeindia",
+  "#cabservice #taxiservice #fleetowner #travelsbusiness",
+  "#homestay #homestayindia #hillstay #directbooking",
+  "#deliverybusiness #courierservice #lastmiledelivery #smallbusinessusa",
+  "#flourmill #attachakki #chakki #smallbusinessindia",
+  "#expensetracker #budgetplanner #moneymanagement #personalapp"
  ],
  "drive_index_at_post": 115
 }
