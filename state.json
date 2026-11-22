@@ -3,7 +3,7 @@
  "drive_index_sheet_id": "14v7og6KbDzqKiAXuJB5KfokQO5Iw0fS_A7lTI_hH5E8",
  "lock_until_utc": "2026-11-22T21:16:08Z",
  "last_run": "2026-11-22T19:42:32Z \u00b7 posts 211-225 made (batches 39-41), Drive 1-225 done, index sheet refreshed at 215 (next ~240)",
- "next_post_no": 226,
+ "next_post_no": 231,
  "posts_done": [
   {
    "n": 1,
@@ -1804,11 +1804,51 @@
    "slides": 1,
    "market": "India",
    "category": "SewingMachineRepair"
+  },
+  {
+   "n": 226,
+   "dir": "posts/0226_SINGLE_India_FireExtinguisherRefill",
+   "format": "SINGLE",
+   "slides": 1,
+   "market": "India",
+   "category": "FireExtinguisherRefill"
+  },
+  {
+   "n": 227,
+   "dir": "posts/0227_CAROUSEL_India_BangleWholesaler",
+   "format": "CAROUSEL",
+   "slides": 5,
+   "market": "India",
+   "category": "BangleWholesaler"
+  },
+  {
+   "n": 228,
+   "dir": "posts/0228_SINGLE_Canada_GutterCleaning",
+   "format": "SINGLE",
+   "slides": 1,
+   "market": "Canada",
+   "category": "GutterCleaning"
+  },
+  {
+   "n": 229,
+   "dir": "posts/0229_SINGLE_India_PunctureVan",
+   "format": "SINGLE",
+   "slides": 1,
+   "market": "India",
+   "category": "PunctureVan"
+  },
+  {
+   "n": 230,
+   "dir": "posts/0230_SINGLE_India_UsedBookSeller",
+   "format": "SINGLE",
+   "slides": 1,
+   "market": "India",
+   "category": "UsedBookSeller"
   }
  ],
  "market_counts": {
-  "India": 158,
-  "Abroad": 67
+  "India": 162,
+  "Abroad": 68
  },
  "used_categories": [
   "Boutique",
@@ -2042,14 +2082,14 @@
   "ChimneyCleaning",
   "DogDaycare",
   "TerraceGardenSetup",
-  "SewingMachineRepair"
+  "SewingMachineRepair",
+  "FireExtinguisherRefill",
+  "BangleWholesaler",
+  "GutterCleaning",
+  "PunctureVan",
+  "UsedBookSeller"
  ],
  "recent_palettes": [
-  "deep indigo/frost white/sunrise yellow",
-  "linen/terracotta/olive",
-  "brick red/soot black/snow cream",
-  "graphite/LED amber/mist",
-  "deep sea teal/coral/sand",
   "forest green/birch cream/rust",
   "steel blue/khaki/charcoal",
   "powder blue/white/plum",
@@ -2069,7 +2109,12 @@
   "brushed steel/ink blue/lime",
   "grass green/sunny yellow/charcoal",
   "sage white/basil green/sunset coral",
-  "mint/cherry red/black"
+  "mint/cherry red/black",
+  "extinguisher red/graphite/pale lemon",
+  "magenta/emerald/ivory",
+  "slate roof/autumn orange/sky white",
+  "rubber black/safety orange/concrete",
+  "paper cream/library green/oxblood"
  ],
  "drive_files_done": [
   1,
@@ -2299,66 +2344,6 @@
   225
  ],
  "log": [
-  {
-   "n": 196,
-   "date": "2026-11-22",
-   "format": "CAROUSEL",
-   "market": "India",
-   "category": "WeddingBandDhol",
-   "palette": "teal green/brass/cream",
-   "fonts": "Cardo + Poppins",
-   "layout": "call cards with Diary? tags, month calendar with brass coins for booked + dashed holds, team count tiles + route card, payment status list + team/client alert cards, numbered tiles CTA",
-   "dots": 2,
-   "phone": false
-  },
-  {
-   "n": 197,
-   "date": "2026-11-22",
-   "format": "SINGLE",
-   "market": "India",
-   "category": "TyreRetreading",
-   "palette": "carbon/safety orange/fog",
-   "fonts": "Archivo Black + DM Sans",
-   "layout": "SVG truck tyre with 6-segment progress ring + dark stage list + casing grid",
-   "dots": 4,
-   "phone": false
-  },
-  {
-   "n": 198,
-   "date": "2026-11-22",
-   "format": "SINGLE",
-   "market": "USA",
-   "category": "BikeRepairShop",
-   "palette": "sage/ink/orange",
-   "fonts": "Bitter + Fira Sans",
-   "layout": "SVG bicycle with hanging claim tag + dark repair queue rows + text note",
-   "dots": 1,
-   "phone": false
-  },
-  {
-   "n": 199,
-   "date": "2026-11-22",
-   "format": "SINGLE",
-   "market": "India",
-   "category": "BananaRipening",
-   "palette": "banana yellow/leaf green/brown",
-   "fonts": "Gelasio + Inter",
-   "layout": "2x2 chamber cards with louvred doors, banana hands tinted by ripening day, day dashes, dispatch date + truck order card",
-   "dots": 3,
-   "phone": false
-  },
-  {
-   "n": 200,
-   "date": "2026-11-22",
-   "format": "CAROUSEL",
-   "market": "Canada",
-   "category": "WinterTireSwap",
-   "palette": "ice blue/tire black/signal red",
-   "fonts": "Montserrat + Fira Sans",
-   "layout": "red-edged problem cards + tire stacks with tags, week slot grid, tire storage rack bay map, staggered text message cards, tire row + icon tiles CTA",
-   "dots": 5,
-   "phone": false
-  },
   {
    "n": 201,
    "date": "2026-11-22",
@@ -2658,14 +2643,69 @@
    "layout": "side-view sewing machine with numbered tap hotspots + problems list + dark visit card with parts used",
    "dots": 1,
    "phone": false
+  },
+  {
+   "n": 226,
+   "date": "2026-11-22",
+   "format": "SINGLE",
+   "market": "India",
+   "category": "FireExtinguisherRefill",
+   "palette": "extinguisher red/graphite/pale lemon",
+   "fonts": "Montserrat + Roboto",
+   "layout": "wall rail of 6 drawn cylinders with gauge needles + hanging due tags + dark site summary + reminder message with visit days",
+   "dots": 3,
+   "phone": false
+  },
+  {
+   "n": 227,
+   "date": "2026-11-22",
+   "format": "CAROUSEL",
+   "market": "India",
+   "category": "BangleWholesaler",
+   "palette": "magenta/emerald/ivory",
+   "fonts": "Cardo + Inter",
+   "layout": "bangle rods (stacked ellipses) + vague chat bubbles, browser colour list with drawn bangle pairs, colour x size dozen heatmap, packing boxes + dispatch board by town, rods + 4 tiles CTA",
+   "dots": 5,
+   "phone": false
+  },
+  {
+   "n": 228,
+   "date": "2026-11-22",
+   "format": "SINGLE",
+   "market": "Canada",
+   "category": "GutterCleaning",
+   "palette": "slate roof/autumn orange/sky white",
+   "fonts": "Anton + Source Sans 3",
+   "layout": "street of 5 house elevations with leaf-filled vs clean gutters + numbered route + status chips + before/after photo card",
+   "dots": 2,
+   "phone": false
+  },
+  {
+   "n": 229,
+   "date": "2026-11-22",
+   "format": "SINGLE",
+   "market": "India",
+   "category": "PunctureVan",
+   "palette": "rubber black/safety orange/concrete",
+   "fonts": "DM Sans + Fira Sans",
+   "layout": "van stock as tube rings with reorder flag + job log + phone booking with drawn location map",
+   "dots": 4,
+   "phone": true
+  },
+  {
+   "n": 230,
+   "date": "2026-11-22",
+   "format": "SINGLE",
+   "market": "India",
+   "category": "UsedBookSeller",
+   "palette": "paper cream/library green/oxblood",
+   "fonts": "Lora + Open Sans",
+   "layout": "wooden bookshelf of vertical-text spines with found spine outlined + browser search results with shelf spots",
+   "dots": 1,
+   "phone": false
   }
  ],
  "recent_fonts": [
-  "Anton + DM Sans",
-  "Crimson Text + Source Sans 3",
-  "Gelasio + Fira Sans",
-  "Montserrat + Roboto",
-  "TeX Gyre Adventor + Inter",
   "Lora + Fira Sans",
   "Poppins + Roboto",
   "Montserrat + Inter",
@@ -2685,14 +2725,14 @@
   "Poppins + Fira Sans",
   "TeX Gyre Adventor + Roboto",
   "Crimson Text + Inter",
-  "Bitter + Open Sans"
+  "Bitter + Open Sans",
+  "Montserrat + Roboto",
+  "Cardo + Inter",
+  "Anton + Source Sans 3",
+  "DM Sans + Fira Sans",
+  "Lora + Open Sans"
  ],
  "recent_layouts": [
-  "radial 12-hour clock dial with coloured delivery slot arcs + numbered pins + hands, round list rows with status, 3 horizontal stat cards",
-  "torn paper slip with handwritten sizes + problem cards, 2x2 drawn windows with dimension lines, CSS fabric swatches + metres table, item x stage dot matrix + fitting card, big window + 4 tiles CTA",
-  "drawn house with brick chimney + tag panel beside browser booking (ZIP check, service radio, day and time chips) + dark report chip bar",
-  "3x2 lift cards with glowing LED floor displays over steel doors (one open, dark = breakdown) + 2 technician cards",
-  "wide SVG aquarium hero with tag + 15-day visit cycle strip, last-visit checklist + coral reminder card",
   "woodpile of log ends with growth rings split into 3 order-coloured sections + order cards, 5-day area delivery strip, rust note bar",
   "shirt SVG with size tag + quote note cards, browser size form + progress bar, stacked size bars per department + size total tiles, carton progress cards + dashed pack label, shirt + 4 row tiles CTA",
   "out vs back table with folded linen stacks sized by count + diff chips, 3 total tiles, navy note",
@@ -2712,14 +2752,14 @@
   "drawn chimney hood with 6 baffle filters showing grease level + AMC visit dots + booking phone",
   "top-down play yard with fenced group zones and paw spots (filled vs dashed) + 3 capacity cards",
   "to-scale terrace plan (empty, sun zones, planter boxes), plant cards with leaves, month calendar + photo report, plan + 2x2 tiles CTA",
-  "side-view sewing machine with numbered tap hotspots + problems list + dark visit card with parts used"
+  "side-view sewing machine with numbered tap hotspots + problems list + dark visit card with parts used",
+  "wall rail of 6 drawn cylinders with gauge needles + hanging due tags + dark site summary + reminder message with visit days",
+  "bangle rods (stacked ellipses) + vague chat bubbles, browser colour list with drawn bangle pairs, colour x size dozen heatmap, packing boxes + dispatch board by town, rods + 4 tiles CTA",
+  "street of 5 house elevations with leaf-filled vs clean gutters + numbered route + status chips + before/after photo card",
+  "van stock as tube rings with reorder flag + job log + phone booking with drawn location map",
+  "wooden bookshelf of vertical-text spines with found spine outlined + browser search results with shelf spots"
  ],
  "used_hashtag_sets": [
-  "#scooterrental #bikerental #bikeonrent #tourismbusiness",
-  "#windowcleaning #windowcleaningbusiness #routeplanning #homeservicepros",
-  "#electricalshop #electricalgoods #electricalcontractor #shopkeeperlife",
-  "#homeorganizer #professionalorganizer #closetorganization #organizingbusiness #smallbusinessowner",
-  "#mobileaccessories #mobileaccessorieswholesale #wholesalebusiness #b2bindia",
   "#furniturerental #furnitureonrent #rentalbusiness #appliancerental",
   "#solarwaterheater #solarheater #solardealer #solarinstallation #smallbusinessindia",
   "#mobilecarwash #mobiledetailing #carwashbusiness #detailingbusiness",
@@ -2774,7 +2814,12 @@
   "#chimneycleaning #kitchenchimney #homeservicesindia #amcservice",
   "#dogdaycare #doggydaycare #petbusiness #dogsofusa",
   "#terracegarden #kitchengarden #urbangardeningindia #gardeningservices",
-  "#sewingmachinerepair #sewingmachine #repairservice #tailoringindia"
+  "#sewingmachinerepair #sewingmachine #repairservice #tailoringindia",
+  "#fireextinguisher #fireextinguisherrefilling #smallbusinessindia #serviceapp",
+  "#bangles #bangleswholesale #wholesalebusiness #fancystore #indianbusiness",
+  "#guttercleaning #gutters #exteriorcleaning #canadabusiness",
+  "#punctureshop #tyrerepair #roadsideassistance #tyreservice",
+  "#secondhandbooks #usedbooks #bookshopindia #booklovers"
  ],
  "drive_index_at_post": 215
 }
