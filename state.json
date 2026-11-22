@@ -3,7 +3,7 @@
  "drive_index_sheet_id": "1xFLY19Eqz0Nns5J6UVxomG2DnBAv_kkqnKLf0H6TGvY",
  "lock_until_utc": "2026-11-22T22:15:55Z",
  "last_run": "2026-11-22T20:54:12Z \u00b7 posts 226-250 made (batches 42-46), Drive 1-250 done, index sheet refreshed at 240 (old sheet could not be trashed: permission denied, id kept in old_index_sheets_to_trash)",
- "next_post_no": 251,
+ "next_post_no": 256,
  "posts_done": [
   {
    "n": 1,
@@ -2004,11 +2004,51 @@
    "slides": 1,
    "market": "Canada",
    "category": "SeasonalLights"
+  },
+  {
+   "n": 251,
+   "dir": "posts/0251_SINGLE_India_MeshFitter",
+   "format": "SINGLE",
+   "slides": 1,
+   "market": "India",
+   "category": "MeshFitter"
+  },
+  {
+   "n": 252,
+   "dir": "posts/0252_CAROUSEL_India_TexturePainting",
+   "format": "CAROUSEL",
+   "slides": 6,
+   "market": "India",
+   "category": "TexturePainting"
+  },
+  {
+   "n": 253,
+   "dir": "posts/0253_SINGLE_USA_MovingLabor",
+   "format": "SINGLE",
+   "slides": 1,
+   "market": "USA",
+   "category": "MovingLabor"
+  },
+  {
+   "n": 254,
+   "dir": "posts/0254_SINGLE_India_SeniorComputerClasses",
+   "format": "SINGLE",
+   "slides": 1,
+   "market": "India",
+   "category": "SeniorComputerClasses"
+  },
+  {
+   "n": 255,
+   "dir": "posts/0255_SINGLE_India_FabricStore",
+   "format": "SINGLE",
+   "slides": 1,
+   "market": "India",
+   "category": "FabricStore"
   }
  ],
  "market_counts": {
-  "India": 175,
-  "Abroad": 75
+  "India": 179,
+  "Abroad": 76
  },
  "used_categories": [
   "Boutique",
@@ -2267,14 +2307,14 @@
   "BatterMaker",
   "DocumentCourier",
   "PaperCupSupplier",
-  "SeasonalLights"
+  "SeasonalLights",
+  "MeshFitter",
+  "TexturePainting",
+  "MovingLabor",
+  "SeniorComputerClasses",
+  "FabricStore"
  ],
  "recent_palettes": [
-  "extinguisher red/graphite/pale lemon",
-  "magenta/emerald/ivory",
-  "slate roof/autumn orange/sky white",
-  "rubber black/safety orange/concrete",
-  "paper cream/library green/oxblood",
   "wax beige/charcoal/lavender",
   "appliance white/steel teal/tangerine",
   "notebook blue/highlighter yellow/white",
@@ -2294,7 +2334,12 @@
   "rice white/banana leaf green/chutney red",
   "envelope buff/royal blue/lime",
   "paper white/coffee brown/teal",
-  "night navy/warm bulb yellow/snow"
+  "night navy/warm bulb yellow/snow",
+  "slate blue/mint/coral",
+  "terracotta/sand/charcoal",
+  "kraft tan/forest green/marigold",
+  "chalk green/cream/tomato",
+  "plum velvet/mustard/linen"
  ],
  "drive_files_done": [
   1,
@@ -2549,66 +2594,6 @@
   250
  ],
  "log": [
-  {
-   "n": 221,
-   "date": "2026-11-22",
-   "format": "SINGLE",
-   "market": "India",
-   "category": "HotelVegSupplier",
-   "palette": "tomato red/leaf green/crate wood",
-   "fonts": "Archivo Black + Source Sans 3",
-   "layout": "weighing scale with crate + LCD readout beside asked vs weighed order list with check dots",
-   "dots": 3,
-   "phone": false
-  },
-  {
-   "n": 222,
-   "date": "2026-11-22",
-   "format": "SINGLE",
-   "market": "India",
-   "category": "ChimneyCleaning",
-   "palette": "brushed steel/ink blue/lime",
-   "fonts": "Poppins + Fira Sans",
-   "layout": "drawn chimney hood with 6 baffle filters showing grease level + AMC visit dots + booking phone",
-   "dots": 5,
-   "phone": true
-  },
-  {
-   "n": 223,
-   "date": "2026-11-22",
-   "format": "SINGLE",
-   "market": "USA",
-   "category": "DogDaycare",
-   "palette": "grass green/sunny yellow/charcoal",
-   "fonts": "TeX Gyre Adventor + Roboto",
-   "layout": "top-down play yard with fenced group zones and paw spots (filled vs dashed) + 3 capacity cards",
-   "dots": 2,
-   "phone": false
-  },
-  {
-   "n": 224,
-   "date": "2026-11-22",
-   "format": "CAROUSEL",
-   "market": "India",
-   "category": "TerraceGardenSetup",
-   "palette": "sage white/basil green/sunset coral",
-   "fonts": "Crimson Text + Inter",
-   "layout": "to-scale terrace plan (empty, sun zones, planter boxes), plant cards with leaves, month calendar + photo report, plan + 2x2 tiles CTA",
-   "dots": 4,
-   "phone": false
-  },
-  {
-   "n": 225,
-   "date": "2026-11-22",
-   "format": "SINGLE",
-   "market": "India",
-   "category": "SewingMachineRepair",
-   "palette": "mint/cherry red/black",
-   "fonts": "Bitter + Open Sans",
-   "layout": "side-view sewing machine with numbered tap hotspots + problems list + dark visit card with parts used",
-   "dots": 1,
-   "phone": false
-  },
   {
    "n": 226,
    "date": "2026-11-22",
@@ -2908,14 +2893,69 @@
    "layout": "night house elevation with bulb dots on measured runs + runs list + install/take-down date cards",
    "dots": 1,
    "phone": false
+  },
+  {
+   "n": 251,
+   "date": "2026-11-22",
+   "format": "SINGLE",
+   "market": "India",
+   "category": "MeshFitter",
+   "palette": "slate blue/mint/coral",
+   "fonts": "Archivo Black + Source Sans 3",
+   "layout": "drawn window with SVG mesh pattern + dimension arrows + info tiles, site list of all windows, 3 dark bottom cards",
+   "dots": 2,
+   "phone": false
+  },
+  {
+   "n": 252,
+   "date": "2026-11-22",
+   "format": "CAROUSEL",
+   "market": "India",
+   "category": "TexturePainting",
+   "palette": "terracotta/sand/charcoal",
+   "fonts": "Cardo + Open Sans",
+   "layout": "6 CSS texture swatches hook, tablet catalogue, measured wall minus window maths, wall-by-wall quote doc, site days list with photo status, swatches + tiles CTA",
+   "dots": 5,
+   "phone": false
+  },
+  {
+   "n": 253,
+   "date": "2026-11-22",
+   "format": "SINGLE",
+   "market": "USA",
+   "category": "MovingLabor",
+   "palette": "kraft tan/forest green/marigold",
+   "fonts": "TeX Gyre Adventor + Roboto",
+   "layout": "room-by-room item counter with box tallies + dark crew plan card with rule and load/drive/unload time bar",
+   "dots": 3,
+   "phone": false
+  },
+  {
+   "n": 254,
+   "date": "2026-11-22",
+   "format": "SINGLE",
+   "market": "India",
+   "category": "SeniorComputerClasses",
+   "palette": "chalk green/cream/tomato",
+   "fonts": "Crimson Text + Poppins",
+   "layout": "CSS keyboard with lesson keys lit + batch seat dots + lined practice sheet",
+   "dots": 1,
+   "phone": false
+  },
+  {
+   "n": 255,
+   "date": "2026-11-22",
+   "format": "SINGLE",
+   "market": "India",
+   "category": "FabricStore",
+   "palette": "plum velvet/mustard/linen",
+   "fonts": "Lora + Montserrat",
+   "layout": "fabric swatches hanging from a brass rail with CSS weaves + measurement order + total cloth cards",
+   "dots": 4,
+   "phone": false
   }
  ],
  "recent_fonts": [
-  "Montserrat + Roboto",
-  "Cardo + Inter",
-  "Anton + Source Sans 3",
-  "DM Sans + Fira Sans",
-  "Lora + Open Sans",
   "Gelasio + Inter",
   "Archivo Black + Inter",
   "Bitter + Roboto",
@@ -2935,14 +2975,14 @@
   "Lora + Inter",
   "DM Sans + Roboto",
   "Gelasio + Open Sans",
-  "Anton + Fira Sans"
+  "Anton + Fira Sans",
+  "Archivo Black + Source Sans 3",
+  "Cardo + Open Sans",
+  "TeX Gyre Adventor + Roboto",
+  "Crimson Text + Poppins",
+  "Lora + Montserrat"
  ],
  "recent_layouts": [
-  "wall rail of 6 drawn cylinders with gauge needles + hanging due tags + dark site summary + reminder message with visit days",
-  "bangle rods (stacked ellipses) + vague chat bubbles, browser colour list with drawn bangle pairs, colour x size dozen heatmap, packing boxes + dispatch board by town, rods + 4 tiles CTA",
-  "street of 5 house elevations with leaf-filled vs clean gutters + numbered route + status chips + before/after photo card",
-  "van stock as tube rings with reorder flag + job log + phone booking with drawn location map",
-  "wooden bookshelf of vertical-text spines with found spine outlined + browser search results with shelf spots",
   "big candle jar + lined notebook, batch card tiles + 7-day cure strip, curing rack shelves with days-left badges, orders matched to batches + stat row, jars + 4 tiles CTA",
   "measured laundry nook elevation with dimension tags + install checklist + dark haul-away list with slots",
   "clipboard with metal clip holding repeat order list (drawn items, Nov vs Dec qty) + delivery days card",
@@ -2962,14 +3002,14 @@
   "fridge crate of packets with made-on dates, order sheet by packet size, vertical van route timeline, returns rows with packet icons, packets + tiles CTA",
   "big envelope with flap and stamp as tracking card + proof photo frames",
   "4 shop columns with nested cup stacks (1 cup = 100) vs usual-week dashed line + reorder flags",
-  "night house elevation with bulb dots on measured runs + runs list + install/take-down date cards"
+  "night house elevation with bulb dots on measured runs + runs list + install/take-down date cards",
+  "drawn window with SVG mesh pattern + dimension arrows + info tiles, site list of all windows, 3 dark bottom cards",
+  "6 CSS texture swatches hook, tablet catalogue, measured wall minus window maths, wall-by-wall quote doc, site days list with photo status, swatches + tiles CTA",
+  "room-by-room item counter with box tallies + dark crew plan card with rule and load/drive/unload time bar",
+  "CSS keyboard with lesson keys lit + batch seat dots + lined practice sheet",
+  "fabric swatches hanging from a brass rail with CSS weaves + measurement order + total cloth cards"
  ],
  "used_hashtag_sets": [
-  "#borewell #borewelldrilling #borewellcontractor #drillingrig",
-  "#icecreamparlour #icecreamshop #partyorders #dessertshopindia",
-  "#appliancerepair #appliancerepairservice #homeappliancerepair #fieldservice",
-  "#waterproofing #waterproofingcontractor #terracewaterproofing #leakagesolution",
-  "#selfdrivecars #carrental #selfdrivecarrental #rentalbusinessindia",
   "#weddingband #dholplayers #brassband #weddingbandbooking",
   "#tyreretreading #retreadtyres #truckowners #tyrebusiness",
   "#bikeshop #bikerepair #bicycleshop #bikemechanic",
@@ -3024,7 +3064,12 @@
   "#idlibatter #dosabatter #foodbusinessindia #homemadefood",
   "#courierservice #samedaydelivery #documentdelivery #localbusinessindia",
   "#papercups #disposablecups #packagingsupplier #teastall",
-  "#lightinstallation #holidaylights #outdoorlighting #canadabusiness"
+  "#lightinstallation #holidaylights #outdoorlighting #canadabusiness",
+  "#mosquitonet #windowmesh #homeimprovementindia #smallbusinessindia",
+  "#texturepainting #wallpainting #interiorpainting #paintingcontractor #homedecorindia",
+  "#movinglabor #movingservices #movinghelp #smallbusinessusa",
+  "#computerclasses #seniorlearners #digitalliteracy #trainingcentreindia",
+  "#sofafabric #curtainfabric #upholsteryfabric #homefurnishing"
  ],
  "drive_index_at_post": 240,
  "old_index_sheets_to_trash": [

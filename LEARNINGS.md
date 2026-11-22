@@ -187,3 +187,7 @@
 - (b046) Status rules must match the drawing: "OK this week" only when stock >= the usual-week line; derive the label from the numbers, not by hand. Draw the object the label names (cups, not plates).
 - (b046) Re-derive every total across carousel slides before rendering (van load 95 = sum of the order sheet), and never leave a placeholder sentence in a stat card.
 - (b046) New techniques: envelope as a tracking card (clip-path flap), window shade opacity by %, night house with bulb runs, fridge crate of dated packets, vertical route timeline with connector.
+- (b047) Cardo and Source Sans titles at line-height 1.25-1.3 with a span line under them flag OVERLAP; use 1.4 plus 3-4px margin-bottom on Cardo titles from the start.
+- (b047) A landscape drawing (window 4:3) in a tall card leaves a dead band; plan 2x2 key-value tiles under the drawing (opens, mesh, frame, photo) so the card fills with real data.
+- (b047) Dark "plan" cards with a big number + time bar need 3 detail rows (stairs, heavy items, your rule) between them, and the rule must reproduce the number (32 items / 40 per mover = 1, +1 stairs = 2).
+- (b047) CSS fabric weaves: repeating 45deg stripes in a fixed-size tile show seams; use the four-triangle chevron pattern (25% gradients at 24px) and name the swatch for what it looks like (chevron). New techniques: SVG mesh pattern over a window, CSS texture library reused across a carousel, CSS keyboard with lit keys, swatch rail. Next: pegboard of products, top-down table plan, receipt-style weekly bill.
