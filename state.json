@@ -3,7 +3,7 @@
  "drive_index_sheet_id": "14v7og6KbDzqKiAXuJB5KfokQO5Iw0fS_A7lTI_hH5E8",
  "lock_until_utc": "2026-11-22T20:21:02Z",
  "last_run": "2026-11-22T18:37:35Z \u00b7 posts 201-210 made (batches 37-38), Drive 1-210 done, index sheet due at ~215",
- "next_post_no": 216,
+ "next_post_no": 221,
  "posts_done": [
   {
    "n": 1,
@@ -1724,11 +1724,51 @@
    "slides": 1,
    "market": "India",
    "category": "TempoTravellerRental"
+  },
+  {
+   "n": 216,
+   "dir": "posts/0216_CAROUSEL_USA_AlterationsShop",
+   "format": "CAROUSEL",
+   "slides": 5,
+   "market": "USA",
+   "category": "AlterationsShop"
+  },
+  {
+   "n": 217,
+   "dir": "posts/0217_SINGLE_India_CattleFeedDealer",
+   "format": "SINGLE",
+   "slides": 1,
+   "market": "India",
+   "category": "CattleFeedDealer"
+  },
+  {
+   "n": 218,
+   "dir": "posts/0218_SINGLE_India_SofaMattressCleaning",
+   "format": "SINGLE",
+   "slides": 1,
+   "market": "India",
+   "category": "SofaMattressCleaning"
+  },
+  {
+   "n": 219,
+   "dir": "posts/0219_SINGLE_Canada_SmallManufacturer",
+   "format": "SINGLE",
+   "slides": 1,
+   "market": "Canada",
+   "category": "SmallManufacturer"
+  },
+  {
+   "n": 220,
+   "dir": "posts/0220_CAROUSEL_India_PickleBusiness",
+   "format": "CAROUSEL",
+   "slides": 5,
+   "market": "India",
+   "category": "PickleBusiness"
   }
  ],
  "market_counts": {
-  "India": 151,
-  "Abroad": 64
+  "India": 154,
+  "Abroad": 66
  },
  "used_categories": [
   "Boutique",
@@ -1952,14 +1992,14 @@
   "PhotoFrameShop",
   "MobileNotary",
   "RubberStampMaker",
-  "TempoTravellerRental"
+  "TempoTravellerRental",
+  "AlterationsShop",
+  "CattleFeedDealer",
+  "SofaMattressCleaning",
+  "SmallManufacturer",
+  "PickleBusiness"
  ],
  "recent_palettes": [
-  "earth brown/water blue/off-white",
-  "strawberry pink/pistachio/plum",
-  "off-white/cobalt/amber",
-  "storm grey/teal/white",
-  "black/racing red/silver",
   "teal green/brass/cream",
   "carbon/safety orange/fog",
   "sage/ink/orange",
@@ -1979,7 +2019,12 @@
   "walnut brown/gallery white/gold leaf",
   "navy ink/parchment/seal red",
   "stamp violet/kraft/black",
-  "asphalt/lane yellow/sky"
+  "asphalt/lane yellow/sky",
+  "chalk pink/thread navy/pin silver",
+  "straw yellow/field green/soil brown",
+  "foam aqua/deep navy/white",
+  "blueprint blue/white/signal yellow",
+  "mustard/chilli red/jar green"
  ],
  "drive_files_done": [
   1,
@@ -2199,66 +2244,6 @@
   215
  ],
  "log": [
-  {
-   "n": 186,
-   "date": "2026-11-22",
-   "format": "SINGLE",
-   "market": "India",
-   "category": "MattressMaker",
-   "palette": "lavender/deep navy/coral",
-   "fonts": "Montserrat + DM Sans",
-   "layout": "top-down SVG bed frame with red dimension arrows + navy order card with proportional layer stack + confirm bar",
-   "dots": 2,
-   "phone": false
-  },
-  {
-   "n": 187,
-   "date": "2026-11-22",
-   "format": "CAROUSEL",
-   "market": "USA",
-   "category": "PotteryStudio",
-   "palette": "oatmeal/glaze teal/clay brown",
-   "fonts": "Gelasio + Open Sans",
-   "layout": "SVG drying shelf with hanging question tags, browser class list with seat dots, piece tracker with 4-stage pips, kiln load arches + text bubble, coloured pot shelf + tiles CTA",
-   "dots": 5,
-   "phone": false
-  },
-  {
-   "n": 188,
-   "date": "2026-11-22",
-   "format": "SINGLE",
-   "market": "India",
-   "category": "CementDealer",
-   "palette": "cement grey/emerald/charcoal",
-   "fonts": "Anton + Roboto",
-   "layout": "SVG pallet stacks of cement bags as godown stock + dark site delivery rows with status chips + totals",
-   "dots": 3,
-   "phone": false
-  },
-  {
-   "n": 189,
-   "date": "2026-11-22",
-   "format": "CAROUSEL",
-   "market": "India",
-   "category": "DanceClassesAdults",
-   "palette": "midnight/electric violet/lemon",
-   "fonts": "Poppins + Inter",
-   "layout": "glowing dance-floor tile attendance grid, week bar timetable, fee list + phone reminder chat, numbered sign-up tiles coloured by group, 4 colour block CTA",
-   "dots": 1,
-   "phone": true
-  },
-  {
-   "n": 190,
-   "date": "2026-11-22",
-   "format": "SINGLE",
-   "market": "Canada",
-   "category": "Locksmith",
-   "palette": "brass/black/off-white",
-   "fonts": "Cardo + Roboto",
-   "layout": "SVG key ring with 4 keys each carrying a job tag (type, area, time) + dark request form bar",
-   "dots": 4,
-   "phone": false
-  },
   {
    "n": 191,
    "date": "2026-11-22",
@@ -2558,14 +2543,69 @@
    "layout": "horizontal road ribbon timeline with day pins + odometer digit readouts + dark trip log totals + 3 side cards",
    "dots": 4,
    "phone": false
+  },
+  {
+   "n": 216,
+   "date": "2026-11-22",
+   "format": "CAROUSEL",
+   "market": "USA",
+   "category": "AlterationsShop",
+   "palette": "chalk pink/thread navy/pin silver",
+   "fonts": "Gelasio + DM Sans",
+   "layout": "garment rack with hanging tickets, pinned garment + ticket card, ready-date kanban with open slots, pickup rack slot grid, tile CTA",
+   "dots": 3,
+   "phone": false
+  },
+  {
+   "n": 217,
+   "date": "2026-11-22",
+   "format": "SINGLE",
+   "market": "India",
+   "category": "CattleFeedDealer",
+   "palette": "straw yellow/field green/soil brown",
+   "fonts": "Fira Sans + Open Sans",
+   "layout": "top-down tractor + trolley load plan with sack grid coloured by village drop + drop cards + credit card",
+   "dots": 5,
+   "phone": false
+  },
+  {
+   "n": 218,
+   "date": "2026-11-22",
+   "format": "SINGLE",
+   "market": "India",
+   "category": "SofaMattressCleaning",
+   "palette": "foam aqua/deep navy/white",
+   "fonts": "Poppins + Source Sans 3",
+   "layout": "booking card with drawn sofas (numbered cushions) and mattress as booked items + slot rail + 3 crew cards",
+   "dots": 2,
+   "phone": false
+  },
+  {
+   "n": 219,
+   "date": "2026-11-22",
+   "format": "SINGLE",
+   "market": "Canada",
+   "category": "SmallManufacturer",
+   "palette": "blueprint blue/white/signal yellow",
+   "fonts": "TeX Gyre Adventor + Open Sans",
+   "layout": "top-down production line on blueprint grid with order boxes at stations + browser order portal with stage bar",
+   "dots": 4,
+   "phone": false
+  },
+  {
+   "n": 220,
+   "date": "2026-11-22",
+   "format": "CAROUSEL",
+   "market": "India",
+   "category": "PickleBusiness",
+   "palette": "mustard/chilli red/jar green",
+   "fonts": "Lora + Roboto",
+   "layout": "big jar + chat bubbles, browser order page with jar size steppers, jar fill-level batch plan on a shelf, parcel labels with barcodes by zone, tile CTA",
+   "dots": 1,
+   "phone": false
   }
  ],
  "recent_fonts": [
-  "Archivo Black + Open Sans",
-  "Lora + DM Sans",
-  "Montserrat + Open Sans",
-  "Bitter + Source Sans 3",
-  "Anton + Inter",
   "Cardo + Poppins",
   "Archivo Black + DM Sans",
   "Bitter + Fira Sans",
@@ -2585,14 +2625,14 @@
   "Cardo + Inter",
   "Crimson Text + DM Sans",
   "Bitter + DM Sans",
-  "Archivo Black + Roboto"
+  "Archivo Black + Roboto",
+  "Gelasio + DM Sans",
+  "Fira Sans + Open Sans",
+  "Poppins + Source Sans 3",
+  "TeX Gyre Adventor + Open Sans",
+  "Lora + Roboto"
  ],
  "recent_layouts": [
-  "SVG ground cross-section with depth ruler + drill line and water tag, dark borewell report card, rig week list",
-  "diagonal clip-path before/after split: call note with question chips vs dark order form with drawn ice cream cups, centre badge",
-  "staggered notification card stack with appliance icons, browser booking with appliance picker, parts board tied to jobs, vertical tech day timeline, appliance icon row + tiles CTA",
-  "top-down terrace plan SVG with numbered status points + dark point list with stage photo tags + teal report card",
-  "pickup vs return dashboard fuel gauges with odometers + white trip summary with check chips",
   "call cards with Diary? tags, month calendar with brass coins for booked + dashed holds, team count tiles + route card, payment status list + team/client alert cards, numbered tiles CTA",
   "SVG truck tyre with 6-segment progress ring + dark stage list + casing grid",
   "SVG bicycle with hanging claim tag + dark repair queue rows + text note",
@@ -2612,14 +2652,14 @@
   "proportional frame wall with question tags, tablet order form with wood moulding swatches, frame preview with dimension arrows, bench job list + ready text, tile CTA",
   "booking phone + travel-area zone rings map with visit pins + day visit list",
   "two round stamp proofs (SVG textPath + ink turbulence) change vs approved + 4-step time strip",
-  "horizontal road ribbon timeline with day pins + odometer digit readouts + dark trip log totals + 3 side cards"
+  "horizontal road ribbon timeline with day pins + odometer digit readouts + dark trip log totals + 3 side cards",
+  "garment rack with hanging tickets, pinned garment + ticket card, ready-date kanban with open slots, pickup rack slot grid, tile CTA",
+  "top-down tractor + trolley load plan with sack grid coloured by village drop + drop cards + credit card",
+  "booking card with drawn sofas (numbered cushions) and mattress as booked items + slot rail + 3 crew cards",
+  "top-down production line on blueprint grid with order boxes at stations + browser order portal with stage bar",
+  "big jar + chat bubbles, browser order page with jar size steppers, jar fill-level batch plan on a shelf, parcel labels with barcodes by zone, tile CTA"
  ],
  "used_hashtag_sets": [
-  "#watertanker #watersupply #tankerservice #smallbusinessowner",
-  "#bridalwearrental #lehengaonrent #rentaloutfits #bridalboutique",
-  "#skirental #snowboardrental #skishop #skiseason",
-  "#generatorrental #gensetrental #dieselgenerator #eventpower",
-  "#spokenenglish #englishclasses #englishinstitute #communicationskills",
   "#chairrental #tentandfurniture #eventrentals #rentalbusiness",
   "#garagedoorrepair #garagedoorservice #homeservicebusiness #fieldservice #contractorlife",
   "#gasstoverepair #gasstoveservice #kitchenappliancerepair #homeservicesindia",
@@ -2674,7 +2714,12 @@
   "#photoframes #customframing #framingshop #homedecorindia #smallbusinessindia",
   "#mobilenotary #notarypublic #notaryservices #smallbusinessowner",
   "#rubberstamp #selfinkingstamp #stampmaker #printingbusinessindia",
-  "#tempotraveller #tempotravellerrental #travelbusinessindia #fleetowners"
+  "#tempotraveller #tempotravellerrental #travelbusinessindia #fleetowners",
+  "#alterations #tailorshop #clothingalterations #smallbusinessusa",
+  "#cattlefeed #animalfeed #feeddealer #dairyfarmingindia",
+  "#sofacleaning #mattresscleaning #homecleaningservices #cleaningbusinessindia",
+  "#manufacturing #metalfabrication #smallmanufacturer #canadianbusiness",
+  "#homemadepickle #achaar #homebusinessindia #homechef"
  ],
  "drive_index_at_post": 215
 }
