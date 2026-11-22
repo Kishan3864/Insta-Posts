@@ -3,7 +3,7 @@
  "drive_index_sheet_id": "15xA_plNpxQlRA-1TvbBtB27qu5aN0_LutC8JeKSODmM",
  "lock_until_utc": "2026-11-22T23:20:33Z",
  "last_run": "2026-11-22T21:52:35Z \u00b7 posts 251-275 made (batches 47-51), Drive 1-275 done, index sheet refreshed at 265 (old sheets trashed), 35 new targets added",
- "next_post_no": 281,
+ "next_post_no": 286,
  "posts_done": [
   {
    "n": 1,
@@ -2244,11 +2244,51 @@
    "slides": 1,
    "market": "India",
    "category": "AluminiumWindowMaker"
+  },
+  {
+   "n": 281,
+   "dir": "posts/0281_SINGLE_India_PumpDealer",
+   "format": "SINGLE",
+   "slides": 1,
+   "market": "India",
+   "category": "PumpDealer"
+  },
+  {
+   "n": 282,
+   "dir": "posts/0282_CAROUSEL_India_TentLighting",
+   "format": "CAROUSEL",
+   "slides": 6,
+   "market": "India",
+   "category": "TentLighting"
+  },
+  {
+   "n": 283,
+   "dir": "posts/0283_SINGLE_USA_MobileTireService",
+   "format": "SINGLE",
+   "slides": 1,
+   "market": "USA",
+   "category": "MobileTireService"
+  },
+  {
+   "n": 284,
+   "dir": "posts/0284_SINGLE_India_OfficeBlazerTailor",
+   "format": "SINGLE",
+   "slides": 1,
+   "market": "India",
+   "category": "OfficeBlazerTailor"
+  },
+  {
+   "n": 285,
+   "dir": "posts/0285_SINGLE_USA_AdultTutoring",
+   "format": "SINGLE",
+   "slides": 1,
+   "market": "USA",
+   "category": "AdultTutoring"
   }
  ],
  "market_counts": {
-  "India": 197,
-  "Abroad": 83
+  "India": 200,
+  "Abroad": 85
  },
  "used_categories": [
   "Boutique",
@@ -2537,14 +2577,14 @@
   "ClosetInstaller",
   "EWasteCollector",
   "WallPuttyPOP",
-  "AluminiumWindowMaker"
+  "AluminiumWindowMaker",
+  "PumpDealer",
+  "TentLighting",
+  "MobileTireService",
+  "OfficeBlazerTailor",
+  "AdultTutoring"
  ],
  "recent_palettes": [
-  "pegboard tan/electric violet/black",
-  "ebony/ivory/brass",
-  "marble white/granite black/copper",
-  "copper orange/workshop blue/tag cream",
-  "lake blue/cedar/pine green",
   "ceiling white/cove amber/graphite",
   "milk white/cobalt blue/butter yellow",
   "brass/charcoal/signal red",
@@ -2564,7 +2604,12 @@
   "white oak/sage/ink",
   "circuit green/copper/charcoal",
   "putty grey/ultramarine/ivory",
-  "anodized bronze/sky glass/graphite"
+  "anodized bronze/sky glass/graphite",
+  "water blue/rust red/concrete",
+  "midnight indigo/bulb amber/rose",
+  "tire black/teal green/sand",
+  "navy suiting/chalk stripe/camel",
+  "oxblood/paper/navy"
  ],
  "drive_files_done": [
   1,
@@ -2849,66 +2894,6 @@
   280
  ],
  "log": [
-  {
-   "n": 251,
-   "date": "2026-11-22",
-   "format": "SINGLE",
-   "market": "India",
-   "category": "MeshFitter",
-   "palette": "slate blue/mint/coral",
-   "fonts": "Archivo Black + Source Sans 3",
-   "layout": "drawn window with SVG mesh pattern + dimension arrows + info tiles, site list of all windows, 3 dark bottom cards",
-   "dots": 2,
-   "phone": false
-  },
-  {
-   "n": 252,
-   "date": "2026-11-22",
-   "format": "CAROUSEL",
-   "market": "India",
-   "category": "TexturePainting",
-   "palette": "terracotta/sand/charcoal",
-   "fonts": "Cardo + Open Sans",
-   "layout": "6 CSS texture swatches hook, tablet catalogue, measured wall minus window maths, wall-by-wall quote doc, site days list with photo status, swatches + tiles CTA",
-   "dots": 5,
-   "phone": false
-  },
-  {
-   "n": 253,
-   "date": "2026-11-22",
-   "format": "SINGLE",
-   "market": "USA",
-   "category": "MovingLabor",
-   "palette": "kraft tan/forest green/marigold",
-   "fonts": "TeX Gyre Adventor + Roboto",
-   "layout": "room-by-room item counter with box tallies + dark crew plan card with rule and load/drive/unload time bar",
-   "dots": 3,
-   "phone": false
-  },
-  {
-   "n": 254,
-   "date": "2026-11-22",
-   "format": "SINGLE",
-   "market": "India",
-   "category": "SeniorComputerClasses",
-   "palette": "chalk green/cream/tomato",
-   "fonts": "Crimson Text + Poppins",
-   "layout": "CSS keyboard with lesson keys lit + batch seat dots + lined practice sheet",
-   "dots": 1,
-   "phone": false
-  },
-  {
-   "n": 255,
-   "date": "2026-11-22",
-   "format": "SINGLE",
-   "market": "India",
-   "category": "FabricStore",
-   "palette": "plum velvet/mustard/linen",
-   "fonts": "Lora + Montserrat",
-   "layout": "fabric swatches hanging from a brass rail with CSS weaves + measurement order + total cloth cards",
-   "dots": 4,
-   "phone": false
-  },
   {
    "n": 256,
    "date": "2026-11-22",
@@ -3208,14 +3193,69 @@
    "layout": "building elevation of 8 flats with windows coloured by job stage + one flat's window list with drawn glass types + dispatch card",
    "dots": 3,
    "phone": false
+  },
+  {
+   "n": 281,
+   "date": "2026-11-22",
+   "format": "SINGLE",
+   "market": "India",
+   "category": "PumpDealer",
+   "palette": "water blue/rust red/concrete",
+   "fonts": "Bitter + Fira Sans",
+   "layout": "site cross-section SVG (house, roof tank, bore depth ticks, water level, pump) + customer site form + install card",
+   "dots": 5,
+   "phone": false
+  },
+  {
+   "n": 282,
+   "date": "2026-11-22",
+   "format": "CAROUSEL",
+   "market": "India",
+   "category": "TentLighting",
+   "palette": "midnight indigo/bulb amber/rose",
+   "fonts": "Gelasio + Montserrat",
+   "layout": "glowing SVG string-light catenaries over tent hook, out/in split bars, 3 event load cards, crew time ribbon, count-back rows with sent/back, lights + tiles CTA",
+   "dots": 2,
+   "phone": false
+  },
+  {
+   "n": 283,
+   "date": "2026-11-22",
+   "format": "SINGLE",
+   "market": "USA",
+   "category": "MobileTireService",
+   "palette": "tire black/teal green/sand",
+   "fonts": "Archivo Black + Inter",
+   "layout": "drawn tire with size on sidewall via textPath + size decoder list + phone booking form",
+   "dots": 4,
+   "phone": true
+  },
+  {
+   "n": 284,
+   "date": "2026-11-22",
+   "format": "SINGLE",
+   "market": "India",
+   "category": "OfficeBlazerTailor",
+   "palette": "navy suiting/chalk stripe/camel",
+   "fonts": "Lora + Inter",
+   "layout": "pinstripe blazer SVG with lettered measuring lines + staff size sheet keyed to the letters + dark summary",
+   "dots": 1,
+   "phone": false
+  },
+  {
+   "n": 285,
+   "date": "2026-11-22",
+   "format": "SINGLE",
+   "market": "USA",
+   "category": "AdultTutoring",
+   "palette": "oxblood/paper/navy",
+   "fonts": "Crimson Text + Source Sans 3",
+   "layout": "stacked index cards with ruled front session card + topic plan checklist + booking day strip",
+   "dots": 3,
+   "phone": false
   }
  ],
  "recent_fonts": [
-  "Anton + Poppins",
-  "Gelasio + DM Sans",
-  "Bitter + Inter",
-  "Montserrat + Fira Sans",
-  "Archivo Black + Open Sans",
   "Lora + Fira Sans",
   "Bitter + Source Sans 3",
   "Anton + DM Sans",
@@ -3235,14 +3275,14 @@
   "Crimson Text + DM Sans",
   "Anton + Source Sans 3",
   "Cardo + Inter",
-  "TeX Gyre Adventor + Inter"
+  "TeX Gyre Adventor + Inter",
+  "Bitter + Fira Sans",
+  "Gelasio + Montserrat",
+  "Archivo Black + Inter",
+  "Lora + Inter",
+  "Crimson Text + Source Sans 3"
  ],
  "recent_layouts": [
-  "pegboard wall of guard packets by screen size with count badges + dark token queue + low stock card",
-  "CSS piano keyboard hook with quote, client cards with mini keyboards + due chips, town map with route-day zone + stop list, phone booking page + side cards, keyboard + tiles CTA",
-  "top-down slab to scale with nested cut pieces and hatched offcut + pieces list + dark slab rack",
-  "6 clip-path paper job tags on a rail with promised date and status punch + message note",
-  "top-down backyard plan with board-grain deck, steps, lake and dock + picks with swatches + site visit card",
   "reflected ceiling plan with glowing cove and light points + design pick column + horizontal material list strip",
   "message cards + 3D paneer blocks hook, order table with totals, blocks to milk cans conversion by yield rule, striped crates with labels, blocks + tiles CTA",
   "dark map with drive-time rings around a van + ZIP chips, lockout request form",
@@ -3262,14 +3302,14 @@
   "blurred photo vs dimensioned wall hook, browser measuring form, 3 CSS closet elevations as options, install timeline + installed closet, closets + tiles CTA",
   "phone item picker with +/- counters and slot chips + weight slip with LCD scale reading + after-pickup card",
   "wall cross-section strata legend (brick to primer) + room x layer table with done/next cells + 6 site day tiles",
-  "building elevation of 8 flats with windows coloured by job stage + one flat's window list with drawn glass types + dispatch card"
+  "building elevation of 8 flats with windows coloured by job stage + one flat's window list with drawn glass types + dispatch card",
+  "site cross-section SVG (house, roof tank, bore depth ticks, water level, pump) + customer site form + install card",
+  "glowing SVG string-light catenaries over tent hook, out/in split bars, 3 event load cards, crew time ribbon, count-back rows with sent/back, lights + tiles CTA",
+  "drawn tire with size on sidewall via textPath + size decoder list + phone booking form",
+  "pinstripe blazer SVG with lettered measuring lines + staff size sheet keyed to the letters + dark summary",
+  "stacked index cards with ruled front session card + topic plan checklist + booking day strip"
  ],
  "used_hashtag_sets": [
-  "#vegetablesupplier #horecasupply #freshvegetables #hotelsupplies",
-  "#chimneycleaning #kitchenchimney #homeservicesindia #amcservice",
-  "#dogdaycare #doggydaycare #petbusiness #dogsofusa",
-  "#terracegarden #kitchengarden #urbangardeningindia #gardeningservices",
-  "#sewingmachinerepair #sewingmachine #repairservice #tailoringindia",
   "#fireextinguisher #fireextinguisherrefilling #smallbusinessindia #serviceapp",
   "#bangles #bangleswholesale #wholesalebusiness #fancystore #indianbusiness",
   "#guttercleaning #gutters #exteriorcleaning #canadabusiness",
@@ -3324,7 +3364,12 @@
   "#closetinstaller #closetdesign #customclosets #homeorganization",
   "#ewaste #ewastecollection #electronicwaste #scrappickup",
   "#wallputty #popwork #popcontractor #interiorfinishing #homerenovationindia",
-  "#aluminiumwindows #slidingwindows #windowfabrication #constructionindia"
+  "#aluminiumwindows #slidingwindows #windowfabrication #constructionindia",
+  "#submersiblepump #borewellpump #pumpdealer #waterpump",
+  "#weddinglighting #tentlighting #eventlighting #tenthouse",
+  "#mobiletireservice #tireshop #tirechange #autoservice",
+  "#blazer #corporateblazers #tailorshop #bespoketailoring",
+  "#tutoringcenter #adultlearners #adulteducation #tutoringbusiness"
  ],
  "drive_index_at_post": 265,
  "old_index_sheets_to_trash": []

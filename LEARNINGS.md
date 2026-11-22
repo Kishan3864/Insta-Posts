@@ -211,3 +211,7 @@
 - (b052) Closet/furniture elevations built with CSS: give hanging and shelf blocks flex values (not fixed px), or the same layout overflows when the closet is drawn smaller on the CTA slide.
 - (b052) Browser forms: every added field (closet type, call time) costs ~70px; count before adding, the 2nd extra field pushed the form out of the browser (ESCAPES). Phone item pickers fill best with 6 item rows at 18px plus 2 info chips.
 - (b052) Anton labels inside small cards (h1 kicker, card titles) still OVERLAP at 1.4; use line-height 1.5 + margin-bottom 4-6px on the line above. New techniques: tool shadow board, wall strata legend + layer table, building elevation with per-window stage colours, CSS closet elevations.
+- (b053) Cross-section SVGs in a tall card letterbox again with a 520x760 viewBox; extend the viewBox (sky above, soil and water below) to the card's aspect (~520x990) instead of shrinking the drawing. Side labels must sit on the opposite side of the bore from tick labels or they OVERLAP.
+- (b053) Dark night palettes: radial-gradient bulbs on catenary paths make a strong series motif; reuse it on hook and CTA, but give it 3 rows or the card looks empty.
+- (b053) Sample dates must avoid US holidays for US posts (Thu 26 Nov 2026 is Thanksgiving) and "past" notes must be before today (session history dated before the run date).
+- (b053) New techniques: textPath tire sidewall + decoder list, lettered measuring lines keyed to table columns, offset index-card stack, crew time ribbon with % positions.
