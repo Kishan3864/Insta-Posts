@@ -3,7 +3,7 @@
  "drive_index_sheet_id": "1LhrDKUuLzLHPuDB4fOhGo-Fs3w2AlNXXC4ZDTY75eus",
  "lock_until_utc": "2026-11-22T10:24:06Z",
  "last_run": "2026-11-22T08:33:59Z \u00b7 posts 46-55 made, Drive 1-55 done",
- "next_post_no": 66,
+ "next_post_no": 71,
  "posts_done": [
   {
    "n": 1,
@@ -524,11 +524,51 @@
    "slides": 5,
    "market": "USA",
    "category": "MovingCompany"
+  },
+  {
+   "n": 66,
+   "dir": "posts/0066_SINGLE_India_FlexPrinter",
+   "format": "SINGLE",
+   "slides": 1,
+   "market": "India",
+   "category": "FlexPrinter"
+  },
+  {
+   "n": 67,
+   "dir": "posts/0067_SINGLE_India_FishMeatShop",
+   "format": "SINGLE",
+   "slides": 1,
+   "market": "India",
+   "category": "FishMeatShop"
+  },
+  {
+   "n": 68,
+   "dir": "posts/0068_CAROUSEL_India_KurtiSeller",
+   "format": "CAROUSEL",
+   "slides": 6,
+   "market": "India",
+   "category": "KurtiSeller"
+  },
+  {
+   "n": 69,
+   "dir": "posts/0069_SINGLE_USA_TattooStudio",
+   "format": "SINGLE",
+   "slides": 1,
+   "market": "USA",
+   "category": "TattooStudio"
+  },
+  {
+   "n": 70,
+   "dir": "posts/0070_CAROUSEL_Canada_PropertyManager",
+   "format": "CAROUSEL",
+   "slides": 5,
+   "market": "Canada",
+   "category": "PropertyManager"
   }
  ],
  "market_counts": {
-  "India": 46,
-  "Abroad": 19
+  "India": 49,
+  "Abroad": 21
  },
  "used_categories": [
   "Boutique",
@@ -602,14 +642,14 @@
   "HomeBaker",
   "LawyerOffice",
   "TractorRental",
-  "MovingCompany"
+  "MovingCompany",
+  "FlexPrinter",
+  "FishMeatShop",
+  "KurtiSeller",
+  "TattooStudio",
+  "PropertyManager"
  ],
  "recent_palettes": [
-  "ink black/hot orange/warm white",
-  "black/champagne/dusty pink",
-  "graphite/cyan glow",
-  "white/paint swatch strip",
-  "mango/leaf/cream",
   "aubergine/paprika/cream",
   "deep cocoa/saffron/cardamom green",
   "lilac/deep navy/marigold",
@@ -629,7 +669,12 @@
   "strawberry pink/chocolate/vanilla",
   "legal navy/parchment/oxblood",
   "field green/mustard/soil brown",
-  "kraft brown/tape blue/white"
+  "kraft brown/tape blue/white",
+  "process cyan/magenta/ink black",
+  "deep sea blue/ice white/salmon",
+  "indigo/madder red/unbleached",
+  "charcoal/bone/teal ink",
+  "slate/brick red/snow"
  ],
  "drive_files_done": [
   1,
@@ -699,66 +744,6 @@
   65
  ],
  "log": [
-  {
-   "n": 36,
-   "date": "2026-11-22",
-   "format": "SINGLE",
-   "market": "India",
-   "category": "BanquetHall",
-   "palette": "ivory/emerald/champagne",
-   "fonts": "Gelasio + Poppins",
-   "layout": "3D tilted availability board",
-   "dots": 4,
-   "phone": false
-  },
-  {
-   "n": 37,
-   "date": "2026-11-22",
-   "format": "CAROUSEL",
-   "market": "India",
-   "category": "MehendiArtist",
-   "palette": "henna orange/olive/blush",
-   "fonts": "Gelasio + Poppins",
-   "layout": "arch frames + CSS motif pattern",
-   "dots": 1,
-   "phone": false
-  },
-  {
-   "n": 38,
-   "date": "2026-11-22",
-   "format": "SINGLE",
-   "market": "India",
-   "category": "BarberShop",
-   "palette": "cream/navy/barber red",
-   "fonts": "TeX Gyre Heros Cn + Inter",
-   "layout": "wall TV queue display + phone",
-   "dots": 3,
-   "phone": true
-  },
-  {
-   "n": 39,
-   "date": "2026-11-22",
-   "format": "CAROUSEL",
-   "market": "USA",
-   "category": "Roofing",
-   "palette": "charcoal/sky/shingle brown",
-   "fonts": "Poppins + Source Sans 3",
-   "layout": "questions before you build, big Q numbers",
-   "dots": 5,
-   "phone": false
-  },
-  {
-   "n": 40,
-   "date": "2026-11-22",
-   "format": "SINGLE",
-   "market": "India",
-   "category": "YogaStudio",
-   "palette": "sage/charcoal/peach",
-   "fonts": "Crimson Text + DM Sans",
-   "layout": "zigzag receipt slip",
-   "dots": 2,
-   "phone": false
-  },
   {
    "n": 41,
    "date": "2026-11-22",
@@ -1058,14 +1043,69 @@
    "layout": "stacked cardboard boxes + room counters, step carousel",
    "dots": 5,
    "phone": false
+  },
+  {
+   "n": 66,
+   "date": "2026-11-22",
+   "format": "SINGLE",
+   "market": "India",
+   "category": "FlexPrinter",
+   "palette": "process cyan/magenta/ink black",
+   "fonts": "Montserrat + Fira Sans",
+   "layout": "annotated print proof with crop marks + numbered pins",
+   "dots": 3,
+   "phone": false
+  },
+  {
+   "n": 67,
+   "date": "2026-11-22",
+   "format": "SINGLE",
+   "market": "India",
+   "category": "FishMeatShop",
+   "palette": "deep sea blue/ice white/salmon",
+   "fonts": "Lora + Poppins",
+   "layout": "without vs with timelines side by side + cut list",
+   "dots": 1,
+   "phone": false
+  },
+  {
+   "n": 68,
+   "date": "2026-11-22",
+   "format": "CAROUSEL",
+   "market": "India",
+   "category": "KurtiSeller",
+   "palette": "indigo/madder red/unbleached",
+   "fonts": "Gelasio + Montserrat",
+   "layout": "clip-path kurti silhouettes with block-print motifs, 4-part",
+   "dots": 4,
+   "phone": false
+  },
+  {
+   "n": 69,
+   "date": "2026-11-22",
+   "format": "SINGLE",
+   "market": "USA",
+   "category": "TattooStudio",
+   "palette": "charcoal/bone/teal ink",
+   "fonts": "Cardo + Fira Sans",
+   "layout": "consult form + CSS line-art portfolio grid",
+   "dots": 2,
+   "phone": false
+  },
+  {
+   "n": 70,
+   "date": "2026-11-22",
+   "format": "CAROUSEL",
+   "market": "Canada",
+   "category": "PropertyManager",
+   "palette": "slate/brick red/snow",
+   "fonts": "Archivo Black + Inter",
+   "layout": "CSS building cross-section with flagged units, kanban, portal",
+   "dots": 5,
+   "phone": false
   }
  ],
  "recent_fonts": [
-  "Montserrat + Inter + Gelasio",
-  "Cardo + Poppins",
-  "Fira Sans",
-  "Gelasio + DM Sans",
-  "TeX Gyre Adventor + Open Sans",
   "Inter Display + Lora",
   "Montserrat + Source Sans 3",
   "Bitter + DM Sans",
@@ -1085,14 +1125,14 @@
   "Cardo + DM Sans",
   "Crimson Text + Roboto",
   "Fira Sans + Gelasio",
-  "Bitter + Open Sans"
+  "Bitter + Open Sans",
+  "Montserrat + Fira Sans",
+  "Lora + Poppins",
+  "Gelasio + Montserrat",
+  "Cardo + Fira Sans",
+  "Archivo Black + Inter"
  ],
  "recent_layouts": [
-  "before/after slider handle",
-  "mistakes list (mistake + fix)",
-  "dark-mode KPI dashboard",
-  "paint-chip markers + roller stroke",
-  "paper pile vs tablet card",
   "kraft delivery bag + die-cut sticker, 4-part carousel",
   "outlet rows with conic ring gauges",
   "chat bubbles vs shared event page (browser)",
@@ -1112,7 +1152,12 @@
   "top-view cake + field/chat/why checklist cards",
   "tear-off desk calendar + week list",
   "Gantt week booking chart",
-  "stacked cardboard boxes + room counters, step carousel"
+  "stacked cardboard boxes + room counters, step carousel",
+  "annotated print proof with crop marks + numbered pins",
+  "without vs with timelines side by side + cut list",
+  "clip-path kurti silhouettes with block-print motifs, 4-part",
+  "consult form + CSS line-art portfolio grid",
+  "CSS building cross-section with flagged units, kanban, portal"
  ],
  "used_hashtag_sets": [
   "#kiranastore #udhaar #kiranashop #retailindia #shopowners",
@@ -1159,7 +1204,12 @@
   "#homebaker #homebakersofinstagram #cakeorders #homebakeryindia #customcakes",
   "#advocate #lawyersofindia #lawoffice #legalpractice",
   "#tractorrental #farmequipment #agribusinessindia #farmmachinery",
-  "#movingcompany #movers #movingservices #localmovers"
+  "#movingcompany #movers #movingservices #localmovers",
+  "#flexprinting #signageindia #printingpress #bannerprinting",
+  "#fishshop #meatshop #freshfish #chickenshop",
+  "#kurtiwholesale #kurtimanufacturer #resellersindia #dressmaterial #suratwholesale",
+  "#tattoostudio #tattooshop #tattooartist #tattoobooking",
+  "#propertymanagement #propertymanager #landlordlife #rentalproperty #canadarealestate"
  ],
  "drive_index_at_post": 65
 }

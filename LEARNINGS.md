@@ -41,3 +41,7 @@
 - (b009) Big display dates (Crimson 170px) trigger OVERLAP with the label above/below at line-height 1.2; use 1.35 and a 6px margin-top.
 - (b009) Keep sample data consistent with the headline claim: the Gantt chart had Tractor 2 booked on Thursday while the card said it was free. Re-read every number against the headline before saving.
 - (b009) New techniques that worked: tyre stack with repeating tread stripes, tear-off calendar with zigzag clip-path, Gantt week chart, cardboard box stack with tape strips. Next: isometric shelf for retail stock, owner's-day vs customer's-day split, map with route pins for a delivery niche.
+- (b010) Comment pins on a mockup: place them inside a relative wrapper the same size as the design and aim each pin at the thing the comment is about, never over text. Check pin-to-comment meaning in a 1:1 crop.
+- (b010) Patterned objects vanish on a same-colour panel (indigo-dot kurti on indigo). Put patterned illustrations on a neutral panel and vary the pattern colours.
+- (b010) Building cross-section read too small at 640px with sky dead space; 800px wide with 200px units and 18px tags fills the panel. Illustrations should take 70%+ of their panel.
+- (b010) New techniques that worked: annotated proof with crop marks, side-by-side without/with timelines, clip-path garment silhouettes with CSS block-print patterns, CSS building cross-section. Next: isometric shelf, map with route pins, receipt-style comparison.
