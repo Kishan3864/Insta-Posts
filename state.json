@@ -3,7 +3,7 @@
  "drive_index_sheet_id": "1kVmhTtzsjrmEhG59w3V2Odgx_cXBEIsDAxMe59zWmgU",
  "lock_until_utc": "2026-11-22T23:30:01Z",
  "last_run": "2026-11-22T21:52:35Z \u00b7 posts 251-275 made (batches 47-51), Drive 1-275 done, index sheet refreshed at 265 (old sheets trashed), 35 new targets added",
- "next_post_no": 291,
+ "next_post_no": 296,
  "posts_done": [
   {
    "n": 1,
@@ -2324,11 +2324,51 @@
    "slides": 1,
    "market": "India",
    "category": "SteelAlmirah"
+  },
+  {
+   "n": 291,
+   "dir": "posts/0291_SINGLE_India_MandiCommissionAgent",
+   "format": "SINGLE",
+   "slides": 1,
+   "market": "India",
+   "category": "MandiCommissionAgent"
+  },
+  {
+   "n": 292,
+   "dir": "posts/0292_SINGLE_Canada_MobileBikeRepair",
+   "format": "SINGLE",
+   "slides": 1,
+   "market": "Canada",
+   "category": "MobileBikeRepair"
+  },
+  {
+   "n": 293,
+   "dir": "posts/0293_CAROUSEL_India_SeedlingNursery",
+   "format": "CAROUSEL",
+   "slides": 5,
+   "market": "India",
+   "category": "SeedlingNursery"
+  },
+  {
+   "n": 294,
+   "dir": "posts/0294_SINGLE_India_KeyShop",
+   "format": "SINGLE",
+   "slides": 1,
+   "market": "India",
+   "category": "KeyShop"
+  },
+  {
+   "n": 295,
+   "dir": "posts/0295_SINGLE_USA_SprinklerBlowout",
+   "format": "SINGLE",
+   "slides": 1,
+   "market": "USA",
+   "category": "SprinklerBlowout"
   }
  ],
  "market_counts": {
-  "India": 204,
-  "Abroad": 86
+  "India": 207,
+  "Abroad": 88
  },
  "used_categories": [
   "Boutique",
@@ -2627,14 +2667,14 @@
   "ColdStorage",
   "DryerVentCleaning",
   "DripIrrigation",
-  "SteelAlmirah"
+  "SteelAlmirah",
+  "MandiCommissionAgent",
+  "MobileBikeRepair",
+  "SeedlingNursery",
+  "KeyShop",
+  "SprinklerBlowout"
  ],
  "recent_palettes": [
-  "tomato red/leaf green/cream",
-  "court blue/lime/white",
-  "mushroom beige/forest/clay",
-  "maple red/syrup amber/birch white",
-  "board yellow/black/signal blue",
   "leather tan/charcoal/stitch orange",
   "ink magenta/black/off-white",
   "peacock teal/rose/ivory",
@@ -2654,7 +2694,12 @@
   "ice blue/jute brown/charcoal",
   "lint gray/blueprint blue/amber",
   "field green/soil brown/water cyan",
-  "steel grey/maroon/cream"
+  "steel grey/maroon/cream",
+  "mango yellow/crate green/slate",
+  "pine/off-white/tangerine",
+  "sprout green/coir brown/tray black",
+  "key brass/teal/ink",
+  "frost white/ice blue/lawn olive"
  ],
  "drive_files_done": [
   1,
@@ -2949,66 +2994,6 @@
   290
  ],
  "log": [
-  {
-   "n": 261,
-   "date": "2026-11-22",
-   "format": "SINGLE",
-   "market": "India",
-   "category": "FalseCeiling",
-   "palette": "ceiling white/cove amber/graphite",
-   "fonts": "Lora + Fira Sans",
-   "layout": "reflected ceiling plan with glowing cove and light points + design pick column + horizontal material list strip",
-   "dots": 4,
-   "phone": false
-  },
-  {
-   "n": 262,
-   "date": "2026-11-22",
-   "format": "CAROUSEL",
-   "market": "India",
-   "category": "PaneerMaker",
-   "palette": "milk white/cobalt blue/butter yellow",
-   "fonts": "Bitter + Source Sans 3",
-   "layout": "message cards + 3D paneer blocks hook, order table with totals, blocks to milk cans conversion by yield rule, striped crates with labels, blocks + tiles CTA",
-   "dots": 3,
-   "phone": false
-  },
-  {
-   "n": 263,
-   "date": "2026-11-22",
-   "format": "SINGLE",
-   "market": "USA",
-   "category": "MobileLocksmith",
-   "palette": "brass/charcoal/signal red",
-   "fonts": "Anton + DM Sans",
-   "layout": "dark map with drive-time rings around a van + ZIP chips, lockout request form",
-   "dots": 2,
-   "phone": false
-  },
-  {
-   "n": 264,
-   "date": "2026-11-22",
-   "format": "SINGLE",
-   "market": "India",
-   "category": "BicycleShop",
-   "palette": "cycle red/asphalt/mint",
-   "fonts": "Montserrat + Open Sans",
-   "layout": "drawn bicycle with numbered service points + checklist + ask-customer and pickup cards",
-   "dots": 5,
-   "phone": false
-  },
-  {
-   "n": 265,
-   "date": "2026-11-22",
-   "format": "SINGLE",
-   "market": "India",
-   "category": "HoneySeller",
-   "palette": "honey amber/hive black/cream",
-   "fonts": "Gelasio + Poppins",
-   "layout": "3 batch cards with clip-path hexagon honeycomb (1 cell = 1 jar) + order note",
-   "dots": 1,
-   "phone": false
-  },
   {
    "n": 266,
    "date": "2026-11-22",
@@ -3308,14 +3293,69 @@
    "layout": "almirah front elevations drawn to size + fits-your-wall bar + colour swatches + maroon order card",
    "dots": 3,
    "phone": false
+  },
+  {
+   "n": 291,
+   "date": "2026-11-22",
+   "format": "SINGLE",
+   "market": "India",
+   "category": "MandiCommissionAgent",
+   "palette": "mango yellow/crate green/slate",
+   "fonts": "Archivo Black + Fira Sans",
+   "layout": "returnable crate ledger: CSS slotted crates per grower (faded = back, dashed = out) + legend + reminder message",
+   "dots": 1,
+   "phone": false
+  },
+  {
+   "n": 292,
+   "date": "2026-11-22",
+   "format": "SINGLE",
+   "market": "Canada",
+   "category": "MobileBikeRepair",
+   "palette": "pine/off-white/tangerine",
+   "fonts": "Montserrat + Source Sans 3",
+   "layout": "phone booking form + CSS van with shelf bins counted from bookings + today list",
+   "dots": 4,
+   "phone": true
+  },
+  {
+   "n": 293,
+   "date": "2026-11-22",
+   "format": "CAROUSEL",
+   "market": "India",
+   "category": "SeedlingNursery",
+   "palette": "sprout green/coir brown/tray black",
+   "fonts": "Gelasio + Inter",
+   "layout": "CSS plug tray hero, crop rows with mini trays, stage timeline with tray per stage, order card + tray return, trays + tiles CTA",
+   "dots": 2,
+   "phone": false
+  },
+  {
+   "n": 294,
+   "date": "2026-11-22",
+   "format": "SINGLE",
+   "market": "India",
+   "category": "KeyShop",
+   "palette": "key brass/teal/ink",
+   "fonts": "Bitter + Poppins",
+   "layout": "key ring job card with SVG keys (coloured caps, cut blades) per line + big copies count + home visit card",
+   "dots": 5,
+   "phone": false
+  },
+  {
+   "n": 295,
+   "date": "2026-11-22",
+   "format": "SINGLE",
+   "market": "USA",
+   "category": "SprinklerBlowout",
+   "palette": "frost white/ice blue/lawn olive",
+   "fonts": "Crimson Text + Roboto",
+   "layout": "top-down yard with irrigation zones and spray-arc heads + booking form + same-street route card",
+   "dots": 3,
+   "phone": false
   }
  ],
  "recent_fonts": [
-  "Crimson Text + Inter",
-  "Archivo Black + Roboto",
-  "DM Sans + Source Sans 3",
-  "Lora + Roboto",
-  "Poppins + Gelasio",
   "TeX Gyre Adventor + Open Sans",
   "Archivo Black + DM Sans",
   "Cardo + Poppins",
@@ -3335,14 +3375,14 @@
   "Bitter + Roboto",
   "Anton + Open Sans",
   "Cardo + Fira Sans",
-  "TeX Gyre Adventor + DM Sans"
+  "TeX Gyre Adventor + DM Sans",
+  "Archivo Black + Fira Sans",
+  "Montserrat + Source Sans 3",
+  "Gelasio + Inter",
+  "Bitter + Poppins",
+  "Crimson Text + Roboto"
  ],
  "recent_layouts": [
-  "top-down party table plan with plates, menu picks + side facts, quantity table from per-person rules, week of party slots grid, tables + tiles CTA",
-  "week planner with session blocks and hatched drive-time blocks + dark booking card",
-  "grow room shelves of bags coloured by stage with harvest dates + legend + buyer note",
-  "sold-out shelf stamp hook, bottle size counters, pickup slot dot board, torn-edge pickup slip with QR, bottles + tiles CTA",
-  "shop sign proof with red ring marks and measured size + job sheet + proof steps",
   "top-down car interior with seats filled by picked fabric + fabric picker rows + fitting slot card",
   "flat tee proof with print area + size run of shirt icons + 3 status tiles",
   "wooden pigeonhole rack of folded sarees with tickets + message bubbles + counts + legend",
@@ -3362,14 +3402,14 @@
   "top-down chamber map with bays tinted by lot, lot card with code square, jute bag isotype ledger, message request + dark withdrawal slip, bags + tiles CTA",
   "house wall cutaway with dryer-to-outside duct route, lengths and numbered turns + phone booking form",
   "to-scale plot plan with lateral rows and dripper dots + parts tiles derived from the drawing + dates strip",
-  "almirah front elevations drawn to size + fits-your-wall bar + colour swatches + maroon order card"
+  "almirah front elevations drawn to size + fits-your-wall bar + colour swatches + maroon order card",
+  "returnable crate ledger: CSS slotted crates per grower (faded = back, dashed = out) + legend + reminder message",
+  "phone booking form + CSS van with shelf bins counted from bookings + today list",
+  "CSS plug tray hero, crop rows with mini trays, stage timeline with tray per stage, order card + tray return, trays + tiles CTA",
+  "key ring job card with SVG keys (coloured caps, cut blades) per line + big copies count + home visit card",
+  "top-down yard with irrigation zones and spray-arc heads + booking form + same-street route card"
  ],
  "used_hashtag_sets": [
-  "#candlemaker #scentedcandles #handmadecandles #smallbusinessindia",
-  "#applianceinstallation #applianceinstaller #homeservices #washerinstall",
-  "#stationerysupplier #officesupplies #stationeryshop #b2bindia",
-  "#estatesale #estatesales #estatesalecompany #downsizing",
-  "#streetfoodindia #chaat #panipuri #foodcartbusiness",
   "#watertankcleaning #tankcleaning #housingsociety #homeservicesindia",
   "#fenceinstallation #fencecompany #fencing #backyardfence",
   "#homesalon #salonathome #beautyservices #beautybusinessindia",
@@ -3424,7 +3464,12 @@
   "#coldstorage #potatofarming #agriwarehouse #farmersindia",
   "#dryerventcleaning #dryervent #homemaintenance #homeservices",
   "#dripirrigation #irrigationsystem #smartfarming #agricultureindia",
-  "#steelalmirah #steelcupboard #furnituremanufacturer #homefurnitureindia"
+  "#steelalmirah #steelcupboard #furnituremanufacturer #homefurnitureindia",
+  "#fruitmandi #commissionagent #fruitwholesale #agribusinessindia",
+  "#mobilebikerepair #bikerepair #cyclingcanada #bikemechanic",
+  "#seedlingnursery #vegetableseedlings #nurserybusiness #farmingindia",
+  "#keyduplicate #keymaker #locksmithindia #localshop",
+  "#sprinklerblowout #irrigationservice #winterizing #lawncarebusiness"
  ],
  "drive_index_at_post": 290,
  "old_index_sheets_to_trash": [

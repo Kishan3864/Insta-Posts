@@ -219,3 +219,7 @@
 - (b054) A bubble with display:flex splits inline text and <b> into flex items (words in columns); wrap bubble text in one span or use block layout.
 - (b054) Scoped type: a nested row inside a big-number card inherits the card's b size (64px dates). Scope child rules (.lt .lr1 b). And re-check the hook against the visual: "8 shirts" hook needed the flat stack to show 8 shirts.
 - (b054) New techniques: CSS folded-clothes stacks, chamber bay map tinted by lot, jute bag isotype, wall cutaway duct route, to-scale drip plot with parts derived from rows x length, almirah elevations with fit bar.
+- (b055) Helper objects reused inside a styled parent inherit its child selectors: .ts i (timeline dot) turned every tray cell into a 64px circle. Use direct-child selectors (.ts>i) whenever a reusable widget is placed inside a styled list.
+- (b055) Extending an SVG upward with a negative viewBox y makes check_text flag VOVERFLOW on the new labels; keep viewBox at 0 0 and wrap the old drawing in <g transform="translate(0,N)">.
+- (b055) Small number+label tiles in a tall grid: put number and label side by side (row) with a 50px number, or the label OVERLAPs when the tile gets short.
+- (b055) New techniques: returnable crate ledger (faded vs dashed crates), van with shelf bins from bookings, plug-tray timeline, SVG keys with cut blades, irrigation zone yard plan.
