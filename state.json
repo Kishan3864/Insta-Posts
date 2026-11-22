@@ -3,7 +3,7 @@
  "drive_index_sheet_id": "14v7og6KbDzqKiAXuJB5KfokQO5Iw0fS_A7lTI_hH5E8",
  "lock_until_utc": "2026-11-22T21:19:18Z",
  "last_run": "2026-11-22T19:42:32Z \u00b7 posts 211-225 made (batches 39-41), Drive 1-225 done, index sheet refreshed at 215 (next ~240)",
- "next_post_no": 236,
+ "next_post_no": 241,
  "posts_done": [
   {
    "n": 1,
@@ -1884,11 +1884,51 @@
    "slides": 1,
    "market": "India",
    "category": "ChaatCarts"
+  },
+  {
+   "n": 236,
+   "dir": "posts/0236_SINGLE_India_WaterTankCleaning",
+   "format": "SINGLE",
+   "slides": 1,
+   "market": "India",
+   "category": "WaterTankCleaning"
+  },
+  {
+   "n": 237,
+   "dir": "posts/0237_SINGLE_USA_FenceInstaller",
+   "format": "SINGLE",
+   "slides": 1,
+   "market": "USA",
+   "category": "FenceInstaller"
+  },
+  {
+   "n": 238,
+   "dir": "posts/0238_CAROUSEL_India_HomeSalon",
+   "format": "CAROUSEL",
+   "slides": 5,
+   "market": "India",
+   "category": "HomeSalon"
+  },
+  {
+   "n": 239,
+   "dir": "posts/0239_SINGLE_India_DoorstepBikeService",
+   "format": "SINGLE",
+   "slides": 1,
+   "market": "India",
+   "category": "DoorstepBikeService"
+  },
+  {
+   "n": 240,
+   "dir": "posts/0240_SINGLE_Canada_WoodStoveInstaller",
+   "format": "SINGLE",
+   "slides": 1,
+   "market": "Canada",
+   "category": "WoodStoveInstaller"
   }
  ],
  "market_counts": {
-  "India": 165,
-  "Abroad": 70
+  "India": 168,
+  "Abroad": 72
  },
  "used_categories": [
   "Boutique",
@@ -2132,14 +2172,14 @@
   "ApplianceInstaller",
   "StationerySupplier",
   "EstateSale",
-  "ChaatCarts"
+  "ChaatCarts",
+  "WaterTankCleaning",
+  "FenceInstaller",
+  "HomeSalon",
+  "DoorstepBikeService",
+  "WoodStoveInstaller"
  ],
  "recent_palettes": [
-  "coconut green/husk tan/cream",
-  "walnut brown/gallery white/gold leaf",
-  "navy ink/parchment/seal red",
-  "stamp violet/kraft/black",
-  "asphalt/lane yellow/sky",
   "chalk pink/thread navy/pin silver",
   "straw yellow/field green/soil brown",
   "foam aqua/deep navy/white",
@@ -2159,7 +2199,12 @@
   "appliance white/steel teal/tangerine",
   "notebook blue/highlighter yellow/white",
   "dusty rose/oak/navy",
-  "tamarind brown/mint green/turmeric"
+  "tamarind brown/mint green/turmeric",
+  "aqua teal/concrete/sunflower",
+  "cedar orange/charcoal/pale sage",
+  "coral/teal/sand",
+  "racing green/cream/brick",
+  "ember red/stone grey/birch white"
  ],
  "drive_files_done": [
   1,
@@ -2394,66 +2439,6 @@
   230
  ],
  "log": [
-  {
-   "n": 206,
-   "date": "2026-11-22",
-   "format": "SINGLE",
-   "market": "Canada",
-   "category": "FirewoodDelivery",
-   "palette": "forest green/birch cream/rust",
-   "fonts": "Lora + Fira Sans",
-   "layout": "woodpile of log ends with growth rings split into 3 order-coloured sections + order cards, 5-day area delivery strip, rust note bar",
-   "dots": 3,
-   "phone": false
-  },
-  {
-   "n": 207,
-   "date": "2026-11-22",
-   "format": "CAROUSEL",
-   "market": "India",
-   "category": "CorporateUniformMaker",
-   "palette": "steel blue/khaki/charcoal",
-   "fonts": "Poppins + Roboto",
-   "layout": "shirt SVG with size tag + quote note cards, browser size form + progress bar, stacked size bars per department + size total tiles, carton progress cards + dashed pack label, shirt + 4 row tiles CTA",
-   "dots": 2,
-   "phone": false
-  },
-  {
-   "n": 208,
-   "date": "2026-11-22",
-   "format": "SINGLE",
-   "market": "India",
-   "category": "HotelLinenLaundry",
-   "palette": "powder blue/white/plum",
-   "fonts": "Montserrat + Inter",
-   "layout": "out vs back table with folded linen stacks sized by count + diff chips, 3 total tiles, navy note",
-   "dots": 5,
-   "phone": false
-  },
-  {
-   "n": 209,
-   "date": "2026-11-22",
-   "format": "SINGLE",
-   "market": "India",
-   "category": "LaptopRepair",
-   "palette": "graphite/mint/coral",
-   "fonts": "Archivo Black + Inter",
-   "layout": "SMS card, CSS laptop with status stepper page + rotated paper repair tag, 4 job chips row",
-   "dots": 1,
-   "phone": false
-  },
-  {
-   "n": 210,
-   "date": "2026-11-22",
-   "format": "SINGLE",
-   "market": "USA",
-   "category": "TreeService",
-   "palette": "moss green/sky/bark brown",
-   "fonts": "TeX Gyre Adventor + Source Sans 3",
-   "layout": "tall customer photo scene (tree, house, stump) with numbered dashed cut marks + estimate job list + approved and crew cards",
-   "dots": 4,
-   "phone": false
-  },
   {
    "n": 211,
    "date": "2026-11-22",
@@ -2753,14 +2738,69 @@
    "layout": "row of 5 drawn food carts with sold/back bars + out/back/sold table",
    "dots": 1,
    "phone": false
+  },
+  {
+   "n": 236,
+   "date": "2026-11-22",
+   "format": "SINGLE",
+   "market": "India",
+   "category": "WaterTankCleaning",
+   "palette": "aqua teal/concrete/sunflower",
+   "fonts": "Poppins + Inter",
+   "layout": "building section with roof tanks + sump showing sediment by status + tank list + dark message card",
+   "dots": 3,
+   "phone": false
+  },
+  {
+   "n": 237,
+   "date": "2026-11-22",
+   "format": "SINGLE",
+   "market": "USA",
+   "category": "FenceInstaller",
+   "palette": "cedar orange/charcoal/pale sage",
+   "fonts": "Montserrat + Source Sans 3",
+   "layout": "top-down backyard with customer-drawn fence runs in ft + gates + dark quote request form",
+   "dots": 5,
+   "phone": false
+  },
+  {
+   "n": 238,
+   "date": "2026-11-22",
+   "format": "CAROUSEL",
+   "market": "India",
+   "category": "HomeSalon",
+   "palette": "coral/teal/sand",
+   "fonts": "Cardo + Fira Sans",
+   "layout": "day ribbon with travel hatch, slots by area + phone, route map with numbered stops, open kit bag compartments, 4 big tiles CTA",
+   "dots": 2,
+   "phone": true
+  },
+  {
+   "n": 239,
+   "date": "2026-11-22",
+   "format": "SINGLE",
+   "market": "India",
+   "category": "DoorstepBikeService",
+   "palette": "racing green/cream/brick",
+   "fonts": "Anton + Roboto",
+   "layout": "paper service book with ink stamps per visit + dark phone card with km bar and parts used",
+   "dots": 4,
+   "phone": false
+  },
+  {
+   "n": 240,
+   "date": "2026-11-22",
+   "format": "SINGLE",
+   "market": "Canada",
+   "category": "WoodStoveInstaller",
+   "palette": "ember red/stone grey/birch white",
+   "fonts": "Crimson Text + Roboto",
+   "layout": "cabin cutaway with stove + flue and 5 numbered survey points + matching survey form + install day bar",
+   "dots": 1,
+   "phone": false
   }
  ],
  "recent_fonts": [
-  "Anton + Source Sans 3",
-  "Cardo + Inter",
-  "Crimson Text + DM Sans",
-  "Bitter + DM Sans",
-  "Archivo Black + Roboto",
   "Gelasio + DM Sans",
   "Fira Sans + Open Sans",
   "Poppins + Source Sans 3",
@@ -2780,14 +2820,14 @@
   "Archivo Black + Inter",
   "Bitter + Roboto",
   "Lora + DM Sans",
-  "TeX Gyre Adventor + Source Sans 3"
+  "TeX Gyre Adventor + Source Sans 3",
+  "Poppins + Inter",
+  "Montserrat + Source Sans 3",
+  "Cardo + Fira Sans",
+  "Anton + Roboto",
+  "Crimson Text + Roboto"
  ],
  "recent_layouts": [
-  "isotype pictogram chart: drawn coconut = 10 per stall row with OTP chips + 3 dark stat cards",
-  "proportional frame wall with question tags, tablet order form with wood moulding swatches, frame preview with dimension arrows, bench job list + ready text, tile CTA",
-  "booking phone + travel-area zone rings map with visit pins + day visit list",
-  "two round stamp proofs (SVG textPath + ink turbulence) change vs approved + 4-step time strip",
-  "horizontal road ribbon timeline with day pins + odometer digit readouts + dark trip log totals + 3 side cards",
   "garment rack with hanging tickets, pinned garment + ticket card, ready-date kanban with open slots, pickup rack slot grid, tile CTA",
   "top-down tractor + trolley load plan with sack grid coloured by village drop + drop cards + credit card",
   "booking card with drawn sofas (numbered cushions) and mattress as booked items + slot rail + 3 crew cards",
@@ -2807,14 +2847,14 @@
   "measured laundry nook elevation with dimension tags + install checklist + dark haul-away list with slots",
   "clipboard with metal clip holding repeat order list (drawn items, Nov vs Dec qty) + delivery days card",
   "living room scene with lot tags, browser lot catalogue, top-down house map with lot ranges + path, holds and pickups list, icons + tiles CTA",
-  "row of 5 drawn food carts with sold/back bars + out/back/sold table"
+  "row of 5 drawn food carts with sold/back bars + out/back/sold table",
+  "building section with roof tanks + sump showing sediment by status + tank list + dark message card",
+  "top-down backyard with customer-drawn fence runs in ft + gates + dark quote request form",
+  "day ribbon with travel hatch, slots by area + phone, route map with numbered stops, open kit bag compartments, 4 big tiles CTA",
+  "paper service book with ink stamps per visit + dark phone card with km bar and parts used",
+  "cabin cutaway with stove + flue and 5 numbered survey points + matching survey form + install day bar"
  ],
  "used_hashtag_sets": [
-  "#labelprinting #packagingsupplier #pouchpackaging #printingindustry",
-  "#lawoffice #lawfirmmarketing #solopractitioner #legaltech",
-  "#inverterinstallation #inverterbattery #powerbackup #electricalbusiness",
-  "#loanagent #dsa #loandocuments #financeprofessional",
-  "#restaurantowner #onlineordering #takeoutfood #canadianrestaurant",
   "#watercansupplier #20litrewater #waterdelivery #mineralwaterbusiness",
   "#printshop #photocopyshop #printingbusiness #printandcopy",
   "#bridalboutique #bridalshop #weddingdressshopping #bridalsalon",
@@ -2869,7 +2909,12 @@
   "#applianceinstallation #applianceinstaller #homeservices #washerinstall",
   "#stationerysupplier #officesupplies #stationeryshop #b2bindia",
   "#estatesale #estatesales #estatesalecompany #downsizing",
-  "#streetfoodindia #chaat #panipuri #foodcartbusiness"
+  "#streetfoodindia #chaat #panipuri #foodcartbusiness",
+  "#watertankcleaning #tankcleaning #housingsociety #homeservicesindia",
+  "#fenceinstallation #fencecompany #fencing #backyardfence",
+  "#homesalon #salonathome #beautyservices #beautybusinessindia",
+  "#bikeservice #doorstepservice #twowheelerservice #bikeservicing",
+  "#woodstove #woodstoveinstallation #hearth #canadianbusiness"
  ],
  "drive_index_at_post": 215
 }

@@ -175,3 +175,7 @@
 - (b043) CTA tile grids with flex:1 rows leave big empty tiles; give the hero (jars, icons) flex:1 with align-items:center and let tiles size to content (24px padding, 34px titles).
 - (b043) Key-value tiles in a 3x2 grid need 40px+ values; long values ("Cotton, size M", "Mon 23 Nov") wrap at that size, so shorten values first.
 - (b043) Dashed routes on plans must run in the gaps between rooms (L-shaped paths) or they cut through room labels. New techniques: candle jar SVG with wax fill + flame, curing rack shelves = pour days, clipboard with metal clip, measured nook elevation, food cart row with sold/back bars.
+- (b044) Rotated SVG stamps inside list rows flag ESCAPES and OVERLAP; keep stamps unrotated (or rotate only the inner text group) and give stamp text 25px+ vertical spacing.
+- (b044) Time axis labels under a duration ribbon: position them absolutely at minute/total % (12 PM at 120/335), never space-between (b027 again). Ribbons need a fixed height (~470px) so the stat cards below do not become empty slabs.
+- (b044) Maps in a tall card: scale all y coordinates by the card's aspect (K=1.4) instead of leaving a short square map with a dead band.
+- (b044) New techniques: building section with tank sediment levels, customer-drawn fence runs on a lot plan, open kit bag compartments as a checklist, service book with ink stamps, cabin cutaway with survey points.
