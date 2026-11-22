@@ -179,3 +179,7 @@
 - (b044) Time axis labels under a duration ribbon: position them absolutely at minute/total % (12 PM at 120/335), never space-between (b027 again). Ribbons need a fixed height (~470px) so the stat cards below do not become empty slabs.
 - (b044) Maps in a tall card: scale all y coordinates by the card's aspect (K=1.4) instead of leaving a short square map with a dead band.
 - (b044) New techniques: building section with tank sediment levels, customer-drawn fence runs on a lot plan, open kit bag compartments as a checklist, service book with ink stamps, cabin cutaway with survey points.
+- (b045) Elevation SVGs with a big padded viewBox (-70 -60 780 820) shrink their labels to ~13px in the feed; size dimension labels in viewBox units for the final width (34px text at 0.55 scale) and widen the drawing card to 520-560px.
+- (b045) Profile cards with an object + 2 rows leave a dead band; add a real third data row (last delivered) and make rows flex:1, with numbers derived from the same rule (left ÷ grams a day = days to run-out, used ÷ grams = days since delivery).
+- (b045) Check weekday + date pairs programmatically when building sample data (Fri 6 Dec was wrong; 6 Dec 2026 is a Sunday).
+- (b045) New techniques: photo booth strip as a booking calendar, food bags with clipPath fill level, flake-pattern SVG floor, car with numbered decoration zones, three wardrobe layouts as options.

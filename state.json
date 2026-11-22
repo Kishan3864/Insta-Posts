@@ -1,9 +1,9 @@
 {
  "drive_folder_id": "1OZvW8MCiA-_SSNn5_9g3o8k5sMyHUcxE",
  "drive_index_sheet_id": "1xFLY19Eqz0Nns5J6UVxomG2DnBAv_kkqnKLf0H6TGvY",
- "lock_until_utc": "2026-11-22T21:25:45Z",
+ "lock_until_utc": "2026-11-22T21:19:45Z",
  "last_run": "2026-11-22T19:42:32Z \u00b7 posts 211-225 made (batches 39-41), Drive 1-225 done, index sheet refreshed at 215 (next ~240)",
- "next_post_no": 241,
+ "next_post_no": 246,
  "posts_done": [
   {
    "n": 1,
@@ -1924,11 +1924,51 @@
    "slides": 1,
    "market": "Canada",
    "category": "WoodStoveInstaller"
+  },
+  {
+   "n": 241,
+   "dir": "posts/0241_SINGLE_India_WeddingCarDecorator",
+   "format": "SINGLE",
+   "slides": 1,
+   "market": "India",
+   "category": "WeddingCarDecorator"
+  },
+  {
+   "n": 242,
+   "dir": "posts/0242_CAROUSEL_India_ModularWardrobe",
+   "format": "CAROUSEL",
+   "slides": 5,
+   "market": "India",
+   "category": "ModularWardrobe"
+  },
+  {
+   "n": 243,
+   "dir": "posts/0243_SINGLE_India_PetFoodDelivery",
+   "format": "SINGLE",
+   "slides": 1,
+   "market": "India",
+   "category": "PetFoodDelivery"
+  },
+  {
+   "n": 244,
+   "dir": "posts/0244_SINGLE_USA_GarageFloorCoating",
+   "format": "SINGLE",
+   "slides": 1,
+   "market": "USA",
+   "category": "GarageFloorCoating"
+  },
+  {
+   "n": 245,
+   "dir": "posts/0245_SINGLE_India_PhotoBoothRental",
+   "format": "SINGLE",
+   "slides": 1,
+   "market": "India",
+   "category": "PhotoBoothRental"
   }
  ],
  "market_counts": {
-  "India": 168,
-  "Abroad": 72
+  "India": 172,
+  "Abroad": 73
  },
  "used_categories": [
   "Boutique",
@@ -2177,14 +2217,14 @@
   "FenceInstaller",
   "HomeSalon",
   "DoorstepBikeService",
-  "WoodStoveInstaller"
+  "WoodStoveInstaller",
+  "WeddingCarDecorator",
+  "ModularWardrobe",
+  "PetFoodDelivery",
+  "GarageFloorCoating",
+  "PhotoBoothRental"
  ],
  "recent_palettes": [
-  "chalk pink/thread navy/pin silver",
-  "straw yellow/field green/soil brown",
-  "foam aqua/deep navy/white",
-  "blueprint blue/white/signal yellow",
-  "mustard/chilli red/jar green",
   "tomato red/leaf green/crate wood",
   "brushed steel/ink blue/lime",
   "grass green/sunny yellow/charcoal",
@@ -2204,7 +2244,12 @@
   "cedar orange/charcoal/pale sage",
   "coral/teal/sand",
   "racing green/cream/brick",
-  "ember red/stone grey/birch white"
+  "ember red/stone grey/birch white",
+  "jasmine white/marigold/ink teal",
+  "laminate grey/oak/olive",
+  "kibble brown/mint/sky blue",
+  "epoxy grey/flake blue/safety yellow",
+  "film black/electric blue/cream"
  ],
  "drive_files_done": [
   1,
@@ -2449,66 +2494,6 @@
   240
  ],
  "log": [
-  {
-   "n": 211,
-   "date": "2026-11-22",
-   "format": "SINGLE",
-   "market": "India",
-   "category": "TenderCoconutSupplier",
-   "palette": "coconut green/husk tan/cream",
-   "fonts": "Anton + Source Sans 3",
-   "layout": "isotype pictogram chart: drawn coconut = 10 per stall row with OTP chips + 3 dark stat cards",
-   "dots": 2,
-   "phone": false
-  },
-  {
-   "n": 212,
-   "date": "2026-11-22",
-   "format": "CAROUSEL",
-   "market": "India",
-   "category": "PhotoFrameShop",
-   "palette": "walnut brown/gallery white/gold leaf",
-   "fonts": "Cardo + Inter",
-   "layout": "proportional frame wall with question tags, tablet order form with wood moulding swatches, frame preview with dimension arrows, bench job list + ready text, tile CTA",
-   "dots": 5,
-   "phone": false
-  },
-  {
-   "n": 213,
-   "date": "2026-11-22",
-   "format": "SINGLE",
-   "market": "USA",
-   "category": "MobileNotary",
-   "palette": "navy ink/parchment/seal red",
-   "fonts": "Crimson Text + DM Sans",
-   "layout": "booking phone + travel-area zone rings map with visit pins + day visit list",
-   "dots": 1,
-   "phone": true
-  },
-  {
-   "n": 214,
-   "date": "2026-11-22",
-   "format": "SINGLE",
-   "market": "India",
-   "category": "RubberStampMaker",
-   "palette": "stamp violet/kraft/black",
-   "fonts": "Bitter + DM Sans",
-   "layout": "two round stamp proofs (SVG textPath + ink turbulence) change vs approved + 4-step time strip",
-   "dots": 3,
-   "phone": false
-  },
-  {
-   "n": 215,
-   "date": "2026-11-22",
-   "format": "SINGLE",
-   "market": "India",
-   "category": "TempoTravellerRental",
-   "palette": "asphalt/lane yellow/sky",
-   "fonts": "Archivo Black + Roboto",
-   "layout": "horizontal road ribbon timeline with day pins + odometer digit readouts + dark trip log totals + 3 side cards",
-   "dots": 4,
-   "phone": false
-  },
   {
    "n": 216,
    "date": "2026-11-22",
@@ -2808,14 +2793,69 @@
    "layout": "cabin cutaway with stove + flue and 5 numbered survey points + matching survey form + install day bar",
    "dots": 1,
    "phone": false
+  },
+  {
+   "n": 241,
+   "date": "2026-11-22",
+   "format": "SINGLE",
+   "market": "India",
+   "category": "WeddingCarDecorator",
+   "palette": "jasmine white/marigold/ink teal",
+   "fonts": "Gelasio + Fira Sans",
+   "layout": "side-view car with numbered flower zones + zone cards + cars booked list + flower shop message",
+   "dots": 3,
+   "phone": false
+  },
+  {
+   "n": 242,
+   "date": "2026-11-22",
+   "format": "CAROUSEL",
+   "market": "India",
+   "category": "ModularWardrobe",
+   "palette": "laminate grey/oak/olive",
+   "fonts": "TeX Gyre Adventor + Inter",
+   "layout": "wall elevation with beam + switch and mistakes list, wall + tablet form, 3 wardrobe layout options, panel cut list + install day, wardrobe + tiles CTA",
+   "dots": 5,
+   "phone": false
+  },
+  {
+   "n": 243,
+   "date": "2026-11-22",
+   "format": "SINGLE",
+   "market": "India",
+   "category": "PetFoodDelivery",
+   "palette": "kibble brown/mint/sky blue",
+   "fonts": "Poppins + DM Sans",
+   "layout": "3 pet profile cards with drawn food bags at fill % + run-out dates + reminder bar",
+   "dots": 2,
+   "phone": false
+  },
+  {
+   "n": 244,
+   "date": "2026-11-22",
+   "format": "SINGLE",
+   "market": "USA",
+   "category": "GarageFloorCoating",
+   "palette": "epoxy grey/flake blue/safety yellow",
+   "fonts": "Anton + Inter",
+   "layout": "top-down garage plan with flake pattern and sq ft grid + flake colour chips + quote request",
+   "dots": 4,
+   "phone": false
+  },
+  {
+   "n": 245,
+   "date": "2026-11-22",
+   "format": "SINGLE",
+   "market": "India",
+   "category": "PhotoBoothRental",
+   "palette": "film black/electric blue/cream",
+   "fonts": "Bitter + Fira Sans",
+   "layout": "4-frame photo booth strip as booking dates + booking detail card with props chips",
+   "dots": 1,
+   "phone": false
   }
  ],
  "recent_fonts": [
-  "Gelasio + DM Sans",
-  "Fira Sans + Open Sans",
-  "Poppins + Source Sans 3",
-  "TeX Gyre Adventor + Open Sans",
-  "Lora + Roboto",
   "Archivo Black + Source Sans 3",
   "Poppins + Fira Sans",
   "TeX Gyre Adventor + Roboto",
@@ -2835,14 +2875,14 @@
   "Montserrat + Source Sans 3",
   "Cardo + Fira Sans",
   "Anton + Roboto",
-  "Crimson Text + Roboto"
+  "Crimson Text + Roboto",
+  "Gelasio + Fira Sans",
+  "TeX Gyre Adventor + Inter",
+  "Poppins + DM Sans",
+  "Anton + Inter",
+  "Bitter + Fira Sans"
  ],
  "recent_layouts": [
-  "garment rack with hanging tickets, pinned garment + ticket card, ready-date kanban with open slots, pickup rack slot grid, tile CTA",
-  "top-down tractor + trolley load plan with sack grid coloured by village drop + drop cards + credit card",
-  "booking card with drawn sofas (numbered cushions) and mattress as booked items + slot rail + 3 crew cards",
-  "top-down production line on blueprint grid with order boxes at stations + browser order portal with stage bar",
-  "big jar + chat bubbles, browser order page with jar size steppers, jar fill-level batch plan on a shelf, parcel labels with barcodes by zone, tile CTA",
   "weighing scale with crate + LCD readout beside asked vs weighed order list with check dots",
   "drawn chimney hood with 6 baffle filters showing grease level + AMC visit dots + booking phone",
   "top-down play yard with fenced group zones and paw spots (filled vs dashed) + 3 capacity cards",
@@ -2862,14 +2902,14 @@
   "top-down backyard with customer-drawn fence runs in ft + gates + dark quote request form",
   "day ribbon with travel hatch, slots by area + phone, route map with numbered stops, open kit bag compartments, 4 big tiles CTA",
   "paper service book with ink stamps per visit + dark phone card with km bar and parts used",
-  "cabin cutaway with stove + flue and 5 numbered survey points + matching survey form + install day bar"
+  "cabin cutaway with stove + flue and 5 numbered survey points + matching survey form + install day bar",
+  "side-view car with numbered flower zones + zone cards + cars booked list + flower shop message",
+  "wall elevation with beam + switch and mistakes list, wall + tablet form, 3 wardrobe layout options, panel cut list + install day, wardrobe + tiles CTA",
+  "3 pet profile cards with drawn food bags at fill % + run-out dates + reminder bar",
+  "top-down garage plan with flake pattern and sq ft grid + flake colour chips + quote request",
+  "4-frame photo booth strip as booking dates + booking detail card with props chips"
  ],
  "used_hashtag_sets": [
-  "#watercansupplier #20litrewater #waterdelivery #mineralwaterbusiness",
-  "#printshop #photocopyshop #printingbusiness #printandcopy",
-  "#bridalboutique #bridalshop #weddingdressshopping #bridalsalon",
-  "#scrapdealer #kabadiwala #scrapbusiness #recyclingbusinessindia",
-  "#weddingcards #weddinginvitations #invitationcards #cardprintingindia",
   "#mattressmanufacturer #custommattress #mattressshop #foammattress",
   "#potterystudio #ceramicsstudio #potteryclass #claystudio #wheelthrowing",
   "#cementdealer #buildingmaterial #constructionmaterial #hardwaredealer",
@@ -2924,7 +2964,12 @@
   "#fenceinstallation #fencecompany #fencing #backyardfence",
   "#homesalon #salonathome #beautyservices #beautybusinessindia",
   "#bikeservice #doorstepservice #twowheelerservice #bikeservicing",
-  "#woodstove #woodstoveinstallation #hearth #canadianbusiness"
+  "#woodstove #woodstoveinstallation #hearth #canadianbusiness",
+  "#weddingcardecoration #cardecoration #weddingdecor #eventdecorindia",
+  "#modularwardrobe #wardrobedesign #interiorsindia #modularfurniture",
+  "#petfooddelivery #petsupplies #petparentsindia #petstore",
+  "#garagefloor #epoxyflooring #garagefloorcoating #homeimprovement",
+  "#photobooth #photoboothrental #eventrentals #eventplannerindia"
  ],
  "drive_index_at_post": 240,
  "old_index_sheets_to_trash": [
