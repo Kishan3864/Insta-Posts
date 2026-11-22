@@ -1,7 +1,7 @@
 {
  "drive_folder_id": "1OZvW8MCiA-_SSNn5_9g3o8k5sMyHUcxE",
  "drive_index_sheet_id": "1Xm_GVSy0LOP0qTZRGbc7oetVItCiiI7Cbn4Bn9kFbfE",
- "lock_until_utc": "2026-11-22T13:13:10Z",
+ "lock_until_utc": "2026-11-22T13:20:25Z",
  "last_run": "2026-11-22T11:36:45Z \u00b7 posts 91-100 made, Drive 1-100 done, index sheet last refreshed at 90 (refresh due ~115)",
  "next_post_no": 106,
  "posts_done": [
@@ -1091,7 +1091,12 @@
   97,
   98,
   99,
-  100
+  100,
+  101,
+  102,
+  103,
+  104,
+  105
  ],
  "log": [
   {
