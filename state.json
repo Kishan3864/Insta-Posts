@@ -3,7 +3,7 @@
  "drive_index_sheet_id": "1Xm_GVSy0LOP0qTZRGbc7oetVItCiiI7Cbn4Bn9kFbfE",
  "lock_until_utc": "2026-11-22T13:13:10Z",
  "last_run": "2026-11-22T11:36:45Z \u00b7 posts 91-100 made, Drive 1-100 done, index sheet last refreshed at 90 (refresh due ~115)",
- "next_post_no": 101,
+ "next_post_no": 106,
  "posts_done": [
   {
    "n": 1,
@@ -804,11 +804,51 @@
    "slides": 1,
    "market": "Canada",
    "category": "FarmersMarket"
+  },
+  {
+   "n": 101,
+   "dir": "posts/0101_SINGLE_India_EggSupplier",
+   "format": "SINGLE",
+   "slides": 1,
+   "market": "India",
+   "category": "EggSupplier"
+  },
+  {
+   "n": 102,
+   "dir": "posts/0102_CAROUSEL_India_TextileWholesaler",
+   "format": "CAROUSEL",
+   "slides": 6,
+   "market": "India",
+   "category": "TextileWholesaler"
+  },
+  {
+   "n": 103,
+   "dir": "posts/0103_SINGLE_USA_ThriftStore",
+   "format": "SINGLE",
+   "slides": 1,
+   "market": "USA",
+   "category": "ThriftStore"
+  },
+  {
+   "n": 104,
+   "dir": "posts/0104_CAROUSEL_India_CarGarage",
+   "format": "CAROUSEL",
+   "slides": 5,
+   "market": "India",
+   "category": "CarGarage"
+  },
+  {
+   "n": 105,
+   "dir": "posts/0105_SINGLE_India_DryFruitsSeller",
+   "format": "SINGLE",
+   "slides": 1,
+   "market": "India",
+   "category": "DryFruitsSeller"
   }
  ],
  "market_counts": {
-  "India": 70,
-  "Abroad": 30
+  "India": 74,
+  "Abroad": 31
  },
  "used_categories": [
   "Boutique",
@@ -917,14 +957,14 @@
   "TowingCompany",
   "LatheWorkshop",
   "PowerloomUnit",
-  "FarmersMarket"
+  "FarmersMarket",
+  "EggSupplier",
+  "TextileWholesaler",
+  "ThriftStore",
+  "CarGarage",
+  "DryFruitsSeller"
  ],
  "recent_palettes": [
-  "asphalt/hi-vis orange/site sand",
-  "cobalt/tomato/sneaker white",
-  "pegboard tan/deep green/tomato",
-  "deep maroon/zari gold/ivory",
-  "navy charcoal/mint/lemon",
   "brushed steel/ink/electric teal",
   "forest navy/coral/blush cream",
   "darkroom black/signal red/paper white",
@@ -944,7 +984,12 @@
   "night black/amber light/steel blue",
   "hammertone green/brass yellow/drawing paper",
   "cotton white/madder red/charcoal/indigo",
-  "kraft beige/beet purple/leaf green"
+  "kraft beige/beet purple/leaf green",
+  "eggshell/barn red/straw yellow/charcoal",
+  "deep teal/rust orange/unbleached cotton",
+  "mustard/forest green/manila tag",
+  "workshop blue/signal yellow/concrete grey",
+  "walnut brown/pistachio green/almond cream"
  ],
  "drive_files_done": [
   1,
@@ -1049,66 +1094,6 @@
   100
  ],
  "log": [
-  {
-   "n": 71,
-   "date": "2026-11-22",
-   "format": "SINGLE",
-   "market": "India",
-   "category": "InteriorDesigner",
-   "palette": "charcoal green/oat/brass",
-   "fonts": "Gelasio + DM Sans",
-   "layout": "CSS material swatch board + approval comment thread",
-   "dots": 2,
-   "phone": false
-  },
-  {
-   "n": 72,
-   "date": "2026-11-22",
-   "format": "CAROUSEL",
-   "market": "India",
-   "category": "ModularKitchen",
-   "palette": "blueprint navy/graph white/marker yellow",
-   "fonts": "Montserrat + Roboto",
-   "layout": "blueprint floor plan with dimension lines, mini layout plans, quotation doc",
-   "dots": 4,
-   "phone": false
-  },
-  {
-   "n": 73,
-   "date": "2026-11-22",
-   "format": "SINGLE",
-   "market": "India",
-   "category": "GentsTailor",
-   "palette": "charcoal/tape mustard/chalk white",
-   "fonts": "Bitter + Inter",
-   "layout": "measuring tape band + phone profile + delivery list",
-   "dots": 1,
-   "phone": true
-  },
-  {
-   "n": 74,
-   "date": "2026-11-22",
-   "format": "CAROUSEL",
-   "market": "USA",
-   "category": "PestControl",
-   "palette": "deep teal/goldenrod/cloud white",
-   "fonts": "TeX Gyre Adventor + Source Sans 3",
-   "layout": "top-down house plan with perimeter stations, year dot board, service report",
-   "dots": 3,
-   "phone": false
-  },
-  {
-   "n": 75,
-   "date": "2026-11-22",
-   "format": "SINGLE",
-   "market": "India",
-   "category": "PlywoodDealer",
-   "palette": "birch/walnut/signal green",
-   "fonts": "Archivo Black + Source Sans 3",
-   "layout": "side-view sheet stacks with reorder level line + stock search",
-   "dots": 5,
-   "phone": false
-  },
   {
    "n": 76,
    "date": "2026-11-22",
@@ -1408,14 +1393,69 @@
    "layout": "SVG striped market awning with chalkboard sign + crates, browser pre-order page with reserved bars",
    "dots": 5,
    "phone": false
+  },
+  {
+   "n": 101,
+   "date": "2026-11-22",
+   "format": "SINGLE",
+   "market": "India",
+   "category": "EggSupplier",
+   "palette": "eggshell/barn red/straw yellow/charcoal",
+   "fonts": "Montserrat + Source Sans 3",
+   "layout": "top-down SVG egg tray + side tray stack counter + route table with empties-back column",
+   "dots": 2,
+   "phone": false
+  },
+  {
+   "n": 102,
+   "date": "2026-11-22",
+   "format": "CAROUSEL",
+   "market": "India",
+   "category": "TextileWholesaler",
+   "palette": "deep teal/rust orange/unbleached cotton",
+   "fonts": "Bitter + Open Sans",
+   "layout": "SVG fabric roll stack, CSS fabric swatch catalogue grid, broker order list, dispatch slip with step rail, credit-days aging rows",
+   "dots": 4,
+   "phone": false
+  },
+  {
+   "n": 103,
+   "date": "2026-11-22",
+   "format": "SINGLE",
+   "market": "USA",
+   "category": "ThriftStore",
+   "palette": "mustard/forest green/manila tag",
+   "fonts": "TeX Gyre Adventor + DM Sans",
+   "layout": "SVG hang tags on a rail with barcodes + browser 3x2 item grid with on/off-site pills",
+   "dots": 1,
+   "phone": false
+  },
+  {
+   "n": 104,
+   "date": "2026-11-22",
+   "format": "CAROUSEL",
+   "market": "India",
+   "category": "CarGarage",
+   "palette": "workshop blue/signal yellow/concrete grey",
+   "fonts": "Archivo Black + Inter",
+   "layout": "top-down SVG car inspection diagram with numbered pins, browser job card with fuel gauge + photo tiles, phone approval list, number-plate reminder list",
+   "dots": 3,
+   "phone": true
+  },
+  {
+   "n": 105,
+   "date": "2026-11-22",
+   "format": "SINGLE",
+   "market": "India",
+   "category": "DryFruitsSeller",
+   "palette": "walnut brown/pistachio green/almond cream",
+   "fonts": "Cardo + Poppins",
+   "layout": "top-down SVG 4-section gift box with scattered drawn nuts + 4-step box builder card",
+   "dots": 5,
+   "phone": false
   }
  ],
  "recent_fonts": [
-  "Anton + Inter",
-  "Poppins + Fira Sans",
-  "Crimson Text + DM Sans",
-  "Cardo + Inter",
-  "Fira Sans + Roboto",
   "Lora + Fira Sans",
   "Gelasio + Poppins",
   "Archivo Black + Roboto",
@@ -1435,14 +1475,14 @@
   "Anton + Roboto",
   "Bitter + Fira Sans",
   "Lora + Roboto",
-  "Cardo + Source Sans 3"
+  "Cardo + Source Sans 3",
+  "Montserrat + Source Sans 3",
+  "Bitter + Open Sans",
+  "TeX Gyre Adventor + DM Sans",
+  "Archivo Black + Inter",
+  "Cardo + Poppins"
  ],
  "recent_layouts": [
-  "CSS building under construction with floor stage tags, attendance table, material rows",
-  "CSS shoe-box shelf wall with sold-out slots + size bars",
-  "pegboard with CSS tools + phone job list",
-  "CSS embroidery hoop + thread spools + job cards with piece bars",
-  "office floor plan zone fills, checklist cards, crew week board, browser report",
   "inline SVG stair railing elevation with dimensions + status stepper",
   "CSS gift box stack with bows, gift set cards, bulk form, delivery bars",
   "film strip with sprocket holes + order card + phone message",
@@ -1462,14 +1502,14 @@
   "SVG flatbed tow truck, browser call form, horizontal lane dispatch board, phone live-tracking text, amber CTA card",
   "SVG engineering drawing of stepped shaft on grid paper + job card + machine load board",
   "SVG warp beam roll, 24-loom status grid, paired day/night bars, beam progress cards, thread-stripe CTA",
-  "SVG striped market awning with chalkboard sign + crates, browser pre-order page with reserved bars"
+  "SVG striped market awning with chalkboard sign + crates, browser pre-order page with reserved bars",
+  "top-down SVG egg tray + side tray stack counter + route table with empties-back column",
+  "SVG fabric roll stack, CSS fabric swatch catalogue grid, broker order list, dispatch slip with step rail, credit-days aging rows",
+  "SVG hang tags on a rail with barcodes + browser 3x2 item grid with on/off-site pills",
+  "top-down SVG car inspection diagram with numbered pins, browser job card with fuel gauge + photo tiles, phone approval list, number-plate reminder list",
+  "top-down SVG 4-section gift box with scattered drawn nuts + 4-step box builder card"
  ],
  "used_hashtag_sets": [
-  "#djsetup #soundrental #eventequipment #djbusiness #lightandsound",
-  "#makeupartist #bridalmakeupartist #muaindia #makeupbusiness",
-  "#autodetailing #cardetailing #mobiledetailing #detailingbusiness",
-  "#paintingcontractor #housepainter #paintingbusiness #canadacontractor",
-  "#juicebar #juiceshop #shakes #cafeownerindia #loyaltyprogram",
   "#cloudkitchen #cloudkitchenindia #foodbusinessindia #directorders #homechefs",
   "#teastall #chaiwala #chaibusiness #teashopindia",
   "#eventdecorator #eventdecor #decoratorsindia #eventplanningindia #weddingdecorindia",
@@ -1524,7 +1564,12 @@
   "#towingcompany #towtruck #roadsideassistance #towingservice",
   "#engineeringworkshop #latheworkshop #cncmachining #jobwork #msmeindia",
   "#powerloom #weavingunit #textilemanufacturing #surattextile",
-  "#farmersmarket #farmersmarketvendor #shoplocalcanada #winterfarmersmarket"
+  "#farmersmarket #farmersmarketvendor #shoplocalcanada #winterfarmersmarket",
+  "#eggsupplier #poultrybusiness #eggdistributor #deliveryroute",
+  "#surattextile #textilewholesaler #fabricwholesale #textilebusiness #clothmarket",
+  "#thriftstore #resaleshop #secondhandshop #thriftshopowner",
+  "#cargarage #carservicecentre #automobileworkshop #garagebusiness",
+  "#dryfruits #dryfruitsindia #giftboxes #corporategiftsindia"
  ],
  "drive_index_at_post": 90
 }
