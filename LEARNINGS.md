@@ -97,3 +97,6 @@
 - (b023) A generic `.panel svg{position:absolute;inset:0}` also grabbed icon SVGs inside overlay cards (check icon flew to the card corner). Always use a child selector (`.panel>svg`) for full-bleed scene SVGs.
 - (b023) Overlay cards on a scene (booking card on a hill scene) must be sized for the feed: 34-36px title, 19-20px body; 16px text on a big scene reads as tiny.
 - (b023) Isometric boxes from three paths (top/left/right) are fast, but random overlaps look messy; next time lay them out on a strict grid (back row first, then front) and crop the viewBox to the stack.
+- (b024) Classes defined in one slide's css (e.g. .hd status colour) do not exist on other slides; a reused status class rendered invisible on the CTA. Put shared status colours in the carousel's base CSS.
+- (b024) Fake QR codes need finder squares and a 13x13 random grid; a 7x7 modulo pattern read as letters. Year-at-a-glance dot matrices (every Saturday as a status dot) are very clear for booking niches.
+- (b024) Tall tiles with only a name + dots look empty: add one data line ("4 of 4 posts covered") between them. Avoid sample site names that hint at minors or health (school gate, hospital).
