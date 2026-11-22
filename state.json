@@ -1,0 +1,226 @@
+{
+ "drive_folder_id": "1OZvW8MCiA-_SSNn5_9g3o8k5sMyHUcxE",
+ "drive_index_sheet_id": null,
+ "lock_until_utc": null,
+ "last_run": null,
+ "next_post_no": 21,
+ "posts_done": [
+  {
+   "n": 1,
+   "dir": "posts/0001_SINGLE_India_Boutique",
+   "format": "SINGLE",
+   "slides": 1,
+   "market": "India",
+   "category": "Boutique"
+  },
+  {
+   "n": 2,
+   "dir": "posts/0002_CAROUSEL_India_Bakery",
+   "format": "CAROUSEL",
+   "slides": 5,
+   "market": "India",
+   "category": "Bakery"
+  },
+  {
+   "n": 3,
+   "dir": "posts/0003_SINGLE_India_Gym",
+   "format": "SINGLE",
+   "slides": 1,
+   "market": "India",
+   "category": "Gym"
+  },
+  {
+   "n": 4,
+   "dir": "posts/0004_SINGLE_India_RealEstate",
+   "format": "SINGLE",
+   "slides": 1,
+   "market": "India",
+   "category": "RealEstate"
+  },
+  {
+   "n": 5,
+   "dir": "posts/0005_SINGLE_India_Restaurant",
+   "format": "SINGLE",
+   "slides": 1,
+   "market": "India",
+   "category": "Restaurant"
+  },
+  {
+   "n": 6,
+   "dir": "posts/0006_CAROUSEL_India_CA-TaxConsultant",
+   "format": "CAROUSEL",
+   "slides": 5,
+   "market": "India",
+   "category": "CA-TaxConsultant"
+  },
+  {
+   "n": 7,
+   "dir": "posts/0007_SINGLE_India_WeddingPhotographer",
+   "format": "SINGLE",
+   "slides": 1,
+   "market": "India",
+   "category": "WeddingPhotographer"
+  },
+  {
+   "n": 8,
+   "dir": "posts/0008_SINGLE_India_Transport",
+   "format": "SINGLE",
+   "slides": 1,
+   "market": "India",
+   "category": "Transport"
+  },
+  {
+   "n": 9,
+   "dir": "posts/0009_SINGLE_India_MobileRepair",
+   "format": "SINGLE",
+   "slides": 1,
+   "market": "India",
+   "category": "MobileRepair"
+  },
+  {
+   "n": 10,
+   "dir": "posts/0010_CAROUSEL_India_SareeSeller",
+   "format": "CAROUSEL",
+   "slides": 5,
+   "market": "India",
+   "category": "SareeSeller"
+  },
+  {
+   "n": 11,
+   "dir": "posts/0011_SINGLE_India_FamilyApp",
+   "format": "SINGLE",
+   "slides": 1,
+   "market": "India",
+   "category": "FamilyApp"
+  },
+  {
+   "n": 12,
+   "dir": "posts/0012_SINGLE_India_HardwareShop",
+   "format": "SINGLE",
+   "slides": 1,
+   "market": "India",
+   "category": "HardwareShop"
+  },
+  {
+   "n": 13,
+   "dir": "posts/0013_SINGLE_India_PackersMovers",
+   "format": "SINGLE",
+   "slides": 1,
+   "market": "India",
+   "category": "PackersMovers"
+  },
+  {
+   "n": 14,
+   "dir": "posts/0014_SINGLE_India_StartupMVP",
+   "format": "SINGLE",
+   "slides": 1,
+   "market": "India",
+   "category": "StartupMVP"
+  },
+  {
+   "n": 15,
+   "dir": "posts/0015_SINGLE_USA_FoodTruck",
+   "format": "SINGLE",
+   "slides": 1,
+   "market": "USA",
+   "category": "FoodTruck"
+  },
+  {
+   "n": 16,
+   "dir": "posts/0016_SINGLE_USA_DogGroomer",
+   "format": "SINGLE",
+   "slides": 1,
+   "market": "USA",
+   "category": "DogGroomer"
+  },
+  {
+   "n": 17,
+   "dir": "posts/0017_CAROUSEL_USA_CleaningCompany",
+   "format": "CAROUSEL",
+   "slides": 6,
+   "market": "USA",
+   "category": "CleaningCompany"
+  },
+  {
+   "n": 18,
+   "dir": "posts/0018_SINGLE_USA_AutoRepair",
+   "format": "SINGLE",
+   "slides": 1,
+   "market": "USA",
+   "category": "AutoRepair"
+  },
+  {
+   "n": 19,
+   "dir": "posts/0019_SINGLE_Canada_CoffeeShop",
+   "format": "SINGLE",
+   "slides": 1,
+   "market": "Canada",
+   "category": "CoffeeShop"
+  },
+  {
+   "n": 20,
+   "dir": "posts/0020_SINGLE_USA_LawnCare",
+   "format": "SINGLE",
+   "slides": 1,
+   "market": "USA",
+   "category": "LawnCare"
+  }
+ ],
+ "market_counts": {
+  "India": 14,
+  "Abroad": 6
+ },
+ "used_categories": [
+  "Boutique",
+  "Bakery",
+  "Gym",
+  "RealEstate",
+  "Restaurant",
+  "CA-TaxConsultant",
+  "WeddingPhotographer",
+  "Transport",
+  "MobileRepair",
+  "SareeSeller",
+  "FamilyApp",
+  "HardwareShop",
+  "PackersMovers",
+  "StartupMVP",
+  "FoodTruck",
+  "DogGroomer",
+  "CleaningCompany",
+  "AutoRepair",
+  "CoffeeShop",
+  "LawnCare",
+  "TentHouse",
+  "Solar",
+  "CarWash",
+  "FurnitureWorkshop",
+  "BrickKiln",
+  "GatePass",
+  "Shuttering"
+ ],
+ "recent_palettes": [
+  "blush/maroon",
+  "indigo/saffron",
+  "black/lime",
+  "navy/gold/ivory",
+  "tomato/cream",
+  "swiss white/teal",
+  "warm black/sepia/rust",
+  "asphalt/yellow",
+  "electric blue/ice",
+  "magenta/emerald/gold",
+  "mint/peach",
+  "steel blue/orange",
+  "cardboard/forest",
+  "midnight/neon",
+  "teal/mustard retro",
+  "lavender/coral",
+  "aqua/white",
+  "charcoal/red",
+  "espresso/latte",
+  "grass/sky"
+ ],
+ "drive_files_done": [],
+ "log": []
+}

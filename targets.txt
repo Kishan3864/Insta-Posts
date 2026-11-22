@@ -1,0 +1,204 @@
+# One target per line: MARKET | category | one real daily problem a website/app/software fixes
+# Pick top-down, skip any category already in state.json used_categories. Add new lines (never duplicates) when < 40 unused remain.
+IN | Kirana / general store | regular customers' monthly lists and udhaar tracking
+IN | Dairy / milk delivery | daily litres per house, missed days, month-end bills
+IN | Tiffin / dabba service | daily menu, skips, subscriptions and payments
+IN | Cloud kitchen | direct orders without marketplace dependence, repeat customers
+IN | Sweet shop (mithai) | festival bulk orders, box sizes, pickup slots
+IN | Tea stall chain / chai outlet | daily stock of milk, sugar, cups across outlets
+IN | Juice and shake bar | combo menu QR, loyalty for regulars
+IN | Caterer | event menus, headcount changes, staff allocation, advance tracking
+IN | Banquet hall | date availability, enquiries, booking calendar
+IN | Decorator (events) | item lists, site photos, setup crew schedule
+IN | DJ and sound rental | equipment out and back, booking dates
+IN | Mehendi artist | booking calendar, design gallery, advance payments
+IN | Makeup artist | portfolio website, bridal bookings, trial dates
+IN | Beauty parlour | service menu, appointments, package tracking
+IN | Barber shop | queue token on phone, regular customer reminders
+IN | Spa and massage centre | therapist slots, packages, membership
+IN | Yoga studio | batch timings, attendance, renewals
+IN | Dance academy | batches, fee reminders, event registrations
+IN | Music classes | student progress, practice notes, fee dates
+IN | Driving school | lesson slots, instructor schedule, licence test dates
+IN | Computer training institute | admissions, batches, certificates
+IN | Library / self-study centre seats | (avoid: done in reels) use exam-prep test series instead
+IN | Coaching test series | online tests, ranks, answer keys
+IN | Abacus / skill classes | level tracking, parent updates
+IN | Day-care / creche | (skip: minors)
+IN | Hostel / PG owner | rooms, rent due, deposits, complaints
+IN | Co-working space | desk booking, monthly plans, visitor passes
+IN | Small hotel / lodge | (done in reels) use homestay booking site instead
+IN | Homestay owner | direct booking website, photos, availability
+IN | Travel agent | trip packages, enquiries, itinerary PDFs
+IN | Tour operator (pilgrimage excluded) | group trips, seats, payments
+IN | Cab / taxi operator | driver duty, trip log, fuel and earnings
+IN | School van / bus operator | (skip: minors)
+IN | Auto parts dealer | part number search, stock across godowns
+IN | Two-wheeler service centre | job cards, service reminders, pickup alerts
+IN | Car accessories shop | product catalogue site, fitting bookings
+IN | Tyre shop | stock by size, alignment bookings
+IN | Used bike dealer | listings website with photos, enquiries
+IN | Electrician / plumber services | service booking site, job tracking
+IN | AC repair and service | AMC reminders, technician routes
+IN | RO water purifier dealer | service due dates, filter change reminders
+IN | CCTV installer | site details, AMC, quotation app
+IN | Inverter and battery dealer | warranty tracking (battery shop done) use solar water heater dealer
+IN | Interior designer | project gallery website, client approvals
+IN | Modular kitchen maker | measurement to quote, design approvals
+IN | Carpenter / furniture maker | (done in reels) use upholstery shop instead
+IN | Upholstery shop | fabric catalogue, pickup and delivery
+IN | Painter / painting contractor | site quotes by sq ft, progress photos
+IN | Tiles and sanitary showroom | product catalogue site, quotations
+IN | Paint dealer | shade orders, contractor accounts
+IN | Plywood and laminate dealer | sheet stock by size, order tracking
+IN | Glass and aluminium fabricator | (done in reels) use steel railing fabricator
+IN | Steel railing fabricator | site measurement, quotes, job status
+IN | Civil contractor | site-wise labour, material, payments
+IN | Real estate builder (small) | project website, flat availability chart
+IN | Property rental manager | tenants, rent, maintenance requests
+IN | Society / RWA management | maintenance bills, notices, complaints
+IN | Laundry and dry cleaning | pickup booking, order status
+IN | Tailor (gents) | measurements and delivery dates
+IN | Boutique (ladies) | (done) use embroidery and zari work unit
+IN | Embroidery / zari unit | job work tracking per design
+IN | Textile wholesaler (Surat) | catalogue, broker orders, dispatch
+IN | Saree retailer | (done) use kurti and dress material seller
+IN | Kurti and dress material seller | catalogue website, wholesale rates
+IN | Readymade garment shop | size-wise stock, festive catalogue
+IN | Footwear shop | size-wise stock, online catalogue
+IN | Jewellery showroom | (karigar done) use design catalogue + gold rate display
+IN | Imitation jewellery seller | online store, reseller orders
+IN | Watch and mobile accessories shop | catalogue, warranty records
+IN | Optical shop | prescription records, frame catalogue, reminders
+IN | Gift and stationery shop | bulk orders, corporate gifting catalogue
+IN | Printing press | (done) use visiting card and flex printer
+IN | Flex and signage printer | job orders, proof approvals
+IN | Photo studio | passport photo orders, event bookings
+IN | Videographer / reel maker | client projects, delivery links
+IN | Event management company | vendor list, budget, timeline per event
+IN | Florist | daily orders, decoration bookings
+IN | Pet shop | (done) use pet grooming at home
+IN | Pet grooming (home visit) | booking app, pet profiles
+IN | Veterinary-free pet boarding | stay bookings, daily updates
+IN | Nursery / plant shop | plant catalogue, delivery orders
+IN | Organic farm produce seller | weekly box subscriptions
+IN | Poultry / egg supplier | daily supply per shop, payments
+IN | Fish and meat shop | pre-orders, cut preferences, delivery
+IN | Bakery | (done) use cake home bakers
+IN | Home baker | order form, menu website
+IN | Ice cream parlour | (distributor done) use parlour loyalty app
+IN | Restaurant | (done) use dhaba / highway restaurant
+IN | Dhaba / highway restaurant | menu QR, billing, bulk orders
+IN | Canteen contractor (office/factory) | daily coupons, headcount, monthly bills
+IN | Grocery wholesaler | daily orders from shops, credit limits
+IN | FMCG distributor | beat plans, retailer orders (field sales done) use scheme tracking
+IN | Spices / masala manufacturer | batch tracking, distributor orders
+IN | Snack (namkeen) manufacturer | production plan, dispatch
+IN | Pickle and papad home business | (done) use homemade ghee / dry fruits seller
+IN | Dry fruits seller | gift box orders, online store
+IN | Rice / flour mill | grinding orders, stock
+IN | Oil mill | batch, stock, dealer orders
+IN | Packaging material supplier | (box maker done) use pouches and labels supplier
+IN | Plastic moulding unit | job orders, dies, production
+IN | Diamond polishing unit (Surat) | lot tracking, worker output
+IN | Powerloom / weaving unit | beam tracking, production per machine
+IN | Dyeing and printing mill | job cards, colour shade records
+IN | Engineering workshop / lathe | job cards, delivery dates
+IN | Fabrication workshop | quotes, job status
+IN | Garage (four-wheeler) | job cards, estimates, service reminders
+IN | Courier franchise | booking, tracking, COD records
+IN | Transport (done) | use tempo and mini-truck booking
+IN | Mini-truck booking | load booking website, driver allotment
+IN | Warehouse / godown rental | space booking, inward-outward
+IN | Cold storage (done) | skip
+IN | Agro input shop (done) | use tractor and farm equipment rental
+IN | Tractor / farm equipment rental | booking calendar, hours, payments
+IN | Nursery school | (skip: minors)
+IN | Gym (done) | use crossfit / functional training studio
+IN | Sports academy (cricket/football) | batches, fees, attendance
+IN | Turf (done) | use badminton court booking
+IN | Badminton / box cricket court | slot booking website
+IN | Swimming pool | membership, batches
+IN | Chartered accountant (done) | use GST / tax practitioner small office
+IN | Lawyer / advocate office | case dates, client files, hearing reminders
+IN | Insurance agent (done) | use mutual fund distributor (no returns claims)
+IN | Loan DSA / agent | lead tracking, document checklist (no rate claims)
+IN | Recruitment / placement (done) | use security guard staffing agency
+IN | Housekeeping staffing agency | staff deployment, attendance
+IN | NGO / trust | donor records, volunteer schedule (no religion)
+IN | Freelancer (designer/developer) | portfolio website, client invoices
+IN | Content creator / influencer | media kit website, brand deal tracker
+IN | Doctor clinic | (no health claims) appointment booking only
+IN | Dental clinic | (no health claims) appointment reminders only
+IN | Diagnostic collection centre | (no health claims) home sample booking only
+IN | Pharmacy | (careful) refill reminders, stock only
+IN | Personal finance (individual) | expense tracker personal app
+IN | Student (college) | personal study planner app
+IN | Family | (done) use joint family shared calendar
+IN | Small startup | (done) use internal tools for small teams
+IN | Team manager | task and attendance app for small teams
+US | Plumber | quote form, service areas, after-hours leads
+US | Electrician | job photos, booking, reviews section (no fake reviews)
+US | HVAC company | maintenance plans, seasonal reminders
+US | Roofer | inspection booking, project gallery
+US | Landscaper (done) | use snow removal company
+CA | Snow removal company | seasonal contracts, route lists
+US | Pressure washing | instant quote by sq ft, before-after gallery
+US | Pool cleaning service | weekly routes, chemical logs
+US | Handyman | job menu with price ranges you set, booking
+US | Pest control | recurring visits, service reports
+US | House cleaning (done) | use commercial office cleaning
+US | Commercial cleaning | site checklists, crew schedules
+US | Moving company | quote calculator, inventory list
+US | Junk removal | photo-based quote, same-day booking
+US | Painting contractor | estimate builder, color approvals
+US | Realtor | property website, lead capture
+CA | Property manager | tenant portal, maintenance requests
+US | Mortgage broker | (no rate claims) document checklist portal
+US | Insurance agency | renewal reminders, client portal
+US | Accountant / bookkeeper | client document portal, tax season checklist
+US | Law office | intake form, appointment booking
+US | Dentist | (no health claims) online booking + reminders
+US | Chiropractor | (no health claims) booking only
+US | Med spa | (no health claims) booking + packages
+US | Barber shop | online booking, no-show reminders
+US | Nail salon | booking + loyalty
+US | Hair salon | booking + stylist calendar
+US | Tattoo studio | consultation booking, portfolio
+US | Personal trainer | client app, workout plans (no health claims)
+US | Yoga / pilates studio | class booking, memberships
+US | Martial arts school | belt tracking, class schedule
+US | Restaurant | online ordering direct
+US | Food truck (done) | use catering company
+US | Catering company | event quote builder
+US | Bakery / cake shop | custom cake order form
+US | Coffee shop (done) | use bubble tea shop
+US | Bubble tea shop | order ahead + stamp card
+CA | Brewery taproom | (no alcohol) skip
+US | Florist | same-day orders, event bookings
+US | Wedding photographer | gallery + booking
+US | Wedding planner | client portal, vendor checklist
+US | Event venue | availability calendar, tours
+US | Boutique clothing store | online store
+US | Thrift / resale shop | inventory listing site
+US | Auto repair (done) | use auto detailing
+US | Auto detailing | package booking, before-after
+US | Used car dealer | inventory website with financing form (no rate claims)
+US | Towing company | dispatch board, call-to-book
+US | Trucking company | load board, driver docs
+US | Courier / delivery startup | tracking page
+US | Dog groomer (done) | use dog walker
+US | Dog walker / pet sitter | booking + visit updates
+US | Veterinary-free pet boarding | stay bookings
+US | Tutoring center | session booking, progress reports (adult learners)
+US | Music teacher | lesson booking, practice tracker
+US | Driving school | lesson scheduling
+CA | Immigration consultant | (skip: immigration)
+US | Real estate photographer | booking + delivery portal
+US | Startup founder | MVP app
+US | SaaS idea / indie hacker | landing page + waitlist
+US | Small manufacturer | order tracking portal
+US | Wholesaler / distributor | B2B ordering portal
+US | E-commerce brand | custom Shopify-free store / internal tools
+CA | Farm / farmers market vendor | pre-order website
+US | Church | (skip: religion)
