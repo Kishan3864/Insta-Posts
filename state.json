@@ -1,8 +1,8 @@
 {
  "drive_folder_id": "1OZvW8MCiA-_SSNn5_9g3o8k5sMyHUcxE",
- "drive_index_sheet_id": "1LhrDKUuLzLHPuDB4fOhGo-Fs3w2AlNXXC4ZDTY75eus",
- "lock_until_utc": "2026-11-22T11:31:27Z",
- "last_run": "2026-11-22T09:39:09Z \u00b7 posts 56-70 made, Drive 1-70 done, index sheet refreshed at 65",
+ "drive_index_sheet_id": "1Xm_GVSy0LOP0qTZRGbc7oetVItCiiI7Cbn4Bn9kFbfE",
+ "lock_until_utc": null,
+ "last_run": "2026-11-22T10:46:55Z \u00b7 posts 71-90 made, Drive 1-90 done, index sheet refreshed at 90 (also fixed index.csv missing 41-45)",
  "next_post_no": 91,
  "posts_done": [
   {
@@ -941,7 +941,12 @@
   82,
   83,
   84,
-  85
+  85,
+  86,
+  87,
+  88,
+  89,
+  90
  ],
  "log": [
   {
@@ -1421,5 +1426,5 @@
   "#imitationjewellery #artificialjewellery #jewelleryreseller #fashionjewelleryindia",
   "#bookkeeper #accountant #taxseason #cpafirm #smallbusinessaccounting"
  ],
- "drive_index_at_post": 65
+ "drive_index_at_post": 90
 }
