@@ -226,3 +226,17 @@ US | Mobile car wash | ZIP code service area, booking slots
 US | Home organizer | project photos, session booking
 CA | Ski / snowboard rental shop | gear reservations, sizes
 US | Bridal boutique | try-on appointments, dress orders
+IN | Tender coconut supplier | daily supply per stall, empty pickup, payments
+IN | Corporate uniform maker | size sheet per staff, bulk order status
+IN | Hotel linen laundry (B2B) | pieces out and in per hotel, missing pieces
+IN | Fire extinguisher refilling service | refill due dates per site, visit reports (no safety claims)
+IN | Cattle feed dealer | dealer credit, sack stock, village orders
+IN | Photo frame shop | custom frame orders by size, pickup dates
+IN | Laptop repair shop | job status, parts waiting, pickup alerts
+IN | Tempo traveller rental | trip calendar, driver, km and toll log
+IN | Sofa and mattress cleaning at home | booking by item count, slots
+IN | Rubber stamp maker | proof approval, ready time
+US | Tree service | photo estimate, crew day plan
+CA | Firewood delivery | cord orders, delivery route by area
+US | Mobile notary | appointment booking, travel area
+US | Alterations and tailoring shop | ticket numbers, ready dates

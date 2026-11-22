@@ -3,7 +3,7 @@
  "drive_index_sheet_id": "1coQdBJQWZqxgH_ihlDiBaigqYbBn9EE7YXo7UsrX1lk",
  "lock_until_utc": "2026-11-22T19:14:27Z",
  "last_run": "2026-11-22T17:49:27Z \u00b7 posts 181-200 made (batches 33-36), Drive 1-200 done, index sheet refreshed at 190 (old one trashed)",
- "next_post_no": 201,
+ "next_post_no": 206,
  "posts_done": [
   {
    "n": 1,
@@ -1604,11 +1604,51 @@
    "slides": 5,
    "market": "Canada",
    "category": "WinterTireSwap"
+  },
+  {
+   "n": 201,
+   "dir": "posts/0201_SINGLE_India_IceFactory",
+   "format": "SINGLE",
+   "slides": 1,
+   "market": "India",
+   "category": "IceFactory"
+  },
+  {
+   "n": 202,
+   "dir": "posts/0202_CAROUSEL_India_CurtainBlinds",
+   "format": "CAROUSEL",
+   "slides": 5,
+   "market": "India",
+   "category": "CurtainBlinds"
+  },
+  {
+   "n": 203,
+   "dir": "posts/0203_SINGLE_USA_ChimneySweep",
+   "format": "SINGLE",
+   "slides": 1,
+   "market": "USA",
+   "category": "ChimneySweep"
+  },
+  {
+   "n": 204,
+   "dir": "posts/0204_SINGLE_India_LiftAMC",
+   "format": "SINGLE",
+   "slides": 1,
+   "market": "India",
+   "category": "LiftAMC"
+  },
+  {
+   "n": 205,
+   "dir": "posts/0205_SINGLE_India_AquariumShop",
+   "format": "SINGLE",
+   "slides": 1,
+   "market": "India",
+   "category": "AquariumShop"
   }
  ],
  "market_counts": {
-  "India": 140,
-  "Abroad": 60
+  "India": 144,
+  "Abroad": 61
  },
  "used_categories": [
   "Boutique",
@@ -1817,14 +1857,14 @@
   "TyreRetreading",
   "BikeRepairShop",
   "BananaRipening",
-  "WinterTireSwap"
+  "WinterTireSwap",
+  "IceFactory",
+  "CurtainBlinds",
+  "ChimneySweep",
+  "LiftAMC",
+  "AquariumShop"
  ],
  "recent_palettes": [
-  "kraft/ink black/tomato",
-  "oxford navy/cream/burgundy",
-  "deep blue/electric cyan/white",
-  "slate green/peach/white",
-  "tomato/cream/espresso",
   "pale sky/marine navy/sunflower",
   "paper white/process cyan/magenta",
   "dove grey/champagne/plum",
@@ -1844,7 +1884,12 @@
   "carbon/safety orange/fog",
   "sage/ink/orange",
   "banana yellow/leaf green/brown",
-  "ice blue/tire black/signal red"
+  "ice blue/tire black/signal red",
+  "deep indigo/frost white/sunrise yellow",
+  "linen/terracotta/olive",
+  "brick red/soot black/snow cream",
+  "graphite/LED amber/mist",
+  "deep sea teal/coral/sand"
  ],
  "drive_files_done": [
   1,
@@ -2049,66 +2094,6 @@
   200
  ],
  "log": [
-  {
-   "n": 171,
-   "date": "2026-11-22",
-   "format": "SINGLE",
-   "market": "India",
-   "category": "FurnitureRental",
-   "palette": "walnut/linen/cobalt",
-   "fonts": "Gelasio + DM Sans",
-   "layout": "split owner view card vs customer phone joined by a dashed cobalt seam, drawn furniture icons",
-   "dots": 2,
-   "phone": true
-  },
-  {
-   "n": 172,
-   "date": "2026-11-22",
-   "format": "CAROUSEL",
-   "market": "India",
-   "category": "SolarWaterHeater",
-   "palette": "midnight blue/sun gold/cloud white",
-   "fonts": "Archivo Black + Roboto",
-   "layout": "SVG rooftop solar heater + stat row, lined paper survey form with tick dots + photo chips, crew install week rows, service progress rings list, rooftop + tiles CTA",
-   "dots": 5,
-   "phone": false
-  },
-  {
-   "n": 173,
-   "date": "2026-11-22",
-   "format": "SINGLE",
-   "market": "USA",
-   "category": "MobileCarWash",
-   "palette": "aqua/hot coral/navy",
-   "fonts": "Montserrat + Source Sans 3",
-   "layout": "hexagon zone map with wash day per zone + dark ZIP slot picker bar",
-   "dots": 3,
-   "phone": false
-  },
-  {
-   "n": 174,
-   "date": "2026-11-22",
-   "format": "SINGLE",
-   "market": "India",
-   "category": "PlumbingContractor",
-   "palette": "porcelain/charcoal/leaf green",
-   "fonts": "Bitter + Inter",
-   "layout": "tiled bathroom wall elevation SVG with numbered fitting points by status + site list",
-   "dots": 1,
-   "phone": false
-  },
-  {
-   "n": 175,
-   "date": "2026-11-22",
-   "format": "CAROUSEL",
-   "market": "India",
-   "category": "EventManagement",
-   "palette": "aubergine/peach/white",
-   "fonts": "Cardo + Inter",
-   "layout": "vertical run-sheet time rail with now dot, vendor cards with rubber stamps, 3 team checklist columns, browser client page with progress bar, big icon tiles CTA",
-   "dots": 4,
-   "phone": false
-  },
   {
    "n": 176,
    "date": "2026-11-22",
@@ -2408,14 +2393,69 @@
    "layout": "red-edged problem cards + tire stacks with tags, week slot grid, tire storage rack bay map, staggered text message cards, tire row + icon tiles CTA",
    "dots": 5,
    "phone": false
+  },
+  {
+   "n": 201,
+   "date": "2026-11-22",
+   "format": "SINGLE",
+   "market": "India",
+   "category": "IceFactory",
+   "palette": "deep indigo/frost white/sunrise yellow",
+   "fonts": "Anton + DM Sans",
+   "layout": "radial 12-hour clock dial with coloured delivery slot arcs + numbered pins + hands, round list rows with status, 3 horizontal stat cards",
+   "dots": 2,
+   "phone": false
+  },
+  {
+   "n": 202,
+   "date": "2026-11-22",
+   "format": "CAROUSEL",
+   "market": "India",
+   "category": "CurtainBlinds",
+   "palette": "linen/terracotta/olive",
+   "fonts": "Crimson Text + Source Sans 3",
+   "layout": "torn paper slip with handwritten sizes + problem cards, 2x2 drawn windows with dimension lines, CSS fabric swatches + metres table, item x stage dot matrix + fitting card, big window + 4 tiles CTA",
+   "dots": 4,
+   "phone": false
+  },
+  {
+   "n": 203,
+   "date": "2026-11-22",
+   "format": "SINGLE",
+   "market": "USA",
+   "category": "ChimneySweep",
+   "palette": "brick red/soot black/snow cream",
+   "fonts": "Gelasio + Fira Sans",
+   "layout": "drawn house with brick chimney + tag panel beside browser booking (ZIP check, service radio, day and time chips) + dark report chip bar",
+   "dots": 3,
+   "phone": false
+  },
+  {
+   "n": 204,
+   "date": "2026-11-22",
+   "format": "SINGLE",
+   "market": "India",
+   "category": "LiftAMC",
+   "palette": "graphite/LED amber/mist",
+   "fonts": "Montserrat + Roboto",
+   "layout": "3x2 lift cards with glowing LED floor displays over steel doors (one open, dark = breakdown) + 2 technician cards",
+   "dots": 5,
+   "phone": false
+  },
+  {
+   "n": 205,
+   "date": "2026-11-22",
+   "format": "SINGLE",
+   "market": "India",
+   "category": "AquariumShop",
+   "palette": "deep sea teal/coral/sand",
+   "fonts": "TeX Gyre Adventor + Inter",
+   "layout": "wide SVG aquarium hero with tag + 15-day visit cycle strip, last-visit checklist + coral reminder card",
+   "dots": 1,
+   "phone": false
   }
  ],
  "recent_fonts": [
-  "Poppins + Fira Sans",
-  "Lora + Source Sans 3",
-  "TeX Gyre Adventor + Roboto",
-  "Bitter + DM Sans",
-  "Montserrat + Lora",
   "Archivo Black + Fira Sans",
   "TeX Gyre Adventor + Fira Sans",
   "Lora + Poppins",
@@ -2435,14 +2475,14 @@
   "Archivo Black + DM Sans",
   "Bitter + Fira Sans",
   "Gelasio + Inter",
-  "Montserrat + Fira Sans"
+  "Montserrat + Fira Sans",
+  "Anton + DM Sans",
+  "Crimson Text + Source Sans 3",
+  "Gelasio + Fira Sans",
+  "Montserrat + Roboto",
+  "TeX Gyre Adventor + Inter"
  ],
  "recent_layouts": [
-  "SVG label roll unrolling into printed labels + ticket-stub job card with perforated dispatch stub and stage punches",
-  "missed call vs booked list, browser intake form with topic chips, week slot grid court/consult/open/selected, document checklist with upload buttons, legal pad CTA",
-  "appliance toggle-switch grid with counts + segmented load bar + result cards",
-  "filing drawer of lead folders with coloured tabs + open folder document checklist + upload link button",
-  "wooden pickup shelf cubbies with SVG paper bags + name tags + status, direct order counter card",
   "3 stat cards with jar icons + per-customer can strip ledger of drawn 20 L jars (out/back/late) + remind chips",
   "chat file bubbles with dashed magenta question stickers, browser print-job toggles form, counter TV token columns (printing/next/ready), dark ready message + 4 stat tiles with colour edges, SVG printer feeding a page + numbered tiles CTA",
   "5 arched fitting suites with curtains as time slots (closed booked/open mirror/dashed hold) + plum try-on form + pick card with mini arch",
@@ -2462,14 +2502,14 @@
   "SVG truck tyre with 6-segment progress ring + dark stage list + casing grid",
   "SVG bicycle with hanging claim tag + dark repair queue rows + text note",
   "2x2 chamber cards with louvred doors, banana hands tinted by ripening day, day dashes, dispatch date + truck order card",
-  "red-edged problem cards + tire stacks with tags, week slot grid, tire storage rack bay map, staggered text message cards, tire row + icon tiles CTA"
+  "red-edged problem cards + tire stacks with tags, week slot grid, tire storage rack bay map, staggered text message cards, tire row + icon tiles CTA",
+  "radial 12-hour clock dial with coloured delivery slot arcs + numbered pins + hands, round list rows with status, 3 horizontal stat cards",
+  "torn paper slip with handwritten sizes + problem cards, 2x2 drawn windows with dimension lines, CSS fabric swatches + metres table, item x stage dot matrix + fitting card, big window + 4 tiles CTA",
+  "drawn house with brick chimney + tag panel beside browser booking (ZIP check, service radio, day and time chips) + dark report chip bar",
+  "3x2 lift cards with glowing LED floor displays over steel doors (one open, dark = breakdown) + 2 technician cards",
+  "wide SVG aquarium hero with tag + 15-day visit cycle strip, last-visit checklist + coral reminder card"
  ],
  "used_hashtag_sets": [
-  "#autoparts #spareparts #autopartsdealer #bikeparts",
-  "#builders #realestateindia #flatsforsale #constructionindia",
-  "#cakeshop #customcakes #bakerybusiness #cakeorders",
-  "#petgrooming #doggrooming #petgroomingathome #petparentsindia",
-  "#oilmill #mustardoil #woodpressedoil #edibleoil",
   "#touroperator #grouptours #weekendtrips #travelbusinessindia",
   "#saasfounder #indiehackers #landingpagedesign #startupideas",
   "#swimmingpool #swimmingclasses #poolmembership #swimmingindia",
@@ -2524,7 +2564,12 @@
   "#tyreretreading #retreadtyres #truckowners #tyrebusiness",
   "#bikeshop #bikerepair #bicycleshop #bikemechanic",
   "#bananaripening #ripeningchamber #fruitwholesale #bananabusiness",
-  "#wintertires #tireswap #tireshop #canadianbusiness"
+  "#wintertires #tireswap #tireshop #canadianbusiness",
+  "#icefactory #iceblocks #icesupplier #smallbusinessindia",
+  "#curtainshop #blindsandcurtains #homefurnishing #curtainstitching #interiorsindia",
+  "#chimneysweep #chimneycleaning #fireplaceservice #smallbusinessusa",
+  "#liftamc #liftservice #elevatormaintenance #facilitymanagement",
+  "#aquariumshop #aquariumcare #fishtank #aquariumindia"
  ],
  "drive_index_at_post": 190
 }
