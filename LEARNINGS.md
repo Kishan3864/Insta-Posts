@@ -5,3 +5,7 @@
 - Kishan likes: Open Peeps characters when meaningful, comic strips, spot-the-problem, Swiss grid carousel, retro US palettes. Avoid floating sitting poses.
 - Rotated elements give false text-overlap flags in check_text.js; confirm visually with a 1:1 crop.
 - Best reel performers on the profile were specific Indian micro-niches with one daily operational pain (tent house, solar installer, car wash, furniture, brick kiln): keep posts that specific.
+- (b001) Anton headlines: its tall glyphs overlap a kicker 10px above (check_text OVERLAP). Give Anton h1 margin-top >= 30px and inner Anton labels >= 16px top margin.
+- (b001) Stretched cards with flex:1 leave dead white middles (kanban cards, list cards). Fix by adding real rows (3rd card, extra list items, form fields) and bigger type (titles 24-26px, body 19-21px) rather than more padding.
+- (b001) Drive upload: write each text to work/drive/NNNN.txt and pass base64Content as "sha256:<hex>:<abs path>" (tools/drive_txt.py builds them). Fast, no retyping.
+- (b001) Worked well: one hero object per single (calendar heat-grid, kanban board, timeline). Next: try a paper document mock (receipt/job card), a split before/after with a diagonal cut, and a comic strip.

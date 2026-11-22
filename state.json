@@ -1,9 +1,9 @@
 {
  "drive_folder_id": "1OZvW8MCiA-_SSNn5_9g3o8k5sMyHUcxE",
  "drive_index_sheet_id": null,
- "lock_until_utc": "2026-11-22T08:13:59Z",
+ "lock_until_utc": "2026-11-22T08:23:07Z",
  "last_run": null,
- "next_post_no": 21,
+ "next_post_no": 26,
  "posts_done": [
   {
    "n": 1,
@@ -164,11 +164,51 @@
    "slides": 1,
    "market": "USA",
    "category": "LawnCare"
+  },
+  {
+   "n": 21,
+   "dir": "posts/0021_CAROUSEL_India_Kirana",
+   "format": "CAROUSEL",
+   "slides": 5,
+   "market": "India",
+   "category": "Kirana"
+  },
+  {
+   "n": 22,
+   "dir": "posts/0022_SINGLE_India_DairyMilk",
+   "format": "SINGLE",
+   "slides": 1,
+   "market": "India",
+   "category": "DairyMilk"
+  },
+  {
+   "n": 23,
+   "dir": "posts/0023_SINGLE_India_TiffinService",
+   "format": "SINGLE",
+   "slides": 1,
+   "market": "India",
+   "category": "TiffinService"
+  },
+  {
+   "n": 24,
+   "dir": "posts/0024_CAROUSEL_USA_Plumber",
+   "format": "CAROUSEL",
+   "slides": 6,
+   "market": "USA",
+   "category": "Plumber"
+  },
+  {
+   "n": 25,
+   "dir": "posts/0025_SINGLE_India_SweetShop",
+   "format": "SINGLE",
+   "slides": 1,
+   "market": "India",
+   "category": "SweetShop"
   }
  ],
  "market_counts": {
-  "India": 14,
-  "Abroad": 6
+  "India": 18,
+  "Abroad": 7
  },
  "used_categories": [
   "Boutique",
@@ -197,7 +237,12 @@
   "FurnitureWorkshop",
   "BrickKiln",
   "GatePass",
-  "Shuttering"
+  "Shuttering",
+  "Kirana",
+  "DairyMilk",
+  "TiffinService",
+  "Plumber",
+  "SweetShop"
  ],
  "recent_palettes": [
   "blush/maroon",
@@ -219,8 +264,116 @@
   "aqua/white",
   "charcoal/red",
   "espresso/latte",
-  "grass/sky"
+  "grass/sky",
+  "kraft paper/ink blue/red pencil",
+  "milk white/cobalt/lime",
+  "deep green/turmeric",
+  "blueprint navy/copper/cream",
+  "pistachio/chocolate/orange"
  ],
- "drive_files_done": [],
- "log": []
+ "drive_files_done": [
+  1,
+  2,
+  3,
+  4,
+  5,
+  6,
+  7,
+  8,
+  9,
+  10,
+  11,
+  12,
+  13,
+  14,
+  15,
+  16,
+  17,
+  18,
+  19,
+  20
+ ],
+ "log": [
+  {
+   "n": 21,
+   "date": "2026-11-22",
+   "format": "CAROUSEL",
+   "market": "India",
+   "category": "Kirana",
+   "palette": "kraft paper/ink blue/red pencil",
+   "fonts": "Bitter + Source Sans 3",
+   "layout": "notebook vs ledger carousel",
+   "dots": 4,
+   "phone": false
+  },
+  {
+   "n": 22,
+   "date": "2026-11-22",
+   "format": "SINGLE",
+   "market": "India",
+   "category": "DairyMilk",
+   "palette": "milk white/cobalt/lime",
+   "fonts": "Archivo Black + DM Sans",
+   "layout": "month calendar heat-grid",
+   "dots": 1,
+   "phone": false
+  },
+  {
+   "n": 23,
+   "date": "2026-11-22",
+   "format": "SINGLE",
+   "market": "India",
+   "category": "TiffinService",
+   "palette": "deep green/turmeric",
+   "fonts": "TeX Gyre Adventor + Inter",
+   "layout": "one-day vertical timeline + phone",
+   "dots": 3,
+   "phone": true
+  },
+  {
+   "n": 24,
+   "date": "2026-11-22",
+   "format": "CAROUSEL",
+   "market": "USA",
+   "category": "Plumber",
+   "palette": "blueprint navy/copper/cream",
+   "fonts": "Anton + Roboto",
+   "layout": "blueprint grid + CSS pipes, 4 things carousel",
+   "dots": 5,
+   "phone": false
+  },
+  {
+   "n": 25,
+   "date": "2026-11-22",
+   "format": "SINGLE",
+   "market": "India",
+   "category": "SweetShop",
+   "palette": "pistachio/chocolate/orange",
+   "fonts": "Gelasio + Poppins",
+   "layout": "kanban order board",
+   "dots": 2,
+   "phone": false
+  }
+ ],
+ "recent_fonts": [
+  "Bitter + Source Sans 3",
+  "Archivo Black + DM Sans",
+  "TeX Gyre Adventor + Inter",
+  "Anton + Roboto",
+  "Gelasio + Poppins"
+ ],
+ "recent_layouts": [
+  "notebook vs ledger carousel",
+  "month calendar heat-grid",
+  "one-day vertical timeline + phone",
+  "blueprint grid + CSS pipes, 4 things carousel",
+  "kanban order board"
+ ],
+ "used_hashtag_sets": [
+  "#kiranastore #udhaar #kiranashop #retailindia #shopowners",
+  "#dairybusiness #milkdelivery #doodhwala #dairyfarmindia",
+  "#tiffinservice #homemadefood #dabbaservice #cloudkitchenindia #mealsubscription",
+  "#plumbingbusiness #plumbersofinstagram #plumbingcompany #homeservicesbusiness #contractorlife",
+  "#sweetshop #mithaishop #indiansweets #bulkorders"
+ ]
 }
