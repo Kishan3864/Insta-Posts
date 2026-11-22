@@ -322,3 +322,18 @@ CA | Dock and deck builder | site photos, design picks, build dates
 CA | Maple syrup farm stand | pre-orders, pickup days
 US | Food pantry-free meal prep company | weekly menu, order cutoff, delivery routes
 US | Screen printing shop | order proofs, sizes, quantities
+IN | Ironing service (istri / press wala) | count at pickup, bundles per flat, monthly count bill
+IN | Cold storage (potato and produce) | lots per farmer, chamber and rack, withdrawal slips
+IN | Drip irrigation installer | plot sketch to parts list, install date, follow-up visits
+IN | Steel almirah maker | models and sizes, colour, delivery floor and lift
+IN | Fruit commission agent (mandi) | crates in and out per grower, sale slips
+IN | Key duplicate and lock shop | key jobs, ready time, home visits
+IN | Watch repair shop | job tags, parts wait, ready message
+IN | Vegetable seedling nursery | tray orders by crop, ready week, pickup
+IN | Typing and DTP centre | job queue, file received, ready time
+IN | Papad and snacks home unit | batch sizes, shop orders, dispatch
+US | Dryer vent cleaning | duct length form, booking window
+US | Sprinkler blowout (winterizing) | zone count, route by neighborhood
+US | Hot tub service | visit schedule, water check log, parts
+US | Garage organization installer | wall measure, rail and shelf design, install day
+CA | Mobile bike repair | home visit booking, repair list
