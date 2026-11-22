@@ -3,7 +3,7 @@
  "drive_index_sheet_id": "1LhrDKUuLzLHPuDB4fOhGo-Fs3w2AlNXXC4ZDTY75eus",
  "lock_until_utc": "2026-11-22T11:21:27Z",
  "last_run": "2026-11-22T09:39:09Z \u00b7 posts 56-70 made, Drive 1-70 done, index sheet refreshed at 65",
- "next_post_no": 76,
+ "next_post_no": 81,
  "posts_done": [
   {
    "n": 1,
@@ -604,11 +604,51 @@
    "slides": 1,
    "market": "India",
    "category": "PlywoodDealer"
+  },
+  {
+   "n": 76,
+   "dir": "posts/0076_CAROUSEL_India_CivilContractor",
+   "format": "CAROUSEL",
+   "slides": 6,
+   "market": "India",
+   "category": "CivilContractor"
+  },
+  {
+   "n": 77,
+   "dir": "posts/0077_SINGLE_India_FootwearShop",
+   "format": "SINGLE",
+   "slides": 1,
+   "market": "India",
+   "category": "FootwearShop"
+  },
+  {
+   "n": 78,
+   "dir": "posts/0078_SINGLE_USA_Handyman",
+   "format": "SINGLE",
+   "slides": 1,
+   "market": "USA",
+   "category": "Handyman"
+  },
+  {
+   "n": 79,
+   "dir": "posts/0079_SINGLE_India_EmbroideryUnit",
+   "format": "SINGLE",
+   "slides": 1,
+   "market": "India",
+   "category": "EmbroideryUnit"
+  },
+  {
+   "n": 80,
+   "dir": "posts/0080_CAROUSEL_USA_CommercialCleaning",
+   "format": "CAROUSEL",
+   "slides": 5,
+   "market": "USA",
+   "category": "CommercialCleaning"
   }
  ],
  "market_counts": {
-  "India": 53,
-  "Abroad": 22
+  "India": 56,
+  "Abroad": 24
  },
  "used_categories": [
   "Boutique",
@@ -692,14 +732,14 @@
   "ModularKitchen",
   "GentsTailor",
   "PestControl",
-  "PlywoodDealer"
+  "PlywoodDealer",
+  "CivilContractor",
+  "FootwearShop",
+  "Handyman",
+  "EmbroideryUnit",
+  "CommercialCleaning"
  ],
  "recent_palettes": [
-  "concrete grey/electric lime/black",
-  "royal blue/tangerine/white",
-  "deep ocean/postcard cream/sun yellow",
-  "aqua/concrete/navy",
-  "OMR pink/ink navy/white",
   "powder blue/lavender/ink navy",
   "tortoise brown/cream/teal",
   "forest green/safety orange/off-white",
@@ -719,7 +759,12 @@
   "blueprint navy/graph white/marker yellow",
   "charcoal/tape mustard/chalk white",
   "deep teal/goldenrod/cloud white",
-  "birch/walnut/signal green"
+  "birch/walnut/signal green",
+  "asphalt/hi-vis orange/site sand",
+  "cobalt/tomato/sneaker white",
+  "pegboard tan/deep green/tomato",
+  "deep maroon/zari gold/ivory",
+  "navy charcoal/mint/lemon"
  ],
  "drive_files_done": [
   1,
@@ -799,66 +844,6 @@
   75
  ],
  "log": [
-  {
-   "n": 46,
-   "date": "2026-11-22",
-   "format": "CAROUSEL",
-   "market": "India",
-   "category": "CloudKitchen",
-   "palette": "aubergine/paprika/cream",
-   "fonts": "Inter Display + Lora",
-   "layout": "kraft delivery bag + die-cut sticker, 4-part carousel",
-   "dots": 3,
-   "phone": true
-  },
-  {
-   "n": 47,
-   "date": "2026-11-22",
-   "format": "SINGLE",
-   "market": "India",
-   "category": "TeaStallChain",
-   "palette": "deep cocoa/saffron/cardamom green",
-   "fonts": "Montserrat + Source Sans 3",
-   "layout": "outlet rows with conic ring gauges",
-   "dots": 1,
-   "phone": false
-  },
-  {
-   "n": 48,
-   "date": "2026-11-22",
-   "format": "SINGLE",
-   "market": "India",
-   "category": "EventDecorator",
-   "palette": "lilac/deep navy/marigold",
-   "fonts": "Bitter + DM Sans",
-   "layout": "chat bubbles vs shared event page (browser)",
-   "dots": 4,
-   "phone": false
-  },
-  {
-   "n": 49,
-   "date": "2026-11-22",
-   "format": "CAROUSEL",
-   "market": "USA",
-   "category": "Electrician",
-   "palette": "electric yellow/deep indigo/white",
-   "fonts": "Anton + DM Sans",
-   "layout": "signs you need, hazard-tape bands + outlined numbers",
-   "dots": 2,
-   "phone": false
-  },
-  {
-   "n": 50,
-   "date": "2026-11-22",
-   "format": "SINGLE",
-   "market": "India",
-   "category": "SpaCentre",
-   "palette": "eucalyptus/linen/clay",
-   "fonts": "Lora + Source Sans 3",
-   "layout": "frosted glass cards over blurred blobs, slot grid",
-   "dots": 5,
-   "phone": false
-  },
   {
    "n": 51,
    "date": "2026-11-22",
@@ -1158,14 +1143,69 @@
    "layout": "side-view sheet stacks with reorder level line + stock search",
    "dots": 5,
    "phone": false
+  },
+  {
+   "n": 76,
+   "date": "2026-11-22",
+   "format": "CAROUSEL",
+   "market": "India",
+   "category": "CivilContractor",
+   "palette": "asphalt/hi-vis orange/site sand",
+   "fonts": "Anton + Inter",
+   "layout": "CSS building under construction with floor stage tags, attendance table, material rows",
+   "dots": 3,
+   "phone": false
+  },
+  {
+   "n": 77,
+   "date": "2026-11-22",
+   "format": "SINGLE",
+   "market": "India",
+   "category": "FootwearShop",
+   "palette": "cobalt/tomato/sneaker white",
+   "fonts": "Poppins + Fira Sans",
+   "layout": "CSS shoe-box shelf wall with sold-out slots + size bars",
+   "dots": 1,
+   "phone": false
+  },
+  {
+   "n": 78,
+   "date": "2026-11-22",
+   "format": "SINGLE",
+   "market": "USA",
+   "category": "Handyman",
+   "palette": "pegboard tan/deep green/tomato",
+   "fonts": "Crimson Text + DM Sans",
+   "layout": "pegboard with CSS tools + phone job list",
+   "dots": 4,
+   "phone": true
+  },
+  {
+   "n": 79,
+   "date": "2026-11-22",
+   "format": "SINGLE",
+   "market": "India",
+   "category": "EmbroideryUnit",
+   "palette": "deep maroon/zari gold/ivory",
+   "fonts": "Cardo + Inter",
+   "layout": "CSS embroidery hoop + thread spools + job cards with piece bars",
+   "dots": 2,
+   "phone": false
+  },
+  {
+   "n": 80,
+   "date": "2026-11-22",
+   "format": "CAROUSEL",
+   "market": "USA",
+   "category": "CommercialCleaning",
+   "palette": "navy charcoal/mint/lemon",
+   "fonts": "Fira Sans + Roboto",
+   "layout": "office floor plan zone fills, checklist cards, crew week board, browser report",
+   "dots": 5,
+   "phone": false
   }
  ],
  "recent_fonts": [
-  "Fira Sans + Inter",
-  "Bitter + Poppins",
-  "Crimson Text + Montserrat",
-  "Archivo Black + Open Sans",
-  "Crimson Text + Inter",
   "Lora + Montserrat",
   "TeX Gyre Adventor + Inter",
   "Anton + Roboto",
@@ -1185,14 +1225,14 @@
   "Montserrat + Roboto",
   "Bitter + Inter",
   "TeX Gyre Adventor + Source Sans 3",
-  "Archivo Black + Source Sans 3"
+  "Archivo Black + Source Sans 3",
+  "Anton + Inter",
+  "Poppins + Fira Sans",
+  "Crimson Text + DM Sans",
+  "Cardo + Inter",
+  "Fira Sans + Roboto"
  ],
  "recent_layouts": [
-  "isometric desk floor + booking card",
-  "process journey with progress rail, staircase steps",
-  "chat column vs folded paper itinerary",
-  "laptop quote form + top-down yard map",
-  "OMR bubble sheet vs result card",
   "clothes rail with SVG hangers + status tags",
   "CSS spectacles hero + frame-shape catalogue, numbered things",
   "side-view truck load-level selector + photo form",
@@ -1212,7 +1252,12 @@
   "blueprint floor plan with dimension lines, mini layout plans, quotation doc",
   "measuring tape band + phone profile + delivery list",
   "top-down house plan with perimeter stations, year dot board, service report",
-  "side-view sheet stacks with reorder level line + stock search"
+  "side-view sheet stacks with reorder level line + stock search",
+  "CSS building under construction with floor stage tags, attendance table, material rows",
+  "CSS shoe-box shelf wall with sold-out slots + size bars",
+  "pegboard with CSS tools + phone job list",
+  "CSS embroidery hoop + thread spools + job cards with piece bars",
+  "office floor plan zone fills, checklist cards, crew week board, browser report"
  ],
  "used_hashtag_sets": [
   "#kiranastore #udhaar #kiranashop #retailindia #shopowners",
@@ -1269,7 +1314,12 @@
   "#modularkitchen #modularkitchenindia #kitchendesign #kitchenmanufacturer",
   "#gentstailor #tailorshop #customtailoring #tailoringbusiness",
   "#pestcontrol #pestcontrolservice #pestcontrolbusiness #homeservicebusiness",
-  "#plywooddealer #plywoodindia #laminates #plywoodshop #interiormaterials"
+  "#plywooddealer #plywoodindia #laminates #plywoodshop #interiormaterials",
+  "#civilcontractor #constructionindia #sitemanagement #buildersindia",
+  "#footwearshop #shoeshop #footwearbusiness #shoestoreindia",
+  "#handyman #handymanservices #handymanbusiness #homerepair",
+  "#embroideryunit #zariwork #embroiderywork #jobworkindia",
+  "#commercialcleaning #janitorialservices #officecleaning #cleaningbusiness"
  ],
  "drive_index_at_post": 65
 }
