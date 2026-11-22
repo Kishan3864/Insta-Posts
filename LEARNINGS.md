@@ -139,3 +139,7 @@
 - (b034) Plain filled tiles (sign-up seats) read as noise; number them and colour them by the group listed below, so the grid and the legend cards tell the same story.
 - (b034) Headers that pair a tiny caps label with a bold title flag OVERLAP at default line-height; give the caps label line-height 1.4 + margin-bottom 6px from the start.
 - (b034) Keep message dates logical: a fee list titled by month needs statuses for that month ("Paid early", "Reminder sent"), not paid dates from the month before. New techniques: key ring job tags, cement bag pallet stacks, proportional layer stack, kiln load arches.
+- (b035) Diagonal before/after split works with two absolutely positioned panels and clip-path polygons that leave a 5% cream gap, plus a centred badge on the gap. Keep the "before" text big (30px italic) or the top half looks empty.
+- (b035) Labels inside an SVG cross-section must sit on the opposite side from callout tags (layer names left, tags right), or check_text flags OVERLAP.
+- (b035) Square plans in tall panels: stretch the plan's y coordinates (y × 1.5) and redraw the frame in the panel's aspect instead of meet-scaling; numbered points become bigger and the panel fills.
+- (b035) Dashboard gauges (arc + needle via cos/sin + odometer box) are a clean new hero for rental niches; derive every summary number from the two gauges (km difference, fuel difference, trip length from times).

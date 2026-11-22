@@ -3,7 +3,7 @@
  "drive_index_sheet_id": "1coQdBJQWZqxgH_ihlDiBaigqYbBn9EE7YXo7UsrX1lk",
  "lock_until_utc": "2026-11-22T18:29:37Z",
  "last_run": "2026-11-22T15:43:02Z \u00b7 posts 161-180 made, Drive 1-180 done, index sheet refreshed at 165 (new id stored; old sheet 1Mjh6gj6... could not be trashed, permission denied, delete by hand)",
- "next_post_no": 191,
+ "next_post_no": 196,
  "posts_done": [
   {
    "n": 1,
@@ -1524,11 +1524,51 @@
    "slides": 1,
    "market": "Canada",
    "category": "Locksmith"
+  },
+  {
+   "n": 191,
+   "dir": "posts/0191_SINGLE_India_BorewellDrilling",
+   "format": "SINGLE",
+   "slides": 1,
+   "market": "India",
+   "category": "BorewellDrilling"
+  },
+  {
+   "n": 192,
+   "dir": "posts/0192_SINGLE_India_IceCreamParlour",
+   "format": "SINGLE",
+   "slides": 1,
+   "market": "India",
+   "category": "IceCreamParlour"
+  },
+  {
+   "n": 193,
+   "dir": "posts/0193_CAROUSEL_USA_ApplianceRepair",
+   "format": "CAROUSEL",
+   "slides": 5,
+   "market": "USA",
+   "category": "ApplianceRepair"
+  },
+  {
+   "n": 194,
+   "dir": "posts/0194_SINGLE_India_WaterproofingContractor",
+   "format": "SINGLE",
+   "slides": 1,
+   "market": "India",
+   "category": "WaterproofingContractor"
+  },
+  {
+   "n": 195,
+   "dir": "posts/0195_SINGLE_India_SelfDriveCarRental",
+   "format": "SINGLE",
+   "slides": 1,
+   "market": "India",
+   "category": "SelfDriveCarRental"
   }
  ],
  "market_counts": {
-  "India": 133,
-  "Abroad": 57
+  "India": 137,
+  "Abroad": 58
  },
  "used_categories": [
   "Boutique",
@@ -1727,14 +1767,14 @@
   "PotteryStudio",
   "CementDealer",
   "DanceClassesAdults",
-  "Locksmith"
+  "Locksmith",
+  "BorewellDrilling",
+  "IceCreamParlour",
+  "ApplianceRepair",
+  "WaterproofingContractor",
+  "SelfDriveCarRental"
  ],
  "recent_palettes": [
-  "deep teal/sunset orange/sand",
-  "cornflower/lemon/white",
-  "electric yellow/charcoal/paper",
-  "blush/olive/cream",
-  "deep purple/mint/white",
   "walnut/linen/cobalt",
   "midnight blue/sun gold/cloud white",
   "aqua/hot coral/navy",
@@ -1754,7 +1794,12 @@
   "oatmeal/glaze teal/clay brown",
   "cement grey/emerald/charcoal",
   "midnight/electric violet/lemon",
-  "brass/black/off-white"
+  "brass/black/off-white",
+  "earth brown/water blue/off-white",
+  "strawberry pink/pistachio/plum",
+  "off-white/cobalt/amber",
+  "storm grey/teal/white",
+  "black/racing red/silver"
  ],
  "drive_files_done": [
   1,
@@ -1949,66 +1994,6 @@
   190
  ],
  "log": [
-  {
-   "n": 161,
-   "date": "2026-11-22",
-   "format": "SINGLE",
-   "market": "India",
-   "category": "ChairTableRental",
-   "palette": "terracotta/sand/ink navy",
-   "fonts": "Archivo Black + Source Sans 3",
-   "layout": "SVG stack of nested plastic chairs in a godown panel + per-event out/back challan cards with short/all back/still out chips",
-   "dots": 2,
-   "phone": false
-  },
-  {
-   "n": 162,
-   "date": "2026-11-22",
-   "format": "CAROUSEL",
-   "market": "USA",
-   "category": "GarageDoorRepair",
-   "palette": "graphite/lime/white",
-   "fonts": "Poppins + Fira Sans",
-   "layout": "SVG sectional garage door with bent panel + alert card, browser problem-tile picker form, tall SVG street map with numbered pins + job list, job card with parts and before/after door drawings, text thread + side cards, door + tiles CTA",
-   "dots": 5,
-   "phone": false
-  },
-  {
-   "n": 163,
-   "date": "2026-11-22",
-   "format": "SINGLE",
-   "market": "India",
-   "category": "GasStoveRepair",
-   "palette": "flame blue/copper/cream",
-   "fonts": "Lora + Open Sans",
-   "layout": "top-down copper toolbox with part compartments (low stock highlighted) + phone visit list with in box/not in box chips",
-   "dots": 1,
-   "phone": true
-  },
-  {
-   "n": 164,
-   "date": "2026-11-22",
-   "format": "SINGLE",
-   "market": "USA",
-   "category": "CarpetCleaning",
-   "palette": "soft mint/charcoal/tangerine",
-   "fonts": "Cardo + DM Sans",
-   "layout": "top-down SVG floor plan with tapped rooms in a carpet stripe pattern + stairs strip + dark quote request card",
-   "dots": 3,
-   "phone": false
-  },
-  {
-   "n": 165,
-   "date": "2026-11-22",
-   "format": "SINGLE",
-   "market": "India",
-   "category": "TshirtPrinting",
-   "palette": "raspberry/off-white/ink",
-   "fonts": "TeX Gyre Adventor + Inter",
-   "layout": "SVG tee with dashed print area card + colour x size quantity matrix with totals + proof v1/v2 strip",
-   "dots": 4,
-   "phone": false
-  },
   {
    "n": 166,
    "date": "2026-11-22",
@@ -2308,14 +2293,69 @@
    "layout": "SVG key ring with 4 keys each carrying a job tag (type, area, time) + dark request form bar",
    "dots": 4,
    "phone": false
+  },
+  {
+   "n": 191,
+   "date": "2026-11-22",
+   "format": "SINGLE",
+   "market": "India",
+   "category": "BorewellDrilling",
+   "palette": "earth brown/water blue/off-white",
+   "fonts": "Archivo Black + Open Sans",
+   "layout": "SVG ground cross-section with depth ruler + drill line and water tag, dark borewell report card, rig week list",
+   "dots": 3,
+   "phone": false
+  },
+  {
+   "n": 192,
+   "date": "2026-11-22",
+   "format": "SINGLE",
+   "market": "India",
+   "category": "IceCreamParlour",
+   "palette": "strawberry pink/pistachio/plum",
+   "fonts": "Lora + DM Sans",
+   "layout": "diagonal clip-path before/after split: call note with question chips vs dark order form with drawn ice cream cups, centre badge",
+   "dots": 1,
+   "phone": false
+  },
+  {
+   "n": 193,
+   "date": "2026-11-22",
+   "format": "CAROUSEL",
+   "market": "USA",
+   "category": "ApplianceRepair",
+   "palette": "off-white/cobalt/amber",
+   "fonts": "Montserrat + Open Sans",
+   "layout": "staggered notification card stack with appliance icons, browser booking with appliance picker, parts board tied to jobs, vertical tech day timeline, appliance icon row + tiles CTA",
+   "dots": 4,
+   "phone": false
+  },
+  {
+   "n": 194,
+   "date": "2026-11-22",
+   "format": "SINGLE",
+   "market": "India",
+   "category": "WaterproofingContractor",
+   "palette": "storm grey/teal/white",
+   "fonts": "Bitter + Source Sans 3",
+   "layout": "top-down terrace plan SVG with numbered status points + dark point list with stage photo tags + teal report card",
+   "dots": 2,
+   "phone": false
+  },
+  {
+   "n": 195,
+   "date": "2026-11-22",
+   "format": "SINGLE",
+   "market": "India",
+   "category": "SelfDriveCarRental",
+   "palette": "black/racing red/silver",
+   "fonts": "Anton + Inter",
+   "layout": "pickup vs return dashboard fuel gauges with odometers + white trip summary with check chips",
+   "dots": 5,
+   "phone": false
   }
  ],
  "recent_fonts": [
-  "Montserrat + Inter",
-  "Bitter + Roboto",
-  "Anton + Open Sans",
-  "Crimson Text + Poppins",
-  "Fira Sans + Roboto",
   "Gelasio + DM Sans",
   "Archivo Black + Roboto",
   "Montserrat + Source Sans 3",
@@ -2335,14 +2375,14 @@
   "Gelasio + Open Sans",
   "Anton + Roboto",
   "Poppins + Inter",
-  "Cardo + Roboto"
+  "Cardo + Roboto",
+  "Archivo Black + Open Sans",
+  "Lora + DM Sans",
+  "Montserrat + Open Sans",
+  "Bitter + Source Sans 3",
+  "Anton + Inter"
  ],
  "recent_layouts": [
-  "top-view scooter fleet board with status chips + stat row, paper pickup slip checklist, receipt-roll return list with side cards, scooter top view with numbered damage marks, 4 scooters + tiles CTA",
-  "big window whose 6 panes are route days (clean = done, streaked = to do, dashed make-up day) + recurring cycle cards",
-  "receipt roll of counter slips tagged by contractor + dark contractor account cards",
-  "SVG closet plan with labelled bins + stat column, browser booking form with chips, vertical session stepper, shopping list with size swatches, closet + tiles CTA",
-  "tablet dealer catalogue with SVG product drawings + stock dot tags + order bar",
   "split owner view card vs customer phone joined by a dashed cobalt seam, drawn furniture icons",
   "SVG rooftop solar heater + stat row, lined paper survey form with tick dots + photo chips, crew install week rows, service progress rings list, rooftop + tiles CTA",
   "hexagon zone map with wash day per zone + dark ZIP slot picker bar",
@@ -2362,14 +2402,14 @@
   "SVG drying shelf with hanging question tags, browser class list with seat dots, piece tracker with 4-stage pips, kiln load arches + text bubble, coloured pot shelf + tiles CTA",
   "SVG pallet stacks of cement bags as godown stock + dark site delivery rows with status chips + totals",
   "glowing dance-floor tile attendance grid, week bar timetable, fee list + phone reminder chat, numbered sign-up tiles coloured by group, 4 colour block CTA",
-  "SVG key ring with 4 keys each carrying a job tag (type, area, time) + dark request form bar"
+  "SVG key ring with 4 keys each carrying a job tag (type, area, time) + dark request form bar",
+  "SVG ground cross-section with depth ruler + drill line and water tag, dark borewell report card, rig week list",
+  "diagonal clip-path before/after split: call note with question chips vs dark order form with drawn ice cream cups, centre badge",
+  "staggered notification card stack with appliance icons, browser booking with appliance picker, parts board tied to jobs, vertical tech day timeline, appliance icon row + tiles CTA",
+  "top-down terrace plan SVG with numbered status points + dark point list with stage photo tags + teal report card",
+  "pickup vs return dashboard fuel gauges with odometers + white trip summary with check chips"
  ],
  "used_hashtag_sets": [
-  "#cabservice #taxiservice #fleetowner #travelsbusiness",
-  "#homestay #homestayindia #hillstay #directbooking",
-  "#deliverybusiness #courierservice #lastmiledelivery #smallbusinessusa",
-  "#flourmill #attachakki #chakki #smallbusinessindia",
-  "#expensetracker #budgetplanner #moneymanagement #personalapp",
   "#eventvenue #weddingvenue #venuemanager #eventplanningusa",
   "#cctvinstallation #cctvcamera #securitysystems #cctvindia",
   "#securityagency #securityguards #securityservices #manpowerindia",
@@ -2424,7 +2464,12 @@
   "#potterystudio #ceramicsstudio #potteryclass #claystudio #wheelthrowing",
   "#cementdealer #buildingmaterial #constructionmaterial #hardwaredealer",
   "#danceclasses #dancestudio #adultdanceclass #danceacademyindia",
-  "#locksmith #locksmithservice #lockoutservice #torontosmallbusiness"
+  "#locksmith #locksmithservice #lockoutservice #torontosmallbusiness",
+  "#borewell #borewelldrilling #borewellcontractor #drillingrig",
+  "#icecreamparlour #icecreamshop #partyorders #dessertshopindia",
+  "#appliancerepair #appliancerepairservice #homeappliancerepair #fieldservice",
+  "#waterproofing #waterproofingcontractor #terracewaterproofing #leakagesolution",
+  "#selfdrivecars #carrental #selfdrivecarrental #rentalbusinessindia"
  ],
  "drive_index_at_post": 190
 }
