@@ -1,6 +1,6 @@
 {
  "drive_folder_id": "1OZvW8MCiA-_SSNn5_9g3o8k5sMyHUcxE",
- "drive_index_sheet_id": "1kVmhTtzsjrmEhG59w3V2Odgx_cXBEIsDAxMe59zWmgU",
+ "drive_index_sheet_id": "1Ex4WhPiwEbqBF-QEG1pc6VPi3qLGqym_Fq-FvKYTgO8",
  "lock_until_utc": "2026-11-23T00:37:52Z",
  "last_run": "2026-11-22T22:48:55Z \u00b7 posts 276-300 made (batches 52-56), Drive 1-300 done, index sheet refreshed at 290 (old sheet 15xA... could not be trashed: permission denied, listed in old_index_sheets_to_trash), 15 new targets added",
  "next_post_no": 321,
@@ -3726,8 +3726,9 @@
   "#furnitureassembly #handymanservices #flatpackfurniture #smallbusinessusa",
   "#broadband #fibreinternet #internetserviceprovider #localbusinessindia"
  ],
- "drive_index_at_post": 290,
+ "drive_index_at_post": 320,
  "old_index_sheets_to_trash": [
-  "15xA_plNpxQlRA-1TvbBtB27qu5aN0_LutC8JeKSODmM"
+  "15xA_plNpxQlRA-1TvbBtB27qu5aN0_LutC8JeKSODmM",
+  "1kVmhTtzsjrmEhG59w3V2Odgx_cXBEIsDAxMe59zWmgU"
  ]
 }
