@@ -13,3 +13,7 @@
 - (b002) Badge with fixed height + border + line-height = height causes VOVERFLOW. Center badge numbers with display:flex + line-height:1.
 - (b002) Any rotate() on text cards triggers false OVERLAP in check_text; use offsets (alternating margins) for a sticker feel instead.
 - (b002) Biggest recurring weakness: tall stretched columns with little content. Plan content density per card BEFORE coding (5+ rows per list card, "good for" boxes, logs), and set side-point cards to flex:1 with big type. CTA slides: keep the question card large (34-40px) so the slide is not half empty.
+- (b003) Class name clashes inside one post bite too: `.g` (grid) collided with `.g` (green pill) and stretched pills into big boxes. Prefix layout classes (rg, vlog) and keep status pills as .pill-*.
+- (b003) When fg (page text colour) is white but the header sits on a light area, set .wm/h1/.sub colours explicitly, and set the mockup's inner color, or text vanishes (tiles post).
+- (b003) List columns in tall cards: make rows flex:1 with align-items:center so items spread evenly instead of leaving an empty bottom.
+- (b003) New ideas that worked: floor-plan grid (PG), myth-vs-fact with strikethrough, ticket-stub cards via CSS mask, marker whiteboard with red numbered rings. Next: try an isometric/3D-ish card stack, a big receipt mock, and a before/after slider handle.

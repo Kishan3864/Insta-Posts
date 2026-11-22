@@ -1,9 +1,9 @@
 {
  "drive_folder_id": "1OZvW8MCiA-_SSNn5_9g3o8k5sMyHUcxE",
  "drive_index_sheet_id": null,
- "lock_until_utc": "2026-11-22T08:30:01Z",
+ "lock_until_utc": "2026-11-22T08:35:09Z",
  "last_run": null,
- "next_post_no": 31,
+ "next_post_no": 36,
  "posts_done": [
   {
    "n": 1,
@@ -244,11 +244,51 @@
    "slides": 1,
    "market": "USA",
    "category": "DogWalker"
+  },
+  {
+   "n": 31,
+   "dir": "posts/0031_SINGLE_India_HostelPG",
+   "format": "SINGLE",
+   "slides": 1,
+   "market": "India",
+   "category": "HostelPG"
+  },
+  {
+   "n": 32,
+   "dir": "posts/0032_CAROUSEL_USA_HVAC",
+   "format": "CAROUSEL",
+   "slides": 6,
+   "market": "USA",
+   "category": "HVAC"
+  },
+  {
+   "n": 33,
+   "dir": "posts/0033_SINGLE_India_TilesShowroom",
+   "format": "SINGLE",
+   "slides": 1,
+   "market": "India",
+   "category": "TilesShowroom"
+  },
+  {
+   "n": 34,
+   "dir": "posts/0034_CAROUSEL_India_Caterer",
+   "format": "CAROUSEL",
+   "slides": 6,
+   "market": "India",
+   "category": "Caterer"
+  },
+  {
+   "n": 35,
+   "dir": "posts/0035_SINGLE_USA_PoolService",
+   "format": "SINGLE",
+   "slides": 1,
+   "market": "USA",
+   "category": "PoolService"
   }
  ],
  "market_counts": {
-  "India": 21,
-  "Abroad": 9
+  "India": 24,
+  "Abroad": 11
  },
  "used_categories": [
   "Boutique",
@@ -287,14 +327,14 @@
   "BeautyParlour",
   "SnowRemoval",
   "DrivingSchool",
-  "DogWalker"
+  "DogWalker",
+  "HostelPG",
+  "HVAC",
+  "TilesShowroom",
+  "Caterer",
+  "PoolService"
  ],
  "recent_palettes": [
-  "swiss white/teal",
-  "warm black/sepia/rust",
-  "asphalt/yellow",
-  "electric blue/ice",
-  "magenta/emerald/gold",
   "mint/peach",
   "steel blue/orange",
   "cardboard/forest",
@@ -314,7 +354,12 @@
   "peach/plum",
   "midnight/ice/signal red",
   "cream/dark green/L-plate red",
-  "butter/ink/teal"
+  "butter/ink/teal",
+  "slate/mint/coral",
+  "hot red/cool cyan/off-white",
+  "terracotta/stone",
+  "maroon/gold/cream",
+  "sand/coral/deep teal"
  ],
  "drive_files_done": [
   1,
@@ -468,6 +513,66 @@
    "layout": "stacked cards + phone with SVG route map",
    "dots": 5,
    "phone": true
+  },
+  {
+   "n": 31,
+   "date": "2026-11-22",
+   "format": "SINGLE",
+   "market": "India",
+   "category": "HostelPG",
+   "palette": "slate/mint/coral",
+   "fonts": "Cardo + Inter",
+   "layout": "floor plan room grid",
+   "dots": 2,
+   "phone": false
+  },
+  {
+   "n": 32,
+   "date": "2026-11-22",
+   "format": "CAROUSEL",
+   "market": "USA",
+   "category": "HVAC",
+   "palette": "hot red/cool cyan/off-white",
+   "fonts": "Archivo Black + Roboto",
+   "layout": "myth vs fact, split hot/cold bg",
+   "dots": 4,
+   "phone": false
+  },
+  {
+   "n": 33,
+   "date": "2026-11-22",
+   "format": "SINGLE",
+   "market": "India",
+   "category": "TilesShowroom",
+   "palette": "terracotta/stone",
+   "fonts": "Open Sans + Cardo",
+   "layout": "laptop mockup catalogue + CSS tile patterns",
+   "dots": 1,
+   "phone": false
+  },
+  {
+   "n": 34,
+   "date": "2026-11-22",
+   "format": "CAROUSEL",
+   "market": "India",
+   "category": "Caterer",
+   "palette": "maroon/gold/cream",
+   "fonts": "Lora + Fira Sans",
+   "layout": "ticket-stub cards, process story",
+   "dots": 3,
+   "phone": false
+  },
+  {
+   "n": 35,
+   "date": "2026-11-22",
+   "format": "SINGLE",
+   "market": "USA",
+   "category": "PoolService",
+   "palette": "sand/coral/deep teal",
+   "fonts": "Comic Relief + DM Sans",
+   "layout": "spot-the-problem whiteboard",
+   "dots": 2,
+   "phone": false
   }
  ],
  "recent_fonts": [
@@ -480,7 +585,12 @@
   "Lora + DM Sans",
   "Inter Display + Inter",
   "Montserrat + Open Sans",
-  "Crimson Text + Poppins"
+  "Crimson Text + Poppins",
+  "Cardo + Inter",
+  "Archivo Black + Roboto",
+  "Open Sans + Cardo",
+  "Lora + Fira Sans",
+  "Comic Relief + DM Sans"
  ],
  "recent_layouts": [
   "notebook vs ledger carousel",
@@ -492,7 +602,12 @@
   "4-panel comic strip",
   "snowfall bg, outlined big numbers",
   "which one do you need guide",
-  "stacked cards + phone with SVG route map"
+  "stacked cards + phone with SVG route map",
+  "floor plan room grid",
+  "myth vs fact, split hot/cold bg",
+  "laptop mockup catalogue + CSS tile patterns",
+  "ticket-stub cards, process story",
+  "spot-the-problem whiteboard"
  ],
  "used_hashtag_sets": [
   "#kiranastore #udhaar #kiranashop #retailindia #shopowners",
@@ -504,6 +619,11 @@
   "#beautyparlour #salonowner #beautysalonindia #parlourbusiness #salonbooking",
   "#snowremoval #snowplowing #snowremovalbusiness #canadianbusiness",
   "#drivingschool #drivingschoolindia #drivinginstructor #learntodrive #smallbusinessindia",
-  "#dogwalker #petsitter #dogwalkingbusiness #petcarebusiness"
+  "#dogwalker #petsitter #dogwalkingbusiness #petcarebusiness",
+  "#pgowner #hostelmanagement #pgaccommodation #rentalbusiness",
+  "#hvacbusiness #hvaccontractor #hvaclife #heatingandcooling #hvacowner",
+  "#tilesshowroom #tilesdesign #sanitaryware #buildingmaterials #interiorindia",
+  "#cateringservices #caterersofindia #cateringbusiness #eventcatering",
+  "#poolservice #poolcleaning #poolbusiness #poolguy #smallbusinessusa"
  ]
 }
