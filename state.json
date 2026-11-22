@@ -1,9 +1,9 @@
 {
  "drive_folder_id": "1OZvW8MCiA-_SSNn5_9g3o8k5sMyHUcxE",
  "drive_index_sheet_id": "1cCLssLf0NAU-Lgdr8suSQO0cAsyc5jQJRge0O2i-Nd8",
- "lock_until_utc": "2026-11-22T09:19:25Z",
+ "lock_until_utc": "2026-11-22T09:23:31Z",
  "last_run": "2026-11-22T07:54:30Z \u00b7 posts 41-45 made, Drive 1-45 done",
- "next_post_no": 51,
+ "next_post_no": 56,
  "posts_done": [
   {
    "n": 1,
@@ -404,11 +404,51 @@
    "slides": 1,
    "market": "India",
    "category": "SpaCentre"
+  },
+  {
+   "n": 51,
+   "dir": "posts/0051_SINGLE_India_CoWorking",
+   "format": "SINGLE",
+   "slides": 1,
+   "market": "India",
+   "category": "CoWorking"
+  },
+  {
+   "n": 52,
+   "dir": "posts/0052_CAROUSEL_India_ComputerInstitute",
+   "format": "CAROUSEL",
+   "slides": 6,
+   "market": "India",
+   "category": "ComputerInstitute"
+  },
+  {
+   "n": 53,
+   "dir": "posts/0053_SINGLE_India_TravelAgent",
+   "format": "SINGLE",
+   "slides": 1,
+   "market": "India",
+   "category": "TravelAgent"
+  },
+  {
+   "n": 54,
+   "dir": "posts/0054_SINGLE_USA_PressureWashing",
+   "format": "SINGLE",
+   "slides": 1,
+   "market": "USA",
+   "category": "PressureWashing"
+  },
+  {
+   "n": 55,
+   "dir": "posts/0055_SINGLE_India_TestSeries",
+   "format": "SINGLE",
+   "slides": 1,
+   "market": "India",
+   "category": "TestSeries"
   }
  ],
  "market_counts": {
-  "India": 35,
-  "Abroad": 15
+  "India": 39,
+  "Abroad": 16
  },
  "used_categories": [
   "Boutique",
@@ -467,14 +507,14 @@
   "TeaStallChain",
   "EventDecorator",
   "Electrician",
-  "SpaCentre"
+  "SpaCentre",
+  "CoWorking",
+  "ComputerInstitute",
+  "TravelAgent",
+  "PressureWashing",
+  "TestSeries"
  ],
  "recent_palettes": [
-  "petrol teal/amber/off-white",
-  "peach/plum",
-  "midnight/ice/signal red",
-  "cream/dark green/L-plate red",
-  "butter/ink/teal",
   "slate/mint/coral",
   "hot red/cool cyan/off-white",
   "terracotta/stone",
@@ -494,7 +534,12 @@
   "deep cocoa/saffron/cardamom green",
   "lilac/deep navy/marigold",
   "electric yellow/deep indigo/white",
-  "eucalyptus/linen/clay"
+  "eucalyptus/linen/clay",
+  "concrete grey/electric lime/black",
+  "royal blue/tangerine/white",
+  "deep ocean/postcard cream/sun yellow",
+  "aqua/concrete/navy",
+  "OMR pink/ink navy/white"
  ],
  "drive_files_done": [
   1,
@@ -549,66 +594,6 @@
   50
  ],
  "log": [
-  {
-   "n": 21,
-   "date": "2026-11-22",
-   "format": "CAROUSEL",
-   "market": "India",
-   "category": "Kirana",
-   "palette": "kraft paper/ink blue/red pencil",
-   "fonts": "Bitter + Source Sans 3",
-   "layout": "notebook vs ledger carousel",
-   "dots": 4,
-   "phone": false
-  },
-  {
-   "n": 22,
-   "date": "2026-11-22",
-   "format": "SINGLE",
-   "market": "India",
-   "category": "DairyMilk",
-   "palette": "milk white/cobalt/lime",
-   "fonts": "Archivo Black + DM Sans",
-   "layout": "month calendar heat-grid",
-   "dots": 1,
-   "phone": false
-  },
-  {
-   "n": 23,
-   "date": "2026-11-22",
-   "format": "SINGLE",
-   "market": "India",
-   "category": "TiffinService",
-   "palette": "deep green/turmeric",
-   "fonts": "TeX Gyre Adventor + Inter",
-   "layout": "one-day vertical timeline + phone",
-   "dots": 3,
-   "phone": true
-  },
-  {
-   "n": 24,
-   "date": "2026-11-22",
-   "format": "CAROUSEL",
-   "market": "USA",
-   "category": "Plumber",
-   "palette": "blueprint navy/copper/cream",
-   "fonts": "Anton + Roboto",
-   "layout": "blueprint grid + CSS pipes, 4 things carousel",
-   "dots": 5,
-   "phone": false
-  },
-  {
-   "n": 25,
-   "date": "2026-11-22",
-   "format": "SINGLE",
-   "market": "India",
-   "category": "SweetShop",
-   "palette": "pistachio/chocolate/orange",
-   "fonts": "Gelasio + Poppins",
-   "layout": "kanban order board",
-   "dots": 2,
-   "phone": false
-  },
   {
    "n": 26,
    "date": "2026-11-22",
@@ -908,14 +893,69 @@
    "layout": "frosted glass cards over blurred blobs, slot grid",
    "dots": 5,
    "phone": false
+  },
+  {
+   "n": 51,
+   "date": "2026-11-22",
+   "format": "SINGLE",
+   "market": "India",
+   "category": "CoWorking",
+   "palette": "concrete grey/electric lime/black",
+   "fonts": "Fira Sans + Inter",
+   "layout": "isometric desk floor + booking card",
+   "dots": 2,
+   "phone": false
+  },
+  {
+   "n": 52,
+   "date": "2026-11-22",
+   "format": "CAROUSEL",
+   "market": "India",
+   "category": "ComputerInstitute",
+   "palette": "royal blue/tangerine/white",
+   "fonts": "Bitter + Poppins",
+   "layout": "process journey with progress rail, staircase steps",
+   "dots": 4,
+   "phone": false
+  },
+  {
+   "n": 53,
+   "date": "2026-11-22",
+   "format": "SINGLE",
+   "market": "India",
+   "category": "TravelAgent",
+   "palette": "deep ocean/postcard cream/sun yellow",
+   "fonts": "Crimson Text + Montserrat",
+   "layout": "chat column vs folded paper itinerary",
+   "dots": 1,
+   "phone": false
+  },
+  {
+   "n": 54,
+   "date": "2026-11-22",
+   "format": "SINGLE",
+   "market": "USA",
+   "category": "PressureWashing",
+   "palette": "aqua/concrete/navy",
+   "fonts": "Archivo Black + Open Sans",
+   "layout": "laptop quote form + top-down yard map",
+   "dots": 3,
+   "phone": false
+  },
+  {
+   "n": 55,
+   "date": "2026-11-22",
+   "format": "SINGLE",
+   "market": "India",
+   "category": "TestSeries",
+   "palette": "OMR pink/ink navy/white",
+   "fonts": "Crimson Text + Inter",
+   "layout": "OMR bubble sheet vs result card",
+   "dots": 5,
+   "phone": false
   }
  ],
  "recent_fonts": [
-  "Fira Sans + Gelasio",
-  "Lora + DM Sans",
-  "Inter Display + Inter",
-  "Montserrat + Open Sans",
-  "Crimson Text + Poppins",
   "Cardo + Inter",
   "Archivo Black + Roboto",
   "Open Sans + Cardo",
@@ -935,14 +975,14 @@
   "Montserrat + Source Sans 3",
   "Bitter + DM Sans",
   "Anton + DM Sans",
-  "Lora + Source Sans 3"
+  "Lora + Source Sans 3",
+  "Fira Sans + Inter",
+  "Bitter + Poppins",
+  "Crimson Text + Montserrat",
+  "Archivo Black + Open Sans",
+  "Crimson Text + Inter"
  ],
  "recent_layouts": [
-  "diagonal before/after split, paper vs digital job card",
-  "4-panel comic strip",
-  "snowfall bg, outlined big numbers",
-  "which one do you need guide",
-  "stacked cards + phone with SVG route map",
   "floor plan room grid",
   "myth vs fact, split hot/cold bg",
   "laptop mockup catalogue + CSS tile patterns",
@@ -962,7 +1002,12 @@
   "outlet rows with conic ring gauges",
   "chat bubbles vs shared event page (browser)",
   "signs you need, hazard-tape bands + outlined numbers",
-  "frosted glass cards over blurred blobs, slot grid"
+  "frosted glass cards over blurred blobs, slot grid",
+  "isometric desk floor + booking card",
+  "process journey with progress rail, staircase steps",
+  "chat column vs folded paper itinerary",
+  "laptop quote form + top-down yard map",
+  "OMR bubble sheet vs result card"
  ],
  "used_hashtag_sets": [
   "#kiranastore #udhaar #kiranashop #retailindia #shopowners",
@@ -994,7 +1039,12 @@
   "#teastall #chaiwala #chaibusiness #teashopindia",
   "#eventdecorator #eventdecor #decoratorsindia #eventplanningindia #weddingdecorindia",
   "#electrician #electricalcontractor #electricianlife #tradesbusiness",
-  "#spaowner #spabusiness #spaindia #salonandspa"
+  "#spaowner #spabusiness #spaindia #salonandspa",
+  "#coworkingspace #coworkingindia #sharedoffice #hotdesk",
+  "#computerinstitute #computertraining #traininginstitute #coachingcentre #edtechindia",
+  "#travelagent #travelagency #tourpackages #travelagentindia",
+  "#pressurewashing #powerwashing #exteriorcleaning #homeservicebusiness",
+  "#coachingcentre #testseries #competitiveexams #onlinetest"
  ],
  "drive_index_at_post": 40
 }

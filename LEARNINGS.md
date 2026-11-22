@@ -29,3 +29,7 @@
 - (b006) "Front of card" mocks leave a dead middle when only a headline + QR. Fill with a small visual row (CSS dish circles), a dashed "this week" box and hours, so the card reads as a real printed insert.
 - (b006) New techniques that worked: CSS kraft bag + die-cut sticker (dashed inner border), conic-gradient ring gauges per outlet row, hazard-tape stripe bands (repeating-linear-gradient -45deg), frosted glass cards (backdrop-filter) over blurred blobs. Next: try an isometric shelf, a paper calendar tear-off, a split "owner's day vs customer's day" timeline.
 - (b006) Side-text + mockup "fix" panels: give the text column 320px and Anton 54px, and raise form field text to 17-18px; 15-16px form text looks tiny in the feed.
+- (b007) Transformed (rotateX/rotateZ) isometric grids report a bigger bounding box than they look: size them to ~60% of the box (330px in a 470px panel) or check_gfx flags ESCAPES.
+- (b007) Cards in a 2x2 or stacked list must scale type with the card: 38px titles, 22px body, 24px bars. Small 18px text inside tall cards reads as empty in the feed.
+- (b007) Map callout tags must sit fully inside open map space, not at the right edge (looked clipped). Put tags where there is 250px+ of free area and point with an arrow.
+- (b007) New techniques that worked: isometric desk floor, progress rail across carousel slides, folded paper document with a crease gradient, OMR bubble sheet, top-down CSS yard map. Next: a tear-off paper calendar, an isometric shelf for retail stock, an owner's-day vs customer's-day split.
