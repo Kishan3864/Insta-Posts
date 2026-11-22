@@ -3,7 +3,7 @@
  "drive_index_sheet_id": "1kVmhTtzsjrmEhG59w3V2Odgx_cXBEIsDAxMe59zWmgU",
  "lock_until_utc": "2026-11-23T00:14:58Z",
  "last_run": "2026-11-22T22:48:55Z \u00b7 posts 276-300 made (batches 52-56), Drive 1-300 done, index sheet refreshed at 290 (old sheet 15xA... could not be trashed: permission denied, listed in old_index_sheets_to_trash), 15 new targets added",
- "next_post_no": 301,
+ "next_post_no": 306,
  "posts_done": [
   {
    "n": 1,
@@ -2404,11 +2404,51 @@
    "slides": 1,
    "market": "India",
    "category": "SteelUtensilsBulk"
+  },
+  {
+   "n": 301,
+   "dir": "posts/0301_SINGLE_India_ERickshawFleet",
+   "format": "SINGLE",
+   "slides": 1,
+   "market": "India",
+   "category": "ERickshawFleet"
+  },
+  {
+   "n": 302,
+   "dir": "posts/0302_CAROUSEL_India_HandloomWeaver",
+   "format": "CAROUSEL",
+   "slides": 5,
+   "market": "India",
+   "category": "HandloomWeaver"
+  },
+  {
+   "n": 303,
+   "dir": "posts/0303_SINGLE_USA_MealPrep",
+   "format": "SINGLE",
+   "slides": 1,
+   "market": "USA",
+   "category": "MealPrep"
+  },
+  {
+   "n": 304,
+   "dir": "posts/0304_SINGLE_India_MessService",
+   "format": "SINGLE",
+   "slides": 1,
+   "market": "India",
+   "category": "MessService"
+  },
+  {
+   "n": 305,
+   "dir": "posts/0305_SINGLE_Canada_BoatStorage",
+   "format": "SINGLE",
+   "slides": 1,
+   "market": "Canada",
+   "category": "BoatStorage"
   }
  ],
  "market_counts": {
-  "India": 211,
-  "Abroad": 89
+  "India": 214,
+  "Abroad": 91
  },
  "used_categories": [
   "Boutique",
@@ -2717,14 +2757,14 @@
   "PapadUnit",
   "HotTubService",
   "DTPCentre",
-  "SteelUtensilsBulk"
+  "SteelUtensilsBulk",
+  "ERickshawFleet",
+  "HandloomWeaver",
+  "MealPrep",
+  "MessService",
+  "BoatStorage"
  ],
  "recent_palettes": [
-  "safety orange/steel grey/chalk white",
-  "white oak/sage/ink",
-  "circuit green/copper/charcoal",
-  "putty grey/ultramarine/ivory",
-  "anodized bronze/sky glass/graphite",
   "water blue/rust red/concrete",
   "midnight indigo/bulb amber/rose",
   "tire black/teal green/sand",
@@ -2744,7 +2784,12 @@
   "papad beige/chilli red/mustard",
   "lagoon aqua/cedar/navy",
   "print cyan/charcoal/lemon",
-  "steel silver/copper/indigo"
+  "steel silver/copper/indigo",
+  "asphalt/electric lime/white",
+  "turmeric/kora cotton/peacock teal",
+  "basil green/tomato/oat cream",
+  "manila/brick red/ink navy",
+  "shrink-wrap white/marine navy/buoy orange"
  ],
  "drive_files_done": [
   1,
@@ -3050,66 +3095,6 @@
  ],
  "log": [
   {
-   "n": 271,
-   "date": "2026-11-22",
-   "format": "SINGLE",
-   "market": "India",
-   "category": "SeatCoverMaker",
-   "palette": "leather tan/charcoal/stitch orange",
-   "fonts": "TeX Gyre Adventor + Open Sans",
-   "layout": "top-down car interior with seats filled by picked fabric + fabric picker rows + fitting slot card",
-   "dots": 3,
-   "phone": false
-  },
-  {
-   "n": 272,
-   "date": "2026-11-22",
-   "format": "SINGLE",
-   "market": "USA",
-   "category": "ScreenPrintShop",
-   "palette": "ink magenta/black/off-white",
-   "fonts": "Archivo Black + DM Sans",
-   "layout": "flat tee proof with print area + size run of shirt icons + 3 status tiles",
-   "dots": 2,
-   "phone": false
-  },
-  {
-   "n": 273,
-   "date": "2026-11-22",
-   "format": "SINGLE",
-   "market": "India",
-   "category": "SareeFallPico",
-   "palette": "peacock teal/rose/ivory",
-   "fonts": "Cardo + Poppins",
-   "layout": "wooden pigeonhole rack of folded sarees with tickets + message bubbles + counts + legend",
-   "dots": 5,
-   "phone": false
-  },
-  {
-   "n": 274,
-   "date": "2026-11-22",
-   "format": "CAROUSEL",
-   "market": "India",
-   "category": "CaneFurniture",
-   "palette": "cane gold/bamboo green/clay",
-   "fonts": "Bitter + Open Sans",
-   "layout": "CSS cane weave chairs catalogue grid, big chair + option chips, making stage bars, packed box + dispatch cards, chairs + tiles CTA",
-   "dots": 4,
-   "phone": false
-  },
-  {
-   "n": 275,
-   "date": "2026-11-22",
-   "format": "SINGLE",
-   "market": "India",
-   "category": "HousekeepingSupplies",
-   "palette": "mop blue/lemon/white",
-   "fonts": "Gelasio + Roboto",
-   "layout": "receipt-style monthly supply list with dotted leaders and torn edge + 3 side cards",
-   "dots": 1,
-   "phone": false
-  },
-  {
    "n": 276,
    "date": "2026-11-22",
    "format": "SINGLE",
@@ -3408,14 +3393,69 @@
    "layout": "SVG metallic stacks of plates, bowls and glasses with counts + caterer order card + repeat order card",
    "dots": 4,
    "phone": false
+  },
+  {
+   "n": 301,
+   "date": "2026-11-22",
+   "format": "SINGLE",
+   "market": "India",
+   "category": "ERickshawFleet",
+   "palette": "asphalt/electric lime/white",
+   "fonts": "Montserrat + Roboto",
+   "layout": "dark charging shed grid of SVG batteries with charge fill and bolts + driver shift/rent list + green message",
+   "dots": 2,
+   "phone": false
+  },
+  {
+   "n": 302,
+   "date": "2026-11-22",
+   "format": "CAROUSEL",
+   "market": "India",
+   "category": "HandloomWeaver",
+   "palette": "turmeric/kora cotton/peacock teal",
+   "fonts": "Lora + Open Sans",
+   "layout": "SVG handloom with woven part as progress, yarn issue table with swatches, woven-fabric progress bars per loom, saree icon yarn balance cards, three looms + tiles CTA",
+   "dots": 4,
+   "phone": false
+  },
+  {
+   "n": 303,
+   "date": "2026-11-22",
+   "format": "SINGLE",
+   "market": "USA",
+   "category": "MealPrep",
+   "palette": "basil green/tomato/oat cream",
+   "fonts": "Archivo Black + DM Sans",
+   "layout": "browser weekly order page + dark cook list of CSS top-down meal containers with counts + ZIP route card",
+   "dots": 1,
+   "phone": false
+  },
+  {
+   "n": 304,
+   "date": "2026-11-22",
+   "format": "SINGLE",
+   "market": "India",
+   "category": "MessService",
+   "palette": "manila/brick red/ink navy",
+   "fonts": "Crimson Text + Fira Sans",
+   "layout": "manila punch card month grid with punched/struck/open holes + today's cook count cards + skip app card",
+   "dots": 5,
+   "phone": false
+  },
+  {
+   "n": 305,
+   "date": "2026-11-22",
+   "format": "SINGLE",
+   "market": "Canada",
+   "category": "BoatStorage",
+   "palette": "shrink-wrap white/marine navy/buoy orange",
+   "fonts": "Bitter + Inter",
+   "layout": "top-down storage yard of shrink-wrapped SVG hulls with status outlines + phone spring launch booking",
+   "dots": 3,
+   "phone": true
   }
  ],
  "recent_fonts": [
-  "Montserrat + Inter",
-  "Crimson Text + DM Sans",
-  "Anton + Source Sans 3",
-  "Cardo + Inter",
-  "TeX Gyre Adventor + Inter",
   "Bitter + Fira Sans",
   "Gelasio + Montserrat",
   "Archivo Black + Inter",
@@ -3435,14 +3475,14 @@
   "Anton + Inter",
   "Lora + DM Sans",
   "Gelasio + Fira Sans",
-  "TeX Gyre Adventor + Source Sans 3"
+  "TeX Gyre Adventor + Source Sans 3",
+  "Montserrat + Roboto",
+  "Lora + Open Sans",
+  "Archivo Black + DM Sans",
+  "Crimson Text + Fira Sans",
+  "Bitter + Inter"
  ],
  "recent_layouts": [
-  "dark tool shadow board with filled tools in shop and dashed outlines for rented tools + return tags + rentals list + reminder card",
-  "blurred photo vs dimensioned wall hook, browser measuring form, 3 CSS closet elevations as options, install timeline + installed closet, closets + tiles CTA",
-  "phone item picker with +/- counters and slot chips + weight slip with LCD scale reading + after-pickup card",
-  "wall cross-section strata legend (brick to primer) + room x layer table with done/next cells + 6 site day tiles",
-  "building elevation of 8 flats with windows coloured by job stage + one flat's window list with drawn glass types + dispatch card",
   "site cross-section SVG (house, roof tank, bore depth ticks, water level, pump) + customer site form + install card",
   "glowing SVG string-light catenaries over tent hook, out/in split bars, 3 event load cards, crew time ribbon, count-back rows with sent/back, lights + tiles CTA",
   "drawn tire with size on sidewall via textPath + size decoder list + phone booking form",
@@ -3462,14 +3502,14 @@
   "drying mats of speckled papad discs + voice note hook, shop x product order sheet, packets-to-dough rule cards, packet icon dispatch rows, discs + tiles CTA",
   "top-down cedar hot tub with seats and jets + visit log table + phone visit report",
   "LED dot-matrix token board with glowing text + files received list + dark message card",
-  "SVG metallic stacks of plates, bowls and glasses with counts + caterer order card + repeat order card"
+  "SVG metallic stacks of plates, bowls and glasses with counts + caterer order card + repeat order card",
+  "dark charging shed grid of SVG batteries with charge fill and bolts + driver shift/rent list + green message",
+  "SVG handloom with woven part as progress, yarn issue table with swatches, woven-fabric progress bars per loom, saree icon yarn balance cards, three looms + tiles CTA",
+  "browser weekly order page + dark cook list of CSS top-down meal containers with counts + ZIP route card",
+  "manila punch card month grid with punched/struck/open holes + today's cook count cards + skip app card",
+  "top-down storage yard of shrink-wrapped SVG hulls with status outlines + phone spring launch booking"
  ],
  "used_hashtag_sets": [
-  "#weddingcardecoration #cardecoration #weddingdecor #eventdecorindia",
-  "#modularwardrobe #wardrobedesign #interiorsindia #modularfurniture",
-  "#petfooddelivery #petsupplies #petparentsindia #petstore",
-  "#garagefloor #epoxyflooring #garagefloorcoating #homeimprovement",
-  "#photobooth #photoboothrental #eventrentals #eventplannerindia",
   "#windowtint #windowtinting #cartint #autofilm",
   "#idlibatter #dosabatter #foodbusinessindia #homemadefood",
   "#courierservice #samedaydelivery #documentdelivery #localbusinessindia",
@@ -3524,7 +3564,12 @@
   "#papad #homemadesnacks #homebusinessindia #womenentrepreneurs",
   "#hottubservice #spaservice #hottubcare #backyardliving",
   "#dtpcentre #typingcentre #printingshop #localbusinessindia",
-  "#steelutensils #cateringsupplies #utensilshop #wholesaleindia"
+  "#steelutensils #cateringsupplies #utensilshop #wholesaleindia",
+  "#erickshaw #electricrickshaw #evindia #fleetowner",
+  "#handloom #handloomsaree #weaversofindia #handwoven",
+  "#mealprepbusiness #mealprepdelivery #foodbusiness #smallbusinessusa",
+  "#messservice #messfood #homestylefood #foodbusinessindia",
+  "#boatstorage #winterstorage #marinalife #boatingcanada"
  ],
  "drive_index_at_post": 290,
  "old_index_sheets_to_trash": [

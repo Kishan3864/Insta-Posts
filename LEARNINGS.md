@@ -227,3 +227,7 @@
 - (b056) Anton number columns (label over big number) need label line-height 1.5 + 6px margin and number line-height 1.5 from the start; Anton OVERLAP flags came back in two slides.
 - (b056) Isotype disc grids look unfinished with an orphan row (15 discs at 6 per row); choose counts that fill whole rows.
 - (b056) New techniques: CSS analog watch faces with hands set to the ready time, LED dot-matrix token board, speckled papad discs, metallic SVG utensil stacks.
+- (b057) Story colours must match across carousel slides: the hook loom (L-03) was drawn turmeric while the yarn table said L-03 is madder red; pick each hero object's colours from the data table, not by default args.
+- (b057) Realism check on rates: "4 sarees back in 6 days" from a handloom broke belief; keep sample output counts slow and plausible for the trade (1-2 sarees so far), and draw fewer but bigger icons (70x92) so the card still fills.
+- (b057) Browser/phone forms still leave a band above the button after 8 rows; plan 9-10 rows (or 13px row padding) from the start, and fill side columns with a second count card (tonight's dinner) instead of stretching one coloured card.
+- (b057) New techniques that worked: SVG battery packs with % fill + bolt, CSS manila punch card (punched holes show the board colour), top-down shrink-wrapped hulls with status outlines, handloom warp/woven progress, CSS meal containers. Next: try an isometric shelf, a receipt-style weekly bill, a split before/after diagonal.
