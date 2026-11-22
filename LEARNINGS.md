@@ -33,3 +33,7 @@
 - (b007) Cards in a 2x2 or stacked list must scale type with the card: 38px titles, 22px body, 24px bars. Small 18px text inside tall cards reads as empty in the feed.
 - (b007) Map callout tags must sit fully inside open map space, not at the right edge (looked clipped). Put tags where there is 250px+ of free area and point with an arrow.
 - (b007) New techniques that worked: isometric desk floor, progress rail across carousel slides, folded paper document with a crease gradient, OMR bubble sheet, top-down CSS yard map. Next: a tear-off paper calendar, an isometric shelf for retail stock, an owner's-day vs customer's-day split.
+- (b008) Never reuse a container class name as a variant class: `.cat` (catalogue wrapper) also styled the cat-eye frame and broke the grid. Prefix variants (ce, rnd) or use .fs-* names.
+- (b008) A label pill set to inline-block still stretches full width inside the flex-column .pg. Add align-self:flex-start to kicker/step badges.
+- (b008) Hero illustration panels (clothes rail, truck) leave dead space when given flex:1. Size them to content (flex:none + padding) and give the spare height to the data cards below, or fill with a guide line (dashed "half truck" level).
+- (b008) Pinned/stacked paper notes: stagger left/right with vertical gaps so no note covers another note's text; check the bottom caption bar is clear. New techniques that worked: SVG hanger rail, CSS truck load gauge, cork texture, CSS bubble-tea cup, tablet mockup. Next: tear-off calendar, isometric shelf, owner's-day vs customer's-day split.

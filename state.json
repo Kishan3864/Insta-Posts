@@ -3,7 +3,7 @@
  "drive_index_sheet_id": "1cCLssLf0NAU-Lgdr8suSQO0cAsyc5jQJRge0O2i-Nd8",
  "lock_until_utc": "2026-11-22T10:12:48Z",
  "last_run": "2026-11-22T08:33:59Z \u00b7 posts 46-55 made, Drive 1-55 done",
- "next_post_no": 56,
+ "next_post_no": 61,
  "posts_done": [
   {
    "n": 1,
@@ -444,11 +444,51 @@
    "slides": 1,
    "market": "India",
    "category": "TestSeries"
+  },
+  {
+   "n": 56,
+   "dir": "posts/0056_SINGLE_India_Laundry",
+   "format": "SINGLE",
+   "slides": 1,
+   "market": "India",
+   "category": "Laundry"
+  },
+  {
+   "n": 57,
+   "dir": "posts/0057_CAROUSEL_India_OpticalShop",
+   "format": "CAROUSEL",
+   "slides": 6,
+   "market": "India",
+   "category": "OpticalShop"
+  },
+  {
+   "n": 58,
+   "dir": "posts/0058_SINGLE_USA_JunkRemoval",
+   "format": "SINGLE",
+   "slides": 1,
+   "market": "USA",
+   "category": "JunkRemoval"
+  },
+  {
+   "n": 59,
+   "dir": "posts/0059_SINGLE_India_SocietyRWA",
+   "format": "SINGLE",
+   "slides": 1,
+   "market": "India",
+   "category": "SocietyRWA"
+  },
+  {
+   "n": 60,
+   "dir": "posts/0060_CAROUSEL_USA_BubbleTea",
+   "format": "CAROUSEL",
+   "slides": 5,
+   "market": "USA",
+   "category": "BubbleTea"
   }
  ],
  "market_counts": {
-  "India": 39,
-  "Abroad": 16
+  "India": 42,
+  "Abroad": 18
  },
  "used_categories": [
   "Boutique",
@@ -512,14 +552,14 @@
   "ComputerInstitute",
   "TravelAgent",
   "PressureWashing",
-  "TestSeries"
+  "TestSeries",
+  "Laundry",
+  "OpticalShop",
+  "JunkRemoval",
+  "SocietyRWA",
+  "BubbleTea"
  ],
  "recent_palettes": [
-  "slate/mint/coral",
-  "hot red/cool cyan/off-white",
-  "terracotta/stone",
-  "maroon/gold/cream",
-  "sand/coral/deep teal",
   "ivory/emerald/champagne",
   "henna orange/olive/blush",
   "cream/navy/barber red",
@@ -539,7 +579,12 @@
   "royal blue/tangerine/white",
   "deep ocean/postcard cream/sun yellow",
   "aqua/concrete/navy",
-  "OMR pink/ink navy/white"
+  "OMR pink/ink navy/white",
+  "powder blue/lavender/ink navy",
+  "tortoise brown/cream/teal",
+  "forest green/safety orange/off-white",
+  "cork brown/marker red/paper white",
+  "taro purple/milk tea beige/tapioca black"
  ],
  "drive_files_done": [
   1,
@@ -599,66 +644,6 @@
   55
  ],
  "log": [
-  {
-   "n": 26,
-   "date": "2026-11-22",
-   "format": "SINGLE",
-   "market": "India",
-   "category": "TwoWheelerService",
-   "palette": "petrol teal/amber/off-white",
-   "fonts": "Fira Sans + Gelasio",
-   "layout": "diagonal before/after split, paper vs digital job card",
-   "dots": 3,
-   "phone": false
-  },
-  {
-   "n": 27,
-   "date": "2026-11-22",
-   "format": "SINGLE",
-   "market": "India",
-   "category": "BeautyParlour",
-   "palette": "peach/plum",
-   "fonts": "Lora + DM Sans",
-   "layout": "4-panel comic strip",
-   "dots": 1,
-   "phone": false
-  },
-  {
-   "n": 28,
-   "date": "2026-11-22",
-   "format": "CAROUSEL",
-   "market": "Canada",
-   "category": "SnowRemoval",
-   "palette": "midnight/ice/signal red",
-   "fonts": "Inter Display + Inter",
-   "layout": "snowfall bg, outlined big numbers",
-   "dots": 4,
-   "phone": false
-  },
-  {
-   "n": 29,
-   "date": "2026-11-22",
-   "format": "CAROUSEL",
-   "market": "India",
-   "category": "DrivingSchool",
-   "palette": "cream/dark green/L-plate red",
-   "fonts": "Montserrat + Open Sans",
-   "layout": "which one do you need guide",
-   "dots": 2,
-   "phone": true
-  },
-  {
-   "n": 30,
-   "date": "2026-11-22",
-   "format": "SINGLE",
-   "market": "USA",
-   "category": "DogWalker",
-   "palette": "butter/ink/teal",
-   "fonts": "Crimson Text + Poppins",
-   "layout": "stacked cards + phone with SVG route map",
-   "dots": 5,
-   "phone": true
-  },
   {
    "n": 31,
    "date": "2026-11-22",
@@ -958,14 +943,69 @@
    "layout": "OMR bubble sheet vs result card",
    "dots": 5,
    "phone": false
+  },
+  {
+   "n": 56,
+   "date": "2026-11-22",
+   "format": "SINGLE",
+   "market": "India",
+   "category": "Laundry",
+   "palette": "powder blue/lavender/ink navy",
+   "fonts": "Lora + Montserrat",
+   "layout": "clothes rail with SVG hangers + status tags",
+   "dots": 3,
+   "phone": false
+  },
+  {
+   "n": 57,
+   "date": "2026-11-22",
+   "format": "CAROUSEL",
+   "market": "India",
+   "category": "OpticalShop",
+   "palette": "tortoise brown/cream/teal",
+   "fonts": "TeX Gyre Adventor + Inter",
+   "layout": "CSS spectacles hero + frame-shape catalogue, numbered things",
+   "dots": 1,
+   "phone": true
+  },
+  {
+   "n": 58,
+   "date": "2026-11-22",
+   "format": "SINGLE",
+   "market": "USA",
+   "category": "JunkRemoval",
+   "palette": "forest green/safety orange/off-white",
+   "fonts": "Anton + Roboto",
+   "layout": "side-view truck load-level selector + photo form",
+   "dots": 4,
+   "phone": false
+  },
+  {
+   "n": 59,
+   "date": "2026-11-22",
+   "format": "SINGLE",
+   "market": "India",
+   "category": "SocietyRWA",
+   "palette": "cork brown/marker red/paper white",
+   "fonts": "Gelasio + Inter",
+   "layout": "cork notice board with pinned notes vs app card",
+   "dots": 2,
+   "phone": false
+  },
+  {
+   "n": 60,
+   "date": "2026-11-22",
+   "format": "CAROUSEL",
+   "market": "USA",
+   "category": "BubbleTea",
+   "palette": "taro purple/milk tea beige/tapioca black",
+   "fonts": "Archivo Black + DM Sans",
+   "layout": "CSS drink cup hero + tablet drink builder, step carousel",
+   "dots": 5,
+   "phone": false
   }
  ],
  "recent_fonts": [
-  "Cardo + Inter",
-  "Archivo Black + Roboto",
-  "Open Sans + Cardo",
-  "Lora + Fira Sans",
-  "Comic Relief + DM Sans",
   "Gelasio + Poppins",
   "Gelasio + Poppins",
   "TeX Gyre Heros Cn + Inter",
@@ -985,14 +1025,14 @@
   "Bitter + Poppins",
   "Crimson Text + Montserrat",
   "Archivo Black + Open Sans",
-  "Crimson Text + Inter"
+  "Crimson Text + Inter",
+  "Lora + Montserrat",
+  "TeX Gyre Adventor + Inter",
+  "Anton + Roboto",
+  "Gelasio + Inter",
+  "Archivo Black + DM Sans"
  ],
  "recent_layouts": [
-  "floor plan room grid",
-  "myth vs fact, split hot/cold bg",
-  "laptop mockup catalogue + CSS tile patterns",
-  "ticket-stub cards, process story",
-  "spot-the-problem whiteboard",
   "3D tilted availability board",
   "arch frames + CSS motif pattern",
   "wall TV queue display + phone",
@@ -1012,7 +1052,12 @@
   "process journey with progress rail, staircase steps",
   "chat column vs folded paper itinerary",
   "laptop quote form + top-down yard map",
-  "OMR bubble sheet vs result card"
+  "OMR bubble sheet vs result card",
+  "clothes rail with SVG hangers + status tags",
+  "CSS spectacles hero + frame-shape catalogue, numbered things",
+  "side-view truck load-level selector + photo form",
+  "cork notice board with pinned notes vs app card",
+  "CSS drink cup hero + tablet drink builder, step carousel"
  ],
  "used_hashtag_sets": [
   "#kiranastore #udhaar #kiranashop #retailindia #shopowners",
@@ -1049,7 +1094,12 @@
   "#computerinstitute #computertraining #traininginstitute #coachingcentre #edtechindia",
   "#travelagent #travelagency #tourpackages #travelagentindia",
   "#pressurewashing #powerwashing #exteriorcleaning #homeservicebusiness",
-  "#coachingcentre #testseries #competitiveexams #onlinetest"
+  "#coachingcentre #testseries #competitiveexams #onlinetest",
+  "#laundryservice #drycleaning #laundryindia #laundrybusiness",
+  "#opticalshop #opticalstore #eyewearindia #spectacles #opticalbusiness",
+  "#junkremoval #junkhauling #haulingbusiness #smallbusinessusa",
+  "#housingsociety #rwa #societymanagement #apartmentliving",
+  "#bubbletea #bobashop #bobatea #cafeowner #localbusinessusa"
  ],
  "drive_index_at_post": 40
 }
