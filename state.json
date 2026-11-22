@@ -3,7 +3,7 @@
  "drive_index_sheet_id": "1xFLY19Eqz0Nns5J6UVxomG2DnBAv_kkqnKLf0H6TGvY",
  "lock_until_utc": "2026-11-22T22:27:53Z",
  "last_run": "2026-11-22T20:54:12Z \u00b7 posts 226-250 made (batches 42-46), Drive 1-250 done, index sheet refreshed at 240 (old sheet could not be trashed: permission denied, id kept in old_index_sheets_to_trash)",
- "next_post_no": 261,
+ "next_post_no": 266,
  "posts_done": [
   {
    "n": 1,
@@ -2084,11 +2084,51 @@
    "slides": 1,
    "market": "Canada",
    "category": "DeckBuilder"
+  },
+  {
+   "n": 261,
+   "dir": "posts/0261_SINGLE_India_FalseCeiling",
+   "format": "SINGLE",
+   "slides": 1,
+   "market": "India",
+   "category": "FalseCeiling"
+  },
+  {
+   "n": 262,
+   "dir": "posts/0262_CAROUSEL_India_PaneerMaker",
+   "format": "CAROUSEL",
+   "slides": 5,
+   "market": "India",
+   "category": "PaneerMaker"
+  },
+  {
+   "n": 263,
+   "dir": "posts/0263_SINGLE_USA_MobileLocksmith",
+   "format": "SINGLE",
+   "slides": 1,
+   "market": "USA",
+   "category": "MobileLocksmith"
+  },
+  {
+   "n": 264,
+   "dir": "posts/0264_SINGLE_India_BicycleShop",
+   "format": "SINGLE",
+   "slides": 1,
+   "market": "India",
+   "category": "BicycleShop"
+  },
+  {
+   "n": 265,
+   "dir": "posts/0265_SINGLE_India_HoneySeller",
+   "format": "SINGLE",
+   "slides": 1,
+   "market": "India",
+   "category": "HoneySeller"
   }
  ],
  "market_counts": {
-  "India": 182,
-  "Abroad": 78
+  "India": 186,
+  "Abroad": 79
  },
  "used_categories": [
   "Boutique",
@@ -2357,14 +2397,14 @@
   "PianoTuner",
   "StoneCutter",
   "MotorRewinding",
-  "DeckBuilder"
+  "DeckBuilder",
+  "FalseCeiling",
+  "PaneerMaker",
+  "MobileLocksmith",
+  "BicycleShop",
+  "HoneySeller"
  ],
  "recent_palettes": [
-  "aqua teal/concrete/sunflower",
-  "cedar orange/charcoal/pale sage",
-  "coral/teal/sand",
-  "racing green/cream/brick",
-  "ember red/stone grey/birch white",
   "jasmine white/marigold/ink teal",
   "laminate grey/oak/olive",
   "kibble brown/mint/sky blue",
@@ -2384,7 +2424,12 @@
   "ebony/ivory/brass",
   "marble white/granite black/copper",
   "copper orange/workshop blue/tag cream",
-  "lake blue/cedar/pine green"
+  "lake blue/cedar/pine green",
+  "ceiling white/cove amber/graphite",
+  "milk white/cobalt blue/butter yellow",
+  "brass/charcoal/signal red",
+  "cycle red/asphalt/mint",
+  "honey amber/hive black/cream"
  ],
  "drive_files_done": [
   1,
@@ -2649,66 +2694,6 @@
   260
  ],
  "log": [
-  {
-   "n": 231,
-   "date": "2026-11-22",
-   "format": "CAROUSEL",
-   "market": "India",
-   "category": "CandleMaker",
-   "palette": "wax beige/charcoal/lavender",
-   "fonts": "Gelasio + Inter",
-   "layout": "big candle jar + lined notebook, batch card tiles + 7-day cure strip, curing rack shelves with days-left badges, orders matched to batches + stat row, jars + 4 tiles CTA",
-   "dots": 4,
-   "phone": false
-  },
-  {
-   "n": 232,
-   "date": "2026-11-22",
-   "format": "SINGLE",
-   "market": "USA",
-   "category": "ApplianceInstaller",
-   "palette": "appliance white/steel teal/tangerine",
-   "fonts": "Archivo Black + Inter",
-   "layout": "measured laundry nook elevation with dimension tags + install checklist + dark haul-away list with slots",
-   "dots": 2,
-   "phone": false
-  },
-  {
-   "n": 233,
-   "date": "2026-11-22",
-   "format": "SINGLE",
-   "market": "India",
-   "category": "StationerySupplier",
-   "palette": "notebook blue/highlighter yellow/white",
-   "fonts": "Bitter + Roboto",
-   "layout": "clipboard with metal clip holding repeat order list (drawn items, Nov vs Dec qty) + delivery days card",
-   "dots": 5,
-   "phone": false
-  },
-  {
-   "n": 234,
-   "date": "2026-11-22",
-   "format": "CAROUSEL",
-   "market": "USA",
-   "category": "EstateSale",
-   "palette": "dusty rose/oak/navy",
-   "fonts": "Lora + DM Sans",
-   "layout": "living room scene with lot tags, browser lot catalogue, top-down house map with lot ranges + path, holds and pickups list, icons + tiles CTA",
-   "dots": 3,
-   "phone": false
-  },
-  {
-   "n": 235,
-   "date": "2026-11-22",
-   "format": "SINGLE",
-   "market": "India",
-   "category": "ChaatCarts",
-   "palette": "tamarind brown/mint green/turmeric",
-   "fonts": "TeX Gyre Adventor + Source Sans 3",
-   "layout": "row of 5 drawn food carts with sold/back bars + out/back/sold table",
-   "dots": 1,
-   "phone": false
-  },
   {
    "n": 236,
    "date": "2026-11-22",
@@ -3008,14 +2993,69 @@
    "layout": "top-down backyard plan with board-grain deck, steps, lake and dock + picks with swatches + site visit card",
    "dots": 4,
    "phone": false
+  },
+  {
+   "n": 261,
+   "date": "2026-11-22",
+   "format": "SINGLE",
+   "market": "India",
+   "category": "FalseCeiling",
+   "palette": "ceiling white/cove amber/graphite",
+   "fonts": "Lora + Fira Sans",
+   "layout": "reflected ceiling plan with glowing cove and light points + design pick column + horizontal material list strip",
+   "dots": 4,
+   "phone": false
+  },
+  {
+   "n": 262,
+   "date": "2026-11-22",
+   "format": "CAROUSEL",
+   "market": "India",
+   "category": "PaneerMaker",
+   "palette": "milk white/cobalt blue/butter yellow",
+   "fonts": "Bitter + Source Sans 3",
+   "layout": "message cards + 3D paneer blocks hook, order table with totals, blocks to milk cans conversion by yield rule, striped crates with labels, blocks + tiles CTA",
+   "dots": 3,
+   "phone": false
+  },
+  {
+   "n": 263,
+   "date": "2026-11-22",
+   "format": "SINGLE",
+   "market": "USA",
+   "category": "MobileLocksmith",
+   "palette": "brass/charcoal/signal red",
+   "fonts": "Anton + DM Sans",
+   "layout": "dark map with drive-time rings around a van + ZIP chips, lockout request form",
+   "dots": 2,
+   "phone": false
+  },
+  {
+   "n": 264,
+   "date": "2026-11-22",
+   "format": "SINGLE",
+   "market": "India",
+   "category": "BicycleShop",
+   "palette": "cycle red/asphalt/mint",
+   "fonts": "Montserrat + Open Sans",
+   "layout": "drawn bicycle with numbered service points + checklist + ask-customer and pickup cards",
+   "dots": 5,
+   "phone": false
+  },
+  {
+   "n": 265,
+   "date": "2026-11-22",
+   "format": "SINGLE",
+   "market": "India",
+   "category": "HoneySeller",
+   "palette": "honey amber/hive black/cream",
+   "fonts": "Gelasio + Poppins",
+   "layout": "3 batch cards with clip-path hexagon honeycomb (1 cell = 1 jar) + order note",
+   "dots": 1,
+   "phone": false
   }
  ],
  "recent_fonts": [
-  "Poppins + Inter",
-  "Montserrat + Source Sans 3",
-  "Cardo + Fira Sans",
-  "Anton + Roboto",
-  "Crimson Text + Roboto",
   "Gelasio + Fira Sans",
   "TeX Gyre Adventor + Inter",
   "Poppins + DM Sans",
@@ -3035,14 +3075,14 @@
   "Gelasio + DM Sans",
   "Bitter + Inter",
   "Montserrat + Fira Sans",
-  "Archivo Black + Open Sans"
+  "Archivo Black + Open Sans",
+  "Lora + Fira Sans",
+  "Bitter + Source Sans 3",
+  "Anton + DM Sans",
+  "Montserrat + Open Sans",
+  "Gelasio + Poppins"
  ],
  "recent_layouts": [
-  "building section with roof tanks + sump showing sediment by status + tank list + dark message card",
-  "top-down backyard with customer-drawn fence runs in ft + gates + dark quote request form",
-  "day ribbon with travel hatch, slots by area + phone, route map with numbered stops, open kit bag compartments, 4 big tiles CTA",
-  "paper service book with ink stamps per visit + dark phone card with km bar and parts used",
-  "cabin cutaway with stove + flue and 5 numbered survey points + matching survey form + install day bar",
   "side-view car with numbered flower zones + zone cards + cars booked list + flower shop message",
   "wall elevation with beam + switch and mistakes list, wall + tablet form, 3 wardrobe layout options, panel cut list + install day, wardrobe + tiles CTA",
   "3 pet profile cards with drawn food bags at fill % + run-out dates + reminder bar",
@@ -3062,14 +3102,14 @@
   "CSS piano keyboard hook with quote, client cards with mini keyboards + due chips, town map with route-day zone + stop list, phone booking page + side cards, keyboard + tiles CTA",
   "top-down slab to scale with nested cut pieces and hatched offcut + pieces list + dark slab rack",
   "6 clip-path paper job tags on a rail with promised date and status punch + message note",
-  "top-down backyard plan with board-grain deck, steps, lake and dock + picks with swatches + site visit card"
+  "top-down backyard plan with board-grain deck, steps, lake and dock + picks with swatches + site visit card",
+  "reflected ceiling plan with glowing cove and light points + design pick column + horizontal material list strip",
+  "message cards + 3D paneer blocks hook, order table with totals, blocks to milk cans conversion by yield rule, striped crates with labels, blocks + tiles CTA",
+  "dark map with drive-time rings around a van + ZIP chips, lockout request form",
+  "drawn bicycle with numbered service points + checklist + ask-customer and pickup cards",
+  "3 batch cards with clip-path hexagon honeycomb (1 cell = 1 jar) + order note"
  ],
  "used_hashtag_sets": [
-  "#icefactory #iceblocks #icesupplier #smallbusinessindia",
-  "#curtainshop #blindsandcurtains #homefurnishing #curtainstitching #interiorsindia",
-  "#chimneysweep #chimneycleaning #fireplaceservice #smallbusinessusa",
-  "#liftamc #liftservice #elevatormaintenance #facilitymanagement",
-  "#aquariumshop #aquariumcare #fishtank #aquariumindia",
   "#firewood #firewooddelivery #seasonedfirewood #canadasmallbusiness",
   "#uniformmanufacturer #corporateuniforms #uniformmaker #garmentbusinessindia",
   "#commerciallaundry #hotellinen #laundrybusiness #hospitalityindia",
@@ -3124,7 +3164,12 @@
   "#pianotuner #pianotuning #pianotechnician #smallbusinessowner",
   "#granite #marble #stonecutting #marbledealer #constructionindia",
   "#motorrewinding #electricmotor #motorrepair #workshopindia",
-  "#deckbuilder #deckdesign #dockbuilder #canadacontractor"
+  "#deckbuilder #deckdesign #dockbuilder #canadacontractor",
+  "#falseceiling #gypsumceiling #ceilingdesign #interiorcontractor",
+  "#paneer #dairybusiness #dairyproducts #foodbusinessindia",
+  "#locksmith #mobilelocksmith #lockout #localbusinessusa",
+  "#bicycleshop #cycleservice #cyclingindia #bicyclerepair",
+  "#farmhoney #honeybusiness #beekeepingindia #homegrownbrand"
  ],
  "drive_index_at_post": 240,
  "old_index_sheets_to_trash": [
