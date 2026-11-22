@@ -3,7 +3,7 @@
  "drive_index_sheet_id": "17DMiIlgQarmABZGJbxLXvzbk7KOnOPqW6-Ffiq0jHcc",
  "lock_until_utc": "2026-11-22T16:25:34Z",
  "last_run": "2026-11-22T14:42:49Z \u00b7 posts 146-160 made, Drive 1-160 done, index sheet last at 140 (refresh due ~165)",
- "next_post_no": 171,
+ "next_post_no": 176,
  "posts_done": [
   {
    "n": 1,
@@ -1364,11 +1364,51 @@
    "slides": 1,
    "market": "India",
    "category": "MobileAccessoriesWholesale"
+  },
+  {
+   "n": 171,
+   "dir": "posts/0171_SINGLE_India_FurnitureRental",
+   "format": "SINGLE",
+   "slides": 1,
+   "market": "India",
+   "category": "FurnitureRental"
+  },
+  {
+   "n": 172,
+   "dir": "posts/0172_CAROUSEL_India_SolarWaterHeater",
+   "format": "CAROUSEL",
+   "slides": 5,
+   "market": "India",
+   "category": "SolarWaterHeater"
+  },
+  {
+   "n": 173,
+   "dir": "posts/0173_SINGLE_USA_MobileCarWash",
+   "format": "SINGLE",
+   "slides": 1,
+   "market": "USA",
+   "category": "MobileCarWash"
+  },
+  {
+   "n": 174,
+   "dir": "posts/0174_SINGLE_India_PlumbingContractor",
+   "format": "SINGLE",
+   "slides": 1,
+   "market": "India",
+   "category": "PlumbingContractor"
+  },
+  {
+   "n": 175,
+   "dir": "posts/0175_CAROUSEL_India_EventManagement",
+   "format": "CAROUSEL",
+   "slides": 5,
+   "market": "India",
+   "category": "EventManagement"
   }
  ],
  "market_counts": {
-  "India": 119,
-  "Abroad": 51
+  "India": 123,
+  "Abroad": 52
  },
  "used_categories": [
   "Boutique",
@@ -1547,14 +1587,14 @@
   "WindowCleaning",
   "ElectricalShop",
   "HomeOrganizer",
-  "MobileAccessoriesWholesale"
+  "MobileAccessoriesWholesale",
+  "FurnitureRental",
+  "SolarWaterHeater",
+  "MobileCarWash",
+  "PlumbingContractor",
+  "EventManagement"
  ],
  "recent_palettes": [
-  "sunset orange/deep teal/sand",
-  "midnight violet/mint/white",
-  "pool blue/lane red/white tile",
-  "paper white/forest green/vermilion",
-  "mat blue/canvas cream/belt black",
   "sage/sunflower/cream",
   "asphalt/fluoro orange/white",
   "jet black/electric blue/silver",
@@ -1574,7 +1614,12 @@
   "cornflower/lemon/white",
   "electric yellow/charcoal/paper",
   "blush/olive/cream",
-  "deep purple/mint/white"
+  "deep purple/mint/white",
+  "walnut/linen/cobalt",
+  "midnight blue/sun gold/cloud white",
+  "aqua/hot coral/navy",
+  "porcelain/charcoal/leaf green",
+  "aubergine/peach/white"
  ],
  "drive_files_done": [
   1,
@@ -1749,66 +1794,6 @@
   170
  ],
  "log": [
-  {
-   "n": 141,
-   "date": "2026-11-22",
-   "format": "SINGLE",
-   "market": "India",
-   "category": "AutoPartsDealer",
-   "palette": "gunmetal/tomato/fog",
-   "fonts": "Anton + Roboto",
-   "layout": "parts bin wall with label cards + search result with godown/rack/bin rows",
-   "dots": 3,
-   "phone": false
-  },
-  {
-   "n": 142,
-   "date": "2026-11-22",
-   "format": "CAROUSEL",
-   "market": "India",
-   "category": "BuilderProject",
-   "palette": "concrete grey/terracotta/sky",
-   "fonts": "Cardo + Montserrat",
-   "layout": "building facade availability grid (floor x flat), browser flat page with SVG plan, stage tiles tracker, monthly SVG build thumbnails + progress bar",
-   "dots": 1,
-   "phone": false
-  },
-  {
-   "n": 143,
-   "date": "2026-11-22",
-   "format": "SINGLE",
-   "market": "USA",
-   "category": "CakeShop",
-   "palette": "buttercream/raspberry/cocoa",
-   "fonts": "Crimson Text + Inter",
-   "layout": "SVG tiered drip cake preview panel + option-chip order form",
-   "dots": 5,
-   "phone": false
-  },
-  {
-   "n": 144,
-   "date": "2026-11-22",
-   "format": "SINGLE",
-   "market": "India",
-   "category": "PetGroomingHome",
-   "palette": "aqua/sunny yellow/charcoal",
-   "fonts": "Montserrat + Lora",
-   "layout": "pet passport cards with SVG faces + visit stamps, phone groomer day plan",
-   "dots": 2,
-   "phone": true
-  },
-  {
-   "n": 145,
-   "date": "2026-11-22",
-   "format": "SINGLE",
-   "market": "India",
-   "category": "OilMill",
-   "palette": "golden oil/deep green/cream",
-   "fonts": "Gelasio + Source Sans 3",
-   "layout": "SVG storage tanks with liquid levels + dark dealer order list with shortage alert",
-   "dots": 4,
-   "phone": false
-  },
   {
    "n": 146,
    "date": "2026-11-22",
@@ -2108,14 +2093,69 @@
    "layout": "tablet dealer catalogue with SVG product drawings + stock dot tags + order bar",
    "dots": 4,
    "phone": false
+  },
+  {
+   "n": 171,
+   "date": "2026-11-22",
+   "format": "SINGLE",
+   "market": "India",
+   "category": "FurnitureRental",
+   "palette": "walnut/linen/cobalt",
+   "fonts": "Gelasio + DM Sans",
+   "layout": "split owner view card vs customer phone joined by a dashed cobalt seam, drawn furniture icons",
+   "dots": 2,
+   "phone": true
+  },
+  {
+   "n": 172,
+   "date": "2026-11-22",
+   "format": "CAROUSEL",
+   "market": "India",
+   "category": "SolarWaterHeater",
+   "palette": "midnight blue/sun gold/cloud white",
+   "fonts": "Archivo Black + Roboto",
+   "layout": "SVG rooftop solar heater + stat row, lined paper survey form with tick dots + photo chips, crew install week rows, service progress rings list, rooftop + tiles CTA",
+   "dots": 5,
+   "phone": false
+  },
+  {
+   "n": 173,
+   "date": "2026-11-22",
+   "format": "SINGLE",
+   "market": "USA",
+   "category": "MobileCarWash",
+   "palette": "aqua/hot coral/navy",
+   "fonts": "Montserrat + Source Sans 3",
+   "layout": "hexagon zone map with wash day per zone + dark ZIP slot picker bar",
+   "dots": 3,
+   "phone": false
+  },
+  {
+   "n": 174,
+   "date": "2026-11-22",
+   "format": "SINGLE",
+   "market": "India",
+   "category": "PlumbingContractor",
+   "palette": "porcelain/charcoal/leaf green",
+   "fonts": "Bitter + Inter",
+   "layout": "tiled bathroom wall elevation SVG with numbered fitting points by status + site list",
+   "dots": 1,
+   "phone": false
+  },
+  {
+   "n": 175,
+   "date": "2026-11-22",
+   "format": "CAROUSEL",
+   "market": "India",
+   "category": "EventManagement",
+   "palette": "aubergine/peach/white",
+   "fonts": "Cardo + Inter",
+   "layout": "vertical run-sheet time rail with now dot, vendor cards with rubber stamps, 3 team checklist columns, browser client page with progress bar, big icon tiles CTA",
+   "dots": 4,
+   "phone": false
   }
  ],
  "recent_fonts": [
-  "Archivo Black + DM Sans",
-  "Montserrat + Inter",
-  "Anton + Open Sans",
-  "Gelasio + Inter",
-  "TeX Gyre Adventor + Roboto",
   "Bitter + Inter",
   "Archivo Black + Open Sans",
   "Poppins + Roboto",
@@ -2135,14 +2175,14 @@
   "Bitter + Roboto",
   "Anton + Open Sans",
   "Crimson Text + Poppins",
-  "Fira Sans + Roboto"
+  "Fira Sans + Roboto",
+  "Gelasio + DM Sans",
+  "Archivo Black + Roboto",
+  "Montserrat + Source Sans 3",
+  "Bitter + Inter",
+  "Cardo + Inter"
  ],
  "recent_layouts": [
-  "top-down SVG tempo traveller seat map + stat cards, browser trip page with SVG mountain banner + day cards, payment status table, phone pickup list, seat strip + boarding pass ticket CTA",
-  "anatomy landing page in browser with numbered pins + numbered legend column",
-  "top-down pool with lane-rope rows as batches + member dots, phone pool pass with QR",
-  "spiral wall calendar with circled due dates + client document tick/cross tracker",
-  "SVG belt rows with members + ready badges, browser week class list, progress ring + skills checklist, test list with belt swatches + message bubbles, belt tiles CTA",
   "volunteer shift board with slot circles + stat row, browser drive/shift sign-up form, donor table with status chips + dark cards, drive report with SVG photo grid, big-numeral tiles CTA",
   "listing card with SVG motorbike side profile + 12-point inspection grid",
   "top-down SVG car with numbered hotspots + fitting list + bay slot bar split by duration",
@@ -2162,14 +2202,14 @@
   "big window whose 6 panes are route days (clean = done, streaked = to do, dashed make-up day) + recurring cycle cards",
   "receipt roll of counter slips tagged by contractor + dark contractor account cards",
   "SVG closet plan with labelled bins + stat column, browser booking form with chips, vertical session stepper, shopping list with size swatches, closet + tiles CTA",
-  "tablet dealer catalogue with SVG product drawings + stock dot tags + order bar"
+  "tablet dealer catalogue with SVG product drawings + stock dot tags + order bar",
+  "split owner view card vs customer phone joined by a dashed cobalt seam, drawn furniture icons",
+  "SVG rooftop solar heater + stat row, lined paper survey form with tick dots + photo chips, crew install week rows, service progress rings list, rooftop + tiles CTA",
+  "hexagon zone map with wash day per zone + dark ZIP slot picker bar",
+  "tiled bathroom wall elevation SVG with numbered fitting points by status + site list",
+  "vertical run-sheet time rail with now dot, vendor cards with rubber stamps, 3 team checklist columns, browser client page with progress bar, big icon tiles CTA"
  ],
  "used_hashtag_sets": [
-  "#dhaba #highwayrestaurant #restaurantownerindia #kitchenmanagement",
-  "#grocerywholesale #fmcgdistributor #kiranastore #wholesalebusiness",
-  "#realestatephotography #realestatephotographer #listingphotos #photographybusiness",
-  "#plasticmoulding #injectionmoulding #plasticindustry #msmemanufacturing",
-  "#contentcreatorindia #influencerindia #creatoreconomy #branddeals",
   "#cateringcompany #cateringbusiness #eventcatering #corporatecatering",
   "#organicfarming #vegbox #farmtohome #organicvegetables #farmersofindia",
   "#warehouse #godownforrent #warehousingindia #3pllogistics #warehousemanagement",
@@ -2224,7 +2264,12 @@
   "#windowcleaning #windowcleaningbusiness #routeplanning #homeservicepros",
   "#electricalshop #electricalgoods #electricalcontractor #shopkeeperlife",
   "#homeorganizer #professionalorganizer #closetorganization #organizingbusiness #smallbusinessowner",
-  "#mobileaccessories #mobileaccessorieswholesale #wholesalebusiness #b2bindia"
+  "#mobileaccessories #mobileaccessorieswholesale #wholesalebusiness #b2bindia",
+  "#furniturerental #furnitureonrent #rentalbusiness #appliancerental",
+  "#solarwaterheater #solarheater #solardealer #solarinstallation #smallbusinessindia",
+  "#mobilecarwash #mobiledetailing #carwashbusiness #detailingbusiness",
+  "#plumbingcontractor #sanitaryware #bathroomfitting #plumbingwork",
+  "#eventmanagement #eventplanner #eventmanagementcompany #corporateevents"
  ],
  "drive_index_at_post": 165
 }

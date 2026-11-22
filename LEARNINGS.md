@@ -123,3 +123,7 @@
 - (b030) Serif display fonts (Crimson Text) at 66px need line-height >= 1.22 and big numerals >= 1.35 + margin-bottom, or check_text flags TIGHT-LH/OVERLAP.
 - (b030) A square-ish SVG in a tall card leaves bands: add a small caps label on top and a one-line caption chip below (justify space-between) — it fills the card and explains the drawing.
 - (b030) New techniques that worked: window panes as route days (clean/streaked/dashed), receipt roll with zig-zag tear edge for slips and returns, tablet catalogue with drawn products and stock dots. Next: split owner vs customer view, annotated paper form, phone used max 1 in 3.
+- (b031) Absolute-positioned shape maps (hex zones) must be sized to the panel: 200px hexes left half the card empty; 250px hexes with 198/190 steps fill it. Compute the right/bottom extent before rendering.
+- (b031) To fill a tall elevation drawing, extend the background (tile grid) to the new viewBox height and translate the fixtures group down, instead of stretching shapes.
+- (b031) Owner vs customer split (card | phone) joined by a dashed seam with an arrow chip is a clear new "same data, two views" layout; keep item lists identical on both sides.
+- (b031) CTA tiles with only an icon + 2 words look empty in big cells; 96px icons, 50px serif titles and a one-line subtitle hold the space. Next: annotated paper form with handwriting, a before/after diagonal split, a ticket stub layout.
