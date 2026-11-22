@@ -215,3 +215,7 @@
 - (b053) Dark night palettes: radial-gradient bulbs on catenary paths make a strong series motif; reuse it on hook and CTA, but give it 3 rows or the card looks empty.
 - (b053) Sample dates must avoid US holidays for US posts (Thu 26 Nov 2026 is Thanksgiving) and "past" notes must be before today (session history dated before the run date).
 - (b053) New techniques: textPath tire sidewall + decoder list, lettered measuring lines keyed to table columns, offset index-card stack, crew time ribbon with % positions.
+- (b054) Unquoted class attributes built from an empty f-string value (class={""} style=...) swallow the next attribute: the swatches lost their colours with no check flag. Always quote: class="{...}".
+- (b054) A bubble with display:flex splits inline text and <b> into flex items (words in columns); wrap bubble text in one span or use block layout.
+- (b054) Scoped type: a nested row inside a big-number card inherits the card's b size (64px dates). Scope child rules (.lt .lr1 b). And re-check the hook against the visual: "8 shirts" hook needed the flat stack to show 8 shirts.
+- (b054) New techniques: CSS folded-clothes stacks, chamber bay map tinted by lot, jute bag isotype, wall cutaway duct route, to-scale drip plot with parts derived from rows x length, almirah elevations with fit bar.

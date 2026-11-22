@@ -3,7 +3,7 @@
  "drive_index_sheet_id": "15xA_plNpxQlRA-1TvbBtB27qu5aN0_LutC8JeKSODmM",
  "lock_until_utc": "2026-11-22T23:25:47Z",
  "last_run": "2026-11-22T21:52:35Z \u00b7 posts 251-275 made (batches 47-51), Drive 1-275 done, index sheet refreshed at 265 (old sheets trashed), 35 new targets added",
- "next_post_no": 286,
+ "next_post_no": 291,
  "posts_done": [
   {
    "n": 1,
@@ -2284,11 +2284,51 @@
    "slides": 1,
    "market": "USA",
    "category": "AdultTutoring"
+  },
+  {
+   "n": 286,
+   "dir": "posts/0286_SINGLE_India_IroningService",
+   "format": "SINGLE",
+   "slides": 1,
+   "market": "India",
+   "category": "IroningService"
+  },
+  {
+   "n": 287,
+   "dir": "posts/0287_CAROUSEL_India_ColdStorage",
+   "format": "CAROUSEL",
+   "slides": 5,
+   "market": "India",
+   "category": "ColdStorage"
+  },
+  {
+   "n": 288,
+   "dir": "posts/0288_SINGLE_USA_DryerVentCleaning",
+   "format": "SINGLE",
+   "slides": 1,
+   "market": "USA",
+   "category": "DryerVentCleaning"
+  },
+  {
+   "n": 289,
+   "dir": "posts/0289_SINGLE_India_DripIrrigation",
+   "format": "SINGLE",
+   "slides": 1,
+   "market": "India",
+   "category": "DripIrrigation"
+  },
+  {
+   "n": 290,
+   "dir": "posts/0290_SINGLE_India_SteelAlmirah",
+   "format": "SINGLE",
+   "slides": 1,
+   "market": "India",
+   "category": "SteelAlmirah"
   }
  ],
  "market_counts": {
-  "India": 200,
-  "Abroad": 85
+  "India": 204,
+  "Abroad": 86
  },
  "used_categories": [
   "Boutique",
@@ -2582,14 +2622,14 @@
   "TentLighting",
   "MobileTireService",
   "OfficeBlazerTailor",
-  "AdultTutoring"
+  "AdultTutoring",
+  "IroningService",
+  "ColdStorage",
+  "DryerVentCleaning",
+  "DripIrrigation",
+  "SteelAlmirah"
  ],
  "recent_palettes": [
-  "ceiling white/cove amber/graphite",
-  "milk white/cobalt blue/butter yellow",
-  "brass/charcoal/signal red",
-  "cycle red/asphalt/mint",
-  "honey amber/hive black/cream",
   "tomato red/leaf green/cream",
   "court blue/lime/white",
   "mushroom beige/forest/clay",
@@ -2609,7 +2649,12 @@
   "midnight indigo/bulb amber/rose",
   "tire black/teal green/sand",
   "navy suiting/chalk stripe/camel",
-  "oxblood/paper/navy"
+  "oxblood/paper/navy",
+  "starch white/indigo/ember orange",
+  "ice blue/jute brown/charcoal",
+  "lint gray/blueprint blue/amber",
+  "field green/soil brown/water cyan",
+  "steel grey/maroon/cream"
  ],
  "drive_files_done": [
   1,
@@ -2899,66 +2944,6 @@
   285
  ],
  "log": [
-  {
-   "n": 256,
-   "date": "2026-11-22",
-   "format": "SINGLE",
-   "market": "India",
-   "category": "ScreenGuardKiosk",
-   "palette": "pegboard tan/electric violet/black",
-   "fonts": "Anton + Poppins",
-   "layout": "pegboard wall of guard packets by screen size with count badges + dark token queue + low stock card",
-   "dots": 3,
-   "phone": false
-  },
-  {
-   "n": 257,
-   "date": "2026-11-22",
-   "format": "CAROUSEL",
-   "market": "USA",
-   "category": "PianoTuner",
-   "palette": "ebony/ivory/brass",
-   "fonts": "Gelasio + DM Sans",
-   "layout": "CSS piano keyboard hook with quote, client cards with mini keyboards + due chips, town map with route-day zone + stop list, phone booking page + side cards, keyboard + tiles CTA",
-   "dots": 2,
-   "phone": true
-  },
-  {
-   "n": 258,
-   "date": "2026-11-22",
-   "format": "SINGLE",
-   "market": "India",
-   "category": "StoneCutter",
-   "palette": "marble white/granite black/copper",
-   "fonts": "Bitter + Inter",
-   "layout": "top-down slab to scale with nested cut pieces and hatched offcut + pieces list + dark slab rack",
-   "dots": 5,
-   "phone": false
-  },
-  {
-   "n": 259,
-   "date": "2026-11-22",
-   "format": "SINGLE",
-   "market": "India",
-   "category": "MotorRewinding",
-   "palette": "copper orange/workshop blue/tag cream",
-   "fonts": "Montserrat + Fira Sans",
-   "layout": "6 clip-path paper job tags on a rail with promised date and status punch + message note",
-   "dots": 1,
-   "phone": false
-  },
-  {
-   "n": 260,
-   "date": "2026-11-22",
-   "format": "SINGLE",
-   "market": "Canada",
-   "category": "DeckBuilder",
-   "palette": "lake blue/cedar/pine green",
-   "fonts": "Archivo Black + Open Sans",
-   "layout": "top-down backyard plan with board-grain deck, steps, lake and dock + picks with swatches + site visit card",
-   "dots": 4,
-   "phone": false
-  },
   {
    "n": 261,
    "date": "2026-11-22",
@@ -3258,14 +3243,69 @@
    "layout": "stacked index cards with ruled front session card + topic plan checklist + booking day strip",
    "dots": 3,
    "phone": false
+  },
+  {
+   "n": 286,
+   "date": "2026-11-22",
+   "format": "SINGLE",
+   "market": "India",
+   "category": "IroningService",
+   "palette": "starch white/indigo/ember orange",
+   "fonts": "Lora + Poppins",
+   "layout": "three cards of CSS folded-clothes stacks per flat with count chips + pickup and month-end cards",
+   "dots": 2,
+   "phone": false
+  },
+  {
+   "n": 287,
+   "date": "2026-11-22",
+   "format": "CAROUSEL",
+   "market": "India",
+   "category": "ColdStorage",
+   "palette": "ice blue/jute brown/charcoal",
+   "fonts": "Bitter + Roboto",
+   "layout": "top-down chamber map with bays tinted by lot, lot card with code square, jute bag isotype ledger, message request + dark withdrawal slip, bags + tiles CTA",
+   "dots": 5,
+   "phone": false
+  },
+  {
+   "n": 288,
+   "date": "2026-11-22",
+   "format": "SINGLE",
+   "market": "USA",
+   "category": "DryerVentCleaning",
+   "palette": "lint gray/blueprint blue/amber",
+   "fonts": "Anton + Open Sans",
+   "layout": "house wall cutaway with dryer-to-outside duct route, lengths and numbered turns + phone booking form",
+   "dots": 1,
+   "phone": true
+  },
+  {
+   "n": 289,
+   "date": "2026-11-22",
+   "format": "SINGLE",
+   "market": "India",
+   "category": "DripIrrigation",
+   "palette": "field green/soil brown/water cyan",
+   "fonts": "Cardo + Fira Sans",
+   "layout": "to-scale plot plan with lateral rows and dripper dots + parts tiles derived from the drawing + dates strip",
+   "dots": 4,
+   "phone": false
+  },
+  {
+   "n": 290,
+   "date": "2026-11-22",
+   "format": "SINGLE",
+   "market": "India",
+   "category": "SteelAlmirah",
+   "palette": "steel grey/maroon/cream",
+   "fonts": "TeX Gyre Adventor + DM Sans",
+   "layout": "almirah front elevations drawn to size + fits-your-wall bar + colour swatches + maroon order card",
+   "dots": 3,
+   "phone": false
   }
  ],
  "recent_fonts": [
-  "Lora + Fira Sans",
-  "Bitter + Source Sans 3",
-  "Anton + DM Sans",
-  "Montserrat + Open Sans",
-  "Gelasio + Poppins",
   "Crimson Text + Inter",
   "Archivo Black + Roboto",
   "DM Sans + Source Sans 3",
@@ -3285,14 +3325,14 @@
   "Gelasio + Montserrat",
   "Archivo Black + Inter",
   "Lora + Inter",
-  "Crimson Text + Source Sans 3"
+  "Crimson Text + Source Sans 3",
+  "Lora + Poppins",
+  "Bitter + Roboto",
+  "Anton + Open Sans",
+  "Cardo + Fira Sans",
+  "TeX Gyre Adventor + DM Sans"
  ],
  "recent_layouts": [
-  "reflected ceiling plan with glowing cove and light points + design pick column + horizontal material list strip",
-  "message cards + 3D paneer blocks hook, order table with totals, blocks to milk cans conversion by yield rule, striped crates with labels, blocks + tiles CTA",
-  "dark map with drive-time rings around a van + ZIP chips, lockout request form",
-  "drawn bicycle with numbered service points + checklist + ask-customer and pickup cards",
-  "3 batch cards with clip-path hexagon honeycomb (1 cell = 1 jar) + order note",
   "top-down party table plan with plates, menu picks + side facts, quantity table from per-person rules, week of party slots grid, tables + tiles CTA",
   "week planner with session blocks and hatched drive-time blocks + dark booking card",
   "grow room shelves of bags coloured by stage with harvest dates + legend + buyer note",
@@ -3312,14 +3352,14 @@
   "glowing SVG string-light catenaries over tent hook, out/in split bars, 3 event load cards, crew time ribbon, count-back rows with sent/back, lights + tiles CTA",
   "drawn tire with size on sidewall via textPath + size decoder list + phone booking form",
   "pinstripe blazer SVG with lettered measuring lines + staff size sheet keyed to the letters + dark summary",
-  "stacked index cards with ruled front session card + topic plan checklist + booking day strip"
+  "stacked index cards with ruled front session card + topic plan checklist + booking day strip",
+  "three cards of CSS folded-clothes stacks per flat with count chips + pickup and month-end cards",
+  "top-down chamber map with bays tinted by lot, lot card with code square, jute bag isotype ledger, message request + dark withdrawal slip, bags + tiles CTA",
+  "house wall cutaway with dryer-to-outside duct route, lengths and numbered turns + phone booking form",
+  "to-scale plot plan with lateral rows and dripper dots + parts tiles derived from the drawing + dates strip",
+  "almirah front elevations drawn to size + fits-your-wall bar + colour swatches + maroon order card"
  ],
  "used_hashtag_sets": [
-  "#fireextinguisher #fireextinguisherrefilling #smallbusinessindia #serviceapp",
-  "#bangles #bangleswholesale #wholesalebusiness #fancystore #indianbusiness",
-  "#guttercleaning #gutters #exteriorcleaning #canadabusiness",
-  "#punctureshop #tyrerepair #roadsideassistance #tyreservice",
-  "#secondhandbooks #usedbooks #bookshopindia #booklovers",
   "#candlemaker #scentedcandles #handmadecandles #smallbusinessindia",
   "#applianceinstallation #applianceinstaller #homeservices #washerinstall",
   "#stationerysupplier #officesupplies #stationeryshop #b2bindia",
@@ -3374,7 +3414,12 @@
   "#weddinglighting #tentlighting #eventlighting #tenthouse",
   "#mobiletireservice #tireshop #tirechange #autoservice",
   "#blazer #corporateblazers #tailorshop #bespoketailoring",
-  "#tutoringcenter #adultlearners #adulteducation #tutoringbusiness"
+  "#tutoringcenter #adultlearners #adulteducation #tutoringbusiness",
+  "#ironingservice #laundryservice #societyservices #localbusinessindia",
+  "#coldstorage #potatofarming #agriwarehouse #farmersindia",
+  "#dryerventcleaning #dryervent #homemaintenance #homeservices",
+  "#dripirrigation #irrigationsystem #smartfarming #agricultureindia",
+  "#steelalmirah #steelcupboard #furnituremanufacturer #homefurnitureindia"
  ],
  "drive_index_at_post": 265,
  "old_index_sheets_to_trash": []
