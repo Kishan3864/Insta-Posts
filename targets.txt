@@ -240,3 +240,18 @@ US | Tree service | photo estimate, crew day plan
 CA | Firewood delivery | cord orders, delivery route by area
 US | Mobile notary | appointment booking, travel area
 US | Alterations and tailoring shop | ticket numbers, ready dates
+IN | Bangle and bindi wholesaler (no religion) | retailer orders by colour box, dispatch by town
+IN | Mobile tyre puncture van | call booking by location, job log, spare tube stock
+IN | Coaching for adult government job aspirants (adults only) | mock test slots, seat booking
+IN | Fabric dyeing at home (small unit) | colour card orders, lot tracking
+IN | Bulk vegetable supplier to hotels | daily order sheet by hotel, short items, credit days
+IN | Second-hand book seller | listing by title, enquiries, courier
+IN | Agarbatti-free candle maker | (skip religion) use scented candle maker: batch, wick, orders
+IN | Sewing machine repair | home visit booking, parts used
+IN | Kitchen chimney cleaning | AMC visits, slot booking
+IN | Terrace garden setup service | site measure, plant list, maintenance visits
+US | Dog daycare | play group capacity, vaccine-free check-in list (no health claims), pickup times
+US | Appliance installer | install slots, haul-away list
+CA | Gutter cleaning | seasonal routes, before/after photos
+US | Junk-free estate sale company | item catalogue, sale day map
+US | Bike shop (repairs) | repair tickets, ready texts
