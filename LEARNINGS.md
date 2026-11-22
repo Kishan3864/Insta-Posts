@@ -243,3 +243,7 @@
 - (b060) Reminder states must respect "today": a reminder "2 days before" a Thursday cannot already be "sent" on Sunday; derive status from the run date.
 - (b060) Order progress must be bigger than today's output (1,240 done vs 1,476 today); compute done = earlier + today in code.
 - (b060) Bottom-aligned object stacks (flat-pack boxes) leave a dead top; put a dark summary card at the top of the column. New techniques: SVG gold trophies with engraving plates, hourly production heat board, exam hall desk map + OMR bubbles, kraft box stack, building riser status map.
+- (b061) Positioned blocks built with an unquoted class from a dict lookup lost their base class (.bk) and stacked at the left; always write class='bk {variant}' quoted, and look at every ribbon board in the contact sheet.
+- (b061) Simple instruments drawn with two curved f-holes and a bar read as a face; avoid symmetric "eyes + mouth" marks on round bodies (use thin straight slots and strings).
+- (b061) Booking cards must match the schedule drawn next to them (tour B used 3 sleds on the board but the card said 2); derive counts from the schedule list.
+- (b061) New techniques: sleeper bus 2+1 deck chart, glowing bulb test rack, clip-path iced cookies, winter trail loop, instrument wall with tags.

@@ -3,7 +3,7 @@
  "drive_index_sheet_id": "1Ex4WhPiwEbqBF-QEG1pc6VPi3qLGqym_Fq-FvKYTgO8",
  "lock_until_utc": "2026-11-23T00:37:52Z",
  "last_run": "2026-11-22T22:48:55Z \u00b7 posts 276-300 made (batches 52-56), Drive 1-300 done, index sheet refreshed at 290 (old sheet 15xA... could not be trashed: permission denied, listed in old_index_sheets_to_trash), 15 new targets added",
- "next_post_no": 321,
+ "next_post_no": 326,
  "posts_done": [
   {
    "n": 1,
@@ -2564,11 +2564,51 @@
    "slides": 5,
    "market": "India",
    "category": "LocalBroadband"
+  },
+  {
+   "n": 321,
+   "dir": "posts/0321_CAROUSEL_India_SleeperBusOperator",
+   "format": "CAROUSEL",
+   "slides": 5,
+   "market": "India",
+   "category": "SleeperBusOperator"
+  },
+  {
+   "n": 322,
+   "dir": "posts/0322_SINGLE_India_LEDBulbAssembly",
+   "format": "SINGLE",
+   "slides": 1,
+   "market": "India",
+   "category": "LEDBulbAssembly"
+  },
+  {
+   "n": 323,
+   "dir": "posts/0323_SINGLE_USA_CookieDecorator",
+   "format": "SINGLE",
+   "slides": 1,
+   "market": "USA",
+   "category": "CookieDecorator"
+  },
+  {
+   "n": 324,
+   "dir": "posts/0324_SINGLE_Canada_SnowmobileTours",
+   "format": "SINGLE",
+   "slides": 1,
+   "market": "Canada",
+   "category": "SnowmobileTours"
+  },
+  {
+   "n": 325,
+   "dir": "posts/0325_CAROUSEL_India_InstrumentRental",
+   "format": "CAROUSEL",
+   "slides": 5,
+   "market": "India",
+   "category": "InstrumentRental"
   }
  ],
  "market_counts": {
-  "India": 225,
-  "Abroad": 95
+  "India": 228,
+  "Abroad": 97
  },
  "used_categories": [
   "Boutique",
@@ -2897,14 +2937,14 @@
   "GarmentJobWork",
   "MockTestCentre",
   "FurnitureAssembly",
-  "LocalBroadband"
+  "LocalBroadband",
+  "SleeperBusOperator",
+  "LEDBulbAssembly",
+  "CookieDecorator",
+  "SnowmobileTours",
+  "InstrumentRental"
  ],
  "recent_palettes": [
-  "racing green/champagne/ivory",
-  "papad beige/chilli red/mustard",
-  "lagoon aqua/cedar/navy",
-  "print cyan/charcoal/lemon",
-  "steel silver/copper/indigo",
   "asphalt/electric lime/white",
   "turmeric/kora cotton/peacock teal",
   "basil green/tomato/oat cream",
@@ -2924,7 +2964,12 @@
   "denim blue/thread orange/chalk",
   "answer-sheet white/pencil yellow/graphite",
   "kraft brown/allen-key silver/teal",
-  "fibre cyan/router black/signal green"
+  "fibre cyan/router black/signal green",
+  "sleeper maroon/berth cream/route blue",
+  "bulb warm white/circuit green/charcoal",
+  "icing pink/cocoa/mint",
+  "snow white/sled red/spruce",
+  "rosewood/brass/sky"
  ],
  "drive_files_done": [
   1,
@@ -3250,66 +3295,6 @@
  ],
  "log": [
   {
-   "n": 291,
-   "date": "2026-11-22",
-   "format": "SINGLE",
-   "market": "India",
-   "category": "MandiCommissionAgent",
-   "palette": "mango yellow/crate green/slate",
-   "fonts": "Archivo Black + Fira Sans",
-   "layout": "returnable crate ledger: CSS slotted crates per grower (faded = back, dashed = out) + legend + reminder message",
-   "dots": 1,
-   "phone": false
-  },
-  {
-   "n": 292,
-   "date": "2026-11-22",
-   "format": "SINGLE",
-   "market": "Canada",
-   "category": "MobileBikeRepair",
-   "palette": "pine/off-white/tangerine",
-   "fonts": "Montserrat + Source Sans 3",
-   "layout": "phone booking form + CSS van with shelf bins counted from bookings + today list",
-   "dots": 4,
-   "phone": true
-  },
-  {
-   "n": 293,
-   "date": "2026-11-22",
-   "format": "CAROUSEL",
-   "market": "India",
-   "category": "SeedlingNursery",
-   "palette": "sprout green/coir brown/tray black",
-   "fonts": "Gelasio + Inter",
-   "layout": "CSS plug tray hero, crop rows with mini trays, stage timeline with tray per stage, order card + tray return, trays + tiles CTA",
-   "dots": 2,
-   "phone": false
-  },
-  {
-   "n": 294,
-   "date": "2026-11-22",
-   "format": "SINGLE",
-   "market": "India",
-   "category": "KeyShop",
-   "palette": "key brass/teal/ink",
-   "fonts": "Bitter + Poppins",
-   "layout": "key ring job card with SVG keys (coloured caps, cut blades) per line + big copies count + home visit card",
-   "dots": 5,
-   "phone": false
-  },
-  {
-   "n": 295,
-   "date": "2026-11-22",
-   "format": "SINGLE",
-   "market": "USA",
-   "category": "SprinklerBlowout",
-   "palette": "frost white/ice blue/lawn olive",
-   "fonts": "Crimson Text + Roboto",
-   "layout": "top-down yard with irrigation zones and spray-arc heads + booking form + same-street route card",
-   "dots": 3,
-   "phone": false
-  },
-  {
    "n": 296,
    "date": "2026-11-22",
    "format": "SINGLE",
@@ -3608,14 +3593,69 @@
    "layout": "building cross-section flats around fibre riser with status dots + call notes, ticket list, tech route timeline, renewals list, building + tiles CTA",
    "dots": 4,
    "phone": false
+  },
+  {
+   "n": 321,
+   "date": "2026-11-22",
+   "format": "CAROUSEL",
+   "market": "India",
+   "category": "SleeperBusOperator",
+   "palette": "sleeper maroon/berth cream/route blue",
+   "fonts": "Poppins + Source Sans 3",
+   "layout": "top-down sleeper bus decks 2+1 berth chart (booked twice in red), live chart with holds, boarding point timeline with berth chips, conductor tick list, decks + tiles CTA",
+   "dots": 2,
+   "phone": false
+  },
+  {
+   "n": 322,
+   "date": "2026-11-22",
+   "format": "SINGLE",
+   "market": "India",
+   "category": "LEDBulbAssembly",
+   "palette": "bulb warm white/circuit green/charcoal",
+   "fonts": "Archivo Black + Fira Sans",
+   "layout": "dark test rack of 40 SVG bulbs glowing or crossed + day stat tiles + order note",
+   "dots": 4,
+   "phone": false
+  },
+  {
+   "n": 323,
+   "date": "2026-11-22",
+   "format": "SINGLE",
+   "market": "USA",
+   "category": "CookieDecorator",
+   "palette": "icing pink/cocoa/mint",
+   "fonts": "Lora + DM Sans",
+   "layout": "baking tray of CSS clip-path iced cookies preview + phone custom order",
+   "dots": 3,
+   "phone": true
+  },
+  {
+   "n": 324,
+   "date": "2026-11-22",
+   "format": "SINGLE",
+   "market": "Canada",
+   "category": "SnowmobileTours",
+   "palette": "snow white/sled red/spruce",
+   "fonts": "Bitter + Open Sans",
+   "layout": "SVG winter trail loop map + dark sled schedule ribbons by hour + tour booking card",
+   "dots": 5,
+   "phone": false
+  },
+  {
+   "n": 325,
+   "date": "2026-11-22",
+   "format": "CAROUSEL",
+   "market": "India",
+   "category": "InstrumentRental",
+   "palette": "rosewood/brass/sky",
+   "fonts": "TeX Gyre Adventor + DM Sans",
+   "layout": "instrument wall of SVG guitars, violin, keyboard with due tags, rental table with late row, reminder message cards, repair job rows with icons, wall + tiles CTA",
+   "dots": 1,
+   "phone": false
   }
  ],
  "recent_fonts": [
-  "Cardo + DM Sans",
-  "Anton + Inter",
-  "Lora + DM Sans",
-  "Gelasio + Fira Sans",
-  "TeX Gyre Adventor + Source Sans 3",
   "Montserrat + Roboto",
   "Lora + Open Sans",
   "Archivo Black + DM Sans",
@@ -3635,14 +3675,14 @@
   "Anton + Roboto",
   "TeX Gyre Adventor + Roboto",
   "Montserrat + Open Sans",
-  "Gelasio + Roboto"
+  "Gelasio + Roboto",
+  "Poppins + Source Sans 3",
+  "Archivo Black + Fira Sans",
+  "Lora + DM Sans",
+  "Bitter + Open Sans",
+  "TeX Gyre Adventor + DM Sans"
  ],
  "recent_layouts": [
-  "dark job tray of CSS analog watch faces whose hands point to ready time, status rings + message + legend",
-  "drying mats of speckled papad discs + voice note hook, shop x product order sheet, packets-to-dough rule cards, packet icon dispatch rows, discs + tiles CTA",
-  "top-down cedar hot tub with seats and jets + visit log table + phone visit report",
-  "LED dot-matrix token board with glowing text + files received list + dark message card",
-  "SVG metallic stacks of plates, bowls and glasses with counts + caterer order card + repeat order card",
   "dark charging shed grid of SVG batteries with charge fill and bolts + driver shift/rent list + green message",
   "SVG handloom with woven part as progress, yarn issue table with swatches, woven-fabric progress bars per loom, saree icon yarn balance cards, three looms + tiles CTA",
   "browser weekly order page + dark cook list of CSS top-down meal containers with counts + ZIP route card",
@@ -3662,14 +3702,14 @@
   "dark hourly production board lines x hours vs target + bundle stage tracker + orange order progress card",
   "top-down exam hall desk seat map + seat booked card + next tests + OMR bubble strip",
   "stacked CSS kraft flat-pack boxes + browser booking page with summed time estimate",
-  "building cross-section flats around fibre riser with status dots + call notes, ticket list, tech route timeline, renewals list, building + tiles CTA"
+  "building cross-section flats around fibre riser with status dots + call notes, ticket list, tech route timeline, renewals list, building + tiles CTA",
+  "top-down sleeper bus decks 2+1 berth chart (booked twice in red), live chart with holds, boarding point timeline with berth chips, conductor tick list, decks + tiles CTA",
+  "dark test rack of 40 SVG bulbs glowing or crossed + day stat tiles + order note",
+  "baking tray of CSS clip-path iced cookies preview + phone custom order",
+  "SVG winter trail loop map + dark sled schedule ribbons by hour + tour booking card",
+  "instrument wall of SVG guitars, violin, keyboard with due tags, rental table with late row, reminder message cards, repair job rows with icons, wall + tiles CTA"
  ],
  "used_hashtag_sets": [
-  "#falseceiling #gypsumceiling #ceilingdesign #interiorcontractor",
-  "#paneer #dairybusiness #dairyproducts #foodbusinessindia",
-  "#locksmith #mobilelocksmith #lockout #localbusinessusa",
-  "#bicycleshop #cycleservice #cyclingindia #bicyclerepair",
-  "#farmhoney #honeybusiness #beekeepingindia #homegrownbrand",
   "#homechef #partyorders #homecatering #homekitchenindia",
   "#personaltrainer #inhometraining #mobiletrainer #fitnessbusiness",
   "#mushroomfarming #mushroomgrower #agribusinessindia #farmtomarket",
@@ -3724,7 +3764,12 @@
   "#garmentmanufacturing #stitchingunit #apparelindustry #textileindia",
   "#mocktest #exampreparation #coachingcentre #competitiveexams",
   "#furnitureassembly #handymanservices #flatpackfurniture #smallbusinessusa",
-  "#broadband #fibreinternet #internetserviceprovider #localbusinessindia"
+  "#broadband #fibreinternet #internetserviceprovider #localbusinessindia",
+  "#sleeperbus #busoperator #travelbusiness #busbooking",
+  "#ledbulb #ledmanufacturing #makeinindia #smallfactory",
+  "#customcookies #decoratedcookies #cookiebusiness #homebakery",
+  "#snowmobile #snowmobiletours #wintercanada #outdooradventure",
+  "#musicstore #instrumentrental #guitarrepair #musicshopindia"
  ],
  "drive_index_at_post": 320,
  "old_index_sheets_to_trash": [
