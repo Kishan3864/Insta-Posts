@@ -3,7 +3,7 @@
  "drive_index_sheet_id": "15xA_plNpxQlRA-1TvbBtB27qu5aN0_LutC8JeKSODmM",
  "lock_until_utc": "2026-11-22T22:38:26Z",
  "last_run": "2026-11-22T20:54:12Z \u00b7 posts 226-250 made (batches 42-46), Drive 1-250 done, index sheet refreshed at 240 (old sheet could not be trashed: permission denied, id kept in old_index_sheets_to_trash)",
- "next_post_no": 271,
+ "next_post_no": 276,
  "posts_done": [
   {
    "n": 1,
@@ -2164,11 +2164,51 @@
    "slides": 1,
    "market": "India",
    "category": "SignBoardMaker"
+  },
+  {
+   "n": 271,
+   "dir": "posts/0271_SINGLE_India_SeatCoverMaker",
+   "format": "SINGLE",
+   "slides": 1,
+   "market": "India",
+   "category": "SeatCoverMaker"
+  },
+  {
+   "n": 272,
+   "dir": "posts/0272_SINGLE_USA_ScreenPrintShop",
+   "format": "SINGLE",
+   "slides": 1,
+   "market": "USA",
+   "category": "ScreenPrintShop"
+  },
+  {
+   "n": 273,
+   "dir": "posts/0273_SINGLE_India_SareeFallPico",
+   "format": "SINGLE",
+   "slides": 1,
+   "market": "India",
+   "category": "SareeFallPico"
+  },
+  {
+   "n": 274,
+   "dir": "posts/0274_CAROUSEL_India_CaneFurniture",
+   "format": "CAROUSEL",
+   "slides": 5,
+   "market": "India",
+   "category": "CaneFurniture"
+  },
+  {
+   "n": 275,
+   "dir": "posts/0275_SINGLE_India_HousekeepingSupplies",
+   "format": "SINGLE",
+   "slides": 1,
+   "market": "India",
+   "category": "HousekeepingSupplies"
   }
  ],
  "market_counts": {
-  "India": 189,
-  "Abroad": 81
+  "India": 193,
+  "Abroad": 82
  },
  "used_categories": [
   "Boutique",
@@ -2447,14 +2487,14 @@
   "InHomeTrainer",
   "MushroomGrower",
   "MapleSyrupStand",
-  "SignBoardMaker"
+  "SignBoardMaker",
+  "SeatCoverMaker",
+  "ScreenPrintShop",
+  "SareeFallPico",
+  "CaneFurniture",
+  "HousekeepingSupplies"
  ],
  "recent_palettes": [
-  "smoke black/chrome/sky",
-  "rice white/banana leaf green/chutney red",
-  "envelope buff/royal blue/lime",
-  "paper white/coffee brown/teal",
-  "night navy/warm bulb yellow/snow",
   "slate blue/mint/coral",
   "terracotta/sand/charcoal",
   "kraft tan/forest green/marigold",
@@ -2474,7 +2514,12 @@
   "court blue/lime/white",
   "mushroom beige/forest/clay",
   "maple red/syrup amber/birch white",
-  "board yellow/black/signal blue"
+  "board yellow/black/signal blue",
+  "leather tan/charcoal/stitch orange",
+  "ink magenta/black/off-white",
+  "peacock teal/rose/ivory",
+  "cane gold/bamboo green/clay",
+  "mop blue/lemon/white"
  ],
  "drive_files_done": [
   1,
@@ -2749,66 +2794,6 @@
   270
  ],
  "log": [
-  {
-   "n": 241,
-   "date": "2026-11-22",
-   "format": "SINGLE",
-   "market": "India",
-   "category": "WeddingCarDecorator",
-   "palette": "jasmine white/marigold/ink teal",
-   "fonts": "Gelasio + Fira Sans",
-   "layout": "side-view car with numbered flower zones + zone cards + cars booked list + flower shop message",
-   "dots": 3,
-   "phone": false
-  },
-  {
-   "n": 242,
-   "date": "2026-11-22",
-   "format": "CAROUSEL",
-   "market": "India",
-   "category": "ModularWardrobe",
-   "palette": "laminate grey/oak/olive",
-   "fonts": "TeX Gyre Adventor + Inter",
-   "layout": "wall elevation with beam + switch and mistakes list, wall + tablet form, 3 wardrobe layout options, panel cut list + install day, wardrobe + tiles CTA",
-   "dots": 5,
-   "phone": false
-  },
-  {
-   "n": 243,
-   "date": "2026-11-22",
-   "format": "SINGLE",
-   "market": "India",
-   "category": "PetFoodDelivery",
-   "palette": "kibble brown/mint/sky blue",
-   "fonts": "Poppins + DM Sans",
-   "layout": "3 pet profile cards with drawn food bags at fill % + run-out dates + reminder bar",
-   "dots": 2,
-   "phone": false
-  },
-  {
-   "n": 244,
-   "date": "2026-11-22",
-   "format": "SINGLE",
-   "market": "USA",
-   "category": "GarageFloorCoating",
-   "palette": "epoxy grey/flake blue/safety yellow",
-   "fonts": "Anton + Inter",
-   "layout": "top-down garage plan with flake pattern and sq ft grid + flake colour chips + quote request",
-   "dots": 4,
-   "phone": false
-  },
-  {
-   "n": 245,
-   "date": "2026-11-22",
-   "format": "SINGLE",
-   "market": "India",
-   "category": "PhotoBoothRental",
-   "palette": "film black/electric blue/cream",
-   "fonts": "Bitter + Fira Sans",
-   "layout": "4-frame photo booth strip as booking dates + booking detail card with props chips",
-   "dots": 1,
-   "phone": false
-  },
   {
    "n": 246,
    "date": "2026-11-22",
@@ -3108,14 +3093,69 @@
    "layout": "shop sign proof with red ring marks and measured size + job sheet + proof steps",
    "dots": 1,
    "phone": false
+  },
+  {
+   "n": 271,
+   "date": "2026-11-22",
+   "format": "SINGLE",
+   "market": "India",
+   "category": "SeatCoverMaker",
+   "palette": "leather tan/charcoal/stitch orange",
+   "fonts": "TeX Gyre Adventor + Open Sans",
+   "layout": "top-down car interior with seats filled by picked fabric + fabric picker rows + fitting slot card",
+   "dots": 3,
+   "phone": false
+  },
+  {
+   "n": 272,
+   "date": "2026-11-22",
+   "format": "SINGLE",
+   "market": "USA",
+   "category": "ScreenPrintShop",
+   "palette": "ink magenta/black/off-white",
+   "fonts": "Archivo Black + DM Sans",
+   "layout": "flat tee proof with print area + size run of shirt icons + 3 status tiles",
+   "dots": 2,
+   "phone": false
+  },
+  {
+   "n": 273,
+   "date": "2026-11-22",
+   "format": "SINGLE",
+   "market": "India",
+   "category": "SareeFallPico",
+   "palette": "peacock teal/rose/ivory",
+   "fonts": "Cardo + Poppins",
+   "layout": "wooden pigeonhole rack of folded sarees with tickets + message bubbles + counts + legend",
+   "dots": 5,
+   "phone": false
+  },
+  {
+   "n": 274,
+   "date": "2026-11-22",
+   "format": "CAROUSEL",
+   "market": "India",
+   "category": "CaneFurniture",
+   "palette": "cane gold/bamboo green/clay",
+   "fonts": "Bitter + Open Sans",
+   "layout": "CSS cane weave chairs catalogue grid, big chair + option chips, making stage bars, packed box + dispatch cards, chairs + tiles CTA",
+   "dots": 4,
+   "phone": false
+  },
+  {
+   "n": 275,
+   "date": "2026-11-22",
+   "format": "SINGLE",
+   "market": "India",
+   "category": "HousekeepingSupplies",
+   "palette": "mop blue/lemon/white",
+   "fonts": "Gelasio + Roboto",
+   "layout": "receipt-style monthly supply list with dotted leaders and torn edge + 3 side cards",
+   "dots": 1,
+   "phone": false
   }
  ],
  "recent_fonts": [
-  "Montserrat + Inter",
-  "Lora + Inter",
-  "DM Sans + Roboto",
-  "Gelasio + Open Sans",
-  "Anton + Fira Sans",
   "Archivo Black + Source Sans 3",
   "Cardo + Open Sans",
   "TeX Gyre Adventor + Roboto",
@@ -3135,14 +3175,14 @@
   "Archivo Black + Roboto",
   "DM Sans + Source Sans 3",
   "Lora + Roboto",
-  "Poppins + Gelasio"
+  "Poppins + Gelasio",
+  "TeX Gyre Adventor + Open Sans",
+  "Archivo Black + DM Sans",
+  "Cardo + Poppins",
+  "Bitter + Open Sans",
+  "Gelasio + Roboto"
  ],
  "recent_layouts": [
-  "sedan side view with windows shaded by picked % + shade ladder per window + dark booking card",
-  "fridge crate of packets with made-on dates, order sheet by packet size, vertical van route timeline, returns rows with packet icons, packets + tiles CTA",
-  "big envelope with flap and stamp as tracking card + proof photo frames",
-  "4 shop columns with nested cup stacks (1 cup = 100) vs usual-week dashed line + reorder flags",
-  "night house elevation with bulb dots on measured runs + runs list + install/take-down date cards",
   "drawn window with SVG mesh pattern + dimension arrows + info tiles, site list of all windows, 3 dark bottom cards",
   "6 CSS texture swatches hook, tablet catalogue, measured wall minus window maths, wall-by-wall quote doc, site days list with photo status, swatches + tiles CTA",
   "room-by-room item counter with box tallies + dark crew plan card with rule and load/drive/unload time bar",
@@ -3162,14 +3202,14 @@
   "week planner with session blocks and hatched drive-time blocks + dark booking card",
   "grow room shelves of bags coloured by stage with harvest dates + legend + buyer note",
   "sold-out shelf stamp hook, bottle size counters, pickup slot dot board, torn-edge pickup slip with QR, bottles + tiles CTA",
-  "shop sign proof with red ring marks and measured size + job sheet + proof steps"
+  "shop sign proof with red ring marks and measured size + job sheet + proof steps",
+  "top-down car interior with seats filled by picked fabric + fabric picker rows + fitting slot card",
+  "flat tee proof with print area + size run of shirt icons + 3 status tiles",
+  "wooden pigeonhole rack of folded sarees with tickets + message bubbles + counts + legend",
+  "CSS cane weave chairs catalogue grid, big chair + option chips, making stage bars, packed box + dispatch cards, chairs + tiles CTA",
+  "receipt-style monthly supply list with dotted leaders and torn edge + 3 side cards"
  ],
  "used_hashtag_sets": [
-  "#tendercoconut #coconutsupplier #coconutwater #wholesalebusinessindia",
-  "#photoframes #customframing #framingshop #homedecorindia #smallbusinessindia",
-  "#mobilenotary #notarypublic #notaryservices #smallbusinessowner",
-  "#rubberstamp #selfinkingstamp #stampmaker #printingbusinessindia",
-  "#tempotraveller #tempotravellerrental #travelbusinessindia #fleetowners",
   "#alterations #tailorshop #clothingalterations #smallbusinessusa",
   "#cattlefeed #animalfeed #feeddealer #dairyfarmingindia",
   "#sofacleaning #mattresscleaning #homecleaningservices #cleaningbusinessindia",
@@ -3224,7 +3264,12 @@
   "#personaltrainer #inhometraining #mobiletrainer #fitnessbusiness",
   "#mushroomfarming #mushroomgrower #agribusinessindia #farmtomarket",
   "#maplesyrup #farmstand #shoplocalcanada #farmfresh",
-  "#signboard #shopsignage #flexprinting #signmaker"
+  "#signboard #shopsignage #flexprinting #signmaker",
+  "#seatcovers #carseatcover #caraccessoriesindia #carinterior",
+  "#screenprinting #customtshirts #printshop #smallbusinessusa",
+  "#sareefall #pico #sareelove #tailoringindia",
+  "#canefurniture #bamboofurniture #handmadeinindia #rattanfurniture #homedecorindia",
+  "#housekeepingsupplies #officesupplies #cleaningsupplies #b2bindia"
  ],
  "drive_index_at_post": 265,
  "old_index_sheets_to_trash": []

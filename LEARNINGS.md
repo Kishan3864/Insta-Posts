@@ -203,3 +203,7 @@
 - (b050) Flex-none drawn objects (bottles) with no width collapse to their content; give the base object class a width and scale per slide (.bw .bt9{width:180px}), and drop empty label pills when there is no label.
 - (b050) A 7-day week in a 4x2 grid leaves one hole; fill the 8th cell with a dark "next week" summary card instead of leaving it blank.
 - (b050) Fake QR codes from modulo formulas look like stripes; build them on an 11x11 grid with three finder squares and seeded random cells. New techniques: top-down party table plan, hatched drive-time blocks in a week planner, grow-room shelves by stage, torn-edge pickup slip (zigzag clip-path), inline ring proof marks.
+- (b051) Class .lg is the BASE logo class (b002 again): naming a legend .lg gave the logo a dark box and broke the legend. Prefix every legend/list class (lgd2) and grep new CSS for BASE names before rendering.
+- (b051) Catalogue grids must show what the labels say: six identical chairs labelled table, shelf and planter stand is a story error; either draw each item or keep all labels inside one item type (six chair models).
+- (b051) Tickets inside small cubbies need a 2-row grid (number + job on row 1, status on row 2) at 24/15/16px, or the job text wraps into 3 lines.
+- (b051) Side message cards with 2 bubbles leave a dead band; add a third real message and a count row (2 ready, 2 today, 3 tomorrow) derived from the rack. New techniques: top-down car seats in picked fabric, size-run shirt icons, pigeonhole rack, CSS cane weave, receipt list with dotted leaders.
