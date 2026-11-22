@@ -281,8 +281,8 @@ US | Bike shop (repairs) | repair tickets, ready texts
 US | Window tint shop | film options by car, booking slots
 US | Mobile tire service | on-site tire swap booking, tire size form
 US | Closet installer | measurement form, design approval
-US | Christmas-free holiday lights installer (seasonal lights) | install and takedown routes (no religion)
-CA | Chimney inspection-free stove installer (wood stove) | site survey, install day, permits checklist
+US | Seasonal lights installer (no religion) | install and takedown routes
+CA | Wood stove installer | site survey, install day, checklist
 US | Moving labor only (load/unload) | hourly crew booking, item list
 US | Garage floor coating | measurement quote, colour chips
 US | Fence installer | linear feet quote form, gate options

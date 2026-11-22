@@ -3,7 +3,7 @@
  "drive_index_sheet_id": "14v7og6KbDzqKiAXuJB5KfokQO5Iw0fS_A7lTI_hH5E8",
  "lock_until_utc": "2026-11-22T21:19:18Z",
  "last_run": "2026-11-22T19:42:32Z \u00b7 posts 211-225 made (batches 39-41), Drive 1-225 done, index sheet refreshed at 215 (next ~240)",
- "next_post_no": 231,
+ "next_post_no": 236,
  "posts_done": [
   {
    "n": 1,
@@ -1844,11 +1844,51 @@
    "slides": 1,
    "market": "India",
    "category": "UsedBookSeller"
+  },
+  {
+   "n": 231,
+   "dir": "posts/0231_CAROUSEL_India_CandleMaker",
+   "format": "CAROUSEL",
+   "slides": 5,
+   "market": "India",
+   "category": "CandleMaker"
+  },
+  {
+   "n": 232,
+   "dir": "posts/0232_SINGLE_USA_ApplianceInstaller",
+   "format": "SINGLE",
+   "slides": 1,
+   "market": "USA",
+   "category": "ApplianceInstaller"
+  },
+  {
+   "n": 233,
+   "dir": "posts/0233_SINGLE_India_StationerySupplier",
+   "format": "SINGLE",
+   "slides": 1,
+   "market": "India",
+   "category": "StationerySupplier"
+  },
+  {
+   "n": 234,
+   "dir": "posts/0234_CAROUSEL_USA_EstateSale",
+   "format": "CAROUSEL",
+   "slides": 5,
+   "market": "USA",
+   "category": "EstateSale"
+  },
+  {
+   "n": 235,
+   "dir": "posts/0235_SINGLE_India_ChaatCarts",
+   "format": "SINGLE",
+   "slides": 1,
+   "market": "India",
+   "category": "ChaatCarts"
   }
  ],
  "market_counts": {
-  "India": 162,
-  "Abroad": 68
+  "India": 165,
+  "Abroad": 70
  },
  "used_categories": [
   "Boutique",
@@ -2087,14 +2127,14 @@
   "BangleWholesaler",
   "GutterCleaning",
   "PunctureVan",
-  "UsedBookSeller"
+  "UsedBookSeller",
+  "CandleMaker",
+  "ApplianceInstaller",
+  "StationerySupplier",
+  "EstateSale",
+  "ChaatCarts"
  ],
  "recent_palettes": [
-  "forest green/birch cream/rust",
-  "steel blue/khaki/charcoal",
-  "powder blue/white/plum",
-  "graphite/mint/coral",
-  "moss green/sky/bark brown",
   "coconut green/husk tan/cream",
   "walnut brown/gallery white/gold leaf",
   "navy ink/parchment/seal red",
@@ -2114,7 +2154,12 @@
   "magenta/emerald/ivory",
   "slate roof/autumn orange/sky white",
   "rubber black/safety orange/concrete",
-  "paper cream/library green/oxblood"
+  "paper cream/library green/oxblood",
+  "wax beige/charcoal/lavender",
+  "appliance white/steel teal/tangerine",
+  "notebook blue/highlighter yellow/white",
+  "dusty rose/oak/navy",
+  "tamarind brown/mint green/turmeric"
  ],
  "drive_files_done": [
   1,
@@ -2349,66 +2394,6 @@
   230
  ],
  "log": [
-  {
-   "n": 201,
-   "date": "2026-11-22",
-   "format": "SINGLE",
-   "market": "India",
-   "category": "IceFactory",
-   "palette": "deep indigo/frost white/sunrise yellow",
-   "fonts": "Anton + DM Sans",
-   "layout": "radial 12-hour clock dial with coloured delivery slot arcs + numbered pins + hands, round list rows with status, 3 horizontal stat cards",
-   "dots": 2,
-   "phone": false
-  },
-  {
-   "n": 202,
-   "date": "2026-11-22",
-   "format": "CAROUSEL",
-   "market": "India",
-   "category": "CurtainBlinds",
-   "palette": "linen/terracotta/olive",
-   "fonts": "Crimson Text + Source Sans 3",
-   "layout": "torn paper slip with handwritten sizes + problem cards, 2x2 drawn windows with dimension lines, CSS fabric swatches + metres table, item x stage dot matrix + fitting card, big window + 4 tiles CTA",
-   "dots": 4,
-   "phone": false
-  },
-  {
-   "n": 203,
-   "date": "2026-11-22",
-   "format": "SINGLE",
-   "market": "USA",
-   "category": "ChimneySweep",
-   "palette": "brick red/soot black/snow cream",
-   "fonts": "Gelasio + Fira Sans",
-   "layout": "drawn house with brick chimney + tag panel beside browser booking (ZIP check, service radio, day and time chips) + dark report chip bar",
-   "dots": 3,
-   "phone": false
-  },
-  {
-   "n": 204,
-   "date": "2026-11-22",
-   "format": "SINGLE",
-   "market": "India",
-   "category": "LiftAMC",
-   "palette": "graphite/LED amber/mist",
-   "fonts": "Montserrat + Roboto",
-   "layout": "3x2 lift cards with glowing LED floor displays over steel doors (one open, dark = breakdown) + 2 technician cards",
-   "dots": 5,
-   "phone": false
-  },
-  {
-   "n": 205,
-   "date": "2026-11-22",
-   "format": "SINGLE",
-   "market": "India",
-   "category": "AquariumShop",
-   "palette": "deep sea teal/coral/sand",
-   "fonts": "TeX Gyre Adventor + Inter",
-   "layout": "wide SVG aquarium hero with tag + 15-day visit cycle strip, last-visit checklist + coral reminder card",
-   "dots": 1,
-   "phone": false
-  },
   {
    "n": 206,
    "date": "2026-11-22",
@@ -2708,14 +2693,69 @@
    "layout": "wooden bookshelf of vertical-text spines with found spine outlined + browser search results with shelf spots",
    "dots": 1,
    "phone": false
+  },
+  {
+   "n": 231,
+   "date": "2026-11-22",
+   "format": "CAROUSEL",
+   "market": "India",
+   "category": "CandleMaker",
+   "palette": "wax beige/charcoal/lavender",
+   "fonts": "Gelasio + Inter",
+   "layout": "big candle jar + lined notebook, batch card tiles + 7-day cure strip, curing rack shelves with days-left badges, orders matched to batches + stat row, jars + 4 tiles CTA",
+   "dots": 4,
+   "phone": false
+  },
+  {
+   "n": 232,
+   "date": "2026-11-22",
+   "format": "SINGLE",
+   "market": "USA",
+   "category": "ApplianceInstaller",
+   "palette": "appliance white/steel teal/tangerine",
+   "fonts": "Archivo Black + Inter",
+   "layout": "measured laundry nook elevation with dimension tags + install checklist + dark haul-away list with slots",
+   "dots": 2,
+   "phone": false
+  },
+  {
+   "n": 233,
+   "date": "2026-11-22",
+   "format": "SINGLE",
+   "market": "India",
+   "category": "StationerySupplier",
+   "palette": "notebook blue/highlighter yellow/white",
+   "fonts": "Bitter + Roboto",
+   "layout": "clipboard with metal clip holding repeat order list (drawn items, Nov vs Dec qty) + delivery days card",
+   "dots": 5,
+   "phone": false
+  },
+  {
+   "n": 234,
+   "date": "2026-11-22",
+   "format": "CAROUSEL",
+   "market": "USA",
+   "category": "EstateSale",
+   "palette": "dusty rose/oak/navy",
+   "fonts": "Lora + DM Sans",
+   "layout": "living room scene with lot tags, browser lot catalogue, top-down house map with lot ranges + path, holds and pickups list, icons + tiles CTA",
+   "dots": 3,
+   "phone": false
+  },
+  {
+   "n": 235,
+   "date": "2026-11-22",
+   "format": "SINGLE",
+   "market": "India",
+   "category": "ChaatCarts",
+   "palette": "tamarind brown/mint green/turmeric",
+   "fonts": "TeX Gyre Adventor + Source Sans 3",
+   "layout": "row of 5 drawn food carts with sold/back bars + out/back/sold table",
+   "dots": 1,
+   "phone": false
   }
  ],
  "recent_fonts": [
-  "Lora + Fira Sans",
-  "Poppins + Roboto",
-  "Montserrat + Inter",
-  "Archivo Black + Inter",
-  "TeX Gyre Adventor + Source Sans 3",
   "Anton + Source Sans 3",
   "Cardo + Inter",
   "Crimson Text + DM Sans",
@@ -2735,14 +2775,14 @@
   "Cardo + Inter",
   "Anton + Source Sans 3",
   "DM Sans + Fira Sans",
-  "Lora + Open Sans"
+  "Lora + Open Sans",
+  "Gelasio + Inter",
+  "Archivo Black + Inter",
+  "Bitter + Roboto",
+  "Lora + DM Sans",
+  "TeX Gyre Adventor + Source Sans 3"
  ],
  "recent_layouts": [
-  "woodpile of log ends with growth rings split into 3 order-coloured sections + order cards, 5-day area delivery strip, rust note bar",
-  "shirt SVG with size tag + quote note cards, browser size form + progress bar, stacked size bars per department + size total tiles, carton progress cards + dashed pack label, shirt + 4 row tiles CTA",
-  "out vs back table with folded linen stacks sized by count + diff chips, 3 total tiles, navy note",
-  "SMS card, CSS laptop with status stepper page + rotated paper repair tag, 4 job chips row",
-  "tall customer photo scene (tree, house, stump) with numbered dashed cut marks + estimate job list + approved and crew cards",
   "isotype pictogram chart: drawn coconut = 10 per stall row with OTP chips + 3 dark stat cards",
   "proportional frame wall with question tags, tablet order form with wood moulding swatches, frame preview with dimension arrows, bench job list + ready text, tile CTA",
   "booking phone + travel-area zone rings map with visit pins + day visit list",
@@ -2762,14 +2802,14 @@
   "bangle rods (stacked ellipses) + vague chat bubbles, browser colour list with drawn bangle pairs, colour x size dozen heatmap, packing boxes + dispatch board by town, rods + 4 tiles CTA",
   "street of 5 house elevations with leaf-filled vs clean gutters + numbered route + status chips + before/after photo card",
   "van stock as tube rings with reorder flag + job log + phone booking with drawn location map",
-  "wooden bookshelf of vertical-text spines with found spine outlined + browser search results with shelf spots"
+  "wooden bookshelf of vertical-text spines with found spine outlined + browser search results with shelf spots",
+  "big candle jar + lined notebook, batch card tiles + 7-day cure strip, curing rack shelves with days-left badges, orders matched to batches + stat row, jars + 4 tiles CTA",
+  "measured laundry nook elevation with dimension tags + install checklist + dark haul-away list with slots",
+  "clipboard with metal clip holding repeat order list (drawn items, Nov vs Dec qty) + delivery days card",
+  "living room scene with lot tags, browser lot catalogue, top-down house map with lot ranges + path, holds and pickups list, icons + tiles CTA",
+  "row of 5 drawn food carts with sold/back bars + out/back/sold table"
  ],
  "used_hashtag_sets": [
-  "#furniturerental #furnitureonrent #rentalbusiness #appliancerental",
-  "#solarwaterheater #solarheater #solardealer #solarinstallation #smallbusinessindia",
-  "#mobilecarwash #mobiledetailing #carwashbusiness #detailingbusiness",
-  "#plumbingcontractor #sanitaryware #bathroomfitting #plumbingwork",
-  "#eventmanagement #eventplanner #eventmanagementcompany #corporateevents",
   "#labelprinting #packagingsupplier #pouchpackaging #printingindustry",
   "#lawoffice #lawfirmmarketing #solopractitioner #legaltech",
   "#inverterinstallation #inverterbattery #powerbackup #electricalbusiness",
@@ -2824,7 +2864,12 @@
   "#bangles #bangleswholesale #wholesalebusiness #fancystore #indianbusiness",
   "#guttercleaning #gutters #exteriorcleaning #canadabusiness",
   "#punctureshop #tyrerepair #roadsideassistance #tyreservice",
-  "#secondhandbooks #usedbooks #bookshopindia #booklovers"
+  "#secondhandbooks #usedbooks #bookshopindia #booklovers",
+  "#candlemaker #scentedcandles #handmadecandles #smallbusinessindia",
+  "#applianceinstallation #applianceinstaller #homeservices #washerinstall",
+  "#stationerysupplier #officesupplies #stationeryshop #b2bindia",
+  "#estatesale #estatesales #estatesalecompany #downsizing",
+  "#streetfoodindia #chaat #panipuri #foodcartbusiness"
  ],
  "drive_index_at_post": 215
 }
