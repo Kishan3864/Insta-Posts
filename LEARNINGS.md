@@ -81,3 +81,7 @@
 - (b019) Hanging tickets: a negative margin-top to tuck clips under a rail made check_text flag the label above. Keep tickets in flow (margin -8px) and draw the clip with :before at top:0; split ticket items onto separate lines with dashed dividers to fill the ticket.
 - (b019) Milestone/sign SVGs: size the stone to the longest label first (220px wide for "Your Dhaba"), then crop the viewBox to the drawing so it sits at the panel bottom; use the panel top for a short yellow note chip.
 - (b019) Card labels that combine two facts ("Cap 28 mm · 8 cavity") orphan the second fact in narrow cards; move the secondary fact into the small uppercase label ("MOULD · 8 CAVITY").
+- (b020) Rotated SVG fans/strips: keep every rotated strip inside the viewBox (strip length × sin(max angle) < half width), or check_text flags the strip labels as OUT/ESCAPES. Pad the viewBox (-30 0 540 440) instead of shrinking the drawing.
+- (b020) An object turned into a UI (piano keys as a week calendar, crate as a box) is a strong new hook. Black keys: draw them as :after on the white key (right:-25px, z-index 2) so they never need absolute math across the row.
+- (b020) Grids used on several slides (warehouse bays) must keep one layout string; derive every bay mentioned later (GRN, picking list, statement) from it and re-check that each named bay really belongs to that client.
+- (b020) Show "—" instead of "+0/−0" in statement tables. A hero panel with one SVG gains a lot from a small real-data card on top (quote Q-214 · sent the same day).
