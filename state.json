@@ -1,9 +1,9 @@
 {
  "drive_folder_id": "1OZvW8MCiA-_SSNn5_9g3o8k5sMyHUcxE",
  "drive_index_sheet_id": "1xFLY19Eqz0Nns5J6UVxomG2DnBAv_kkqnKLf0H6TGvY",
- "lock_until_utc": "2026-11-22T21:19:45Z",
+ "lock_until_utc": "2026-11-22T21:13:44Z",
  "last_run": "2026-11-22T19:42:32Z \u00b7 posts 211-225 made (batches 39-41), Drive 1-225 done, index sheet refreshed at 215 (next ~240)",
- "next_post_no": 246,
+ "next_post_no": 251,
  "posts_done": [
   {
    "n": 1,
@@ -1964,11 +1964,51 @@
    "slides": 1,
    "market": "India",
    "category": "PhotoBoothRental"
+  },
+  {
+   "n": 246,
+   "dir": "posts/0246_SINGLE_USA_WindowTint",
+   "format": "SINGLE",
+   "slides": 1,
+   "market": "USA",
+   "category": "WindowTint"
+  },
+  {
+   "n": 247,
+   "dir": "posts/0247_CAROUSEL_India_BatterMaker",
+   "format": "CAROUSEL",
+   "slides": 5,
+   "market": "India",
+   "category": "BatterMaker"
+  },
+  {
+   "n": 248,
+   "dir": "posts/0248_SINGLE_India_DocumentCourier",
+   "format": "SINGLE",
+   "slides": 1,
+   "market": "India",
+   "category": "DocumentCourier"
+  },
+  {
+   "n": 249,
+   "dir": "posts/0249_SINGLE_India_PaperCupSupplier",
+   "format": "SINGLE",
+   "slides": 1,
+   "market": "India",
+   "category": "PaperCupSupplier"
+  },
+  {
+   "n": 250,
+   "dir": "posts/0250_SINGLE_Canada_SeasonalLights",
+   "format": "SINGLE",
+   "slides": 1,
+   "market": "Canada",
+   "category": "SeasonalLights"
   }
  ],
  "market_counts": {
-  "India": 172,
-  "Abroad": 73
+  "India": 175,
+  "Abroad": 75
  },
  "used_categories": [
   "Boutique",
@@ -2222,14 +2262,14 @@
   "ModularWardrobe",
   "PetFoodDelivery",
   "GarageFloorCoating",
-  "PhotoBoothRental"
+  "PhotoBoothRental",
+  "WindowTint",
+  "BatterMaker",
+  "DocumentCourier",
+  "PaperCupSupplier",
+  "SeasonalLights"
  ],
  "recent_palettes": [
-  "tomato red/leaf green/crate wood",
-  "brushed steel/ink blue/lime",
-  "grass green/sunny yellow/charcoal",
-  "sage white/basil green/sunset coral",
-  "mint/cherry red/black",
   "extinguisher red/graphite/pale lemon",
   "magenta/emerald/ivory",
   "slate roof/autumn orange/sky white",
@@ -2249,7 +2289,12 @@
   "laminate grey/oak/olive",
   "kibble brown/mint/sky blue",
   "epoxy grey/flake blue/safety yellow",
-  "film black/electric blue/cream"
+  "film black/electric blue/cream",
+  "smoke black/chrome/sky",
+  "rice white/banana leaf green/chutney red",
+  "envelope buff/royal blue/lime",
+  "paper white/coffee brown/teal",
+  "night navy/warm bulb yellow/snow"
  ],
  "drive_files_done": [
   1,
@@ -2494,66 +2539,6 @@
   240
  ],
  "log": [
-  {
-   "n": 216,
-   "date": "2026-11-22",
-   "format": "CAROUSEL",
-   "market": "USA",
-   "category": "AlterationsShop",
-   "palette": "chalk pink/thread navy/pin silver",
-   "fonts": "Gelasio + DM Sans",
-   "layout": "garment rack with hanging tickets, pinned garment + ticket card, ready-date kanban with open slots, pickup rack slot grid, tile CTA",
-   "dots": 3,
-   "phone": false
-  },
-  {
-   "n": 217,
-   "date": "2026-11-22",
-   "format": "SINGLE",
-   "market": "India",
-   "category": "CattleFeedDealer",
-   "palette": "straw yellow/field green/soil brown",
-   "fonts": "Fira Sans + Open Sans",
-   "layout": "top-down tractor + trolley load plan with sack grid coloured by village drop + drop cards + credit card",
-   "dots": 5,
-   "phone": false
-  },
-  {
-   "n": 218,
-   "date": "2026-11-22",
-   "format": "SINGLE",
-   "market": "India",
-   "category": "SofaMattressCleaning",
-   "palette": "foam aqua/deep navy/white",
-   "fonts": "Poppins + Source Sans 3",
-   "layout": "booking card with drawn sofas (numbered cushions) and mattress as booked items + slot rail + 3 crew cards",
-   "dots": 2,
-   "phone": false
-  },
-  {
-   "n": 219,
-   "date": "2026-11-22",
-   "format": "SINGLE",
-   "market": "Canada",
-   "category": "SmallManufacturer",
-   "palette": "blueprint blue/white/signal yellow",
-   "fonts": "TeX Gyre Adventor + Open Sans",
-   "layout": "top-down production line on blueprint grid with order boxes at stations + browser order portal with stage bar",
-   "dots": 4,
-   "phone": false
-  },
-  {
-   "n": 220,
-   "date": "2026-11-22",
-   "format": "CAROUSEL",
-   "market": "India",
-   "category": "PickleBusiness",
-   "palette": "mustard/chilli red/jar green",
-   "fonts": "Lora + Roboto",
-   "layout": "big jar + chat bubbles, browser order page with jar size steppers, jar fill-level batch plan on a shelf, parcel labels with barcodes by zone, tile CTA",
-   "dots": 1,
-   "phone": false
-  },
   {
    "n": 221,
    "date": "2026-11-22",
@@ -2853,14 +2838,69 @@
    "layout": "4-frame photo booth strip as booking dates + booking detail card with props chips",
    "dots": 1,
    "phone": false
+  },
+  {
+   "n": 246,
+   "date": "2026-11-22",
+   "format": "SINGLE",
+   "market": "USA",
+   "category": "WindowTint",
+   "palette": "smoke black/chrome/sky",
+   "fonts": "Montserrat + Inter",
+   "layout": "sedan side view with windows shaded by picked % + shade ladder per window + dark booking card",
+   "dots": 3,
+   "phone": false
+  },
+  {
+   "n": 247,
+   "date": "2026-11-22",
+   "format": "CAROUSEL",
+   "market": "India",
+   "category": "BatterMaker",
+   "palette": "rice white/banana leaf green/chutney red",
+   "fonts": "Lora + Inter",
+   "layout": "fridge crate of packets with made-on dates, order sheet by packet size, vertical van route timeline, returns rows with packet icons, packets + tiles CTA",
+   "dots": 5,
+   "phone": false
+  },
+  {
+   "n": 248,
+   "date": "2026-11-22",
+   "format": "SINGLE",
+   "market": "India",
+   "category": "DocumentCourier",
+   "palette": "envelope buff/royal blue/lime",
+   "fonts": "DM Sans + Roboto",
+   "layout": "big envelope with flap and stamp as tracking card + proof photo frames",
+   "dots": 2,
+   "phone": false
+  },
+  {
+   "n": 249,
+   "date": "2026-11-22",
+   "format": "SINGLE",
+   "market": "India",
+   "category": "PaperCupSupplier",
+   "palette": "paper white/coffee brown/teal",
+   "fonts": "Gelasio + Open Sans",
+   "layout": "4 shop columns with nested cup stacks (1 cup = 100) vs usual-week dashed line + reorder flags",
+   "dots": 4,
+   "phone": false
+  },
+  {
+   "n": 250,
+   "date": "2026-11-22",
+   "format": "SINGLE",
+   "market": "Canada",
+   "category": "SeasonalLights",
+   "palette": "night navy/warm bulb yellow/snow",
+   "fonts": "Anton + Fira Sans",
+   "layout": "night house elevation with bulb dots on measured runs + runs list + install/take-down date cards",
+   "dots": 1,
+   "phone": false
   }
  ],
  "recent_fonts": [
-  "Archivo Black + Source Sans 3",
-  "Poppins + Fira Sans",
-  "TeX Gyre Adventor + Roboto",
-  "Crimson Text + Inter",
-  "Bitter + Open Sans",
   "Montserrat + Roboto",
   "Cardo + Inter",
   "Anton + Source Sans 3",
@@ -2880,14 +2920,14 @@
   "TeX Gyre Adventor + Inter",
   "Poppins + DM Sans",
   "Anton + Inter",
-  "Bitter + Fira Sans"
+  "Bitter + Fira Sans",
+  "Montserrat + Inter",
+  "Lora + Inter",
+  "DM Sans + Roboto",
+  "Gelasio + Open Sans",
+  "Anton + Fira Sans"
  ],
  "recent_layouts": [
-  "weighing scale with crate + LCD readout beside asked vs weighed order list with check dots",
-  "drawn chimney hood with 6 baffle filters showing grease level + AMC visit dots + booking phone",
-  "top-down play yard with fenced group zones and paw spots (filled vs dashed) + 3 capacity cards",
-  "to-scale terrace plan (empty, sun zones, planter boxes), plant cards with leaves, month calendar + photo report, plan + 2x2 tiles CTA",
-  "side-view sewing machine with numbered tap hotspots + problems list + dark visit card with parts used",
   "wall rail of 6 drawn cylinders with gauge needles + hanging due tags + dark site summary + reminder message with visit days",
   "bangle rods (stacked ellipses) + vague chat bubbles, browser colour list with drawn bangle pairs, colour x size dozen heatmap, packing boxes + dispatch board by town, rods + 4 tiles CTA",
   "street of 5 house elevations with leaf-filled vs clean gutters + numbered route + status chips + before/after photo card",
@@ -2907,14 +2947,14 @@
   "wall elevation with beam + switch and mistakes list, wall + tablet form, 3 wardrobe layout options, panel cut list + install day, wardrobe + tiles CTA",
   "3 pet profile cards with drawn food bags at fill % + run-out dates + reminder bar",
   "top-down garage plan with flake pattern and sq ft grid + flake colour chips + quote request",
-  "4-frame photo booth strip as booking dates + booking detail card with props chips"
+  "4-frame photo booth strip as booking dates + booking detail card with props chips",
+  "sedan side view with windows shaded by picked % + shade ladder per window + dark booking card",
+  "fridge crate of packets with made-on dates, order sheet by packet size, vertical van route timeline, returns rows with packet icons, packets + tiles CTA",
+  "big envelope with flap and stamp as tracking card + proof photo frames",
+  "4 shop columns with nested cup stacks (1 cup = 100) vs usual-week dashed line + reorder flags",
+  "night house elevation with bulb dots on measured runs + runs list + install/take-down date cards"
  ],
  "used_hashtag_sets": [
-  "#mattressmanufacturer #custommattress #mattressshop #foammattress",
-  "#potterystudio #ceramicsstudio #potteryclass #claystudio #wheelthrowing",
-  "#cementdealer #buildingmaterial #constructionmaterial #hardwaredealer",
-  "#danceclasses #dancestudio #adultdanceclass #danceacademyindia",
-  "#locksmith #locksmithservice #lockoutservice #torontosmallbusiness",
   "#borewell #borewelldrilling #borewellcontractor #drillingrig",
   "#icecreamparlour #icecreamshop #partyorders #dessertshopindia",
   "#appliancerepair #appliancerepairservice #homeappliancerepair #fieldservice",
@@ -2969,7 +3009,12 @@
   "#modularwardrobe #wardrobedesign #interiorsindia #modularfurniture",
   "#petfooddelivery #petsupplies #petparentsindia #petstore",
   "#garagefloor #epoxyflooring #garagefloorcoating #homeimprovement",
-  "#photobooth #photoboothrental #eventrentals #eventplannerindia"
+  "#photobooth #photoboothrental #eventrentals #eventplannerindia",
+  "#windowtint #windowtinting #cartint #autofilm",
+  "#idlibatter #dosabatter #foodbusinessindia #homemadefood",
+  "#courierservice #samedaydelivery #documentdelivery #localbusinessindia",
+  "#papercups #disposablecups #packagingsupplier #teastall",
+  "#lightinstallation #holidaylights #outdoorlighting #canadabusiness"
  ],
  "drive_index_at_post": 240,
  "old_index_sheets_to_trash": [

@@ -183,3 +183,7 @@
 - (b045) Profile cards with an object + 2 rows leave a dead band; add a real third data row (last delivered) and make rows flex:1, with numbers derived from the same rule (left ÷ grams a day = days to run-out, used ÷ grams = days since delivery).
 - (b045) Check weekday + date pairs programmatically when building sample data (Fri 6 Dec was wrong; 6 Dec 2026 is a Sunday).
 - (b045) New techniques: photo booth strip as a booking calendar, food bags with clipPath fill level, flake-pattern SVG floor, car with numbered decoration zones, three wardrobe layouts as options.
+- (b046) Stacked objects (cups) drawn small leave tall empty columns; size each object to ~65% of column width (150px) and nest them with a fixed step (30px) so the stack height carries the number. Put level lines above the stack (z-index) with a white label pill.
+- (b046) Status rules must match the drawing: "OK this week" only when stock >= the usual-week line; derive the label from the numbers, not by hand. Draw the object the label names (cups, not plates).
+- (b046) Re-derive every total across carousel slides before rendering (van load 95 = sum of the order sheet), and never leave a placeholder sentence in a stat card.
+- (b046) New techniques: envelope as a tracking card (clip-path flap), window shade opacity by %, night house with bulb runs, fridge crate of dated packets, vertical route timeline with connector.
