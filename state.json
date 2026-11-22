@@ -3,7 +3,7 @@
  "drive_index_sheet_id": "1Mjh6gj6vWchP4_uXP4xKxJAuJrclyEk50AAXXRBEBVo",
  "lock_until_utc": "2026-11-22T14:34:06Z",
  "last_run": "2026-11-22T12:51:28Z \u00b7 posts 101-125 made, Drive 1-125 done, index sheet refreshed at 115 (refresh due ~140)",
- "next_post_no": 141,
+ "next_post_no": 146,
  "posts_done": [
   {
    "n": 1,
@@ -1124,11 +1124,51 @@
    "slides": 1,
    "market": "India",
    "category": "FreelancerPortfolio"
+  },
+  {
+   "n": 141,
+   "dir": "posts/0141_SINGLE_India_AutoPartsDealer",
+   "format": "SINGLE",
+   "slides": 1,
+   "market": "India",
+   "category": "AutoPartsDealer"
+  },
+  {
+   "n": 142,
+   "dir": "posts/0142_CAROUSEL_India_BuilderProject",
+   "format": "CAROUSEL",
+   "slides": 5,
+   "market": "India",
+   "category": "BuilderProject"
+  },
+  {
+   "n": 143,
+   "dir": "posts/0143_SINGLE_USA_CakeShop",
+   "format": "SINGLE",
+   "slides": 1,
+   "market": "USA",
+   "category": "CakeShop"
+  },
+  {
+   "n": 144,
+   "dir": "posts/0144_SINGLE_India_PetGroomingHome",
+   "format": "SINGLE",
+   "slides": 1,
+   "market": "India",
+   "category": "PetGroomingHome"
+  },
+  {
+   "n": 145,
+   "dir": "posts/0145_SINGLE_India_OilMill",
+   "format": "SINGLE",
+   "slides": 1,
+   "market": "India",
+   "category": "OilMill"
   }
  ],
  "market_counts": {
-  "India": 98,
-  "Abroad": 42
+  "India": 102,
+  "Abroad": 43
  },
  "used_categories": [
   "Boutique",
@@ -1277,14 +1317,14 @@
   "CCTVInstaller",
   "SecurityAgency",
   "PilatesStudio",
-  "FreelancerPortfolio"
+  "FreelancerPortfolio",
+  "AutoPartsDealer",
+  "BuilderProject",
+  "CakeShop",
+  "PetGroomingHome",
+  "OilMill"
  ],
  "recent_palettes": [
-  "linen/navy/tomato",
-  "soil brown/leaf lime/cream",
-  "pallet pine/charcoal/teal",
-  "ebony/ivory/brass",
-  "gallery white/ink/brick + shade swatches",
   "dye vat teal/magenta/greige",
   "editing-suite black/neon purple/clip colours",
   "highway blue/chrome/amber",
@@ -1304,7 +1344,12 @@
   "graphite/lime/ice",
   "olive/brass/off-white",
   "eucalyptus/clay pink/bone",
-  "ink black/lemon/lilac"
+  "ink black/lemon/lilac",
+  "gunmetal/tomato/fog",
+  "concrete grey/terracotta/sky",
+  "buttercream/raspberry/cocoa",
+  "aqua/sunny yellow/charcoal",
+  "golden oil/deep green/cream"
  ],
  "drive_files_done": [
   1,
@@ -1449,66 +1494,6 @@
   140
  ],
  "log": [
-  {
-   "n": 111,
-   "date": "2026-11-22",
-   "format": "SINGLE",
-   "market": "India",
-   "category": "Dhaba",
-   "palette": "mustard road/tar black/milestone red",
-   "fonts": "Montserrat + Roboto",
-   "layout": "SVG highway milestone + bus pre-order card + kitchen ticket rail with clips",
-   "dots": 2,
-   "phone": false
-  },
-  {
-   "n": 112,
-   "date": "2026-11-22",
-   "format": "CAROUSEL",
-   "market": "India",
-   "category": "GroceryWholesaler",
-   "palette": "jute/forest/brick",
-   "fonts": "Poppins + Source Sans 3",
-   "layout": "SVG jute sack stack with stencils, phone order app, credit-limit bars with hold, van loading list + drop order",
-   "dots": 4,
-   "phone": true
-  },
-  {
-   "n": 113,
-   "date": "2026-11-22",
-   "format": "SINGLE",
-   "market": "USA",
-   "category": "RealEstatePhotographer",
-   "palette": "slate/warm white/sunset orange",
-   "fonts": "Lora + Inter",
-   "layout": "camera viewfinder overlay (corners, thirds grid, focus box) on SVG living room + booking and delivery cards",
-   "dots": 1,
-   "phone": false
-  },
-  {
-   "n": 114,
-   "date": "2026-11-22",
-   "format": "CAROUSEL",
-   "market": "India",
-   "category": "PlasticMoulding",
-   "palette": "graphite/hot pink/aqua",
-   "fonts": "TeX Gyre Adventor + Roboto",
-   "layout": "SVG injection moulding machine, machine tiles with progress, mould service ring gauges, job card + box grid",
-   "dots": 3,
-   "phone": false
-  },
-  {
-   "n": 115,
-   "date": "2026-11-22",
-   "format": "SINGLE",
-   "market": "India",
-   "category": "ContentCreator",
-   "palette": "lavender/ink/tangerine",
-   "fonts": "Gelasio + Inter",
-   "layout": "ring-bound planner page with spiral + week deliverables, dark deal tracker with status pills",
-   "dots": 5,
-   "phone": false
-  },
   {
    "n": 116,
    "date": "2026-11-22",
@@ -1808,14 +1793,69 @@
    "layout": "browser bento-grid portfolio with CSS project art + invoice status strip",
    "dots": 2,
    "phone": false
+  },
+  {
+   "n": 141,
+   "date": "2026-11-22",
+   "format": "SINGLE",
+   "market": "India",
+   "category": "AutoPartsDealer",
+   "palette": "gunmetal/tomato/fog",
+   "fonts": "Anton + Roboto",
+   "layout": "parts bin wall with label cards + search result with godown/rack/bin rows",
+   "dots": 3,
+   "phone": false
+  },
+  {
+   "n": 142,
+   "date": "2026-11-22",
+   "format": "CAROUSEL",
+   "market": "India",
+   "category": "BuilderProject",
+   "palette": "concrete grey/terracotta/sky",
+   "fonts": "Cardo + Montserrat",
+   "layout": "building facade availability grid (floor x flat), browser flat page with SVG plan, stage tiles tracker, monthly SVG build thumbnails + progress bar",
+   "dots": 1,
+   "phone": false
+  },
+  {
+   "n": 143,
+   "date": "2026-11-22",
+   "format": "SINGLE",
+   "market": "USA",
+   "category": "CakeShop",
+   "palette": "buttercream/raspberry/cocoa",
+   "fonts": "Crimson Text + Inter",
+   "layout": "SVG tiered drip cake preview panel + option-chip order form",
+   "dots": 5,
+   "phone": false
+  },
+  {
+   "n": 144,
+   "date": "2026-11-22",
+   "format": "SINGLE",
+   "market": "India",
+   "category": "PetGroomingHome",
+   "palette": "aqua/sunny yellow/charcoal",
+   "fonts": "Montserrat + Lora",
+   "layout": "pet passport cards with SVG faces + visit stamps, phone groomer day plan",
+   "dots": 2,
+   "phone": true
+  },
+  {
+   "n": 145,
+   "date": "2026-11-22",
+   "format": "SINGLE",
+   "market": "India",
+   "category": "OilMill",
+   "palette": "golden oil/deep green/cream",
+   "fonts": "Gelasio + Source Sans 3",
+   "layout": "SVG storage tanks with liquid levels + dark dealer order list with shortage alert",
+   "dots": 4,
+   "phone": false
   }
  ],
  "recent_fonts": [
-  "Bitter + Inter",
-  "Lora + Poppins",
-  "Montserrat + Open Sans",
-  "Cardo + DM Sans",
-  "Anton + Open Sans",
   "Crimson Text + Fira Sans",
   "Poppins + Lora",
   "Anton + Fira Sans",
@@ -1835,14 +1875,14 @@
   "Poppins + Inter",
   "TeX Gyre Adventor + Source Sans 3",
   "Crimson Text + Poppins",
-  "Bitter + Poppins"
+  "Bitter + Poppins",
+  "Anton + Roboto",
+  "Cardo + Montserrat",
+  "Crimson Text + Inter",
+  "Montserrat + Lora",
+  "Gelasio + Source Sans 3"
  ],
  "recent_layouts": [
-  "SVG buffet line with chafing dishes + quote ticket, browser quote form chips, tray count rows, event sheet with crew + pack list",
-  "top-down SVG veg crate + phone subscription with skip/swap + packing chips strip",
-  "top-down bay map coloured by client with dock doors, dimmed map with free bays, GRN doc with photos, picking list by bay, stock statement table",
-  "piano keyboard as week calendar with lesson chips on white keys + practice bar log",
-  "SVG shade fan deck + shades-by-site list, painter order card with swatch rows, account stat strip",
   "lab-dip card with stapled pinked swatches, job card + 6-step stage tracker, dye recipe card, stage lanes with lot chips, swatch-grid CTA",
   "video editor UI: SVG preview monitor, timecode ruler, 4 tracks of clips, playhead + project status cards",
   "front-view SVG semi truck on road + renewal countdown list with urgency bars + office text",
@@ -1862,14 +1902,14 @@
   "SVG floor plan with camera field-of-view wedges + quote card without prices",
   "site tile matrix with post dots, roster table, phone check-in + alert cards, QR checkpoint rail with missed scan, icon tiles + report bar",
   "class time chips + top-down studio seat map of reformers + class pack bar",
-  "browser bento-grid portfolio with CSS project art + invoice status strip"
+  "browser bento-grid portfolio with CSS project art + invoice status strip",
+  "parts bin wall with label cards + search result with godown/rack/bin rows",
+  "building facade availability grid (floor x flat), browser flat page with SVG plan, stage tiles tracker, monthly SVG build thumbnails + progress bar",
+  "SVG tiered drip cake preview panel + option-chip order form",
+  "pet passport cards with SVG faces + visit stamps, phone groomer day plan",
+  "SVG storage tanks with liquid levels + dark dealer order list with shortage alert"
  ],
  "used_hashtag_sets": [
-  "#steelrailing #ssrailing #fabricationwork #railingdesign",
-  "#corporategifting #corporategiftsindia #giftshop #stationeryshop #bulkgifting",
-  "#photostudio #passportphoto #photostudioindia #studiobusiness",
-  "#realtor #openhouse #realestateagent #realtorlife",
-  "#courierfranchise #courierservice #courierbusiness #parcelbooking",
   "#mobileaccessories #mobileshop #watchshop #mobileaccessoriesshop",
   "#florist #flowershop #flowerdelivery #floristindia #bouquet",
   "#insuranceagency #insuranceagent #independentagent #policyrenewal",
@@ -1924,7 +1964,12 @@
   "#cctvinstallation #cctvcamera #securitysystems #cctvindia",
   "#securityagency #securityguards #securityservices #manpowerindia",
   "#pilatesstudio #reformerpilates #studioowner #torontopilates",
-  "#freelancerindia #portfoliowebsite #freelancedesigner #freelancelife"
+  "#freelancerindia #portfoliowebsite #freelancedesigner #freelancelife",
+  "#autoparts #spareparts #autopartsdealer #bikeparts",
+  "#builders #realestateindia #flatsforsale #constructionindia",
+  "#cakeshop #customcakes #bakerybusiness #cakeorders",
+  "#petgrooming #doggrooming #petgroomingathome #petparentsindia",
+  "#oilmill #mustardoil #woodpressedoil #edibleoil"
  ],
  "drive_index_at_post": 140
 }

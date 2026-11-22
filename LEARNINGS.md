@@ -100,3 +100,6 @@
 - (b024) Classes defined in one slide's css (e.g. .hd status colour) do not exist on other slides; a reused status class rendered invisible on the CTA. Put shared status colours in the carousel's base CSS.
 - (b024) Fake QR codes need finder squares and a 13x13 random grid; a 7x7 modulo pattern read as letters. Year-at-a-glance dot matrices (every Saturday as a status dot) are very clear for booking niches.
 - (b024) Tall tiles with only a name + dots look empty: add one data line ("4 of 4 posts covered") between them. Avoid sample site names that hint at minors or health (school gate, hospital).
+- (b025) Chrome reports odd scrollWidth/clientWidth for some SVG <text> elements, so check_text flags HOVERFLOW on text that looks fine. Wrap SVG label text in <tspan> (the leaf becomes the tspan) and the false flag goes away.
+- (b025) A tall SVG inside a flex column pushes later blocks off the canvas (OUT/EDGE on the bottom card). Give the SVG height:100% + meet and its panel min-height:0; cut the headline to 2 lines when a page has a hero + a list.
+- (b025) Building facade as an availability grid (floor x flat, sold/booked/free) reads instantly for builders; reuse the same grid as a mini map on later slides only if it stays legible (>= 14px labels), otherwise drop it.
