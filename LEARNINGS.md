@@ -223,3 +223,7 @@
 - (b055) Extending an SVG upward with a negative viewBox y makes check_text flag VOVERFLOW on the new labels; keep viewBox at 0 0 and wrap the old drawing in <g transform="translate(0,N)">.
 - (b055) Small number+label tiles in a tall grid: put number and label side by side (row) with a 50px number, or the label OVERLAPs when the tile gets short.
 - (b055) New techniques: returnable crate ledger (faded vs dashed crates), van with shelf bins from bookings, plug-tray timeline, SVG keys with cut blades, irrigation zone yard plan.
+- (b056) Re-derive the headline number from the sheet before writing it (s3 said "40 packets of masala" while the sheet total was 30 masala, 40 plain). Compute totals in code and use them in the headline f-string.
+- (b056) Anton number columns (label over big number) need label line-height 1.5 + 6px margin and number line-height 1.5 from the start; Anton OVERLAP flags came back in two slides.
+- (b056) Isotype disc grids look unfinished with an orphan row (15 discs at 6 per row); choose counts that fill whole rows.
+- (b056) New techniques: CSS analog watch faces with hands set to the ready time, LED dot-matrix token board, speckled papad discs, metallic SVG utensil stacks.

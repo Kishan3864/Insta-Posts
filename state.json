@@ -3,7 +3,7 @@
  "drive_index_sheet_id": "1kVmhTtzsjrmEhG59w3V2Odgx_cXBEIsDAxMe59zWmgU",
  "lock_until_utc": "2026-11-22T23:35:27Z",
  "last_run": "2026-11-22T21:52:35Z \u00b7 posts 251-275 made (batches 47-51), Drive 1-275 done, index sheet refreshed at 265 (old sheets trashed), 35 new targets added",
- "next_post_no": 296,
+ "next_post_no": 301,
  "posts_done": [
   {
    "n": 1,
@@ -2364,11 +2364,51 @@
    "slides": 1,
    "market": "USA",
    "category": "SprinklerBlowout"
+  },
+  {
+   "n": 296,
+   "dir": "posts/0296_SINGLE_India_WatchRepair",
+   "format": "SINGLE",
+   "slides": 1,
+   "market": "India",
+   "category": "WatchRepair"
+  },
+  {
+   "n": 297,
+   "dir": "posts/0297_CAROUSEL_India_PapadUnit",
+   "format": "CAROUSEL",
+   "slides": 5,
+   "market": "India",
+   "category": "PapadUnit"
+  },
+  {
+   "n": 298,
+   "dir": "posts/0298_SINGLE_USA_HotTubService",
+   "format": "SINGLE",
+   "slides": 1,
+   "market": "USA",
+   "category": "HotTubService"
+  },
+  {
+   "n": 299,
+   "dir": "posts/0299_SINGLE_India_DTPCentre",
+   "format": "SINGLE",
+   "slides": 1,
+   "market": "India",
+   "category": "DTPCentre"
+  },
+  {
+   "n": 300,
+   "dir": "posts/0300_SINGLE_India_SteelUtensilsBulk",
+   "format": "SINGLE",
+   "slides": 1,
+   "market": "India",
+   "category": "SteelUtensilsBulk"
   }
  ],
  "market_counts": {
-  "India": 207,
-  "Abroad": 88
+  "India": 211,
+  "Abroad": 89
  },
  "used_categories": [
   "Boutique",
@@ -2672,14 +2712,14 @@
   "MobileBikeRepair",
   "SeedlingNursery",
   "KeyShop",
-  "SprinklerBlowout"
+  "SprinklerBlowout",
+  "WatchRepair",
+  "PapadUnit",
+  "HotTubService",
+  "DTPCentre",
+  "SteelUtensilsBulk"
  ],
  "recent_palettes": [
-  "leather tan/charcoal/stitch orange",
-  "ink magenta/black/off-white",
-  "peacock teal/rose/ivory",
-  "cane gold/bamboo green/clay",
-  "mop blue/lemon/white",
   "safety orange/steel grey/chalk white",
   "white oak/sage/ink",
   "circuit green/copper/charcoal",
@@ -2699,7 +2739,12 @@
   "pine/off-white/tangerine",
   "sprout green/coir brown/tray black",
   "key brass/teal/ink",
-  "frost white/ice blue/lawn olive"
+  "frost white/ice blue/lawn olive",
+  "racing green/champagne/ivory",
+  "papad beige/chilli red/mustard",
+  "lagoon aqua/cedar/navy",
+  "print cyan/charcoal/lemon",
+  "steel silver/copper/indigo"
  ],
  "drive_files_done": [
   1,
@@ -3000,66 +3045,6 @@
  ],
  "log": [
   {
-   "n": 266,
-   "date": "2026-11-22",
-   "format": "CAROUSEL",
-   "market": "India",
-   "category": "HomeChef",
-   "palette": "tomato red/leaf green/cream",
-   "fonts": "Crimson Text + Inter",
-   "layout": "top-down party table plan with plates, menu picks + side facts, quantity table from per-person rules, week of party slots grid, tables + tiles CTA",
-   "dots": 2,
-   "phone": false
-  },
-  {
-   "n": 267,
-   "date": "2026-11-22",
-   "format": "SINGLE",
-   "market": "USA",
-   "category": "InHomeTrainer",
-   "palette": "court blue/lime/white",
-   "fonts": "Archivo Black + Roboto",
-   "layout": "week planner with session blocks and hatched drive-time blocks + dark booking card",
-   "dots": 4,
-   "phone": false
-  },
-  {
-   "n": 268,
-   "date": "2026-11-22",
-   "format": "SINGLE",
-   "market": "India",
-   "category": "MushroomGrower",
-   "palette": "mushroom beige/forest/clay",
-   "fonts": "DM Sans + Source Sans 3",
-   "layout": "grow room shelves of bags coloured by stage with harvest dates + legend + buyer note",
-   "dots": 3,
-   "phone": false
-  },
-  {
-   "n": 269,
-   "date": "2026-11-22",
-   "format": "CAROUSEL",
-   "market": "Canada",
-   "category": "MapleSyrupStand",
-   "palette": "maple red/syrup amber/birch white",
-   "fonts": "Lora + Roboto",
-   "layout": "sold-out shelf stamp hook, bottle size counters, pickup slot dot board, torn-edge pickup slip with QR, bottles + tiles CTA",
-   "dots": 5,
-   "phone": false
-  },
-  {
-   "n": 270,
-   "date": "2026-11-22",
-   "format": "SINGLE",
-   "market": "India",
-   "category": "SignBoardMaker",
-   "palette": "board yellow/black/signal blue",
-   "fonts": "Poppins + Gelasio",
-   "layout": "shop sign proof with red ring marks and measured size + job sheet + proof steps",
-   "dots": 1,
-   "phone": false
-  },
-  {
    "n": 271,
    "date": "2026-11-22",
    "format": "SINGLE",
@@ -3358,14 +3343,69 @@
    "layout": "top-down yard with irrigation zones and spray-arc heads + booking form + same-street route card",
    "dots": 3,
    "phone": false
+  },
+  {
+   "n": 296,
+   "date": "2026-11-22",
+   "format": "SINGLE",
+   "market": "India",
+   "category": "WatchRepair",
+   "palette": "racing green/champagne/ivory",
+   "fonts": "Cardo + DM Sans",
+   "layout": "dark job tray of CSS analog watch faces whose hands point to ready time, status rings + message + legend",
+   "dots": 1,
+   "phone": false
+  },
+  {
+   "n": 297,
+   "date": "2026-11-22",
+   "format": "CAROUSEL",
+   "market": "India",
+   "category": "PapadUnit",
+   "palette": "papad beige/chilli red/mustard",
+   "fonts": "Anton + Inter",
+   "layout": "drying mats of speckled papad discs + voice note hook, shop x product order sheet, packets-to-dough rule cards, packet icon dispatch rows, discs + tiles CTA",
+   "dots": 3,
+   "phone": false
+  },
+  {
+   "n": 298,
+   "date": "2026-11-22",
+   "format": "SINGLE",
+   "market": "USA",
+   "category": "HotTubService",
+   "palette": "lagoon aqua/cedar/navy",
+   "fonts": "Lora + DM Sans",
+   "layout": "top-down cedar hot tub with seats and jets + visit log table + phone visit report",
+   "dots": 5,
+   "phone": true
+  },
+  {
+   "n": 299,
+   "date": "2026-11-22",
+   "format": "SINGLE",
+   "market": "India",
+   "category": "DTPCentre",
+   "palette": "print cyan/charcoal/lemon",
+   "fonts": "Gelasio + Fira Sans",
+   "layout": "LED dot-matrix token board with glowing text + files received list + dark message card",
+   "dots": 2,
+   "phone": false
+  },
+  {
+   "n": 300,
+   "date": "2026-11-22",
+   "format": "SINGLE",
+   "market": "India",
+   "category": "SteelUtensilsBulk",
+   "palette": "steel silver/copper/indigo",
+   "fonts": "TeX Gyre Adventor + Source Sans 3",
+   "layout": "SVG metallic stacks of plates, bowls and glasses with counts + caterer order card + repeat order card",
+   "dots": 4,
+   "phone": false
   }
  ],
  "recent_fonts": [
-  "TeX Gyre Adventor + Open Sans",
-  "Archivo Black + DM Sans",
-  "Cardo + Poppins",
-  "Bitter + Open Sans",
-  "Gelasio + Roboto",
   "Montserrat + Inter",
   "Crimson Text + DM Sans",
   "Anton + Source Sans 3",
@@ -3385,14 +3425,14 @@
   "Montserrat + Source Sans 3",
   "Gelasio + Inter",
   "Bitter + Poppins",
-  "Crimson Text + Roboto"
+  "Crimson Text + Roboto",
+  "Cardo + DM Sans",
+  "Anton + Inter",
+  "Lora + DM Sans",
+  "Gelasio + Fira Sans",
+  "TeX Gyre Adventor + Source Sans 3"
  ],
  "recent_layouts": [
-  "top-down car interior with seats filled by picked fabric + fabric picker rows + fitting slot card",
-  "flat tee proof with print area + size run of shirt icons + 3 status tiles",
-  "wooden pigeonhole rack of folded sarees with tickets + message bubbles + counts + legend",
-  "CSS cane weave chairs catalogue grid, big chair + option chips, making stage bars, packed box + dispatch cards, chairs + tiles CTA",
-  "receipt-style monthly supply list with dotted leaders and torn edge + 3 side cards",
   "dark tool shadow board with filled tools in shop and dashed outlines for rented tools + return tags + rentals list + reminder card",
   "blurred photo vs dimensioned wall hook, browser measuring form, 3 CSS closet elevations as options, install timeline + installed closet, closets + tiles CTA",
   "phone item picker with +/- counters and slot chips + weight slip with LCD scale reading + after-pickup card",
@@ -3412,14 +3452,14 @@
   "phone booking form + CSS van with shelf bins counted from bookings + today list",
   "CSS plug tray hero, crop rows with mini trays, stage timeline with tray per stage, order card + tray return, trays + tiles CTA",
   "key ring job card with SVG keys (coloured caps, cut blades) per line + big copies count + home visit card",
-  "top-down yard with irrigation zones and spray-arc heads + booking form + same-street route card"
+  "top-down yard with irrigation zones and spray-arc heads + booking form + same-street route card",
+  "dark job tray of CSS analog watch faces whose hands point to ready time, status rings + message + legend",
+  "drying mats of speckled papad discs + voice note hook, shop x product order sheet, packets-to-dough rule cards, packet icon dispatch rows, discs + tiles CTA",
+  "top-down cedar hot tub with seats and jets + visit log table + phone visit report",
+  "LED dot-matrix token board with glowing text + files received list + dark message card",
+  "SVG metallic stacks of plates, bowls and glasses with counts + caterer order card + repeat order card"
  ],
  "used_hashtag_sets": [
-  "#watertankcleaning #tankcleaning #housingsociety #homeservicesindia",
-  "#fenceinstallation #fencecompany #fencing #backyardfence",
-  "#homesalon #salonathome #beautyservices #beautybusinessindia",
-  "#bikeservice #doorstepservice #twowheelerservice #bikeservicing",
-  "#woodstove #woodstoveinstallation #hearth #canadianbusiness",
   "#weddingcardecoration #cardecoration #weddingdecor #eventdecorindia",
   "#modularwardrobe #wardrobedesign #interiorsindia #modularfurniture",
   "#petfooddelivery #petsupplies #petparentsindia #petstore",
@@ -3474,7 +3514,12 @@
   "#mobilebikerepair #bikerepair #cyclingcanada #bikemechanic",
   "#seedlingnursery #vegetableseedlings #nurserybusiness #farmingindia",
   "#keyduplicate #keymaker #locksmithindia #localshop",
-  "#sprinklerblowout #irrigationservice #winterizing #lawncarebusiness"
+  "#sprinklerblowout #irrigationservice #winterizing #lawncarebusiness",
+  "#watchrepair #watchservice #watchshop #smallbusinessindia",
+  "#papad #homemadesnacks #homebusinessindia #womenentrepreneurs",
+  "#hottubservice #spaservice #hottubcare #backyardliving",
+  "#dtpcentre #typingcentre #printingshop #localbusinessindia",
+  "#steelutensils #cateringsupplies #utensilshop #wholesaleindia"
  ],
  "drive_index_at_post": 290,
  "old_index_sheets_to_trash": [
