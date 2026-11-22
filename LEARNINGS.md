@@ -57,3 +57,7 @@
 - (b013) Generic people in mockups: avoid first names (they hint at a community); use "Rider 1", "Sample customer", "Sample Visitor". Avoid sample "visitor counts" that read like a result claim.
 - (b013) Bows/handles that sit above an object: anchor them at the lid top (top:2px, loops grow upward) instead of a big negative offset, or they float away and get clipped inside cards.
 - (b013) Silhouettes in tall narrow frames look odd; make the head ~70% of frame width and shoulders ~45% height so head and shoulders connect. New techniques: film strip with sprocket holes, shipping label with barcode stripes, CSS house facade, gift box with ribbon loops.
+- (b014) Absolute-positioned siblings (folder stack over a progress card) can cover each other without any check flag: check_gfx only tests containment. Always add up stacked heights (top offset x n + item height) and confirm in the contact sheet that no card is hidden.
+- (b014) Seven narrow day columns make event text tiny (14-17px). For week calendars with few events, use a vertical day list (day label + wide event bar, 22px+ text) instead.
+- (b014) Timeline pins near the right edge escape their panel: right-align late pins (transform translateX(-100%)) and give each pin its own stem height so neighbouring cards never touch.
+- (b014) Count logic again: "6 of 9 documents" broke when one item was "not needed". Count only required items and repeat the same number on every slide. New techniques: thermal receipt roll with zigzag clip-path, velvet tray with SVG jewellery, manila folder tabs, CSS bouquet.

@@ -3,7 +3,7 @@
  "drive_index_sheet_id": "1LhrDKUuLzLHPuDB4fOhGo-Fs3w2AlNXXC4ZDTY75eus",
  "lock_until_utc": "2026-11-22T11:31:27Z",
  "last_run": "2026-11-22T09:39:09Z \u00b7 posts 56-70 made, Drive 1-70 done, index sheet refreshed at 65",
- "next_post_no": 86,
+ "next_post_no": 91,
  "posts_done": [
   {
    "n": 1,
@@ -684,11 +684,51 @@
    "slides": 5,
    "market": "India",
    "category": "CourierFranchise"
+  },
+  {
+   "n": 86,
+   "dir": "posts/0086_SINGLE_India_AccessoriesShop",
+   "format": "SINGLE",
+   "slides": 1,
+   "market": "India",
+   "category": "AccessoriesShop"
+  },
+  {
+   "n": 87,
+   "dir": "posts/0087_CAROUSEL_India_Florist",
+   "format": "CAROUSEL",
+   "slides": 5,
+   "market": "India",
+   "category": "Florist"
+  },
+  {
+   "n": 88,
+   "dir": "posts/0088_SINGLE_USA_InsuranceAgency",
+   "format": "SINGLE",
+   "slides": 1,
+   "market": "USA",
+   "category": "InsuranceAgency"
+  },
+  {
+   "n": 89,
+   "dir": "posts/0089_SINGLE_India_ImitationJewellery",
+   "format": "SINGLE",
+   "slides": 1,
+   "market": "India",
+   "category": "ImitationJewellery"
+  },
+  {
+   "n": 90,
+   "dir": "posts/0090_CAROUSEL_USA_Bookkeeper",
+   "format": "CAROUSEL",
+   "slides": 5,
+   "market": "USA",
+   "category": "Bookkeeper"
   }
  ],
  "market_counts": {
-  "India": 60,
-  "Abroad": 25
+  "India": 63,
+  "Abroad": 27
  },
  "used_categories": [
   "Boutique",
@@ -782,14 +822,14 @@
   "CorporateGifting",
   "PhotoStudio",
   "Realtor",
-  "CourierFranchise"
+  "CourierFranchise",
+  "AccessoriesShop",
+  "Florist",
+  "InsuranceAgency",
+  "ImitationJewellery",
+  "Bookkeeper"
  ],
  "recent_palettes": [
-  "rubber black/signal red/cool grey",
-  "strawberry pink/chocolate/vanilla",
-  "legal navy/parchment/oxblood",
-  "field green/mustard/soil brown",
-  "kraft brown/tape blue/white",
   "process cyan/magenta/ink black",
   "deep sea blue/ice white/salmon",
   "indigo/madder red/unbleached",
@@ -809,7 +849,12 @@
   "forest navy/coral/blush cream",
   "darkroom black/signal red/paper white",
   "sage/charcoal/terracotta",
-  "royal purple/kraft/lime"
+  "royal purple/kraft/lime",
+  "graphite/electric cyan/receipt white",
+  "marigold/deep leaf green/off-white",
+  "deep navy/sky/sunflower",
+  "velvet teal/rose gold/blush",
+  "ledger green/ivory/amber"
  ],
  "drive_files_done": [
   1,
@@ -899,66 +944,6 @@
   85
  ],
  "log": [
-  {
-   "n": 56,
-   "date": "2026-11-22",
-   "format": "SINGLE",
-   "market": "India",
-   "category": "Laundry",
-   "palette": "powder blue/lavender/ink navy",
-   "fonts": "Lora + Montserrat",
-   "layout": "clothes rail with SVG hangers + status tags",
-   "dots": 3,
-   "phone": false
-  },
-  {
-   "n": 57,
-   "date": "2026-11-22",
-   "format": "CAROUSEL",
-   "market": "India",
-   "category": "OpticalShop",
-   "palette": "tortoise brown/cream/teal",
-   "fonts": "TeX Gyre Adventor + Inter",
-   "layout": "CSS spectacles hero + frame-shape catalogue, numbered things",
-   "dots": 1,
-   "phone": true
-  },
-  {
-   "n": 58,
-   "date": "2026-11-22",
-   "format": "SINGLE",
-   "market": "USA",
-   "category": "JunkRemoval",
-   "palette": "forest green/safety orange/off-white",
-   "fonts": "Anton + Roboto",
-   "layout": "side-view truck load-level selector + photo form",
-   "dots": 4,
-   "phone": false
-  },
-  {
-   "n": 59,
-   "date": "2026-11-22",
-   "format": "SINGLE",
-   "market": "India",
-   "category": "SocietyRWA",
-   "palette": "cork brown/marker red/paper white",
-   "fonts": "Gelasio + Inter",
-   "layout": "cork notice board with pinned notes vs app card",
-   "dots": 2,
-   "phone": false
-  },
-  {
-   "n": 60,
-   "date": "2026-11-22",
-   "format": "CAROUSEL",
-   "market": "USA",
-   "category": "BubbleTea",
-   "palette": "taro purple/milk tea beige/tapioca black",
-   "fonts": "Archivo Black + DM Sans",
-   "layout": "CSS drink cup hero + tablet drink builder, step carousel",
-   "dots": 5,
-   "phone": false
-  },
   {
    "n": 61,
    "date": "2026-11-22",
@@ -1258,14 +1243,69 @@
    "layout": "parcel with printed shipping label + barcode, tracking steppers, day-end list",
    "dots": 5,
    "phone": false
+  },
+  {
+   "n": 86,
+   "date": "2026-11-22",
+   "format": "SINGLE",
+   "market": "India",
+   "category": "AccessoriesShop",
+   "palette": "graphite/electric cyan/receipt white",
+   "fonts": "Anton + Source Sans 3",
+   "layout": "thermal receipt roll with zigzag tear + purchase search list",
+   "dots": 2,
+   "phone": false
+  },
+  {
+   "n": 87,
+   "date": "2026-11-22",
+   "format": "CAROUSEL",
+   "market": "India",
+   "category": "Florist",
+   "palette": "marigold/deep leaf green/off-white",
+   "fonts": "Crimson Text + Poppins",
+   "layout": "CSS bouquet in paper cone, delivery-slot columns, week list, buying list",
+   "dots": 4,
+   "phone": false
+  },
+  {
+   "n": 88,
+   "date": "2026-11-22",
+   "format": "SINGLE",
+   "market": "USA",
+   "category": "InsuranceAgency",
+   "palette": "deep navy/sky/sunflower",
+   "fonts": "Bitter + Source Sans 3",
+   "layout": "30-day ruler with staggered policy pins + reminder cards",
+   "dots": 1,
+   "phone": false
+  },
+  {
+   "n": 89,
+   "date": "2026-11-22",
+   "format": "SINGLE",
+   "market": "India",
+   "category": "ImitationJewellery",
+   "palette": "velvet teal/rose gold/blush",
+   "fonts": "Cardo + Montserrat",
+   "layout": "velvet display tray with SVG jewellery + reseller order list",
+   "dots": 3,
+   "phone": false
+  },
+  {
+   "n": 90,
+   "date": "2026-11-22",
+   "format": "CAROUSEL",
+   "market": "USA",
+   "category": "Bookkeeper",
+   "palette": "ledger green/ivory/amber",
+   "fonts": "Lora + DM Sans",
+   "layout": "stacked manila folders with tabs, document checklist, browser upload, client board",
+   "dots": 5,
+   "phone": false
   }
  ],
  "recent_fonts": [
-  "Inter Display + Source Sans 3",
-  "Cardo + DM Sans",
-  "Crimson Text + Roboto",
-  "Fira Sans + Gelasio",
-  "Bitter + Open Sans",
   "Montserrat + Fira Sans",
   "Lora + Poppins",
   "Gelasio + Montserrat",
@@ -1285,14 +1325,14 @@
   "Gelasio + Poppins",
   "Archivo Black + Roboto",
   "Lora + Open Sans",
-  "Montserrat + DM Sans"
+  "Montserrat + DM Sans",
+  "Anton + Source Sans 3",
+  "Crimson Text + Poppins",
+  "Bitter + Source Sans 3",
+  "Cardo + Montserrat",
+  "Lora + DM Sans"
  ],
  "recent_layouts": [
-  "side-view tyre stack + size search card",
-  "top-view cake + field/chat/why checklist cards",
-  "tear-off desk calendar + week list",
-  "Gantt week booking chart",
-  "stacked cardboard boxes + room counters, step carousel",
   "annotated print proof with crop marks + numbered pins",
   "without vs with timelines side by side + cut list",
   "clip-path kurti silhouettes with block-print motifs, 4-part",
@@ -1312,14 +1352,14 @@
   "CSS gift box stack with bows, gift set cards, bulk form, delivery bars",
   "film strip with sprocket holes + order card + phone message",
   "CSS house facade + tablet sign-in form",
-  "parcel with printed shipping label + barcode, tracking steppers, day-end list"
+  "parcel with printed shipping label + barcode, tracking steppers, day-end list",
+  "thermal receipt roll with zigzag tear + purchase search list",
+  "CSS bouquet in paper cone, delivery-slot columns, week list, buying list",
+  "30-day ruler with staggered policy pins + reminder cards",
+  "velvet display tray with SVG jewellery + reseller order list",
+  "stacked manila folders with tabs, document checklist, browser upload, client board"
  ],
  "used_hashtag_sets": [
-  "#bikeservicecenter #twowheelerservice #bikemechanic #autoworkshopindia",
-  "#beautyparlour #salonowner #beautysalonindia #parlourbusiness #salonbooking",
-  "#snowremoval #snowplowing #snowremovalbusiness #canadianbusiness",
-  "#drivingschool #drivingschoolindia #drivinginstructor #learntodrive #smallbusinessindia",
-  "#dogwalker #petsitter #dogwalkingbusiness #petcarebusiness",
   "#pgowner #hostelmanagement #pgaccommodation #rentalbusiness",
   "#hvacbusiness #hvaccontractor #hvaclife #heatingandcooling #hvacowner",
   "#tilesshowroom #tilesdesign #sanitaryware #buildingmaterials #interiorindia",
@@ -1374,7 +1414,12 @@
   "#corporategifting #corporategiftsindia #giftshop #stationeryshop #bulkgifting",
   "#photostudio #passportphoto #photostudioindia #studiobusiness",
   "#realtor #openhouse #realestateagent #realtorlife",
-  "#courierfranchise #courierservice #courierbusiness #parcelbooking"
+  "#courierfranchise #courierservice #courierbusiness #parcelbooking",
+  "#mobileaccessories #mobileshop #watchshop #mobileaccessoriesshop",
+  "#florist #flowershop #flowerdelivery #floristindia #bouquet",
+  "#insuranceagency #insuranceagent #independentagent #policyrenewal",
+  "#imitationjewellery #artificialjewellery #jewelleryreseller #fashionjewelleryindia",
+  "#bookkeeper #accountant #taxseason #cpafirm #smallbusinessaccounting"
  ],
  "drive_index_at_post": 65
 }
