@@ -3,7 +3,7 @@
  "drive_index_sheet_id": "1Mjh6gj6vWchP4_uXP4xKxJAuJrclyEk50AAXXRBEBVo",
  "lock_until_utc": "2026-11-22T16:13:55Z",
  "last_run": "2026-11-22T14:42:49Z \u00b7 posts 146-160 made, Drive 1-160 done, index sheet last at 140 (refresh due ~165)",
- "next_post_no": 161,
+ "next_post_no": 166,
  "posts_done": [
   {
    "n": 1,
@@ -1284,11 +1284,51 @@
    "slides": 5,
    "market": "India",
    "category": "SpokenEnglish"
+  },
+  {
+   "n": 161,
+   "dir": "posts/0161_SINGLE_India_ChairTableRental",
+   "format": "SINGLE",
+   "slides": 1,
+   "market": "India",
+   "category": "ChairTableRental"
+  },
+  {
+   "n": 162,
+   "dir": "posts/0162_CAROUSEL_USA_GarageDoorRepair",
+   "format": "CAROUSEL",
+   "slides": 6,
+   "market": "USA",
+   "category": "GarageDoorRepair"
+  },
+  {
+   "n": 163,
+   "dir": "posts/0163_SINGLE_India_GasStoveRepair",
+   "format": "SINGLE",
+   "slides": 1,
+   "market": "India",
+   "category": "GasStoveRepair"
+  },
+  {
+   "n": 164,
+   "dir": "posts/0164_SINGLE_USA_CarpetCleaning",
+   "format": "SINGLE",
+   "slides": 1,
+   "market": "USA",
+   "category": "CarpetCleaning"
+  },
+  {
+   "n": 165,
+   "dir": "posts/0165_SINGLE_India_TshirtPrinting",
+   "format": "SINGLE",
+   "slides": 1,
+   "market": "India",
+   "category": "TshirtPrinting"
   }
  ],
  "market_counts": {
-  "India": 113,
-  "Abroad": 47
+  "India": 116,
+  "Abroad": 49
  },
  "used_categories": [
   "Boutique",
@@ -1457,14 +1497,14 @@
   "BridalWearRental",
   "SkiRental",
   "GeneratorRental",
-  "SpokenEnglish"
+  "SpokenEnglish",
+  "ChairTableRental",
+  "GarageDoorRepair",
+  "GasStoveRepair",
+  "CarpetCleaning",
+  "TshirtPrinting"
  ],
  "recent_palettes": [
-  "champagne/ink navy/blush",
-  "graphite/lime/ice",
-  "olive/brass/off-white",
-  "eucalyptus/clay pink/bone",
-  "ink black/lemon/lilac",
   "gunmetal/tomato/fog",
   "concrete grey/terracotta/sky",
   "buttercream/raspberry/cocoa",
@@ -1484,7 +1524,12 @@
   "wine/gold foil/ivory",
   "glacier white/ski red/pine",
   "forest green/amber/charcoal",
-  "chalk navy/coral/paper"
+  "chalk navy/coral/paper",
+  "terracotta/sand/ink navy",
+  "graphite/lime/white",
+  "flame blue/copper/cream",
+  "soft mint/charcoal/tangerine",
+  "raspberry/off-white/ink"
  ],
  "drive_files_done": [
   1,
@@ -1649,66 +1694,6 @@
   160
  ],
  "log": [
-  {
-   "n": 131,
-   "date": "2026-11-22",
-   "format": "SINGLE",
-   "market": "India",
-   "category": "CabOperator",
-   "palette": "matte black/cab yellow/steel",
-   "fonts": "Montserrat + Fira Sans",
-   "layout": "split-flap departure board of duties (per-character flap cells) + 3 feature cards",
-   "dots": 5,
-   "phone": false
-  },
-  {
-   "n": 132,
-   "date": "2026-11-22",
-   "format": "CAROUSEL",
-   "market": "India",
-   "category": "Homestay",
-   "palette": "deodar green/sunrise peach/mist",
-   "fonts": "Crimson Text + DM Sans",
-   "layout": "SVG hill cottage scene with booking card, browser room cards with SVG rooms, month calendar with rooms-left, phone booking + message cards, folded guest guide",
-   "dots": 3,
-   "phone": true
-  },
-  {
-   "n": 133,
-   "date": "2026-11-22",
-   "format": "SINGLE",
-   "market": "USA",
-   "category": "DeliveryStartup",
-   "palette": "kraft brown/cobalt/off-white",
-   "fonts": "TeX Gyre Adventor + Inter",
-   "layout": "isometric SVG parcel stack + browser tracking page with vertical step timeline and ETA",
-   "dots": 1,
-   "phone": false
-  },
-  {
-   "n": 134,
-   "date": "2026-11-22",
-   "format": "SINGLE",
-   "market": "India",
-   "category": "FlourMill",
-   "palette": "wheat/flour white/indigo",
-   "fonts": "Bitter + DM Sans",
-   "layout": "SVG flour mill with sack + perforated token ticket + queue list + WhatsApp ready bubble",
-   "dots": 4,
-   "phone": false
-  },
-  {
-   "n": 135,
-   "date": "2026-11-22",
-   "format": "SINGLE",
-   "market": "India",
-   "category": "ExpenseTracker",
-   "palette": "manila/terracotta/ink",
-   "fonts": "Cardo + Roboto",
-   "layout": "CSS envelope budget rows with fill inserts + phone today list and add-expense pad",
-   "dots": 2,
-   "phone": true
-  },
   {
    "n": 136,
    "date": "2026-11-22",
@@ -2008,14 +1993,69 @@
    "layout": "level staircase bars with ready flags, attendance square rows per batch, score card bars + side tip cards, phone practice app, rising steps CTA",
    "dots": 4,
    "phone": true
+  },
+  {
+   "n": 161,
+   "date": "2026-11-22",
+   "format": "SINGLE",
+   "market": "India",
+   "category": "ChairTableRental",
+   "palette": "terracotta/sand/ink navy",
+   "fonts": "Archivo Black + Source Sans 3",
+   "layout": "SVG stack of nested plastic chairs in a godown panel + per-event out/back challan cards with short/all back/still out chips",
+   "dots": 2,
+   "phone": false
+  },
+  {
+   "n": 162,
+   "date": "2026-11-22",
+   "format": "CAROUSEL",
+   "market": "USA",
+   "category": "GarageDoorRepair",
+   "palette": "graphite/lime/white",
+   "fonts": "Poppins + Fira Sans",
+   "layout": "SVG sectional garage door with bent panel + alert card, browser problem-tile picker form, tall SVG street map with numbered pins + job list, job card with parts and before/after door drawings, text thread + side cards, door + tiles CTA",
+   "dots": 5,
+   "phone": false
+  },
+  {
+   "n": 163,
+   "date": "2026-11-22",
+   "format": "SINGLE",
+   "market": "India",
+   "category": "GasStoveRepair",
+   "palette": "flame blue/copper/cream",
+   "fonts": "Lora + Open Sans",
+   "layout": "top-down copper toolbox with part compartments (low stock highlighted) + phone visit list with in box/not in box chips",
+   "dots": 1,
+   "phone": true
+  },
+  {
+   "n": 164,
+   "date": "2026-11-22",
+   "format": "SINGLE",
+   "market": "USA",
+   "category": "CarpetCleaning",
+   "palette": "soft mint/charcoal/tangerine",
+   "fonts": "Cardo + DM Sans",
+   "layout": "top-down SVG floor plan with tapped rooms in a carpet stripe pattern + stairs strip + dark quote request card",
+   "dots": 3,
+   "phone": false
+  },
+  {
+   "n": 165,
+   "date": "2026-11-22",
+   "format": "SINGLE",
+   "market": "India",
+   "category": "TshirtPrinting",
+   "palette": "raspberry/off-white/ink",
+   "fonts": "TeX Gyre Adventor + Inter",
+   "layout": "SVG tee with dashed print area card + colour x size quantity matrix with totals + proof v1/v2 strip",
+   "dots": 4,
+   "phone": false
   }
  ],
  "recent_fonts": [
-  "Lora + Open Sans",
-  "Poppins + Inter",
-  "TeX Gyre Adventor + Source Sans 3",
-  "Crimson Text + Poppins",
-  "Bitter + Poppins",
   "Anton + Roboto",
   "Cardo + Montserrat",
   "Crimson Text + Inter",
@@ -2035,14 +2075,14 @@
   "Gelasio + Poppins",
   "Montserrat + Roboto",
   "Archivo Black + Inter",
-  "TeX Gyre Adventor + DM Sans"
+  "TeX Gyre Adventor + DM Sans",
+  "Archivo Black + Source Sans 3",
+  "Poppins + Fira Sans",
+  "Lora + Open Sans",
+  "Cardo + DM Sans",
+  "TeX Gyre Adventor + Inter"
  ],
  "recent_layouts": [
-  "Saturday matrix (every 2027 Saturday as status dot), browser spaces by date with SVG thumbs, tour slot day list, run sheet timeline + stat cards, dot panel CTA",
-  "SVG floor plan with camera field-of-view wedges + quote card without prices",
-  "site tile matrix with post dots, roster table, phone check-in + alert cards, QR checkpoint rail with missed scan, icon tiles + report bar",
-  "class time chips + top-down studio seat map of reformers + class pack bar",
-  "browser bento-grid portfolio with CSS project art + invoice status strip",
   "parts bin wall with label cards + search result with godown/rack/bin rows",
   "building facade availability grid (floor x flat), browser flat page with SVG plan, stage tiles tracker, monthly SVG build thumbnails + progress bar",
   "SVG tiered drip cake preview panel + option-chip order form",
@@ -2062,14 +2102,14 @@
   "clothes rail with SVG outfits on hangers + hang tags + per-outfit month calendar (booked/fitting/cleaning)",
   "rack of vertical skis with length labels (free/reserved/this booking) + reservation field card",
   "SVG genset with digital hour meter + 3 stacked stat cards + site table with service-due bars",
-  "level staircase bars with ready flags, attendance square rows per batch, score card bars + side tip cards, phone practice app, rising steps CTA"
+  "level staircase bars with ready flags, attendance square rows per batch, score card bars + side tip cards, phone practice app, rising steps CTA",
+  "SVG stack of nested plastic chairs in a godown panel + per-event out/back challan cards with short/all back/still out chips",
+  "SVG sectional garage door with bent panel + alert card, browser problem-tile picker form, tall SVG street map with numbered pins + job list, job card with parts and before/after door drawings, text thread + side cards, door + tiles CTA",
+  "top-down copper toolbox with part compartments (low stock highlighted) + phone visit list with in box/not in box chips",
+  "top-down SVG floor plan with tapped rooms in a carpet stripe pattern + stairs strip + dark quote request card",
+  "SVG tee with dashed print area card + colour x size quantity matrix with totals + proof v1/v2 strip"
  ],
  "used_hashtag_sets": [
-  "#eggsupplier #poultrybusiness #eggdistributor #deliveryroute",
-  "#surattextile #textilewholesaler #fabricwholesale #textilebusiness #clothmarket",
-  "#thriftstore #resaleshop #secondhandshop #thriftshopowner",
-  "#cargarage #carservicecentre #automobileworkshop #garagebusiness",
-  "#dryfruits #dryfruitsindia #giftboxes #corporategiftsindia",
   "#masalamanufacturer #spicesbusiness #foodmanufacturingindia #batchtracking",
   "#weddingplanner #weddingplanning #eventplannerlife #weddingplannerbusiness",
   "#tempobooking #minitruck #goodstransport #logisticsindia",
@@ -2124,7 +2164,12 @@
   "#bridalwearrental #lehengaonrent #rentaloutfits #bridalboutique",
   "#skirental #snowboardrental #skishop #skiseason",
   "#generatorrental #gensetrental #dieselgenerator #eventpower",
-  "#spokenenglish #englishclasses #englishinstitute #communicationskills"
+  "#spokenenglish #englishclasses #englishinstitute #communicationskills",
+  "#chairrental #tentandfurniture #eventrentals #rentalbusiness",
+  "#garagedoorrepair #garagedoorservice #homeservicebusiness #fieldservice #contractorlife",
+  "#gasstoverepair #gasstoveservice #kitchenappliancerepair #homeservicesindia",
+  "#carpetcleaning #carpetcleaningbusiness #cleaningbusinessowner #smallbusinessusa",
+  "#tshirtprinting #customtshirts #merchprinting #screenprinting #printingbusiness"
  ],
  "drive_index_at_post": 140
 }
