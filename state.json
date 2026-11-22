@@ -3,7 +3,7 @@
  "drive_index_sheet_id": "14v7og6KbDzqKiAXuJB5KfokQO5Iw0fS_A7lTI_hH5E8",
  "lock_until_utc": "2026-11-22T20:27:49Z",
  "last_run": "2026-11-22T18:37:35Z \u00b7 posts 201-210 made (batches 37-38), Drive 1-210 done, index sheet due at ~215",
- "next_post_no": 221,
+ "next_post_no": 226,
  "posts_done": [
   {
    "n": 1,
@@ -1764,11 +1764,51 @@
    "slides": 5,
    "market": "India",
    "category": "PickleBusiness"
+  },
+  {
+   "n": 221,
+   "dir": "posts/0221_SINGLE_India_HotelVegSupplier",
+   "format": "SINGLE",
+   "slides": 1,
+   "market": "India",
+   "category": "HotelVegSupplier"
+  },
+  {
+   "n": 222,
+   "dir": "posts/0222_SINGLE_India_ChimneyCleaning",
+   "format": "SINGLE",
+   "slides": 1,
+   "market": "India",
+   "category": "ChimneyCleaning"
+  },
+  {
+   "n": 223,
+   "dir": "posts/0223_SINGLE_USA_DogDaycare",
+   "format": "SINGLE",
+   "slides": 1,
+   "market": "USA",
+   "category": "DogDaycare"
+  },
+  {
+   "n": 224,
+   "dir": "posts/0224_CAROUSEL_India_TerraceGardenSetup",
+   "format": "CAROUSEL",
+   "slides": 5,
+   "market": "India",
+   "category": "TerraceGardenSetup"
+  },
+  {
+   "n": 225,
+   "dir": "posts/0225_SINGLE_India_SewingMachineRepair",
+   "format": "SINGLE",
+   "slides": 1,
+   "market": "India",
+   "category": "SewingMachineRepair"
   }
  ],
  "market_counts": {
-  "India": 154,
-  "Abroad": 66
+  "India": 158,
+  "Abroad": 67
  },
  "used_categories": [
   "Boutique",
@@ -1997,14 +2037,14 @@
   "CattleFeedDealer",
   "SofaMattressCleaning",
   "SmallManufacturer",
-  "PickleBusiness"
+  "PickleBusiness",
+  "HotelVegSupplier",
+  "ChimneyCleaning",
+  "DogDaycare",
+  "TerraceGardenSetup",
+  "SewingMachineRepair"
  ],
  "recent_palettes": [
-  "teal green/brass/cream",
-  "carbon/safety orange/fog",
-  "sage/ink/orange",
-  "banana yellow/leaf green/brown",
-  "ice blue/tire black/signal red",
   "deep indigo/frost white/sunrise yellow",
   "linen/terracotta/olive",
   "brick red/soot black/snow cream",
@@ -2024,7 +2064,12 @@
   "straw yellow/field green/soil brown",
   "foam aqua/deep navy/white",
   "blueprint blue/white/signal yellow",
-  "mustard/chilli red/jar green"
+  "mustard/chilli red/jar green",
+  "tomato red/leaf green/crate wood",
+  "brushed steel/ink blue/lime",
+  "grass green/sunny yellow/charcoal",
+  "sage white/basil green/sunset coral",
+  "mint/cherry red/black"
  ],
  "drive_files_done": [
   1,
@@ -2249,66 +2294,6 @@
   220
  ],
  "log": [
-  {
-   "n": 191,
-   "date": "2026-11-22",
-   "format": "SINGLE",
-   "market": "India",
-   "category": "BorewellDrilling",
-   "palette": "earth brown/water blue/off-white",
-   "fonts": "Archivo Black + Open Sans",
-   "layout": "SVG ground cross-section with depth ruler + drill line and water tag, dark borewell report card, rig week list",
-   "dots": 3,
-   "phone": false
-  },
-  {
-   "n": 192,
-   "date": "2026-11-22",
-   "format": "SINGLE",
-   "market": "India",
-   "category": "IceCreamParlour",
-   "palette": "strawberry pink/pistachio/plum",
-   "fonts": "Lora + DM Sans",
-   "layout": "diagonal clip-path before/after split: call note with question chips vs dark order form with drawn ice cream cups, centre badge",
-   "dots": 1,
-   "phone": false
-  },
-  {
-   "n": 193,
-   "date": "2026-11-22",
-   "format": "CAROUSEL",
-   "market": "USA",
-   "category": "ApplianceRepair",
-   "palette": "off-white/cobalt/amber",
-   "fonts": "Montserrat + Open Sans",
-   "layout": "staggered notification card stack with appliance icons, browser booking with appliance picker, parts board tied to jobs, vertical tech day timeline, appliance icon row + tiles CTA",
-   "dots": 4,
-   "phone": false
-  },
-  {
-   "n": 194,
-   "date": "2026-11-22",
-   "format": "SINGLE",
-   "market": "India",
-   "category": "WaterproofingContractor",
-   "palette": "storm grey/teal/white",
-   "fonts": "Bitter + Source Sans 3",
-   "layout": "top-down terrace plan SVG with numbered status points + dark point list with stage photo tags + teal report card",
-   "dots": 2,
-   "phone": false
-  },
-  {
-   "n": 195,
-   "date": "2026-11-22",
-   "format": "SINGLE",
-   "market": "India",
-   "category": "SelfDriveCarRental",
-   "palette": "black/racing red/silver",
-   "fonts": "Anton + Inter",
-   "layout": "pickup vs return dashboard fuel gauges with odometers + white trip summary with check chips",
-   "dots": 5,
-   "phone": false
-  },
   {
    "n": 196,
    "date": "2026-11-22",
@@ -2608,14 +2593,69 @@
    "layout": "big jar + chat bubbles, browser order page with jar size steppers, jar fill-level batch plan on a shelf, parcel labels with barcodes by zone, tile CTA",
    "dots": 1,
    "phone": false
+  },
+  {
+   "n": 221,
+   "date": "2026-11-22",
+   "format": "SINGLE",
+   "market": "India",
+   "category": "HotelVegSupplier",
+   "palette": "tomato red/leaf green/crate wood",
+   "fonts": "Archivo Black + Source Sans 3",
+   "layout": "weighing scale with crate + LCD readout beside asked vs weighed order list with check dots",
+   "dots": 3,
+   "phone": false
+  },
+  {
+   "n": 222,
+   "date": "2026-11-22",
+   "format": "SINGLE",
+   "market": "India",
+   "category": "ChimneyCleaning",
+   "palette": "brushed steel/ink blue/lime",
+   "fonts": "Poppins + Fira Sans",
+   "layout": "drawn chimney hood with 6 baffle filters showing grease level + AMC visit dots + booking phone",
+   "dots": 5,
+   "phone": true
+  },
+  {
+   "n": 223,
+   "date": "2026-11-22",
+   "format": "SINGLE",
+   "market": "USA",
+   "category": "DogDaycare",
+   "palette": "grass green/sunny yellow/charcoal",
+   "fonts": "TeX Gyre Adventor + Roboto",
+   "layout": "top-down play yard with fenced group zones and paw spots (filled vs dashed) + 3 capacity cards",
+   "dots": 2,
+   "phone": false
+  },
+  {
+   "n": 224,
+   "date": "2026-11-22",
+   "format": "CAROUSEL",
+   "market": "India",
+   "category": "TerraceGardenSetup",
+   "palette": "sage white/basil green/sunset coral",
+   "fonts": "Crimson Text + Inter",
+   "layout": "to-scale terrace plan (empty, sun zones, planter boxes), plant cards with leaves, month calendar + photo report, plan + 2x2 tiles CTA",
+   "dots": 4,
+   "phone": false
+  },
+  {
+   "n": 225,
+   "date": "2026-11-22",
+   "format": "SINGLE",
+   "market": "India",
+   "category": "SewingMachineRepair",
+   "palette": "mint/cherry red/black",
+   "fonts": "Bitter + Open Sans",
+   "layout": "side-view sewing machine with numbered tap hotspots + problems list + dark visit card with parts used",
+   "dots": 1,
+   "phone": false
   }
  ],
  "recent_fonts": [
-  "Cardo + Poppins",
-  "Archivo Black + DM Sans",
-  "Bitter + Fira Sans",
-  "Gelasio + Inter",
-  "Montserrat + Fira Sans",
   "Anton + DM Sans",
   "Crimson Text + Source Sans 3",
   "Gelasio + Fira Sans",
@@ -2635,14 +2675,14 @@
   "Fira Sans + Open Sans",
   "Poppins + Source Sans 3",
   "TeX Gyre Adventor + Open Sans",
-  "Lora + Roboto"
+  "Lora + Roboto",
+  "Archivo Black + Source Sans 3",
+  "Poppins + Fira Sans",
+  "TeX Gyre Adventor + Roboto",
+  "Crimson Text + Inter",
+  "Bitter + Open Sans"
  ],
  "recent_layouts": [
-  "call cards with Diary? tags, month calendar with brass coins for booked + dashed holds, team count tiles + route card, payment status list + team/client alert cards, numbered tiles CTA",
-  "SVG truck tyre with 6-segment progress ring + dark stage list + casing grid",
-  "SVG bicycle with hanging claim tag + dark repair queue rows + text note",
-  "2x2 chamber cards with louvred doors, banana hands tinted by ripening day, day dashes, dispatch date + truck order card",
-  "red-edged problem cards + tire stacks with tags, week slot grid, tire storage rack bay map, staggered text message cards, tire row + icon tiles CTA",
   "radial 12-hour clock dial with coloured delivery slot arcs + numbered pins + hands, round list rows with status, 3 horizontal stat cards",
   "torn paper slip with handwritten sizes + problem cards, 2x2 drawn windows with dimension lines, CSS fabric swatches + metres table, item x stage dot matrix + fitting card, big window + 4 tiles CTA",
   "drawn house with brick chimney + tag panel beside browser booking (ZIP check, service radio, day and time chips) + dark report chip bar",
@@ -2662,14 +2702,14 @@
   "top-down tractor + trolley load plan with sack grid coloured by village drop + drop cards + credit card",
   "booking card with drawn sofas (numbered cushions) and mattress as booked items + slot rail + 3 crew cards",
   "top-down production line on blueprint grid with order boxes at stations + browser order portal with stage bar",
-  "big jar + chat bubbles, browser order page with jar size steppers, jar fill-level batch plan on a shelf, parcel labels with barcodes by zone, tile CTA"
+  "big jar + chat bubbles, browser order page with jar size steppers, jar fill-level batch plan on a shelf, parcel labels with barcodes by zone, tile CTA",
+  "weighing scale with crate + LCD readout beside asked vs weighed order list with check dots",
+  "drawn chimney hood with 6 baffle filters showing grease level + AMC visit dots + booking phone",
+  "top-down play yard with fenced group zones and paw spots (filled vs dashed) + 3 capacity cards",
+  "to-scale terrace plan (empty, sun zones, planter boxes), plant cards with leaves, month calendar + photo report, plan + 2x2 tiles CTA",
+  "side-view sewing machine with numbered tap hotspots + problems list + dark visit card with parts used"
  ],
  "used_hashtag_sets": [
-  "#chairrental #tentandfurniture #eventrentals #rentalbusiness",
-  "#garagedoorrepair #garagedoorservice #homeservicebusiness #fieldservice #contractorlife",
-  "#gasstoverepair #gasstoveservice #kitchenappliancerepair #homeservicesindia",
-  "#carpetcleaning #carpetcleaningbusiness #cleaningbusinessowner #smallbusinessusa",
-  "#tshirtprinting #customtshirts #merchprinting #screenprinting #printingbusiness",
   "#scooterrental #bikerental #bikeonrent #tourismbusiness",
   "#windowcleaning #windowcleaningbusiness #routeplanning #homeservicepros",
   "#electricalshop #electricalgoods #electricalcontractor #shopkeeperlife",
@@ -2724,7 +2764,12 @@
   "#cattlefeed #animalfeed #feeddealer #dairyfarmingindia",
   "#sofacleaning #mattresscleaning #homecleaningservices #cleaningbusinessindia",
   "#manufacturing #metalfabrication #smallmanufacturer #canadianbusiness",
-  "#homemadepickle #achaar #homebusinessindia #homechef"
+  "#homemadepickle #achaar #homebusinessindia #homechef",
+  "#vegetablesupplier #horecasupply #freshvegetables #hotelsupplies",
+  "#chimneycleaning #kitchenchimney #homeservicesindia #amcservice",
+  "#dogdaycare #doggydaycare #petbusiness #dogsofusa",
+  "#terracegarden #kitchengarden #urbangardeningindia #gardeningservices",
+  "#sewingmachinerepair #sewingmachine #repairservice #tailoringindia"
  ],
  "drive_index_at_post": 215
 }
