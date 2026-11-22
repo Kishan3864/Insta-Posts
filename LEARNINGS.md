@@ -143,3 +143,7 @@
 - (b035) Labels inside an SVG cross-section must sit on the opposite side from callout tags (layer names left, tags right), or check_text flags OVERLAP.
 - (b035) Square plans in tall panels: stretch the plan's y coordinates (y × 1.5) and redraw the frame in the panel's aspect instead of meet-scaling; numbered points become bigger and the panel fills.
 - (b035) Dashboard gauges (arc + needle via cos/sin + odometer box) are a clean new hero for rental niches; derive every summary number from the two gauges (km difference, fuel difference, trip length from times).
+- (b036) CSS for a shared object (tire set tag) must live in the carousel base CSS, not in slide 1's css, or later slides show unstyled labels. Same rule as b024 for status classes.
+- (b036) Banana bunch drawn as rotated vertical fingers looked like a broom; a "hand" of 5 stacked crescent paths with a crown stub reads as bananas. Check organic objects in a 1:1 crop before saving.
+- (b036) Hook questions must all match the headline claim ("same date asked" → every call asks about a date). Lists with flex:1 rows in a tall card leave gaps; make lists flex:none with padded rows and give the spare height to the message/alert cards with bigger type.
+- (b036) Wide SVGs (bicycle) at width:100% eat the slide; cap their height (height:330px; width:auto) and give the rest to the data list. New techniques: tyre progress ring, chamber doors, tire storage bay map, month calendar with coin markers.

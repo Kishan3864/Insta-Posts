@@ -3,7 +3,7 @@
  "drive_index_sheet_id": "1coQdBJQWZqxgH_ihlDiBaigqYbBn9EE7YXo7UsrX1lk",
  "lock_until_utc": "2026-11-22T18:29:37Z",
  "last_run": "2026-11-22T15:43:02Z \u00b7 posts 161-180 made, Drive 1-180 done, index sheet refreshed at 165 (new id stored; old sheet 1Mjh6gj6... could not be trashed, permission denied, delete by hand)",
- "next_post_no": 196,
+ "next_post_no": 201,
  "posts_done": [
   {
    "n": 1,
@@ -1564,11 +1564,51 @@
    "slides": 1,
    "market": "India",
    "category": "SelfDriveCarRental"
+  },
+  {
+   "n": 196,
+   "dir": "posts/0196_CAROUSEL_India_WeddingBandDhol",
+   "format": "CAROUSEL",
+   "slides": 5,
+   "market": "India",
+   "category": "WeddingBandDhol"
+  },
+  {
+   "n": 197,
+   "dir": "posts/0197_SINGLE_India_TyreRetreading",
+   "format": "SINGLE",
+   "slides": 1,
+   "market": "India",
+   "category": "TyreRetreading"
+  },
+  {
+   "n": 198,
+   "dir": "posts/0198_SINGLE_USA_BikeRepairShop",
+   "format": "SINGLE",
+   "slides": 1,
+   "market": "USA",
+   "category": "BikeRepairShop"
+  },
+  {
+   "n": 199,
+   "dir": "posts/0199_SINGLE_India_BananaRipening",
+   "format": "SINGLE",
+   "slides": 1,
+   "market": "India",
+   "category": "BananaRipening"
+  },
+  {
+   "n": 200,
+   "dir": "posts/0200_CAROUSEL_Canada_WinterTireSwap",
+   "format": "CAROUSEL",
+   "slides": 5,
+   "market": "Canada",
+   "category": "WinterTireSwap"
   }
  ],
  "market_counts": {
-  "India": 137,
-  "Abroad": 58
+  "India": 140,
+  "Abroad": 60
  },
  "used_categories": [
   "Boutique",
@@ -1772,14 +1812,14 @@
   "IceCreamParlour",
   "ApplianceRepair",
   "WaterproofingContractor",
-  "SelfDriveCarRental"
+  "SelfDriveCarRental",
+  "WeddingBandDhol",
+  "TyreRetreading",
+  "BikeRepairShop",
+  "BananaRipening",
+  "WinterTireSwap"
  ],
  "recent_palettes": [
-  "walnut/linen/cobalt",
-  "midnight blue/sun gold/cloud white",
-  "aqua/hot coral/navy",
-  "porcelain/charcoal/leaf green",
-  "aubergine/peach/white",
   "kraft/ink black/tomato",
   "oxford navy/cream/burgundy",
   "deep blue/electric cyan/white",
@@ -1799,7 +1839,12 @@
   "strawberry pink/pistachio/plum",
   "off-white/cobalt/amber",
   "storm grey/teal/white",
-  "black/racing red/silver"
+  "black/racing red/silver",
+  "teal green/brass/cream",
+  "carbon/safety orange/fog",
+  "sage/ink/orange",
+  "banana yellow/leaf green/brown",
+  "ice blue/tire black/signal red"
  ],
  "drive_files_done": [
   1,
@@ -1994,66 +2039,6 @@
   190
  ],
  "log": [
-  {
-   "n": 166,
-   "date": "2026-11-22",
-   "format": "CAROUSEL",
-   "market": "India",
-   "category": "ScooterRental",
-   "palette": "deep teal/sunset orange/sand",
-   "fonts": "Montserrat + Inter",
-   "layout": "top-view scooter fleet board with status chips + stat row, paper pickup slip checklist, receipt-roll return list with side cards, scooter top view with numbered damage marks, 4 scooters + tiles CTA",
-   "dots": 3,
-   "phone": false
-  },
-  {
-   "n": 167,
-   "date": "2026-11-22",
-   "format": "SINGLE",
-   "market": "USA",
-   "category": "WindowCleaning",
-   "palette": "cornflower/lemon/white",
-   "fonts": "Bitter + Roboto",
-   "layout": "big window whose 6 panes are route days (clean = done, streaked = to do, dashed make-up day) + recurring cycle cards",
-   "dots": 1,
-   "phone": false
-  },
-  {
-   "n": 168,
-   "date": "2026-11-22",
-   "format": "SINGLE",
-   "market": "India",
-   "category": "ElectricalShop",
-   "palette": "electric yellow/charcoal/paper",
-   "fonts": "Anton + Open Sans",
-   "layout": "receipt roll of counter slips tagged by contractor + dark contractor account cards",
-   "dots": 5,
-   "phone": false
-  },
-  {
-   "n": 169,
-   "date": "2026-11-22",
-   "format": "CAROUSEL",
-   "market": "USA",
-   "category": "HomeOrganizer",
-   "palette": "blush/olive/cream",
-   "fonts": "Crimson Text + Poppins",
-   "layout": "SVG closet plan with labelled bins + stat column, browser booking form with chips, vertical session stepper, shopping list with size swatches, closet + tiles CTA",
-   "dots": 2,
-   "phone": false
-  },
-  {
-   "n": 170,
-   "date": "2026-11-22",
-   "format": "SINGLE",
-   "market": "India",
-   "category": "MobileAccessoriesWholesale",
-   "palette": "deep purple/mint/white",
-   "fonts": "Fira Sans + Roboto",
-   "layout": "tablet dealer catalogue with SVG product drawings + stock dot tags + order bar",
-   "dots": 4,
-   "phone": false
-  },
   {
    "n": 171,
    "date": "2026-11-22",
@@ -2353,14 +2338,69 @@
    "layout": "pickup vs return dashboard fuel gauges with odometers + white trip summary with check chips",
    "dots": 5,
    "phone": false
+  },
+  {
+   "n": 196,
+   "date": "2026-11-22",
+   "format": "CAROUSEL",
+   "market": "India",
+   "category": "WeddingBandDhol",
+   "palette": "teal green/brass/cream",
+   "fonts": "Cardo + Poppins",
+   "layout": "call cards with Diary? tags, month calendar with brass coins for booked + dashed holds, team count tiles + route card, payment status list + team/client alert cards, numbered tiles CTA",
+   "dots": 2,
+   "phone": false
+  },
+  {
+   "n": 197,
+   "date": "2026-11-22",
+   "format": "SINGLE",
+   "market": "India",
+   "category": "TyreRetreading",
+   "palette": "carbon/safety orange/fog",
+   "fonts": "Archivo Black + DM Sans",
+   "layout": "SVG truck tyre with 6-segment progress ring + dark stage list + casing grid",
+   "dots": 4,
+   "phone": false
+  },
+  {
+   "n": 198,
+   "date": "2026-11-22",
+   "format": "SINGLE",
+   "market": "USA",
+   "category": "BikeRepairShop",
+   "palette": "sage/ink/orange",
+   "fonts": "Bitter + Fira Sans",
+   "layout": "SVG bicycle with hanging claim tag + dark repair queue rows + text note",
+   "dots": 1,
+   "phone": false
+  },
+  {
+   "n": 199,
+   "date": "2026-11-22",
+   "format": "SINGLE",
+   "market": "India",
+   "category": "BananaRipening",
+   "palette": "banana yellow/leaf green/brown",
+   "fonts": "Gelasio + Inter",
+   "layout": "2x2 chamber cards with louvred doors, banana hands tinted by ripening day, day dashes, dispatch date + truck order card",
+   "dots": 3,
+   "phone": false
+  },
+  {
+   "n": 200,
+   "date": "2026-11-22",
+   "format": "CAROUSEL",
+   "market": "Canada",
+   "category": "WinterTireSwap",
+   "palette": "ice blue/tire black/signal red",
+   "fonts": "Montserrat + Fira Sans",
+   "layout": "red-edged problem cards + tire stacks with tags, week slot grid, tire storage rack bay map, staggered text message cards, tire row + icon tiles CTA",
+   "dots": 5,
+   "phone": false
   }
  ],
  "recent_fonts": [
-  "Gelasio + DM Sans",
-  "Archivo Black + Roboto",
-  "Montserrat + Source Sans 3",
-  "Bitter + Inter",
-  "Cardo + Inter",
   "Poppins + Fira Sans",
   "Lora + Source Sans 3",
   "TeX Gyre Adventor + Roboto",
@@ -2380,14 +2420,14 @@
   "Lora + DM Sans",
   "Montserrat + Open Sans",
   "Bitter + Source Sans 3",
-  "Anton + Inter"
+  "Anton + Inter",
+  "Cardo + Poppins",
+  "Archivo Black + DM Sans",
+  "Bitter + Fira Sans",
+  "Gelasio + Inter",
+  "Montserrat + Fira Sans"
  ],
  "recent_layouts": [
-  "split owner view card vs customer phone joined by a dashed cobalt seam, drawn furniture icons",
-  "SVG rooftop solar heater + stat row, lined paper survey form with tick dots + photo chips, crew install week rows, service progress rings list, rooftop + tiles CTA",
-  "hexagon zone map with wash day per zone + dark ZIP slot picker bar",
-  "tiled bathroom wall elevation SVG with numbered fitting points by status + site list",
-  "vertical run-sheet time rail with now dot, vendor cards with rubber stamps, 3 team checklist columns, browser client page with progress bar, big icon tiles CTA",
   "SVG label roll unrolling into printed labels + ticket-stub job card with perforated dispatch stub and stage punches",
   "missed call vs booked list, browser intake form with topic chips, week slot grid court/consult/open/selected, document checklist with upload buttons, legal pad CTA",
   "appliance toggle-switch grid with counts + segmented load bar + result cards",
@@ -2407,14 +2447,14 @@
   "diagonal clip-path before/after split: call note with question chips vs dark order form with drawn ice cream cups, centre badge",
   "staggered notification card stack with appliance icons, browser booking with appliance picker, parts board tied to jobs, vertical tech day timeline, appliance icon row + tiles CTA",
   "top-down terrace plan SVG with numbered status points + dark point list with stage photo tags + teal report card",
-  "pickup vs return dashboard fuel gauges with odometers + white trip summary with check chips"
+  "pickup vs return dashboard fuel gauges with odometers + white trip summary with check chips",
+  "call cards with Diary? tags, month calendar with brass coins for booked + dashed holds, team count tiles + route card, payment status list + team/client alert cards, numbered tiles CTA",
+  "SVG truck tyre with 6-segment progress ring + dark stage list + casing grid",
+  "SVG bicycle with hanging claim tag + dark repair queue rows + text note",
+  "2x2 chamber cards with louvred doors, banana hands tinted by ripening day, day dashes, dispatch date + truck order card",
+  "red-edged problem cards + tire stacks with tags, week slot grid, tire storage rack bay map, staggered text message cards, tire row + icon tiles CTA"
  ],
  "used_hashtag_sets": [
-  "#eventvenue #weddingvenue #venuemanager #eventplanningusa",
-  "#cctvinstallation #cctvcamera #securitysystems #cctvindia",
-  "#securityagency #securityguards #securityservices #manpowerindia",
-  "#pilatesstudio #reformerpilates #studioowner #torontopilates",
-  "#freelancerindia #portfoliowebsite #freelancedesigner #freelancelife",
   "#autoparts #spareparts #autopartsdealer #bikeparts",
   "#builders #realestateindia #flatsforsale #constructionindia",
   "#cakeshop #customcakes #bakerybusiness #cakeorders",
@@ -2469,7 +2509,12 @@
   "#icecreamparlour #icecreamshop #partyorders #dessertshopindia",
   "#appliancerepair #appliancerepairservice #homeappliancerepair #fieldservice",
   "#waterproofing #waterproofingcontractor #terracewaterproofing #leakagesolution",
-  "#selfdrivecars #carrental #selfdrivecarrental #rentalbusinessindia"
+  "#selfdrivecars #carrental #selfdrivecarrental #rentalbusinessindia",
+  "#weddingband #dholplayers #brassband #weddingbandbooking",
+  "#tyreretreading #retreadtyres #truckowners #tyrebusiness",
+  "#bikeshop #bikerepair #bicycleshop #bikemechanic",
+  "#bananaripening #ripeningchamber #fruitwholesale #bananabusiness",
+  "#wintertires #tireswap #tireshop #canadianbusiness"
  ],
  "drive_index_at_post": 190
 }
