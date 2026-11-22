@@ -1,9 +1,9 @@
 {
  "drive_folder_id": "1OZvW8MCiA-_SSNn5_9g3o8k5sMyHUcxE",
  "drive_index_sheet_id": "1cCLssLf0NAU-Lgdr8suSQO0cAsyc5jQJRge0O2i-Nd8",
- "lock_until_utc": "2026-11-22T08:41:08Z",
+ "lock_until_utc": "2026-11-22T08:44:04Z",
  "last_run": "2026-11-22T07:50:36Z \u00b7 posts 21-40 made, Drive 1-40 done",
- "next_post_no": 41,
+ "next_post_no": 46,
  "posts_done": [
   {
    "n": 1,
@@ -324,11 +324,51 @@
    "slides": 1,
    "market": "India",
    "category": "YogaStudio"
+  },
+  {
+   "n": 41,
+   "dir": "posts/0041_SINGLE_India_DJSoundRental",
+   "format": "SINGLE",
+   "slides": 1,
+   "market": "India",
+   "category": "DJSoundRental"
+  },
+  {
+   "n": 42,
+   "dir": "posts/0042_CAROUSEL_India_MakeupArtist",
+   "format": "CAROUSEL",
+   "slides": 6,
+   "market": "India",
+   "category": "MakeupArtist"
+  },
+  {
+   "n": 43,
+   "dir": "posts/0043_SINGLE_USA_AutoDetailing",
+   "format": "SINGLE",
+   "slides": 1,
+   "market": "USA",
+   "category": "AutoDetailing"
+  },
+  {
+   "n": 44,
+   "dir": "posts/0044_CAROUSEL_Canada_PaintingContractor",
+   "format": "CAROUSEL",
+   "slides": 5,
+   "market": "Canada",
+   "category": "PaintingContractor"
+  },
+  {
+   "n": 45,
+   "dir": "posts/0045_SINGLE_India_JuiceBar",
+   "format": "SINGLE",
+   "slides": 1,
+   "market": "India",
+   "category": "JuiceBar"
   }
  ],
  "market_counts": {
-  "India": 28,
-  "Abroad": 12
+  "India": 31,
+  "Abroad": 14
  },
  "used_categories": [
   "Boutique",
@@ -377,14 +417,14 @@
   "MehendiArtist",
   "BarberShop",
   "Roofing",
-  "YogaStudio"
+  "YogaStudio",
+  "DJSoundRental",
+  "MakeupArtist",
+  "AutoDetailing",
+  "PaintingContractor",
+  "JuiceBar"
  ],
  "recent_palettes": [
-  "lavender/coral",
-  "aqua/white",
-  "charcoal/red",
-  "espresso/latte",
-  "grass/sky",
   "kraft paper/ink blue/red pencil",
   "milk white/cobalt/lime",
   "deep green/turmeric",
@@ -404,7 +444,12 @@
   "henna orange/olive/blush",
   "cream/navy/barber red",
   "charcoal/sky/shingle brown",
-  "sage/charcoal/peach"
+  "sage/charcoal/peach",
+  "ink black/hot orange/warm white",
+  "black/champagne/dusty pink",
+  "graphite/cyan glow",
+  "white/paint swatch strip",
+  "mango/leaf/cream"
  ],
  "drive_files_done": [
   1,
@@ -688,6 +733,66 @@
    "layout": "zigzag receipt slip",
    "dots": 2,
    "phone": false
+  },
+  {
+   "n": 41,
+   "date": "2026-11-22",
+   "format": "SINGLE",
+   "market": "India",
+   "category": "DJSoundRental",
+   "palette": "ink black/hot orange/warm white",
+   "fonts": "Montserrat + Inter + Gelasio",
+   "layout": "before/after slider handle",
+   "dots": 4,
+   "phone": false
+  },
+  {
+   "n": 42,
+   "date": "2026-11-22",
+   "format": "CAROUSEL",
+   "market": "India",
+   "category": "MakeupArtist",
+   "palette": "black/champagne/dusty pink",
+   "fonts": "Cardo + Poppins",
+   "layout": "mistakes list (mistake + fix)",
+   "dots": 1,
+   "phone": false
+  },
+  {
+   "n": 43,
+   "date": "2026-11-22",
+   "format": "SINGLE",
+   "market": "USA",
+   "category": "AutoDetailing",
+   "palette": "graphite/cyan glow",
+   "fonts": "Fira Sans",
+   "layout": "dark-mode KPI dashboard",
+   "dots": 3,
+   "phone": false
+  },
+  {
+   "n": 44,
+   "date": "2026-11-22",
+   "format": "CAROUSEL",
+   "market": "Canada",
+   "category": "PaintingContractor",
+   "palette": "white/paint swatch strip",
+   "fonts": "Gelasio + DM Sans",
+   "layout": "paint-chip markers + roller stroke",
+   "dots": 5,
+   "phone": false
+  },
+  {
+   "n": 45,
+   "date": "2026-11-22",
+   "format": "SINGLE",
+   "market": "India",
+   "category": "JuiceBar",
+   "palette": "mango/leaf/cream",
+   "fonts": "TeX Gyre Adventor + Open Sans",
+   "layout": "paper pile vs tablet card",
+   "dots": 2,
+   "phone": false
   }
  ],
  "recent_fonts": [
@@ -710,7 +815,12 @@
   "Gelasio + Poppins",
   "TeX Gyre Heros Cn + Inter",
   "Poppins + Source Sans 3",
-  "Crimson Text + DM Sans"
+  "Crimson Text + DM Sans",
+  "Montserrat + Inter + Gelasio",
+  "Cardo + Poppins",
+  "Fira Sans",
+  "Gelasio + DM Sans",
+  "TeX Gyre Adventor + Open Sans"
  ],
  "recent_layouts": [
   "notebook vs ledger carousel",
@@ -732,7 +842,12 @@
   "arch frames + CSS motif pattern",
   "wall TV queue display + phone",
   "questions before you build, big Q numbers",
-  "zigzag receipt slip"
+  "zigzag receipt slip",
+  "before/after slider handle",
+  "mistakes list (mistake + fix)",
+  "dark-mode KPI dashboard",
+  "paint-chip markers + roller stroke",
+  "paper pile vs tablet card"
  ],
  "used_hashtag_sets": [
   "#kiranastore #udhaar #kiranashop #retailindia #shopowners",
@@ -754,7 +869,12 @@
   "#mehendiartist #mehndidesign #bridalmehendi #mehendibusiness #hennaartist",
   "#barbershop #barberindia #salonbusiness #mensalon #queuemanagement",
   "#roofingcontractor #roofingbusiness #roofer #roofingcompany",
-  "#yogastudio #yogateacher #yogastudioowner #fitnessbusinessindia"
+  "#yogastudio #yogateacher #yogastudioowner #fitnessbusinessindia",
+  "#djsetup #soundrental #eventequipment #djbusiness #lightandsound",
+  "#makeupartist #bridalmakeupartist #muaindia #makeupbusiness",
+  "#autodetailing #cardetailing #mobiledetailing #detailingbusiness",
+  "#paintingcontractor #housepainter #paintingbusiness #canadacontractor",
+  "#juicebar #juiceshop #shakes #cafeownerindia #loyaltyprogram"
  ],
  "drive_index_at_post": 40
 }

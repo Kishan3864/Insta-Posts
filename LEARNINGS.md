@@ -21,3 +21,7 @@
 - (b004) Pure-CSS "henna" rings looked like tree rings. Small repeated motifs (dot + ring + conic rays, 64px tile, masked by the skin colour) read as a pattern; prefer tiled motifs over one big radial.
 - (b004) 3D tilt (perspective + rotateX 24deg) on a data board passed check_text/check_gfx cleanly and added depth; pair it with a flat answer card overlapping the bottom edge.
 - (b004) Next to try: a real before/after slider handle, a stacked "paper pile vs one app" isometric, and a dark-mode dashboard single for a US niche.
+- (b005) Before/after slider (two halves + orange divider + round handle) is a strong scroll-stopper for "paper vs app" topics; keep both halves with the same row count so rows line up across the handle.
+- (b005) Dark dashboards: keep sample numbers internally consistent (bar chart days add up to the weekly KPI) and label tiles "sample". Use grid rows like auto 1.5fr .6fr so short rows don't become empty tiles.
+- (b005) Overlapping rotated paper cards passed checks when each card is absolutely positioned inside an overflow:hidden box; good for "pile of paper" visuals.
+- (b005) Next: isometric shelf/stock illustration for a retail niche, a map-route single for an Indian cab operator, and a split-screen chat vs form comparison.
