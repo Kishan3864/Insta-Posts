@@ -3,7 +3,7 @@
  "drive_index_sheet_id": "1xFLY19Eqz0Nns5J6UVxomG2DnBAv_kkqnKLf0H6TGvY",
  "lock_until_utc": "2026-11-22T22:22:51Z",
  "last_run": "2026-11-22T20:54:12Z \u00b7 posts 226-250 made (batches 42-46), Drive 1-250 done, index sheet refreshed at 240 (old sheet could not be trashed: permission denied, id kept in old_index_sheets_to_trash)",
- "next_post_no": 256,
+ "next_post_no": 261,
  "posts_done": [
   {
    "n": 1,
@@ -2044,11 +2044,51 @@
    "slides": 1,
    "market": "India",
    "category": "FabricStore"
+  },
+  {
+   "n": 256,
+   "dir": "posts/0256_SINGLE_India_ScreenGuardKiosk",
+   "format": "SINGLE",
+   "slides": 1,
+   "market": "India",
+   "category": "ScreenGuardKiosk"
+  },
+  {
+   "n": 257,
+   "dir": "posts/0257_CAROUSEL_USA_PianoTuner",
+   "format": "CAROUSEL",
+   "slides": 5,
+   "market": "USA",
+   "category": "PianoTuner"
+  },
+  {
+   "n": 258,
+   "dir": "posts/0258_SINGLE_India_StoneCutter",
+   "format": "SINGLE",
+   "slides": 1,
+   "market": "India",
+   "category": "StoneCutter"
+  },
+  {
+   "n": 259,
+   "dir": "posts/0259_SINGLE_India_MotorRewinding",
+   "format": "SINGLE",
+   "slides": 1,
+   "market": "India",
+   "category": "MotorRewinding"
+  },
+  {
+   "n": 260,
+   "dir": "posts/0260_SINGLE_Canada_DeckBuilder",
+   "format": "SINGLE",
+   "slides": 1,
+   "market": "Canada",
+   "category": "DeckBuilder"
   }
  ],
  "market_counts": {
-  "India": 179,
-  "Abroad": 76
+  "India": 182,
+  "Abroad": 78
  },
  "used_categories": [
   "Boutique",
@@ -2312,14 +2352,14 @@
   "TexturePainting",
   "MovingLabor",
   "SeniorComputerClasses",
-  "FabricStore"
+  "FabricStore",
+  "ScreenGuardKiosk",
+  "PianoTuner",
+  "StoneCutter",
+  "MotorRewinding",
+  "DeckBuilder"
  ],
  "recent_palettes": [
-  "wax beige/charcoal/lavender",
-  "appliance white/steel teal/tangerine",
-  "notebook blue/highlighter yellow/white",
-  "dusty rose/oak/navy",
-  "tamarind brown/mint green/turmeric",
   "aqua teal/concrete/sunflower",
   "cedar orange/charcoal/pale sage",
   "coral/teal/sand",
@@ -2339,7 +2379,12 @@
   "terracotta/sand/charcoal",
   "kraft tan/forest green/marigold",
   "chalk green/cream/tomato",
-  "plum velvet/mustard/linen"
+  "plum velvet/mustard/linen",
+  "pegboard tan/electric violet/black",
+  "ebony/ivory/brass",
+  "marble white/granite black/copper",
+  "copper orange/workshop blue/tag cream",
+  "lake blue/cedar/pine green"
  ],
  "drive_files_done": [
   1,
@@ -2599,66 +2644,6 @@
   255
  ],
  "log": [
-  {
-   "n": 226,
-   "date": "2026-11-22",
-   "format": "SINGLE",
-   "market": "India",
-   "category": "FireExtinguisherRefill",
-   "palette": "extinguisher red/graphite/pale lemon",
-   "fonts": "Montserrat + Roboto",
-   "layout": "wall rail of 6 drawn cylinders with gauge needles + hanging due tags + dark site summary + reminder message with visit days",
-   "dots": 3,
-   "phone": false
-  },
-  {
-   "n": 227,
-   "date": "2026-11-22",
-   "format": "CAROUSEL",
-   "market": "India",
-   "category": "BangleWholesaler",
-   "palette": "magenta/emerald/ivory",
-   "fonts": "Cardo + Inter",
-   "layout": "bangle rods (stacked ellipses) + vague chat bubbles, browser colour list with drawn bangle pairs, colour x size dozen heatmap, packing boxes + dispatch board by town, rods + 4 tiles CTA",
-   "dots": 5,
-   "phone": false
-  },
-  {
-   "n": 228,
-   "date": "2026-11-22",
-   "format": "SINGLE",
-   "market": "Canada",
-   "category": "GutterCleaning",
-   "palette": "slate roof/autumn orange/sky white",
-   "fonts": "Anton + Source Sans 3",
-   "layout": "street of 5 house elevations with leaf-filled vs clean gutters + numbered route + status chips + before/after photo card",
-   "dots": 2,
-   "phone": false
-  },
-  {
-   "n": 229,
-   "date": "2026-11-22",
-   "format": "SINGLE",
-   "market": "India",
-   "category": "PunctureVan",
-   "palette": "rubber black/safety orange/concrete",
-   "fonts": "DM Sans + Fira Sans",
-   "layout": "van stock as tube rings with reorder flag + job log + phone booking with drawn location map",
-   "dots": 4,
-   "phone": true
-  },
-  {
-   "n": 230,
-   "date": "2026-11-22",
-   "format": "SINGLE",
-   "market": "India",
-   "category": "UsedBookSeller",
-   "palette": "paper cream/library green/oxblood",
-   "fonts": "Lora + Open Sans",
-   "layout": "wooden bookshelf of vertical-text spines with found spine outlined + browser search results with shelf spots",
-   "dots": 1,
-   "phone": false
-  },
   {
    "n": 231,
    "date": "2026-11-22",
@@ -2958,14 +2943,69 @@
    "layout": "fabric swatches hanging from a brass rail with CSS weaves + measurement order + total cloth cards",
    "dots": 4,
    "phone": false
+  },
+  {
+   "n": 256,
+   "date": "2026-11-22",
+   "format": "SINGLE",
+   "market": "India",
+   "category": "ScreenGuardKiosk",
+   "palette": "pegboard tan/electric violet/black",
+   "fonts": "Anton + Poppins",
+   "layout": "pegboard wall of guard packets by screen size with count badges + dark token queue + low stock card",
+   "dots": 3,
+   "phone": false
+  },
+  {
+   "n": 257,
+   "date": "2026-11-22",
+   "format": "CAROUSEL",
+   "market": "USA",
+   "category": "PianoTuner",
+   "palette": "ebony/ivory/brass",
+   "fonts": "Gelasio + DM Sans",
+   "layout": "CSS piano keyboard hook with quote, client cards with mini keyboards + due chips, town map with route-day zone + stop list, phone booking page + side cards, keyboard + tiles CTA",
+   "dots": 2,
+   "phone": true
+  },
+  {
+   "n": 258,
+   "date": "2026-11-22",
+   "format": "SINGLE",
+   "market": "India",
+   "category": "StoneCutter",
+   "palette": "marble white/granite black/copper",
+   "fonts": "Bitter + Inter",
+   "layout": "top-down slab to scale with nested cut pieces and hatched offcut + pieces list + dark slab rack",
+   "dots": 5,
+   "phone": false
+  },
+  {
+   "n": 259,
+   "date": "2026-11-22",
+   "format": "SINGLE",
+   "market": "India",
+   "category": "MotorRewinding",
+   "palette": "copper orange/workshop blue/tag cream",
+   "fonts": "Montserrat + Fira Sans",
+   "layout": "6 clip-path paper job tags on a rail with promised date and status punch + message note",
+   "dots": 1,
+   "phone": false
+  },
+  {
+   "n": 260,
+   "date": "2026-11-22",
+   "format": "SINGLE",
+   "market": "Canada",
+   "category": "DeckBuilder",
+   "palette": "lake blue/cedar/pine green",
+   "fonts": "Archivo Black + Open Sans",
+   "layout": "top-down backyard plan with board-grain deck, steps, lake and dock + picks with swatches + site visit card",
+   "dots": 4,
+   "phone": false
   }
  ],
  "recent_fonts": [
-  "Gelasio + Inter",
-  "Archivo Black + Inter",
-  "Bitter + Roboto",
-  "Lora + DM Sans",
-  "TeX Gyre Adventor + Source Sans 3",
   "Poppins + Inter",
   "Montserrat + Source Sans 3",
   "Cardo + Fira Sans",
@@ -2985,14 +3025,14 @@
   "Cardo + Open Sans",
   "TeX Gyre Adventor + Roboto",
   "Crimson Text + Poppins",
-  "Lora + Montserrat"
+  "Lora + Montserrat",
+  "Anton + Poppins",
+  "Gelasio + DM Sans",
+  "Bitter + Inter",
+  "Montserrat + Fira Sans",
+  "Archivo Black + Open Sans"
  ],
  "recent_layouts": [
-  "big candle jar + lined notebook, batch card tiles + 7-day cure strip, curing rack shelves with days-left badges, orders matched to batches + stat row, jars + 4 tiles CTA",
-  "measured laundry nook elevation with dimension tags + install checklist + dark haul-away list with slots",
-  "clipboard with metal clip holding repeat order list (drawn items, Nov vs Dec qty) + delivery days card",
-  "living room scene with lot tags, browser lot catalogue, top-down house map with lot ranges + path, holds and pickups list, icons + tiles CTA",
-  "row of 5 drawn food carts with sold/back bars + out/back/sold table",
   "building section with roof tanks + sump showing sediment by status + tank list + dark message card",
   "top-down backyard with customer-drawn fence runs in ft + gates + dark quote request form",
   "day ribbon with travel hatch, slots by area + phone, route map with numbered stops, open kit bag compartments, 4 big tiles CTA",
@@ -3012,14 +3052,14 @@
   "6 CSS texture swatches hook, tablet catalogue, measured wall minus window maths, wall-by-wall quote doc, site days list with photo status, swatches + tiles CTA",
   "room-by-room item counter with box tallies + dark crew plan card with rule and load/drive/unload time bar",
   "CSS keyboard with lesson keys lit + batch seat dots + lined practice sheet",
-  "fabric swatches hanging from a brass rail with CSS weaves + measurement order + total cloth cards"
+  "fabric swatches hanging from a brass rail with CSS weaves + measurement order + total cloth cards",
+  "pegboard wall of guard packets by screen size with count badges + dark token queue + low stock card",
+  "CSS piano keyboard hook with quote, client cards with mini keyboards + due chips, town map with route-day zone + stop list, phone booking page + side cards, keyboard + tiles CTA",
+  "top-down slab to scale with nested cut pieces and hatched offcut + pieces list + dark slab rack",
+  "6 clip-path paper job tags on a rail with promised date and status punch + message note",
+  "top-down backyard plan with board-grain deck, steps, lake and dock + picks with swatches + site visit card"
  ],
  "used_hashtag_sets": [
-  "#weddingband #dholplayers #brassband #weddingbandbooking",
-  "#tyreretreading #retreadtyres #truckowners #tyrebusiness",
-  "#bikeshop #bikerepair #bicycleshop #bikemechanic",
-  "#bananaripening #ripeningchamber #fruitwholesale #bananabusiness",
-  "#wintertires #tireswap #tireshop #canadianbusiness",
   "#icefactory #iceblocks #icesupplier #smallbusinessindia",
   "#curtainshop #blindsandcurtains #homefurnishing #curtainstitching #interiorsindia",
   "#chimneysweep #chimneycleaning #fireplaceservice #smallbusinessusa",
@@ -3074,7 +3114,12 @@
   "#texturepainting #wallpainting #interiorpainting #paintingcontractor #homedecorindia",
   "#movinglabor #movingservices #movinghelp #smallbusinessusa",
   "#computerclasses #seniorlearners #digitalliteracy #trainingcentreindia",
-  "#sofafabric #curtainfabric #upholsteryfabric #homefurnishing"
+  "#sofafabric #curtainfabric #upholsteryfabric #homefurnishing",
+  "#screenguard #mobileaccessories #temperedglass #mobileshopindia",
+  "#pianotuner #pianotuning #pianotechnician #smallbusinessowner",
+  "#granite #marble #stonecutting #marbledealer #constructionindia",
+  "#motorrewinding #electricmotor #motorrepair #workshopindia",
+  "#deckbuilder #deckdesign #dockbuilder #canadacontractor"
  ],
  "drive_index_at_post": 240,
  "old_index_sheets_to_trash": [
