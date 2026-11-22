@@ -287,3 +287,38 @@ US | Moving labor only (load/unload) | hourly crew booking, item list
 US | Garage floor coating | measurement quote, colour chips
 US | Fence installer | linear feet quote form, gate options
 US | Lawn aeration (seasonal) | route by neighbourhood, booking window
+IN | Mobile phone screen guard kiosk | stock by phone size, fitting queue
+IN | Hardware tool rental (drills, ladders) | items out, return times, deposits
+IN | Scrap-free e-waste collector | pickup booking by item, weight slips
+IN | Wedding tent lighting contractor | light sets per event, crew, setup times
+IN | Rangoli-free floor sticker printer | size orders, proof approval
+IN | Wall putty and POP contractor | room-wise area, coats, site days
+IN | False ceiling contractor | room sizes, design picks, material list
+IN | Granite and marble cutter | slab stock by size, cut orders
+IN | Aluminium window maker (sliding) | window list per flat, glass type, dispatch
+IN | Electric motor rewinding shop | job tags, parts, ready date
+IN | Pump and motor dealer | site details, install date, service calls
+IN | Car seat cover maker | car model fitting slots, fabric choice
+IN | Bicycle shop | service bookings, parts stock
+IN | Uniform-free tailoring for offices (blazers) | size sheets, trial dates
+IN | Saree fall and pico service | piece tickets, ready time
+IN | Home chef (party orders) | menu, headcount, date slots
+IN | Paneer and dairy products maker | shop orders by kg, daily dispatch
+IN | Mushroom grower | harvest plan, buyer orders
+IN | Honey seller (farm) | batch, jar sizes, online orders
+IN | Bamboo and cane furniture maker | design catalogue, made-to-order status
+IN | Sign board painter | job sheet, size, text proof
+IN | Housekeeping supplies dealer | office monthly orders
+IN | Gas cylinder delivery agent (private) | booking slots, routes
+US | Mobile tire service | on-site tire swap booking, tire size form
+US | Closet installer | measurement form, design approval
+US | Lawn aeration (seasonal) | route by neighbourhood, booking window
+US | Personal trainer (in-home) | session booking, plan notes (no health claims)
+US | Tutoring center (adult learners) | session booking, progress notes
+US | Piano tuner | home visit routes, last tuned dates
+US | Upholstery shop | fabric choice, pickup and delivery
+US | Locksmith (mobile) | call form, service area map
+CA | Dock and deck builder | site photos, design picks, build dates
+CA | Maple syrup farm stand | pre-orders, pickup days
+US | Food pantry-free meal prep company | weekly menu, order cutoff, delivery routes
+US | Screen printing shop | order proofs, sizes, quantities
