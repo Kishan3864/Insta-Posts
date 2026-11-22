@@ -3,7 +3,7 @@
  "drive_index_sheet_id": "17DMiIlgQarmABZGJbxLXvzbk7KOnOPqW6-Ffiq0jHcc",
  "lock_until_utc": "2026-11-22T18:23:21Z",
  "last_run": "2026-11-22T15:43:02Z \u00b7 posts 161-180 made, Drive 1-180 done, index sheet refreshed at 165 (new id stored; old sheet 1Mjh6gj6... could not be trashed, permission denied, delete by hand)",
- "next_post_no": 186,
+ "next_post_no": 191,
  "posts_done": [
   {
    "n": 1,
@@ -1484,11 +1484,51 @@
    "slides": 1,
    "market": "India",
    "category": "WeddingCardPrinter"
+  },
+  {
+   "n": 186,
+   "dir": "posts/0186_SINGLE_India_MattressMaker",
+   "format": "SINGLE",
+   "slides": 1,
+   "market": "India",
+   "category": "MattressMaker"
+  },
+  {
+   "n": 187,
+   "dir": "posts/0187_CAROUSEL_USA_PotteryStudio",
+   "format": "CAROUSEL",
+   "slides": 5,
+   "market": "USA",
+   "category": "PotteryStudio"
+  },
+  {
+   "n": 188,
+   "dir": "posts/0188_SINGLE_India_CementDealer",
+   "format": "SINGLE",
+   "slides": 1,
+   "market": "India",
+   "category": "CementDealer"
+  },
+  {
+   "n": 189,
+   "dir": "posts/0189_CAROUSEL_India_DanceClassesAdults",
+   "format": "CAROUSEL",
+   "slides": 5,
+   "market": "India",
+   "category": "DanceClassesAdults"
+  },
+  {
+   "n": 190,
+   "dir": "posts/0190_SINGLE_Canada_Locksmith",
+   "format": "SINGLE",
+   "slides": 1,
+   "market": "Canada",
+   "category": "Locksmith"
   }
  ],
  "market_counts": {
-  "India": 130,
-  "Abroad": 55
+  "India": 133,
+  "Abroad": 57
  },
  "used_categories": [
   "Boutique",
@@ -1682,14 +1722,14 @@
   "PrintCopyShop",
   "BridalBoutique",
   "ScrapDealer",
-  "WeddingCardPrinter"
+  "WeddingCardPrinter",
+  "MattressMaker",
+  "PotteryStudio",
+  "CementDealer",
+  "DanceClassesAdults",
+  "Locksmith"
  ],
  "recent_palettes": [
-  "terracotta/sand/ink navy",
-  "graphite/lime/white",
-  "flame blue/copper/cream",
-  "soft mint/charcoal/tangerine",
-  "raspberry/off-white/ink",
   "deep teal/sunset orange/sand",
   "cornflower/lemon/white",
   "electric yellow/charcoal/paper",
@@ -1709,7 +1749,12 @@
   "paper white/process cyan/magenta",
   "dove grey/champagne/plum",
   "rust orange/gunmetal/bone",
-  "ivory/vermilion/bottle green"
+  "ivory/vermilion/bottle green",
+  "lavender/deep navy/coral",
+  "oatmeal/glaze teal/clay brown",
+  "cement grey/emerald/charcoal",
+  "midnight/electric violet/lemon",
+  "brass/black/off-white"
  ],
  "drive_files_done": [
   1,
@@ -1899,66 +1944,6 @@
   185
  ],
  "log": [
-  {
-   "n": 156,
-   "date": "2026-11-22",
-   "format": "CAROUSEL",
-   "market": "India",
-   "category": "WaterTanker",
-   "palette": "steel blue/safety yellow/concrete",
-   "fonts": "Anton + DM Sans",
-   "layout": "SVG side-view tanker truck + trip squares strip + stat row, browser repeat orders list + order form, tanker trip lanes with status chips, statement cards by trip count, truck + tile CTA",
-   "dots": 3,
-   "phone": false
-  },
-  {
-   "n": 157,
-   "date": "2026-11-22",
-   "format": "SINGLE",
-   "market": "India",
-   "category": "BridalWearRental",
-   "palette": "wine/gold foil/ivory",
-   "fonts": "Gelasio + Poppins",
-   "layout": "clothes rail with SVG outfits on hangers + hang tags + per-outfit month calendar (booked/fitting/cleaning)",
-   "dots": 5,
-   "phone": false
-  },
-  {
-   "n": 158,
-   "date": "2026-11-22",
-   "format": "SINGLE",
-   "market": "Canada",
-   "category": "SkiRental",
-   "palette": "glacier white/ski red/pine",
-   "fonts": "Montserrat + Roboto",
-   "layout": "rack of vertical skis with length labels (free/reserved/this booking) + reservation field card",
-   "dots": 2,
-   "phone": false
-  },
-  {
-   "n": 159,
-   "date": "2026-11-22",
-   "format": "SINGLE",
-   "market": "India",
-   "category": "GeneratorRental",
-   "palette": "forest green/amber/charcoal",
-   "fonts": "Archivo Black + Inter",
-   "layout": "SVG genset with digital hour meter + 3 stacked stat cards + site table with service-due bars",
-   "dots": 3,
-   "phone": false
-  },
-  {
-   "n": 160,
-   "date": "2026-11-22",
-   "format": "CAROUSEL",
-   "market": "India",
-   "category": "SpokenEnglish",
-   "palette": "chalk navy/coral/paper",
-   "fonts": "TeX Gyre Adventor + DM Sans",
-   "layout": "level staircase bars with ready flags, attendance square rows per batch, score card bars + side tip cards, phone practice app, rising steps CTA",
-   "dots": 4,
-   "phone": true
-  },
   {
    "n": 161,
    "date": "2026-11-22",
@@ -2258,14 +2243,69 @@
    "layout": "proof timeline strip v1-v2-v3 card proofs with red-pen rings + margin notes, approved stamp, proof history list + green order card",
    "dots": 4,
    "phone": false
+  },
+  {
+   "n": 186,
+   "date": "2026-11-22",
+   "format": "SINGLE",
+   "market": "India",
+   "category": "MattressMaker",
+   "palette": "lavender/deep navy/coral",
+   "fonts": "Montserrat + DM Sans",
+   "layout": "top-down SVG bed frame with red dimension arrows + navy order card with proportional layer stack + confirm bar",
+   "dots": 2,
+   "phone": false
+  },
+  {
+   "n": 187,
+   "date": "2026-11-22",
+   "format": "CAROUSEL",
+   "market": "USA",
+   "category": "PotteryStudio",
+   "palette": "oatmeal/glaze teal/clay brown",
+   "fonts": "Gelasio + Open Sans",
+   "layout": "SVG drying shelf with hanging question tags, browser class list with seat dots, piece tracker with 4-stage pips, kiln load arches + text bubble, coloured pot shelf + tiles CTA",
+   "dots": 5,
+   "phone": false
+  },
+  {
+   "n": 188,
+   "date": "2026-11-22",
+   "format": "SINGLE",
+   "market": "India",
+   "category": "CementDealer",
+   "palette": "cement grey/emerald/charcoal",
+   "fonts": "Anton + Roboto",
+   "layout": "SVG pallet stacks of cement bags as godown stock + dark site delivery rows with status chips + totals",
+   "dots": 3,
+   "phone": false
+  },
+  {
+   "n": 189,
+   "date": "2026-11-22",
+   "format": "CAROUSEL",
+   "market": "India",
+   "category": "DanceClassesAdults",
+   "palette": "midnight/electric violet/lemon",
+   "fonts": "Poppins + Inter",
+   "layout": "glowing dance-floor tile attendance grid, week bar timetable, fee list + phone reminder chat, numbered sign-up tiles coloured by group, 4 colour block CTA",
+   "dots": 1,
+   "phone": true
+  },
+  {
+   "n": 190,
+   "date": "2026-11-22",
+   "format": "SINGLE",
+   "market": "Canada",
+   "category": "Locksmith",
+   "palette": "brass/black/off-white",
+   "fonts": "Cardo + Roboto",
+   "layout": "SVG key ring with 4 keys each carrying a job tag (type, area, time) + dark request form bar",
+   "dots": 4,
+   "phone": false
   }
  ],
  "recent_fonts": [
-  "Archivo Black + Source Sans 3",
-  "Poppins + Fira Sans",
-  "Lora + Open Sans",
-  "Cardo + DM Sans",
-  "TeX Gyre Adventor + Inter",
   "Montserrat + Inter",
   "Bitter + Roboto",
   "Anton + Open Sans",
@@ -2285,14 +2325,14 @@
   "TeX Gyre Adventor + Fira Sans",
   "Lora + Poppins",
   "Bitter + Open Sans",
-  "Crimson Text + DM Sans"
+  "Crimson Text + DM Sans",
+  "Montserrat + DM Sans",
+  "Gelasio + Open Sans",
+  "Anton + Roboto",
+  "Poppins + Inter",
+  "Cardo + Roboto"
  ],
  "recent_layouts": [
-  "SVG stack of nested plastic chairs in a godown panel + per-event out/back challan cards with short/all back/still out chips",
-  "SVG sectional garage door with bent panel + alert card, browser problem-tile picker form, tall SVG street map with numbered pins + job list, job card with parts and before/after door drawings, text thread + side cards, door + tiles CTA",
-  "top-down copper toolbox with part compartments (low stock highlighted) + phone visit list with in box/not in box chips",
-  "top-down SVG floor plan with tapped rooms in a carpet stripe pattern + stairs strip + dark quote request card",
-  "SVG tee with dashed print area card + colour x size quantity matrix with totals + proof v1/v2 strip",
   "top-view scooter fleet board with status chips + stat row, paper pickup slip checklist, receipt-roll return list with side cards, scooter top view with numbered damage marks, 4 scooters + tiles CTA",
   "big window whose 6 panes are route days (clean = done, streaked = to do, dashed make-up day) + recurring cycle cards",
   "receipt roll of counter slips tagged by contractor + dark contractor account cards",
@@ -2312,14 +2352,14 @@
   "chat file bubbles with dashed magenta question stickers, browser print-job toggles form, counter TV token columns (printing/next/ready), dark ready message + 4 stat tiles with colour edges, SVG printer feeding a page + numbered tiles CTA",
   "5 arched fitting suites with curtains as time slots (closed booked/open mirror/dashed hold) + plum try-on form + pick card with mini arch",
   "item tap chips + SVG platform scale with green digital readout + zigzag-top weight slip + dark pickups strip of 4",
-  "proof timeline strip v1-v2-v3 card proofs with red-pen rings + margin notes, approved stamp, proof history list + green order card"
+  "proof timeline strip v1-v2-v3 card proofs with red-pen rings + margin notes, approved stamp, proof history list + green order card",
+  "top-down SVG bed frame with red dimension arrows + navy order card with proportional layer stack + confirm bar",
+  "SVG drying shelf with hanging question tags, browser class list with seat dots, piece tracker with 4-stage pips, kiln load arches + text bubble, coloured pot shelf + tiles CTA",
+  "SVG pallet stacks of cement bags as godown stock + dark site delivery rows with status chips + totals",
+  "glowing dance-floor tile attendance grid, week bar timetable, fee list + phone reminder chat, numbered sign-up tiles coloured by group, 4 colour block CTA",
+  "SVG key ring with 4 keys each carrying a job tag (type, area, time) + dark request form bar"
  ],
  "used_hashtag_sets": [
-  "#acservice #acrepair #amcservice #hvacindia",
-  "#wholesalebusiness #distributor #b2bordering #canadasmallbusiness",
-  "#upholstery #sofarepair #sofafabric #upholsteryindia",
-  "#usedcardealer #usedcars #cardealership #autodealer",
-  "#namkeen #snackmanufacturer #foodmanufacturing #namkeenbusiness #msmeindia",
   "#cabservice #taxiservice #fleetowner #travelsbusiness",
   "#homestay #homestayindia #hillstay #directbooking",
   "#deliverybusiness #courierservice #lastmiledelivery #smallbusinessusa",
@@ -2374,7 +2414,12 @@
   "#printshop #photocopyshop #printingbusiness #printandcopy",
   "#bridalboutique #bridalshop #weddingdressshopping #bridalsalon",
   "#scrapdealer #kabadiwala #scrapbusiness #recyclingbusinessindia",
-  "#weddingcards #weddinginvitations #invitationcards #cardprintingindia"
+  "#weddingcards #weddinginvitations #invitationcards #cardprintingindia",
+  "#mattressmanufacturer #custommattress #mattressshop #foammattress",
+  "#potterystudio #ceramicsstudio #potteryclass #claystudio #wheelthrowing",
+  "#cementdealer #buildingmaterial #constructionmaterial #hardwaredealer",
+  "#danceclasses #dancestudio #adultdanceclass #danceacademyindia",
+  "#locksmith #locksmithservice #lockoutservice #torontosmallbusiness"
  ],
  "drive_index_at_post": 165
 }

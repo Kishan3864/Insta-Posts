@@ -135,3 +135,7 @@
 - (b033) Toggle-heavy forms (B&W/Colour, sides, binding) leave gaps when each group is flex:1; add real fields (pages, note to shop) and taller 23px toggles instead of spacing.
 - (b033) Rows of identical small objects (water cans) as a per-customer strip read in 2 seconds: 3 states (filled / outline / accent) + a legend. Scale icons to fill the row (6 x 53px).
 - (b033) Mini document proofs side by side look empty if the card stretches: use space-between with flourishes at top/bottom, an inset double frame (box-shadow inset) and an extra script line. Use &#8209; to stop "A-line" breaking at the hyphen. Next: diagonal before/after split, stacked notifications hook.
+- (b034) Objects on a shelf: draw the shelf under the object and hang the tag below the shelf edge; scale small SVG objects with a <g transform scale(1.5)> group rather than re-drawing. Tags sitting between object and shelf made pots float.
+- (b034) Plain filled tiles (sign-up seats) read as noise; number them and colour them by the group listed below, so the grid and the legend cards tell the same story.
+- (b034) Headers that pair a tiny caps label with a bold title flag OVERLAP at default line-height; give the caps label line-height 1.4 + margin-bottom 6px from the start.
+- (b034) Keep message dates logical: a fee list titled by month needs statuses for that month ("Paid early", "Reminder sent"), not paid dates from the month before. New techniques: key ring job tags, cement bag pallet stacks, proportional layer stack, kiln load arches.
