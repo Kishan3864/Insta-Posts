@@ -1,7 +1,7 @@
 {
  "drive_folder_id": "1OZvW8MCiA-_SSNn5_9g3o8k5sMyHUcxE",
  "drive_index_sheet_id": "17DMiIlgQarmABZGJbxLXvzbk7KOnOPqW6-Ffiq0jHcc",
- "lock_until_utc": "2026-11-22T18:14:36Z",
+ "lock_until_utc": "2026-11-22T18:23:21Z",
  "last_run": "2026-11-22T15:43:02Z \u00b7 posts 161-180 made, Drive 1-180 done, index sheet refreshed at 165 (new id stored; old sheet 1Mjh6gj6... could not be trashed, permission denied, delete by hand)",
  "next_post_no": 186,
  "posts_done": [
@@ -1891,7 +1891,12 @@
   177,
   178,
   179,
-  180
+  180,
+  181,
+  182,
+  183,
+  184,
+  185
  ],
  "log": [
   {
