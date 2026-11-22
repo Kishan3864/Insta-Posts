@@ -2,8 +2,8 @@
  "drive_folder_id": "1OZvW8MCiA-_SSNn5_9g3o8k5sMyHUcxE",
  "drive_index_sheet_id": "1LhrDKUuLzLHPuDB4fOhGo-Fs3w2AlNXXC4ZDTY75eus",
  "lock_until_utc": "2026-11-22T11:12:56Z",
- "last_run": "2026-11-22T09:39:09Z · posts 56-70 made, Drive 1-70 done, index sheet refreshed at 65",
- "next_post_no": 71,
+ "last_run": "2026-11-22T09:39:09Z \u00b7 posts 56-70 made, Drive 1-70 done, index sheet refreshed at 65",
+ "next_post_no": 76,
  "posts_done": [
   {
    "n": 1,
@@ -564,11 +564,51 @@
    "slides": 5,
    "market": "Canada",
    "category": "PropertyManager"
+  },
+  {
+   "n": 71,
+   "dir": "posts/0071_SINGLE_India_InteriorDesigner",
+   "format": "SINGLE",
+   "slides": 1,
+   "market": "India",
+   "category": "InteriorDesigner"
+  },
+  {
+   "n": 72,
+   "dir": "posts/0072_CAROUSEL_India_ModularKitchen",
+   "format": "CAROUSEL",
+   "slides": 6,
+   "market": "India",
+   "category": "ModularKitchen"
+  },
+  {
+   "n": 73,
+   "dir": "posts/0073_SINGLE_India_GentsTailor",
+   "format": "SINGLE",
+   "slides": 1,
+   "market": "India",
+   "category": "GentsTailor"
+  },
+  {
+   "n": 74,
+   "dir": "posts/0074_CAROUSEL_USA_PestControl",
+   "format": "CAROUSEL",
+   "slides": 5,
+   "market": "USA",
+   "category": "PestControl"
+  },
+  {
+   "n": 75,
+   "dir": "posts/0075_SINGLE_India_PlywoodDealer",
+   "format": "SINGLE",
+   "slides": 1,
+   "market": "India",
+   "category": "PlywoodDealer"
   }
  ],
  "market_counts": {
-  "India": 49,
-  "Abroad": 21
+  "India": 53,
+  "Abroad": 22
  },
  "used_categories": [
   "Boutique",
@@ -647,14 +687,14 @@
   "FishMeatShop",
   "KurtiSeller",
   "TattooStudio",
-  "PropertyManager"
+  "PropertyManager",
+  "InteriorDesigner",
+  "ModularKitchen",
+  "GentsTailor",
+  "PestControl",
+  "PlywoodDealer"
  ],
  "recent_palettes": [
-  "aubergine/paprika/cream",
-  "deep cocoa/saffron/cardamom green",
-  "lilac/deep navy/marigold",
-  "electric yellow/deep indigo/white",
-  "eucalyptus/linen/clay",
   "concrete grey/electric lime/black",
   "royal blue/tangerine/white",
   "deep ocean/postcard cream/sun yellow",
@@ -674,7 +714,12 @@
   "deep sea blue/ice white/salmon",
   "indigo/madder red/unbleached",
   "charcoal/bone/teal ink",
-  "slate/brick red/snow"
+  "slate/brick red/snow",
+  "charcoal green/oat/brass",
+  "blueprint navy/graph white/marker yellow",
+  "charcoal/tape mustard/chalk white",
+  "deep teal/goldenrod/cloud white",
+  "birch/walnut/signal green"
  ],
  "drive_files_done": [
   1,
@@ -749,66 +794,6 @@
   70
  ],
  "log": [
-  {
-   "n": 41,
-   "date": "2026-11-22",
-   "format": "SINGLE",
-   "market": "India",
-   "category": "DJSoundRental",
-   "palette": "ink black/hot orange/warm white",
-   "fonts": "Montserrat + Inter + Gelasio",
-   "layout": "before/after slider handle",
-   "dots": 4,
-   "phone": false
-  },
-  {
-   "n": 42,
-   "date": "2026-11-22",
-   "format": "CAROUSEL",
-   "market": "India",
-   "category": "MakeupArtist",
-   "palette": "black/champagne/dusty pink",
-   "fonts": "Cardo + Poppins",
-   "layout": "mistakes list (mistake + fix)",
-   "dots": 1,
-   "phone": false
-  },
-  {
-   "n": 43,
-   "date": "2026-11-22",
-   "format": "SINGLE",
-   "market": "USA",
-   "category": "AutoDetailing",
-   "palette": "graphite/cyan glow",
-   "fonts": "Fira Sans",
-   "layout": "dark-mode KPI dashboard",
-   "dots": 3,
-   "phone": false
-  },
-  {
-   "n": 44,
-   "date": "2026-11-22",
-   "format": "CAROUSEL",
-   "market": "Canada",
-   "category": "PaintingContractor",
-   "palette": "white/paint swatch strip",
-   "fonts": "Gelasio + DM Sans",
-   "layout": "paint-chip markers + roller stroke",
-   "dots": 5,
-   "phone": false
-  },
-  {
-   "n": 45,
-   "date": "2026-11-22",
-   "format": "SINGLE",
-   "market": "India",
-   "category": "JuiceBar",
-   "palette": "mango/leaf/cream",
-   "fonts": "TeX Gyre Adventor + Open Sans",
-   "layout": "paper pile vs tablet card",
-   "dots": 2,
-   "phone": false
-  },
   {
    "n": 46,
    "date": "2026-11-22",
@@ -1108,14 +1093,69 @@
    "layout": "CSS building cross-section with flagged units, kanban, portal",
    "dots": 5,
    "phone": false
+  },
+  {
+   "n": 71,
+   "date": "2026-11-22",
+   "format": "SINGLE",
+   "market": "India",
+   "category": "InteriorDesigner",
+   "palette": "charcoal green/oat/brass",
+   "fonts": "Gelasio + DM Sans",
+   "layout": "CSS material swatch board + approval comment thread",
+   "dots": 2,
+   "phone": false
+  },
+  {
+   "n": 72,
+   "date": "2026-11-22",
+   "format": "CAROUSEL",
+   "market": "India",
+   "category": "ModularKitchen",
+   "palette": "blueprint navy/graph white/marker yellow",
+   "fonts": "Montserrat + Roboto",
+   "layout": "blueprint floor plan with dimension lines, mini layout plans, quotation doc",
+   "dots": 4,
+   "phone": false
+  },
+  {
+   "n": 73,
+   "date": "2026-11-22",
+   "format": "SINGLE",
+   "market": "India",
+   "category": "GentsTailor",
+   "palette": "charcoal/tape mustard/chalk white",
+   "fonts": "Bitter + Inter",
+   "layout": "measuring tape band + phone profile + delivery list",
+   "dots": 1,
+   "phone": true
+  },
+  {
+   "n": 74,
+   "date": "2026-11-22",
+   "format": "CAROUSEL",
+   "market": "USA",
+   "category": "PestControl",
+   "palette": "deep teal/goldenrod/cloud white",
+   "fonts": "TeX Gyre Adventor + Source Sans 3",
+   "layout": "top-down house plan with perimeter stations, year dot board, service report",
+   "dots": 3,
+   "phone": false
+  },
+  {
+   "n": 75,
+   "date": "2026-11-22",
+   "format": "SINGLE",
+   "market": "India",
+   "category": "PlywoodDealer",
+   "palette": "birch/walnut/signal green",
+   "fonts": "Archivo Black + Source Sans 3",
+   "layout": "side-view sheet stacks with reorder level line + stock search",
+   "dots": 5,
+   "phone": false
   }
  ],
  "recent_fonts": [
-  "Inter Display + Lora",
-  "Montserrat + Source Sans 3",
-  "Bitter + DM Sans",
-  "Anton + DM Sans",
-  "Lora + Source Sans 3",
   "Fira Sans + Inter",
   "Bitter + Poppins",
   "Crimson Text + Montserrat",
@@ -1135,14 +1175,14 @@
   "Lora + Poppins",
   "Gelasio + Montserrat",
   "Cardo + Fira Sans",
-  "Archivo Black + Inter"
+  "Archivo Black + Inter",
+  "Gelasio + DM Sans",
+  "Montserrat + Roboto",
+  "Bitter + Inter",
+  "TeX Gyre Adventor + Source Sans 3",
+  "Archivo Black + Source Sans 3"
  ],
  "recent_layouts": [
-  "kraft delivery bag + die-cut sticker, 4-part carousel",
-  "outlet rows with conic ring gauges",
-  "chat bubbles vs shared event page (browser)",
-  "signs you need, hazard-tape bands + outlined numbers",
-  "frosted glass cards over blurred blobs, slot grid",
   "isometric desk floor + booking card",
   "process journey with progress rail, staircase steps",
   "chat column vs folded paper itinerary",
@@ -1162,7 +1202,12 @@
   "without vs with timelines side by side + cut list",
   "clip-path kurti silhouettes with block-print motifs, 4-part",
   "consult form + CSS line-art portfolio grid",
-  "CSS building cross-section with flagged units, kanban, portal"
+  "CSS building cross-section with flagged units, kanban, portal",
+  "CSS material swatch board + approval comment thread",
+  "blueprint floor plan with dimension lines, mini layout plans, quotation doc",
+  "measuring tape band + phone profile + delivery list",
+  "top-down house plan with perimeter stations, year dot board, service report",
+  "side-view sheet stacks with reorder level line + stock search"
  ],
  "used_hashtag_sets": [
   "#kiranastore #udhaar #kiranashop #retailindia #shopowners",
@@ -1214,7 +1259,12 @@
   "#fishshop #meatshop #freshfish #chickenshop",
   "#kurtiwholesale #kurtimanufacturer #resellersindia #dressmaterial #suratwholesale",
   "#tattoostudio #tattooshop #tattooartist #tattoobooking",
-  "#propertymanagement #propertymanager #landlordlife #rentalproperty #canadarealestate"
+  "#propertymanagement #propertymanager #landlordlife #rentalproperty #canadarealestate",
+  "#interiordesignerindia #interiorstudio #homeinteriors #2bhkinterior",
+  "#modularkitchen #modularkitchenindia #kitchendesign #kitchenmanufacturer",
+  "#gentstailor #tailorshop #customtailoring #tailoringbusiness",
+  "#pestcontrol #pestcontrolservice #pestcontrolbusiness #homeservicebusiness",
+  "#plywooddealer #plywoodindia #laminates #plywoodshop #interiormaterials"
  ],
  "drive_index_at_post": 65
 }
