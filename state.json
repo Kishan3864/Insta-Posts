@@ -3,7 +3,7 @@
  "drive_index_sheet_id": "1Mjh6gj6vWchP4_uXP4xKxJAuJrclyEk50AAXXRBEBVo",
  "lock_until_utc": "2026-11-22T15:22:44Z",
  "last_run": "2026-11-22T13:49:49Z \u00b7 posts 126-145 made, Drive 1-145 done, index sheet refreshed at 140 (refresh due ~165)",
- "next_post_no": 156,
+ "next_post_no": 161,
  "posts_done": [
   {
    "n": 1,
@@ -1244,11 +1244,51 @@
    "slides": 1,
    "market": "USA",
    "category": "PetBoarding"
+  },
+  {
+   "n": 156,
+   "dir": "posts/0156_CAROUSEL_India_WaterTanker",
+   "format": "CAROUSEL",
+   "slides": 5,
+   "market": "India",
+   "category": "WaterTanker"
+  },
+  {
+   "n": 157,
+   "dir": "posts/0157_SINGLE_India_BridalWearRental",
+   "format": "SINGLE",
+   "slides": 1,
+   "market": "India",
+   "category": "BridalWearRental"
+  },
+  {
+   "n": 158,
+   "dir": "posts/0158_SINGLE_Canada_SkiRental",
+   "format": "SINGLE",
+   "slides": 1,
+   "market": "Canada",
+   "category": "SkiRental"
+  },
+  {
+   "n": 159,
+   "dir": "posts/0159_SINGLE_India_GeneratorRental",
+   "format": "SINGLE",
+   "slides": 1,
+   "market": "India",
+   "category": "GeneratorRental"
+  },
+  {
+   "n": 160,
+   "dir": "posts/0160_CAROUSEL_India_SpokenEnglish",
+   "format": "CAROUSEL",
+   "slides": 5,
+   "market": "India",
+   "category": "SpokenEnglish"
   }
  ],
  "market_counts": {
-  "India": 109,
-  "Abroad": 46
+  "India": 113,
+  "Abroad": 47
  },
  "used_categories": [
   "Boutique",
@@ -1412,14 +1452,14 @@
   "UsedBikeDealer",
   "CarAccessories",
   "SmallTeamTasks",
-  "PetBoarding"
+  "PetBoarding",
+  "WaterTanker",
+  "BridalWearRental",
+  "SkiRental",
+  "GeneratorRental",
+  "SpokenEnglish"
  ],
  "recent_palettes": [
-  "matte black/cab yellow/steel",
-  "deodar green/sunrise peach/mist",
-  "kraft brown/cobalt/off-white",
-  "wheat/flour white/indigo",
-  "manila/terracotta/ink",
   "champagne/ink navy/blush",
   "graphite/lime/ice",
   "olive/brass/off-white",
@@ -1439,7 +1479,12 @@
   "asphalt/fluoro orange/white",
   "jet black/electric blue/silver",
   "whiteboard white/sticky yellow/marker blue",
-  "lavender/teal/cream"
+  "lavender/teal/cream",
+  "steel blue/safety yellow/concrete",
+  "wine/gold foil/ivory",
+  "glacier white/ski red/pine",
+  "forest green/amber/charcoal",
+  "chalk navy/coral/paper"
  ],
  "drive_files_done": [
   1,
@@ -1599,66 +1644,6 @@
   155
  ],
  "log": [
-  {
-   "n": 126,
-   "date": "2026-11-22",
-   "format": "CAROUSEL",
-   "market": "India",
-   "category": "ACService",
-   "palette": "ice blue/navy/signal orange",
-   "fonts": "Archivo Black + Roboto",
-   "layout": "SVG split AC unit with hanging AMC tag + month bar strip, browser AMC table with visit dots, portrait street-grid route map + stop list, phone service report, numbered tiles CTA",
-   "dots": 2,
-   "phone": true
-  },
-  {
-   "n": 127,
-   "date": "2026-11-22",
-   "format": "SINGLE",
-   "market": "Canada",
-   "category": "Wholesaler",
-   "palette": "carton kraft/cherry red/slate",
-   "fonts": "Bitter + Source Sans 3",
-   "layout": "clipboard with carbon-copy order pad (yellow over pink, pen notes) beside browser reorder portal with qty steppers + 3 dark cards",
-   "dots": 4,
-   "phone": false
-  },
-  {
-   "n": 128,
-   "date": "2026-11-22",
-   "format": "SINGLE",
-   "market": "India",
-   "category": "UpholsteryShop",
-   "palette": "velvet teal/mustard/oatmeal",
-   "fonts": "Gelasio + Montserrat",
-   "layout": "SVG pattern-filled sofa preview + fabric swatch catalogue grid (SVG patterns) + 5-step job strip",
-   "dots": 1,
-   "phone": false
-  },
-  {
-   "n": 129,
-   "date": "2026-11-22",
-   "format": "SINGLE",
-   "market": "USA",
-   "category": "UsedCarDealer",
-   "palette": "charcoal/candy red/silver",
-   "fonts": "Poppins + DM Sans",
-   "layout": "browser inventory 2x3 with parametric SVG car side profiles + status pills + test drive bar",
-   "dots": 3,
-   "phone": false
-  },
-  {
-   "n": 130,
-   "date": "2026-11-22",
-   "format": "CAROUSEL",
-   "market": "India",
-   "category": "NamkeenMaker",
-   "palette": "sev yellow/chilli red/kraft",
-   "fonts": "Lora + Fira Sans",
-   "layout": "SVG pillow-pouch snack packets on shelf + stat cards, order matrix with total/packed/to-make rows, day-list week plan, batch card + film stock, dispatch checklist",
-   "dots": 2,
-   "phone": false
-  },
   {
    "n": 131,
    "date": "2026-11-22",
@@ -1958,14 +1943,69 @@
    "layout": "Gantt suite x day grid with stay bars + dark report card with SVG dog face",
    "dots": 1,
    "phone": false
+  },
+  {
+   "n": 156,
+   "date": "2026-11-22",
+   "format": "CAROUSEL",
+   "market": "India",
+   "category": "WaterTanker",
+   "palette": "steel blue/safety yellow/concrete",
+   "fonts": "Anton + DM Sans",
+   "layout": "SVG side-view tanker truck + trip squares strip + stat row, browser repeat orders list + order form, tanker trip lanes with status chips, statement cards by trip count, truck + tile CTA",
+   "dots": 3,
+   "phone": false
+  },
+  {
+   "n": 157,
+   "date": "2026-11-22",
+   "format": "SINGLE",
+   "market": "India",
+   "category": "BridalWearRental",
+   "palette": "wine/gold foil/ivory",
+   "fonts": "Gelasio + Poppins",
+   "layout": "clothes rail with SVG outfits on hangers + hang tags + per-outfit month calendar (booked/fitting/cleaning)",
+   "dots": 5,
+   "phone": false
+  },
+  {
+   "n": 158,
+   "date": "2026-11-22",
+   "format": "SINGLE",
+   "market": "Canada",
+   "category": "SkiRental",
+   "palette": "glacier white/ski red/pine",
+   "fonts": "Montserrat + Roboto",
+   "layout": "rack of vertical skis with length labels (free/reserved/this booking) + reservation field card",
+   "dots": 2,
+   "phone": false
+  },
+  {
+   "n": 159,
+   "date": "2026-11-22",
+   "format": "SINGLE",
+   "market": "India",
+   "category": "GeneratorRental",
+   "palette": "forest green/amber/charcoal",
+   "fonts": "Archivo Black + Inter",
+   "layout": "SVG genset with digital hour meter + 3 stacked stat cards + site table with service-due bars",
+   "dots": 3,
+   "phone": false
+  },
+  {
+   "n": 160,
+   "date": "2026-11-22",
+   "format": "CAROUSEL",
+   "market": "India",
+   "category": "SpokenEnglish",
+   "palette": "chalk navy/coral/paper",
+   "fonts": "TeX Gyre Adventor + DM Sans",
+   "layout": "level staircase bars with ready flags, attendance square rows per batch, score card bars + side tip cards, phone practice app, rising steps CTA",
+   "dots": 4,
+   "phone": true
   }
  ],
  "recent_fonts": [
-  "Montserrat + Fira Sans",
-  "Crimson Text + DM Sans",
-  "TeX Gyre Adventor + Inter",
-  "Bitter + DM Sans",
-  "Cardo + Roboto",
   "Lora + Open Sans",
   "Poppins + Inter",
   "TeX Gyre Adventor + Source Sans 3",
@@ -1985,14 +2025,14 @@
   "Archivo Black + Open Sans",
   "Poppins + Roboto",
   "Lora + DM Sans",
-  "Cardo + Inter"
+  "Cardo + Inter",
+  "Anton + DM Sans",
+  "Gelasio + Poppins",
+  "Montserrat + Roboto",
+  "Archivo Black + Inter",
+  "TeX Gyre Adventor + DM Sans"
  ],
  "recent_layouts": [
-  "split-flap departure board of duties (per-character flap cells) + 3 feature cards",
-  "SVG hill cottage scene with booking card, browser room cards with SVG rooms, month calendar with rooms-left, phone booking + message cards, folded guest guide",
-  "isometric SVG parcel stack + browser tracking page with vertical step timeline and ETA",
-  "SVG flour mill with sack + perforated token ticket + queue list + WhatsApp ready bubble",
-  "CSS envelope budget rows with fill inserts + phone today list and add-expense pad",
   "Saturday matrix (every 2027 Saturday as status dot), browser spaces by date with SVG thumbs, tour slot day list, run sheet timeline + stat cards, dot panel CTA",
   "SVG floor plan with camera field-of-view wedges + quote card without prices",
   "site tile matrix with post dots, roster table, phone check-in + alert cards, QR checkpoint rail with missed scan, icon tiles + report bar",
@@ -2012,14 +2052,14 @@
   "listing card with SVG motorbike side profile + 12-point inspection grid",
   "top-down SVG car with numbered hotspots + fitting list + bay slot bar split by duration",
   "whiteboard with tilted sticky notes + fallen notes strip, phone team task list with attendance",
-  "Gantt suite x day grid with stay bars + dark report card with SVG dog face"
+  "Gantt suite x day grid with stay bars + dark report card with SVG dog face",
+  "SVG side-view tanker truck + trip squares strip + stat row, browser repeat orders list + order form, tanker trip lanes with status chips, statement cards by trip count, truck + tile CTA",
+  "clothes rail with SVG outfits on hangers + hang tags + per-outfit month calendar (booked/fitting/cleaning)",
+  "rack of vertical skis with length labels (free/reserved/this booking) + reservation field card",
+  "SVG genset with digital hour meter + 3 stacked stat cards + site table with service-due bars",
+  "level staircase bars with ready flags, attendance square rows per batch, score card bars + side tip cards, phone practice app, rising steps CTA"
  ],
  "used_hashtag_sets": [
-  "#rowaterpurifier #roservice #waterpurifierdealer #amcservice",
-  "#towingcompany #towtruck #roadsideassistance #towingservice",
-  "#engineeringworkshop #latheworkshop #cncmachining #jobwork #msmeindia",
-  "#powerloom #weavingunit #textilemanufacturing #surattextile",
-  "#farmersmarket #farmersmarketvendor #shoplocalcanada #winterfarmersmarket",
   "#eggsupplier #poultrybusiness #eggdistributor #deliveryroute",
   "#surattextile #textilewholesaler #fabricwholesale #textilebusiness #clothmarket",
   "#thriftstore #resaleshop #secondhandshop #thriftshopowner",
@@ -2074,7 +2114,12 @@
   "#usedbikes #secondhandbikes #bikedealer #preownedbikes",
   "#caraccessories #carmodification #seatcovers #carcareindia",
   "#smallbusinessindia #teammanagement #taskmanagement #shopowners",
-  "#petboarding #dogboarding #petcarebusiness #doghotel"
+  "#petboarding #dogboarding #petcarebusiness #doghotel",
+  "#watertanker #watersupply #tankerservice #smallbusinessowner",
+  "#bridalwearrental #lehengaonrent #rentaloutfits #bridalboutique",
+  "#skirental #snowboardrental #skishop #skiseason",
+  "#generatorrental #gensetrental #dieselgenerator #eventpower",
+  "#spokenenglish #englishclasses #englishinstitute #communicationskills"
  ],
  "drive_index_at_post": 140
 }

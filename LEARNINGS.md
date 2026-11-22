@@ -111,3 +111,7 @@
 - (b027) Time axes under a duration bar must be proportional; evenly spaced hour ticks under a 3 h 35 min bar were wrong. Use start/end labels only, or place ticks at % positions.
 - (b027) Count words in derived labels: a drive with 0 open slots showed "0 open"; compute status text with a rule (0 → "Full"). Check every computed chip in the contact sheet.
 - (b027) New techniques that worked: Gantt stay bars on a CSS grid (grid-column spans), slot-circle shift board, whiteboard with stickies in a 2x2 stretch grid (fills the board), top-down car with hotspots.
+- (b028) Sample patterns that repeat (four batches all "10 of 12") look fake; vary them on purpose and make one tell the story (8 of 12, "2 missed in a row" in the accent colour).
+- (b028) Short garment/object SVGs at the top of a tall panel leave a dead lower half; add a detail card for the selected item (size, bookings, photos) that takes flex:1, rather than stretching the drawing.
+- (b028) Check sums against the calendar: "2 tankers daily" in November = 60 trips, "3 a day Mon-Sat" = 75. Derive month totals from the rule you show, not round guesses.
+- (b028) New techniques that worked: side-view tanker SVG + trip-square strip, per-outfit booking calendar with fitting/cleaning days, ski rack as availability, genset hour-meter readout, level staircase bars.
