@@ -3,7 +3,7 @@
  "drive_index_sheet_id": "1Mjh6gj6vWchP4_uXP4xKxJAuJrclyEk50AAXXRBEBVo",
  "lock_until_utc": "2026-11-22T15:18:13Z",
  "last_run": "2026-11-22T13:49:49Z \u00b7 posts 126-145 made, Drive 1-145 done, index sheet refreshed at 140 (refresh due ~165)",
- "next_post_no": 151,
+ "next_post_no": 156,
  "posts_done": [
   {
    "n": 1,
@@ -1204,11 +1204,51 @@
    "slides": 5,
    "market": "Canada",
    "category": "MartialArtsSchool"
+  },
+  {
+   "n": 151,
+   "dir": "posts/0151_CAROUSEL_India_NGO",
+   "format": "CAROUSEL",
+   "slides": 5,
+   "market": "India",
+   "category": "NGO"
+  },
+  {
+   "n": 152,
+   "dir": "posts/0152_SINGLE_India_UsedBikeDealer",
+   "format": "SINGLE",
+   "slides": 1,
+   "market": "India",
+   "category": "UsedBikeDealer"
+  },
+  {
+   "n": 153,
+   "dir": "posts/0153_SINGLE_India_CarAccessories",
+   "format": "SINGLE",
+   "slides": 1,
+   "market": "India",
+   "category": "CarAccessories"
+  },
+  {
+   "n": 154,
+   "dir": "posts/0154_SINGLE_India_SmallTeamTasks",
+   "format": "SINGLE",
+   "slides": 1,
+   "market": "India",
+   "category": "SmallTeamTasks"
+  },
+  {
+   "n": 155,
+   "dir": "posts/0155_SINGLE_USA_PetBoarding",
+   "format": "SINGLE",
+   "slides": 1,
+   "market": "USA",
+   "category": "PetBoarding"
   }
  ],
  "market_counts": {
-  "India": 105,
-  "Abroad": 45
+  "India": 109,
+  "Abroad": 46
  },
  "used_categories": [
   "Boutique",
@@ -1367,14 +1407,14 @@
   "SaaSFounder",
   "SwimmingPool",
   "GSTPractitioner",
-  "MartialArtsSchool"
+  "MartialArtsSchool",
+  "NGO",
+  "UsedBikeDealer",
+  "CarAccessories",
+  "SmallTeamTasks",
+  "PetBoarding"
  ],
  "recent_palettes": [
-  "ice blue/navy/signal orange",
-  "carton kraft/cherry red/slate",
-  "velvet teal/mustard/oatmeal",
-  "charcoal/candy red/silver",
-  "sev yellow/chilli red/kraft",
   "matte black/cab yellow/steel",
   "deodar green/sunrise peach/mist",
   "kraft brown/cobalt/off-white",
@@ -1394,7 +1434,12 @@
   "midnight violet/mint/white",
   "pool blue/lane red/white tile",
   "paper white/forest green/vermilion",
-  "mat blue/canvas cream/belt black"
+  "mat blue/canvas cream/belt black",
+  "sage/sunflower/cream",
+  "asphalt/fluoro orange/white",
+  "jet black/electric blue/silver",
+  "whiteboard white/sticky yellow/marker blue",
+  "lavender/teal/cream"
  ],
  "drive_files_done": [
   1,
@@ -1549,66 +1594,6 @@
   150
  ],
  "log": [
-  {
-   "n": 121,
-   "date": "2026-11-22",
-   "format": "CAROUSEL",
-   "market": "India",
-   "category": "DyeingMill",
-   "palette": "dye vat teal/magenta/greige",
-   "fonts": "Crimson Text + Fira Sans",
-   "layout": "lab-dip card with stapled pinked swatches, job card + 6-step stage tracker, dye recipe card, stage lanes with lot chips, swatch-grid CTA",
-   "dots": 3,
-   "phone": false
-  },
-  {
-   "n": 122,
-   "date": "2026-11-22",
-   "format": "SINGLE",
-   "market": "India",
-   "category": "Videographer",
-   "palette": "editing-suite black/neon purple/clip colours",
-   "fonts": "Poppins + Lora",
-   "layout": "video editor UI: SVG preview monitor, timecode ruler, 4 tracks of clips, playhead + project status cards",
-   "dots": 1,
-   "phone": false
-  },
-  {
-   "n": 123,
-   "date": "2026-11-22",
-   "format": "SINGLE",
-   "market": "USA",
-   "category": "TruckingCompany",
-   "palette": "highway blue/chrome/amber",
-   "fonts": "Anton + Fira Sans",
-   "layout": "front-view SVG semi truck on road + renewal countdown list with urgency bars + office text",
-   "dots": 4,
-   "phone": false
-  },
-  {
-   "n": 124,
-   "date": "2026-11-22",
-   "format": "CAROUSEL",
-   "market": "India",
-   "category": "ReadymadeGarments",
-   "palette": "denim/coral/khaki",
-   "fonts": "Cardo + Fira Sans",
-   "layout": "style x size stock heatmap, browser bill + stock-after cards, reorder table, catalogue with SVG garment silhouettes + size chips",
-   "dots": 2,
-   "phone": false
-  },
-  {
-   "n": 125,
-   "date": "2026-11-22",
-   "format": "SINGLE",
-   "market": "India",
-   "category": "StudentPlanner",
-   "palette": "notebook mint/graphite/pencil yellow",
-   "fonts": "TeX Gyre Adventor + Open Sans",
-   "layout": "ruled-notebook background, exam countdown card, chapter-square syllabus rows, phone day plan",
-   "dots": 5,
-   "phone": true
-  },
   {
    "n": 126,
    "date": "2026-11-22",
@@ -1908,14 +1893,69 @@
    "layout": "SVG belt rows with members + ready badges, browser week class list, progress ring + skills checklist, test list with belt swatches + message bubbles, belt tiles CTA",
    "dots": 5,
    "phone": false
+  },
+  {
+   "n": 151,
+   "date": "2026-11-22",
+   "format": "CAROUSEL",
+   "market": "India",
+   "category": "NGO",
+   "palette": "sage/sunflower/cream",
+   "fonts": "Bitter + Inter",
+   "layout": "volunteer shift board with slot circles + stat row, browser drive/shift sign-up form, donor table with status chips + dark cards, drive report with SVG photo grid, big-numeral tiles CTA",
+   "dots": 2,
+   "phone": false
+  },
+  {
+   "n": 152,
+   "date": "2026-11-22",
+   "format": "SINGLE",
+   "market": "India",
+   "category": "UsedBikeDealer",
+   "palette": "asphalt/fluoro orange/white",
+   "fonts": "Archivo Black + Open Sans",
+   "layout": "listing card with SVG motorbike side profile + 12-point inspection grid",
+   "dots": 5,
+   "phone": false
+  },
+  {
+   "n": 153,
+   "date": "2026-11-22",
+   "format": "SINGLE",
+   "market": "India",
+   "category": "CarAccessories",
+   "palette": "jet black/electric blue/silver",
+   "fonts": "Poppins + Roboto",
+   "layout": "top-down SVG car with numbered hotspots + fitting list + bay slot bar split by duration",
+   "dots": 3,
+   "phone": false
+  },
+  {
+   "n": 154,
+   "date": "2026-11-22",
+   "format": "SINGLE",
+   "market": "India",
+   "category": "SmallTeamTasks",
+   "palette": "whiteboard white/sticky yellow/marker blue",
+   "fonts": "Lora + DM Sans",
+   "layout": "whiteboard with tilted sticky notes + fallen notes strip, phone team task list with attendance",
+   "dots": 4,
+   "phone": true
+  },
+  {
+   "n": 155,
+   "date": "2026-11-22",
+   "format": "SINGLE",
+   "market": "USA",
+   "category": "PetBoarding",
+   "palette": "lavender/teal/cream",
+   "fonts": "Cardo + Inter",
+   "layout": "Gantt suite x day grid with stay bars + dark report card with SVG dog face",
+   "dots": 1,
+   "phone": false
   }
  ],
  "recent_fonts": [
-  "Archivo Black + Roboto",
-  "Bitter + Source Sans 3",
-  "Gelasio + Montserrat",
-  "Poppins + DM Sans",
-  "Lora + Fira Sans",
   "Montserrat + Fira Sans",
   "Crimson Text + DM Sans",
   "TeX Gyre Adventor + Inter",
@@ -1935,14 +1975,14 @@
   "Montserrat + Inter",
   "Anton + Open Sans",
   "Gelasio + Inter",
-  "TeX Gyre Adventor + Roboto"
+  "TeX Gyre Adventor + Roboto",
+  "Bitter + Inter",
+  "Archivo Black + Open Sans",
+  "Poppins + Roboto",
+  "Lora + DM Sans",
+  "Cardo + Inter"
  ],
  "recent_layouts": [
-  "SVG split AC unit with hanging AMC tag + month bar strip, browser AMC table with visit dots, portrait street-grid route map + stop list, phone service report, numbered tiles CTA",
-  "clipboard with carbon-copy order pad (yellow over pink, pen notes) beside browser reorder portal with qty steppers + 3 dark cards",
-  "SVG pattern-filled sofa preview + fabric swatch catalogue grid (SVG patterns) + 5-step job strip",
-  "browser inventory 2x3 with parametric SVG car side profiles + status pills + test drive bar",
-  "SVG pillow-pouch snack packets on shelf + stat cards, order matrix with total/packed/to-make rows, day-list week plan, batch card + film stock, dispatch checklist",
   "split-flap departure board of duties (per-character flap cells) + 3 feature cards",
   "SVG hill cottage scene with booking card, browser room cards with SVG rooms, month calendar with rooms-left, phone booking + message cards, folded guest guide",
   "isometric SVG parcel stack + browser tracking page with vertical step timeline and ETA",
@@ -1962,14 +2002,14 @@
   "anatomy landing page in browser with numbered pins + numbered legend column",
   "top-down pool with lane-rope rows as batches + member dots, phone pool pass with QR",
   "spiral wall calendar with circled due dates + client document tick/cross tracker",
-  "SVG belt rows with members + ready badges, browser week class list, progress ring + skills checklist, test list with belt swatches + message bubbles, belt tiles CTA"
+  "SVG belt rows with members + ready badges, browser week class list, progress ring + skills checklist, test list with belt swatches + message bubbles, belt tiles CTA",
+  "volunteer shift board with slot circles + stat row, browser drive/shift sign-up form, donor table with status chips + dark cards, drive report with SVG photo grid, big-numeral tiles CTA",
+  "listing card with SVG motorbike side profile + 12-point inspection grid",
+  "top-down SVG car with numbered hotspots + fitting list + bay slot bar split by duration",
+  "whiteboard with tilted sticky notes + fallen notes strip, phone team task list with attendance",
+  "Gantt suite x day grid with stay bars + dark report card with SVG dog face"
  ],
  "used_hashtag_sets": [
-  "#plantnursery #plantshop #indoorplants #plantsofindia",
-  "#diamondunit #diamondpolishing #suratdiamond #diamondmanufacturing",
-  "#nailsalon #nailtech #salonowner #nailbusiness",
-  "#badmintoncourt #boxcricket #courtbooking #sportsfacility #badmintonindia",
-  "#canteencontractor #factorycanteen #industrialcanteen #cateringservices",
   "#rowaterpurifier #roservice #waterpurifierdealer #amcservice",
   "#towingcompany #towtruck #roadsideassistance #towingservice",
   "#engineeringworkshop #latheworkshop #cncmachining #jobwork #msmeindia",
@@ -2024,7 +2064,12 @@
   "#saasfounder #indiehackers #landingpagedesign #startupideas",
   "#swimmingpool #swimmingclasses #poolmembership #swimmingindia",
   "#gstpractitioner #gstfiling #taxconsultant #accountingoffice",
-  "#martialartsschool #dojolife #beltpromotion #gymownerscanada"
+  "#martialartsschool #dojolife #beltpromotion #gymownerscanada",
+  "#ngoindia #volunteerindia #nonprofitindia #socialimpactindia",
+  "#usedbikes #secondhandbikes #bikedealer #preownedbikes",
+  "#caraccessories #carmodification #seatcovers #carcareindia",
+  "#smallbusinessindia #teammanagement #taskmanagement #shopowners",
+  "#petboarding #dogboarding #petcarebusiness #doghotel"
  ],
  "drive_index_at_post": 140
 }

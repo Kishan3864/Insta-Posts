@@ -107,3 +107,7 @@
 - (b026) Numbered "anatomy" pins inside a mockup collide with right-aligned row content (FAQ "+"); give the first row padding-right for the pin, and keep pins inside their card (right:10px), never negative offsets.
 - (b026) Fake QR from a modulo formula reads as stripes; use a seeded random 13x13 grid with three 5x5 finder squares. Dot capacity rows look tidy as a fixed 6-column grid (two neat rows) instead of wrapping flex.
 - (b026) Belt/band SVGs at 24px band height looked thin; 34px bands + a 44x50 knot and 330-360px width read as belts in the feed. New techniques that worked: top-down van seat map, pool lanes as batches, spiral wall calendar, numbered landing-page anatomy.
+- (b027) Never name a post class .ft (or .pg/.vis/.wm/.lg/.cta): lib.py uses .ft for the footer, so a ".ft" card style turned the footer into a white slab and squeezed the visual. Use unique names (.fx, .fitrow).
+- (b027) Time axes under a duration bar must be proportional; evenly spaced hour ticks under a 3 h 35 min bar were wrong. Use start/end labels only, or place ticks at % positions.
+- (b027) Count words in derived labels: a drive with 0 open slots showed "0 open"; compute status text with a rule (0 → "Full"). Check every computed chip in the contact sheet.
+- (b027) New techniques that worked: Gantt stay bars on a CSS grid (grid-column spans), slot-circle shift board, whiteboard with stickies in a 2x2 stretch grid (fills the board), top-down car with hotspots.
