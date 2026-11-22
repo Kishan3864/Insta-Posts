@@ -3,7 +3,7 @@
  "drive_index_sheet_id": "17DMiIlgQarmABZGJbxLXvzbk7KOnOPqW6-Ffiq0jHcc",
  "lock_until_utc": "2026-11-22T16:25:34Z",
  "last_run": "2026-11-22T14:42:49Z \u00b7 posts 146-160 made, Drive 1-160 done, index sheet last at 140 (refresh due ~165)",
- "next_post_no": 176,
+ "next_post_no": 181,
  "posts_done": [
   {
    "n": 1,
@@ -1404,11 +1404,51 @@
    "slides": 5,
    "market": "India",
    "category": "EventManagement"
+  },
+  {
+   "n": 176,
+   "dir": "posts/0176_SINGLE_India_LabelPouchSupplier",
+   "format": "SINGLE",
+   "slides": 1,
+   "market": "India",
+   "category": "LabelPouchSupplier"
+  },
+  {
+   "n": 177,
+   "dir": "posts/0177_CAROUSEL_USA_LawOffice",
+   "format": "CAROUSEL",
+   "slides": 5,
+   "market": "USA",
+   "category": "LawOffice"
+  },
+  {
+   "n": 178,
+   "dir": "posts/0178_SINGLE_India_InverterInstaller",
+   "format": "SINGLE",
+   "slides": 1,
+   "market": "India",
+   "category": "InverterInstaller"
+  },
+  {
+   "n": 179,
+   "dir": "posts/0179_SINGLE_India_LoanAgent",
+   "format": "SINGLE",
+   "slides": 1,
+   "market": "India",
+   "category": "LoanAgent"
+  },
+  {
+   "n": 180,
+   "dir": "posts/0180_SINGLE_Canada_RestaurantOrdering",
+   "format": "SINGLE",
+   "slides": 1,
+   "market": "Canada",
+   "category": "RestaurantOrdering"
   }
  ],
  "market_counts": {
-  "India": 123,
-  "Abroad": 52
+  "India": 126,
+  "Abroad": 54
  },
  "used_categories": [
   "Boutique",
@@ -1592,14 +1632,14 @@
   "SolarWaterHeater",
   "MobileCarWash",
   "PlumbingContractor",
-  "EventManagement"
+  "EventManagement",
+  "LabelPouchSupplier",
+  "LawOffice",
+  "InverterInstaller",
+  "LoanAgent",
+  "RestaurantOrdering"
  ],
  "recent_palettes": [
-  "sage/sunflower/cream",
-  "asphalt/fluoro orange/white",
-  "jet black/electric blue/silver",
-  "whiteboard white/sticky yellow/marker blue",
-  "lavender/teal/cream",
   "steel blue/safety yellow/concrete",
   "wine/gold foil/ivory",
   "glacier white/ski red/pine",
@@ -1619,7 +1659,12 @@
   "midnight blue/sun gold/cloud white",
   "aqua/hot coral/navy",
   "porcelain/charcoal/leaf green",
-  "aubergine/peach/white"
+  "aubergine/peach/white",
+  "kraft/ink black/tomato",
+  "oxford navy/cream/burgundy",
+  "deep blue/electric cyan/white",
+  "slate green/peach/white",
+  "tomato/cream/espresso"
  ],
  "drive_files_done": [
   1,
@@ -1794,66 +1839,6 @@
   170
  ],
  "log": [
-  {
-   "n": 146,
-   "date": "2026-11-22",
-   "format": "CAROUSEL",
-   "market": "India",
-   "category": "TourOperator",
-   "palette": "sunset orange/deep teal/sand",
-   "fonts": "Archivo Black + DM Sans",
-   "layout": "top-down SVG tempo traveller seat map + stat cards, browser trip page with SVG mountain banner + day cards, payment status table, phone pickup list, seat strip + boarding pass ticket CTA",
-   "dots": 3,
-   "phone": true
-  },
-  {
-   "n": 147,
-   "date": "2026-11-22",
-   "format": "SINGLE",
-   "market": "USA",
-   "category": "SaaSFounder",
-   "palette": "midnight violet/mint/white",
-   "fonts": "Montserrat + Inter",
-   "layout": "anatomy landing page in browser with numbered pins + numbered legend column",
-   "dots": 2,
-   "phone": false
-  },
-  {
-   "n": 148,
-   "date": "2026-11-22",
-   "format": "SINGLE",
-   "market": "India",
-   "category": "SwimmingPool",
-   "palette": "pool blue/lane red/white tile",
-   "fonts": "Anton + Open Sans",
-   "layout": "top-down pool with lane-rope rows as batches + member dots, phone pool pass with QR",
-   "dots": 4,
-   "phone": true
-  },
-  {
-   "n": 149,
-   "date": "2026-11-22",
-   "format": "SINGLE",
-   "market": "India",
-   "category": "GSTPractitioner",
-   "palette": "paper white/forest green/vermilion",
-   "fonts": "Gelasio + Inter",
-   "layout": "spiral wall calendar with circled due dates + client document tick/cross tracker",
-   "dots": 1,
-   "phone": false
-  },
-  {
-   "n": 150,
-   "date": "2026-11-22",
-   "format": "CAROUSEL",
-   "market": "Canada",
-   "category": "MartialArtsSchool",
-   "palette": "mat blue/canvas cream/belt black",
-   "fonts": "TeX Gyre Adventor + Roboto",
-   "layout": "SVG belt rows with members + ready badges, browser week class list, progress ring + skills checklist, test list with belt swatches + message bubbles, belt tiles CTA",
-   "dots": 5,
-   "phone": false
-  },
   {
    "n": 151,
    "date": "2026-11-22",
@@ -2153,14 +2138,69 @@
    "layout": "vertical run-sheet time rail with now dot, vendor cards with rubber stamps, 3 team checklist columns, browser client page with progress bar, big icon tiles CTA",
    "dots": 4,
    "phone": false
+  },
+  {
+   "n": 176,
+   "date": "2026-11-22",
+   "format": "SINGLE",
+   "market": "India",
+   "category": "LabelPouchSupplier",
+   "palette": "kraft/ink black/tomato",
+   "fonts": "Poppins + Fira Sans",
+   "layout": "SVG label roll unrolling into printed labels + ticket-stub job card with perforated dispatch stub and stage punches",
+   "dots": 1,
+   "phone": false
+  },
+  {
+   "n": 177,
+   "date": "2026-11-22",
+   "format": "CAROUSEL",
+   "market": "USA",
+   "category": "LawOffice",
+   "palette": "oxford navy/cream/burgundy",
+   "fonts": "Lora + Source Sans 3",
+   "layout": "missed call vs booked list, browser intake form with topic chips, week slot grid court/consult/open/selected, document checklist with upload buttons, legal pad CTA",
+   "dots": 3,
+   "phone": false
+  },
+  {
+   "n": 178,
+   "date": "2026-11-22",
+   "format": "SINGLE",
+   "market": "India",
+   "category": "InverterInstaller",
+   "palette": "deep blue/electric cyan/white",
+   "fonts": "TeX Gyre Adventor + Roboto",
+   "layout": "appliance toggle-switch grid with counts + segmented load bar + result cards",
+   "dots": 5,
+   "phone": false
+  },
+  {
+   "n": 179,
+   "date": "2026-11-22",
+   "format": "SINGLE",
+   "market": "India",
+   "category": "LoanAgent",
+   "palette": "slate green/peach/white",
+   "fonts": "Bitter + DM Sans",
+   "layout": "filing drawer of lead folders with coloured tabs + open folder document checklist + upload link button",
+   "dots": 2,
+   "phone": false
+  },
+  {
+   "n": 180,
+   "date": "2026-11-22",
+   "format": "SINGLE",
+   "market": "Canada",
+   "category": "RestaurantOrdering",
+   "palette": "tomato/cream/espresso",
+   "fonts": "Montserrat + Lora",
+   "layout": "wooden pickup shelf cubbies with SVG paper bags + name tags + status, direct order counter card",
+   "dots": 4,
+   "phone": false
   }
  ],
  "recent_fonts": [
-  "Bitter + Inter",
-  "Archivo Black + Open Sans",
-  "Poppins + Roboto",
-  "Lora + DM Sans",
-  "Cardo + Inter",
   "Anton + DM Sans",
   "Gelasio + Poppins",
   "Montserrat + Roboto",
@@ -2180,14 +2220,14 @@
   "Archivo Black + Roboto",
   "Montserrat + Source Sans 3",
   "Bitter + Inter",
-  "Cardo + Inter"
+  "Cardo + Inter",
+  "Poppins + Fira Sans",
+  "Lora + Source Sans 3",
+  "TeX Gyre Adventor + Roboto",
+  "Bitter + DM Sans",
+  "Montserrat + Lora"
  ],
  "recent_layouts": [
-  "volunteer shift board with slot circles + stat row, browser drive/shift sign-up form, donor table with status chips + dark cards, drive report with SVG photo grid, big-numeral tiles CTA",
-  "listing card with SVG motorbike side profile + 12-point inspection grid",
-  "top-down SVG car with numbered hotspots + fitting list + bay slot bar split by duration",
-  "whiteboard with tilted sticky notes + fallen notes strip, phone team task list with attendance",
-  "Gantt suite x day grid with stay bars + dark report card with SVG dog face",
   "SVG side-view tanker truck + trip squares strip + stat row, browser repeat orders list + order form, tanker trip lanes with status chips, statement cards by trip count, truck + tile CTA",
   "clothes rail with SVG outfits on hangers + hang tags + per-outfit month calendar (booked/fitting/cleaning)",
   "rack of vertical skis with length labels (free/reserved/this booking) + reservation field card",
@@ -2207,14 +2247,14 @@
   "SVG rooftop solar heater + stat row, lined paper survey form with tick dots + photo chips, crew install week rows, service progress rings list, rooftop + tiles CTA",
   "hexagon zone map with wash day per zone + dark ZIP slot picker bar",
   "tiled bathroom wall elevation SVG with numbered fitting points by status + site list",
-  "vertical run-sheet time rail with now dot, vendor cards with rubber stamps, 3 team checklist columns, browser client page with progress bar, big icon tiles CTA"
+  "vertical run-sheet time rail with now dot, vendor cards with rubber stamps, 3 team checklist columns, browser client page with progress bar, big icon tiles CTA",
+  "SVG label roll unrolling into printed labels + ticket-stub job card with perforated dispatch stub and stage punches",
+  "missed call vs booked list, browser intake form with topic chips, week slot grid court/consult/open/selected, document checklist with upload buttons, legal pad CTA",
+  "appliance toggle-switch grid with counts + segmented load bar + result cards",
+  "filing drawer of lead folders with coloured tabs + open folder document checklist + upload link button",
+  "wooden pickup shelf cubbies with SVG paper bags + name tags + status, direct order counter card"
  ],
  "used_hashtag_sets": [
-  "#cateringcompany #cateringbusiness #eventcatering #corporatecatering",
-  "#organicfarming #vegbox #farmtohome #organicvegetables #farmersofindia",
-  "#warehouse #godownforrent #warehousingindia #3pllogistics #warehousemanagement",
-  "#musicteacher #pianoteacher #musiclessons #canadamusic",
-  "#paintdealer #paintshop #paintcontractor #hardwareshopindia",
   "#dyeingmill #textileprocessing #fabricdyeing #textileindustryindia",
   "#videographer #reelmaker #videoeditor #videoproductionindia",
   "#truckingcompany #truckingbusiness #fleetmanagement #owneroperator",
@@ -2269,7 +2309,12 @@
   "#solarwaterheater #solarheater #solardealer #solarinstallation #smallbusinessindia",
   "#mobilecarwash #mobiledetailing #carwashbusiness #detailingbusiness",
   "#plumbingcontractor #sanitaryware #bathroomfitting #plumbingwork",
-  "#eventmanagement #eventplanner #eventmanagementcompany #corporateevents"
+  "#eventmanagement #eventplanner #eventmanagementcompany #corporateevents",
+  "#labelprinting #packagingsupplier #pouchpackaging #printingindustry",
+  "#lawoffice #lawfirmmarketing #solopractitioner #legaltech",
+  "#inverterinstallation #inverterbattery #powerbackup #electricalbusiness",
+  "#loanagent #dsa #loandocuments #financeprofessional",
+  "#restaurantowner #onlineordering #takeoutfood #canadianrestaurant"
  ],
  "drive_index_at_post": 165
 }

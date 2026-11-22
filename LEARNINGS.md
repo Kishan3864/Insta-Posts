@@ -127,3 +127,7 @@
 - (b031) To fill a tall elevation drawing, extend the background (tile grid) to the new viewBox height and translate the fixtures group down, instead of stretching shapes.
 - (b031) Owner vs customer split (card | phone) joined by a dashed seam with an arrow chip is a clear new "same data, two views" layout; keep item lists identical on both sides.
 - (b031) CTA tiles with only an icon + 2 words look empty in big cells; 96px icons, 50px serif titles and a one-line subtitle hold the space. Next: annotated paper form with handwriting, a before/after diagonal split, a ticket stub layout.
+- (b032) Never give a grid cell the same class name as its base class (.c with status "c" made every cell "booked"). Prefix status classes (kc/kb/ks/ko) and check the legend colours against the grid in the contact sheet.
+- (b032) Lined-paper backgrounds with a fixed line pitch drift away from flex rows; draw the rule as each row's border-bottom so text and lines always align.
+- (b032) Small objects (100px bags) in tall cubbies look lost; size the object to ~60% of the cell width (150px) and bump tag text to 26/19px.
+- (b032) New techniques that worked: ticket stub with dashed perforation, label roll unrolling, appliance toggle switches feeding a segmented bar, filing-drawer folder tabs, pickup shelf cubbies. Next: diagonal before/after split, annotated paper form, a stacked-notification hook.
