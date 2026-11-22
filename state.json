@@ -1,9 +1,9 @@
 {
  "drive_folder_id": "1OZvW8MCiA-_SSNn5_9g3o8k5sMyHUcxE",
  "drive_index_sheet_id": "1cCLssLf0NAU-Lgdr8suSQO0cAsyc5jQJRge0O2i-Nd8",
- "lock_until_utc": "2026-11-22T09:12:49Z",
+ "lock_until_utc": "2026-11-22T09:19:25Z",
  "last_run": "2026-11-22T07:54:30Z \u00b7 posts 41-45 made, Drive 1-45 done",
- "next_post_no": 46,
+ "next_post_no": 51,
  "posts_done": [
   {
    "n": 1,
@@ -364,11 +364,51 @@
    "slides": 1,
    "market": "India",
    "category": "JuiceBar"
+  },
+  {
+   "n": 46,
+   "dir": "posts/0046_CAROUSEL_India_CloudKitchen",
+   "format": "CAROUSEL",
+   "slides": 6,
+   "market": "India",
+   "category": "CloudKitchen"
+  },
+  {
+   "n": 47,
+   "dir": "posts/0047_SINGLE_India_TeaStallChain",
+   "format": "SINGLE",
+   "slides": 1,
+   "market": "India",
+   "category": "TeaStallChain"
+  },
+  {
+   "n": 48,
+   "dir": "posts/0048_SINGLE_India_EventDecorator",
+   "format": "SINGLE",
+   "slides": 1,
+   "market": "India",
+   "category": "EventDecorator"
+  },
+  {
+   "n": 49,
+   "dir": "posts/0049_CAROUSEL_USA_Electrician",
+   "format": "CAROUSEL",
+   "slides": 5,
+   "market": "USA",
+   "category": "Electrician"
+  },
+  {
+   "n": 50,
+   "dir": "posts/0050_SINGLE_India_SpaCentre",
+   "format": "SINGLE",
+   "slides": 1,
+   "market": "India",
+   "category": "SpaCentre"
   }
  ],
  "market_counts": {
-  "India": 31,
-  "Abroad": 14
+  "India": 35,
+  "Abroad": 15
  },
  "used_categories": [
   "Boutique",
@@ -422,14 +462,14 @@
   "MakeupArtist",
   "AutoDetailing",
   "PaintingContractor",
-  "JuiceBar"
+  "JuiceBar",
+  "CloudKitchen",
+  "TeaStallChain",
+  "EventDecorator",
+  "Electrician",
+  "SpaCentre"
  ],
  "recent_palettes": [
-  "kraft paper/ink blue/red pencil",
-  "milk white/cobalt/lime",
-  "deep green/turmeric",
-  "blueprint navy/copper/cream",
-  "pistachio/chocolate/orange",
   "petrol teal/amber/off-white",
   "peach/plum",
   "midnight/ice/signal red",
@@ -449,7 +489,12 @@
   "black/champagne/dusty pink",
   "graphite/cyan glow",
   "white/paint swatch strip",
-  "mango/leaf/cream"
+  "mango/leaf/cream",
+  "aubergine/paprika/cream",
+  "deep cocoa/saffron/cardamom green",
+  "lilac/deep navy/marigold",
+  "electric yellow/deep indigo/white",
+  "eucalyptus/linen/clay"
  ],
  "drive_files_done": [
   1,
@@ -798,14 +843,69 @@
    "layout": "paper pile vs tablet card",
    "dots": 2,
    "phone": false
+  },
+  {
+   "n": 46,
+   "date": "2026-11-22",
+   "format": "CAROUSEL",
+   "market": "India",
+   "category": "CloudKitchen",
+   "palette": "aubergine/paprika/cream",
+   "fonts": "Inter Display + Lora",
+   "layout": "kraft delivery bag + die-cut sticker, 4-part carousel",
+   "dots": 3,
+   "phone": true
+  },
+  {
+   "n": 47,
+   "date": "2026-11-22",
+   "format": "SINGLE",
+   "market": "India",
+   "category": "TeaStallChain",
+   "palette": "deep cocoa/saffron/cardamom green",
+   "fonts": "Montserrat + Source Sans 3",
+   "layout": "outlet rows with conic ring gauges",
+   "dots": 1,
+   "phone": false
+  },
+  {
+   "n": 48,
+   "date": "2026-11-22",
+   "format": "SINGLE",
+   "market": "India",
+   "category": "EventDecorator",
+   "palette": "lilac/deep navy/marigold",
+   "fonts": "Bitter + DM Sans",
+   "layout": "chat bubbles vs shared event page (browser)",
+   "dots": 4,
+   "phone": false
+  },
+  {
+   "n": 49,
+   "date": "2026-11-22",
+   "format": "CAROUSEL",
+   "market": "USA",
+   "category": "Electrician",
+   "palette": "electric yellow/deep indigo/white",
+   "fonts": "Anton + DM Sans",
+   "layout": "signs you need, hazard-tape bands + outlined numbers",
+   "dots": 2,
+   "phone": false
+  },
+  {
+   "n": 50,
+   "date": "2026-11-22",
+   "format": "SINGLE",
+   "market": "India",
+   "category": "SpaCentre",
+   "palette": "eucalyptus/linen/clay",
+   "fonts": "Lora + Source Sans 3",
+   "layout": "frosted glass cards over blurred blobs, slot grid",
+   "dots": 5,
+   "phone": false
   }
  ],
  "recent_fonts": [
-  "Bitter + Source Sans 3",
-  "Archivo Black + DM Sans",
-  "TeX Gyre Adventor + Inter",
-  "Anton + Roboto",
-  "Gelasio + Poppins",
   "Fira Sans + Gelasio",
   "Lora + DM Sans",
   "Inter Display + Inter",
@@ -825,14 +925,14 @@
   "Cardo + Poppins",
   "Fira Sans",
   "Gelasio + DM Sans",
-  "TeX Gyre Adventor + Open Sans"
+  "TeX Gyre Adventor + Open Sans",
+  "Inter Display + Lora",
+  "Montserrat + Source Sans 3",
+  "Bitter + DM Sans",
+  "Anton + DM Sans",
+  "Lora + Source Sans 3"
  ],
  "recent_layouts": [
-  "notebook vs ledger carousel",
-  "month calendar heat-grid",
-  "one-day vertical timeline + phone",
-  "blueprint grid + CSS pipes, 4 things carousel",
-  "kanban order board",
   "diagonal before/after split, paper vs digital job card",
   "4-panel comic strip",
   "snowfall bg, outlined big numbers",
@@ -852,7 +952,12 @@
   "mistakes list (mistake + fix)",
   "dark-mode KPI dashboard",
   "paint-chip markers + roller stroke",
-  "paper pile vs tablet card"
+  "paper pile vs tablet card",
+  "kraft delivery bag + die-cut sticker, 4-part carousel",
+  "outlet rows with conic ring gauges",
+  "chat bubbles vs shared event page (browser)",
+  "signs you need, hazard-tape bands + outlined numbers",
+  "frosted glass cards over blurred blobs, slot grid"
  ],
  "used_hashtag_sets": [
   "#kiranastore #udhaar #kiranashop #retailindia #shopowners",
@@ -879,7 +984,12 @@
   "#makeupartist #bridalmakeupartist #muaindia #makeupbusiness",
   "#autodetailing #cardetailing #mobiledetailing #detailingbusiness",
   "#paintingcontractor #housepainter #paintingbusiness #canadacontractor",
-  "#juicebar #juiceshop #shakes #cafeownerindia #loyaltyprogram"
+  "#juicebar #juiceshop #shakes #cafeownerindia #loyaltyprogram",
+  "#cloudkitchen #cloudkitchenindia #foodbusinessindia #directorders #homechefs",
+  "#teastall #chaiwala #chaibusiness #teashopindia",
+  "#eventdecorator #eventdecor #decoratorsindia #eventplanningindia #weddingdecorindia",
+  "#electrician #electricalcontractor #electricianlife #tradesbusiness",
+  "#spaowner #spabusiness #spaindia #salonandspa"
  ],
  "drive_index_at_post": 40
 }

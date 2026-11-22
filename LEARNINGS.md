@@ -25,3 +25,7 @@
 - (b005) Dark dashboards: keep sample numbers internally consistent (bar chart days add up to the weekly KPI) and label tiles "sample". Use grid rows like auto 1.5fr .6fr so short rows don't become empty tiles.
 - (b005) Overlapping rotated paper cards passed checks when each card is absolutely positioned inside an overflow:hidden box; good for "pile of paper" visuals.
 - (b005) Next: isometric shelf/stock illustration for a retail niche, a map-route single for an Indian cab operator, and a split-screen chat vs form comparison.
+- (b006) Anton again: big Anton numbers (110px) and Anton card titles flagged OVERLAP with the line below. Use line-height >= 1.25 for Anton/Lora display numbers plus margin-bottom 6px under Anton titles; add margin-top 14px to rows right under an Anton h1.
+- (b006) "Front of card" mocks leave a dead middle when only a headline + QR. Fill with a small visual row (CSS dish circles), a dashed "this week" box and hours, so the card reads as a real printed insert.
+- (b006) New techniques that worked: CSS kraft bag + die-cut sticker (dashed inner border), conic-gradient ring gauges per outlet row, hazard-tape stripe bands (repeating-linear-gradient -45deg), frosted glass cards (backdrop-filter) over blurred blobs. Next: try an isometric shelf, a paper calendar tear-off, a split "owner's day vs customer's day" timeline.
+- (b006) Side-text + mockup "fix" panels: give the text column 320px and Anton 54px, and raise form field text to 17-18px; 15-16px form text looks tiny in the feed.
