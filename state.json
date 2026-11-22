@@ -2,8 +2,8 @@
  "drive_folder_id": "1OZvW8MCiA-_SSNn5_9g3o8k5sMyHUcxE",
  "drive_index_sheet_id": "15xA_plNpxQlRA-1TvbBtB27qu5aN0_LutC8JeKSODmM",
  "lock_until_utc": "2026-11-22T23:14:10Z",
- "last_run": "2026-11-22T21:52:35Z · posts 251-275 made (batches 47-51), Drive 1-275 done, index sheet refreshed at 265 (old sheets trashed), 35 new targets added",
- "next_post_no": 276,
+ "last_run": "2026-11-22T21:52:35Z \u00b7 posts 251-275 made (batches 47-51), Drive 1-275 done, index sheet refreshed at 265 (old sheets trashed), 35 new targets added",
+ "next_post_no": 281,
  "posts_done": [
   {
    "n": 1,
@@ -2204,11 +2204,51 @@
    "slides": 1,
    "market": "India",
    "category": "HousekeepingSupplies"
+  },
+  {
+   "n": 276,
+   "dir": "posts/0276_SINGLE_India_ToolRental",
+   "format": "SINGLE",
+   "slides": 1,
+   "market": "India",
+   "category": "ToolRental"
+  },
+  {
+   "n": 277,
+   "dir": "posts/0277_CAROUSEL_USA_ClosetInstaller",
+   "format": "CAROUSEL",
+   "slides": 5,
+   "market": "USA",
+   "category": "ClosetInstaller"
+  },
+  {
+   "n": 278,
+   "dir": "posts/0278_SINGLE_India_EWasteCollector",
+   "format": "SINGLE",
+   "slides": 1,
+   "market": "India",
+   "category": "EWasteCollector"
+  },
+  {
+   "n": 279,
+   "dir": "posts/0279_SINGLE_India_WallPuttyPOP",
+   "format": "SINGLE",
+   "slides": 1,
+   "market": "India",
+   "category": "WallPuttyPOP"
+  },
+  {
+   "n": 280,
+   "dir": "posts/0280_SINGLE_India_AluminiumWindowMaker",
+   "format": "SINGLE",
+   "slides": 1,
+   "market": "India",
+   "category": "AluminiumWindowMaker"
   }
  ],
  "market_counts": {
-  "India": 193,
-  "Abroad": 82
+  "India": 197,
+  "Abroad": 83
  },
  "used_categories": [
   "Boutique",
@@ -2492,14 +2532,14 @@
   "ScreenPrintShop",
   "SareeFallPico",
   "CaneFurniture",
-  "HousekeepingSupplies"
+  "HousekeepingSupplies",
+  "ToolRental",
+  "ClosetInstaller",
+  "EWasteCollector",
+  "WallPuttyPOP",
+  "AluminiumWindowMaker"
  ],
  "recent_palettes": [
-  "slate blue/mint/coral",
-  "terracotta/sand/charcoal",
-  "kraft tan/forest green/marigold",
-  "chalk green/cream/tomato",
-  "plum velvet/mustard/linen",
   "pegboard tan/electric violet/black",
   "ebony/ivory/brass",
   "marble white/granite black/copper",
@@ -2519,7 +2559,12 @@
   "ink magenta/black/off-white",
   "peacock teal/rose/ivory",
   "cane gold/bamboo green/clay",
-  "mop blue/lemon/white"
+  "mop blue/lemon/white",
+  "safety orange/steel grey/chalk white",
+  "white oak/sage/ink",
+  "circuit green/copper/charcoal",
+  "putty grey/ultramarine/ivory",
+  "anodized bronze/sky glass/graphite"
  ],
  "drive_files_done": [
   1,
@@ -2799,66 +2844,6 @@
   275
  ],
  "log": [
-  {
-   "n": 246,
-   "date": "2026-11-22",
-   "format": "SINGLE",
-   "market": "USA",
-   "category": "WindowTint",
-   "palette": "smoke black/chrome/sky",
-   "fonts": "Montserrat + Inter",
-   "layout": "sedan side view with windows shaded by picked % + shade ladder per window + dark booking card",
-   "dots": 3,
-   "phone": false
-  },
-  {
-   "n": 247,
-   "date": "2026-11-22",
-   "format": "CAROUSEL",
-   "market": "India",
-   "category": "BatterMaker",
-   "palette": "rice white/banana leaf green/chutney red",
-   "fonts": "Lora + Inter",
-   "layout": "fridge crate of packets with made-on dates, order sheet by packet size, vertical van route timeline, returns rows with packet icons, packets + tiles CTA",
-   "dots": 5,
-   "phone": false
-  },
-  {
-   "n": 248,
-   "date": "2026-11-22",
-   "format": "SINGLE",
-   "market": "India",
-   "category": "DocumentCourier",
-   "palette": "envelope buff/royal blue/lime",
-   "fonts": "DM Sans + Roboto",
-   "layout": "big envelope with flap and stamp as tracking card + proof photo frames",
-   "dots": 2,
-   "phone": false
-  },
-  {
-   "n": 249,
-   "date": "2026-11-22",
-   "format": "SINGLE",
-   "market": "India",
-   "category": "PaperCupSupplier",
-   "palette": "paper white/coffee brown/teal",
-   "fonts": "Gelasio + Open Sans",
-   "layout": "4 shop columns with nested cup stacks (1 cup = 100) vs usual-week dashed line + reorder flags",
-   "dots": 4,
-   "phone": false
-  },
-  {
-   "n": 250,
-   "date": "2026-11-22",
-   "format": "SINGLE",
-   "market": "Canada",
-   "category": "SeasonalLights",
-   "palette": "night navy/warm bulb yellow/snow",
-   "fonts": "Anton + Fira Sans",
-   "layout": "night house elevation with bulb dots on measured runs + runs list + install/take-down date cards",
-   "dots": 1,
-   "phone": false
-  },
   {
    "n": 251,
    "date": "2026-11-22",
@@ -3158,14 +3143,69 @@
    "layout": "receipt-style monthly supply list with dotted leaders and torn edge + 3 side cards",
    "dots": 1,
    "phone": false
+  },
+  {
+   "n": 276,
+   "date": "2026-11-22",
+   "format": "SINGLE",
+   "market": "India",
+   "category": "ToolRental",
+   "palette": "safety orange/steel grey/chalk white",
+   "fonts": "Montserrat + Inter",
+   "layout": "dark tool shadow board with filled tools in shop and dashed outlines for rented tools + return tags + rentals list + reminder card",
+   "dots": 4,
+   "phone": false
+  },
+  {
+   "n": 277,
+   "date": "2026-11-22",
+   "format": "CAROUSEL",
+   "market": "USA",
+   "category": "ClosetInstaller",
+   "palette": "white oak/sage/ink",
+   "fonts": "Crimson Text + DM Sans",
+   "layout": "blurred photo vs dimensioned wall hook, browser measuring form, 3 CSS closet elevations as options, install timeline + installed closet, closets + tiles CTA",
+   "dots": 1,
+   "phone": false
+  },
+  {
+   "n": 278,
+   "date": "2026-11-22",
+   "format": "SINGLE",
+   "market": "India",
+   "category": "EWasteCollector",
+   "palette": "circuit green/copper/charcoal",
+   "fonts": "Anton + Source Sans 3",
+   "layout": "phone item picker with +/- counters and slot chips + weight slip with LCD scale reading + after-pickup card",
+   "dots": 5,
+   "phone": true
+  },
+  {
+   "n": 279,
+   "date": "2026-11-22",
+   "format": "SINGLE",
+   "market": "India",
+   "category": "WallPuttyPOP",
+   "palette": "putty grey/ultramarine/ivory",
+   "fonts": "Cardo + Inter",
+   "layout": "wall cross-section strata legend (brick to primer) + room x layer table with done/next cells + 6 site day tiles",
+   "dots": 2,
+   "phone": false
+  },
+  {
+   "n": 280,
+   "date": "2026-11-22",
+   "format": "SINGLE",
+   "market": "India",
+   "category": "AluminiumWindowMaker",
+   "palette": "anodized bronze/sky glass/graphite",
+   "fonts": "TeX Gyre Adventor + Inter",
+   "layout": "building elevation of 8 flats with windows coloured by job stage + one flat's window list with drawn glass types + dispatch card",
+   "dots": 3,
+   "phone": false
   }
  ],
  "recent_fonts": [
-  "Archivo Black + Source Sans 3",
-  "Cardo + Open Sans",
-  "TeX Gyre Adventor + Roboto",
-  "Crimson Text + Poppins",
-  "Lora + Montserrat",
   "Anton + Poppins",
   "Gelasio + DM Sans",
   "Bitter + Inter",
@@ -3185,14 +3225,14 @@
   "Archivo Black + DM Sans",
   "Cardo + Poppins",
   "Bitter + Open Sans",
-  "Gelasio + Roboto"
+  "Gelasio + Roboto",
+  "Montserrat + Inter",
+  "Crimson Text + DM Sans",
+  "Anton + Source Sans 3",
+  "Cardo + Inter",
+  "TeX Gyre Adventor + Inter"
  ],
  "recent_layouts": [
-  "drawn window with SVG mesh pattern + dimension arrows + info tiles, site list of all windows, 3 dark bottom cards",
-  "6 CSS texture swatches hook, tablet catalogue, measured wall minus window maths, wall-by-wall quote doc, site days list with photo status, swatches + tiles CTA",
-  "room-by-room item counter with box tallies + dark crew plan card with rule and load/drive/unload time bar",
-  "CSS keyboard with lesson keys lit + batch seat dots + lined practice sheet",
-  "fabric swatches hanging from a brass rail with CSS weaves + measurement order + total cloth cards",
   "pegboard wall of guard packets by screen size with count badges + dark token queue + low stock card",
   "CSS piano keyboard hook with quote, client cards with mini keyboards + due chips, town map with route-day zone + stop list, phone booking page + side cards, keyboard + tiles CTA",
   "top-down slab to scale with nested cut pieces and hatched offcut + pieces list + dark slab rack",
@@ -3212,14 +3252,14 @@
   "flat tee proof with print area + size run of shirt icons + 3 status tiles",
   "wooden pigeonhole rack of folded sarees with tickets + message bubbles + counts + legend",
   "CSS cane weave chairs catalogue grid, big chair + option chips, making stage bars, packed box + dispatch cards, chairs + tiles CTA",
-  "receipt-style monthly supply list with dotted leaders and torn edge + 3 side cards"
+  "receipt-style monthly supply list with dotted leaders and torn edge + 3 side cards",
+  "dark tool shadow board with filled tools in shop and dashed outlines for rented tools + return tags + rentals list + reminder card",
+  "blurred photo vs dimensioned wall hook, browser measuring form, 3 CSS closet elevations as options, install timeline + installed closet, closets + tiles CTA",
+  "phone item picker with +/- counters and slot chips + weight slip with LCD scale reading + after-pickup card",
+  "wall cross-section strata legend (brick to primer) + room x layer table with done/next cells + 6 site day tiles",
+  "building elevation of 8 flats with windows coloured by job stage + one flat's window list with drawn glass types + dispatch card"
  ],
  "used_hashtag_sets": [
-  "#alterations #tailorshop #clothingalterations #smallbusinessusa",
-  "#cattlefeed #animalfeed #feeddealer #dairyfarmingindia",
-  "#sofacleaning #mattresscleaning #homecleaningservices #cleaningbusinessindia",
-  "#manufacturing #metalfabrication #smallmanufacturer #canadianbusiness",
-  "#homemadepickle #achaar #homebusinessindia #homechef",
   "#vegetablesupplier #horecasupply #freshvegetables #hotelsupplies",
   "#chimneycleaning #kitchenchimney #homeservicesindia #amcservice",
   "#dogdaycare #doggydaycare #petbusiness #dogsofusa",
@@ -3274,7 +3314,12 @@
   "#screenprinting #customtshirts #printshop #smallbusinessusa",
   "#sareefall #pico #sareelove #tailoringindia",
   "#canefurniture #bamboofurniture #handmadeinindia #rattanfurniture #homedecorindia",
-  "#housekeepingsupplies #officesupplies #cleaningsupplies #b2bindia"
+  "#housekeepingsupplies #officesupplies #cleaningsupplies #b2bindia",
+  "#toolrental #hardwareshop #equipmentrental #smallbusinessindia",
+  "#closetinstaller #closetdesign #customclosets #homeorganization",
+  "#ewaste #ewastecollection #electronicwaste #scrappickup",
+  "#wallputty #popwork #popcontractor #interiorfinishing #homerenovationindia",
+  "#aluminiumwindows #slidingwindows #windowfabrication #constructionindia"
  ],
  "drive_index_at_post": 265,
  "old_index_sheets_to_trash": []
