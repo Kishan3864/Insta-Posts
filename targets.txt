@@ -202,3 +202,27 @@ US | Wholesaler / distributor | B2B ordering portal
 US | E-commerce brand | custom Shopify-free store / internal tools
 CA | Farm / farmers market vendor | pre-order website
 US | Church | (skip: religion)
+IN | Tutor (home tuition, adult learners) | (skip minors) use spoken English classes for adults
+IN | Spoken English institute (adults) | batch timings, attendance, level tests
+IN | Mobile accessories wholesaler | dealer catalogue with stock, order on WhatsApp link
+IN | Electrical goods shop | contractor accounts, bulk quotes
+IN | Sanitaryware plumber contractor | site material list, pending fittings
+IN | Water tanker supplier | daily trips, society orders, payments due
+IN | Gas stove repair service | service calls, spare parts, visit slots
+IN | Furniture rental | items out, rent due, pickup dates
+IN | Event chair and table rental | stock out and back per event
+IN | Generator rental | hours run, diesel log, site bookings
+IN | Saloon booking for men (premium) | membership visits, stylist calendar
+IN | Bridal wear rental | outfit calendar, trials, deposits
+IN | Bike rental (tourist town) | bike availability, ID check list, return times
+IN | Printing on t-shirts / merch | order proofs, sizes, bulk quantity
+IN | Packaging pouch and label supplier | proof approval, roll quantities, dispatch
+IN | Solar water heater dealer | site survey, install date, service reminders
+IN | Inverter installer | load calculator form, install booking
+US | Window cleaning company | route days, recurring clients
+US | Carpet cleaning | room-based quote form, booking
+US | Garage door repair | emergency call form, job tracking
+US | Mobile car wash | ZIP code service area, booking slots
+US | Home organizer | project photos, session booking
+CA | Ski / snowboard rental shop | gear reservations, sizes
+US | Bridal boutique | try-on appointments, dress orders
