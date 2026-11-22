@@ -131,3 +131,7 @@
 - (b032) Lined-paper backgrounds with a fixed line pitch drift away from flex rows; draw the rule as each row's border-bottom so text and lines always align.
 - (b032) Small objects (100px bags) in tall cubbies look lost; size the object to ~60% of the cell width (150px) and bump tag text to 26/19px.
 - (b032) New techniques that worked: ticket stub with dashed perforation, label roll unrolling, appliance toggle switches feeding a segmented bar, filing-drawer folder tabs, pickup shelf cubbies. Next: diagonal before/after split, annotated paper form, a stacked-notification hook.
+- (b033) "Xerox" is a trademark: say "print and photocopy shop" in slides, captions and hashtags. Check generic-sounding words (xerox, chat app names) for brands before saving.
+- (b033) Toggle-heavy forms (B&W/Colour, sides, binding) leave gaps when each group is flex:1; add real fields (pages, note to shop) and taller 23px toggles instead of spacing.
+- (b033) Rows of identical small objects (water cans) as a per-customer strip read in 2 seconds: 3 states (filled / outline / accent) + a legend. Scale icons to fill the row (6 x 53px).
+- (b033) Mini document proofs side by side look empty if the card stretches: use space-between with flourishes at top/bottom, an inset double frame (box-shadow inset) and an extra script line. Use &#8209; to stop "A-line" breaking at the hyphen. Next: diagonal before/after split, stacked notifications hook.

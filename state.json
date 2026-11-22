@@ -3,7 +3,7 @@
  "drive_index_sheet_id": "17DMiIlgQarmABZGJbxLXvzbk7KOnOPqW6-Ffiq0jHcc",
  "lock_until_utc": "2026-11-22T18:14:36Z",
  "last_run": "2026-11-22T15:43:02Z \u00b7 posts 161-180 made, Drive 1-180 done, index sheet refreshed at 165 (new id stored; old sheet 1Mjh6gj6... could not be trashed, permission denied, delete by hand)",
- "next_post_no": 181,
+ "next_post_no": 186,
  "posts_done": [
   {
    "n": 1,
@@ -1444,11 +1444,51 @@
    "slides": 1,
    "market": "Canada",
    "category": "RestaurantOrdering"
+  },
+  {
+   "n": 181,
+   "dir": "posts/0181_SINGLE_India_WaterCanSupplier",
+   "format": "SINGLE",
+   "slides": 1,
+   "market": "India",
+   "category": "WaterCanSupplier"
+  },
+  {
+   "n": 182,
+   "dir": "posts/0182_CAROUSEL_India_PrintCopyShop",
+   "format": "CAROUSEL",
+   "slides": 5,
+   "market": "India",
+   "category": "PrintCopyShop"
+  },
+  {
+   "n": 183,
+   "dir": "posts/0183_SINGLE_USA_BridalBoutique",
+   "format": "SINGLE",
+   "slides": 1,
+   "market": "USA",
+   "category": "BridalBoutique"
+  },
+  {
+   "n": 184,
+   "dir": "posts/0184_SINGLE_India_ScrapDealer",
+   "format": "SINGLE",
+   "slides": 1,
+   "market": "India",
+   "category": "ScrapDealer"
+  },
+  {
+   "n": 185,
+   "dir": "posts/0185_SINGLE_India_WeddingCardPrinter",
+   "format": "SINGLE",
+   "slides": 1,
+   "market": "India",
+   "category": "WeddingCardPrinter"
   }
  ],
  "market_counts": {
-  "India": 126,
-  "Abroad": 54
+  "India": 130,
+  "Abroad": 55
  },
  "used_categories": [
   "Boutique",
@@ -1637,14 +1677,14 @@
   "LawOffice",
   "InverterInstaller",
   "LoanAgent",
-  "RestaurantOrdering"
+  "RestaurantOrdering",
+  "WaterCanSupplier",
+  "PrintCopyShop",
+  "BridalBoutique",
+  "ScrapDealer",
+  "WeddingCardPrinter"
  ],
  "recent_palettes": [
-  "steel blue/safety yellow/concrete",
-  "wine/gold foil/ivory",
-  "glacier white/ski red/pine",
-  "forest green/amber/charcoal",
-  "chalk navy/coral/paper",
   "terracotta/sand/ink navy",
   "graphite/lime/white",
   "flame blue/copper/cream",
@@ -1664,7 +1704,12 @@
   "oxford navy/cream/burgundy",
   "deep blue/electric cyan/white",
   "slate green/peach/white",
-  "tomato/cream/espresso"
+  "tomato/cream/espresso",
+  "pale sky/marine navy/sunflower",
+  "paper white/process cyan/magenta",
+  "dove grey/champagne/plum",
+  "rust orange/gunmetal/bone",
+  "ivory/vermilion/bottle green"
  ],
  "drive_files_done": [
   1,
@@ -1849,66 +1894,6 @@
   180
  ],
  "log": [
-  {
-   "n": 151,
-   "date": "2026-11-22",
-   "format": "CAROUSEL",
-   "market": "India",
-   "category": "NGO",
-   "palette": "sage/sunflower/cream",
-   "fonts": "Bitter + Inter",
-   "layout": "volunteer shift board with slot circles + stat row, browser drive/shift sign-up form, donor table with status chips + dark cards, drive report with SVG photo grid, big-numeral tiles CTA",
-   "dots": 2,
-   "phone": false
-  },
-  {
-   "n": 152,
-   "date": "2026-11-22",
-   "format": "SINGLE",
-   "market": "India",
-   "category": "UsedBikeDealer",
-   "palette": "asphalt/fluoro orange/white",
-   "fonts": "Archivo Black + Open Sans",
-   "layout": "listing card with SVG motorbike side profile + 12-point inspection grid",
-   "dots": 5,
-   "phone": false
-  },
-  {
-   "n": 153,
-   "date": "2026-11-22",
-   "format": "SINGLE",
-   "market": "India",
-   "category": "CarAccessories",
-   "palette": "jet black/electric blue/silver",
-   "fonts": "Poppins + Roboto",
-   "layout": "top-down SVG car with numbered hotspots + fitting list + bay slot bar split by duration",
-   "dots": 3,
-   "phone": false
-  },
-  {
-   "n": 154,
-   "date": "2026-11-22",
-   "format": "SINGLE",
-   "market": "India",
-   "category": "SmallTeamTasks",
-   "palette": "whiteboard white/sticky yellow/marker blue",
-   "fonts": "Lora + DM Sans",
-   "layout": "whiteboard with tilted sticky notes + fallen notes strip, phone team task list with attendance",
-   "dots": 4,
-   "phone": true
-  },
-  {
-   "n": 155,
-   "date": "2026-11-22",
-   "format": "SINGLE",
-   "market": "USA",
-   "category": "PetBoarding",
-   "palette": "lavender/teal/cream",
-   "fonts": "Cardo + Inter",
-   "layout": "Gantt suite x day grid with stay bars + dark report card with SVG dog face",
-   "dots": 1,
-   "phone": false
-  },
   {
    "n": 156,
    "date": "2026-11-22",
@@ -2208,14 +2193,69 @@
    "layout": "wooden pickup shelf cubbies with SVG paper bags + name tags + status, direct order counter card",
    "dots": 4,
    "phone": false
+  },
+  {
+   "n": 181,
+   "date": "2026-11-22",
+   "format": "SINGLE",
+   "market": "India",
+   "category": "WaterCanSupplier",
+   "palette": "pale sky/marine navy/sunflower",
+   "fonts": "Archivo Black + Fira Sans",
+   "layout": "3 stat cards with jar icons + per-customer can strip ledger of drawn 20 L jars (out/back/late) + remind chips",
+   "dots": 3,
+   "phone": false
+  },
+  {
+   "n": 182,
+   "date": "2026-11-22",
+   "format": "CAROUSEL",
+   "market": "India",
+   "category": "PrintCopyShop",
+   "palette": "paper white/process cyan/magenta",
+   "fonts": "TeX Gyre Adventor + Fira Sans",
+   "layout": "chat file bubbles with dashed magenta question stickers, browser print-job toggles form, counter TV token columns (printing/next/ready), dark ready message + 4 stat tiles with colour edges, SVG printer feeding a page + numbered tiles CTA",
+   "dots": 5,
+   "phone": false
+  },
+  {
+   "n": 183,
+   "date": "2026-11-22",
+   "format": "SINGLE",
+   "market": "USA",
+   "category": "BridalBoutique",
+   "palette": "dove grey/champagne/plum",
+   "fonts": "Lora + Poppins",
+   "layout": "5 arched fitting suites with curtains as time slots (closed booked/open mirror/dashed hold) + plum try-on form + pick card with mini arch",
+   "dots": 2,
+   "phone": false
+  },
+  {
+   "n": 184,
+   "date": "2026-11-22",
+   "format": "SINGLE",
+   "market": "India",
+   "category": "ScrapDealer",
+   "palette": "rust orange/gunmetal/bone",
+   "fonts": "Bitter + Open Sans",
+   "layout": "item tap chips + SVG platform scale with green digital readout + zigzag-top weight slip + dark pickups strip of 4",
+   "dots": 1,
+   "phone": false
+  },
+  {
+   "n": 185,
+   "date": "2026-11-22",
+   "format": "SINGLE",
+   "market": "India",
+   "category": "WeddingCardPrinter",
+   "palette": "ivory/vermilion/bottle green",
+   "fonts": "Crimson Text + DM Sans",
+   "layout": "proof timeline strip v1-v2-v3 card proofs with red-pen rings + margin notes, approved stamp, proof history list + green order card",
+   "dots": 4,
+   "phone": false
   }
  ],
  "recent_fonts": [
-  "Anton + DM Sans",
-  "Gelasio + Poppins",
-  "Montserrat + Roboto",
-  "Archivo Black + Inter",
-  "TeX Gyre Adventor + DM Sans",
   "Archivo Black + Source Sans 3",
   "Poppins + Fira Sans",
   "Lora + Open Sans",
@@ -2235,14 +2275,14 @@
   "Lora + Source Sans 3",
   "TeX Gyre Adventor + Roboto",
   "Bitter + DM Sans",
-  "Montserrat + Lora"
+  "Montserrat + Lora",
+  "Archivo Black + Fira Sans",
+  "TeX Gyre Adventor + Fira Sans",
+  "Lora + Poppins",
+  "Bitter + Open Sans",
+  "Crimson Text + DM Sans"
  ],
  "recent_layouts": [
-  "SVG side-view tanker truck + trip squares strip + stat row, browser repeat orders list + order form, tanker trip lanes with status chips, statement cards by trip count, truck + tile CTA",
-  "clothes rail with SVG outfits on hangers + hang tags + per-outfit month calendar (booked/fitting/cleaning)",
-  "rack of vertical skis with length labels (free/reserved/this booking) + reservation field card",
-  "SVG genset with digital hour meter + 3 stacked stat cards + site table with service-due bars",
-  "level staircase bars with ready flags, attendance square rows per batch, score card bars + side tip cards, phone practice app, rising steps CTA",
   "SVG stack of nested plastic chairs in a godown panel + per-event out/back challan cards with short/all back/still out chips",
   "SVG sectional garage door with bent panel + alert card, browser problem-tile picker form, tall SVG street map with numbered pins + job list, job card with parts and before/after door drawings, text thread + side cards, door + tiles CTA",
   "top-down copper toolbox with part compartments (low stock highlighted) + phone visit list with in box/not in box chips",
@@ -2262,14 +2302,14 @@
   "missed call vs booked list, browser intake form with topic chips, week slot grid court/consult/open/selected, document checklist with upload buttons, legal pad CTA",
   "appliance toggle-switch grid with counts + segmented load bar + result cards",
   "filing drawer of lead folders with coloured tabs + open folder document checklist + upload link button",
-  "wooden pickup shelf cubbies with SVG paper bags + name tags + status, direct order counter card"
+  "wooden pickup shelf cubbies with SVG paper bags + name tags + status, direct order counter card",
+  "3 stat cards with jar icons + per-customer can strip ledger of drawn 20 L jars (out/back/late) + remind chips",
+  "chat file bubbles with dashed magenta question stickers, browser print-job toggles form, counter TV token columns (printing/next/ready), dark ready message + 4 stat tiles with colour edges, SVG printer feeding a page + numbered tiles CTA",
+  "5 arched fitting suites with curtains as time slots (closed booked/open mirror/dashed hold) + plum try-on form + pick card with mini arch",
+  "item tap chips + SVG platform scale with green digital readout + zigzag-top weight slip + dark pickups strip of 4",
+  "proof timeline strip v1-v2-v3 card proofs with red-pen rings + margin notes, approved stamp, proof history list + green order card"
  ],
  "used_hashtag_sets": [
-  "#dyeingmill #textileprocessing #fabricdyeing #textileindustryindia",
-  "#videographer #reelmaker #videoeditor #videoproductionindia",
-  "#truckingcompany #truckingbusiness #fleetmanagement #owneroperator",
-  "#readymadegarments #clothingstore #garmentshop #fashionretailindia",
-  "#studyplanner #collegestudents #exampreparation #studentlifeindia",
   "#acservice #acrepair #amcservice #hvacindia",
   "#wholesalebusiness #distributor #b2bordering #canadasmallbusiness",
   "#upholstery #sofarepair #sofafabric #upholsteryindia",
@@ -2324,7 +2364,12 @@
   "#lawoffice #lawfirmmarketing #solopractitioner #legaltech",
   "#inverterinstallation #inverterbattery #powerbackup #electricalbusiness",
   "#loanagent #dsa #loandocuments #financeprofessional",
-  "#restaurantowner #onlineordering #takeoutfood #canadianrestaurant"
+  "#restaurantowner #onlineordering #takeoutfood #canadianrestaurant",
+  "#watercansupplier #20litrewater #waterdelivery #mineralwaterbusiness",
+  "#printshop #photocopyshop #printingbusiness #printandcopy",
+  "#bridalboutique #bridalshop #weddingdressshopping #bridalsalon",
+  "#scrapdealer #kabadiwala #scrapbusiness #recyclingbusinessindia",
+  "#weddingcards #weddinginvitations #invitationcards #cardprintingindia"
  ],
  "drive_index_at_post": 165
 }
