@@ -65,3 +65,7 @@
 - (b015) A rotated (45deg) badge inside an inline-flex kicker causes VOVERFLOW: the rotated box is taller than the row. Make diamond badges with clip-path polygon instead of rotate.
 - (b015) aspect-ratio:1 on a flex:1 child does not hold (stamps became ovals). Give round items fixed width+height and flex:none, spread them with justify-content:space-between.
 - (b015) Check weekday words against today's real date ("tomorrow · Wednesday" on a Sunday) and keep totals consistent across slides (headcount 470 reused as "expected" on the scan slide; bill lunch total = sum of the chart). CTA slides: varied away from peep + 4 cards (cut-corner checklist card, numbered 01-04 tiles with big faint numerals).
+- (b016) Kanban with 5 narrow vertical lanes left big empty bottoms; turning lanes into horizontal rows (lane name left, job cards right, each row flex:1) filled the slide and made text bigger.
+- (b016) SVG illustrations default to small; size them to 85-90% of panel width (beam 880px, truck 900px) and add a scene element (chalkboard sign above an awning) instead of leaving sky.
+- (b016) Story numbers must match across slides: the tracking text named the waiting job's address while the board showed a different truck job. Re-read every job number, truck and address slide by slide.
+- (b016) In SVG engineering drawings keep labels off the centre line (place above it); dashed centre lines cut through text otherwise. Bitter headlines need letter-spacing 0 (negative spacing glued words together).

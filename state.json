@@ -1,9 +1,9 @@
 {
  "drive_folder_id": "1OZvW8MCiA-_SSNn5_9g3o8k5sMyHUcxE",
  "drive_index_sheet_id": "1Xm_GVSy0LOP0qTZRGbc7oetVItCiiI7Cbn4Bn9kFbfE",
- "lock_until_utc": "2026-11-22T12:20:55Z",
+ "lock_until_utc": "2026-11-22T12:26:16Z",
  "last_run": "2026-11-22T10:46:55Z \u00b7 posts 71-90 made, Drive 1-90 done, index sheet refreshed at 90 (also fixed index.csv missing 41-45)",
- "next_post_no": 96,
+ "next_post_no": 101,
  "posts_done": [
   {
    "n": 1,
@@ -764,11 +764,51 @@
    "slides": 5,
    "market": "India",
    "category": "CanteenContractor"
+  },
+  {
+   "n": 96,
+   "dir": "posts/0096_SINGLE_India_ROWaterPurifier",
+   "format": "SINGLE",
+   "slides": 1,
+   "market": "India",
+   "category": "ROWaterPurifier"
+  },
+  {
+   "n": 97,
+   "dir": "posts/0097_CAROUSEL_USA_TowingCompany",
+   "format": "CAROUSEL",
+   "slides": 5,
+   "market": "USA",
+   "category": "TowingCompany"
+  },
+  {
+   "n": 98,
+   "dir": "posts/0098_SINGLE_India_LatheWorkshop",
+   "format": "SINGLE",
+   "slides": 1,
+   "market": "India",
+   "category": "LatheWorkshop"
+  },
+  {
+   "n": 99,
+   "dir": "posts/0099_CAROUSEL_India_PowerloomUnit",
+   "format": "CAROUSEL",
+   "slides": 5,
+   "market": "India",
+   "category": "PowerloomUnit"
+  },
+  {
+   "n": 100,
+   "dir": "posts/0100_SINGLE_Canada_FarmersMarket",
+   "format": "SINGLE",
+   "slides": 1,
+   "market": "Canada",
+   "category": "FarmersMarket"
   }
  ],
  "market_counts": {
-  "India": 67,
-  "Abroad": 28
+  "India": 70,
+  "Abroad": 30
  },
  "used_categories": [
   "Boutique",
@@ -872,14 +912,14 @@
   "DiamondUnit",
   "NailSalon",
   "BadmintonCourt",
-  "CanteenContractor"
+  "CanteenContractor",
+  "ROWaterPurifier",
+  "TowingCompany",
+  "LatheWorkshop",
+  "PowerloomUnit",
+  "FarmersMarket"
  ],
  "recent_palettes": [
-  "charcoal green/oat/brass",
-  "blueprint navy/graph white/marker yellow",
-  "charcoal/tape mustard/chalk white",
-  "deep teal/goldenrod/cloud white",
-  "birch/walnut/signal green",
   "asphalt/hi-vis orange/site sand",
   "cobalt/tomato/sneaker white",
   "pegboard tan/deep green/tomato",
@@ -899,7 +939,12 @@
   "midnight indigo/ice blue/silver",
   "lilac/cherry red/porcelain",
   "emerald court/white lines/neon lime",
-  "turmeric/charcoal brown/steel/rice white"
+  "turmeric/charcoal brown/steel/rice white",
+  "aqua mist/ink blue/coral",
+  "night black/amber light/steel blue",
+  "hammertone green/brass yellow/drawing paper",
+  "cotton white/madder red/charcoal/indigo",
+  "kraft beige/beet purple/leaf green"
  ],
  "drive_files_done": [
   1,
@@ -999,66 +1044,6 @@
   95
  ],
  "log": [
-  {
-   "n": 66,
-   "date": "2026-11-22",
-   "format": "SINGLE",
-   "market": "India",
-   "category": "FlexPrinter",
-   "palette": "process cyan/magenta/ink black",
-   "fonts": "Montserrat + Fira Sans",
-   "layout": "annotated print proof with crop marks + numbered pins",
-   "dots": 3,
-   "phone": false
-  },
-  {
-   "n": 67,
-   "date": "2026-11-22",
-   "format": "SINGLE",
-   "market": "India",
-   "category": "FishMeatShop",
-   "palette": "deep sea blue/ice white/salmon",
-   "fonts": "Lora + Poppins",
-   "layout": "without vs with timelines side by side + cut list",
-   "dots": 1,
-   "phone": false
-  },
-  {
-   "n": 68,
-   "date": "2026-11-22",
-   "format": "CAROUSEL",
-   "market": "India",
-   "category": "KurtiSeller",
-   "palette": "indigo/madder red/unbleached",
-   "fonts": "Gelasio + Montserrat",
-   "layout": "clip-path kurti silhouettes with block-print motifs, 4-part",
-   "dots": 4,
-   "phone": false
-  },
-  {
-   "n": 69,
-   "date": "2026-11-22",
-   "format": "SINGLE",
-   "market": "USA",
-   "category": "TattooStudio",
-   "palette": "charcoal/bone/teal ink",
-   "fonts": "Cardo + Fira Sans",
-   "layout": "consult form + CSS line-art portfolio grid",
-   "dots": 2,
-   "phone": false
-  },
-  {
-   "n": 70,
-   "date": "2026-11-22",
-   "format": "CAROUSEL",
-   "market": "Canada",
-   "category": "PropertyManager",
-   "palette": "slate/brick red/snow",
-   "fonts": "Archivo Black + Inter",
-   "layout": "CSS building cross-section with flagged units, kanban, portal",
-   "dots": 5,
-   "phone": false
-  },
   {
    "n": 71,
    "date": "2026-11-22",
@@ -1358,14 +1343,69 @@
    "layout": "top-down SVG steel thali + tear-off coupons, headcount bars, tablet scan counter, bill doc with sparkline, numbered tile CTA",
    "dots": 5,
    "phone": false
+  },
+  {
+   "n": 96,
+   "date": "2026-11-22",
+   "format": "SINGLE",
+   "market": "India",
+   "category": "ROWaterPurifier",
+   "palette": "aqua mist/ink blue/coral",
+   "fonts": "Poppins + Inter",
+   "layout": "SVG cutaway RO unit with filter cartridges + filter-life bar list + reminder text",
+   "dots": 2,
+   "phone": false
+  },
+  {
+   "n": 97,
+   "date": "2026-11-22",
+   "format": "CAROUSEL",
+   "market": "USA",
+   "category": "TowingCompany",
+   "palette": "night black/amber light/steel blue",
+   "fonts": "Anton + Roboto",
+   "layout": "SVG flatbed tow truck, browser call form, horizontal lane dispatch board, phone live-tracking text, amber CTA card",
+   "dots": 4,
+   "phone": true
+  },
+  {
+   "n": 98,
+   "date": "2026-11-22",
+   "format": "SINGLE",
+   "market": "India",
+   "category": "LatheWorkshop",
+   "palette": "hammertone green/brass yellow/drawing paper",
+   "fonts": "Bitter + Fira Sans",
+   "layout": "SVG engineering drawing of stepped shaft on grid paper + job card + machine load board",
+   "dots": 1,
+   "phone": false
+  },
+  {
+   "n": 99,
+   "date": "2026-11-22",
+   "format": "CAROUSEL",
+   "market": "India",
+   "category": "PowerloomUnit",
+   "palette": "cotton white/madder red/charcoal/indigo",
+   "fonts": "Lora + Roboto",
+   "layout": "SVG warp beam roll, 24-loom status grid, paired day/night bars, beam progress cards, thread-stripe CTA",
+   "dots": 3,
+   "phone": false
+  },
+  {
+   "n": 100,
+   "date": "2026-11-22",
+   "format": "SINGLE",
+   "market": "Canada",
+   "category": "FarmersMarket",
+   "palette": "kraft beige/beet purple/leaf green",
+   "fonts": "Cardo + Source Sans 3",
+   "layout": "SVG striped market awning with chalkboard sign + crates, browser pre-order page with reserved bars",
+   "dots": 5,
+   "phone": false
   }
  ],
  "recent_fonts": [
-  "Gelasio + DM Sans",
-  "Montserrat + Roboto",
-  "Bitter + Inter",
-  "TeX Gyre Adventor + Source Sans 3",
-  "Archivo Black + Source Sans 3",
   "Anton + Inter",
   "Poppins + Fira Sans",
   "Crimson Text + DM Sans",
@@ -1385,14 +1425,14 @@
   "TeX Gyre Adventor + Inter",
   "Crimson Text + Inter",
   "Archivo Black + DM Sans",
-  "Montserrat + Fira Sans"
+  "Montserrat + Fira Sans",
+  "Poppins + Inter",
+  "Anton + Roboto",
+  "Bitter + Fira Sans",
+  "Lora + Roboto",
+  "Cardo + Source Sans 3"
  ],
  "recent_layouts": [
-  "CSS material swatch board + approval comment thread",
-  "blueprint floor plan with dimension lines, mini layout plans, quotation doc",
-  "measuring tape band + phone profile + delivery list",
-  "top-down house plan with perimeter stations, year dot board, service report",
-  "side-view sheet stacks with reorder level line + stock search",
   "CSS building under construction with floor stage tags, attendance table, material rows",
   "CSS shoe-box shelf wall with sold-out slots + size bars",
   "pegboard with CSS tools + phone job list",
@@ -1412,14 +1452,14 @@
   "SVG parcel packet + faceted gem, QR lot card, stage pipeline with lot chips, worker bars, weight table",
   "SVG polish bottle rack shade picker + reminder text + stamp card + phone booking",
   "top-down SVG court diagrams with live status + browser slot grid",
-  "top-down SVG steel thali + tear-off coupons, headcount bars, tablet scan counter, bill doc with sparkline, numbered tile CTA"
+  "top-down SVG steel thali + tear-off coupons, headcount bars, tablet scan counter, bill doc with sparkline, numbered tile CTA",
+  "SVG cutaway RO unit with filter cartridges + filter-life bar list + reminder text",
+  "SVG flatbed tow truck, browser call form, horizontal lane dispatch board, phone live-tracking text, amber CTA card",
+  "SVG engineering drawing of stepped shaft on grid paper + job card + machine load board",
+  "SVG warp beam roll, 24-loom status grid, paired day/night bars, beam progress cards, thread-stripe CTA",
+  "SVG striped market awning with chalkboard sign + crates, browser pre-order page with reserved bars"
  ],
  "used_hashtag_sets": [
-  "#banquethall #weddingvenue #eventvenue #banquetbooking",
-  "#mehendiartist #mehndidesign #bridalmehendi #mehendibusiness #hennaartist",
-  "#barbershop #barberindia #salonbusiness #mensalon #queuemanagement",
-  "#roofingcontractor #roofingbusiness #roofer #roofingcompany",
-  "#yogastudio #yogateacher #yogastudioowner #fitnessbusinessindia",
   "#djsetup #soundrental #eventequipment #djbusiness #lightandsound",
   "#makeupartist #bridalmakeupartist #muaindia #makeupbusiness",
   "#autodetailing #cardetailing #mobiledetailing #detailingbusiness",
@@ -1474,7 +1514,12 @@
   "#diamondunit #diamondpolishing #suratdiamond #diamondmanufacturing",
   "#nailsalon #nailtech #salonowner #nailbusiness",
   "#badmintoncourt #boxcricket #courtbooking #sportsfacility #badmintonindia",
-  "#canteencontractor #factorycanteen #industrialcanteen #cateringservices"
+  "#canteencontractor #factorycanteen #industrialcanteen #cateringservices",
+  "#rowaterpurifier #roservice #waterpurifierdealer #amcservice",
+  "#towingcompany #towtruck #roadsideassistance #towingservice",
+  "#engineeringworkshop #latheworkshop #cncmachining #jobwork #msmeindia",
+  "#powerloom #weavingunit #textilemanufacturing #surattextile",
+  "#farmersmarket #farmersmarketvendor #shoplocalcanada #winterfarmersmarket"
  ],
  "drive_index_at_post": 90
 }
