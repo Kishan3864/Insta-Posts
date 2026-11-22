@@ -9,3 +9,7 @@
 - (b001) Stretched cards with flex:1 leave dead white middles (kanban cards, list cards). Fix by adding real rows (3rd card, extra list items, form fields) and bigger type (titles 24-26px, body 19-21px) rather than more padding.
 - (b001) Drive upload: write each text to work/drive/NNNN.txt and pass base64Content as "sha256:<hex>:<abs path>" (tools/drive_txt.py builds them). Fast, no retyping.
 - (b001) Worked well: one hero object per single (calendar heat-grid, kanban board, timeline). Next: try a paper document mock (receipt/job card), a split before/after with a diagonal cut, and a comic strip.
+- (b002) Never name a class .lg (logo class in BASE): it collapsed a "visit log" box and shrank the logo. Avoid BASE names: pg, wm, vis, ft, lg, cta, ib, sub, grain.
+- (b002) Badge with fixed height + border + line-height = height causes VOVERFLOW. Center badge numbers with display:flex + line-height:1.
+- (b002) Any rotate() on text cards triggers false OVERLAP in check_text; use offsets (alternating margins) for a sticker feel instead.
+- (b002) Biggest recurring weakness: tall stretched columns with little content. Plan content density per card BEFORE coding (5+ rows per list card, "good for" boxes, logs), and set side-point cards to flex:1 with big type. CTA slides: keep the question card large (34-40px) so the slide is not half empty.

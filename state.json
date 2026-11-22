@@ -1,9 +1,9 @@
 {
  "drive_folder_id": "1OZvW8MCiA-_SSNn5_9g3o8k5sMyHUcxE",
  "drive_index_sheet_id": null,
- "lock_until_utc": "2026-11-22T08:23:07Z",
+ "lock_until_utc": "2026-11-22T08:30:01Z",
  "last_run": null,
- "next_post_no": 26,
+ "next_post_no": 31,
  "posts_done": [
   {
    "n": 1,
@@ -204,11 +204,51 @@
    "slides": 1,
    "market": "India",
    "category": "SweetShop"
+  },
+  {
+   "n": 26,
+   "dir": "posts/0026_SINGLE_India_TwoWheelerService",
+   "format": "SINGLE",
+   "slides": 1,
+   "market": "India",
+   "category": "TwoWheelerService"
+  },
+  {
+   "n": 27,
+   "dir": "posts/0027_SINGLE_India_BeautyParlour",
+   "format": "SINGLE",
+   "slides": 1,
+   "market": "India",
+   "category": "BeautyParlour"
+  },
+  {
+   "n": 28,
+   "dir": "posts/0028_CAROUSEL_Canada_SnowRemoval",
+   "format": "CAROUSEL",
+   "slides": 5,
+   "market": "Canada",
+   "category": "SnowRemoval"
+  },
+  {
+   "n": 29,
+   "dir": "posts/0029_CAROUSEL_India_DrivingSchool",
+   "format": "CAROUSEL",
+   "slides": 5,
+   "market": "India",
+   "category": "DrivingSchool"
+  },
+  {
+   "n": 30,
+   "dir": "posts/0030_SINGLE_USA_DogWalker",
+   "format": "SINGLE",
+   "slides": 1,
+   "market": "USA",
+   "category": "DogWalker"
   }
  ],
  "market_counts": {
-  "India": 18,
-  "Abroad": 7
+  "India": 21,
+  "Abroad": 9
  },
  "used_categories": [
   "Boutique",
@@ -242,14 +282,14 @@
   "DairyMilk",
   "TiffinService",
   "Plumber",
-  "SweetShop"
+  "SweetShop",
+  "TwoWheelerService",
+  "BeautyParlour",
+  "SnowRemoval",
+  "DrivingSchool",
+  "DogWalker"
  ],
  "recent_palettes": [
-  "blush/maroon",
-  "indigo/saffron",
-  "black/lime",
-  "navy/gold/ivory",
-  "tomato/cream",
   "swiss white/teal",
   "warm black/sepia/rust",
   "asphalt/yellow",
@@ -269,7 +309,12 @@
   "milk white/cobalt/lime",
   "deep green/turmeric",
   "blueprint navy/copper/cream",
-  "pistachio/chocolate/orange"
+  "pistachio/chocolate/orange",
+  "petrol teal/amber/off-white",
+  "peach/plum",
+  "midnight/ice/signal red",
+  "cream/dark green/L-plate red",
+  "butter/ink/teal"
  ],
  "drive_files_done": [
   1,
@@ -358,6 +403,66 @@
    "layout": "kanban order board",
    "dots": 2,
    "phone": false
+  },
+  {
+   "n": 26,
+   "date": "2026-11-22",
+   "format": "SINGLE",
+   "market": "India",
+   "category": "TwoWheelerService",
+   "palette": "petrol teal/amber/off-white",
+   "fonts": "Fira Sans + Gelasio",
+   "layout": "diagonal before/after split, paper vs digital job card",
+   "dots": 3,
+   "phone": false
+  },
+  {
+   "n": 27,
+   "date": "2026-11-22",
+   "format": "SINGLE",
+   "market": "India",
+   "category": "BeautyParlour",
+   "palette": "peach/plum",
+   "fonts": "Lora + DM Sans",
+   "layout": "4-panel comic strip",
+   "dots": 1,
+   "phone": false
+  },
+  {
+   "n": 28,
+   "date": "2026-11-22",
+   "format": "CAROUSEL",
+   "market": "Canada",
+   "category": "SnowRemoval",
+   "palette": "midnight/ice/signal red",
+   "fonts": "Inter Display + Inter",
+   "layout": "snowfall bg, outlined big numbers",
+   "dots": 4,
+   "phone": false
+  },
+  {
+   "n": 29,
+   "date": "2026-11-22",
+   "format": "CAROUSEL",
+   "market": "India",
+   "category": "DrivingSchool",
+   "palette": "cream/dark green/L-plate red",
+   "fonts": "Montserrat + Open Sans",
+   "layout": "which one do you need guide",
+   "dots": 2,
+   "phone": true
+  },
+  {
+   "n": 30,
+   "date": "2026-11-22",
+   "format": "SINGLE",
+   "market": "USA",
+   "category": "DogWalker",
+   "palette": "butter/ink/teal",
+   "fonts": "Crimson Text + Poppins",
+   "layout": "stacked cards + phone with SVG route map",
+   "dots": 5,
+   "phone": true
   }
  ],
  "recent_fonts": [
@@ -365,20 +470,35 @@
   "Archivo Black + DM Sans",
   "TeX Gyre Adventor + Inter",
   "Anton + Roboto",
-  "Gelasio + Poppins"
+  "Gelasio + Poppins",
+  "Fira Sans + Gelasio",
+  "Lora + DM Sans",
+  "Inter Display + Inter",
+  "Montserrat + Open Sans",
+  "Crimson Text + Poppins"
  ],
  "recent_layouts": [
   "notebook vs ledger carousel",
   "month calendar heat-grid",
   "one-day vertical timeline + phone",
   "blueprint grid + CSS pipes, 4 things carousel",
-  "kanban order board"
+  "kanban order board",
+  "diagonal before/after split, paper vs digital job card",
+  "4-panel comic strip",
+  "snowfall bg, outlined big numbers",
+  "which one do you need guide",
+  "stacked cards + phone with SVG route map"
  ],
  "used_hashtag_sets": [
   "#kiranastore #udhaar #kiranashop #retailindia #shopowners",
   "#dairybusiness #milkdelivery #doodhwala #dairyfarmindia",
   "#tiffinservice #homemadefood #dabbaservice #cloudkitchenindia #mealsubscription",
   "#plumbingbusiness #plumbersofinstagram #plumbingcompany #homeservicesbusiness #contractorlife",
-  "#sweetshop #mithaishop #indiansweets #bulkorders"
+  "#sweetshop #mithaishop #indiansweets #bulkorders",
+  "#bikeservicecenter #twowheelerservice #bikemechanic #autoworkshopindia",
+  "#beautyparlour #salonowner #beautysalonindia #parlourbusiness #salonbooking",
+  "#snowremoval #snowplowing #snowremovalbusiness #canadianbusiness",
+  "#drivingschool #drivingschoolindia #drivinginstructor #learntodrive #smallbusinessindia",
+  "#dogwalker #petsitter #dogwalkingbusiness #petcarebusiness"
  ]
 }
