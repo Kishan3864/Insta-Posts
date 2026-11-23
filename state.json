@@ -1,8 +1,8 @@
 {
  "drive_folder_id": "1OZvW8MCiA-_SSNn5_9g3o8k5sMyHUcxE",
  "drive_index_sheet_id": "1y3GXyV7vrF7_xKkm5mgdoP0ZRMDQy_BVrqHWlwNL_kM",
- "lock_until_utc": "2026-11-23T02:37:50Z",
- "last_run": "2026-11-23T00:40:51Z \u00b7 posts 326-335 made (batches 62-63), Drive 1-335 done, index sheet last refreshed at 320 (next refresh due ~345)",
+ "lock_until_utc": null,
+ "last_run": "2026-11-23T01:51:58Z \u00b7 posts 336-355 made (batches 64-67), Drive 1-355 done, index sheet refreshed at 345 (next ~370); old sheet 1kVm... still to trash (trash was blocked)",
  "next_post_no": 356,
  "posts_done": [
   {
@@ -3591,7 +3591,12 @@
   347,
   348,
   349,
-  350
+  350,
+  351,
+  352,
+  353,
+  354,
+  355
  ],
  "log": [
   {
