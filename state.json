@@ -3,7 +3,7 @@
  "drive_index_sheet_id": "1TZmiD1hScUkyUBFGZMV6NghHhu1eb8vRCeZtz-_WTK8",
  "lock_until_utc": "2026-11-23T09:35:43Z",
  "last_run": "2026-11-23T07:44:22Z \u00b7 posts 416-425 made (batches 80-81), Drive 1-425 done; index sheet refreshed at 420 (next ~445); next batch needs 2 carousels (last 10 had 3)",
- "next_post_no": 436,
+ "next_post_no": 441,
  "posts_done": [
   {
    "n": 1,
@@ -3484,11 +3484,51 @@
    "slides": 1,
    "market": "USA",
    "category": "KnifeSharpening"
+  },
+  {
+   "n": 436,
+   "dir": "posts/0436_CAROUSEL_India_MilkCollectionCentre",
+   "format": "CAROUSEL",
+   "slides": 5,
+   "market": "India",
+   "category": "MilkCollectionCentre"
+  },
+  {
+   "n": 437,
+   "dir": "posts/0437_CAROUSEL_India_ShopFitOut",
+   "format": "CAROUSEL",
+   "slides": 5,
+   "market": "India",
+   "category": "ShopFitOut"
+  },
+  {
+   "n": 438,
+   "dir": "posts/0438_SINGLE_India_HydraulicHoseShop",
+   "format": "SINGLE",
+   "slides": 1,
+   "market": "India",
+   "category": "HydraulicHoseShop"
+  },
+  {
+   "n": 439,
+   "dir": "posts/0439_SINGLE_India_FishSeedHatchery",
+   "format": "SINGLE",
+   "slides": 1,
+   "market": "India",
+   "category": "FishSeedHatchery"
+  },
+  {
+   "n": 440,
+   "dir": "posts/0440_SINGLE_USA_SeniorMoveManager",
+   "format": "SINGLE",
+   "slides": 1,
+   "market": "USA",
+   "category": "SeniorMoveManager"
   }
  ],
  "market_counts": {
-  "India": 305,
-  "Abroad": 130
+  "India": 309,
+  "Abroad": 131
  },
  "used_categories": [
   "Boutique",
@@ -3932,14 +3972,14 @@
   "WireHarness",
   "SoilTestingLab",
   "SewingClasses",
-  "KnifeSharpening"
+  "KnifeSharpening",
+  "MilkCollectionCentre",
+  "ShopFitOut",
+  "HydraulicHoseShop",
+  "FishSeedHatchery",
+  "SeniorMoveManager"
  ],
  "recent_palettes": [
-  "tarp blue/safety orange/rope beige",
-  "coir brown/backwater green/natural fibre",
-  "wheat/tawa black/chilli red",
-  "concrete grey/foam yellow/navy",
-  "tea green/leaf bud lime/clay",
   "cocoon ivory/mulberry green/raw silk gold",
   "straw cream/bale black/tractor blue",
   "sawdust tan/bark brown/lawn green",
@@ -3959,7 +3999,12 @@
   "harness black/copper/signal blue",
   "loam brown/sprout green/report cream",
   "denim blue/tape yellow/chalk white",
-  "stone grey/market teal/cream"
+  "stone grey/market teal/cream",
+  "cooler steel/pasture green/cream",
+  "ply beige/laminate teal/charcoal",
+  "hose black/brass/hydraulic red",
+  "pond teal/fry silver/hatchery orange",
+  "sage/warm sand/plum"
  ],
  "drive_files_done": [
   1,
@@ -4400,66 +4445,6 @@
  ],
  "log": [
   {
-   "n": 406,
-   "date": "2026-11-23",
-   "format": "CAROUSEL",
-   "market": "India",
-   "category": "CricketBatMaker",
-   "palette": "willow cream/leather red/pitch green",
-   "fonts": "Archivo Black + Open Sans",
-   "layout": "SVG front bats under voice-note bubbles + ? chips, side-profile bat with sweet-spot bracket + dark order card + option chips, cleft isotype booked/free + new-order answer, stage bars + LED scale + weight log, tiles CTA",
-   "dots": 3,
-   "phone": false
-  },
-  {
-   "n": 407,
-   "date": "2026-11-23",
-   "format": "SINGLE",
-   "market": "Canada",
-   "category": "BackyardRink",
-   "palette": "ice blue/midnight navy/board orange",
-   "fonts": "Bitter + Roboto",
-   "layout": "3 to-scale top-down backyard lots with rinks + fit check, 5-day crew week chips, dark booking bar",
-   "dots": 5,
-   "phone": false
-  },
-  {
-   "n": 408,
-   "date": "2026-11-23",
-   "format": "SINGLE",
-   "market": "India",
-   "category": "GymEquipmentDealer",
-   "palette": "rubber black/chrome/volt lime",
-   "fonts": "Montserrat + Fira Sans",
-   "layout": "dark machine card with SVG treadmill + service timeline, thermal receipt service report with zigzag edge, service-due list",
-   "dots": 2,
-   "phone": false
-  },
-  {
-   "n": 409,
-   "date": "2026-11-23",
-   "format": "CAROUSEL",
-   "market": "India",
-   "category": "BedsheetMaker",
-   "palette": "teal cotton/rose print/ivory",
-   "fonts": "Lora + Roboto",
-   "layout": "CSS printed sheet stack with codes + which-blue chooser, browser catalogue tiles with size chips, design x size matrix + CSS carton plan, dispatch timeline + buyer message + packed cartons, tiles CTA",
-   "dots": 1,
-   "phone": false
-  },
-  {
-   "n": 410,
-   "date": "2026-11-23",
-   "format": "SINGLE",
-   "market": "USA",
-   "category": "MobileRVRepair",
-   "palette": "desert sand/RV teal/rust",
-   "fonts": "Poppins + Source Sans 3",
-   "layout": "SVG travel trailer with numbered pins + legend, dark tech route, phone booking form with matching numbered problems",
-   "dots": 4,
-   "phone": true
-  },
-  {
    "n": 411,
    "date": "2026-11-23",
    "format": "SINGLE",
@@ -4758,14 +4743,69 @@
    "layout": "two-part perforated claim ticket with mask punches, leather knife roll with SVG knives to blade length + tags, 3 market stop cards with drop-off/pickup chips",
    "dots": 3,
    "phone": false
+  },
+  {
+   "n": 436,
+   "date": "2026-11-23",
+   "format": "CAROUSEL",
+   "market": "India",
+   "category": "MilkCollectionCentre",
+   "palette": "cooler steel/pasture green/cream",
+   "fonts": "Bitter + Open Sans",
+   "layout": "SVG milk cans filled to litres, shift log table + total/avg fat tiles + message bubble, 10-day x 2-shift litre bars, bulk cooler tank gauge + shift rows + tanker card, tiles CTA",
+   "dots": 2,
+   "phone": false
+  },
+  {
+   "n": 437,
+   "date": "2026-11-23",
+   "format": "CAROUSEL",
+   "market": "India",
+   "category": "ShopFitOut",
+   "palette": "ply beige/laminate teal/charcoal",
+   "fonts": "Poppins + DM Sans",
+   "layout": "isometric shop floor from item list with labels, to-scale top plan with walkway arrows + item rows + walkway check, item list table + approval + laminate swatches, 8-day Gantt + photo update, tiles CTA",
+   "dots": 4,
+   "phone": false
+  },
+  {
+   "n": 438,
+   "date": "2026-11-23",
+   "format": "SINGLE",
+   "market": "India",
+   "category": "HydraulicHoseShop",
+   "palette": "hose black/brass/hydraulic red",
+   "fonts": "Archivo Black + DM Sans",
+   "layout": "SVG hose assembly with two fittings + dimension line + spec tiles, hose history by machine list + repeat button, conic-gradient hose reels with metres left",
+   "dots": 5,
+   "phone": false
+  },
+  {
+   "n": 439,
+   "date": "2026-11-23",
+   "format": "SINGLE",
+   "market": "India",
+   "category": "FishSeedHatchery",
+   "palette": "pond teal/fry silver/hatchery orange",
+   "fonts": "Poppins + Inter",
+   "layout": "top-down round tanks with seeded fish + ready rings, 2 stat tiles, phone booking with species steppers and computed oxygen bags",
+   "dots": 3,
+   "phone": true
+  },
+  {
+   "n": 440,
+   "date": "2026-11-23",
+   "format": "SINGLE",
+   "market": "USA",
+   "category": "SeniorMoveManager",
+   "palette": "sage/warm sand/plum",
+   "fonts": "Gelasio + Open Sans",
+   "layout": "room-by-room 100% stacked decision bars + totals, to-scale new apartment plan with keep furniture and dashed misfit, 3 plum move timeline cards",
+   "dots": 1,
+   "phone": false
   }
  ],
  "recent_fonts": [
-  "Anton + DM Sans",
-  "Crimson Text + DM Sans",
-  "Poppins + Open Sans",
-  "TeX Gyre Adventor + Inter",
-  "Gelasio + Fira Sans",
   "Cardo + Inter",
   "Archivo Black + Roboto",
   "Bitter + Source Sans 3",
@@ -4785,14 +4825,14 @@
   "Montserrat + Source Sans 3",
   "Gelasio + Inter",
   "TeX Gyre Adventor + Open Sans",
-  "Crimson Text + Roboto"
+  "Crimson Text + Roboto",
+  "Bitter + Open Sans",
+  "Poppins + DM Sans",
+  "Archivo Black + DM Sans",
+  "Poppins + Inter",
+  "Gelasio + Open Sans"
  ],
  "recent_layouts": [
-  "before/after slider diary vs order card with round handle, to-scale SVG tarp with computed eyelets, dark cutting sheet + floor list",
-  "CSS coir mats 2x2 with ? chips, to-scale mat with dimension lines + order card + option chips, loom board bars + total + yarn alert, bundle/carton equations + 12-carton grid + buyer message, tiles CTA",
-  "area-true bubble route map from kitchen + locked order list with change chips + dough plan strip, phone client order with steppers and 10 AM cut-off",
-  "driveway 3x6 panel grid coloured by measured drop + SVG sunken slab cross-section with void and holes + dark site report",
-  "SVG two-leaves-and-a-bud sprig + ruled notebook with wavy-underlined doubts, LED scale + slip + point list, grower week bars + all-grower table, points loaded vs factory received difference, tiles CTA",
   "seeded cocoon heaps in woven trays + register strip, lot card + sort bars, top-down reeling basin board, silk hank isotype per lot with cocoons-per-kg, numbered tiles CTA",
   "wrapped-bale isotype yard (booked vs free) + count tiles, trolley-trip day strip, order list + new-call stock reply",
   "to-scale backyard with tree-ring stumps sized by diameter + gate path, stump list with total, option chips, dark job card",
@@ -4812,14 +4852,14 @@
   "pegboard harness drawing with wire branches to scale + connectors, cut list in metres for the order, dark stage progress bars + test bench card",
   "CSS clip-path sample pouch rack coloured by stage + legend counts, brown before note, phone soil report with band bars and value markers",
   "3 batch cards with seat dots, measuring-tape progress bars per learner, fee reminder + certificate + waiting list cards",
-  "two-part perforated claim ticket with mask punches, leather knife roll with SVG knives to blade length + tags, 3 market stop cards with drop-off/pickup chips"
+  "two-part perforated claim ticket with mask punches, leather knife roll with SVG knives to blade length + tags, 3 market stop cards with drop-off/pickup chips",
+  "SVG milk cans filled to litres, shift log table + total/avg fat tiles + message bubble, 10-day x 2-shift litre bars, bulk cooler tank gauge + shift rows + tanker card, tiles CTA",
+  "isometric shop floor from item list with labels, to-scale top plan with walkway arrows + item rows + walkway check, item list table + approval + laminate swatches, 8-day Gantt + photo update, tiles CTA",
+  "SVG hose assembly with two fittings + dimension line + spec tiles, hose history by machine list + repeat button, conic-gradient hose reels with metres left",
+  "top-down round tanks with seeded fish + ready rings, 2 stat tiles, phone booking with species steppers and computed oxygen bags",
+  "room-by-room 100% stacked decision bars + totals, to-scale new apartment plan with keep furniture and dashed misfit, 3 plum move timeline cards"
  ],
  "used_hashtag_sets": [
-  "#readymixconcrete #rmcplant #concretework #constructionsite",
-  "#cottonginning #ginningfactory #cottonfarmers #kapas #agribusinessindia",
-  "#lawnaeration #coreaeration #lawncarebusiness #springlawncare",
-  "#hosierywholesale #leggingswholesale #garmentwholesaler #textilebusiness",
-  "#tailoringmaterial #buttonsandzips #lacework #tailorshop #boutiqueindia",
   "#combineharvester #harvesterbooking #paddyharvest #farmmachinery",
   "#blockprinting #handblockprint #textileprinting #fabricmanufacturer",
   "#countertops #quartzcountertops #countertopfabrication #kitchenremodel",
@@ -4874,7 +4914,12 @@
   "#wireharness #cableharness #jobworkindia #autocomponents",
   "#soiltesting #soiltestinglab #agriculturelab #farmingindia",
   "#sewingclasses #tailoringclasses #stitchingclass #learnsewing",
-  "#knifesharpening #farmersmarket #sharpknives #mobilebusiness"
+  "#knifesharpening #farmersmarket #sharpknives #mobilebusiness",
+  "#milkcollection #dairyfarmers #dairyindia #villagebusiness",
+  "#shopinterior #shopfitout #retaildesign #shopdesignindia",
+  "#hydraulichose #hosecrimping #earthmovingequipment #sparepartsindia",
+  "#fishseed #fishhatchery #fishfarmingindia #aquaculture",
+  "#seniormove #downsizing #movingtips #seniorliving"
  ],
  "drive_index_at_post": 420,
  "old_index_sheets_to_trash": []
