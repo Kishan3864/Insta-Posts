@@ -3,7 +3,7 @@
  "drive_index_sheet_id": "1wpOhTVD-F1bNjtDpt6m5yVFacs_x_pXwOI2A6MhegP4",
  "lock_until_utc": "2026-11-23T07:28:13Z",
  "last_run": "2026-11-23T05:52:49Z \u00b7 posts 391-405 made (batches 75-77), Drive 1-405 done; index sheet refreshed at 395 (next ~420)",
- "next_post_no": 411,
+ "next_post_no": 416,
  "posts_done": [
   {
    "n": 1,
@@ -3284,11 +3284,51 @@
    "slides": 1,
    "market": "USA",
    "category": "MobileRVRepair"
+  },
+  {
+   "n": 411,
+   "dir": "posts/0411_SINGLE_India_TarpaulinMaker",
+   "format": "SINGLE",
+   "slides": 1,
+   "market": "India",
+   "category": "TarpaulinMaker"
+  },
+  {
+   "n": 412,
+   "dir": "posts/0412_CAROUSEL_India_CoirMats",
+   "format": "CAROUSEL",
+   "slides": 5,
+   "market": "India",
+   "category": "CoirMats"
+  },
+  {
+   "n": 413,
+   "dir": "posts/0413_SINGLE_India_RotiSupplier",
+   "format": "SINGLE",
+   "slides": 1,
+   "market": "India",
+   "category": "RotiSupplier"
+  },
+  {
+   "n": 414,
+   "dir": "posts/0414_SINGLE_USA_ConcreteLeveling",
+   "format": "SINGLE",
+   "slides": 1,
+   "market": "USA",
+   "category": "ConcreteLeveling"
+  },
+  {
+   "n": 415,
+   "dir": "posts/0415_CAROUSEL_India_TeaLeafAgent",
+   "format": "CAROUSEL",
+   "slides": 5,
+   "market": "India",
+   "category": "TeaLeafAgent"
   }
  ],
  "market_counts": {
-  "India": 287,
-  "Abroad": 123
+  "India": 291,
+  "Abroad": 124
  },
  "used_categories": [
   "Boutique",
@@ -3707,14 +3747,14 @@
   "BackyardRink",
   "GymEquipmentDealer",
   "BedsheetMaker",
-  "MobileRVRepair"
+  "MobileRVRepair",
+  "TarpaulinMaker",
+  "CoirMats",
+  "RotiSupplier",
+  "ConcreteLeveling",
+  "TeaLeafAgent"
  ],
  "recent_palettes": [
-  "compost brown/leaf green/straw",
-  "engine orange/grease black/denim blue",
-  "navy/signal yellow/driveway grey",
-  "paw orange/bowl blue/cream",
-  "strawberry pink/chocolate/cream",
   "cashew cream/roast amber/deep olive",
   "study green/lamp amber/paper",
   "red oxide/zinc grey/chalk",
@@ -3734,7 +3774,12 @@
   "ice blue/midnight navy/board orange",
   "rubber black/chrome/volt lime",
   "teal cotton/rose print/ivory",
-  "desert sand/RV teal/rust"
+  "desert sand/RV teal/rust",
+  "tarp blue/safety orange/rope beige",
+  "coir brown/backwater green/natural fibre",
+  "wheat/tawa black/chilli red",
+  "concrete grey/foam yellow/navy",
+  "tea green/leaf bud lime/clay"
  ],
  "drive_files_done": [
   1,
@@ -4150,66 +4195,6 @@
  ],
  "log": [
   {
-   "n": 381,
-   "date": "2026-11-23",
-   "format": "SINGLE",
-   "market": "India",
-   "category": "CombineHarvester",
-   "palette": "paddy gold/harvester red/field green",
-   "fonts": "Anton + Source Sans 3",
-   "layout": "slice treemap of acres per village coloured by harvest day + dark farmer form + SVG harvester with capacity bars + village message",
-   "dots": 3,
-   "phone": false
-  },
-  {
-   "n": 382,
-   "date": "2026-11-23",
-   "format": "SINGLE",
-   "market": "India",
-   "category": "HandBlockPrinting",
-   "palette": "indigo/madder red/unbleached cotton",
-   "fonts": "Lora + Inter",
-   "layout": "4 CSS wooden block faces + printing tables with long patterned cloth runs by metres + stage count tiles + buyer message",
-   "dots": 5,
-   "phone": false
-  },
-  {
-   "n": 383,
-   "date": "2026-11-23",
-   "format": "CAROUSEL",
-   "market": "USA",
-   "category": "CountertopFabricator",
-   "palette": "quartz white/graphite/brass",
-   "fonts": "TeX Gyre Adventor + Roboto",
-   "layout": "SVG L-counter plan + spec list + stage chips, template booking grid + drawing, to-scale slab nesting with remnant + CSS stone swatches, prep checklist + install window + text timeline, CTA",
-   "dots": 2,
-   "phone": false
-  },
-  {
-   "n": 384,
-   "date": "2026-11-23",
-   "format": "SINGLE",
-   "market": "India",
-   "category": "NameplateMaker",
-   "palette": "black acrylic/gold leaf/brushed steel",
-   "fonts": "Gelasio + Poppins",
-   "layout": "hero CSS acrylic plate with screw caps + job list with cut-locked chips + phone proof chat with mini plates and stage tracker",
-   "dots": 4,
-   "phone": true
-  },
-  {
-   "n": 385,
-   "date": "2026-11-23",
-   "format": "SINGLE",
-   "market": "Canada",
-   "category": "InsulationContractor",
-   "palette": "attic pine/insulation cream/frost blue",
-   "fonts": "Cardo + Inter",
-   "layout": "two SVG attic cross-sections with clipped wavy insulation and ruler (now vs after) + dark quote form + quote table with depth bars and cubic feet",
-   "dots": 1,
-   "phone": false
-  },
-  {
    "n": 386,
    "date": "2026-11-23",
    "format": "SINGLE",
@@ -4508,14 +4493,69 @@
    "layout": "SVG travel trailer with numbered pins + legend, dark tech route, phone booking form with matching numbered problems",
    "dots": 4,
    "phone": true
+  },
+  {
+   "n": 411,
+   "date": "2026-11-23",
+   "format": "SINGLE",
+   "market": "India",
+   "category": "TarpaulinMaker",
+   "palette": "tarp blue/safety orange/rope beige",
+   "fonts": "Anton + DM Sans",
+   "layout": "before/after slider diary vs order card with round handle, to-scale SVG tarp with computed eyelets, dark cutting sheet + floor list",
+   "dots": 2,
+   "phone": false
+  },
+  {
+   "n": 412,
+   "date": "2026-11-23",
+   "format": "CAROUSEL",
+   "market": "India",
+   "category": "CoirMats",
+   "palette": "coir brown/backwater green/natural fibre",
+   "fonts": "Crimson Text + DM Sans",
+   "layout": "CSS coir mats 2x2 with ? chips, to-scale mat with dimension lines + order card + option chips, loom board bars + total + yarn alert, bundle/carton equations + 12-carton grid + buyer message, tiles CTA",
+   "dots": 5,
+   "phone": false
+  },
+  {
+   "n": 413,
+   "date": "2026-11-23",
+   "format": "SINGLE",
+   "market": "India",
+   "category": "RotiSupplier",
+   "palette": "wheat/tawa black/chilli red",
+   "fonts": "Poppins + Open Sans",
+   "layout": "area-true bubble route map from kitchen + locked order list with change chips + dough plan strip, phone client order with steppers and 10 AM cut-off",
+   "dots": 3,
+   "phone": true
+  },
+  {
+   "n": 414,
+   "date": "2026-11-23",
+   "format": "SINGLE",
+   "market": "USA",
+   "category": "ConcreteLeveling",
+   "palette": "concrete grey/foam yellow/navy",
+   "fonts": "TeX Gyre Adventor + Inter",
+   "layout": "driveway 3x6 panel grid coloured by measured drop + SVG sunken slab cross-section with void and holes + dark site report",
+   "dots": 1,
+   "phone": false
+  },
+  {
+   "n": 415,
+   "date": "2026-11-23",
+   "format": "CAROUSEL",
+   "market": "India",
+   "category": "TeaLeafAgent",
+   "palette": "tea green/leaf bud lime/clay",
+   "fonts": "Gelasio + Fira Sans",
+   "layout": "SVG two-leaves-and-a-bud sprig + ruled notebook with wavy-underlined doubts, LED scale + slip + point list, grower week bars + all-grower table, points loaded vs factory received difference, tiles CTA",
+   "dots": 4,
+   "phone": false
   }
  ],
  "recent_fonts": [
-  "Montserrat + Open Sans",
-  "Archivo Black + Inter",
-  "Poppins + Roboto",
-  "Gelasio + DM Sans",
-  "TeX Gyre Adventor + Fira Sans",
   "Bitter + Inter",
   "Lora + DM Sans",
   "Anton + Fira Sans",
@@ -4535,14 +4575,14 @@
   "Bitter + Roboto",
   "Montserrat + Fira Sans",
   "Lora + Roboto",
-  "Poppins + Source Sans 3"
+  "Poppins + Source Sans 3",
+  "Anton + DM Sans",
+  "Crimson Text + DM Sans",
+  "Poppins + Open Sans",
+  "TeX Gyre Adventor + Inter",
+  "Gelasio + Fira Sans"
  ],
  "recent_layouts": [
-  "6 CSS compost beds with brick border, straw band and 8-week meters + FIFO order allocation chips + dark auto message",
-  "SVG top-down yard of tractors with job tags, paper job card + who-sees list, 4-column status board + parts list, ready message + vertical repair history, CTA counts",
-  "booking form -> parts card, CSS cargo van cutaway with per-job bins on 2 shelves, 4 route cards",
-  "3x2 customer cards with CSS clip-path food bags showing kibble left + days-left bars, reminder bubble + dark due list",
-  "3 open donut boxes of CSS radial donuts 4x3 + dark bake list bars by flavor + pre-order form",
   "5 grade cards with SVG cashew kernels sized by grade + tin isotype booked/free, orders allocated by delivery date with short chip, olive owner alert",
   "shift-split seat map (top half morning, bottom evening) + counts, walk-in + free seat highlights + phone join form, renewals week strip + member list + reminders, waitlist + ending seats + offer flow, tiles CTA",
   "SVG rolling shutter front elevation with dimension arrows + dark site measure form, 6-stage dot tracker per job, red oxide auto message",
@@ -4562,14 +4602,14 @@
   "3 to-scale top-down backyard lots with rinks + fit check, 5-day crew week chips, dark booking bar",
   "dark machine card with SVG treadmill + service timeline, thermal receipt service report with zigzag edge, service-due list",
   "CSS printed sheet stack with codes + which-blue chooser, browser catalogue tiles with size chips, design x size matrix + CSS carton plan, dispatch timeline + buyer message + packed cartons, tiles CTA",
-  "SVG travel trailer with numbered pins + legend, dark tech route, phone booking form with matching numbered problems"
+  "SVG travel trailer with numbered pins + legend, dark tech route, phone booking form with matching numbered problems",
+  "before/after slider diary vs order card with round handle, to-scale SVG tarp with computed eyelets, dark cutting sheet + floor list",
+  "CSS coir mats 2x2 with ? chips, to-scale mat with dimension lines + order card + option chips, loom board bars + total + yarn alert, bundle/carton equations + 12-carton grid + buyer message, tiles CTA",
+  "area-true bubble route map from kitchen + locked order list with change chips + dough plan strip, phone client order with steppers and 10 AM cut-off",
+  "driveway 3x6 panel grid coloured by measured drop + SVG sunken slab cross-section with void and holes + dark site report",
+  "SVG two-leaves-and-a-bud sprig + ruled notebook with wavy-underlined doubts, LED scale + slip + point list, grower week bars + all-grower table, points loaded vs factory received difference, tiles CTA"
  ],
  "used_hashtag_sets": [
-  "#momos #streetfoodindia #momoshop #foodbusinessindia",
-  "#labourcontractor #constructionsite #siteattendance #constructionindia",
-  "#catsitter #petsitting #catsofinstagram #smallbusinessusa",
-  "#carstorage #winterstorage #classiccars #smallbusinesscanada",
-  "#electricscooter #evindia #evdealer #twowheelerdealer",
   "#biryani #cloudkitchenindia #bulkorders #foodbusinessindia",
   "#agriinputs #fertilizershop #krishikendra #agribusinessindia",
   "#septicservice #septicpumping #homeservices #smallbusinessusa",
@@ -4624,7 +4664,12 @@
   "#backyardrink #backyardice #outdoorrink #smallbusinesscanada",
   "#gymequipment #fitnessequipment #treadmillservice #gymsetupindia",
   "#bedsheets #homefurnishing #bedsheetmanufacturer #textileindia",
-  "#rvrepair #mobilervrepair #rvlife #smallbusinessusa"
+  "#rvrepair #mobilervrepair #rvlife #smallbusinessusa",
+  "#tarpaulin #tarpaulinmanufacturer #hdpetarpaulin #msmeindia",
+  "#coirmats #coirproducts #doormats #keralacoir",
+  "#rotisupplier #chapati #bulkfoodsupply #cloudkitchenindia",
+  "#concreteleveling #slablifting #concreterepair #driveway",
+  "#tealeaf #teagrowers #greenleaf #teaplantation"
  ],
  "drive_index_at_post": 395,
  "old_index_sheets_to_trash": []
