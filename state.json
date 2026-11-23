@@ -1,7 +1,7 @@
 {
  "drive_folder_id": "1OZvW8MCiA-_SSNn5_9g3o8k5sMyHUcxE",
  "drive_index_sheet_id": "1y3GXyV7vrF7_xKkm5mgdoP0ZRMDQy_BVrqHWlwNL_kM",
- "lock_until_utc": "2026-11-23T04:26:55Z",
+ "lock_until_utc": "2026-11-23T04:30:23Z",
  "last_run": "2026-11-23T02:41:39Z \u00b7 posts 356-365 made (batches 68-69), Drive 1-365 done; index sheet refresh due at ~370; old sheet 1kVm... still to trash",
  "next_post_no": 371,
  "posts_done": [
@@ -2927,11 +2927,11 @@
   },
   {
    "n": 366,
-   "dir": "posts/0366_SINGLE_India_AttaChakki",
+   "dir": "posts/0366_SINGLE_India_LaserCutting",
    "format": "SINGLE",
    "slides": 1,
    "market": "India",
-   "category": "AttaChakki"
+   "category": "LaserCutting"
   },
   {
    "n": 367,
@@ -3343,7 +3343,7 @@
   "ChappalWholesale",
   "ConsignmentShop",
   "KulhadMaker",
-  "AttaChakki",
+  "LaserCutting",
   "BatteryDealer",
   "LeafCleanup",
   "FridgeRepair",
@@ -3370,7 +3370,7 @@
   "rubber teal/sole coral/sand",
   "sage/dusty rose/linen",
   "terracotta/clay cream/smoke charcoal",
-  "wheat gold/millstone slate/flour white",
+  "spark orange/sheet steel/graphite",
   "graphite/acid lime/charge blue",
   "maple orange/pine green/kraft",
   "ice blue/compressor copper/deep navy",
@@ -3741,7 +3741,12 @@
   362,
   363,
   364,
-  365
+  365,
+  366,
+  367,
+  368,
+  369,
+  370
  ],
  "log": [
   {
@@ -4049,10 +4054,10 @@
    "date": "2026-11-23",
    "format": "SINGLE",
    "market": "India",
-   "category": "AttaChakki",
-   "palette": "wheat gold/millstone slate/flour white",
+   "category": "LaserCutting",
+   "palette": "spark orange/sheet steel/graphite",
    "fonts": "Bitter + Source Sans 3",
-   "layout": "Gantt queue board: 3 chakki lanes with kg-sized token blocks, hatched clean blocks on grain change, red now line + token slip, counts, ready message",
+   "layout": "Gantt queue board: 3 machine lanes (2 lasers + bending) with qty-sized job blocks, hatched sheet/tool change blocks, red now line + job slip, counts, ready message",
    "dots": 3,
    "phone": false
   },
@@ -4153,7 +4158,7 @@
   "3 article cards with size-run bars topped by SVG soles, bottleneck size in coral + full sets pill, retailer order check + factory note",
   "clothes rail with clip-path garments + hanger hooks + day tags with computed markdown stage, legend chips, consignor list + green auto text with sold/next markdown",
   "6 cafe cards with CSS kulhad isotype (1 = 100), dark kiln week strip with firing fill bars computed to capacity + breakage note",
-  "Gantt queue board: 3 chakki lanes with kg-sized token blocks, hatched clean blocks on grain change, red now line + token slip, counts, ready message",
+  "Gantt queue board: 3 machine lanes (2 lasers + bending) with qty-sized job blocks, hatched sheet/tool change blocks, red now line + job slip, counts, ready message",
   "CSS battery hero + bill book pile, browser sales table by serial, serial search with warranty timeline bars + today marker, old battery isotype + exchange slip, phone reminder chat + visit list, batteries + tiles CTA",
   "top-down SVG street of 8 lots with tree crowns + seeded leaf scatter, day-coloured outlines + chips, browser quote chips form, two route day cards",
   "CSS double-door fridge with numbered pins matching numbered job card fields, technician day list with part chips, parts-to-carry counts card",
@@ -4215,7 +4220,7 @@
   "#footwearwholesale #chappal #footwearindia #wholesalebusiness",
   "#consignmentshop #resaleboutique #shopsmall #smallbusinessusa",
   "#kulhad #kulhadchai #claycraft #terracotta",
-  "#attachakki #flourmill #chakki #localbusinessindia",
+  "#lasercutting #cnclaser #sheetmetal #jobwork #makeinindia",
   "#batterydealer #inverterbattery #carbattery #shopsoftware #retailindia",
   "#leafcleanup #fallcleanup #yardcrew #lawncarebusiness",
   "#fridgerepair #washingmachinerepair #appliancerepair #servicebusinessindia",

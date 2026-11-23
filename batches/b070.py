@@ -4,30 +4,29 @@ def pl(n, w, ws=None): return f"{n} {w if n == 1 else (ws or w + 's')}"
 def hm(m): h, mm = divmod(int(round(m)), 60); return f"{(h - 1) % 12 + 1}:{mm:02d}"
 
 
-# ───────── 366 INDIA · Atta chakki (flour grinding) · SINGLE · Bitter + Source Sans 3 · wheat gold / millstone slate / flour white
-# New technique: Gantt-style machine queue — one lane per chakki, blocks sized by kg / grind rate, a change-over
-# clean block when the grain type changes, a red "now" line; token slip + ready message computed from the schedule.
-T0, T1 = 9 * 60, 12 * 60  # 9:00 to 12:00
-LANES6 = [("Chakki 1", "Wheat", 30, [(11, "Wheat", 10), (12, "Wheat", 15), (13, "Wheat", 8), (15, "Wheat", 20), (18, "Wheat", 10), (20, "Wheat", 15)]),
-          ("Chakki 2", "Bajra · jowar · rice", 25, [(14, "Bajra", 8), (16, "Jowar", 10), (17, "Bajra", 12), (21, "Rice", 6), (22, "Rice", 8)]),
-          ("Chakki 3", "Masala", 10, [(19, "Chilli", 3), (23, "Haldi", 3), (24, "Dhaniya", 4), (26, "Chilli", 3), (28, "Haldi", 3), (29, "Dhaniya", 5)])]
-NOW6 = 10 * 60 + 40
+# ───────── 366 INDIA · CNC laser cutting job shop · SINGLE · Bitter + Source Sans 3 · spark orange / sheet steel / graphite
+# New technique: Gantt-style machine queue — one lane per machine, job blocks sized by qty / machine rate, a hatched
+# sheet-change block when the material changes, a red "now" line; job slip + ready message computed from the schedule.
+T0, T1 = 10 * 60, 13 * 60  # 10:00 to 1:00
+LANES6 = [("Laser 1", "MS sheet, 2 to 6 mm", 6, "sheet", [(41, "MS 3 mm", 3), (42, "MS 3 mm", 2), (44, "MS 5 mm", 4), (47, "MS 5 mm", 3), (50, "MS 3 mm", 3)]),
+          ("Laser 2", "SS sheet, 1 to 2 mm", 8, "sheet", [(43, "SS 1.5 mm", 3), (45, "SS 1.5 mm", 4), (48, "SS 1 mm", 3), (51, "SS 2 mm", 4), (54, "SS 2 mm", 3)]),
+          ("Bending", "Press brake", 60, "part", [(46, "Brackets", 25), (49, "Brackets", 20), (52, "Panels", 30), (55, "Panels", 20), (56, "Clips", 25)])]
+NOW6 = 11 * 60 + 45
 SCH6 = []
-for ln, kind, rate, toks in LANES6:
+for ln, kind, rate, unit, toks in LANES6:
     t, prev, row = T0, None, []
-    for no, g, kg in toks:
+    for no, g, q in toks:
         if prev and prev != g:
             row.append(("clean", None, None, t, t + 10)); t += 10
-        d = kg / rate * 60
-        row.append(("job", no, (g, kg), t, t + d)); t += d; prev = g
-    SCH6.append((ln, kind, rate, row))
-JOBS6 = {b[1]: (ln, b[2][0], b[2][1], b[3], b[4]) for ln, k, r, row in SCH6 for b in row if b[0] == "job"}
+        d = q / rate * 60
+        row.append(("job", no, (g, q, unit), t, t + d)); t += d; prev = g
+    SCH6.append((ln, kind, rate, unit, row))
+JOBS6 = {b[1]: (ln, b[2][0], b[2][1], b[3], b[4], b[2][2]) for ln, k, r, u, row in SCH6 for b in row if b[0] == "job"}
 def st6(a, b): return "done" if b <= NOW6 else ("now" if a < NOW6 else "wait")
 READY6 = sorted([n for n, v in JOBS6.items() if v[4] <= NOW6])
-WAIT6 = [n for n, v in JOBS6.items() if v[3] >= NOW6]
-TOTKG6 = sum(v[2] for v in JOBS6.values())
-SLIP6 = 20; SJ6 = JOBS6[SLIP6]
-MSG6 = max(READY6, key=lambda n: JOBS6[n][4])
+SHEETS6 = sum(v[2] for v in JOBS6.values() if v[5] == "sheet")
+SLIP6 = 50; SJ6 = JOBS6[SLIP6]
+MSG6 = max([n for n in READY6 if JOBS6[n][5] == "sheet"], key=lambda n: JOBS6[n][4])
 PX6 = 756 / (T1 - T0)
 def blk6(b):
     typ, no, gk, a, e = b
@@ -35,42 +34,42 @@ def blk6(b):
     if typ == "clean":
         return f'<div class="b6 cl6" style="left:{L:.0f}px;width:{W:.0f}px"></div>'
     s = st6(a, e)
-    return f'<div class="b6 {s}6" style="left:{L:.0f}px;width:{W:.0f}px"><b>#{no}</b><span>{gk[1]} kg</span></div>'
-P["p366_chakki"] = page("""
-body{--f:'Source Sans 3';--h:'Bitter';background:#f7f1e3;color:#28303a}
-.kk{font:700 16px/1.4 'Source Sans 3';letter-spacing:3px;color:#a8741a;margin-top:22px}
-h1{font-family:'Bitter';font-weight:800;font-size:60px;line-height:1.2;letter-spacing:-1px} h1 span{color:#b37a12}
+    return f'<div class="b6 {s}6" style="left:{L:.0f}px;width:{W:.0f}px"><b>J-{no}</b><span>{pl(gk[1], gk[2])}</span></div>'
+P["p366_laser"] = page("""
+body{--f:'Source Sans 3';--h:'Bitter';background:#eceff2;color:#23272e}
+.kk{font:700 16px/1.4 'Source Sans 3';letter-spacing:3px;color:#d2551a;margin-top:22px}
+h1{font-family:'Bitter';font-weight:800;font-size:60px;line-height:1.2;letter-spacing:-1px} h1 span{color:#e8631c}
 .vw{flex:1;display:flex;flex-direction:column;gap:14px;min-height:0}
 .gt6{flex:1;background:#fff;border-radius:26px;padding:18px 22px 16px;display:flex;flex-direction:column;gap:10px;box-shadow:0 14px 30px rgba(40,48,58,.08);min-height:0}
-.gh6{display:flex;justify-content:space-between;align-items:baseline}.gh6 small{font:700 14px/1.4 'Source Sans 3';letter-spacing:2px;color:#7b7f86}.gh6 b{font:700 18px/1.4 'Source Sans 3';color:#d2452f}
+.gh6{display:flex;justify-content:space-between;align-items:baseline}.gh6 small{font:700 14px/1.4 'Source Sans 3';letter-spacing:2px;color:#7b7f86}.gh6 b{font:700 18px/1.4 'Source Sans 3';color:#c22a1d}
 .ax6{display:grid;grid-template-columns:150px 756px;font:600 15px/1.3 'Source Sans 3';color:#7b7f86}.ax6>div{position:relative;height:20px}.ax6 span{position:absolute;top:0;transform:translateX(-50%)}.ax6 span:first-child{transform:none}.ax6 span:last-child{transform:translateX(-100%)}
 .ln6{flex:1;display:grid;grid-template-columns:150px 756px;align-items:center;min-height:0;border-top:1px dashed #e3dccb}
-.ln6>div:first-child b{display:block;font:800 22px/1.3 Bitter}.ln6>div:first-child span{font:500 15px/1.35 'Source Sans 3';color:#6c727a}.ln6>div:first-child em{display:block;font:600 14px/1.35 'Source Sans 3';font-style:normal;color:#a8741a}
-.tr6{position:relative;height:128px;background:repeating-linear-gradient(90deg,#f6f2e8 0 1px,transparent 1px 126px);border-radius:12px}
-.b6{position:absolute;top:6px;bottom:6px;border-radius:10px;display:flex;flex-direction:column;justify-content:center;padding:0 6px;overflow:hidden}
-.b6 b{font:800 22px/1.25 Bitter}.b6 span{font:600 16px/1.3 'Source Sans 3'}
-.done6{background:#d9dde3;color:#59606b}.now6{z-index:3;background:#e2a832;color:#2a2110;box-shadow:0 0 0 3px #f6dfa8}.wait6{background:#fff;border:2px solid #e2a832;color:#5a4a26}
+.ln6>div:first-child b{display:block;font:800 22px/1.3 Bitter}.ln6>div:first-child span{font:500 15px/1.35 'Source Sans 3';color:#6c727a}.ln6>div:first-child em{display:block;font:600 14px/1.35 'Source Sans 3';font-style:normal;color:#d2551a}
+.tr6{position:relative;height:128px;background:repeating-linear-gradient(90deg,#eef0f3 0 1px,transparent 1px 126px);border-radius:12px}
+.b6{position:absolute;top:6px;bottom:6px;border-radius:10px;display:flex;flex-direction:column;justify-content:center;padding:0 5px;overflow:hidden;white-space:nowrap}
+.b6 b{font:800 19px/1.25 Bitter}.b6 span{font:600 15px/1.3 'Source Sans 3'}
+.done6{background:#d9dde3;color:#59606b}.now6{z-index:3;background:#f07a32;color:#2a1405;box-shadow:0 0 0 3px #fbd2b5}.wait6{background:#fff;border:2px solid #f07a32;color:#6b3410}
 .cl6{background:repeating-linear-gradient(-45deg,#c8ccd3 0 4px,#eef0f3 4px 9px)}
-.nw6{position:absolute;top:0;bottom:0;width:3px;z-index:2;background:#d2452f;border-radius:2px}
+.nw6{position:absolute;top:0;bottom:0;width:3px;z-index:2;background:#c22a1d;border-radius:2px}
 .lgd6{display:flex;gap:22px;font:600 15px/1.4 'Source Sans 3';color:#4f5660}.lgd6 span{display:flex;align-items:center;gap:7px}.lgd6 i{width:22px;height:14px;border-radius:4px}
 .bt6{display:grid;grid-template-columns:1fr 1.05fr 1.2fr;gap:14px}
-.sl6{background:#fffdf6;border-radius:18px;padding:16px 20px 14px;border:2px dashed #cdbf9a;display:flex;flex-direction:column;gap:4px;position:relative}
-.sl6 small{font:700 13px/1.4 'Source Sans 3';letter-spacing:2px;color:#a8741a}.sl6>b{font:800 40px/1.25 Bitter}
-.sl6 div{display:flex;justify-content:space-between;font:600 17px/1.4 'Source Sans 3';border-top:1px solid #eee5cf;padding-top:4px}.sl6 div span{color:#6c727a}
+.sl6{background:#fffdf6;border-radius:18px;padding:16px 20px 14px;border:2px dashed #b9c0c9;display:flex;flex-direction:column;gap:4px;position:relative}
+.sl6 small{font:700 13px/1.4 'Source Sans 3';letter-spacing:2px;color:#d2551a}.sl6>b{font:800 40px/1.25 Bitter}
+.sl6 div{display:flex;justify-content:space-between;font:600 17px/1.4 'Source Sans 3';border-top:1px solid #e3e7ec;padding-top:4px}.sl6 div span{color:#6c727a}
 .ct6{background:#2c3440;color:#fff;border-radius:18px;padding:14px 18px;display:flex;flex-direction:column;justify-content:space-between;gap:6px}
 .ct6 div{display:flex;justify-content:space-between;align-items:baseline;border-bottom:1px solid rgba(255,255,255,.12);padding-bottom:6px}.ct6 div:last-child{border:0;padding:0}
-.ct6 span{font:500 17px/1.4 'Source Sans 3';color:#cfd5de}.ct6 b{font:800 30px/1.25 Bitter;color:#f3c25e}
+.ct6 span{font:500 17px/1.4 'Source Sans 3';color:#cfd5de}.ct6 b{font:800 30px/1.25 Bitter;color:#ff9a5c}
 .ms6{background:#e7f6e9;border-radius:18px 18px 18px 6px;padding:16px 18px;display:flex;flex-direction:column;gap:8px;border:2px solid #bfe3c5}
 .ms6{justify-content:space-between}.ms6 em{font:600 15px/1.4 'Source Sans 3';font-style:normal;color:#2f7a45}.ms6 small{font:700 13px/1.4 'Source Sans 3';letter-spacing:2px;color:#2f7a45}.ms6 p{font:500 19px/1.45 'Source Sans 3';color:#1f3a28;text-wrap:pretty}
-""", "<div class=kk>ATTA CHAKKI · DAILY GRINDING QUEUE</div><h1>Grain bags piling up?<br><span>Give each bag a token and a time.</span></h1>",
-f'''<div class=vw><div class=gt6><div class=gh6><small>TODAY · 3 CHAKKIS · SAMPLE</small><b>Now {hm(NOW6)}</b></div>
+""", "<div class=kk>CNC LASER CUTTING · JOB WORK QUEUE</div><h1>“When will my job be cut?”<br><span>Show every machine’s queue.</span></h1>",
+f'''<div class=vw><div class=gt6><div class=gh6><small>TODAY · 3 MACHINES · SAMPLE</small><b>Now {hm(NOW6)}</b></div>
 <div class=ax6><div></div><div>{"".join(f'<span style="left:{(t - T0) * PX6:.0f}px">{hm(t)}</span>' for t in range(T0, T1 + 1, 30))}</div></div>
-{"".join(f'<div class=ln6><div><b>{ln}</b><span>{kind}</span><em>{rate} kg an hour</em></div><div class=tr6>{"".join(blk6(b) for b in row)}<i class=nw6 style="left:{(NOW6 - T0) * PX6 - 1:.0f}px"></i></div></div>' for ln, kind, rate, row in SCH6)}
-<div class=lgd6><span><i class=done6></i>Ground, ready</span><span><i class=now6></i>Grinding now</span><span><i class=wait6 style="border-width:2px"></i>Waiting</span><span><i class=cl6></i>Clean when grain changes</span></div></div>
-<div class=bt6><div class=sl6><small>TOKEN SLIP · SAMPLE</small><b>#{SLIP6}</b><div><span>Grain</span>{SJ6[1]} · {SJ6[2]} kg</div><div><span>{SJ6[0]}</span>Ready {hm(SJ6[4] + 5)}</div></div>
-<div class=ct6><div><span>Bags today</span><b>{len(JOBS6)}</b></div><div><span>Grain today</span><b>{TOTKG6} kg</b></div><div><span>Ready to pick up</span><b>{len(READY6)}</b></div></div>
-<div class=ms6><small>AUTO MESSAGE · {hm(JOBS6[MSG6][4] + 1)} AM</small><p>Token #{MSG6}: your {JOBS6[MSG6][2]}&nbsp;kg {JOBS6[MSG6][1].lower()} atta is ready. Please pick it up today.</p><em>Sent by itself when a token is ready.</em></div></div></div>''',
-"#28303a", "Run a flour mill? DM us", "background:#b37a12;color:#fff")
+{"".join(f'<div class=ln6><div><b>{ln}</b><span>{kind}</span><em>{rate} {unit}s an hour</em></div><div class=tr6>{"".join(blk6(b) for b in row)}<i class=nw6 style="left:{(NOW6 - T0) * PX6 - 1:.0f}px"></i></div></div>' for ln, kind, rate, unit, row in SCH6)}
+<div class=lgd6><span><i class=done6></i>Done, ready</span><span><i class=now6></i>On the machine</span><span><i class=wait6 style="border-width:2px"></i>Waiting</span><span><i class=cl6></i>Sheet or tool change</span></div></div>
+<div class=bt6><div class=sl6><small>JOB SLIP · SAMPLE</small><b>J-{SLIP6}</b><div><span>Material</span>{SJ6[1]} · {pl(SJ6[2], SJ6[5])}</div><div><span>{SJ6[0]}</span>Ready {hm(SJ6[4] + 5)}</div></div>
+<div class=ct6><div><span>Jobs today</span><b>{len(JOBS6)}</b></div><div><span>Sheets today</span><b>{SHEETS6}</b></div><div><span>Ready to pick up</span><b>{len(READY6)}</b></div></div>
+<div class=ms6><small>AUTO MESSAGE · {hm(JOBS6[MSG6][4] + 1)} AM</small><p>Job J-{MSG6}: your {pl(JOBS6[MSG6][2], "sheet")} of {JOBS6[MSG6][1]} are cut. Please pick them up today.</p><em>Sent by itself when a job is done.</em></div></div></div>''',
+"#23272e", "Do laser cutting? DM us", "background:#e8631c;color:#fff")
 
 
 # ───────── 367 INDIA · Battery dealer (car, bike, inverter) · CAROUSEL 6 · Archivo Black + DM Sans · graphite / acid lime / charge blue

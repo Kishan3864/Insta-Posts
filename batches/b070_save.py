@@ -1,11 +1,11 @@
 import sys; sys.path.insert(0, "tools"); from save_post import save
 S = dict
-print(save(366,"SINGLE","India","AttaChakki","Atta chakki (flour grinding mill)",["p366_chakki"],
-"""Token and queue app for atta chakki and flour mills: every grain bag gets a token, each chakki gets its own queue, and the customer gets a message when the atta is ready.
-No crowd at the counter, no mixed-up bags.
-Run a flour mill or masala chakki? DM us.""", 3,
-["#attachakki","#flourmill","#chakki","#localbusinessindia"],
-["Cream and gold design with the headline 'Grain bags piling up? Give each bag a token and a time.' A queue board for today with three chakkis from 9:00 to 12:00 and a red line at now, 10:40, sample: Chakki 1 for wheat at 30 kg an hour with tokens 11, 12, 13 ground, 15 grinding and 18, 20 waiting; Chakki 2 for bajra, jowar and rice at 25 kg an hour with striped cleaning blocks when the grain changes, tokens 14, 16, 17 ground and 21, 22 waiting; Chakki 3 for masala at 10 kg an hour with tokens 19, 23, 24 ground, 26 grinding and 28, 29 waiting. Below: a token slip for #20, wheat 15 kg on Chakki 1, ready 11:41; a dark card with 17 bags today, 143 kg of grain and 9 ready to pick up; and a green auto message: Token #17, your 12 kg bajra atta is ready, please pick it up today."],
+print(save(366,"SINGLE","India","LaserCutting","CNC laser cutting job shop",["p366_laser"],
+"""Job queue app for CNC laser cutting and sheet metal job shops: every job on its machine with a ready time, sheet changes planned, and a message to the customer when the parts are cut.
+Fewer "is my job ready?" calls.
+Run a laser cutting or fabrication shop? DM us.""", 3,
+["#lasercutting","#cnclaser","#sheetmetal","#jobwork","#makeinindia"],
+["Steel grey and orange design with the headline 'When will my job be cut? Show every machine's queue.' A queue board for today with three machines from 10:00 to 1:00 and a red line at now, 11:45, sample: Laser 1 for MS sheet 2 to 6 mm at 6 sheets an hour with jobs J-41, J-42 and J-44 done, J-47 on the machine and J-50 waiting; Laser 2 for SS sheet 1 to 2 mm at 8 sheets an hour with J-43, J-45 and J-48 done, J-51 on the machine and J-54 waiting; Bending on a press brake at 60 parts an hour with J-46, J-49, J-52 and J-55 done and J-56 waiting; striped blocks mark sheet or tool changes. Below: a job slip for J-50, MS 3 mm, 3 sheets, Laser 1, ready 12:55; a dark card with 15 jobs today, 32 sheets today and 10 ready to pick up; and a green auto message: Job J-44, your 4 sheets of MS 5 mm are cut, please pick them up today."],
  S(scroll=8,save=8,send=8,clarity=9,finish=9,original=9)))
 print(save(367,"CAROUSEL","India","BatteryDealer","Battery dealer (car, bike, inverter)",[f"p367_battery_s{i}" for i in range(1,7)],
 """Sales and warranty app for battery dealers: every car, bike and inverter battery saved by serial number, warranty checked in one search, old batteries counted, and check-up reminders sent for you.
