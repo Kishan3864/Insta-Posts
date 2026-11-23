@@ -1,8 +1,8 @@
 {
  "drive_folder_id": "1OZvW8MCiA-_SSNn5_9g3o8k5sMyHUcxE",
  "drive_index_sheet_id": "1Ex4WhPiwEbqBF-QEG1pc6VPi3qLGqym_Fq-FvKYTgO8",
- "lock_until_utc": null,
- "last_run": "2026-11-22T23:53:18Z \u00b7 posts 301-325 made (batches 57-61), Drive 1-325 done, index sheet refreshed at 320 (id 1Ex4...; old sheet 1kVm... could not be trashed: permission denied, added to old_index_sheets_to_trash)",
+ "lock_until_utc": "2026-11-23T01:16:00Z",
+ "last_run": "2026-11-22T23:53:18Z · posts 301-325 made (batches 57-61), Drive 1-325 done, index sheet refreshed at 320 (id 1Ex4...; old sheet 1kVm... could not be trashed: permission denied, added to old_index_sheets_to_trash)",
  "next_post_no": 326,
  "posts_done": [
   {
