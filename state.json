@@ -3,7 +3,7 @@
  "drive_index_sheet_id": "13U6OzC3MPS3CRC4rr262HKysQAM6av_eYwGodXqTi4c",
  "lock_until_utc": "2026-11-23T05:36:45Z",
  "last_run": "2026-11-23T03:50:31Z \u00b7 posts 366-375 made (batches 70-71; 366 replaced AttaChakki->LaserCutting as duplicate of 0134), Drive 1-375 done; index sheet refreshed at 370 (13U6...), old sheets trashed",
- "next_post_no": 386,
+ "next_post_no": 391,
  "posts_done": [
   {
    "n": 1,
@@ -3084,11 +3084,51 @@
    "slides": 1,
    "market": "Canada",
    "category": "InsulationContractor"
+  },
+  {
+   "n": 386,
+   "dir": "posts/0386_SINGLE_India_Vermicompost",
+   "format": "SINGLE",
+   "slides": 1,
+   "market": "India",
+   "category": "Vermicompost"
+  },
+  {
+   "n": 387,
+   "dir": "posts/0387_CAROUSEL_India_TractorRepair",
+   "format": "CAROUSEL",
+   "slides": 5,
+   "market": "India",
+   "category": "TractorRepair"
+  },
+  {
+   "n": 388,
+   "dir": "posts/0388_SINGLE_USA_MobileMechanic",
+   "format": "SINGLE",
+   "slides": 1,
+   "market": "USA",
+   "category": "MobileMechanic"
+  },
+  {
+   "n": 389,
+   "dir": "posts/0389_SINGLE_India_PetFoodShop",
+   "format": "SINGLE",
+   "slides": 1,
+   "market": "India",
+   "category": "PetFoodShop"
+  },
+  {
+   "n": 390,
+   "dir": "posts/0390_SINGLE_USA_DonutShop",
+   "format": "SINGLE",
+   "slides": 1,
+   "market": "USA",
+   "category": "DonutShop"
   }
  ],
  "market_counts": {
-  "India": 270,
-  "Abroad": 115
+  "India": 273,
+  "Abroad": 117
  },
  "used_categories": [
   "Boutique",
@@ -3482,14 +3522,14 @@
   "HandBlockPrinting",
   "CountertopFabricator",
   "NameplateMaker",
-  "InsulationContractor"
+  "InsulationContractor",
+  "Vermicompost",
+  "TractorRepair",
+  "MobileMechanic",
+  "PetFoodShop",
+  "DonutShop"
  ],
  "recent_palettes": [
-  "signal purple/paid green/cream",
-  "marble white/granite black/brass",
-  "rubber teal/sole coral/sand",
-  "sage/dusty rose/linen",
-  "terracotta/clay cream/smoke charcoal",
   "spark orange/sheet steel/graphite",
   "graphite/acid lime/charge blue",
   "maple orange/pine green/kraft",
@@ -3509,7 +3549,12 @@
   "indigo/madder red/unbleached cotton",
   "quartz white/graphite/brass",
   "black acrylic/gold leaf/brushed steel",
-  "attic pine/insulation cream/frost blue"
+  "attic pine/insulation cream/frost blue",
+  "compost brown/leaf green/straw",
+  "engine orange/grease black/denim blue",
+  "navy/signal yellow/driveway grey",
+  "paw orange/bowl blue/cream",
+  "strawberry pink/chocolate/cream"
  ],
  "drive_files_done": [
   1,
@@ -3900,66 +3945,6 @@
  ],
  "log": [
   {
-   "n": 356,
-   "date": "2026-11-23",
-   "format": "SINGLE",
-   "market": "India",
-   "category": "BiryaniHandiOrders",
-   "palette": "saffron orange/handi copper/mint",
-   "fonts": "Lora + Roboto",
-   "layout": "top-down SVG handis sized by kg on a wooden pickup counter + order list with advance chips + dark kitchen sheet with kg by type, handi sizes, open slots",
-   "dots": 4,
-   "phone": false
-  },
-  {
-   "n": 357,
-   "date": "2026-11-23",
-   "format": "CAROUSEL",
-   "market": "India",
-   "category": "AgriInputShop",
-   "palette": "loam brown/sprout green/sack cream",
-   "fonts": "Montserrat + Source Sans 3",
-   "layout": "4 fanned CSS notebooks with wavy red doubts + farmer bubble, farmer ledger with paid/credit chips + totals, isometric SVG godown stacks + booked tiles, village credit rows + WhatsApp bubble + slip with round CLEARED stamp, stacks + stamp + tiles CTA",
-   "dots": 2,
-   "phone": false
-  },
-  {
-   "n": 358,
-   "date": "2026-11-23",
-   "format": "SINGLE",
-   "market": "USA",
-   "category": "SepticPumping",
-   "palette": "slate navy/heat orange ramp/paper",
-   "fonts": "TeX Gyre Adventor + Inter",
-   "layout": "hexbin heat map of 12 service zones + ramp legend + total card, route days from hottest zones, dark SMS thread with reply-to-book",
-   "dots": 5,
-   "phone": false
-  },
-  {
-   "n": 359,
-   "date": "2026-11-23",
-   "format": "SINGLE",
-   "market": "India",
-   "category": "CenteringRental",
-   "palette": "galvanized grey/rust orange/sky blue",
-   "fonts": "Archivo Black + Open Sans",
-   "layout": "3 site cards with CSS telescopic prop isotype (1 = 50) + item chips + 30-day rent strip, phone return slip with sent/back/short table + SVG signature pad + gate photos",
-   "dots": 3,
-   "phone": true
-  },
-  {
-   "n": 360,
-   "date": "2026-11-23",
-   "format": "CAROUSEL",
-   "market": "Canada",
-   "category": "Farrier",
-   "palette": "saddle tan/forest green/hay cream",
-   "fonts": "Crimson Text + Roboto",
-   "layout": "9 barn cards with SVG horseshoe isotype (tan = due), weeks-since bars with cycle tick, country road SVG map with nearest-neighbour route + stop cards, browser barn portal with due chips + visit note, horseshoe grid + tiles CTA",
-   "dots": 1,
-   "phone": false
-  },
-  {
    "n": 361,
    "date": "2026-11-23",
    "format": "SINGLE",
@@ -4258,14 +4243,69 @@
    "layout": "two SVG attic cross-sections with clipped wavy insulation and ruler (now vs after) + dark quote form + quote table with depth bars and cubic feet",
    "dots": 1,
    "phone": false
+  },
+  {
+   "n": 386,
+   "date": "2026-11-23",
+   "format": "SINGLE",
+   "market": "India",
+   "category": "Vermicompost",
+   "palette": "compost brown/leaf green/straw",
+   "fonts": "Montserrat + Open Sans",
+   "layout": "6 CSS compost beds with brick border, straw band and 8-week meters + FIFO order allocation chips + dark auto message",
+   "dots": 2,
+   "phone": false
+  },
+  {
+   "n": 387,
+   "date": "2026-11-23",
+   "format": "CAROUSEL",
+   "market": "India",
+   "category": "TractorRepair",
+   "palette": "engine orange/grease black/denim blue",
+   "fonts": "Archivo Black + Inter",
+   "layout": "SVG top-down yard of tractors with job tags, paper job card + who-sees list, 4-column status board + parts list, ready message + vertical repair history, CTA counts",
+   "dots": 4,
+   "phone": false
+  },
+  {
+   "n": 388,
+   "date": "2026-11-23",
+   "format": "SINGLE",
+   "market": "USA",
+   "category": "MobileMechanic",
+   "palette": "navy/signal yellow/driveway grey",
+   "fonts": "Poppins + Roboto",
+   "layout": "booking form -> parts card, CSS cargo van cutaway with per-job bins on 2 shelves, 4 route cards",
+   "dots": 3,
+   "phone": false
+  },
+  {
+   "n": 389,
+   "date": "2026-11-23",
+   "format": "SINGLE",
+   "market": "India",
+   "category": "PetFoodShop",
+   "palette": "paw orange/bowl blue/cream",
+   "fonts": "Gelasio + DM Sans",
+   "layout": "3x2 customer cards with CSS clip-path food bags showing kibble left + days-left bars, reminder bubble + dark due list",
+   "dots": 5,
+   "phone": false
+  },
+  {
+   "n": 390,
+   "date": "2026-11-23",
+   "format": "SINGLE",
+   "market": "USA",
+   "category": "DonutShop",
+   "palette": "strawberry pink/chocolate/cream",
+   "fonts": "TeX Gyre Adventor + Fira Sans",
+   "layout": "3 open donut boxes of CSS radial donuts 4x3 + dark bake list bars by flavor + pre-order form",
+   "dots": 2,
+   "phone": false
   }
  ],
  "recent_fonts": [
-  "Poppins + Fira Sans",
-  "Cardo + Source Sans 3",
-  "Anton + Roboto",
-  "Lora + DM Sans",
-  "Gelasio + Inter",
   "Bitter + Source Sans 3",
   "Archivo Black + DM Sans",
   "Cardo + Montserrat",
@@ -4285,14 +4325,14 @@
   "Lora + Inter",
   "TeX Gyre Adventor + Roboto",
   "Gelasio + Poppins",
-  "Cardo + Inter"
+  "Cardo + Inter",
+  "Montserrat + Open Sans",
+  "Archivo Black + Inter",
+  "Poppins + Roboto",
+  "Gelasio + DM Sans",
+  "TeX Gyre Adventor + Fira Sans"
  ],
  "recent_layouts": [
-  "4 lane street strips with CSS clip-path houses coloured by bill status on dashed roads + count card, collector door chips, purple auto message",
-  "CSS stone texture slabs on A-frame rack + customer bubble, 6 slab photo cards with status chips, WhatsApp photo chat + conic hold ring + hold list, top-down 3-rack yard slot map + counts, swatch grid + tiles CTA",
-  "3 article cards with size-run bars topped by SVG soles, bottleneck size in coral + full sets pill, retailer order check + factory note",
-  "clothes rail with clip-path garments + hanger hooks + day tags with computed markdown stage, legend chips, consignor list + green auto text with sold/next markdown",
-  "6 cafe cards with CSS kulhad isotype (1 = 100), dark kiln week strip with firing fill bars computed to capacity + breakage note",
   "Gantt queue board: 3 machine lanes (2 lasers + bending) with qty-sized job blocks, hatched sheet/tool change blocks, red now line + job slip, counts, ready message",
   "CSS battery hero + bill book pile, browser sales table by serial, serial search with warranty timeline bars + today marker, old battery isotype + exchange slip, phone reminder chat + visit list, batteries + tiles CTA",
   "top-down SVG street of 8 lots with tree crowns + seeded leaf scatter, day-coloured outlines + chips, browser quote chips form, two route day cards",
@@ -4312,14 +4352,14 @@
   "4 CSS wooden block faces + printing tables with long patterned cloth runs by metres + stage count tiles + buyer message",
   "SVG L-counter plan + spec list + stage chips, template booking grid + drawing, to-scale slab nesting with remnant + CSS stone swatches, prep checklist + install window + text timeline, CTA",
   "hero CSS acrylic plate with screw caps + job list with cut-locked chips + phone proof chat with mini plates and stage tracker",
-  "two SVG attic cross-sections with clipped wavy insulation and ruler (now vs after) + dark quote form + quote table with depth bars and cubic feet"
+  "two SVG attic cross-sections with clipped wavy insulation and ruler (now vs after) + dark quote form + quote table with depth bars and cubic feet",
+  "6 CSS compost beds with brick border, straw band and 8-week meters + FIFO order allocation chips + dark auto message",
+  "SVG top-down yard of tractors with job tags, paper job card + who-sees list, 4-column status board + parts list, ready message + vertical repair history, CTA counts",
+  "booking form -> parts card, CSS cargo van cutaway with per-job bins on 2 shelves, 4 route cards",
+  "3x2 customer cards with CSS clip-path food bags showing kibble left + days-left bars, reminder bubble + dark due list",
+  "3 open donut boxes of CSS radial donuts 4x3 + dark bake list bars by flavor + pre-order form"
  ],
  "used_hashtag_sets": [
-  "#dronespraying #agridrone #smartfarming #kisandrone",
-  "#sawmill #timberdepot #woodbusiness #timbertrade #carpentersofindia",
-  "#selfstorage #storageunits #storagefacility #smallbusinessusa",
-  "#shoecleaning #sneakercare #shoelaundry #sneakercleaningindia",
-  "#escaperoom #escaperoomcanada #escapegame #thingstodocanada",
   "#newspaperagency #newspaperdelivery #paperwala #localbusinessindia",
   "#hydroponics #hydroponicfarming #urbanfarmingindia #freshgreens",
   "#laptoprental #itrental #eventtech #rentalbusinessindia",
@@ -4374,7 +4414,12 @@
   "#blockprinting #handblockprint #textileprinting #fabricmanufacturer",
   "#countertops #quartzcountertops #countertopfabrication #kitchenremodel",
   "#nameplate #acrylicnameplate #homedecorindia #signagemaker",
-  "#atticinsulation #blowninsulation #insulationcontractor #canadianhomes"
+  "#atticinsulation #blowninsulation #insulationcontractor #canadianhomes",
+  "#vermicompost #organicmanure #organicfarmingindia #compostbusiness",
+  "#tractorrepair #tractormechanic #farmmachinery #tractorworkshop #agricultureindia",
+  "#mobilemechanic #mobilecarrepair #automechanic #smallbusinessusa",
+  "#petshop #petfood #dogfood #petsupplies",
+  "#donutshop #donuts #officebreakfast #bakerybusiness"
  ],
  "drive_index_at_post": 370,
  "old_index_sheets_to_trash": []
