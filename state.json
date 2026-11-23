@@ -3,7 +3,7 @@
  "drive_index_sheet_id": "1Ex4WhPiwEbqBF-QEG1pc6VPi3qLGqym_Fq-FvKYTgO8",
  "lock_until_utc": "2026-11-23T02:25:15Z",
  "last_run": "2026-11-23T00:40:51Z \u00b7 posts 326-335 made (batches 62-63), Drive 1-335 done, index sheet last refreshed at 320 (next refresh due ~345)",
- "next_post_no": 341,
+ "next_post_no": 346,
  "posts_done": [
   {
    "n": 1,
@@ -2724,11 +2724,51 @@
    "slides": 1,
    "market": "India",
    "category": "Weighbridge"
+  },
+  {
+   "n": 341,
+   "dir": "posts/0341_SINGLE_India_RiceMill",
+   "format": "SINGLE",
+   "slides": 1,
+   "market": "India",
+   "category": "RiceMill"
+  },
+  {
+   "n": 342,
+   "dir": "posts/0342_SINGLE_India_VegetableVan",
+   "format": "SINGLE",
+   "slides": 1,
+   "market": "India",
+   "category": "VegetableVan"
+  },
+  {
+   "n": 343,
+   "dir": "posts/0343_SINGLE_India_JewelleryKarigar",
+   "format": "SINGLE",
+   "slides": 1,
+   "market": "India",
+   "category": "JewelleryKarigar"
+  },
+  {
+   "n": 344,
+   "dir": "posts/0344_CAROUSEL_USA_CrateRental",
+   "format": "CAROUSEL",
+   "slides": 5,
+   "market": "USA",
+   "category": "CrateRental"
+  },
+  {
+   "n": 345,
+   "dir": "posts/0345_SINGLE_Canada_SaunaRental",
+   "format": "SINGLE",
+   "slides": 1,
+   "market": "Canada",
+   "category": "SaunaRental"
   }
  ],
  "market_counts": {
-  "India": 239,
-  "Abroad": 101
+  "India": 242,
+  "Abroad": 103
  },
  "used_categories": [
   "Boutique",
@@ -3077,14 +3117,14 @@
   "PaverBlockMaker",
   "WindshieldRepair",
   "JaggeryUnit",
-  "Weighbridge"
+  "Weighbridge",
+  "RiceMill",
+  "VegetableVan",
+  "JewelleryKarigar",
+  "CrateRental",
+  "SaunaRental"
  ],
  "recent_palettes": [
-  "trophy gold/velvet navy/ivory",
-  "denim blue/thread orange/chalk",
-  "answer-sheet white/pencil yellow/graphite",
-  "kraft brown/allen-key silver/teal",
-  "fibre cyan/router black/signal green",
   "sleeper maroon/berth cream/route blue",
   "bulb warm white/circuit green/charcoal",
   "icing pink/cocoa/mint",
@@ -3104,7 +3144,12 @@
   "concrete grey/terracotta/moss",
   "glass sky blue/resin amber/charcoal",
   "jaggery brown/cane green/cream gold",
-  "highway yellow/LED red/asphalt"
+  "highway yellow/LED red/asphalt",
+  "paddy gold/jute brown/rice white",
+  "okra green/tomato red/cart wood",
+  "polished silver/garnet/black velvet",
+  "safety lime/charcoal/label white",
+  "cedar orange/snow blue/charcoal"
  ],
  "drive_files_done": [
   1,
@@ -3450,66 +3495,6 @@
  ],
  "log": [
   {
-   "n": 311,
-   "date": "2026-11-22",
-   "format": "CAROUSEL",
-   "market": "India",
-   "category": "PondFishFarm",
-   "palette": "pond green/aerator white/feed orange",
-   "fonts": "Bitter + Source Sans 3",
-   "layout": "top-down 4-pond map with aerators, feed bag icon log, SVG growth line chart, fish x weight estimate + buyer kg bars, map + tiles CTA",
-   "dots": 3,
-   "phone": false
-  },
-  {
-   "n": 312,
-   "date": "2026-11-22",
-   "format": "SINGLE",
-   "market": "India",
-   "category": "PavSupplier",
-   "palette": "pav golden/tray red/flour white",
-   "fonts": "Lora + Inter",
-   "layout": "6 stall cards with CSS pav trays (pale buns = returned) + dark bake total + message card",
-   "dots": 2,
-   "phone": false
-  },
-  {
-   "n": 313,
-   "date": "2026-11-22",
-   "format": "CAROUSEL",
-   "market": "USA",
-   "category": "TaxPreparer",
-   "palette": "cream paper/forest ink/stamp red",
-   "fonts": "Crimson Text + DM Sans",
-   "layout": "SVG fanned paper stack + email list, client document checklist with progress, weekly booking bar grid, 4-column return board, checklist + papers CTA",
-   "dots": 5,
-   "phone": false
-  },
-  {
-   "n": 314,
-   "date": "2026-11-22",
-   "format": "SINGLE",
-   "market": "Canada",
-   "category": "SkateSharpening",
-   "palette": "rink blue/hockey black/blade steel",
-   "fonts": "Archivo Black + Open Sans",
-   "layout": "SVG skate profile with steel blade + yellow drop-off tag, hollow cross-section options, rack list + text card",
-   "dots": 1,
-   "phone": false
-  },
-  {
-   "n": 315,
-   "date": "2026-11-22",
-   "format": "SINGLE",
-   "market": "India",
-   "category": "DriverOnCall",
-   "palette": "night navy/headlight yellow/white",
-   "fonts": "Montserrat + Fira Sans",
-   "layout": "driver duty ribbon board by hour + phone driver booking",
-   "dots": 4,
-   "phone": true
-  },
-  {
    "n": 316,
    "date": "2026-11-22",
    "format": "CAROUSEL",
@@ -3808,14 +3793,69 @@
    "layout": "SVG truck on weighbridge deck with red LED readout + double-border ink weight slip + gross/tare/net register + message bar",
    "dots": 1,
    "phone": false
+  },
+  {
+   "n": 341,
+   "date": "2026-11-23",
+   "format": "SINGLE",
+   "market": "India",
+   "category": "RiceMill",
+   "palette": "paddy gold/jute brown/rice white",
+   "fonts": "Gelasio + DM Sans",
+   "layout": "farmer lot rows of SVG jute-pattern sack isotypes (1 sack = 5 bags, faded = waiting) with stage chips + dark yard total + farmer message",
+   "dots": 2,
+   "phone": false
+  },
+  {
+   "n": 342,
+   "date": "2026-11-23",
+   "format": "SINGLE",
+   "market": "India",
+   "category": "VegetableVan",
+   "palette": "okra green/tomato red/cart wood",
+   "fonts": "Archivo Black + Roboto",
+   "layout": "vertical road ribbon route with society stop pins and order counts + phone pre-order list with bag number",
+   "dots": 4,
+   "phone": true
+  },
+  {
+   "n": 343,
+   "date": "2026-11-23",
+   "format": "SINGLE",
+   "market": "India",
+   "category": "JewelleryKarigar",
+   "palette": "polished silver/garnet/black velvet",
+   "fonts": "Cardo + Inter",
+   "layout": "velvet card with SVG balance scale + gram totals + open gaps, karigar ledger rows with issued/jewellery/scrap/gap tiles",
+   "dots": 5,
+   "phone": false
+  },
+  {
+   "n": 344,
+   "date": "2026-11-23",
+   "format": "CAROUSEL",
+   "market": "USA",
+   "category": "CrateRental",
+   "palette": "safety lime/charcoal/label white",
+   "fonts": "TeX Gyre Adventor + Fira Sans",
+   "layout": "CSS crate stacks per job, browser order-by-room counter, week calendar with drop/pickup chips + yard fill gauges, crate grid with dashed missing + check list + text, crate pyramid + tiles CTA",
+   "dots": 3,
+   "phone": false
+  },
+  {
+   "n": 345,
+   "date": "2026-11-23",
+   "format": "SINGLE",
+   "market": "Canada",
+   "category": "SaunaRental",
+   "palette": "cedar orange/snow blue/charcoal",
+   "fonts": "Lora + Source Sans 3",
+   "layout": "SVG barrel sauna trailer + includes list, dark two-trailer weekend booking grid with dashed open days",
+   "dots": 1,
+   "phone": false
   }
  ],
  "recent_fonts": [
-  "Cardo + Poppins",
-  "Anton + Roboto",
-  "TeX Gyre Adventor + Roboto",
-  "Montserrat + Open Sans",
-  "Gelasio + Roboto",
   "Poppins + Source Sans 3",
   "Archivo Black + Fira Sans",
   "Lora + DM Sans",
@@ -3835,14 +3875,14 @@
   "Montserrat + Roboto",
   "Poppins + Open Sans",
   "Crimson Text + Fira Sans",
-  "Anton + Source Sans 3"
+  "Anton + Source Sans 3",
+  "Gelasio + DM Sans",
+  "Archivo Black + Roboto",
+  "Cardo + Inter",
+  "TeX Gyre Adventor + Fira Sans",
+  "Lora + Source Sans 3"
  ],
  "recent_layouts": [
-  "SVG gold trophies on podium, event order table, gold engraving plate proofs with status, steps + cup + message, trophies + tiles CTA",
-  "dark hourly production board lines x hours vs target + bundle stage tracker + orange order progress card",
-  "top-down exam hall desk seat map + seat booked card + next tests + OMR bubble strip",
-  "stacked CSS kraft flat-pack boxes + browser booking page with summed time estimate",
-  "building cross-section flats around fibre riser with status dots + call notes, ticket list, tech route timeline, renewals list, building + tiles CTA",
   "top-down sleeper bus decks 2+1 berth chart (booked twice in red), live chart with holds, boarding point timeline with berth chips, conductor tick list, decks + tiles CTA",
   "dark test rack of 40 SVG bulbs glowing or crossed + day stat tiles + order note",
   "baking tray of CSS clip-path iced cookies preview + phone custom order",
@@ -3862,14 +3902,14 @@
   "SVG basket-weave paver patch + crossed guesses, sq ft x rate order table + pattern swatches, top-down pallets with conic curing rings, truck load bars per trip + customer message, mixed patch + tiles CTA",
   "SVG windshield with numbered star chips and crack + damage legend row + two-column browser booking with taken slots",
   "dark boiling house with top-down SVG pans + dasharray progress rings, CSS jaggery block stock list, buyer orders checked against stock",
-  "SVG truck on weighbridge deck with red LED readout + double-border ink weight slip + gross/tare/net register + message bar"
+  "SVG truck on weighbridge deck with red LED readout + double-border ink weight slip + gross/tare/net register + message bar",
+  "farmer lot rows of SVG jute-pattern sack isotypes (1 sack = 5 bags, faded = waiting) with stage chips + dark yard total + farmer message",
+  "vertical road ribbon route with society stop pins and order counts + phone pre-order list with bag number",
+  "velvet card with SVG balance scale + gram totals + open gaps, karigar ledger rows with issued/jewellery/scrap/gap tiles",
+  "CSS crate stacks per job, browser order-by-room counter, week calendar with drop/pickup chips + yard fill gauges, crate grid with dashed missing + check list + text, crate pyramid + tiles CTA",
+  "SVG barrel sauna trailer + includes list, dark two-trailer weekend booking grid with dashed open days"
  ],
  "used_hashtag_sets": [
-  "#submersiblepump #borewellpump #pumpdealer #waterpump",
-  "#weddinglighting #tentlighting #eventlighting #tenthouse",
-  "#mobiletireservice #tireshop #tirechange #autoservice",
-  "#blazer #corporateblazers #tailorshop #bespoketailoring",
-  "#tutoringcenter #adultlearners #adulteducation #tutoringbusiness",
   "#ironingservice #laundryservice #societyservices #localbusinessindia",
   "#coldstorage #potatofarming #agriwarehouse #farmersindia",
   "#dryerventcleaning #dryervent #homemaintenance #homeservices",
@@ -3924,7 +3964,12 @@
   "#paverblocks #interlockingtiles #cementproducts #manufacturingindia",
   "#windshieldrepair #autoglass #mobilerepair #smallbusinessusa",
   "#jaggery #gurmaking #sugarcanefarm #foodprocessingindia",
-  "#weighbridge #dharamkanta #truckweighing #logisticsindia"
+  "#weighbridge #dharamkanta #truckweighing #logisticsindia",
+  "#ricemill #paddy #agribusinessindia #farmersindia",
+  "#vegetablevendor #sabziwala #societydelivery #freshvegetables",
+  "#silverjewellery #jewellerymanufacturer #karigar #jewellerybusiness",
+  "#movingcrates #movingday #ecofriendlymoving #smallbusinessusa",
+  "#saunarental #mobilesauna #barrelsauna #smallbusinesscanada"
  ],
  "drive_index_at_post": 320,
  "old_index_sheets_to_trash": [
