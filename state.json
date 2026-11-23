@@ -1,7 +1,7 @@
 {
  "drive_folder_id": "1OZvW8MCiA-_SSNn5_9g3o8k5sMyHUcxE",
  "drive_index_sheet_id": "1TZmiD1hScUkyUBFGZMV6NghHhu1eb8vRCeZtz-_WTK8",
- "lock_until_utc": "2026-11-23T09:28:24Z",
+ "lock_until_utc": "2026-11-23T09:35:43Z",
  "last_run": "2026-11-23T07:44:22Z \u00b7 posts 416-425 made (batches 80-81), Drive 1-425 done; index sheet refreshed at 420 (next ~445); next batch needs 2 carousels (last 10 had 3)",
  "next_post_no": 436,
  "posts_done": [
@@ -4391,7 +4391,12 @@
   427,
   428,
   429,
-  430
+  430,
+  431,
+  432,
+  433,
+  434,
+  435
  ],
  "log": [
   {
