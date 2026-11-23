@@ -3,7 +3,7 @@
  "drive_index_sheet_id": "13U6OzC3MPS3CRC4rr262HKysQAM6av_eYwGodXqTi4c",
  "lock_until_utc": "2026-11-23T05:18:21Z",
  "last_run": "2026-11-23T03:50:31Z \u00b7 posts 366-375 made (batches 70-71; 366 replaced AttaChakki->LaserCutting as duplicate of 0134), Drive 1-375 done; index sheet refreshed at 370 (13U6...), old sheets trashed",
- "next_post_no": 376,
+ "next_post_no": 381,
  "posts_done": [
   {
    "n": 1,
@@ -3004,11 +3004,51 @@
    "slides": 1,
    "market": "USA",
    "category": "VendingOperator"
+  },
+  {
+   "n": 376,
+   "dir": "posts/0376_SINGLE_India_ReadyMixConcrete",
+   "format": "SINGLE",
+   "slides": 1,
+   "market": "India",
+   "category": "ReadyMixConcrete"
+  },
+  {
+   "n": 377,
+   "dir": "posts/0377_CAROUSEL_India_CottonGinning",
+   "format": "CAROUSEL",
+   "slides": 5,
+   "market": "India",
+   "category": "CottonGinning"
+  },
+  {
+   "n": 378,
+   "dir": "posts/0378_SINGLE_USA_LawnAeration",
+   "format": "SINGLE",
+   "slides": 1,
+   "market": "USA",
+   "category": "LawnAeration"
+  },
+  {
+   "n": 379,
+   "dir": "posts/0379_SINGLE_India_HosieryWholesaler",
+   "format": "SINGLE",
+   "slides": 1,
+   "market": "India",
+   "category": "HosieryWholesaler"
+  },
+  {
+   "n": 380,
+   "dir": "posts/0380_SINGLE_India_GarmentTrimsShop",
+   "format": "SINGLE",
+   "slides": 1,
+   "market": "India",
+   "category": "GarmentTrimsShop"
   }
  ],
  "market_counts": {
-  "India": 263,
-  "Abroad": 112
+  "India": 267,
+  "Abroad": 113
  },
  "used_categories": [
   "Boutique",
@@ -3392,14 +3432,14 @@
   "IceDamRemoval",
   "SareePrePleating",
   "PrinterRefill",
-  "VendingOperator"
+  "VendingOperator",
+  "ReadyMixConcrete",
+  "CottonGinning",
+  "LawnAeration",
+  "HosieryWholesaler",
+  "GarmentTrimsShop"
  ],
  "recent_palettes": [
-  "steamer bamboo/chilli red/dough white",
-  "brick red/helmet yellow/blueprint navy",
-  "whisker grey/yarn pink/mint",
-  "garage concrete/battery green/frost blue",
-  "EV teal/charge yellow/road grey",
   "saffron orange/handi copper/mint",
   "loam brown/sprout green/sack cream",
   "slate navy/heat orange ramp/paper",
@@ -3419,7 +3459,12 @@
   "icicle blue/roof charcoal/alarm red",
   "rani pink/marigold/ivory",
   "toner black/CMYK accents/paper white",
-  "cobalt/snack yellow/chrome"
+  "cobalt/snack yellow/chrome",
+  "concrete grey/safety orange/drum teal",
+  "cotton white/boll green/jute brown",
+  "turf green/plug brown/flag pink",
+  "navy/heather grey/coral",
+  "ivory/charcoal/thread teal"
  ],
  "drive_files_done": [
   1,
@@ -3800,66 +3845,6 @@
  ],
  "log": [
   {
-   "n": 346,
-   "date": "2026-11-23",
-   "format": "SINGLE",
-   "market": "India",
-   "category": "DairyFarmHerd",
-   "palette": "fodder green/milk cream/barn red",
-   "fonts": "Poppins + Roboto",
-   "layout": "8 cow cards with clip-path yellow ear tags + CSS steel milk cans filled AM/PM + totals + collection note",
-   "dots": 4,
-   "phone": false
-  },
-  {
-   "n": 347,
-   "date": "2026-11-23",
-   "format": "CAROUSEL",
-   "market": "India",
-   "category": "OfficeTeaSupply",
-   "palette": "masala chai brown/flask steel/cardamom green",
-   "fonts": "Bitter + DM Sans",
-   "layout": "CSS steel flasks with tally marks + complaint bubble, office round rows with time chips + flask badges, cups heat calendar office x day, cup statement with colour strip + office total cards, flasks + tiles CTA",
-   "dots": 2,
-   "phone": false
-  },
-  {
-   "n": 348,
-   "date": "2026-11-23",
-   "format": "SINGLE",
-   "market": "India",
-   "category": "GlassMirrorShop",
-   "palette": "glass aqua/cutting orange/graphite",
-   "fonts": "Montserrat + Inter",
-   "layout": "to-scale SVG glass sheet cut plan with dashed pieces + hatched offcut, orders list + dark offcut rack card",
-   "dots": 5,
-   "phone": false
-  },
-  {
-   "n": 349,
-   "date": "2026-11-23",
-   "format": "SINGLE",
-   "market": "USA",
-   "category": "TurnoverCleaning",
-   "palette": "linen white/turnover coral/slate",
-   "fonts": "Archivo Black + Source Sans 3",
-   "layout": "turnover window board: dashed checkout-to-checkin windows with cleaning blocks by % on time axis + linen/crew tiles + coral note",
-   "dots": 3,
-   "phone": false
-  },
-  {
-   "n": 350,
-   "date": "2026-11-23",
-   "format": "SINGLE",
-   "market": "India",
-   "category": "BroilerFarm",
-   "palette": "feed yellow/shed green/straw",
-   "fonts": "Gelasio + Open Sans",
-   "layout": "two shed cards with SVG side-view sheds + 42-dot batch day strip + feed days-left tiles, feed bag order card + trader message",
-   "dots": 1,
-   "phone": false
-  },
-  {
    "n": 351,
    "date": "2026-11-23",
    "format": "SINGLE",
@@ -4158,14 +4143,69 @@
    "layout": "6 CSS vending machine fronts with seeded slot grids + fill % bars, legend, emptiest-first route + van load list computed from empty slots",
    "dots": 1,
    "phone": false
+  },
+  {
+   "n": 376,
+   "date": "2026-11-23",
+   "format": "SINGLE",
+   "market": "India",
+   "category": "ReadyMixConcrete",
+   "palette": "concrete grey/safety orange/drum teal",
+   "fonts": "Archivo Black + Roboto",
+   "layout": "dark 5-photo site ready check + pour board with CSS transit mixer isotypes per 7 m3 coloured by trip state + needs chips + auto message",
+   "dots": 3,
+   "phone": false
+  },
+  {
+   "n": 377,
+   "date": "2026-11-23",
+   "format": "CAROUSEL",
+   "market": "India",
+   "category": "CottonGinning",
+   "palette": "cotton white/boll green/jute brown",
+   "fonts": "Bitter + Open Sans",
+   "layout": "SVG tractor-trolley gate queue + LED now-weighing board, token table + SMS, full/empty trolley + dashed weigh slip, lot rows of CSS strapped bales, CTA tractor + tiles",
+   "dots": 5,
+   "phone": false
+  },
+  {
+   "n": 378,
+   "date": "2026-11-23",
+   "format": "SINGLE",
+   "market": "USA",
+   "category": "LawnAeration",
+   "palette": "turf green/plug brown/flag pink",
+   "fonts": "Poppins + Source Sans 3",
+   "layout": "top-down SVG street map with lots, core-plug pattern lawns + sprinkler flags, sign-up form + dark route-day progress per street",
+   "dots": 2,
+   "phone": false
+  },
+  {
+   "n": 379,
+   "date": "2026-11-23",
+   "format": "SINGLE",
+   "market": "India",
+   "category": "HosieryWholesaler",
+   "palette": "navy/heather grey/coral",
+   "fonts": "Montserrat + Fira Sans",
+   "layout": "before chat strip + colour x size dozen matrix with folded swatches and totals + CSS taped cartons per shop + stock-short alert",
+   "dots": 4,
+   "phone": false
+  },
+  {
+   "n": 380,
+   "date": "2026-11-23",
+   "format": "SINGLE",
+   "market": "India",
+   "category": "GarmentTrimsShop",
+   "palette": "ivory/charcoal/thread teal",
+   "fonts": "Crimson Text + DM Sans",
+   "layout": "phone shade card of CSS zipper swatches + length/buttons/lace/pickup, 3 order pouch cards with CSS zips, 4-hole buttons, lace edges",
+   "dots": 1,
+   "phone": true
   }
  ],
  "recent_fonts": [
-  "Anton + Inter",
-  "Cardo + Roboto",
-  "Poppins + DM Sans",
-  "Bitter + Fira Sans",
-  "Archivo Black + DM Sans",
   "Lora + Roboto",
   "Montserrat + Source Sans 3",
   "TeX Gyre Adventor + Inter",
@@ -4185,14 +4225,14 @@
   "Crimson Text + Fira Sans",
   "Cardo + Poppins",
   "Lora + Open Sans",
-  "Gelasio + Roboto"
+  "Gelasio + Roboto",
+  "Archivo Black + Roboto",
+  "Bitter + Open Sans",
+  "Poppins + Source Sans 3",
+  "Montserrat + Fira Sans",
+  "Crimson Text + DM Sans"
  ],
  "recent_layouts": [
-  "3 outlet cards with last-4-weekday mini bars + CSS bamboo steamer stacks + plan pill, red kitchen sheet strip",
-  "CSS hard hat isotype per site, gate list rows with time + tick, week attendance P/half/absent grid, pay list with advance chips + message, hats + tiles CTA",
-  "SVG key ring with colored client key tags + weekend visit list + phone visit report with photos and task ticks",
-  "top-down SVG garage bay map with car silhouettes + battery % badges + open spots, monthly check list + dark low-battery card",
-  "3 rows of SVG side-view scooters with test-ride slot strips (booked dark) + rides total + follow-up note",
   "top-down SVG handis sized by kg on a wooden pickup counter + order list with advance chips + dark kitchen sheet with kg by type, handi sizes, open slots",
   "4 fanned CSS notebooks with wavy red doubts + farmer bubble, farmer ledger with paid/credit chips + totals, isometric SVG godown stacks + booked tiles, village credit rows + WhatsApp bubble + slip with round CLEARED stamp, stacks + stamp + tiles CTA",
   "hexbin heat map of 12 service zones + ramp legend + total card, route days from hottest zones, dark SMS thread with reply-to-book",
@@ -4212,14 +4252,14 @@
   "SVG roof cross-section with snow, ice dam, icicles, warm attic glow and leak path labels + booking form list, dark 3-day crew board sorted leaks first",
   "phone order form + event-date board of CSS pleated saree boxes with status chips + weekend count card",
   "CSS printer with half-printed page + office bubbles, printer table with totals, pages-vs-yield bars with 85% marker + due card, route with times + job sheet with SVG signature, printer + tiles CTA",
-  "6 CSS vending machine fronts with seeded slot grids + fill % bars, legend, emptiest-first route + van load list computed from empty slots"
+  "6 CSS vending machine fronts with seeded slot grids + fill % bars, legend, emptiest-first route + van load list computed from empty slots",
+  "dark 5-photo site ready check + pour board with CSS transit mixer isotypes per 7 m3 coloured by trip state + needs chips + auto message",
+  "SVG tractor-trolley gate queue + LED now-weighing board, token table + SMS, full/empty trolley + dashed weigh slip, lot rows of CSS strapped bales, CTA tractor + tiles",
+  "top-down SVG street map with lots, core-plug pattern lawns + sprinkler flags, sign-up form + dark route-day progress per street",
+  "before chat strip + colour x size dozen matrix with folded swatches and totals + CSS taped cartons per shop + stock-short alert",
+  "phone shade card of CSS zipper swatches + length/buttons/lace/pickup, 3 order pouch cards with CSS zips, 4-hole buttons, lace edges"
  ],
  "used_hashtag_sets": [
-  "#trophyshop #trophiesandmedals #corporateawards #engraving",
-  "#garmentmanufacturing #stitchingunit #apparelindustry #textileindia",
-  "#mocktest #exampreparation #coachingcentre #competitiveexams",
-  "#furnitureassembly #handymanservices #flatpackfurniture #smallbusinessusa",
-  "#broadband #fibreinternet #internetserviceprovider #localbusinessindia",
   "#sleeperbus #busoperator #travelbusiness #busbooking",
   "#ledbulb #ledmanufacturing #makeinindia #smallfactory",
   "#customcookies #decoratedcookies #cookiebusiness #homebakery",
@@ -4274,7 +4314,12 @@
   "#icedamremoval #icedams #roofsnowremoval #canadianwinter",
   "#sareepleating #prepleatedsaree #sareedraping #sareelove",
   "#printerrepair #tonerrefill #cartridgerefill #officesupplies #smallbusinessindia",
-  "#vendingmachine #vendingbusiness #vendingroute #smallbusinessowner"
+  "#vendingmachine #vendingbusiness #vendingroute #smallbusinessowner",
+  "#readymixconcrete #rmcplant #concretework #constructionsite",
+  "#cottonginning #ginningfactory #cottonfarmers #kapas #agribusinessindia",
+  "#lawnaeration #coreaeration #lawncarebusiness #springlawncare",
+  "#hosierywholesale #leggingswholesale #garmentwholesaler #textilebusiness",
+  "#tailoringmaterial #buttonsandzips #lacework #tailorshop #boutiqueindia"
  ],
  "drive_index_at_post": 370,
  "old_index_sheets_to_trash": []
