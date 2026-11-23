@@ -3,7 +3,7 @@
  "drive_index_sheet_id": "1Ex4WhPiwEbqBF-QEG1pc6VPi3qLGqym_Fq-FvKYTgO8",
  "lock_until_utc": "2026-11-23T01:26:10Z",
  "last_run": "2026-11-22T23:53:18Z \u00b7 posts 301-325 made (batches 57-61), Drive 1-325 done, index sheet refreshed at 320 (id 1Ex4...; old sheet 1kVm... could not be trashed: permission denied, added to old_index_sheets_to_trash)",
- "next_post_no": 331,
+ "next_post_no": 336,
  "posts_done": [
   {
    "n": 1,
@@ -2644,11 +2644,51 @@
    "slides": 5,
    "market": "Canada",
    "category": "EscapeRoom"
+  },
+  {
+   "n": 331,
+   "dir": "posts/0331_SINGLE_India_NewspaperAgency",
+   "format": "SINGLE",
+   "slides": 1,
+   "market": "India",
+   "category": "NewspaperAgency"
+  },
+  {
+   "n": 332,
+   "dir": "posts/0332_SINGLE_India_HydroponicFarm",
+   "format": "SINGLE",
+   "slides": 1,
+   "market": "India",
+   "category": "HydroponicFarm"
+  },
+  {
+   "n": 333,
+   "dir": "posts/0333_CAROUSEL_India_LaptopRental",
+   "format": "CAROUSEL",
+   "slides": 5,
+   "market": "India",
+   "category": "LaptopRental"
+  },
+  {
+   "n": 334,
+   "dir": "posts/0334_SINGLE_India_SolarPanelCleaning",
+   "format": "SINGLE",
+   "slides": 1,
+   "market": "India",
+   "category": "SolarPanelCleaning"
+  },
+  {
+   "n": 335,
+   "dir": "posts/0335_SINGLE_USA_DumpsterRental",
+   "format": "SINGLE",
+   "slides": 1,
+   "market": "USA",
+   "category": "DumpsterRental"
   }
  ],
  "market_counts": {
-  "India": 231,
-  "Abroad": 99
+  "India": 235,
+  "Abroad": 100
  },
  "used_categories": [
   "Boutique",
@@ -2987,14 +3027,14 @@
   "TimberMill",
   "SelfStorage",
   "ShoeCleaning",
-  "EscapeRoom"
+  "EscapeRoom",
+  "NewspaperAgency",
+  "HydroponicFarm",
+  "LaptopRental",
+  "SolarPanelCleaning",
+  "DumpsterRental"
  ],
  "recent_palettes": [
-  "quarry grey/safety yellow/rust",
-  "freezer white/berry pink/mint",
-  "process cyan/magenta/paper white",
-  "frozen lake blue/hut red/pine",
-  "linen beige/charcoal/gold foil",
   "pond green/aerator white/feed orange",
   "pav golden/tray red/flour white",
   "cream paper/forest ink/stamp red",
@@ -3014,7 +3054,12 @@
   "sawdust tan/teak brown/blade blue",
   "storage orange/concrete grey/ink navy",
   "chalk white/foam blue/gum brown",
-  "dark plum/clue amber/lock teal"
+  "dark plum/clue amber/lock teal",
+  "newsprint grey/ink black/masthead red",
+  "leaf lime/pipe white/water teal",
+  "matte graphite/asset-tag yellow/screen blue",
+  "sun yellow/panel navy/dust beige",
+  "dumpster green/caution orange/asphalt"
  ],
  "drive_files_done": [
   1,
@@ -3350,66 +3395,6 @@
  ],
  "log": [
   {
-   "n": 301,
-   "date": "2026-11-22",
-   "format": "SINGLE",
-   "market": "India",
-   "category": "ERickshawFleet",
-   "palette": "asphalt/electric lime/white",
-   "fonts": "Montserrat + Roboto",
-   "layout": "dark charging shed grid of SVG batteries with charge fill and bolts + driver shift/rent list + green message",
-   "dots": 2,
-   "phone": false
-  },
-  {
-   "n": 302,
-   "date": "2026-11-22",
-   "format": "CAROUSEL",
-   "market": "India",
-   "category": "HandloomWeaver",
-   "palette": "turmeric/kora cotton/peacock teal",
-   "fonts": "Lora + Open Sans",
-   "layout": "SVG handloom with woven part as progress, yarn issue table with swatches, woven-fabric progress bars per loom, saree icon yarn balance cards, three looms + tiles CTA",
-   "dots": 4,
-   "phone": false
-  },
-  {
-   "n": 303,
-   "date": "2026-11-22",
-   "format": "SINGLE",
-   "market": "USA",
-   "category": "MealPrep",
-   "palette": "basil green/tomato/oat cream",
-   "fonts": "Archivo Black + DM Sans",
-   "layout": "browser weekly order page + dark cook list of CSS top-down meal containers with counts + ZIP route card",
-   "dots": 1,
-   "phone": false
-  },
-  {
-   "n": 304,
-   "date": "2026-11-22",
-   "format": "SINGLE",
-   "market": "India",
-   "category": "MessService",
-   "palette": "manila/brick red/ink navy",
-   "fonts": "Crimson Text + Fira Sans",
-   "layout": "manila punch card month grid with punched/struck/open holes + today's cook count cards + skip app card",
-   "dots": 5,
-   "phone": false
-  },
-  {
-   "n": 305,
-   "date": "2026-11-22",
-   "format": "SINGLE",
-   "market": "Canada",
-   "category": "BoatStorage",
-   "palette": "shrink-wrap white/marine navy/buoy orange",
-   "fonts": "Bitter + Inter",
-   "layout": "top-down storage yard of shrink-wrapped SVG hulls with status outlines + phone spring launch booking",
-   "dots": 3,
-   "phone": true
-  },
-  {
    "n": 306,
    "date": "2026-11-22",
    "format": "CAROUSEL",
@@ -3708,14 +3693,69 @@
    "layout": "paper booking diary with double booking boxed in red, browser room/time/players booking, room timeline with hatched 15-min reset blocks + totals, team chat + 3 cards, arched room doors + tiles CTA",
    "dots": 1,
    "phone": false
+  },
+  {
+   "n": 331,
+   "date": "2026-11-23",
+   "format": "SINGLE",
+   "market": "India",
+   "category": "NewspaperAgency",
+   "palette": "newsprint grey/ink black/masthead red",
+   "fonts": "Lora + Roboto",
+   "layout": "flat register with 30-day delivered/paused strips + zigzag receipt bill with derived copy counts and mini calendar",
+   "dots": 2,
+   "phone": false
+  },
+  {
+   "n": 332,
+   "date": "2026-11-23",
+   "format": "SINGLE",
+   "market": "India",
+   "category": "HydroponicFarm",
+   "palette": "leaf lime/pipe white/water teal",
+   "fonts": "Archivo Black + Inter",
+   "layout": "dark grow room of SVG NFT pipes with plants sized by week + harvest dates, buyer order list, green ready note",
+   "dots": 5,
+   "phone": false
+  },
+  {
+   "n": 333,
+   "date": "2026-11-23",
+   "format": "CAROUSEL",
+   "market": "India",
+   "category": "LaptopRental",
+   "palette": "matte graphite/asset-tag yellow/screen blue",
+   "fonts": "TeX Gyre Adventor + Open Sans",
+   "layout": "CSS laptops with yellow tag stickers, client cards with tag chips, units-out-per-day bars, return checklist table, laptops + tiles CTA",
+   "dots": 3,
+   "phone": false
+  },
+  {
+   "n": 334,
+   "date": "2026-11-23",
+   "format": "SINGLE",
+   "market": "India",
+   "category": "SolarPanelCleaning",
+   "palette": "sun yellow/panel navy/dust beige",
+   "fonts": "Gelasio + Inter",
+   "layout": "top-down SVG rooftop with clean (glare) vs dusty (speckled) panels + rooftop list + phone visit tracker with before/after",
+   "dots": 4,
+   "phone": true
+  },
+  {
+   "n": 335,
+   "date": "2026-11-23",
+   "format": "SINGLE",
+   "market": "USA",
+   "category": "DumpsterRental",
+   "palette": "dumpster green/caution orange/asphalt",
+   "fonts": "Montserrat + Source Sans 3",
+   "layout": "side-view SVG roll-off dumpsters by size with yard/out counts + dispatch table with today status chips + driveway photo note",
+   "dots": 1,
+   "phone": false
   }
  ],
  "recent_fonts": [
-  "Anton + Source Sans 3",
-  "Poppins + Fira Sans",
-  "Cardo + Inter",
-  "TeX Gyre Adventor + Inter",
-  "Gelasio + DM Sans",
   "Bitter + Source Sans 3",
   "Lora + Inter",
   "Crimson Text + DM Sans",
@@ -3735,14 +3775,14 @@
   "Bitter + Roboto",
   "Anton + Open Sans",
   "Montserrat + DM Sans",
-  "Crimson Text + Roboto"
+  "Crimson Text + Roboto",
+  "Lora + Roboto",
+  "Archivo Black + Inter",
+  "TeX Gyre Adventor + Open Sans",
+  "Gelasio + Inter",
+  "Montserrat + Source Sans 3"
  ],
  "recent_layouts": [
-  "SVG gravel stockpiles by tonnes, site order table + material totals, truck round ribbons with % positions, photo delivery slip + loads ordered vs delivered, piles + tiles CTA",
-  "top-down chest freezer with glass sheen and flavour tub lids + shop tubs-left bars + refill round card",
-  "8-up print sheet with crop and registration marks, CMYK bar and approved stamp + dark job card stages",
-  "top-down frozen lake with cracks, shore pines, numbered huts booked/free + phone hut booking",
-  "open album spread of landscape blocks with numbered pins, job code table, 25 spread thumbnail status grid, cover swatch books + steps, spread with ticked pins CTA",
   "top-down 4-pond map with aerators, feed bag icon log, SVG growth line chart, fish x weight estimate + buyer kg bars, map + tiles CTA",
   "6 stall cards with CSS pav trays (pale buns = returned) + dark bake total + message card",
   "SVG fanned paper stack + email list, client document checklist with progress, weekly booking bar grid, 4-column return board, checklist + papers CTA",
@@ -3762,14 +3802,14 @@
   "isometric SVG plank stacks with end-grain plank ends sized by piece count + carpenter order table checked against stock + blue cutting note",
   "building elevation of CSS corrugated roll-up doors with unit plates and status tags + browser reserve page counting free units by size",
   "drying rack of SVG side-profile sneakers with dashed hanging stage tags + phone pair tracker steps",
-  "paper booking diary with double booking boxed in red, browser room/time/players booking, room timeline with hatched 15-min reset blocks + totals, team chat + 3 cards, arched room doors + tiles CTA"
+  "paper booking diary with double booking boxed in red, browser room/time/players booking, room timeline with hatched 15-min reset blocks + totals, team chat + 3 cards, arched room doors + tiles CTA",
+  "flat register with 30-day delivered/paused strips + zigzag receipt bill with derived copy counts and mini calendar",
+  "dark grow room of SVG NFT pipes with plants sized by week + harvest dates, buyer order list, green ready note",
+  "CSS laptops with yellow tag stickers, client cards with tag chips, units-out-per-day bars, return checklist table, laptops + tiles CTA",
+  "top-down SVG rooftop with clean (glare) vs dusty (speckled) panels + rooftop list + phone visit tracker with before/after",
+  "side-view SVG roll-off dumpsters by size with yard/out counts + dispatch table with today status chips + driveway photo note"
  ],
  "used_hashtag_sets": [
-  "#seatcovers #carseatcover #caraccessoriesindia #carinterior",
-  "#screenprinting #customtshirts #printshop #smallbusinessusa",
-  "#sareefall #pico #sareelove #tailoringindia",
-  "#canefurniture #bamboofurniture #handmadeinindia #rattanfurniture #homedecorindia",
-  "#housekeepingsupplies #officesupplies #cleaningsupplies #b2bindia",
   "#toolrental #hardwareshop #equipmentrental #smallbusinessindia",
   "#closetinstaller #closetdesign #customclosets #homeorganization",
   "#ewaste #ewastecollection #electronicwaste #scrappickup",
@@ -3824,7 +3864,12 @@
   "#sawmill #timberdepot #woodbusiness #timbertrade #carpentersofindia",
   "#selfstorage #storageunits #storagefacility #smallbusinessusa",
   "#shoecleaning #sneakercare #shoelaundry #sneakercleaningindia",
-  "#escaperoom #escaperoomcanada #escapegame #thingstodocanada"
+  "#escaperoom #escaperoomcanada #escapegame #thingstodocanada",
+  "#newspaperagency #newspaperdelivery #paperwala #localbusinessindia",
+  "#hydroponics #hydroponicfarming #urbanfarmingindia #freshgreens",
+  "#laptoprental #itrental #eventtech #rentalbusinessindia",
+  "#solarpanelcleaning #rooftopsolar #solarindia #solarmaintenance",
+  "#dumpsterrental #rolloffdumpster #junkhauling #localbusinessusa"
  ],
  "drive_index_at_post": 320,
  "old_index_sheets_to_trash": [
