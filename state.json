@@ -3,7 +3,7 @@
  "drive_index_sheet_id": "1TZmiD1hScUkyUBFGZMV6NghHhu1eb8vRCeZtz-_WTK8",
  "lock_until_utc": "2026-11-23T08:26:24Z",
  "last_run": "2026-11-23T06:44:24Z \u00b7 posts 406-415 made (batches 78-79), Drive 1-415 done; index sheet last refreshed at 395 (next ~420)",
- "next_post_no": 421,
+ "next_post_no": 426,
  "posts_done": [
   {
    "n": 1,
@@ -3364,11 +3364,51 @@
    "slides": 5,
    "market": "Canada",
    "category": "MobileWelder"
+  },
+  {
+   "n": 421,
+   "dir": "posts/0421_SINGLE_India_GheeMaker",
+   "format": "SINGLE",
+   "slides": 1,
+   "market": "India",
+   "category": "GheeMaker"
+  },
+  {
+   "n": 422,
+   "dir": "posts/0422_CAROUSEL_India_PuffedRice",
+   "format": "CAROUSEL",
+   "slides": 5,
+   "market": "India",
+   "category": "PuffedRice"
+  },
+  {
+   "n": 423,
+   "dir": "posts/0423_SINGLE_India_BiogasInstaller",
+   "format": "SINGLE",
+   "slides": 1,
+   "market": "India",
+   "category": "BiogasInstaller"
+  },
+  {
+   "n": 424,
+   "dir": "posts/0424_SINGLE_India_TrolleyMaker",
+   "format": "SINGLE",
+   "slides": 1,
+   "market": "India",
+   "category": "TrolleyMaker"
+  },
+  {
+   "n": 425,
+   "dir": "posts/0425_SINGLE_USA_GroutCleaning",
+   "format": "SINGLE",
+   "slides": 1,
+   "market": "USA",
+   "category": "GroutCleaning"
   }
  ],
  "market_counts": {
-  "India": 294,
-  "Abroad": 126
+  "India": 298,
+  "Abroad": 127
  },
  "used_categories": [
   "Boutique",
@@ -3797,14 +3837,14 @@
   "SilageBales",
   "StumpGrinding",
   "PalletMaker",
-  "MobileWelder"
+  "MobileWelder",
+  "GheeMaker",
+  "PuffedRice",
+  "BiogasInstaller",
+  "TrolleyMaker",
+  "GroutCleaning"
  ],
  "recent_palettes": [
-  "crane amber/night navy/sky cyan",
-  "rug terracotta/wool cream/sage",
-  "sheath beige/palm green/charcoal",
-  "saddle brown/hay gold/frost white",
-  "pasture olive/goat tan/clay",
   "jute natural/screen-print green/ink black",
   "primer grey/coach blue/signal yellow",
   "court blue/kitchen green/ball yellow",
@@ -3824,7 +3864,12 @@
   "straw cream/bale black/tractor blue",
   "sawdust tan/bark brown/lawn green",
   "pine yellow/stamp black/factory blue",
-  "steel grey/arc blue/spark orange"
+  "steel grey/arc blue/spark orange",
+  "ghee gold/cream/brass brown",
+  "rice white/turmeric/indigo",
+  "slurry brown/flame blue/leaf green",
+  "primer grey/oxide red/hazard yellow",
+  "tile white/grout grey/aqua"
  ],
  "drive_files_done": [
   1,
@@ -4250,66 +4295,6 @@
  ],
  "log": [
   {
-   "n": 391,
-   "date": "2026-11-23",
-   "format": "SINGLE",
-   "market": "India",
-   "category": "CashewProcessing",
-   "palette": "cashew cream/roast amber/deep olive",
-   "fonts": "Bitter + Inter",
-   "layout": "5 grade cards with SVG cashew kernels sized by grade + tin isotype booked/free, orders allocated by delivery date with short chip, olive owner alert",
-   "dots": 4,
-   "phone": false
-  },
-  {
-   "n": 392,
-   "date": "2026-11-23",
-   "format": "CAROUSEL",
-   "market": "India",
-   "category": "StudyLibrary",
-   "palette": "study green/lamp amber/paper",
-   "fonts": "Lora + DM Sans",
-   "layout": "shift-split seat map (top half morning, bottom evening) + counts, walk-in + free seat highlights + phone join form, renewals week strip + member list + reminders, waitlist + ending seats + offer flow, tiles CTA",
-   "dots": 1,
-   "phone": true
-  },
-  {
-   "n": 393,
-   "date": "2026-11-23",
-   "format": "SINGLE",
-   "market": "India",
-   "category": "ShutterFabricator",
-   "palette": "red oxide/zinc grey/chalk",
-   "fonts": "Anton + Fira Sans",
-   "layout": "SVG rolling shutter front elevation with dimension arrows + dark site measure form, 6-stage dot tracker per job, red oxide auto message",
-   "dots": 3,
-   "phone": false
-  },
-  {
-   "n": 394,
-   "date": "2026-11-23",
-   "format": "CAROUSEL",
-   "market": "India",
-   "category": "CorrugatedBox",
-   "palette": "corrugated tan/flexo blue/die-line red",
-   "fonts": "Archivo Black + Source Sans 3",
-   "layout": "SVG RSC dieline with cut/fold lines + diary note, spec card + flute cross-sections + proof, sheet size formulas + reel deckle ups drawing, 6-station conveyor line with cartons + dispatch slip + plan, CTA",
-   "dots": 5,
-   "phone": false
-  },
-  {
-   "n": 395,
-   "date": "2026-11-23",
-   "format": "SINGLE",
-   "market": "USA",
-   "category": "EpoxyFloors",
-   "palette": "slate/epoxy teal/flake tan",
-   "fonts": "Montserrat + Inter",
-   "layout": "top-down SVG garage with seeded flake speckle, cracks and drain + quote form with sq ft and flake swatches, dark 4-step install plan",
-   "dots": 2,
-   "phone": false
-  },
-  {
    "n": 396,
    "date": "2026-11-23",
    "format": "SINGLE",
@@ -4608,14 +4593,69 @@
    "layout": "blurred SVG photo texts with missing chips, browser request form with sharp thumbnails, area map + hatched drive ribbon + job cards, before/after weld job card + signature, icon tiles CTA",
    "dots": 4,
    "phone": false
+  },
+  {
+   "n": 421,
+   "date": "2026-11-23",
+   "format": "SINGLE",
+   "market": "India",
+   "category": "GheeMaker",
+   "palette": "ghee gold/cream/brass brown",
+   "fonts": "Lora + Inter",
+   "layout": "batch equation tiles + SVG jars by size with batch labels and left-after-orders, order list with status chips, phone repeat order",
+   "dots": 1,
+   "phone": true
+  },
+  {
+   "n": 422,
+   "date": "2026-11-23",
+   "format": "CAROUSEL",
+   "market": "India",
+   "category": "PuffedRice",
+   "palette": "rice white/turmeric/indigo",
+   "fonts": "TeX Gyre Adventor + Roboto",
+   "layout": "clear bags with seeded grains + quote cards, shop x day standing order matrix, roast plan tiles + batch ribbon + batch table, dotted van route timeline + paid/bill tiles, icon tiles CTA",
+   "dots": 3,
+   "phone": false
+  },
+  {
+   "n": 423,
+   "date": "2026-11-23",
+   "format": "SINGLE",
+   "market": "India",
+   "category": "BiogasInstaller",
+   "palette": "slurry brown/flame blue/leaf green",
+   "fonts": "Gelasio + DM Sans",
+   "layout": "fixed-dome cross-section coloured by install stage with numbered pins + stage list, survey card with size chip, dark service visit list",
+   "dots": 5,
+   "phone": false
+  },
+  {
+   "n": 424,
+   "date": "2026-11-23",
+   "format": "SINGLE",
+   "market": "India",
+   "category": "TrolleyMaker",
+   "palette": "primer grey/oxide red/hazard yellow",
+   "fonts": "Anton + Source Sans 3",
+   "layout": "side-view trolley SVG with parts by build stage (done/working hatched/next dashed), dark order card, stage-dot board, customer update note",
+   "dots": 2,
+   "phone": false
+  },
+  {
+   "n": 425,
+   "date": "2026-11-23",
+   "format": "SINGLE",
+   "market": "USA",
+   "category": "GroutCleaning",
+   "palette": "tile white/grout grey/aqua",
+   "fonts": "Crimson Text + Open Sans",
+   "layout": "to-scale floor plan with tile-pattern fills per service + carpet hatch, diagonal before/after tile close-up, room sq ft list, navy booking card",
+   "dots": 4,
+   "phone": false
   }
  ],
  "recent_fonts": [
-  "TeX Gyre Adventor + Open Sans",
-  "Crimson Text + Inter",
-  "Cardo + Fira Sans",
-  "Gelasio + Source Sans 3",
-  "Poppins + Inter",
   "Bitter + DM Sans",
   "Anton + Roboto",
   "Montserrat + DM Sans",
@@ -4635,14 +4675,14 @@
   "Archivo Black + Roboto",
   "Bitter + Source Sans 3",
   "Montserrat + Roboto",
-  "Poppins + Roboto"
+  "Poppins + Roboto",
+  "Lora + Inter",
+  "TeX Gyre Adventor + Roboto",
+  "Gelasio + DM Sans",
+  "Anton + Source Sans 3",
+  "Crimson Text + Open Sans"
  ],
  "recent_layouts": [
-  "dark job request bar + 2x2 crane cards with SVG truck cranes (boom scaled by capacity) and size/free check chips, booking message",
-  "CSS rugs on drying rack with ? tags, pickup form + rugs to scale on ft grid, notched rug ticket with barcode + status timeline, SVG street route map + stop list + text, CTA tiles",
-  "CSS areca plates by size with grain texture + pack isotype booked/free, order table with press shortfall, dark pressing plan",
-  "top-down SVG barn aisle, 10 stalls coloured by turnout group with hay bars, grain dots, blanket notes + whiteboard vs owner updates",
-  "3x2 goat cards with clip-path ear tags + SVG monthly weight lines vs dashed target, dark buyer bookings matched to at-target goats",
   "CSS jute bags with weave + webbing handles and ? print labels, SVG front/side spec drawing + material swatches + dark order card, proof bag with comment pins + history, stage count bars, bag tiles CTA",
   "SVG top-view bus seat plan with approval badge, dark spec + change versions, yard rows with 6-stage label chips",
   "4 SVG pickleball courts with live status chips + courts x hours booking grid with now line + dark booking bar",
@@ -4662,14 +4702,14 @@
   "wrapped-bale isotype yard (booked vs free) + count tiles, trolley-trip day strip, order list + new-call stock reply",
   "to-scale backyard with tree-ring stumps sized by diameter + gate path, stump list with total, option chips, dark job card",
   "isometric SVG pallet from part sizes + spec tags, yard order progress rows, phone order form with chips and stepper",
-  "blurred SVG photo texts with missing chips, browser request form with sharp thumbnails, area map + hatched drive ribbon + job cards, before/after weld job card + signature, icon tiles CTA"
+  "blurred SVG photo texts with missing chips, browser request form with sharp thumbnails, area map + hatched drive ribbon + job cards, before/after weld job card + signature, icon tiles CTA",
+  "batch equation tiles + SVG jars by size with batch labels and left-after-orders, order list with status chips, phone repeat order",
+  "clear bags with seeded grains + quote cards, shop x day standing order matrix, roast plan tiles + batch ribbon + batch table, dotted van route timeline + paid/bill tiles, icon tiles CTA",
+  "fixed-dome cross-section coloured by install stage with numbered pins + stage list, survey card with size chip, dark service visit list",
+  "side-view trolley SVG with parts by build stage (done/working hatched/next dashed), dark order card, stage-dot board, customer update note",
+  "to-scale floor plan with tile-pattern fills per service + carpet hatch, diagonal before/after tile close-up, room sq ft list, navy booking card"
  ],
  "used_hashtag_sets": [
-  "#cableoperator #localbroadband #billcollection #smallbusinessindia",
-  "#marbledealer #granite #stoneyard #buildingmaterialindia",
-  "#footwearwholesale #chappal #footwearindia #wholesalebusiness",
-  "#consignmentshop #resaleboutique #shopsmall #smallbusinessusa",
-  "#kulhad #kulhadchai #claycraft #terracotta",
   "#lasercutting #cnclaser #sheetmetal #jobwork #makeinindia",
   "#batterydealer #inverterbattery #carbattery #shopsoftware #retailindia",
   "#leafcleanup #fallcleanup #yardcrew #lawncarebusiness",
@@ -4724,7 +4764,12 @@
   "#silage #maizesilage #silagebales #dairyfarmingindia",
   "#stumpgrinding #stumpremoval #treeservice #yardwork",
   "#woodenpallets #palletmanufacturer #industrialpackaging #msmeindia",
-  "#mobilewelding #weldingrepair #farmrepair #canadasmallbusiness"
+  "#mobilewelding #weldingrepair #farmrepair #canadasmallbusiness",
+  "#desighee #gheemaker #homemadeghee #dairybusiness",
+  "#murmura #puffedrice #foodmanufacturing #smallbusinessindia",
+  "#biogas #biogasplant #farmindia #gobargas",
+  "#tractortrolley #trolleymanufacturer #fabricationwork #farmequipment",
+  "#groutcleaning #tilecleaning #groutsealing #homeservicebusiness"
  ],
  "drive_index_at_post": 420,
  "old_index_sheets_to_trash": []
