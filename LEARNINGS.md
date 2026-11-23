@@ -268,3 +268,7 @@
 - (b066) An empty <span></span> grid placeholder inherited an absolute ".ax9 span" rule and collapsed the axis into the first column; use <div></div> placeholders when a sibling rule targets span.
 - (b066) SVG labels inside to-scale pieces: one line "code + size" fits only pieces >= 30 in wide at 28px; narrow tall pieces get two lines, narrow short pieces drop to 24px. Check every piece crop, not just ISSUES.
 - (b066) Light fills (white milk) disappear in a light can; give container objects a darker metal body so the fill colours read. New techniques: clip-path ear tags, cups heat calendar, turnover windows, glass sheet cut plan, 42-dot batch strip.
+- (b067) Isotype icons (hard hats, helmets) default to ~50px and read as dots in the feed; size them per slide (66-80px) with generous gaps so the count is visible at a glance.
+- (b067) Mini bar charts of similar values (80-150) look flat in a 90px box; give them 150px height and label each bar.
+- (b067) A white product (scooter) on a white card disappears; use a mid grey body colour for "white" models.
+- (b067) New techniques: CSS bamboo steamer stacks, SVG key ring tags, top-down garage bay map with battery badges, side-view scooters with slot strips, hard hat isotype. Next: isometric shop floor, stamp-style approval on a document, map with delivery heat.
