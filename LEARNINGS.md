@@ -264,3 +264,7 @@
 - (b065) Week calendars with 1-2 event chips per day leave tall empty columns; add a per-day gauge (flex:1 bar filled to stock %) between events and the number, derived from the same job list.
 - (b065) Small 2-line cells in a dense grid (sauna days) flag OVERLAP at line-height 1.3; give the span display:block, line-height 1.45 and margin-top 3px.
 - (b065) Dark side cards with a drawing + 4 stat tiles + paragraph leave a dead band; add a red "open items" box derived from the ledger and use justify-content:space-between. New techniques: jute-pattern sack isotypes, road-ribbon stop route, SVG balance scale, CSS ribbed crates, barrel sauna trailer, yard gauges.
+- (b066) Scaling a reusable CSS object down with transform:scale (flask at .42) leaves its layout box full size and looks broken; for small sizes swap the object for a number badge, and only scale up inside generous padding.
+- (b066) An empty <span></span> grid placeholder inherited an absolute ".ax9 span" rule and collapsed the axis into the first column; use <div></div> placeholders when a sibling rule targets span.
+- (b066) SVG labels inside to-scale pieces: one line "code + size" fits only pieces >= 30 in wide at 28px; narrow tall pieces get two lines, narrow short pieces drop to 24px. Check every piece crop, not just ISSUES.
+- (b066) Light fills (white milk) disappear in a light can; give container objects a darker metal body so the fill colours read. New techniques: clip-path ear tags, cups heat calendar, turnover windows, glass sheet cut plan, 42-dot batch strip.

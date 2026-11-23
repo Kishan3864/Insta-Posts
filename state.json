@@ -3,7 +3,7 @@
  "drive_index_sheet_id": "1y3GXyV7vrF7_xKkm5mgdoP0ZRMDQy_BVrqHWlwNL_kM",
  "lock_until_utc": "2026-11-23T02:31:04Z",
  "last_run": "2026-11-23T00:40:51Z \u00b7 posts 326-335 made (batches 62-63), Drive 1-335 done, index sheet last refreshed at 320 (next refresh due ~345)",
- "next_post_no": 346,
+ "next_post_no": 351,
  "posts_done": [
   {
    "n": 1,
@@ -2764,11 +2764,51 @@
    "slides": 1,
    "market": "Canada",
    "category": "SaunaRental"
+  },
+  {
+   "n": 346,
+   "dir": "posts/0346_SINGLE_India_DairyFarmHerd",
+   "format": "SINGLE",
+   "slides": 1,
+   "market": "India",
+   "category": "DairyFarmHerd"
+  },
+  {
+   "n": 347,
+   "dir": "posts/0347_CAROUSEL_India_OfficeTeaSupply",
+   "format": "CAROUSEL",
+   "slides": 5,
+   "market": "India",
+   "category": "OfficeTeaSupply"
+  },
+  {
+   "n": 348,
+   "dir": "posts/0348_SINGLE_India_GlassMirrorShop",
+   "format": "SINGLE",
+   "slides": 1,
+   "market": "India",
+   "category": "GlassMirrorShop"
+  },
+  {
+   "n": 349,
+   "dir": "posts/0349_SINGLE_USA_TurnoverCleaning",
+   "format": "SINGLE",
+   "slides": 1,
+   "market": "USA",
+   "category": "TurnoverCleaning"
+  },
+  {
+   "n": 350,
+   "dir": "posts/0350_SINGLE_India_BroilerFarm",
+   "format": "SINGLE",
+   "slides": 1,
+   "market": "India",
+   "category": "BroilerFarm"
   }
  ],
  "market_counts": {
-  "India": 242,
-  "Abroad": 103
+  "India": 246,
+  "Abroad": 104
  },
  "used_categories": [
   "Boutique",
@@ -3122,14 +3162,14 @@
   "VegetableVan",
   "JewelleryKarigar",
   "CrateRental",
-  "SaunaRental"
+  "SaunaRental",
+  "DairyFarmHerd",
+  "OfficeTeaSupply",
+  "GlassMirrorShop",
+  "TurnoverCleaning",
+  "BroilerFarm"
  ],
  "recent_palettes": [
-  "sleeper maroon/berth cream/route blue",
-  "bulb warm white/circuit green/charcoal",
-  "icing pink/cocoa/mint",
-  "snow white/sled red/spruce",
-  "rosewood/brass/sky",
   "paddy green/drone orange/khaki cream",
   "sawdust tan/teak brown/blade blue",
   "storage orange/concrete grey/ink navy",
@@ -3149,7 +3189,12 @@
   "okra green/tomato red/cart wood",
   "polished silver/garnet/black velvet",
   "safety lime/charcoal/label white",
-  "cedar orange/snow blue/charcoal"
+  "cedar orange/snow blue/charcoal",
+  "fodder green/milk cream/barn red",
+  "masala chai brown/flask steel/cardamom green",
+  "glass aqua/cutting orange/graphite",
+  "linen white/turnover coral/slate",
+  "feed yellow/shed green/straw"
  ],
  "drive_files_done": [
   1,
@@ -3500,66 +3545,6 @@
  ],
  "log": [
   {
-   "n": 316,
-   "date": "2026-11-22",
-   "format": "CAROUSEL",
-   "market": "India",
-   "category": "TrophyShop",
-   "palette": "trophy gold/velvet navy/ivory",
-   "fonts": "Cardo + Poppins",
-   "layout": "SVG gold trophies on podium, event order table, gold engraving plate proofs with status, steps + cup + message, trophies + tiles CTA",
-   "dots": 3,
-   "phone": false
-  },
-  {
-   "n": 317,
-   "date": "2026-11-22",
-   "format": "SINGLE",
-   "market": "India",
-   "category": "GarmentJobWork",
-   "palette": "denim blue/thread orange/chalk",
-   "fonts": "Anton + Roboto",
-   "layout": "dark hourly production board lines x hours vs target + bundle stage tracker + orange order progress card",
-   "dots": 5,
-   "phone": false
-  },
-  {
-   "n": 318,
-   "date": "2026-11-22",
-   "format": "SINGLE",
-   "market": "India",
-   "category": "MockTestCentre",
-   "palette": "answer-sheet white/pencil yellow/graphite",
-   "fonts": "TeX Gyre Adventor + Roboto",
-   "layout": "top-down exam hall desk seat map + seat booked card + next tests + OMR bubble strip",
-   "dots": 1,
-   "phone": false
-  },
-  {
-   "n": 319,
-   "date": "2026-11-22",
-   "format": "SINGLE",
-   "market": "USA",
-   "category": "FurnitureAssembly",
-   "palette": "kraft brown/allen-key silver/teal",
-   "fonts": "Montserrat + Open Sans",
-   "layout": "stacked CSS kraft flat-pack boxes + browser booking page with summed time estimate",
-   "dots": 2,
-   "phone": false
-  },
-  {
-   "n": 320,
-   "date": "2026-11-22",
-   "format": "CAROUSEL",
-   "market": "India",
-   "category": "LocalBroadband",
-   "palette": "fibre cyan/router black/signal green",
-   "fonts": "Gelasio + Roboto",
-   "layout": "building cross-section flats around fibre riser with status dots + call notes, ticket list, tech route timeline, renewals list, building + tiles CTA",
-   "dots": 4,
-   "phone": false
-  },
-  {
    "n": 321,
    "date": "2026-11-22",
    "format": "CAROUSEL",
@@ -3858,14 +3843,69 @@
    "layout": "SVG barrel sauna trailer + includes list, dark two-trailer weekend booking grid with dashed open days",
    "dots": 1,
    "phone": false
+  },
+  {
+   "n": 346,
+   "date": "2026-11-23",
+   "format": "SINGLE",
+   "market": "India",
+   "category": "DairyFarmHerd",
+   "palette": "fodder green/milk cream/barn red",
+   "fonts": "Poppins + Roboto",
+   "layout": "8 cow cards with clip-path yellow ear tags + CSS steel milk cans filled AM/PM + totals + collection note",
+   "dots": 4,
+   "phone": false
+  },
+  {
+   "n": 347,
+   "date": "2026-11-23",
+   "format": "CAROUSEL",
+   "market": "India",
+   "category": "OfficeTeaSupply",
+   "palette": "masala chai brown/flask steel/cardamom green",
+   "fonts": "Bitter + DM Sans",
+   "layout": "CSS steel flasks with tally marks + complaint bubble, office round rows with time chips + flask badges, cups heat calendar office x day, cup statement with colour strip + office total cards, flasks + tiles CTA",
+   "dots": 2,
+   "phone": false
+  },
+  {
+   "n": 348,
+   "date": "2026-11-23",
+   "format": "SINGLE",
+   "market": "India",
+   "category": "GlassMirrorShop",
+   "palette": "glass aqua/cutting orange/graphite",
+   "fonts": "Montserrat + Inter",
+   "layout": "to-scale SVG glass sheet cut plan with dashed pieces + hatched offcut, orders list + dark offcut rack card",
+   "dots": 5,
+   "phone": false
+  },
+  {
+   "n": 349,
+   "date": "2026-11-23",
+   "format": "SINGLE",
+   "market": "USA",
+   "category": "TurnoverCleaning",
+   "palette": "linen white/turnover coral/slate",
+   "fonts": "Archivo Black + Source Sans 3",
+   "layout": "turnover window board: dashed checkout-to-checkin windows with cleaning blocks by % on time axis + linen/crew tiles + coral note",
+   "dots": 3,
+   "phone": false
+  },
+  {
+   "n": 350,
+   "date": "2026-11-23",
+   "format": "SINGLE",
+   "market": "India",
+   "category": "BroilerFarm",
+   "palette": "feed yellow/shed green/straw",
+   "fonts": "Gelasio + Open Sans",
+   "layout": "two shed cards with SVG side-view sheds + 42-dot batch day strip + feed days-left tiles, feed bag order card + trader message",
+   "dots": 1,
+   "phone": false
   }
  ],
  "recent_fonts": [
-  "Poppins + Source Sans 3",
-  "Archivo Black + Fira Sans",
-  "Lora + DM Sans",
-  "Bitter + Open Sans",
-  "TeX Gyre Adventor + DM Sans",
   "Poppins + Inter",
   "Bitter + Roboto",
   "Anton + Open Sans",
@@ -3885,14 +3925,14 @@
   "Archivo Black + Roboto",
   "Cardo + Inter",
   "TeX Gyre Adventor + Fira Sans",
-  "Lora + Source Sans 3"
+  "Lora + Source Sans 3",
+  "Poppins + Roboto",
+  "Bitter + DM Sans",
+  "Montserrat + Inter",
+  "Archivo Black + Source Sans 3",
+  "Gelasio + Open Sans"
  ],
  "recent_layouts": [
-  "top-down sleeper bus decks 2+1 berth chart (booked twice in red), live chart with holds, boarding point timeline with berth chips, conductor tick list, decks + tiles CTA",
-  "dark test rack of 40 SVG bulbs glowing or crossed + day stat tiles + order note",
-  "baking tray of CSS clip-path iced cookies preview + phone custom order",
-  "SVG winter trail loop map + dark sled schedule ribbons by hour + tour booking card",
-  "instrument wall of SVG guitars, violin, keyboard with due tags, rental table with late row, reminder message cards, repair job rows with icons, wall + tiles CTA",
   "SVG patchwork village field map with crop tints, canal and pins (? then F1-F7), field booking table with acre totals, lawnmower flight path progress + pilot day route cards, farmer chat + payment status list, map + tiles CTA",
   "isometric SVG plank stacks with end-grain plank ends sized by piece count + carpenter order table checked against stock + blue cutting note",
   "building elevation of CSS corrugated roll-up doors with unit plates and status tags + browser reserve page counting free units by size",
@@ -3912,14 +3952,14 @@
   "vertical road ribbon route with society stop pins and order counts + phone pre-order list with bag number",
   "velvet card with SVG balance scale + gram totals + open gaps, karigar ledger rows with issued/jewellery/scrap/gap tiles",
   "CSS crate stacks per job, browser order-by-room counter, week calendar with drop/pickup chips + yard fill gauges, crate grid with dashed missing + check list + text, crate pyramid + tiles CTA",
-  "SVG barrel sauna trailer + includes list, dark two-trailer weekend booking grid with dashed open days"
+  "SVG barrel sauna trailer + includes list, dark two-trailer weekend booking grid with dashed open days",
+  "8 cow cards with clip-path yellow ear tags + CSS steel milk cans filled AM/PM + totals + collection note",
+  "CSS steel flasks with tally marks + complaint bubble, office round rows with time chips + flask badges, cups heat calendar office x day, cup statement with colour strip + office total cards, flasks + tiles CTA",
+  "to-scale SVG glass sheet cut plan with dashed pieces + hatched offcut, orders list + dark offcut rack card",
+  "turnover window board: dashed checkout-to-checkin windows with cleaning blocks by % on time axis + linen/crew tiles + coral note",
+  "two shed cards with SVG side-view sheds + 42-dot batch day strip + feed days-left tiles, feed bag order card + trader message"
  ],
  "used_hashtag_sets": [
-  "#ironingservice #laundryservice #societyservices #localbusinessindia",
-  "#coldstorage #potatofarming #agriwarehouse #farmersindia",
-  "#dryerventcleaning #dryervent #homemaintenance #homeservices",
-  "#dripirrigation #irrigationsystem #smartfarming #agricultureindia",
-  "#steelalmirah #steelcupboard #furnituremanufacturer #homefurnitureindia",
   "#fruitmandi #commissionagent #fruitwholesale #agribusinessindia",
   "#mobilebikerepair #bikerepair #cyclingcanada #bikemechanic",
   "#seedlingnursery #vegetableseedlings #nurserybusiness #farmingindia",
@@ -3974,7 +4014,12 @@
   "#vegetablevendor #sabziwala #societydelivery #freshvegetables",
   "#silverjewellery #jewellerymanufacturer #karigar #jewellerybusiness",
   "#movingcrates #movingday #ecofriendlymoving #smallbusinessusa",
-  "#saunarental #mobilesauna #barrelsauna #smallbusinesscanada"
+  "#saunarental #mobilesauna #barrelsauna #smallbusinesscanada",
+  "#dairyfarm #dairyfarming #milkproduction #farmingindia",
+  "#officetea #chaiwala #teasupply #smallbusinessindia",
+  "#glassshop #mirrorshop #glasscutting #glassworks",
+  "#turnovercleaning #vacationrentalcleaning #shorttermrental #cleaningbusiness",
+  "#poultryfarm #broilerfarming #poultryindia #farmbusiness"
  ],
  "drive_index_at_post": 345,
  "old_index_sheets_to_trash": [
