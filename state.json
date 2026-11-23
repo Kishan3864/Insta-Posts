@@ -3,7 +3,7 @@
  "drive_index_sheet_id": "1Ex4WhPiwEbqBF-QEG1pc6VPi3qLGqym_Fq-FvKYTgO8",
  "lock_until_utc": "2026-11-23T02:16:40Z",
  "last_run": "2026-11-23T00:40:51Z \u00b7 posts 326-335 made (batches 62-63), Drive 1-335 done, index sheet last refreshed at 320 (next refresh due ~345)",
- "next_post_no": 336,
+ "next_post_no": 341,
  "posts_done": [
   {
    "n": 1,
@@ -2684,11 +2684,51 @@
    "slides": 1,
    "market": "USA",
    "category": "DumpsterRental"
+  },
+  {
+   "n": 336,
+   "dir": "posts/0336_SINGLE_India_GasAgency",
+   "format": "SINGLE",
+   "slides": 1,
+   "market": "India",
+   "category": "GasAgency"
+  },
+  {
+   "n": 337,
+   "dir": "posts/0337_CAROUSEL_India_PaverBlockMaker",
+   "format": "CAROUSEL",
+   "slides": 5,
+   "market": "India",
+   "category": "PaverBlockMaker"
+  },
+  {
+   "n": 338,
+   "dir": "posts/0338_SINGLE_USA_WindshieldRepair",
+   "format": "SINGLE",
+   "slides": 1,
+   "market": "USA",
+   "category": "WindshieldRepair"
+  },
+  {
+   "n": 339,
+   "dir": "posts/0339_SINGLE_India_JaggeryUnit",
+   "format": "SINGLE",
+   "slides": 1,
+   "market": "India",
+   "category": "JaggeryUnit"
+  },
+  {
+   "n": 340,
+   "dir": "posts/0340_SINGLE_India_Weighbridge",
+   "format": "SINGLE",
+   "slides": 1,
+   "market": "India",
+   "category": "Weighbridge"
   }
  ],
  "market_counts": {
-  "India": 235,
-  "Abroad": 100
+  "India": 239,
+  "Abroad": 101
  },
  "used_categories": [
   "Boutique",
@@ -3032,14 +3072,14 @@
   "HydroponicFarm",
   "LaptopRental",
   "SolarPanelCleaning",
-  "DumpsterRental"
+  "DumpsterRental",
+  "GasAgency",
+  "PaverBlockMaker",
+  "WindshieldRepair",
+  "JaggeryUnit",
+  "Weighbridge"
  ],
  "recent_palettes": [
-  "pond green/aerator white/feed orange",
-  "pav golden/tray red/flour white",
-  "cream paper/forest ink/stamp red",
-  "rink blue/hockey black/blade steel",
-  "night navy/headlight yellow/white",
   "trophy gold/velvet navy/ivory",
   "denim blue/thread orange/chalk",
   "answer-sheet white/pencil yellow/graphite",
@@ -3059,7 +3099,12 @@
   "leaf lime/pipe white/water teal",
   "matte graphite/asset-tag yellow/screen blue",
   "sun yellow/panel navy/dust beige",
-  "dumpster green/caution orange/asphalt"
+  "dumpster green/caution orange/asphalt",
+  "steel teal/flame orange/ivory",
+  "concrete grey/terracotta/moss",
+  "glass sky blue/resin amber/charcoal",
+  "jaggery brown/cane green/cream gold",
+  "highway yellow/LED red/asphalt"
  ],
  "drive_files_done": [
   1,
@@ -3400,66 +3445,6 @@
  ],
  "log": [
   {
-   "n": 306,
-   "date": "2026-11-22",
-   "format": "CAROUSEL",
-   "market": "India",
-   "category": "StoneCrusher",
-   "palette": "quarry grey/safety yellow/rust",
-   "fonts": "Anton + Source Sans 3",
-   "layout": "SVG gravel stockpiles by tonnes, site order table + material totals, truck round ribbons with % positions, photo delivery slip + loads ordered vs delivered, piles + tiles CTA",
-   "dots": 2,
-   "phone": false
-  },
-  {
-   "n": 307,
-   "date": "2026-11-22",
-   "format": "SINGLE",
-   "market": "India",
-   "category": "IceCreamDistributor",
-   "palette": "freezer white/berry pink/mint",
-   "fonts": "Poppins + Fira Sans",
-   "layout": "top-down chest freezer with glass sheen and flavour tub lids + shop tubs-left bars + refill round card",
-   "dots": 5,
-   "phone": false
-  },
-  {
-   "n": 308,
-   "date": "2026-11-22",
-   "format": "SINGLE",
-   "market": "India",
-   "category": "OffsetPrinter",
-   "palette": "process cyan/magenta/paper white",
-   "fonts": "Cardo + Inter",
-   "layout": "8-up print sheet with crop and registration marks, CMYK bar and approved stamp + dark job card stages",
-   "dots": 3,
-   "phone": false
-  },
-  {
-   "n": 309,
-   "date": "2026-11-22",
-   "format": "SINGLE",
-   "market": "Canada",
-   "category": "IceHutRental",
-   "palette": "frozen lake blue/hut red/pine",
-   "fonts": "TeX Gyre Adventor + Inter",
-   "layout": "top-down frozen lake with cracks, shore pines, numbered huts booked/free + phone hut booking",
-   "dots": 4,
-   "phone": true
-  },
-  {
-   "n": 310,
-   "date": "2026-11-22",
-   "format": "CAROUSEL",
-   "market": "India",
-   "category": "AlbumPrintingLab",
-   "palette": "linen beige/charcoal/gold foil",
-   "fonts": "Gelasio + DM Sans",
-   "layout": "open album spread of landscape blocks with numbered pins, job code table, 25 spread thumbnail status grid, cover swatch books + steps, spread with ticked pins CTA",
-   "dots": 1,
-   "phone": false
-  },
-  {
    "n": 311,
    "date": "2026-11-22",
    "format": "CAROUSEL",
@@ -3758,14 +3743,69 @@
    "layout": "side-view SVG roll-off dumpsters by size with yard/out counts + dispatch table with today status chips + driveway photo note",
    "dots": 1,
    "phone": false
+  },
+  {
+   "n": 336,
+   "date": "2026-11-23",
+   "format": "SINGLE",
+   "market": "India",
+   "category": "GasAgency",
+   "palette": "steel teal/flame orange/ivory",
+   "fonts": "Bitter + Inter",
+   "layout": "diagonal before/after split card: diary + missed calls above, rider board with SVG cylinder icons (filled = delivered) + booking message below",
+   "dots": 3,
+   "phone": false
+  },
+  {
+   "n": 337,
+   "date": "2026-11-23",
+   "format": "CAROUSEL",
+   "market": "India",
+   "category": "PaverBlockMaker",
+   "palette": "concrete grey/terracotta/moss",
+   "fonts": "Montserrat + Roboto",
+   "layout": "SVG basket-weave paver patch + crossed guesses, sq ft x rate order table + pattern swatches, top-down pallets with conic curing rings, truck load bars per trip + customer message, mixed patch + tiles CTA",
+   "dots": 5,
+   "phone": false
+  },
+  {
+   "n": 338,
+   "date": "2026-11-23",
+   "format": "SINGLE",
+   "market": "USA",
+   "category": "WindshieldRepair",
+   "palette": "glass sky blue/resin amber/charcoal",
+   "fonts": "Poppins + Open Sans",
+   "layout": "SVG windshield with numbered star chips and crack + damage legend row + two-column browser booking with taken slots",
+   "dots": 2,
+   "phone": false
+  },
+  {
+   "n": 339,
+   "date": "2026-11-23",
+   "format": "SINGLE",
+   "market": "India",
+   "category": "JaggeryUnit",
+   "palette": "jaggery brown/cane green/cream gold",
+   "fonts": "Crimson Text + Fira Sans",
+   "layout": "dark boiling house with top-down SVG pans + dasharray progress rings, CSS jaggery block stock list, buyer orders checked against stock",
+   "dots": 4,
+   "phone": false
+  },
+  {
+   "n": 340,
+   "date": "2026-11-23",
+   "format": "SINGLE",
+   "market": "India",
+   "category": "Weighbridge",
+   "palette": "highway yellow/LED red/asphalt",
+   "fonts": "Anton + Source Sans 3",
+   "layout": "SVG truck on weighbridge deck with red LED readout + double-border ink weight slip + gross/tare/net register + message bar",
+   "dots": 1,
+   "phone": false
   }
  ],
  "recent_fonts": [
-  "Bitter + Source Sans 3",
-  "Lora + Inter",
-  "Crimson Text + DM Sans",
-  "Archivo Black + Open Sans",
-  "Montserrat + Fira Sans",
   "Cardo + Poppins",
   "Anton + Roboto",
   "TeX Gyre Adventor + Roboto",
@@ -3785,14 +3825,14 @@
   "Archivo Black + Inter",
   "TeX Gyre Adventor + Open Sans",
   "Gelasio + Inter",
-  "Montserrat + Source Sans 3"
+  "Montserrat + Source Sans 3",
+  "Bitter + Inter",
+  "Montserrat + Roboto",
+  "Poppins + Open Sans",
+  "Crimson Text + Fira Sans",
+  "Anton + Source Sans 3"
  ],
  "recent_layouts": [
-  "top-down 4-pond map with aerators, feed bag icon log, SVG growth line chart, fish x weight estimate + buyer kg bars, map + tiles CTA",
-  "6 stall cards with CSS pav trays (pale buns = returned) + dark bake total + message card",
-  "SVG fanned paper stack + email list, client document checklist with progress, weekly booking bar grid, 4-column return board, checklist + papers CTA",
-  "SVG skate profile with steel blade + yellow drop-off tag, hollow cross-section options, rack list + text card",
-  "driver duty ribbon board by hour + phone driver booking",
   "SVG gold trophies on podium, event order table, gold engraving plate proofs with status, steps + cup + message, trophies + tiles CTA",
   "dark hourly production board lines x hours vs target + bundle stage tracker + orange order progress card",
   "top-down exam hall desk seat map + seat booked card + next tests + OMR bubble strip",
@@ -3812,14 +3852,14 @@
   "dark grow room of SVG NFT pipes with plants sized by week + harvest dates, buyer order list, green ready note",
   "CSS laptops with yellow tag stickers, client cards with tag chips, units-out-per-day bars, return checklist table, laptops + tiles CTA",
   "top-down SVG rooftop with clean (glare) vs dusty (speckled) panels + rooftop list + phone visit tracker with before/after",
-  "side-view SVG roll-off dumpsters by size with yard/out counts + dispatch table with today status chips + driveway photo note"
+  "side-view SVG roll-off dumpsters by size with yard/out counts + dispatch table with today status chips + driveway photo note",
+  "diagonal before/after split card: diary + missed calls above, rider board with SVG cylinder icons (filled = delivered) + booking message below",
+  "SVG basket-weave paver patch + crossed guesses, sq ft x rate order table + pattern swatches, top-down pallets with conic curing rings, truck load bars per trip + customer message, mixed patch + tiles CTA",
+  "SVG windshield with numbered star chips and crack + damage legend row + two-column browser booking with taken slots",
+  "dark boiling house with top-down SVG pans + dasharray progress rings, CSS jaggery block stock list, buyer orders checked against stock",
+  "SVG truck on weighbridge deck with red LED readout + double-border ink weight slip + gross/tare/net register + message bar"
  ],
  "used_hashtag_sets": [
-  "#toolrental #hardwareshop #equipmentrental #smallbusinessindia",
-  "#closetinstaller #closetdesign #customclosets #homeorganization",
-  "#ewaste #ewastecollection #electronicwaste #scrappickup",
-  "#wallputty #popwork #popcontractor #interiorfinishing #homerenovationindia",
-  "#aluminiumwindows #slidingwindows #windowfabrication #constructionindia",
   "#submersiblepump #borewellpump #pumpdealer #waterpump",
   "#weddinglighting #tentlighting #eventlighting #tenthouse",
   "#mobiletireservice #tireshop #tirechange #autoservice",
@@ -3874,7 +3914,12 @@
   "#hydroponics #hydroponicfarming #urbanfarmingindia #freshgreens",
   "#laptoprental #itrental #eventtech #rentalbusinessindia",
   "#solarpanelcleaning #rooftopsolar #solarindia #solarmaintenance",
-  "#dumpsterrental #rolloffdumpster #junkhauling #localbusinessusa"
+  "#dumpsterrental #rolloffdumpster #junkhauling #localbusinessusa",
+  "#gasagency #cylinderdelivery #homedelivery #smallbusinessindia",
+  "#paverblocks #interlockingtiles #cementproducts #manufacturingindia",
+  "#windshieldrepair #autoglass #mobilerepair #smallbusinessusa",
+  "#jaggery #gurmaking #sugarcanefarm #foodprocessingindia",
+  "#weighbridge #dharamkanta #truckweighing #logisticsindia"
  ],
  "drive_index_at_post": 320,
  "old_index_sheets_to_trash": [
