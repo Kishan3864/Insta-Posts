@@ -3,7 +3,7 @@
  "drive_index_sheet_id": "1y3GXyV7vrF7_xKkm5mgdoP0ZRMDQy_BVrqHWlwNL_kM",
  "lock_until_utc": "2026-11-23T03:25:43Z",
  "last_run": "2026-11-23T01:51:58Z \u00b7 posts 336-355 made (batches 64-67), Drive 1-355 done, index sheet refreshed at 345 (next ~370); old sheet 1kVm... still to trash (trash was blocked)",
- "next_post_no": 361,
+ "next_post_no": 366,
  "posts_done": [
   {
    "n": 1,
@@ -2884,11 +2884,51 @@
    "slides": 5,
    "market": "Canada",
    "category": "Farrier"
+  },
+  {
+   "n": 361,
+   "dir": "posts/0361_SINGLE_India_CableOperator",
+   "format": "SINGLE",
+   "slides": 1,
+   "market": "India",
+   "category": "CableOperator"
+  },
+  {
+   "n": 362,
+   "dir": "posts/0362_CAROUSEL_India_MarbleGraniteDealer",
+   "format": "CAROUSEL",
+   "slides": 5,
+   "market": "India",
+   "category": "MarbleGraniteDealer"
+  },
+  {
+   "n": 363,
+   "dir": "posts/0363_SINGLE_India_ChappalWholesale",
+   "format": "SINGLE",
+   "slides": 1,
+   "market": "India",
+   "category": "ChappalWholesale"
+  },
+  {
+   "n": 364,
+   "dir": "posts/0364_SINGLE_USA_ConsignmentShop",
+   "format": "SINGLE",
+   "slides": 1,
+   "market": "USA",
+   "category": "ConsignmentShop"
+  },
+  {
+   "n": 365,
+   "dir": "posts/0365_SINGLE_India_KulhadMaker",
+   "format": "SINGLE",
+   "slides": 1,
+   "market": "India",
+   "category": "KulhadMaker"
   }
  ],
  "market_counts": {
-  "India": 252,
-  "Abroad": 108
+  "India": 256,
+  "Abroad": 109
  },
  "used_categories": [
   "Boutique",
@@ -3257,14 +3297,14 @@
   "AgriInputShop",
   "SepticPumping",
   "CenteringRental",
-  "Farrier"
+  "Farrier",
+  "CableOperator",
+  "MarbleGraniteDealer",
+  "ChappalWholesale",
+  "ConsignmentShop",
+  "KulhadMaker"
  ],
  "recent_palettes": [
-  "steel teal/flame orange/ivory",
-  "concrete grey/terracotta/moss",
-  "glass sky blue/resin amber/charcoal",
-  "jaggery brown/cane green/cream gold",
-  "highway yellow/LED red/asphalt",
   "paddy gold/jute brown/rice white",
   "okra green/tomato red/cart wood",
   "polished silver/garnet/black velvet",
@@ -3284,7 +3324,12 @@
   "loam brown/sprout green/sack cream",
   "slate navy/heat orange ramp/paper",
   "galvanized grey/rust orange/sky blue",
-  "saddle tan/forest green/hay cream"
+  "saddle tan/forest green/hay cream",
+  "signal purple/paid green/cream",
+  "marble white/granite black/brass",
+  "rubber teal/sole coral/sand",
+  "sage/dusty rose/linen",
+  "terracotta/clay cream/smoke charcoal"
  ],
  "drive_files_done": [
   1,
@@ -3650,66 +3695,6 @@
  ],
  "log": [
   {
-   "n": 331,
-   "date": "2026-11-23",
-   "format": "SINGLE",
-   "market": "India",
-   "category": "NewspaperAgency",
-   "palette": "newsprint grey/ink black/masthead red",
-   "fonts": "Lora + Roboto",
-   "layout": "flat register with 30-day delivered/paused strips + zigzag receipt bill with derived copy counts and mini calendar",
-   "dots": 2,
-   "phone": false
-  },
-  {
-   "n": 332,
-   "date": "2026-11-23",
-   "format": "SINGLE",
-   "market": "India",
-   "category": "HydroponicFarm",
-   "palette": "leaf lime/pipe white/water teal",
-   "fonts": "Archivo Black + Inter",
-   "layout": "dark grow room of SVG NFT pipes with plants sized by week + harvest dates, buyer order list, green ready note",
-   "dots": 5,
-   "phone": false
-  },
-  {
-   "n": 333,
-   "date": "2026-11-23",
-   "format": "CAROUSEL",
-   "market": "India",
-   "category": "LaptopRental",
-   "palette": "matte graphite/asset-tag yellow/screen blue",
-   "fonts": "TeX Gyre Adventor + Open Sans",
-   "layout": "CSS laptops with yellow tag stickers, client cards with tag chips, units-out-per-day bars, return checklist table, laptops + tiles CTA",
-   "dots": 3,
-   "phone": false
-  },
-  {
-   "n": 334,
-   "date": "2026-11-23",
-   "format": "SINGLE",
-   "market": "India",
-   "category": "SolarPanelCleaning",
-   "palette": "sun yellow/panel navy/dust beige",
-   "fonts": "Gelasio + Inter",
-   "layout": "top-down SVG rooftop with clean (glare) vs dusty (speckled) panels + rooftop list + phone visit tracker with before/after",
-   "dots": 4,
-   "phone": true
-  },
-  {
-   "n": 335,
-   "date": "2026-11-23",
-   "format": "SINGLE",
-   "market": "USA",
-   "category": "DumpsterRental",
-   "palette": "dumpster green/caution orange/asphalt",
-   "fonts": "Montserrat + Source Sans 3",
-   "layout": "side-view SVG roll-off dumpsters by size with yard/out counts + dispatch table with today status chips + driveway photo note",
-   "dots": 1,
-   "phone": false
-  },
-  {
    "n": 336,
    "date": "2026-11-23",
    "format": "SINGLE",
@@ -4008,14 +3993,69 @@
    "layout": "9 barn cards with SVG horseshoe isotype (tan = due), weeks-since bars with cycle tick, country road SVG map with nearest-neighbour route + stop cards, browser barn portal with due chips + visit note, horseshoe grid + tiles CTA",
    "dots": 1,
    "phone": false
+  },
+  {
+   "n": 361,
+   "date": "2026-11-23",
+   "format": "SINGLE",
+   "market": "India",
+   "category": "CableOperator",
+   "palette": "signal purple/paid green/cream",
+   "fonts": "Poppins + Fira Sans",
+   "layout": "4 lane street strips with CSS clip-path houses coloured by bill status on dashed roads + count card, collector door chips, purple auto message",
+   "dots": 2,
+   "phone": false
+  },
+  {
+   "n": 362,
+   "date": "2026-11-23",
+   "format": "CAROUSEL",
+   "market": "India",
+   "category": "MarbleGraniteDealer",
+   "palette": "marble white/granite black/brass",
+   "fonts": "Cardo + Source Sans 3",
+   "layout": "CSS stone texture slabs on A-frame rack + customer bubble, 6 slab photo cards with status chips, WhatsApp photo chat + conic hold ring + hold list, top-down 3-rack yard slot map + counts, swatch grid + tiles CTA",
+   "dots": 3,
+   "phone": false
+  },
+  {
+   "n": 363,
+   "date": "2026-11-23",
+   "format": "SINGLE",
+   "market": "India",
+   "category": "ChappalWholesale",
+   "palette": "rubber teal/sole coral/sand",
+   "fonts": "Anton + Roboto",
+   "layout": "3 article cards with size-run bars topped by SVG soles, bottleneck size in coral + full sets pill, retailer order check + factory note",
+   "dots": 5,
+   "phone": false
+  },
+  {
+   "n": 364,
+   "date": "2026-11-23",
+   "format": "SINGLE",
+   "market": "USA",
+   "category": "ConsignmentShop",
+   "palette": "sage/dusty rose/linen",
+   "fonts": "Lora + DM Sans",
+   "layout": "clothes rail with clip-path garments + hanger hooks + day tags with computed markdown stage, legend chips, consignor list + green auto text with sold/next markdown",
+   "dots": 4,
+   "phone": false
+  },
+  {
+   "n": 365,
+   "date": "2026-11-23",
+   "format": "SINGLE",
+   "market": "India",
+   "category": "KulhadMaker",
+   "palette": "terracotta/clay cream/smoke charcoal",
+   "fonts": "Gelasio + Inter",
+   "layout": "6 cafe cards with CSS kulhad isotype (1 = 100), dark kiln week strip with firing fill bars computed to capacity + breakage note",
+   "dots": 1,
+   "phone": false
   }
  ],
  "recent_fonts": [
-  "Bitter + Inter",
-  "Montserrat + Roboto",
-  "Poppins + Open Sans",
-  "Crimson Text + Fira Sans",
-  "Anton + Source Sans 3",
   "Gelasio + DM Sans",
   "Archivo Black + Roboto",
   "Cardo + Inter",
@@ -4035,14 +4075,14 @@
   "Montserrat + Source Sans 3",
   "TeX Gyre Adventor + Inter",
   "Archivo Black + Open Sans",
-  "Crimson Text + Roboto"
+  "Crimson Text + Roboto",
+  "Poppins + Fira Sans",
+  "Cardo + Source Sans 3",
+  "Anton + Roboto",
+  "Lora + DM Sans",
+  "Gelasio + Inter"
  ],
  "recent_layouts": [
-  "diagonal before/after split card: diary + missed calls above, rider board with SVG cylinder icons (filled = delivered) + booking message below",
-  "SVG basket-weave paver patch + crossed guesses, sq ft x rate order table + pattern swatches, top-down pallets with conic curing rings, truck load bars per trip + customer message, mixed patch + tiles CTA",
-  "SVG windshield with numbered star chips and crack + damage legend row + two-column browser booking with taken slots",
-  "dark boiling house with top-down SVG pans + dasharray progress rings, CSS jaggery block stock list, buyer orders checked against stock",
-  "SVG truck on weighbridge deck with red LED readout + double-border ink weight slip + gross/tare/net register + message bar",
   "farmer lot rows of SVG jute-pattern sack isotypes (1 sack = 5 bags, faded = waiting) with stage chips + dark yard total + farmer message",
   "vertical road ribbon route with society stop pins and order counts + phone pre-order list with bag number",
   "velvet card with SVG balance scale + gram totals + open gaps, karigar ledger rows with issued/jewellery/scrap/gap tiles",
@@ -4062,14 +4102,14 @@
   "4 fanned CSS notebooks with wavy red doubts + farmer bubble, farmer ledger with paid/credit chips + totals, isometric SVG godown stacks + booked tiles, village credit rows + WhatsApp bubble + slip with round CLEARED stamp, stacks + stamp + tiles CTA",
   "hexbin heat map of 12 service zones + ramp legend + total card, route days from hottest zones, dark SMS thread with reply-to-book",
   "3 site cards with CSS telescopic prop isotype (1 = 50) + item chips + 30-day rent strip, phone return slip with sent/back/short table + SVG signature pad + gate photos",
-  "9 barn cards with SVG horseshoe isotype (tan = due), weeks-since bars with cycle tick, country road SVG map with nearest-neighbour route + stop cards, browser barn portal with due chips + visit note, horseshoe grid + tiles CTA"
+  "9 barn cards with SVG horseshoe isotype (tan = due), weeks-since bars with cycle tick, country road SVG map with nearest-neighbour route + stop cards, browser barn portal with due chips + visit note, horseshoe grid + tiles CTA",
+  "4 lane street strips with CSS clip-path houses coloured by bill status on dashed roads + count card, collector door chips, purple auto message",
+  "CSS stone texture slabs on A-frame rack + customer bubble, 6 slab photo cards with status chips, WhatsApp photo chat + conic hold ring + hold list, top-down 3-rack yard slot map + counts, swatch grid + tiles CTA",
+  "3 article cards with size-run bars topped by SVG soles, bottleneck size in coral + full sets pill, retailer order check + factory note",
+  "clothes rail with clip-path garments + hanger hooks + day tags with computed markdown stage, legend chips, consignor list + green auto text with sold/next markdown",
+  "6 cafe cards with CSS kulhad isotype (1 = 100), dark kiln week strip with firing fill bars computed to capacity + breakage note"
  ],
  "used_hashtag_sets": [
-  "#erickshaw #electricrickshaw #evindia #fleetowner",
-  "#handloom #handloomsaree #weaversofindia #handwoven",
-  "#mealprepbusiness #mealprepdelivery #foodbusiness #smallbusinessusa",
-  "#messservice #messfood #homestylefood #foodbusinessindia",
-  "#boatstorage #winterstorage #marinalife #boatingcanada",
   "#stonecrusher #aggregates #constructionmaterial #buildingmaterialsindia",
   "#icecreamdistributor #frozenfood #distributorsindia #fmcgdistribution",
   "#offsetprinting #printingpress #visitingcards #printshopindia",
@@ -4124,7 +4164,12 @@
   "#agriinputs #fertilizershop #krishikendra #agribusinessindia",
   "#septicservice #septicpumping #homeservices #smallbusinessusa",
   "#centeringmaterial #scaffoldingrental #constructionmaterial #buildersindia",
-  "#farrier #horsecare #equestrian #smallbusinesscanada"
+  "#farrier #horsecare #equestrian #smallbusinesscanada",
+  "#cableoperator #localbroadband #billcollection #smallbusinessindia",
+  "#marbledealer #granite #stoneyard #buildingmaterialindia",
+  "#footwearwholesale #chappal #footwearindia #wholesalebusiness",
+  "#consignmentshop #resaleboutique #shopsmall #smallbusinessusa",
+  "#kulhad #kulhadchai #claycraft #terracotta"
  ],
  "drive_index_at_post": 345,
  "old_index_sheets_to_trash": [
