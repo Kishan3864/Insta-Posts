@@ -3,7 +3,7 @@
  "drive_index_sheet_id": "1CNpEPbU0jlBGFMw8drDVw1VrpovdEAW5K1pGyMehY9c",
  "lock_until_utc": "2026-11-23T10:29:06Z",
  "last_run": "2026-11-23T08:54:32Z \u00b7 posts 426-440 made (batches 82-84), Drive 1-440 done; index sheet next at ~445; last 10 had 4 carousels (431,436,437 + 428) so next batch needs 1 carousel; India 309/440",
- "next_post_no": 446,
+ "next_post_no": 451,
  "posts_done": [
   {
    "n": 1,
@@ -3564,11 +3564,51 @@
    "slides": 1,
    "market": "USA",
    "category": "WaterDamageRestoration"
+  },
+  {
+   "n": 446,
+   "dir": "posts/0446_SINGLE_India_FuelStation",
+   "format": "SINGLE",
+   "slides": 1,
+   "market": "India",
+   "category": "FuelStation"
+  },
+  {
+   "n": 447,
+   "dir": "posts/0447_SINGLE_USA_CabinetRefacing",
+   "format": "SINGLE",
+   "slides": 1,
+   "market": "USA",
+   "category": "CabinetRefacing"
+  },
+  {
+   "n": 448,
+   "dir": "posts/0448_CAROUSEL_India_IndustrialGasCylinders",
+   "format": "CAROUSEL",
+   "slides": 5,
+   "market": "India",
+   "category": "IndustrialGasCylinders"
+  },
+  {
+   "n": 449,
+   "dir": "posts/0449_SINGLE_India_LandSurveyor",
+   "format": "SINGLE",
+   "slides": 1,
+   "market": "India",
+   "category": "LandSurveyor"
+  },
+  {
+   "n": 450,
+   "dir": "posts/0450_SINGLE_Canada_Campground",
+   "format": "SINGLE",
+   "slides": 1,
+   "market": "Canada",
+   "category": "Campground"
   }
  ],
  "market_counts": {
-  "India": 313,
-  "Abroad": 132
+  "India": 316,
+  "Abroad": 134
  },
  "used_categories": [
   "Boutique",
@@ -4022,14 +4062,14 @@
   "CameraRental",
   "FishingBoatOwner",
   "EVChargingStation",
-  "WaterDamageRestoration"
+  "WaterDamageRestoration",
+  "FuelStation",
+  "CabinetRefacing",
+  "IndustrialGasCylinders",
+  "LandSurveyor",
+  "Campground"
  ],
  "recent_palettes": [
-  "ghee gold/cream/brass brown",
-  "rice white/turmeric/indigo",
-  "slurry brown/flame blue/leaf green",
-  "primer grey/oxide red/hazard yellow",
-  "tile white/grout grey/aqua",
   "graphite/powder mint/hanger yellow",
   "kraft brown/print green/paper white",
   "slate blue/clipboard tan/flag red",
@@ -4049,7 +4089,12 @@
   "matte black/gaffer yellow/studio grey",
   "sea navy/ice white/buoy orange",
   "asphalt/electric lime/cyan",
-  "drywall white/navy/moisture heat red-amber-blue"
+  "drywall white/navy/moisture heat red-amber-blue",
+  "canopy navy/meter amber/concrete grey",
+  "olive shaker/white oak/cream",
+  "steel grey/valve brass/cylinder maroon",
+  "blueprint ink/graph cream/stake red",
+  "birch white/forest green/canoe red"
  ],
  "drive_files_done": [
   1,
@@ -4500,66 +4545,6 @@
  ],
  "log": [
   {
-   "n": 416,
-   "date": "2026-11-23",
-   "format": "CAROUSEL",
-   "market": "India",
-   "category": "SilkReeling",
-   "palette": "cocoon ivory/mulberry green/raw silk gold",
-   "fonts": "Cardo + Inter",
-   "layout": "seeded cocoon heaps in woven trays + register strip, lot card + sort bars, top-down reeling basin board, silk hank isotype per lot with cocoons-per-kg, numbered tiles CTA",
-   "dots": 2,
-   "phone": false
-  },
-  {
-   "n": 417,
-   "date": "2026-11-23",
-   "format": "SINGLE",
-   "market": "India",
-   "category": "SilageBales",
-   "palette": "straw cream/bale black/tractor blue",
-   "fonts": "Archivo Black + Roboto",
-   "layout": "wrapped-bale isotype yard (booked vs free) + count tiles, trolley-trip day strip, order list + new-call stock reply",
-   "dots": 5,
-   "phone": false
-  },
-  {
-   "n": 418,
-   "date": "2026-11-23",
-   "format": "SINGLE",
-   "market": "USA",
-   "category": "StumpGrinding",
-   "palette": "sawdust tan/bark brown/lawn green",
-   "fonts": "Bitter + Source Sans 3",
-   "layout": "to-scale backyard with tree-ring stumps sized by diameter + gate path, stump list with total, option chips, dark job card",
-   "dots": 3,
-   "phone": false
-  },
-  {
-   "n": 419,
-   "date": "2026-11-23",
-   "format": "SINGLE",
-   "market": "India",
-   "category": "PalletMaker",
-   "palette": "pine yellow/stamp black/factory blue",
-   "fonts": "Montserrat + Roboto",
-   "layout": "isometric SVG pallet from part sizes + spec tags, yard order progress rows, phone order form with chips and stepper",
-   "dots": 1,
-   "phone": true
-  },
-  {
-   "n": 420,
-   "date": "2026-11-23",
-   "format": "CAROUSEL",
-   "market": "Canada",
-   "category": "MobileWelder",
-   "palette": "steel grey/arc blue/spark orange",
-   "fonts": "Poppins + Roboto",
-   "layout": "blurred SVG photo texts with missing chips, browser request form with sharp thumbnails, area map + hatched drive ribbon + job cards, before/after weld job card + signature, icon tiles CTA",
-   "dots": 4,
-   "phone": false
-  },
-  {
    "n": 421,
    "date": "2026-11-23",
    "format": "SINGLE",
@@ -4858,14 +4843,69 @@
    "layout": "to-scale floor plan with moisture heat halos + point tags + equipment glyphs, legend + wet count card, 4 small-multiple day maps, daily log card + next visit rows",
    "dots": 1,
    "phone": false
+  },
+  {
+   "n": 446,
+   "date": "2026-11-23",
+   "format": "SINGLE",
+   "market": "India",
+   "category": "FuelStation",
+   "palette": "canopy navy/meter amber/concrete grey",
+   "fonts": "Poppins + Open Sans",
+   "layout": "CSS dispensers with LCD totalizer open/close per nozzle, dark shift bar with litres by fuel, two tank dip gauge cards matched to nozzle sales",
+   "dots": 4,
+   "phone": false
+  },
+  {
+   "n": 447,
+   "date": "2026-11-23",
+   "format": "SINGLE",
+   "market": "USA",
+   "category": "CabinetRefacing",
+   "palette": "olive shaker/white oak/cream",
+   "fonts": "Gelasio + Roboto",
+   "layout": "to-scale kitchen elevation with labelled door and drawer sizes, door order grouped by size, style picker mini doors + finish swatches, dark job steps",
+   "dots": 2,
+   "phone": false
+  },
+  {
+   "n": 448,
+   "date": "2026-11-23",
+   "format": "CAROUSEL",
+   "market": "India",
+   "category": "IndustrialGasCylinders",
+   "palette": "steel grey/valve brass/cylinder maroon",
+   "fonts": "Archivo Black + Fira Sans",
+   "layout": "SVG cylinders by gas grouped in yard/customer zone cards, register table + gate scan + totals + gas bar, days-held bars with 60-day line + chat, refill truck with dashed empties + orders + tiles, tiles CTA",
+   "dots": 5,
+   "phone": false
+  },
+  {
+   "n": 449,
+   "date": "2026-11-23",
+   "format": "SINGLE",
+   "market": "India",
+   "category": "LandSurveyor",
+   "palette": "blueprint ink/graph cream/stake red",
+   "fonts": "Cardo + DM Sans",
+   "layout": "graph-paper plot polygon from coordinates with computed side lengths + area, coordinates table, blue area card (m2, sq ft, acres), 4 job step tiles",
+   "dots": 3,
+   "phone": false
+  },
+  {
+   "n": 450,
+   "date": "2026-11-23",
+   "format": "SINGLE",
+   "market": "Canada",
+   "category": "Campground",
+   "palette": "birch white/forest green/canoe red",
+   "fonts": "Lora + Source Sans 3",
+   "layout": "portrait campground map SVG (lake, loop road, numbered pads by type/status, gate), legend counts row, browser booking form",
+   "dots": 1,
+   "phone": false
   }
  ],
  "recent_fonts": [
-  "Lora + Inter",
-  "TeX Gyre Adventor + Roboto",
-  "Gelasio + DM Sans",
-  "Anton + Source Sans 3",
-  "Crimson Text + Open Sans",
   "Archivo Black + Inter",
   "Bitter + Inter",
   "Anton + Inter",
@@ -4885,14 +4925,14 @@
   "Anton + Roboto",
   "Bitter + Fira Sans",
   "TeX Gyre Adventor + Source Sans 3",
-  "Crimson Text + DM Sans"
+  "Crimson Text + DM Sans",
+  "Poppins + Open Sans",
+  "Gelasio + Roboto",
+  "Archivo Black + Fira Sans",
+  "Cardo + DM Sans",
+  "Lora + Source Sans 3"
  ],
  "recent_layouts": [
-  "batch equation tiles + SVG jars by size with batch labels and left-after-orders, order list with status chips, phone repeat order",
-  "clear bags with seeded grains + quote cards, shop x day standing order matrix, roast plan tiles + batch ribbon + batch table, dotted van route timeline + paid/bill tiles, icon tiles CTA",
-  "fixed-dome cross-section coloured by install stage with numbered pins + stage list, survey card with size chip, dark service visit list",
-  "side-view trolley SVG with parts by build stage (done/working hatched/next dashed), dark order card, stage-dot board, customer update note",
-  "to-scale floor plan with tile-pattern fills per service + carpet hatch, diagonal before/after tile close-up, room sq ft list, navy booking card",
   "chalkboard + overhead conveyor SVG with hanging raw parts and chalk tags, paper job card + job list with shade swatches, arrival vs grouped powder-change strips + oven Gantt with hatched cleaning gaps, powder boxes with fill windows + reorder, job status board + ready message + gate pass, tiles CTA",
   "4 kraft bags to scale with handle types, flat sheet dieline computed from size + sheets to cut, shop order rows with size chips + green size totals bar",
   "clipboard notes vs house cross-section with numbered finding pins, CSS tablet area checklist, photo finding cards + count bar, report document page + sent card, week time-grid calendar by ZIP + booking form, tiles CTA",
@@ -4912,14 +4952,14 @@
   "knolling flat-lay of kit on cutting mat with code tags + dashed missing item, out/back checklist table + counts + chat, item x day booking grid with highlighted asked day + reply, pickup vs return photos with same-spot pins + rental timeline, tiles CTA",
   "top-down boat SVG with fish hold compartments filled with seeded fish by catch, buyer list derived from catch with paid/due chips, dark trip tiles, next-trip checklist",
   "dark top-down charging bays with SVG cars + conic charge rings, 2-8 PM bay timeline with now line and striped new booking, phone slot booking, today-so-far tiles",
-  "to-scale floor plan with moisture heat halos + point tags + equipment glyphs, legend + wet count card, 4 small-multiple day maps, daily log card + next visit rows"
+  "to-scale floor plan with moisture heat halos + point tags + equipment glyphs, legend + wet count card, 4 small-multiple day maps, daily log card + next visit rows",
+  "CSS dispensers with LCD totalizer open/close per nozzle, dark shift bar with litres by fuel, two tank dip gauge cards matched to nozzle sales",
+  "to-scale kitchen elevation with labelled door and drawer sizes, door order grouped by size, style picker mini doors + finish swatches, dark job steps",
+  "SVG cylinders by gas grouped in yard/customer zone cards, register table + gate scan + totals + gas bar, days-held bars with 60-day line + chat, refill truck with dashed empties + orders + tiles, tiles CTA",
+  "graph-paper plot polygon from coordinates with computed side lengths + area, coordinates table, blue area card (m2, sq ft, acres), 4 job step tiles",
+  "portrait campground map SVG (lake, loop road, numbered pads by type/status, gate), legend counts row, browser booking form"
  ],
  "used_hashtag_sets": [
-  "#vermicompost #organicmanure #organicfarmingindia #compostbusiness",
-  "#tractorrepair #tractormechanic #farmmachinery #tractorworkshop #agricultureindia",
-  "#mobilemechanic #mobilecarrepair #automechanic #smallbusinessusa",
-  "#petshop #petfood #dogfood #petsupplies",
-  "#donutshop #donuts #officebreakfast #bakerybusiness",
   "#cashewprocessing #cashewnuts #dryfruitsbusiness #foodprocessingindia",
   "#studylibrary #selfstudylibrary #readingroom #libraryowner",
   "#rollingshutter #shuttermanufacturer #fabricationwork #weldingworkshop",
@@ -4974,7 +5014,12 @@
   "#camerarental #lensrental #photographyindia #rentalbusiness",
   "#fishingboat #fishermen #seafoodindia #fishingindustry",
   "#evcharging #evchargingstation #electricvehicles #evindia",
-  "#waterdamage #waterdamagerestoration #restorationcompany #homerestoration"
+  "#waterdamage #waterdamagerestoration #restorationcompany #homerestoration",
+  "#petrolpump #fuelstation #petrolpumpindia #fuelbusiness",
+  "#cabinetrefacing #kitchencabinets #kitchenremodel #cabinetmaker",
+  "#industrialgas #weldinggas #gascylinders #fabricationindia",
+  "#landsurvey #landsurveyor #surveyingindia #plotsurvey",
+  "#campground #rvcamping #campingcanada #campsitebooking"
  ],
  "drive_index_at_post": 445,
  "old_index_sheets_to_trash": []
