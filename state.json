@@ -3,7 +3,7 @@
  "drive_index_sheet_id": "1wpOhTVD-F1bNjtDpt6m5yVFacs_x_pXwOI2A6MhegP4",
  "lock_until_utc": "2026-11-23T08:15:19Z",
  "last_run": "2026-11-23T06:44:24Z \u00b7 posts 406-415 made (batches 78-79), Drive 1-415 done; index sheet last refreshed at 395 (next ~420)",
- "next_post_no": 416,
+ "next_post_no": 421,
  "posts_done": [
   {
    "n": 1,
@@ -3324,11 +3324,51 @@
    "slides": 5,
    "market": "India",
    "category": "TeaLeafAgent"
+  },
+  {
+   "n": 416,
+   "dir": "posts/0416_CAROUSEL_India_SilkReeling",
+   "format": "CAROUSEL",
+   "slides": 5,
+   "market": "India",
+   "category": "SilkReeling"
+  },
+  {
+   "n": 417,
+   "dir": "posts/0417_SINGLE_India_SilageBales",
+   "format": "SINGLE",
+   "slides": 1,
+   "market": "India",
+   "category": "SilageBales"
+  },
+  {
+   "n": 418,
+   "dir": "posts/0418_SINGLE_USA_StumpGrinding",
+   "format": "SINGLE",
+   "slides": 1,
+   "market": "USA",
+   "category": "StumpGrinding"
+  },
+  {
+   "n": 419,
+   "dir": "posts/0419_SINGLE_India_PalletMaker",
+   "format": "SINGLE",
+   "slides": 1,
+   "market": "India",
+   "category": "PalletMaker"
+  },
+  {
+   "n": 420,
+   "dir": "posts/0420_CAROUSEL_Canada_MobileWelder",
+   "format": "CAROUSEL",
+   "slides": 5,
+   "market": "Canada",
+   "category": "MobileWelder"
   }
  ],
  "market_counts": {
-  "India": 291,
-  "Abroad": 124
+  "India": 294,
+  "Abroad": 126
  },
  "used_categories": [
   "Boutique",
@@ -3752,14 +3792,14 @@
   "CoirMats",
   "RotiSupplier",
   "ConcreteLeveling",
-  "TeaLeafAgent"
+  "TeaLeafAgent",
+  "SilkReeling",
+  "SilageBales",
+  "StumpGrinding",
+  "PalletMaker",
+  "MobileWelder"
  ],
  "recent_palettes": [
-  "cashew cream/roast amber/deep olive",
-  "study green/lamp amber/paper",
-  "red oxide/zinc grey/chalk",
-  "corrugated tan/flexo blue/die-line red",
-  "slate/epoxy teal/flake tan",
   "crane amber/night navy/sky cyan",
   "rug terracotta/wool cream/sage",
   "sheath beige/palm green/charcoal",
@@ -3779,7 +3819,12 @@
   "coir brown/backwater green/natural fibre",
   "wheat/tawa black/chilli red",
   "concrete grey/foam yellow/navy",
-  "tea green/leaf bud lime/clay"
+  "tea green/leaf bud lime/clay",
+  "cocoon ivory/mulberry green/raw silk gold",
+  "straw cream/bale black/tractor blue",
+  "sawdust tan/bark brown/lawn green",
+  "pine yellow/stamp black/factory blue",
+  "steel grey/arc blue/spark orange"
  ],
  "drive_files_done": [
   1,
@@ -4200,66 +4245,6 @@
  ],
  "log": [
   {
-   "n": 386,
-   "date": "2026-11-23",
-   "format": "SINGLE",
-   "market": "India",
-   "category": "Vermicompost",
-   "palette": "compost brown/leaf green/straw",
-   "fonts": "Montserrat + Open Sans",
-   "layout": "6 CSS compost beds with brick border, straw band and 8-week meters + FIFO order allocation chips + dark auto message",
-   "dots": 2,
-   "phone": false
-  },
-  {
-   "n": 387,
-   "date": "2026-11-23",
-   "format": "CAROUSEL",
-   "market": "India",
-   "category": "TractorRepair",
-   "palette": "engine orange/grease black/denim blue",
-   "fonts": "Archivo Black + Inter",
-   "layout": "SVG top-down yard of tractors with job tags, paper job card + who-sees list, 4-column status board + parts list, ready message + vertical repair history, CTA counts",
-   "dots": 4,
-   "phone": false
-  },
-  {
-   "n": 388,
-   "date": "2026-11-23",
-   "format": "SINGLE",
-   "market": "USA",
-   "category": "MobileMechanic",
-   "palette": "navy/signal yellow/driveway grey",
-   "fonts": "Poppins + Roboto",
-   "layout": "booking form -> parts card, CSS cargo van cutaway with per-job bins on 2 shelves, 4 route cards",
-   "dots": 3,
-   "phone": false
-  },
-  {
-   "n": 389,
-   "date": "2026-11-23",
-   "format": "SINGLE",
-   "market": "India",
-   "category": "PetFoodShop",
-   "palette": "paw orange/bowl blue/cream",
-   "fonts": "Gelasio + DM Sans",
-   "layout": "3x2 customer cards with CSS clip-path food bags showing kibble left + days-left bars, reminder bubble + dark due list",
-   "dots": 5,
-   "phone": false
-  },
-  {
-   "n": 390,
-   "date": "2026-11-23",
-   "format": "SINGLE",
-   "market": "USA",
-   "category": "DonutShop",
-   "palette": "strawberry pink/chocolate/cream",
-   "fonts": "TeX Gyre Adventor + Fira Sans",
-   "layout": "3 open donut boxes of CSS radial donuts 4x3 + dark bake list bars by flavor + pre-order form",
-   "dots": 2,
-   "phone": false
-  },
-  {
    "n": 391,
    "date": "2026-11-23",
    "format": "SINGLE",
@@ -4558,14 +4543,69 @@
    "layout": "SVG two-leaves-and-a-bud sprig + ruled notebook with wavy-underlined doubts, LED scale + slip + point list, grower week bars + all-grower table, points loaded vs factory received difference, tiles CTA",
    "dots": 4,
    "phone": false
+  },
+  {
+   "n": 416,
+   "date": "2026-11-23",
+   "format": "CAROUSEL",
+   "market": "India",
+   "category": "SilkReeling",
+   "palette": "cocoon ivory/mulberry green/raw silk gold",
+   "fonts": "Cardo + Inter",
+   "layout": "seeded cocoon heaps in woven trays + register strip, lot card + sort bars, top-down reeling basin board, silk hank isotype per lot with cocoons-per-kg, numbered tiles CTA",
+   "dots": 2,
+   "phone": false
+  },
+  {
+   "n": 417,
+   "date": "2026-11-23",
+   "format": "SINGLE",
+   "market": "India",
+   "category": "SilageBales",
+   "palette": "straw cream/bale black/tractor blue",
+   "fonts": "Archivo Black + Roboto",
+   "layout": "wrapped-bale isotype yard (booked vs free) + count tiles, trolley-trip day strip, order list + new-call stock reply",
+   "dots": 5,
+   "phone": false
+  },
+  {
+   "n": 418,
+   "date": "2026-11-23",
+   "format": "SINGLE",
+   "market": "USA",
+   "category": "StumpGrinding",
+   "palette": "sawdust tan/bark brown/lawn green",
+   "fonts": "Bitter + Source Sans 3",
+   "layout": "to-scale backyard with tree-ring stumps sized by diameter + gate path, stump list with total, option chips, dark job card",
+   "dots": 3,
+   "phone": false
+  },
+  {
+   "n": 419,
+   "date": "2026-11-23",
+   "format": "SINGLE",
+   "market": "India",
+   "category": "PalletMaker",
+   "palette": "pine yellow/stamp black/factory blue",
+   "fonts": "Montserrat + Roboto",
+   "layout": "isometric SVG pallet from part sizes + spec tags, yard order progress rows, phone order form with chips and stepper",
+   "dots": 1,
+   "phone": true
+  },
+  {
+   "n": 420,
+   "date": "2026-11-23",
+   "format": "CAROUSEL",
+   "market": "Canada",
+   "category": "MobileWelder",
+   "palette": "steel grey/arc blue/spark orange",
+   "fonts": "Poppins + Roboto",
+   "layout": "blurred SVG photo texts with missing chips, browser request form with sharp thumbnails, area map + hatched drive ribbon + job cards, before/after weld job card + signature, icon tiles CTA",
+   "dots": 4,
+   "phone": false
   }
  ],
  "recent_fonts": [
-  "Bitter + Inter",
-  "Lora + DM Sans",
-  "Anton + Fira Sans",
-  "Archivo Black + Source Sans 3",
-  "Montserrat + Inter",
   "TeX Gyre Adventor + Open Sans",
   "Crimson Text + Inter",
   "Cardo + Fira Sans",
@@ -4585,14 +4625,14 @@
   "Crimson Text + DM Sans",
   "Poppins + Open Sans",
   "TeX Gyre Adventor + Inter",
-  "Gelasio + Fira Sans"
+  "Gelasio + Fira Sans",
+  "Cardo + Inter",
+  "Archivo Black + Roboto",
+  "Bitter + Source Sans 3",
+  "Montserrat + Roboto",
+  "Poppins + Roboto"
  ],
  "recent_layouts": [
-  "5 grade cards with SVG cashew kernels sized by grade + tin isotype booked/free, orders allocated by delivery date with short chip, olive owner alert",
-  "shift-split seat map (top half morning, bottom evening) + counts, walk-in + free seat highlights + phone join form, renewals week strip + member list + reminders, waitlist + ending seats + offer flow, tiles CTA",
-  "SVG rolling shutter front elevation with dimension arrows + dark site measure form, 6-stage dot tracker per job, red oxide auto message",
-  "SVG RSC dieline with cut/fold lines + diary note, spec card + flute cross-sections + proof, sheet size formulas + reel deckle ups drawing, 6-station conveyor line with cartons + dispatch slip + plan, CTA",
-  "top-down SVG garage with seeded flake speckle, cracks and drain + quote form with sq ft and flake swatches, dark 4-step install plan",
   "dark job request bar + 2x2 crane cards with SVG truck cranes (boom scaled by capacity) and size/free check chips, booking message",
   "CSS rugs on drying rack with ? tags, pickup form + rugs to scale on ft grid, notched rug ticket with barcode + status timeline, SVG street route map + stop list + text, CTA tiles",
   "CSS areca plates by size with grain texture + pack isotype booked/free, order table with press shortfall, dark pressing plan",
@@ -4612,14 +4652,14 @@
   "CSS coir mats 2x2 with ? chips, to-scale mat with dimension lines + order card + option chips, loom board bars + total + yarn alert, bundle/carton equations + 12-carton grid + buyer message, tiles CTA",
   "area-true bubble route map from kitchen + locked order list with change chips + dough plan strip, phone client order with steppers and 10 AM cut-off",
   "driveway 3x6 panel grid coloured by measured drop + SVG sunken slab cross-section with void and holes + dark site report",
-  "SVG two-leaves-and-a-bud sprig + ruled notebook with wavy-underlined doubts, LED scale + slip + point list, grower week bars + all-grower table, points loaded vs factory received difference, tiles CTA"
+  "SVG two-leaves-and-a-bud sprig + ruled notebook with wavy-underlined doubts, LED scale + slip + point list, grower week bars + all-grower table, points loaded vs factory received difference, tiles CTA",
+  "seeded cocoon heaps in woven trays + register strip, lot card + sort bars, top-down reeling basin board, silk hank isotype per lot with cocoons-per-kg, numbered tiles CTA",
+  "wrapped-bale isotype yard (booked vs free) + count tiles, trolley-trip day strip, order list + new-call stock reply",
+  "to-scale backyard with tree-ring stumps sized by diameter + gate path, stump list with total, option chips, dark job card",
+  "isometric SVG pallet from part sizes + spec tags, yard order progress rows, phone order form with chips and stepper",
+  "blurred SVG photo texts with missing chips, browser request form with sharp thumbnails, area map + hatched drive ribbon + job cards, before/after weld job card + signature, icon tiles CTA"
  ],
  "used_hashtag_sets": [
-  "#biryani #cloudkitchenindia #bulkorders #foodbusinessindia",
-  "#agriinputs #fertilizershop #krishikendra #agribusinessindia",
-  "#septicservice #septicpumping #homeservices #smallbusinessusa",
-  "#centeringmaterial #scaffoldingrental #constructionmaterial #buildersindia",
-  "#farrier #horsecare #equestrian #smallbusinesscanada",
   "#cableoperator #localbroadband #billcollection #smallbusinessindia",
   "#marbledealer #granite #stoneyard #buildingmaterialindia",
   "#footwearwholesale #chappal #footwearindia #wholesalebusiness",
@@ -4674,7 +4714,12 @@
   "#coirmats #coirproducts #doormats #keralacoir",
   "#rotisupplier #chapati #bulkfoodsupply #cloudkitchenindia",
   "#concreteleveling #slablifting #concreterepair #driveway",
-  "#tealeaf #teagrowers #greenleaf #teaplantation"
+  "#tealeaf #teagrowers #greenleaf #teaplantation",
+  "#silkreeling #rawsilk #sericulture #silkcocoons",
+  "#silage #maizesilage #silagebales #dairyfarmingindia",
+  "#stumpgrinding #stumpremoval #treeservice #yardwork",
+  "#woodenpallets #palletmanufacturer #industrialpackaging #msmeindia",
+  "#mobilewelding #weldingrepair #farmrepair #canadasmallbusiness"
  ],
  "drive_index_at_post": 395,
  "old_index_sheets_to_trash": []
