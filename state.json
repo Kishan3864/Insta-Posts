@@ -3,7 +3,7 @@
  "drive_index_sheet_id": "1TZmiD1hScUkyUBFGZMV6NghHhu1eb8vRCeZtz-_WTK8",
  "lock_until_utc": "2026-11-23T10:16:20Z",
  "last_run": "2026-11-23T08:54:32Z \u00b7 posts 426-440 made (batches 82-84), Drive 1-440 done; index sheet next at ~445; last 10 had 4 carousels (431,436,437 + 428) so next batch needs 1 carousel; India 309/440",
- "next_post_no": 441,
+ "next_post_no": 446,
  "posts_done": [
   {
    "n": 1,
@@ -3524,11 +3524,51 @@
    "slides": 1,
    "market": "USA",
    "category": "SeniorMoveManager"
+  },
+  {
+   "n": 441,
+   "dir": "posts/0441_SINGLE_India_RainwaterHarvesting",
+   "format": "SINGLE",
+   "slides": 1,
+   "market": "India",
+   "category": "RainwaterHarvesting"
+  },
+  {
+   "n": 442,
+   "dir": "posts/0442_CAROUSEL_India_CameraRental",
+   "format": "CAROUSEL",
+   "slides": 5,
+   "market": "India",
+   "category": "CameraRental"
+  },
+  {
+   "n": 443,
+   "dir": "posts/0443_SINGLE_India_FishingBoatOwner",
+   "format": "SINGLE",
+   "slides": 1,
+   "market": "India",
+   "category": "FishingBoatOwner"
+  },
+  {
+   "n": 444,
+   "dir": "posts/0444_SINGLE_India_EVChargingStation",
+   "format": "SINGLE",
+   "slides": 1,
+   "market": "India",
+   "category": "EVChargingStation"
+  },
+  {
+   "n": 445,
+   "dir": "posts/0445_SINGLE_USA_WaterDamageRestoration",
+   "format": "SINGLE",
+   "slides": 1,
+   "market": "USA",
+   "category": "WaterDamageRestoration"
   }
  ],
  "market_counts": {
-  "India": 309,
-  "Abroad": 131
+  "India": 313,
+  "Abroad": 132
  },
  "used_categories": [
   "Boutique",
@@ -3977,14 +4017,14 @@
   "ShopFitOut",
   "HydraulicHoseShop",
   "FishSeedHatchery",
-  "SeniorMoveManager"
+  "SeniorMoveManager",
+  "RainwaterHarvesting",
+  "CameraRental",
+  "FishingBoatOwner",
+  "EVChargingStation",
+  "WaterDamageRestoration"
  ],
  "recent_palettes": [
-  "cocoon ivory/mulberry green/raw silk gold",
-  "straw cream/bale black/tractor blue",
-  "sawdust tan/bark brown/lawn green",
-  "pine yellow/stamp black/factory blue",
-  "steel grey/arc blue/spark orange",
   "ghee gold/cream/brass brown",
   "rice white/turmeric/indigo",
   "slurry brown/flame blue/leaf green",
@@ -4004,7 +4044,12 @@
   "ply beige/laminate teal/charcoal",
   "hose black/brass/hydraulic red",
   "pond teal/fry silver/hatchery orange",
-  "sage/warm sand/plum"
+  "sage/warm sand/plum",
+  "monsoon slate/terracotta/rain teal",
+  "matte black/gaffer yellow/studio grey",
+  "sea navy/ice white/buoy orange",
+  "asphalt/electric lime/cyan",
+  "drywall white/navy/moisture heat red-amber-blue"
  ],
  "drive_files_done": [
   1,
@@ -4450,66 +4495,6 @@
  ],
  "log": [
   {
-   "n": 411,
-   "date": "2026-11-23",
-   "format": "SINGLE",
-   "market": "India",
-   "category": "TarpaulinMaker",
-   "palette": "tarp blue/safety orange/rope beige",
-   "fonts": "Anton + DM Sans",
-   "layout": "before/after slider diary vs order card with round handle, to-scale SVG tarp with computed eyelets, dark cutting sheet + floor list",
-   "dots": 2,
-   "phone": false
-  },
-  {
-   "n": 412,
-   "date": "2026-11-23",
-   "format": "CAROUSEL",
-   "market": "India",
-   "category": "CoirMats",
-   "palette": "coir brown/backwater green/natural fibre",
-   "fonts": "Crimson Text + DM Sans",
-   "layout": "CSS coir mats 2x2 with ? chips, to-scale mat with dimension lines + order card + option chips, loom board bars + total + yarn alert, bundle/carton equations + 12-carton grid + buyer message, tiles CTA",
-   "dots": 5,
-   "phone": false
-  },
-  {
-   "n": 413,
-   "date": "2026-11-23",
-   "format": "SINGLE",
-   "market": "India",
-   "category": "RotiSupplier",
-   "palette": "wheat/tawa black/chilli red",
-   "fonts": "Poppins + Open Sans",
-   "layout": "area-true bubble route map from kitchen + locked order list with change chips + dough plan strip, phone client order with steppers and 10 AM cut-off",
-   "dots": 3,
-   "phone": true
-  },
-  {
-   "n": 414,
-   "date": "2026-11-23",
-   "format": "SINGLE",
-   "market": "USA",
-   "category": "ConcreteLeveling",
-   "palette": "concrete grey/foam yellow/navy",
-   "fonts": "TeX Gyre Adventor + Inter",
-   "layout": "driveway 3x6 panel grid coloured by measured drop + SVG sunken slab cross-section with void and holes + dark site report",
-   "dots": 1,
-   "phone": false
-  },
-  {
-   "n": 415,
-   "date": "2026-11-23",
-   "format": "CAROUSEL",
-   "market": "India",
-   "category": "TeaLeafAgent",
-   "palette": "tea green/leaf bud lime/clay",
-   "fonts": "Gelasio + Fira Sans",
-   "layout": "SVG two-leaves-and-a-bud sprig + ruled notebook with wavy-underlined doubts, LED scale + slip + point list, grower week bars + all-grower table, points loaded vs factory received difference, tiles CTA",
-   "dots": 4,
-   "phone": false
-  },
-  {
    "n": 416,
    "date": "2026-11-23",
    "format": "CAROUSEL",
@@ -4808,14 +4793,69 @@
    "layout": "room-by-room 100% stacked decision bars + totals, to-scale new apartment plan with keep furniture and dashed misfit, 3 plum move timeline cards",
    "dots": 1,
    "phone": false
+  },
+  {
+   "n": 441,
+   "date": "2026-11-23",
+   "format": "SINGLE",
+   "market": "India",
+   "category": "RainwaterHarvesting",
+   "palette": "monsoon slate/terracotta/rain teal",
+   "fonts": "Montserrat + Inter",
+   "layout": "house-to-pit cross-section SVG in rain (terrace, down pipe, filter, layered recharge pit), roof-size to litres equation tiles + survey rows, dark job stage list + cleaning reminder",
+   "dots": 3,
+   "phone": false
+  },
+  {
+   "n": 442,
+   "date": "2026-11-23",
+   "format": "CAROUSEL",
+   "market": "India",
+   "category": "CameraRental",
+   "palette": "matte black/gaffer yellow/studio grey",
+   "fonts": "Anton + Roboto",
+   "layout": "knolling flat-lay of kit on cutting mat with code tags + dashed missing item, out/back checklist table + counts + chat, item x day booking grid with highlighted asked day + reply, pickup vs return photos with same-spot pins + rental timeline, tiles CTA",
+   "dots": 5,
+   "phone": false
+  },
+  {
+   "n": 443,
+   "date": "2026-11-23",
+   "format": "SINGLE",
+   "market": "India",
+   "category": "FishingBoatOwner",
+   "palette": "sea navy/ice white/buoy orange",
+   "fonts": "Bitter + Fira Sans",
+   "layout": "top-down boat SVG with fish hold compartments filled with seeded fish by catch, buyer list derived from catch with paid/due chips, dark trip tiles, next-trip checklist",
+   "dots": 2,
+   "phone": false
+  },
+  {
+   "n": 444,
+   "date": "2026-11-23",
+   "format": "SINGLE",
+   "market": "India",
+   "category": "EVChargingStation",
+   "palette": "asphalt/electric lime/cyan",
+   "fonts": "TeX Gyre Adventor + Source Sans 3",
+   "layout": "dark top-down charging bays with SVG cars + conic charge rings, 2-8 PM bay timeline with now line and striped new booking, phone slot booking, today-so-far tiles",
+   "dots": 4,
+   "phone": true
+  },
+  {
+   "n": 445,
+   "date": "2026-11-23",
+   "format": "SINGLE",
+   "market": "USA",
+   "category": "WaterDamageRestoration",
+   "palette": "drywall white/navy/moisture heat red-amber-blue",
+   "fonts": "Crimson Text + DM Sans",
+   "layout": "to-scale floor plan with moisture heat halos + point tags + equipment glyphs, legend + wet count card, 4 small-multiple day maps, daily log card + next visit rows",
+   "dots": 1,
+   "phone": false
   }
  ],
  "recent_fonts": [
-  "Cardo + Inter",
-  "Archivo Black + Roboto",
-  "Bitter + Source Sans 3",
-  "Montserrat + Roboto",
-  "Poppins + Roboto",
   "Lora + Inter",
   "TeX Gyre Adventor + Roboto",
   "Gelasio + DM Sans",
@@ -4835,14 +4875,14 @@
   "Poppins + DM Sans",
   "Archivo Black + DM Sans",
   "Poppins + Inter",
-  "Gelasio + Open Sans"
+  "Gelasio + Open Sans",
+  "Montserrat + Inter",
+  "Anton + Roboto",
+  "Bitter + Fira Sans",
+  "TeX Gyre Adventor + Source Sans 3",
+  "Crimson Text + DM Sans"
  ],
  "recent_layouts": [
-  "seeded cocoon heaps in woven trays + register strip, lot card + sort bars, top-down reeling basin board, silk hank isotype per lot with cocoons-per-kg, numbered tiles CTA",
-  "wrapped-bale isotype yard (booked vs free) + count tiles, trolley-trip day strip, order list + new-call stock reply",
-  "to-scale backyard with tree-ring stumps sized by diameter + gate path, stump list with total, option chips, dark job card",
-  "isometric SVG pallet from part sizes + spec tags, yard order progress rows, phone order form with chips and stepper",
-  "blurred SVG photo texts with missing chips, browser request form with sharp thumbnails, area map + hatched drive ribbon + job cards, before/after weld job card + signature, icon tiles CTA",
   "batch equation tiles + SVG jars by size with batch labels and left-after-orders, order list with status chips, phone repeat order",
   "clear bags with seeded grains + quote cards, shop x day standing order matrix, roast plan tiles + batch ribbon + batch table, dotted van route timeline + paid/bill tiles, icon tiles CTA",
   "fixed-dome cross-section coloured by install stage with numbered pins + stage list, survey card with size chip, dark service visit list",
@@ -4862,14 +4902,14 @@
   "isometric shop floor from item list with labels, to-scale top plan with walkway arrows + item rows + walkway check, item list table + approval + laminate swatches, 8-day Gantt + photo update, tiles CTA",
   "SVG hose assembly with two fittings + dimension line + spec tiles, hose history by machine list + repeat button, conic-gradient hose reels with metres left",
   "top-down round tanks with seeded fish + ready rings, 2 stat tiles, phone booking with species steppers and computed oxygen bags",
-  "room-by-room 100% stacked decision bars + totals, to-scale new apartment plan with keep furniture and dashed misfit, 3 plum move timeline cards"
+  "room-by-room 100% stacked decision bars + totals, to-scale new apartment plan with keep furniture and dashed misfit, 3 plum move timeline cards",
+  "house-to-pit cross-section SVG in rain (terrace, down pipe, filter, layered recharge pit), roof-size to litres equation tiles + survey rows, dark job stage list + cleaning reminder",
+  "knolling flat-lay of kit on cutting mat with code tags + dashed missing item, out/back checklist table + counts + chat, item x day booking grid with highlighted asked day + reply, pickup vs return photos with same-spot pins + rental timeline, tiles CTA",
+  "top-down boat SVG with fish hold compartments filled with seeded fish by catch, buyer list derived from catch with paid/due chips, dark trip tiles, next-trip checklist",
+  "dark top-down charging bays with SVG cars + conic charge rings, 2-8 PM bay timeline with now line and striped new booking, phone slot booking, today-so-far tiles",
+  "to-scale floor plan with moisture heat halos + point tags + equipment glyphs, legend + wet count card, 4 small-multiple day maps, daily log card + next visit rows"
  ],
  "used_hashtag_sets": [
-  "#combineharvester #harvesterbooking #paddyharvest #farmmachinery",
-  "#blockprinting #handblockprint #textileprinting #fabricmanufacturer",
-  "#countertops #quartzcountertops #countertopfabrication #kitchenremodel",
-  "#nameplate #acrylicnameplate #homedecorindia #signagemaker",
-  "#atticinsulation #blowninsulation #insulationcontractor #canadianhomes",
   "#vermicompost #organicmanure #organicfarmingindia #compostbusiness",
   "#tractorrepair #tractormechanic #farmmachinery #tractorworkshop #agricultureindia",
   "#mobilemechanic #mobilecarrepair #automechanic #smallbusinessusa",
@@ -4924,7 +4964,12 @@
   "#shopinterior #shopfitout #retaildesign #shopdesignindia",
   "#hydraulichose #hosecrimping #earthmovingequipment #sparepartsindia",
   "#fishseed #fishhatchery #fishfarmingindia #aquaculture",
-  "#seniormove #downsizing #movingtips #seniorliving"
+  "#seniormove #downsizing #movingtips #seniorliving",
+  "#rainwaterharvesting #rechargepit #waterconservation #savewaterindia",
+  "#camerarental #lensrental #photographyindia #rentalbusiness",
+  "#fishingboat #fishermen #seafoodindia #fishingindustry",
+  "#evcharging #evchargingstation #electricvehicles #evindia",
+  "#waterdamage #waterdamagerestoration #restorationcompany #homerestoration"
  ],
  "drive_index_at_post": 420,
  "old_index_sheets_to_trash": []
