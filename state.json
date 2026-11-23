@@ -2,8 +2,8 @@
  "drive_folder_id": "1OZvW8MCiA-_SSNn5_9g3o8k5sMyHUcxE",
  "drive_index_sheet_id": "1Ex4WhPiwEbqBF-QEG1pc6VPi3qLGqym_Fq-FvKYTgO8",
  "lock_until_utc": "2026-11-23T01:16:00Z",
- "last_run": "2026-11-22T23:53:18Z · posts 301-325 made (batches 57-61), Drive 1-325 done, index sheet refreshed at 320 (id 1Ex4...; old sheet 1kVm... could not be trashed: permission denied, added to old_index_sheets_to_trash)",
- "next_post_no": 326,
+ "last_run": "2026-11-22T23:53:18Z \u00b7 posts 301-325 made (batches 57-61), Drive 1-325 done, index sheet refreshed at 320 (id 1Ex4...; old sheet 1kVm... could not be trashed: permission denied, added to old_index_sheets_to_trash)",
+ "next_post_no": 331,
  "posts_done": [
   {
    "n": 1,
@@ -2604,11 +2604,51 @@
    "slides": 5,
    "market": "India",
    "category": "InstrumentRental"
+  },
+  {
+   "n": 326,
+   "dir": "posts/0326_CAROUSEL_India_DroneSpraying",
+   "format": "CAROUSEL",
+   "slides": 5,
+   "market": "India",
+   "category": "DroneSpraying"
+  },
+  {
+   "n": 327,
+   "dir": "posts/0327_SINGLE_India_TimberMill",
+   "format": "SINGLE",
+   "slides": 1,
+   "market": "India",
+   "category": "TimberMill"
+  },
+  {
+   "n": 328,
+   "dir": "posts/0328_SINGLE_USA_SelfStorage",
+   "format": "SINGLE",
+   "slides": 1,
+   "market": "USA",
+   "category": "SelfStorage"
+  },
+  {
+   "n": 329,
+   "dir": "posts/0329_SINGLE_India_ShoeCleaning",
+   "format": "SINGLE",
+   "slides": 1,
+   "market": "India",
+   "category": "ShoeCleaning"
+  },
+  {
+   "n": 330,
+   "dir": "posts/0330_CAROUSEL_Canada_EscapeRoom",
+   "format": "CAROUSEL",
+   "slides": 5,
+   "market": "Canada",
+   "category": "EscapeRoom"
   }
  ],
  "market_counts": {
-  "India": 228,
-  "Abroad": 97
+  "India": 231,
+  "Abroad": 99
  },
  "used_categories": [
   "Boutique",
@@ -2942,14 +2982,14 @@
   "LEDBulbAssembly",
   "CookieDecorator",
   "SnowmobileTours",
-  "InstrumentRental"
+  "InstrumentRental",
+  "DroneSpraying",
+  "TimberMill",
+  "SelfStorage",
+  "ShoeCleaning",
+  "EscapeRoom"
  ],
  "recent_palettes": [
-  "asphalt/electric lime/white",
-  "turmeric/kora cotton/peacock teal",
-  "basil green/tomato/oat cream",
-  "manila/brick red/ink navy",
-  "shrink-wrap white/marine navy/buoy orange",
   "quarry grey/safety yellow/rust",
   "freezer white/berry pink/mint",
   "process cyan/magenta/paper white",
@@ -2969,7 +3009,12 @@
   "bulb warm white/circuit green/charcoal",
   "icing pink/cocoa/mint",
   "snow white/sled red/spruce",
-  "rosewood/brass/sky"
+  "rosewood/brass/sky",
+  "paddy green/drone orange/khaki cream",
+  "sawdust tan/teak brown/blade blue",
+  "storage orange/concrete grey/ink navy",
+  "chalk white/foam blue/gum brown",
+  "dark plum/clue amber/lock teal"
  ],
  "drive_files_done": [
   1,
@@ -3300,66 +3345,6 @@
  ],
  "log": [
   {
-   "n": 296,
-   "date": "2026-11-22",
-   "format": "SINGLE",
-   "market": "India",
-   "category": "WatchRepair",
-   "palette": "racing green/champagne/ivory",
-   "fonts": "Cardo + DM Sans",
-   "layout": "dark job tray of CSS analog watch faces whose hands point to ready time, status rings + message + legend",
-   "dots": 1,
-   "phone": false
-  },
-  {
-   "n": 297,
-   "date": "2026-11-22",
-   "format": "CAROUSEL",
-   "market": "India",
-   "category": "PapadUnit",
-   "palette": "papad beige/chilli red/mustard",
-   "fonts": "Anton + Inter",
-   "layout": "drying mats of speckled papad discs + voice note hook, shop x product order sheet, packets-to-dough rule cards, packet icon dispatch rows, discs + tiles CTA",
-   "dots": 3,
-   "phone": false
-  },
-  {
-   "n": 298,
-   "date": "2026-11-22",
-   "format": "SINGLE",
-   "market": "USA",
-   "category": "HotTubService",
-   "palette": "lagoon aqua/cedar/navy",
-   "fonts": "Lora + DM Sans",
-   "layout": "top-down cedar hot tub with seats and jets + visit log table + phone visit report",
-   "dots": 5,
-   "phone": true
-  },
-  {
-   "n": 299,
-   "date": "2026-11-22",
-   "format": "SINGLE",
-   "market": "India",
-   "category": "DTPCentre",
-   "palette": "print cyan/charcoal/lemon",
-   "fonts": "Gelasio + Fira Sans",
-   "layout": "LED dot-matrix token board with glowing text + files received list + dark message card",
-   "dots": 2,
-   "phone": false
-  },
-  {
-   "n": 300,
-   "date": "2026-11-22",
-   "format": "SINGLE",
-   "market": "India",
-   "category": "SteelUtensilsBulk",
-   "palette": "steel silver/copper/indigo",
-   "fonts": "TeX Gyre Adventor + Source Sans 3",
-   "layout": "SVG metallic stacks of plates, bowls and glasses with counts + caterer order card + repeat order card",
-   "dots": 4,
-   "phone": false
-  },
-  {
    "n": 301,
    "date": "2026-11-22",
    "format": "SINGLE",
@@ -3658,14 +3643,69 @@
    "layout": "instrument wall of SVG guitars, violin, keyboard with due tags, rental table with late row, reminder message cards, repair job rows with icons, wall + tiles CTA",
    "dots": 1,
    "phone": false
+  },
+  {
+   "n": 326,
+   "date": "2026-11-23",
+   "format": "CAROUSEL",
+   "market": "India",
+   "category": "DroneSpraying",
+   "palette": "paddy green/drone orange/khaki cream",
+   "fonts": "Poppins + Inter",
+   "layout": "SVG patchwork village field map with crop tints, canal and pins (? then F1-F7), field booking table with acre totals, lawnmower flight path progress + pilot day route cards, farmer chat + payment status list, map + tiles CTA",
+   "dots": 3,
+   "phone": false
+  },
+  {
+   "n": 327,
+   "date": "2026-11-23",
+   "format": "SINGLE",
+   "market": "India",
+   "category": "TimberMill",
+   "palette": "sawdust tan/teak brown/blade blue",
+   "fonts": "Bitter + Roboto",
+   "layout": "isometric SVG plank stacks with end-grain plank ends sized by piece count + carpenter order table checked against stock + blue cutting note",
+   "dots": 5,
+   "phone": false
+  },
+  {
+   "n": 328,
+   "date": "2026-11-23",
+   "format": "SINGLE",
+   "market": "USA",
+   "category": "SelfStorage",
+   "palette": "storage orange/concrete grey/ink navy",
+   "fonts": "Anton + Open Sans",
+   "layout": "building elevation of CSS corrugated roll-up doors with unit plates and status tags + browser reserve page counting free units by size",
+   "dots": 2,
+   "phone": false
+  },
+  {
+   "n": 329,
+   "date": "2026-11-23",
+   "format": "SINGLE",
+   "market": "India",
+   "category": "ShoeCleaning",
+   "palette": "chalk white/foam blue/gum brown",
+   "fonts": "Montserrat + DM Sans",
+   "layout": "drying rack of SVG side-profile sneakers with dashed hanging stage tags + phone pair tracker steps",
+   "dots": 4,
+   "phone": true
+  },
+  {
+   "n": 330,
+   "date": "2026-11-23",
+   "format": "CAROUSEL",
+   "market": "Canada",
+   "category": "EscapeRoom",
+   "palette": "dark plum/clue amber/lock teal",
+   "fonts": "Crimson Text + Roboto",
+   "layout": "paper booking diary with double booking boxed in red, browser room/time/players booking, room timeline with hatched 15-min reset blocks + totals, team chat + 3 cards, arched room doors + tiles CTA",
+   "dots": 1,
+   "phone": false
   }
  ],
  "recent_fonts": [
-  "Montserrat + Roboto",
-  "Lora + Open Sans",
-  "Archivo Black + DM Sans",
-  "Crimson Text + Fira Sans",
-  "Bitter + Inter",
   "Anton + Source Sans 3",
   "Poppins + Fira Sans",
   "Cardo + Inter",
@@ -3685,14 +3725,14 @@
   "Archivo Black + Fira Sans",
   "Lora + DM Sans",
   "Bitter + Open Sans",
-  "TeX Gyre Adventor + DM Sans"
+  "TeX Gyre Adventor + DM Sans",
+  "Poppins + Inter",
+  "Bitter + Roboto",
+  "Anton + Open Sans",
+  "Montserrat + DM Sans",
+  "Crimson Text + Roboto"
  ],
  "recent_layouts": [
-  "dark charging shed grid of SVG batteries with charge fill and bolts + driver shift/rent list + green message",
-  "SVG handloom with woven part as progress, yarn issue table with swatches, woven-fabric progress bars per loom, saree icon yarn balance cards, three looms + tiles CTA",
-  "browser weekly order page + dark cook list of CSS top-down meal containers with counts + ZIP route card",
-  "manila punch card month grid with punched/struck/open holes + today's cook count cards + skip app card",
-  "top-down storage yard of shrink-wrapped SVG hulls with status outlines + phone spring launch booking",
   "SVG gravel stockpiles by tonnes, site order table + material totals, truck round ribbons with % positions, photo delivery slip + loads ordered vs delivered, piles + tiles CTA",
   "top-down chest freezer with glass sheen and flavour tub lids + shop tubs-left bars + refill round card",
   "8-up print sheet with crop and registration marks, CMYK bar and approved stamp + dark job card stages",
@@ -3712,14 +3752,14 @@
   "dark test rack of 40 SVG bulbs glowing or crossed + day stat tiles + order note",
   "baking tray of CSS clip-path iced cookies preview + phone custom order",
   "SVG winter trail loop map + dark sled schedule ribbons by hour + tour booking card",
-  "instrument wall of SVG guitars, violin, keyboard with due tags, rental table with late row, reminder message cards, repair job rows with icons, wall + tiles CTA"
+  "instrument wall of SVG guitars, violin, keyboard with due tags, rental table with late row, reminder message cards, repair job rows with icons, wall + tiles CTA",
+  "SVG patchwork village field map with crop tints, canal and pins (? then F1-F7), field booking table with acre totals, lawnmower flight path progress + pilot day route cards, farmer chat + payment status list, map + tiles CTA",
+  "isometric SVG plank stacks with end-grain plank ends sized by piece count + carpenter order table checked against stock + blue cutting note",
+  "building elevation of CSS corrugated roll-up doors with unit plates and status tags + browser reserve page counting free units by size",
+  "drying rack of SVG side-profile sneakers with dashed hanging stage tags + phone pair tracker steps",
+  "paper booking diary with double booking boxed in red, browser room/time/players booking, room timeline with hatched 15-min reset blocks + totals, team chat + 3 cards, arched room doors + tiles CTA"
  ],
  "used_hashtag_sets": [
-  "#homechef #partyorders #homecatering #homekitchenindia",
-  "#personaltrainer #inhometraining #mobiletrainer #fitnessbusiness",
-  "#mushroomfarming #mushroomgrower #agribusinessindia #farmtomarket",
-  "#maplesyrup #farmstand #shoplocalcanada #farmfresh",
-  "#signboard #shopsignage #flexprinting #signmaker",
   "#seatcovers #carseatcover #caraccessoriesindia #carinterior",
   "#screenprinting #customtshirts #printshop #smallbusinessusa",
   "#sareefall #pico #sareelove #tailoringindia",
@@ -3774,7 +3814,12 @@
   "#ledbulb #ledmanufacturing #makeinindia #smallfactory",
   "#customcookies #decoratedcookies #cookiebusiness #homebakery",
   "#snowmobile #snowmobiletours #wintercanada #outdooradventure",
-  "#musicstore #instrumentrental #guitarrepair #musicshopindia"
+  "#musicstore #instrumentrental #guitarrepair #musicshopindia",
+  "#dronespraying #agridrone #smartfarming #kisandrone",
+  "#sawmill #timberdepot #woodbusiness #timbertrade #carpentersofindia",
+  "#selfstorage #storageunits #storagefacility #smallbusinessusa",
+  "#shoecleaning #sneakercare #shoelaundry #sneakercleaningindia",
+  "#escaperoom #escaperoomcanada #escapegame #thingstodocanada"
  ],
  "drive_index_at_post": 320,
  "old_index_sheets_to_trash": [
