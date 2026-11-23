@@ -3,7 +3,7 @@
  "drive_index_sheet_id": "1wpOhTVD-F1bNjtDpt6m5yVFacs_x_pXwOI2A6MhegP4",
  "lock_until_utc": "2026-11-23T06:30:04Z",
  "last_run": "2026-11-23T04:53:53Z \u00b7 posts 376-390 made (batches 72-74), Drive 1-390 done; index sheet due at ~395",
- "next_post_no": 396,
+ "next_post_no": 401,
  "posts_done": [
   {
    "n": 1,
@@ -3164,11 +3164,51 @@
    "slides": 1,
    "market": "USA",
    "category": "EpoxyFloors"
+  },
+  {
+   "n": 396,
+   "dir": "posts/0396_SINGLE_India_CraneHire",
+   "format": "SINGLE",
+   "slides": 1,
+   "market": "India",
+   "category": "CraneHire"
+  },
+  {
+   "n": 397,
+   "dir": "posts/0397_CAROUSEL_USA_RugCleaning",
+   "format": "CAROUSEL",
+   "slides": 5,
+   "market": "USA",
+   "category": "RugCleaning"
+  },
+  {
+   "n": 398,
+   "dir": "posts/0398_SINGLE_India_ArecaPlates",
+   "format": "SINGLE",
+   "slides": 1,
+   "market": "India",
+   "category": "ArecaPlates"
+  },
+  {
+   "n": 399,
+   "dir": "posts/0399_SINGLE_Canada_HorseBoarding",
+   "format": "SINGLE",
+   "slides": 1,
+   "market": "Canada",
+   "category": "HorseBoarding"
+  },
+  {
+   "n": 400,
+   "dir": "posts/0400_SINGLE_India_GoatFarm",
+   "format": "SINGLE",
+   "slides": 1,
+   "market": "India",
+   "category": "GoatFarm"
   }
  ],
  "market_counts": {
-  "India": 277,
-  "Abroad": 118
+  "India": 280,
+  "Abroad": 120
  },
  "used_categories": [
   "Boutique",
@@ -3572,14 +3612,14 @@
   "StudyLibrary",
   "ShutterFabricator",
   "CorrugatedBox",
-  "EpoxyFloors"
+  "EpoxyFloors",
+  "CraneHire",
+  "RugCleaning",
+  "ArecaPlates",
+  "HorseBoarding",
+  "GoatFarm"
  ],
  "recent_palettes": [
-  "excavator yellow/soil brown/sky white",
-  "icicle blue/roof charcoal/alarm red",
-  "rani pink/marigold/ivory",
-  "toner black/CMYK accents/paper white",
-  "cobalt/snack yellow/chrome",
   "concrete grey/safety orange/drum teal",
   "cotton white/boll green/jute brown",
   "turf green/plug brown/flag pink",
@@ -3599,7 +3639,12 @@
   "study green/lamp amber/paper",
   "red oxide/zinc grey/chalk",
   "corrugated tan/flexo blue/die-line red",
-  "slate/epoxy teal/flake tan"
+  "slate/epoxy teal/flake tan",
+  "crane amber/night navy/sky cyan",
+  "rug terracotta/wool cream/sage",
+  "sheath beige/palm green/charcoal",
+  "saddle brown/hay gold/frost white",
+  "pasture olive/goat tan/clay"
  ],
  "drive_files_done": [
   1,
@@ -4000,66 +4045,6 @@
  ],
  "log": [
   {
-   "n": 366,
-   "date": "2026-11-23",
-   "format": "SINGLE",
-   "market": "India",
-   "category": "LaserCutting",
-   "palette": "spark orange/sheet steel/graphite",
-   "fonts": "Bitter + Source Sans 3",
-   "layout": "Gantt queue board: 3 machine lanes (2 lasers + bending) with qty-sized job blocks, hatched sheet/tool change blocks, red now line + job slip, counts, ready message",
-   "dots": 3,
-   "phone": false
-  },
-  {
-   "n": 367,
-   "date": "2026-11-23",
-   "format": "CAROUSEL",
-   "market": "India",
-   "category": "BatteryDealer",
-   "palette": "graphite/acid lime/charge blue",
-   "fonts": "Archivo Black + DM Sans",
-   "layout": "CSS battery hero + bill book pile, browser sales table by serial, serial search with warranty timeline bars + today marker, old battery isotype + exchange slip, phone reminder chat + visit list, batteries + tiles CTA",
-   "dots": 5,
-   "phone": true
-  },
-  {
-   "n": 368,
-   "date": "2026-11-23",
-   "format": "SINGLE",
-   "market": "USA",
-   "category": "LeafCleanup",
-   "palette": "maple orange/pine green/kraft",
-   "fonts": "Cardo + Montserrat",
-   "layout": "top-down SVG street of 8 lots with tree crowns + seeded leaf scatter, day-coloured outlines + chips, browser quote chips form, two route day cards",
-   "dots": 2,
-   "phone": false
-  },
-  {
-   "n": 369,
-   "date": "2026-11-23",
-   "format": "SINGLE",
-   "market": "India",
-   "category": "FridgeRepair",
-   "palette": "ice blue/compressor copper/deep navy",
-   "fonts": "Montserrat + Roboto",
-   "layout": "CSS double-door fridge with numbered pins matching numbered job card fields, technician day list with part chips, parts-to-carry counts card",
-   "dots": 4,
-   "phone": false
-  },
-  {
-   "n": 370,
-   "date": "2026-11-23",
-   "format": "SINGLE",
-   "market": "India",
-   "category": "CarpenterContractor",
-   "palette": "teak brown/ply beige/blueprint blue",
-   "fonts": "TeX Gyre Adventor + Source Sans 3",
-   "layout": "SVG isometric 2BHK plan computed in Python with extruded furniture boxes coloured by status + upright numbered pins and room pills, room-wise list + blue site update with photo tiles and counts",
-   "dots": 1,
-   "phone": false
-  },
-  {
    "n": 371,
    "date": "2026-11-23",
    "format": "SINGLE",
@@ -4358,14 +4343,69 @@
    "layout": "top-down SVG garage with seeded flake speckle, cracks and drain + quote form with sq ft and flake swatches, dark 4-step install plan",
    "dots": 2,
    "phone": false
+  },
+  {
+   "n": 396,
+   "date": "2026-11-23",
+   "format": "SINGLE",
+   "market": "India",
+   "category": "CraneHire",
+   "palette": "crane amber/night navy/sky cyan",
+   "fonts": "TeX Gyre Adventor + Open Sans",
+   "layout": "dark job request bar + 2x2 crane cards with SVG truck cranes (boom scaled by capacity) and size/free check chips, booking message",
+   "dots": 3,
+   "phone": false
+  },
+  {
+   "n": 397,
+   "date": "2026-11-23",
+   "format": "CAROUSEL",
+   "market": "USA",
+   "category": "RugCleaning",
+   "palette": "rug terracotta/wool cream/sage",
+   "fonts": "Crimson Text + Inter",
+   "layout": "CSS rugs on drying rack with ? tags, pickup form + rugs to scale on ft grid, notched rug ticket with barcode + status timeline, SVG street route map + stop list + text, CTA tiles",
+   "dots": 5,
+   "phone": false
+  },
+  {
+   "n": 398,
+   "date": "2026-11-23",
+   "format": "SINGLE",
+   "market": "India",
+   "category": "ArecaPlates",
+   "palette": "sheath beige/palm green/charcoal",
+   "fonts": "Cardo + Fira Sans",
+   "layout": "CSS areca plates by size with grain texture + pack isotype booked/free, order table with press shortfall, dark pressing plan",
+   "dots": 1,
+   "phone": false
+  },
+  {
+   "n": 399,
+   "date": "2026-11-23",
+   "format": "SINGLE",
+   "market": "Canada",
+   "category": "HorseBoarding",
+   "palette": "saddle brown/hay gold/frost white",
+   "fonts": "Gelasio + Source Sans 3",
+   "layout": "top-down SVG barn aisle, 10 stalls coloured by turnout group with hay bars, grain dots, blanket notes + whiteboard vs owner updates",
+   "dots": 4,
+   "phone": false
+  },
+  {
+   "n": 400,
+   "date": "2026-11-23",
+   "format": "SINGLE",
+   "market": "India",
+   "category": "GoatFarm",
+   "palette": "pasture olive/goat tan/clay",
+   "fonts": "Poppins + Inter",
+   "layout": "3x2 goat cards with clip-path ear tags + SVG monthly weight lines vs dashed target, dark buyer bookings matched to at-target goats",
+   "dots": 2,
+   "phone": false
   }
  ],
  "recent_fonts": [
-  "Anton + Inter",
-  "Crimson Text + Fira Sans",
-  "Cardo + Poppins",
-  "Lora + Open Sans",
-  "Gelasio + Roboto",
   "Archivo Black + Roboto",
   "Bitter + Open Sans",
   "Poppins + Source Sans 3",
@@ -4385,14 +4425,14 @@
   "Lora + DM Sans",
   "Anton + Fira Sans",
   "Archivo Black + Source Sans 3",
-  "Montserrat + Inter"
+  "Montserrat + Inter",
+  "TeX Gyre Adventor + Open Sans",
+  "Crimson Text + Inter",
+  "Cardo + Fira Sans",
+  "Gelasio + Source Sans 3",
+  "Poppins + Inter"
  ],
  "recent_layouts": [
-  "CSS odometer hour meters (start/end photo) + hours box, 3-machine table with mini meters, week hours bars + auto message chips",
-  "SVG roof cross-section with snow, ice dam, icicles, warm attic glow and leak path labels + booking form list, dark 3-day crew board sorted leaks first",
-  "phone order form + event-date board of CSS pleated saree boxes with status chips + weekend count card",
-  "CSS printer with half-printed page + office bubbles, printer table with totals, pages-vs-yield bars with 85% marker + due card, route with times + job sheet with SVG signature, printer + tiles CTA",
-  "6 CSS vending machine fronts with seeded slot grids + fill % bars, legend, emptiest-first route + van load list computed from empty slots",
   "dark 5-photo site ready check + pour board with CSS transit mixer isotypes per 7 m3 coloured by trip state + needs chips + auto message",
   "SVG tractor-trolley gate queue + LED now-weighing board, token table + SMS, full/empty trolley + dashed weigh slip, lot rows of CSS strapped bales, CTA tractor + tiles",
   "top-down SVG street map with lots, core-plug pattern lawns + sprinkler flags, sign-up form + dark route-day progress per street",
@@ -4412,14 +4452,14 @@
   "shift-split seat map (top half morning, bottom evening) + counts, walk-in + free seat highlights + phone join form, renewals week strip + member list + reminders, waitlist + ending seats + offer flow, tiles CTA",
   "SVG rolling shutter front elevation with dimension arrows + dark site measure form, 6-stage dot tracker per job, red oxide auto message",
   "SVG RSC dieline with cut/fold lines + diary note, spec card + flute cross-sections + proof, sheet size formulas + reel deckle ups drawing, 6-station conveyor line with cartons + dispatch slip + plan, CTA",
-  "top-down SVG garage with seeded flake speckle, cracks and drain + quote form with sq ft and flake swatches, dark 4-step install plan"
+  "top-down SVG garage with seeded flake speckle, cracks and drain + quote form with sq ft and flake swatches, dark 4-step install plan",
+  "dark job request bar + 2x2 crane cards with SVG truck cranes (boom scaled by capacity) and size/free check chips, booking message",
+  "CSS rugs on drying rack with ? tags, pickup form + rugs to scale on ft grid, notched rug ticket with barcode + status timeline, SVG street route map + stop list + text, CTA tiles",
+  "CSS areca plates by size with grain texture + pack isotype booked/free, order table with press shortfall, dark pressing plan",
+  "top-down SVG barn aisle, 10 stalls coloured by turnout group with hay bars, grain dots, blanket notes + whiteboard vs owner updates",
+  "3x2 goat cards with clip-path ear tags + SVG monthly weight lines vs dashed target, dark buyer bookings matched to at-target goats"
  ],
  "used_hashtag_sets": [
-  "#gasagency #cylinderdelivery #homedelivery #smallbusinessindia",
-  "#paverblocks #interlockingtiles #cementproducts #manufacturingindia",
-  "#windshieldrepair #autoglass #mobilerepair #smallbusinessusa",
-  "#jaggery #gurmaking #sugarcanefarm #foodprocessingindia",
-  "#weighbridge #dharamkanta #truckweighing #logisticsindia",
   "#ricemill #paddy #agribusinessindia #farmersindia",
   "#vegetablevendor #sabziwala #societydelivery #freshvegetables",
   "#silverjewellery #jewellerymanufacturer #karigar #jewellerybusiness",
@@ -4474,7 +4514,12 @@
   "#studylibrary #selfstudylibrary #readingroom #libraryowner",
   "#rollingshutter #shuttermanufacturer #fabricationwork #weldingworkshop",
   "#corrugatedboxes #cartonbox #packagingindia #boxmanufacturer #corrugatedpackaging",
-  "#epoxyflooring #garagefloor #flakeflooring #garagemakeover"
+  "#epoxyflooring #garagefloor #flakeflooring #garagemakeover",
+  "#cranehire #craneservice #constructionindia #heavyequipment",
+  "#rugcleaning #arearugcleaning #rugcare #smallbusinessusa",
+  "#arecaplates #arecaleafplates #ecofriendlyplates #smallbusinessindia",
+  "#horseboarding #boardingbarn #equestriancanada #barnlife",
+  "#goatfarming #goatfarm #livestockfarming #farmingindia"
  ],
  "drive_index_at_post": 395,
  "old_index_sheets_to_trash": []
