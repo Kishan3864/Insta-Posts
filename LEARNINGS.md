@@ -309,3 +309,7 @@
 - (b076) Fixed-width SVGs in 2x2 cards look tiny when the drawing uses only half the viewBox; size the SVG to the card's inner width (420px) and crop the viewBox to the drawing.
 - (b076) pl() already includes the number: never write "{n} {pl(n, ...)}" (gave "Press 3 3 packs"). Re-read every computed sentence in the contact sheet.
 - (b076) New techniques: capacity-scaled SVG truck cranes with fit/free checks, CSS rugs (medallion/grid/stripe fields + fringe), notched ticket via mask, CSS areca plates with grain, top-down stall barn with feed glyphs, ear-tag goat cards with weight lines vs target. Next: before/after slider, receipt-style weekly bill, map with delivery heat.
+- (b077) Comment pins must be positioned inside a relative wrapper the exact size of the object and placed on empty areas (never on the print text); check with a 1:1 crop.
+- (b077) Tall seat-plan SVGs at width:100% push the page past the footer; cap them with max-height and re-check the last card's bottom against the CTA row.
+- (b077) Time "now" lines must sit under booking blocks (z-index 0) so block text stays readable.
+- (b077) New techniques: SVG bus seat plan with exit/door/driver, top-view pickleball courts with live status, CSS parking bays with top-view cars, jute weave + webbing handles, seeded QR with finder squares, coworking desk-cluster floor plan. Next: before/after slider, receipt-style weekly bill, map with delivery heat.
