@@ -1,7 +1,7 @@
 {
  "drive_folder_id": "1OZvW8MCiA-_SSNn5_9g3o8k5sMyHUcxE",
- "drive_index_sheet_id": "1Ex4WhPiwEbqBF-QEG1pc6VPi3qLGqym_Fq-FvKYTgO8",
- "lock_until_utc": "2026-11-23T02:25:15Z",
+ "drive_index_sheet_id": "1y3GXyV7vrF7_xKkm5mgdoP0ZRMDQy_BVrqHWlwNL_kM",
+ "lock_until_utc": "2026-11-23T02:31:04Z",
  "last_run": "2026-11-23T00:40:51Z \u00b7 posts 326-335 made (batches 62-63), Drive 1-335 done, index sheet last refreshed at 320 (next refresh due ~345)",
  "next_post_no": 346,
  "posts_done": [
@@ -3491,7 +3491,12 @@
   337,
   338,
   339,
-  340
+  340,
+  341,
+  342,
+  343,
+  344,
+  345
  ],
  "log": [
   {
@@ -3971,9 +3976,8 @@
   "#movingcrates #movingday #ecofriendlymoving #smallbusinessusa",
   "#saunarental #mobilesauna #barrelsauna #smallbusinesscanada"
  ],
- "drive_index_at_post": 320,
+ "drive_index_at_post": 345,
  "old_index_sheets_to_trash": [
-  "15xA_plNpxQlRA-1TvbBtB27qu5aN0_LutC8JeKSODmM",
   "1kVmhTtzsjrmEhG59w3V2Odgx_cXBEIsDAxMe59zWmgU"
  ]
 }
