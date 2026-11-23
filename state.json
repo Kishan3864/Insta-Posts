@@ -1,7 +1,7 @@
 {
  "drive_folder_id": "1OZvW8MCiA-_SSNn5_9g3o8k5sMyHUcxE",
  "drive_index_sheet_id": "13U6OzC3MPS3CRC4rr262HKysQAM6av_eYwGodXqTi4c",
- "lock_until_utc": "2026-11-23T05:18:21Z",
+ "lock_until_utc": "2026-11-23T05:27:48Z",
  "last_run": "2026-11-23T03:50:31Z \u00b7 posts 366-375 made (batches 70-71; 366 replaced AttaChakki->LaserCutting as duplicate of 0134), Drive 1-375 done; index sheet refreshed at 370 (13U6...), old sheets trashed",
  "next_post_no": 381,
  "posts_done": [
@@ -3841,7 +3841,12 @@
   372,
   373,
   374,
-  375
+  375,
+  376,
+  377,
+  378,
+  379,
+  380
  ],
  "log": [
   {
