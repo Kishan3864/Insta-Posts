@@ -3,7 +3,7 @@
  "drive_index_sheet_id": "13U6OzC3MPS3CRC4rr262HKysQAM6av_eYwGodXqTi4c",
  "lock_until_utc": "2026-11-23T06:19:15Z",
  "last_run": "2026-11-23T04:53:53Z \u00b7 posts 376-390 made (batches 72-74), Drive 1-390 done; index sheet due at ~395",
- "next_post_no": 391,
+ "next_post_no": 396,
  "posts_done": [
   {
    "n": 1,
@@ -3124,11 +3124,51 @@
    "slides": 1,
    "market": "USA",
    "category": "DonutShop"
+  },
+  {
+   "n": 391,
+   "dir": "posts/0391_SINGLE_India_CashewProcessing",
+   "format": "SINGLE",
+   "slides": 1,
+   "market": "India",
+   "category": "CashewProcessing"
+  },
+  {
+   "n": 392,
+   "dir": "posts/0392_CAROUSEL_India_StudyLibrary",
+   "format": "CAROUSEL",
+   "slides": 5,
+   "market": "India",
+   "category": "StudyLibrary"
+  },
+  {
+   "n": 393,
+   "dir": "posts/0393_SINGLE_India_ShutterFabricator",
+   "format": "SINGLE",
+   "slides": 1,
+   "market": "India",
+   "category": "ShutterFabricator"
+  },
+  {
+   "n": 394,
+   "dir": "posts/0394_CAROUSEL_India_CorrugatedBox",
+   "format": "CAROUSEL",
+   "slides": 5,
+   "market": "India",
+   "category": "CorrugatedBox"
+  },
+  {
+   "n": 395,
+   "dir": "posts/0395_SINGLE_USA_EpoxyFloors",
+   "format": "SINGLE",
+   "slides": 1,
+   "market": "USA",
+   "category": "EpoxyFloors"
   }
  ],
  "market_counts": {
-  "India": 273,
-  "Abroad": 117
+  "India": 277,
+  "Abroad": 118
  },
  "used_categories": [
   "Boutique",
@@ -3527,14 +3567,14 @@
   "TractorRepair",
   "MobileMechanic",
   "PetFoodShop",
-  "DonutShop"
+  "DonutShop",
+  "CashewProcessing",
+  "StudyLibrary",
+  "ShutterFabricator",
+  "CorrugatedBox",
+  "EpoxyFloors"
  ],
  "recent_palettes": [
-  "spark orange/sheet steel/graphite",
-  "graphite/acid lime/charge blue",
-  "maple orange/pine green/kraft",
-  "ice blue/compressor copper/deep navy",
-  "teak brown/ply beige/blueprint blue",
   "excavator yellow/soil brown/sky white",
   "icicle blue/roof charcoal/alarm red",
   "rani pink/marigold/ivory",
@@ -3554,7 +3594,12 @@
   "engine orange/grease black/denim blue",
   "navy/signal yellow/driveway grey",
   "paw orange/bowl blue/cream",
-  "strawberry pink/chocolate/cream"
+  "strawberry pink/chocolate/cream",
+  "cashew cream/roast amber/deep olive",
+  "study green/lamp amber/paper",
+  "red oxide/zinc grey/chalk",
+  "corrugated tan/flexo blue/die-line red",
+  "slate/epoxy teal/flake tan"
  ],
  "drive_files_done": [
   1,
@@ -3950,66 +3995,6 @@
  ],
  "log": [
   {
-   "n": 361,
-   "date": "2026-11-23",
-   "format": "SINGLE",
-   "market": "India",
-   "category": "CableOperator",
-   "palette": "signal purple/paid green/cream",
-   "fonts": "Poppins + Fira Sans",
-   "layout": "4 lane street strips with CSS clip-path houses coloured by bill status on dashed roads + count card, collector door chips, purple auto message",
-   "dots": 2,
-   "phone": false
-  },
-  {
-   "n": 362,
-   "date": "2026-11-23",
-   "format": "CAROUSEL",
-   "market": "India",
-   "category": "MarbleGraniteDealer",
-   "palette": "marble white/granite black/brass",
-   "fonts": "Cardo + Source Sans 3",
-   "layout": "CSS stone texture slabs on A-frame rack + customer bubble, 6 slab photo cards with status chips, WhatsApp photo chat + conic hold ring + hold list, top-down 3-rack yard slot map + counts, swatch grid + tiles CTA",
-   "dots": 3,
-   "phone": false
-  },
-  {
-   "n": 363,
-   "date": "2026-11-23",
-   "format": "SINGLE",
-   "market": "India",
-   "category": "ChappalWholesale",
-   "palette": "rubber teal/sole coral/sand",
-   "fonts": "Anton + Roboto",
-   "layout": "3 article cards with size-run bars topped by SVG soles, bottleneck size in coral + full sets pill, retailer order check + factory note",
-   "dots": 5,
-   "phone": false
-  },
-  {
-   "n": 364,
-   "date": "2026-11-23",
-   "format": "SINGLE",
-   "market": "USA",
-   "category": "ConsignmentShop",
-   "palette": "sage/dusty rose/linen",
-   "fonts": "Lora + DM Sans",
-   "layout": "clothes rail with clip-path garments + hanger hooks + day tags with computed markdown stage, legend chips, consignor list + green auto text with sold/next markdown",
-   "dots": 4,
-   "phone": false
-  },
-  {
-   "n": 365,
-   "date": "2026-11-23",
-   "format": "SINGLE",
-   "market": "India",
-   "category": "KulhadMaker",
-   "palette": "terracotta/clay cream/smoke charcoal",
-   "fonts": "Gelasio + Inter",
-   "layout": "6 cafe cards with CSS kulhad isotype (1 = 100), dark kiln week strip with firing fill bars computed to capacity + breakage note",
-   "dots": 1,
-   "phone": false
-  },
-  {
    "n": 366,
    "date": "2026-11-23",
    "format": "SINGLE",
@@ -4308,14 +4293,69 @@
    "layout": "3 open donut boxes of CSS radial donuts 4x3 + dark bake list bars by flavor + pre-order form",
    "dots": 2,
    "phone": false
+  },
+  {
+   "n": 391,
+   "date": "2026-11-23",
+   "format": "SINGLE",
+   "market": "India",
+   "category": "CashewProcessing",
+   "palette": "cashew cream/roast amber/deep olive",
+   "fonts": "Bitter + Inter",
+   "layout": "5 grade cards with SVG cashew kernels sized by grade + tin isotype booked/free, orders allocated by delivery date with short chip, olive owner alert",
+   "dots": 4,
+   "phone": false
+  },
+  {
+   "n": 392,
+   "date": "2026-11-23",
+   "format": "CAROUSEL",
+   "market": "India",
+   "category": "StudyLibrary",
+   "palette": "study green/lamp amber/paper",
+   "fonts": "Lora + DM Sans",
+   "layout": "shift-split seat map (top half morning, bottom evening) + counts, walk-in + free seat highlights + phone join form, renewals week strip + member list + reminders, waitlist + ending seats + offer flow, tiles CTA",
+   "dots": 1,
+   "phone": true
+  },
+  {
+   "n": 393,
+   "date": "2026-11-23",
+   "format": "SINGLE",
+   "market": "India",
+   "category": "ShutterFabricator",
+   "palette": "red oxide/zinc grey/chalk",
+   "fonts": "Anton + Fira Sans",
+   "layout": "SVG rolling shutter front elevation with dimension arrows + dark site measure form, 6-stage dot tracker per job, red oxide auto message",
+   "dots": 3,
+   "phone": false
+  },
+  {
+   "n": 394,
+   "date": "2026-11-23",
+   "format": "CAROUSEL",
+   "market": "India",
+   "category": "CorrugatedBox",
+   "palette": "corrugated tan/flexo blue/die-line red",
+   "fonts": "Archivo Black + Source Sans 3",
+   "layout": "SVG RSC dieline with cut/fold lines + diary note, spec card + flute cross-sections + proof, sheet size formulas + reel deckle ups drawing, 6-station conveyor line with cartons + dispatch slip + plan, CTA",
+   "dots": 5,
+   "phone": false
+  },
+  {
+   "n": 395,
+   "date": "2026-11-23",
+   "format": "SINGLE",
+   "market": "USA",
+   "category": "EpoxyFloors",
+   "palette": "slate/epoxy teal/flake tan",
+   "fonts": "Montserrat + Inter",
+   "layout": "top-down SVG garage with seeded flake speckle, cracks and drain + quote form with sq ft and flake swatches, dark 4-step install plan",
+   "dots": 2,
+   "phone": false
   }
  ],
  "recent_fonts": [
-  "Bitter + Source Sans 3",
-  "Archivo Black + DM Sans",
-  "Cardo + Montserrat",
-  "Montserrat + Roboto",
-  "TeX Gyre Adventor + Source Sans 3",
   "Anton + Inter",
   "Crimson Text + Fira Sans",
   "Cardo + Poppins",
@@ -4335,14 +4375,14 @@
   "Archivo Black + Inter",
   "Poppins + Roboto",
   "Gelasio + DM Sans",
-  "TeX Gyre Adventor + Fira Sans"
+  "TeX Gyre Adventor + Fira Sans",
+  "Bitter + Inter",
+  "Lora + DM Sans",
+  "Anton + Fira Sans",
+  "Archivo Black + Source Sans 3",
+  "Montserrat + Inter"
  ],
  "recent_layouts": [
-  "Gantt queue board: 3 machine lanes (2 lasers + bending) with qty-sized job blocks, hatched sheet/tool change blocks, red now line + job slip, counts, ready message",
-  "CSS battery hero + bill book pile, browser sales table by serial, serial search with warranty timeline bars + today marker, old battery isotype + exchange slip, phone reminder chat + visit list, batteries + tiles CTA",
-  "top-down SVG street of 8 lots with tree crowns + seeded leaf scatter, day-coloured outlines + chips, browser quote chips form, two route day cards",
-  "CSS double-door fridge with numbered pins matching numbered job card fields, technician day list with part chips, parts-to-carry counts card",
-  "SVG isometric 2BHK plan computed in Python with extruded furniture boxes coloured by status + upright numbered pins and room pills, room-wise list + blue site update with photo tiles and counts",
   "CSS odometer hour meters (start/end photo) + hours box, 3-machine table with mini meters, week hours bars + auto message chips",
   "SVG roof cross-section with snow, ice dam, icicles, warm attic glow and leak path labels + booking form list, dark 3-day crew board sorted leaks first",
   "phone order form + event-date board of CSS pleated saree boxes with status chips + weekend count card",
@@ -4362,14 +4402,14 @@
   "SVG top-down yard of tractors with job tags, paper job card + who-sees list, 4-column status board + parts list, ready message + vertical repair history, CTA counts",
   "booking form -> parts card, CSS cargo van cutaway with per-job bins on 2 shelves, 4 route cards",
   "3x2 customer cards with CSS clip-path food bags showing kibble left + days-left bars, reminder bubble + dark due list",
-  "3 open donut boxes of CSS radial donuts 4x3 + dark bake list bars by flavor + pre-order form"
+  "3 open donut boxes of CSS radial donuts 4x3 + dark bake list bars by flavor + pre-order form",
+  "5 grade cards with SVG cashew kernels sized by grade + tin isotype booked/free, orders allocated by delivery date with short chip, olive owner alert",
+  "shift-split seat map (top half morning, bottom evening) + counts, walk-in + free seat highlights + phone join form, renewals week strip + member list + reminders, waitlist + ending seats + offer flow, tiles CTA",
+  "SVG rolling shutter front elevation with dimension arrows + dark site measure form, 6-stage dot tracker per job, red oxide auto message",
+  "SVG RSC dieline with cut/fold lines + diary note, spec card + flute cross-sections + proof, sheet size formulas + reel deckle ups drawing, 6-station conveyor line with cartons + dispatch slip + plan, CTA",
+  "top-down SVG garage with seeded flake speckle, cracks and drain + quote form with sq ft and flake swatches, dark 4-step install plan"
  ],
  "used_hashtag_sets": [
-  "#newspaperagency #newspaperdelivery #paperwala #localbusinessindia",
-  "#hydroponics #hydroponicfarming #urbanfarmingindia #freshgreens",
-  "#laptoprental #itrental #eventtech #rentalbusinessindia",
-  "#solarpanelcleaning #rooftopsolar #solarindia #solarmaintenance",
-  "#dumpsterrental #rolloffdumpster #junkhauling #localbusinessusa",
   "#gasagency #cylinderdelivery #homedelivery #smallbusinessindia",
   "#paverblocks #interlockingtiles #cementproducts #manufacturingindia",
   "#windshieldrepair #autoglass #mobilerepair #smallbusinessusa",
@@ -4424,7 +4464,12 @@
   "#tractorrepair #tractormechanic #farmmachinery #tractorworkshop #agricultureindia",
   "#mobilemechanic #mobilecarrepair #automechanic #smallbusinessusa",
   "#petshop #petfood #dogfood #petsupplies",
-  "#donutshop #donuts #officebreakfast #bakerybusiness"
+  "#donutshop #donuts #officebreakfast #bakerybusiness",
+  "#cashewprocessing #cashewnuts #dryfruitsbusiness #foodprocessingindia",
+  "#studylibrary #selfstudylibrary #readingroom #libraryowner",
+  "#rollingshutter #shuttermanufacturer #fabricationwork #weldingworkshop",
+  "#corrugatedboxes #cartonbox #packagingindia #boxmanufacturer #corrugatedpackaging",
+  "#epoxyflooring #garagefloor #flakeflooring #garagemakeover"
  ],
  "drive_index_at_post": 370,
  "old_index_sheets_to_trash": []
