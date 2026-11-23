@@ -1,9 +1,9 @@
 {
  "drive_folder_id": "1OZvW8MCiA-_SSNn5_9g3o8k5sMyHUcxE",
  "drive_index_sheet_id": "13U6OzC3MPS3CRC4rr262HKysQAM6av_eYwGodXqTi4c",
- "lock_until_utc": "2026-11-23T04:32:36Z",
+ "lock_until_utc": "2026-11-23T04:38:57Z",
  "last_run": "2026-11-23T02:41:39Z \u00b7 posts 356-365 made (batches 68-69), Drive 1-365 done; index sheet refresh due at ~370; old sheet 1kVm... still to trash",
- "next_post_no": 371,
+ "next_post_no": 376,
  "posts_done": [
   {
    "n": 1,
@@ -2964,11 +2964,51 @@
    "slides": 1,
    "market": "India",
    "category": "CarpenterContractor"
+  },
+  {
+   "n": 371,
+   "dir": "posts/0371_SINGLE_India_EarthmoverRental",
+   "format": "SINGLE",
+   "slides": 1,
+   "market": "India",
+   "category": "EarthmoverRental"
+  },
+  {
+   "n": 372,
+   "dir": "posts/0372_SINGLE_Canada_IceDamRemoval",
+   "format": "SINGLE",
+   "slides": 1,
+   "market": "Canada",
+   "category": "IceDamRemoval"
+  },
+  {
+   "n": 373,
+   "dir": "posts/0373_SINGLE_India_SareePrePleating",
+   "format": "SINGLE",
+   "slides": 1,
+   "market": "India",
+   "category": "SareePrePleating"
+  },
+  {
+   "n": 374,
+   "dir": "posts/0374_CAROUSEL_India_PrinterRefill",
+   "format": "CAROUSEL",
+   "slides": 5,
+   "market": "India",
+   "category": "PrinterRefill"
+  },
+  {
+   "n": 375,
+   "dir": "posts/0375_SINGLE_USA_VendingOperator",
+   "format": "SINGLE",
+   "slides": 1,
+   "market": "USA",
+   "category": "VendingOperator"
   }
  ],
  "market_counts": {
-  "India": 260,
-  "Abroad": 110
+  "India": 263,
+  "Abroad": 112
  },
  "used_categories": [
   "Boutique",
@@ -3347,14 +3387,14 @@
   "BatteryDealer",
   "LeafCleanup",
   "FridgeRepair",
-  "CarpenterContractor"
+  "CarpenterContractor",
+  "EarthmoverRental",
+  "IceDamRemoval",
+  "SareePrePleating",
+  "PrinterRefill",
+  "VendingOperator"
  ],
  "recent_palettes": [
-  "fodder green/milk cream/barn red",
-  "masala chai brown/flask steel/cardamom green",
-  "glass aqua/cutting orange/graphite",
-  "linen white/turnover coral/slate",
-  "feed yellow/shed green/straw",
   "steamer bamboo/chilli red/dough white",
   "brick red/helmet yellow/blueprint navy",
   "whisker grey/yarn pink/mint",
@@ -3374,7 +3414,12 @@
   "graphite/acid lime/charge blue",
   "maple orange/pine green/kraft",
   "ice blue/compressor copper/deep navy",
-  "teak brown/ply beige/blueprint blue"
+  "teak brown/ply beige/blueprint blue",
+  "excavator yellow/soil brown/sky white",
+  "icicle blue/roof charcoal/alarm red",
+  "rani pink/marigold/ivory",
+  "toner black/CMYK accents/paper white",
+  "cobalt/snack yellow/chrome"
  ],
  "drive_files_done": [
   1,
@@ -3750,66 +3795,6 @@
  ],
  "log": [
   {
-   "n": 341,
-   "date": "2026-11-23",
-   "format": "SINGLE",
-   "market": "India",
-   "category": "RiceMill",
-   "palette": "paddy gold/jute brown/rice white",
-   "fonts": "Gelasio + DM Sans",
-   "layout": "farmer lot rows of SVG jute-pattern sack isotypes (1 sack = 5 bags, faded = waiting) with stage chips + dark yard total + farmer message",
-   "dots": 2,
-   "phone": false
-  },
-  {
-   "n": 342,
-   "date": "2026-11-23",
-   "format": "SINGLE",
-   "market": "India",
-   "category": "VegetableVan",
-   "palette": "okra green/tomato red/cart wood",
-   "fonts": "Archivo Black + Roboto",
-   "layout": "vertical road ribbon route with society stop pins and order counts + phone pre-order list with bag number",
-   "dots": 4,
-   "phone": true
-  },
-  {
-   "n": 343,
-   "date": "2026-11-23",
-   "format": "SINGLE",
-   "market": "India",
-   "category": "JewelleryKarigar",
-   "palette": "polished silver/garnet/black velvet",
-   "fonts": "Cardo + Inter",
-   "layout": "velvet card with SVG balance scale + gram totals + open gaps, karigar ledger rows with issued/jewellery/scrap/gap tiles",
-   "dots": 5,
-   "phone": false
-  },
-  {
-   "n": 344,
-   "date": "2026-11-23",
-   "format": "CAROUSEL",
-   "market": "USA",
-   "category": "CrateRental",
-   "palette": "safety lime/charcoal/label white",
-   "fonts": "TeX Gyre Adventor + Fira Sans",
-   "layout": "CSS crate stacks per job, browser order-by-room counter, week calendar with drop/pickup chips + yard fill gauges, crate grid with dashed missing + check list + text, crate pyramid + tiles CTA",
-   "dots": 3,
-   "phone": false
-  },
-  {
-   "n": 345,
-   "date": "2026-11-23",
-   "format": "SINGLE",
-   "market": "Canada",
-   "category": "SaunaRental",
-   "palette": "cedar orange/snow blue/charcoal",
-   "fonts": "Lora + Source Sans 3",
-   "layout": "SVG barrel sauna trailer + includes list, dark two-trailer weekend booking grid with dashed open days",
-   "dots": 1,
-   "phone": false
-  },
-  {
    "n": 346,
    "date": "2026-11-23",
    "format": "SINGLE",
@@ -4108,14 +4093,69 @@
    "layout": "SVG isometric 2BHK plan computed in Python with extruded furniture boxes coloured by status + upright numbered pins and room pills, room-wise list + blue site update with photo tiles and counts",
    "dots": 1,
    "phone": false
+  },
+  {
+   "n": 371,
+   "date": "2026-11-23",
+   "format": "SINGLE",
+   "market": "India",
+   "category": "EarthmoverRental",
+   "palette": "excavator yellow/soil brown/sky white",
+   "fonts": "Anton + Inter",
+   "layout": "CSS odometer hour meters (start/end photo) + hours box, 3-machine table with mini meters, week hours bars + auto message chips",
+   "dots": 4,
+   "phone": false
+  },
+  {
+   "n": 372,
+   "date": "2026-11-23",
+   "format": "SINGLE",
+   "market": "Canada",
+   "category": "IceDamRemoval",
+   "palette": "icicle blue/roof charcoal/alarm red",
+   "fonts": "Crimson Text + Fira Sans",
+   "layout": "SVG roof cross-section with snow, ice dam, icicles, warm attic glow and leak path labels + booking form list, dark 3-day crew board sorted leaks first",
+   "dots": 2,
+   "phone": false
+  },
+  {
+   "n": 373,
+   "date": "2026-11-23",
+   "format": "SINGLE",
+   "market": "India",
+   "category": "SareePrePleating",
+   "palette": "rani pink/marigold/ivory",
+   "fonts": "Cardo + Poppins",
+   "layout": "phone order form + event-date board of CSS pleated saree boxes with status chips + weekend count card",
+   "dots": 5,
+   "phone": true
+  },
+  {
+   "n": 374,
+   "date": "2026-11-23",
+   "format": "CAROUSEL",
+   "market": "India",
+   "category": "PrinterRefill",
+   "palette": "toner black/CMYK accents/paper white",
+   "fonts": "Lora + Open Sans",
+   "layout": "CSS printer with half-printed page + office bubbles, printer table with totals, pages-vs-yield bars with 85% marker + due card, route with times + job sheet with SVG signature, printer + tiles CTA",
+   "dots": 3,
+   "phone": false
+  },
+  {
+   "n": 375,
+   "date": "2026-11-23",
+   "format": "SINGLE",
+   "market": "USA",
+   "category": "VendingOperator",
+   "palette": "cobalt/snack yellow/chrome",
+   "fonts": "Gelasio + Roboto",
+   "layout": "6 CSS vending machine fronts with seeded slot grids + fill % bars, legend, emptiest-first route + van load list computed from empty slots",
+   "dots": 1,
+   "phone": false
   }
  ],
  "recent_fonts": [
-  "Poppins + Roboto",
-  "Bitter + DM Sans",
-  "Montserrat + Inter",
-  "Archivo Black + Source Sans 3",
-  "Gelasio + Open Sans",
   "Anton + Inter",
   "Cardo + Roboto",
   "Poppins + DM Sans",
@@ -4135,14 +4175,14 @@
   "Archivo Black + DM Sans",
   "Cardo + Montserrat",
   "Montserrat + Roboto",
-  "TeX Gyre Adventor + Source Sans 3"
+  "TeX Gyre Adventor + Source Sans 3",
+  "Anton + Inter",
+  "Crimson Text + Fira Sans",
+  "Cardo + Poppins",
+  "Lora + Open Sans",
+  "Gelasio + Roboto"
  ],
  "recent_layouts": [
-  "8 cow cards with clip-path yellow ear tags + CSS steel milk cans filled AM/PM + totals + collection note",
-  "CSS steel flasks with tally marks + complaint bubble, office round rows with time chips + flask badges, cups heat calendar office x day, cup statement with colour strip + office total cards, flasks + tiles CTA",
-  "to-scale SVG glass sheet cut plan with dashed pieces + hatched offcut, orders list + dark offcut rack card",
-  "turnover window board: dashed checkout-to-checkin windows with cleaning blocks by % on time axis + linen/crew tiles + coral note",
-  "two shed cards with SVG side-view sheds + 42-dot batch day strip + feed days-left tiles, feed bag order card + trader message",
   "3 outlet cards with last-4-weekday mini bars + CSS bamboo steamer stacks + plan pill, red kitchen sheet strip",
   "CSS hard hat isotype per site, gate list rows with time + tick, week attendance P/half/absent grid, pay list with advance chips + message, hats + tiles CTA",
   "SVG key ring with colored client key tags + weekend visit list + phone visit report with photos and task ticks",
@@ -4162,14 +4202,14 @@
   "CSS battery hero + bill book pile, browser sales table by serial, serial search with warranty timeline bars + today marker, old battery isotype + exchange slip, phone reminder chat + visit list, batteries + tiles CTA",
   "top-down SVG street of 8 lots with tree crowns + seeded leaf scatter, day-coloured outlines + chips, browser quote chips form, two route day cards",
   "CSS double-door fridge with numbered pins matching numbered job card fields, technician day list with part chips, parts-to-carry counts card",
-  "SVG isometric 2BHK plan computed in Python with extruded furniture boxes coloured by status + upright numbered pins and room pills, room-wise list + blue site update with photo tiles and counts"
+  "SVG isometric 2BHK plan computed in Python with extruded furniture boxes coloured by status + upright numbered pins and room pills, room-wise list + blue site update with photo tiles and counts",
+  "CSS odometer hour meters (start/end photo) + hours box, 3-machine table with mini meters, week hours bars + auto message chips",
+  "SVG roof cross-section with snow, ice dam, icicles, warm attic glow and leak path labels + booking form list, dark 3-day crew board sorted leaks first",
+  "phone order form + event-date board of CSS pleated saree boxes with status chips + weekend count card",
+  "CSS printer with half-printed page + office bubbles, printer table with totals, pages-vs-yield bars with 85% marker + due card, route with times + job sheet with SVG signature, printer + tiles CTA",
+  "6 CSS vending machine fronts with seeded slot grids + fill % bars, legend, emptiest-first route + van load list computed from empty slots"
  ],
  "used_hashtag_sets": [
-  "#fishfarming #aquacultureindia #pondfarming #farmersofindia",
-  "#pav #bakerysupply #streetfoodindia #breadsupplier",
-  "#taxpreparer #taxseason #taxprofessional #smallbusinessusa",
-  "#skatesharpening #hockeycanada #hockeyskates #localbusinesscanada",
-  "#driveroncall #hiredriver #chauffeurservice #localserviceindia",
   "#trophyshop #trophiesandmedals #corporateawards #engraving",
   "#garmentmanufacturing #stitchingunit #apparelindustry #textileindia",
   "#mocktest #exampreparation #coachingcentre #competitiveexams",
@@ -4224,7 +4264,12 @@
   "#batterydealer #inverterbattery #carbattery #shopsoftware #retailindia",
   "#leafcleanup #fallcleanup #yardcrew #lawncarebusiness",
   "#fridgerepair #washingmachinerepair #appliancerepair #servicebusinessindia",
-  "#carpenter #interiorwork #woodwork #modularfurniture #homeinteriorindia"
+  "#carpenter #interiorwork #woodwork #modularfurniture #homeinteriorindia",
+  "#jcbrental #earthmover #excavatorrental #constructionindia",
+  "#icedamremoval #icedams #roofsnowremoval #canadianwinter",
+  "#sareepleating #prepleatedsaree #sareedraping #sareelove",
+  "#printerrepair #tonerrefill #cartridgerefill #officesupplies #smallbusinessindia",
+  "#vendingmachine #vendingbusiness #vendingroute #smallbusinessowner"
  ],
  "drive_index_at_post": 370,
  "old_index_sheets_to_trash": []
