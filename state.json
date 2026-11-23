@@ -1,9 +1,9 @@
 {
  "drive_folder_id": "1OZvW8MCiA-_SSNn5_9g3o8k5sMyHUcxE",
  "drive_index_sheet_id": "1y3GXyV7vrF7_xKkm5mgdoP0ZRMDQy_BVrqHWlwNL_kM",
- "lock_until_utc": "2026-11-23T04:18:32Z",
+ "lock_until_utc": "2026-11-23T04:26:55Z",
  "last_run": "2026-11-23T02:41:39Z \u00b7 posts 356-365 made (batches 68-69), Drive 1-365 done; index sheet refresh due at ~370; old sheet 1kVm... still to trash",
- "next_post_no": 366,
+ "next_post_no": 371,
  "posts_done": [
   {
    "n": 1,
@@ -2924,11 +2924,51 @@
    "slides": 1,
    "market": "India",
    "category": "KulhadMaker"
+  },
+  {
+   "n": 366,
+   "dir": "posts/0366_SINGLE_India_AttaChakki",
+   "format": "SINGLE",
+   "slides": 1,
+   "market": "India",
+   "category": "AttaChakki"
+  },
+  {
+   "n": 367,
+   "dir": "posts/0367_CAROUSEL_India_BatteryDealer",
+   "format": "CAROUSEL",
+   "slides": 6,
+   "market": "India",
+   "category": "BatteryDealer"
+  },
+  {
+   "n": 368,
+   "dir": "posts/0368_SINGLE_USA_LeafCleanup",
+   "format": "SINGLE",
+   "slides": 1,
+   "market": "USA",
+   "category": "LeafCleanup"
+  },
+  {
+   "n": 369,
+   "dir": "posts/0369_SINGLE_India_FridgeRepair",
+   "format": "SINGLE",
+   "slides": 1,
+   "market": "India",
+   "category": "FridgeRepair"
+  },
+  {
+   "n": 370,
+   "dir": "posts/0370_SINGLE_India_CarpenterContractor",
+   "format": "SINGLE",
+   "slides": 1,
+   "market": "India",
+   "category": "CarpenterContractor"
   }
  ],
  "market_counts": {
-  "India": 256,
-  "Abroad": 109
+  "India": 260,
+  "Abroad": 110
  },
  "used_categories": [
   "Boutique",
@@ -3302,14 +3342,14 @@
   "MarbleGraniteDealer",
   "ChappalWholesale",
   "ConsignmentShop",
-  "KulhadMaker"
+  "KulhadMaker",
+  "AttaChakki",
+  "BatteryDealer",
+  "LeafCleanup",
+  "FridgeRepair",
+  "CarpenterContractor"
  ],
  "recent_palettes": [
-  "paddy gold/jute brown/rice white",
-  "okra green/tomato red/cart wood",
-  "polished silver/garnet/black velvet",
-  "safety lime/charcoal/label white",
-  "cedar orange/snow blue/charcoal",
   "fodder green/milk cream/barn red",
   "masala chai brown/flask steel/cardamom green",
   "glass aqua/cutting orange/graphite",
@@ -3329,7 +3369,12 @@
   "marble white/granite black/brass",
   "rubber teal/sole coral/sand",
   "sage/dusty rose/linen",
-  "terracotta/clay cream/smoke charcoal"
+  "terracotta/clay cream/smoke charcoal",
+  "wheat gold/millstone slate/flour white",
+  "graphite/acid lime/charge blue",
+  "maple orange/pine green/kraft",
+  "ice blue/compressor copper/deep navy",
+  "teak brown/ply beige/blueprint blue"
  ],
  "drive_files_done": [
   1,
@@ -3700,66 +3745,6 @@
  ],
  "log": [
   {
-   "n": 336,
-   "date": "2026-11-23",
-   "format": "SINGLE",
-   "market": "India",
-   "category": "GasAgency",
-   "palette": "steel teal/flame orange/ivory",
-   "fonts": "Bitter + Inter",
-   "layout": "diagonal before/after split card: diary + missed calls above, rider board with SVG cylinder icons (filled = delivered) + booking message below",
-   "dots": 3,
-   "phone": false
-  },
-  {
-   "n": 337,
-   "date": "2026-11-23",
-   "format": "CAROUSEL",
-   "market": "India",
-   "category": "PaverBlockMaker",
-   "palette": "concrete grey/terracotta/moss",
-   "fonts": "Montserrat + Roboto",
-   "layout": "SVG basket-weave paver patch + crossed guesses, sq ft x rate order table + pattern swatches, top-down pallets with conic curing rings, truck load bars per trip + customer message, mixed patch + tiles CTA",
-   "dots": 5,
-   "phone": false
-  },
-  {
-   "n": 338,
-   "date": "2026-11-23",
-   "format": "SINGLE",
-   "market": "USA",
-   "category": "WindshieldRepair",
-   "palette": "glass sky blue/resin amber/charcoal",
-   "fonts": "Poppins + Open Sans",
-   "layout": "SVG windshield with numbered star chips and crack + damage legend row + two-column browser booking with taken slots",
-   "dots": 2,
-   "phone": false
-  },
-  {
-   "n": 339,
-   "date": "2026-11-23",
-   "format": "SINGLE",
-   "market": "India",
-   "category": "JaggeryUnit",
-   "palette": "jaggery brown/cane green/cream gold",
-   "fonts": "Crimson Text + Fira Sans",
-   "layout": "dark boiling house with top-down SVG pans + dasharray progress rings, CSS jaggery block stock list, buyer orders checked against stock",
-   "dots": 4,
-   "phone": false
-  },
-  {
-   "n": 340,
-   "date": "2026-11-23",
-   "format": "SINGLE",
-   "market": "India",
-   "category": "Weighbridge",
-   "palette": "highway yellow/LED red/asphalt",
-   "fonts": "Anton + Source Sans 3",
-   "layout": "SVG truck on weighbridge deck with red LED readout + double-border ink weight slip + gross/tare/net register + message bar",
-   "dots": 1,
-   "phone": false
-  },
-  {
    "n": 341,
    "date": "2026-11-23",
    "format": "SINGLE",
@@ -4058,14 +4043,69 @@
    "layout": "6 cafe cards with CSS kulhad isotype (1 = 100), dark kiln week strip with firing fill bars computed to capacity + breakage note",
    "dots": 1,
    "phone": false
+  },
+  {
+   "n": 366,
+   "date": "2026-11-23",
+   "format": "SINGLE",
+   "market": "India",
+   "category": "AttaChakki",
+   "palette": "wheat gold/millstone slate/flour white",
+   "fonts": "Bitter + Source Sans 3",
+   "layout": "Gantt queue board: 3 chakki lanes with kg-sized token blocks, hatched clean blocks on grain change, red now line + token slip, counts, ready message",
+   "dots": 3,
+   "phone": false
+  },
+  {
+   "n": 367,
+   "date": "2026-11-23",
+   "format": "CAROUSEL",
+   "market": "India",
+   "category": "BatteryDealer",
+   "palette": "graphite/acid lime/charge blue",
+   "fonts": "Archivo Black + DM Sans",
+   "layout": "CSS battery hero + bill book pile, browser sales table by serial, serial search with warranty timeline bars + today marker, old battery isotype + exchange slip, phone reminder chat + visit list, batteries + tiles CTA",
+   "dots": 5,
+   "phone": true
+  },
+  {
+   "n": 368,
+   "date": "2026-11-23",
+   "format": "SINGLE",
+   "market": "USA",
+   "category": "LeafCleanup",
+   "palette": "maple orange/pine green/kraft",
+   "fonts": "Cardo + Montserrat",
+   "layout": "top-down SVG street of 8 lots with tree crowns + seeded leaf scatter, day-coloured outlines + chips, browser quote chips form, two route day cards",
+   "dots": 2,
+   "phone": false
+  },
+  {
+   "n": 369,
+   "date": "2026-11-23",
+   "format": "SINGLE",
+   "market": "India",
+   "category": "FridgeRepair",
+   "palette": "ice blue/compressor copper/deep navy",
+   "fonts": "Montserrat + Roboto",
+   "layout": "CSS double-door fridge with numbered pins matching numbered job card fields, technician day list with part chips, parts-to-carry counts card",
+   "dots": 4,
+   "phone": false
+  },
+  {
+   "n": 370,
+   "date": "2026-11-23",
+   "format": "SINGLE",
+   "market": "India",
+   "category": "CarpenterContractor",
+   "palette": "teak brown/ply beige/blueprint blue",
+   "fonts": "TeX Gyre Adventor + Source Sans 3",
+   "layout": "SVG isometric 2BHK plan computed in Python with extruded furniture boxes coloured by status + upright numbered pins and room pills, room-wise list + blue site update with photo tiles and counts",
+   "dots": 1,
+   "phone": false
   }
  ],
  "recent_fonts": [
-  "Gelasio + DM Sans",
-  "Archivo Black + Roboto",
-  "Cardo + Inter",
-  "TeX Gyre Adventor + Fira Sans",
-  "Lora + Source Sans 3",
   "Poppins + Roboto",
   "Bitter + DM Sans",
   "Montserrat + Inter",
@@ -4085,14 +4125,14 @@
   "Cardo + Source Sans 3",
   "Anton + Roboto",
   "Lora + DM Sans",
-  "Gelasio + Inter"
+  "Gelasio + Inter",
+  "Bitter + Source Sans 3",
+  "Archivo Black + DM Sans",
+  "Cardo + Montserrat",
+  "Montserrat + Roboto",
+  "TeX Gyre Adventor + Source Sans 3"
  ],
  "recent_layouts": [
-  "farmer lot rows of SVG jute-pattern sack isotypes (1 sack = 5 bags, faded = waiting) with stage chips + dark yard total + farmer message",
-  "vertical road ribbon route with society stop pins and order counts + phone pre-order list with bag number",
-  "velvet card with SVG balance scale + gram totals + open gaps, karigar ledger rows with issued/jewellery/scrap/gap tiles",
-  "CSS crate stacks per job, browser order-by-room counter, week calendar with drop/pickup chips + yard fill gauges, crate grid with dashed missing + check list + text, crate pyramid + tiles CTA",
-  "SVG barrel sauna trailer + includes list, dark two-trailer weekend booking grid with dashed open days",
   "8 cow cards with clip-path yellow ear tags + CSS steel milk cans filled AM/PM + totals + collection note",
   "CSS steel flasks with tally marks + complaint bubble, office round rows with time chips + flask badges, cups heat calendar office x day, cup statement with colour strip + office total cards, flasks + tiles CTA",
   "to-scale SVG glass sheet cut plan with dashed pieces + hatched offcut, orders list + dark offcut rack card",
@@ -4112,14 +4152,14 @@
   "CSS stone texture slabs on A-frame rack + customer bubble, 6 slab photo cards with status chips, WhatsApp photo chat + conic hold ring + hold list, top-down 3-rack yard slot map + counts, swatch grid + tiles CTA",
   "3 article cards with size-run bars topped by SVG soles, bottleneck size in coral + full sets pill, retailer order check + factory note",
   "clothes rail with clip-path garments + hanger hooks + day tags with computed markdown stage, legend chips, consignor list + green auto text with sold/next markdown",
-  "6 cafe cards with CSS kulhad isotype (1 = 100), dark kiln week strip with firing fill bars computed to capacity + breakage note"
+  "6 cafe cards with CSS kulhad isotype (1 = 100), dark kiln week strip with firing fill bars computed to capacity + breakage note",
+  "Gantt queue board: 3 chakki lanes with kg-sized token blocks, hatched clean blocks on grain change, red now line + token slip, counts, ready message",
+  "CSS battery hero + bill book pile, browser sales table by serial, serial search with warranty timeline bars + today marker, old battery isotype + exchange slip, phone reminder chat + visit list, batteries + tiles CTA",
+  "top-down SVG street of 8 lots with tree crowns + seeded leaf scatter, day-coloured outlines + chips, browser quote chips form, two route day cards",
+  "CSS double-door fridge with numbered pins matching numbered job card fields, technician day list with part chips, parts-to-carry counts card",
+  "SVG isometric 2BHK plan computed in Python with extruded furniture boxes coloured by status + upright numbered pins and room pills, room-wise list + blue site update with photo tiles and counts"
  ],
  "used_hashtag_sets": [
-  "#stonecrusher #aggregates #constructionmaterial #buildingmaterialsindia",
-  "#icecreamdistributor #frozenfood #distributorsindia #fmcgdistribution",
-  "#offsetprinting #printingpress #visitingcards #printshopindia",
-  "#icefishing #icehut #icefishingcanada #winteroutdoors",
-  "#albumprinting #photoalbum #albumdesign #photographersindia",
   "#fishfarming #aquacultureindia #pondfarming #farmersofindia",
   "#pav #bakerysupply #streetfoodindia #breadsupplier",
   "#taxpreparer #taxseason #taxprofessional #smallbusinessusa",
@@ -4174,7 +4214,12 @@
   "#marbledealer #granite #stoneyard #buildingmaterialindia",
   "#footwearwholesale #chappal #footwearindia #wholesalebusiness",
   "#consignmentshop #resaleboutique #shopsmall #smallbusinessusa",
-  "#kulhad #kulhadchai #claycraft #terracotta"
+  "#kulhad #kulhadchai #claycraft #terracotta",
+  "#attachakki #flourmill #chakki #localbusinessindia",
+  "#batterydealer #inverterbattery #carbattery #shopsoftware #retailindia",
+  "#leafcleanup #fallcleanup #yardcrew #lawncarebusiness",
+  "#fridgerepair #washingmachinerepair #appliancerepair #servicebusinessindia",
+  "#carpenter #interiorwork #woodwork #modularfurniture #homeinteriorindia"
  ],
  "drive_index_at_post": 345,
  "old_index_sheets_to_trash": [
