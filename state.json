@@ -3,7 +3,7 @@
  "drive_index_sheet_id": "1TZmiD1hScUkyUBFGZMV6NghHhu1eb8vRCeZtz-_WTK8",
  "lock_until_utc": "2026-11-23T09:28:24Z",
  "last_run": "2026-11-23T07:44:22Z \u00b7 posts 416-425 made (batches 80-81), Drive 1-425 done; index sheet refreshed at 420 (next ~445); next batch needs 2 carousels (last 10 had 3)",
- "next_post_no": 431,
+ "next_post_no": 436,
  "posts_done": [
   {
    "n": 1,
@@ -3444,11 +3444,51 @@
    "slides": 1,
    "market": "Canada",
    "category": "SmallEngineRepair"
+  },
+  {
+   "n": 431,
+   "dir": "posts/0431_CAROUSEL_India_MakhanaProcessor",
+   "format": "CAROUSEL",
+   "slides": 5,
+   "market": "India",
+   "category": "MakhanaProcessor"
+  },
+  {
+   "n": 432,
+   "dir": "posts/0432_SINGLE_India_WireHarness",
+   "format": "SINGLE",
+   "slides": 1,
+   "market": "India",
+   "category": "WireHarness"
+  },
+  {
+   "n": 433,
+   "dir": "posts/0433_SINGLE_India_SoilTestingLab",
+   "format": "SINGLE",
+   "slides": 1,
+   "market": "India",
+   "category": "SoilTestingLab"
+  },
+  {
+   "n": 434,
+   "dir": "posts/0434_SINGLE_India_SewingClasses",
+   "format": "SINGLE",
+   "slides": 1,
+   "market": "India",
+   "category": "SewingClasses"
+  },
+  {
+   "n": 435,
+   "dir": "posts/0435_SINGLE_USA_KnifeSharpening",
+   "format": "SINGLE",
+   "slides": 1,
+   "market": "USA",
+   "category": "KnifeSharpening"
   }
  ],
  "market_counts": {
-  "India": 301,
-  "Abroad": 129
+  "India": 305,
+  "Abroad": 130
  },
  "used_categories": [
   "Boutique",
@@ -3887,14 +3927,14 @@
   "PaperBagMaker",
   "HomeInspection",
   "Chikankari",
-  "SmallEngineRepair"
+  "SmallEngineRepair",
+  "MakhanaProcessor",
+  "WireHarness",
+  "SoilTestingLab",
+  "SewingClasses",
+  "KnifeSharpening"
  ],
  "recent_palettes": [
-  "willow cream/leather red/pitch green",
-  "ice blue/midnight navy/board orange",
-  "rubber black/chrome/volt lime",
-  "teal cotton/rose print/ivory",
-  "desert sand/RV teal/rust",
   "tarp blue/safety orange/rope beige",
   "coir brown/backwater green/natural fibre",
   "wheat/tawa black/chilli red",
@@ -3914,7 +3954,12 @@
   "kraft brown/print green/paper white",
   "slate blue/clipboard tan/flag red",
   "muslin white/thread lilac/indigo",
-  "spruce green/frost/tag yellow"
+  "spruce green/frost/tag yellow",
+  "pond green/makhana ivory/lotus pink",
+  "harness black/copper/signal blue",
+  "loam brown/sprout green/report cream",
+  "denim blue/tape yellow/chalk white",
+  "stone grey/market teal/cream"
  ],
  "drive_files_done": [
   1,
@@ -4350,66 +4395,6 @@
  ],
  "log": [
   {
-   "n": 401,
-   "date": "2026-11-23",
-   "format": "CAROUSEL",
-   "market": "India",
-   "category": "JuteBags",
-   "palette": "jute natural/screen-print green/ink black",
-   "fonts": "Bitter + DM Sans",
-   "layout": "CSS jute bags with weave + webbing handles and ? print labels, SVG front/side spec drawing + material swatches + dark order card, proof bag with comment pins + history, stage count bars, bag tiles CTA",
-   "dots": 4,
-   "phone": false
-  },
-  {
-   "n": 402,
-   "date": "2026-11-23",
-   "format": "SINGLE",
-   "market": "India",
-   "category": "BusBodyBuilder",
-   "palette": "primer grey/coach blue/signal yellow",
-   "fonts": "Anton + Roboto",
-   "layout": "SVG top-view bus seat plan with approval badge, dark spec + change versions, yard rows with 6-stage label chips",
-   "dots": 1,
-   "phone": false
-  },
-  {
-   "n": 403,
-   "date": "2026-11-23",
-   "format": "SINGLE",
-   "market": "USA",
-   "category": "Pickleball",
-   "palette": "court blue/kitchen green/ball yellow",
-   "fonts": "Montserrat + DM Sans",
-   "layout": "4 SVG pickleball courts with live status chips + courts x hours booking grid with now line + dark booking bar",
-   "dots": 3,
-   "phone": false
-  },
-  {
-   "n": 404,
-   "date": "2026-11-23",
-   "format": "CAROUSEL",
-   "market": "India",
-   "category": "Coworking",
-   "palette": "desk oak/ink navy/coral",
-   "fonts": "Cardo + Roboto",
-   "layout": "CSS coworking floor plan (desk clusters, cabins, room), meeting room slot list + hours meters, QR visitor pass + desk log, bills list + reminder, tiles CTA",
-   "dots": 5,
-   "phone": false
-  },
-  {
-   "n": 405,
-   "date": "2026-11-23",
-   "format": "SINGLE",
-   "market": "India",
-   "category": "ParkingLot",
-   "palette": "asphalt/parking blue/line white",
-   "fonts": "TeX Gyre Adventor + DM Sans",
-   "layout": "top-down CSS parking lot 30 bays with cars by pass type + count tiles + number-plate pass list",
-   "dots": 2,
-   "phone": false
-  },
-  {
    "n": 406,
    "date": "2026-11-23",
    "format": "CAROUSEL",
@@ -4708,14 +4693,69 @@
    "layout": "CSS pegboard with 6 hanging manila repair tags on pegs, side-view SVG snowblower with numbered pins + job steps + parts, green owner text card",
    "dots": 4,
    "phone": false
+  },
+  {
+   "n": 431,
+   "date": "2026-11-23",
+   "format": "CAROUSEL",
+   "market": "India",
+   "category": "MakhanaProcessor",
+   "palette": "pond green/makhana ivory/lotus pink",
+   "fonts": "Lora + DM Sans",
+   "layout": "seeded makhana pops in round sieve trays by grade + kg bars + lot strip, dark lot card + grade split bar + all-lots table, 25 kg sack isotype stock + stock vs orders tiles, FIFO buyer order list + shortfall message, tiles CTA",
+   "dots": 5,
+   "phone": false
+  },
+  {
+   "n": 432,
+   "date": "2026-11-23",
+   "format": "SINGLE",
+   "market": "India",
+   "category": "WireHarness",
+   "palette": "harness black/copper/signal blue",
+   "fonts": "Montserrat + Source Sans 3",
+   "layout": "pegboard harness drawing with wire branches to scale + connectors, cut list in metres for the order, dark stage progress bars + test bench card",
+   "dots": 2,
+   "phone": false
+  },
+  {
+   "n": 433,
+   "date": "2026-11-23",
+   "format": "SINGLE",
+   "market": "India",
+   "category": "SoilTestingLab",
+   "palette": "loam brown/sprout green/report cream",
+   "fonts": "Gelasio + Inter",
+   "layout": "CSS clip-path sample pouch rack coloured by stage + legend counts, brown before note, phone soil report with band bars and value markers",
+   "dots": 4,
+   "phone": true
+  },
+  {
+   "n": 434,
+   "date": "2026-11-23",
+   "format": "SINGLE",
+   "market": "India",
+   "category": "SewingClasses",
+   "palette": "denim blue/tape yellow/chalk white",
+   "fonts": "TeX Gyre Adventor + Open Sans",
+   "layout": "3 batch cards with seat dots, measuring-tape progress bars per learner, fee reminder + certificate + waiting list cards",
+   "dots": 1,
+   "phone": false
+  },
+  {
+   "n": 435,
+   "date": "2026-11-23",
+   "format": "SINGLE",
+   "market": "USA",
+   "category": "KnifeSharpening",
+   "palette": "stone grey/market teal/cream",
+   "fonts": "Crimson Text + Roboto",
+   "layout": "two-part perforated claim ticket with mask punches, leather knife roll with SVG knives to blade length + tags, 3 market stop cards with drop-off/pickup chips",
+   "dots": 3,
+   "phone": false
   }
  ],
  "recent_fonts": [
-  "Archivo Black + Open Sans",
-  "Bitter + Roboto",
-  "Montserrat + Fira Sans",
-  "Lora + Roboto",
-  "Poppins + Source Sans 3",
   "Anton + DM Sans",
   "Crimson Text + DM Sans",
   "Poppins + Open Sans",
@@ -4735,14 +4775,14 @@
   "Bitter + Inter",
   "Anton + Inter",
   "Cardo + Source Sans 3",
-  "Poppins + Fira Sans"
+  "Poppins + Fira Sans",
+  "Lora + DM Sans",
+  "Montserrat + Source Sans 3",
+  "Gelasio + Inter",
+  "TeX Gyre Adventor + Open Sans",
+  "Crimson Text + Roboto"
  ],
  "recent_layouts": [
-  "SVG front bats under voice-note bubbles + ? chips, side-profile bat with sweet-spot bracket + dark order card + option chips, cleft isotype booked/free + new-order answer, stage bars + LED scale + weight log, tiles CTA",
-  "3 to-scale top-down backyard lots with rinks + fit check, 5-day crew week chips, dark booking bar",
-  "dark machine card with SVG treadmill + service timeline, thermal receipt service report with zigzag edge, service-due list",
-  "CSS printed sheet stack with codes + which-blue chooser, browser catalogue tiles with size chips, design x size matrix + CSS carton plan, dispatch timeline + buyer message + packed cartons, tiles CTA",
-  "SVG travel trailer with numbered pins + legend, dark tech route, phone booking form with matching numbered problems",
   "before/after slider diary vs order card with round handle, to-scale SVG tarp with computed eyelets, dark cutting sheet + floor list",
   "CSS coir mats 2x2 with ? chips, to-scale mat with dimension lines + order card + option chips, loom board bars + total + yarn alert, bundle/carton equations + 12-carton grid + buyer message, tiles CTA",
   "area-true bubble route map from kitchen + locked order list with change chips + dough plan strip, phone client order with steppers and 10 AM cut-off",
@@ -4762,14 +4802,14 @@
   "4 kraft bags to scale with handle types, flat sheet dieline computed from size + sheets to cut, shop order rows with size chips + green size totals bar",
   "clipboard notes vs house cross-section with numbered finding pins, CSS tablet area checklist, photo finding cards + count bar, report document page + sent card, week time-grid calendar by ZIP + booking form, tiles CTA",
   "lane map of karigar homes with heat halos sized by pieces and coloured by due status, late alert + 3 stat tiles, phone give-work slip with SVG buti swatch",
-  "CSS pegboard with 6 hanging manila repair tags on pegs, side-view SVG snowblower with numbered pins + job steps + parts, green owner text card"
+  "CSS pegboard with 6 hanging manila repair tags on pegs, side-view SVG snowblower with numbered pins + job steps + parts, green owner text card",
+  "seeded makhana pops in round sieve trays by grade + kg bars + lot strip, dark lot card + grade split bar + all-lots table, 25 kg sack isotype stock + stock vs orders tiles, FIFO buyer order list + shortfall message, tiles CTA",
+  "pegboard harness drawing with wire branches to scale + connectors, cut list in metres for the order, dark stage progress bars + test bench card",
+  "CSS clip-path sample pouch rack coloured by stage + legend counts, brown before note, phone soil report with band bars and value markers",
+  "3 batch cards with seat dots, measuring-tape progress bars per learner, fee reminder + certificate + waiting list cards",
+  "two-part perforated claim ticket with mask punches, leather knife roll with SVG knives to blade length + tags, 3 market stop cards with drop-off/pickup chips"
  ],
  "used_hashtag_sets": [
-  "#jcbrental #earthmover #excavatorrental #constructionindia",
-  "#icedamremoval #icedams #roofsnowremoval #canadianwinter",
-  "#sareepleating #prepleatedsaree #sareedraping #sareelove",
-  "#printerrepair #tonerrefill #cartridgerefill #officesupplies #smallbusinessindia",
-  "#vendingmachine #vendingbusiness #vendingroute #smallbusinessowner",
   "#readymixconcrete #rmcplant #concretework #constructionsite",
   "#cottonginning #ginningfactory #cottonfarmers #kapas #agribusinessindia",
   "#lawnaeration #coreaeration #lawncarebusiness #springlawncare",
@@ -4824,7 +4864,12 @@
   "#paperbags #paperbagmanufacturer #ecofriendlypackaging #packagingindia",
   "#homeinspector #homeinspection #homeinspectionbusiness #realestatetips",
   "#chikankari #chikankarikurta #handembroidery #karigar #textilebusiness",
-  "#smallenginerepair #snowblowerrepair #canadianwinter #repairshop"
+  "#smallenginerepair #snowblowerrepair #canadianwinter #repairshop",
+  "#makhana #foxnuts #makhanaprocessing #agribusinessindia",
+  "#wireharness #cableharness #jobworkindia #autocomponents",
+  "#soiltesting #soiltestinglab #agriculturelab #farmingindia",
+  "#sewingclasses #tailoringclasses #stitchingclass #learnsewing",
+  "#knifesharpening #farmersmarket #sharpknives #mobilebusiness"
  ],
  "drive_index_at_post": 420,
  "old_index_sheets_to_trash": []
