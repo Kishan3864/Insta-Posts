@@ -1,7 +1,7 @@
 {
  "drive_folder_id": "1OZvW8MCiA-_SSNn5_9g3o8k5sMyHUcxE",
- "drive_index_sheet_id": "1TZmiD1hScUkyUBFGZMV6NghHhu1eb8vRCeZtz-_WTK8",
- "lock_until_utc": "2026-11-23T10:16:20Z",
+ "drive_index_sheet_id": "1CNpEPbU0jlBGFMw8drDVw1VrpovdEAW5K1pGyMehY9c",
+ "lock_until_utc": "2026-11-23T10:29:06Z",
  "last_run": "2026-11-23T08:54:32Z \u00b7 posts 426-440 made (batches 82-84), Drive 1-440 done; index sheet next at ~445; last 10 had 4 carousels (431,436,437 + 428) so next batch needs 1 carousel; India 309/440",
  "next_post_no": 446,
  "posts_done": [
@@ -4491,7 +4491,12 @@
   437,
   438,
   439,
-  440
+  440,
+  441,
+  442,
+  443,
+  444,
+  445
  ],
  "log": [
   {
@@ -4971,6 +4976,6 @@
   "#evcharging #evchargingstation #electricvehicles #evindia",
   "#waterdamage #waterdamagerestoration #restorationcompany #homerestoration"
  ],
- "drive_index_at_post": 420,
+ "drive_index_at_post": 445,
  "old_index_sheets_to_trash": []
 }
