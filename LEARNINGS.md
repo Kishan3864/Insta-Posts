@@ -313,3 +313,7 @@
 - (b077) Tall seat-plan SVGs at width:100% push the page past the footer; cap them with max-height and re-check the last card's bottom against the CTA row.
 - (b077) Time "now" lines must sit under booking blocks (z-index 0) so block text stays readable.
 - (b077) New techniques: SVG bus seat plan with exit/door/driver, top-view pickleball courts with live status, CSS parking bays with top-view cars, jute weave + webbing handles, seeded QR with finder squares, coworking desk-cluster floor plan. Next: before/after slider, receipt-style weekly bill, map with delivery heat.
+- (b078) Long second headline lines in Archivo Black (58px) orphan the last word ("card.", "booked."); write accent lines of <= 28 characters instead of shrinking type.
+- (b078) A selector like ".tl94 span" also hits the card's .sm label span and blows it up; scope row rules to ".r span" whenever a card has a small label.
+- (b078) Isotype rows that fill only a third of the width look unfinished; pick the unit (1 icon = 2) so the longest row nearly fills the row, and stretch icons with preserveAspectRatio="none" for height.
+- (b078) Tall phone forms leave a gap above the button; plan 7-8 fields (notes, time window) for an 850px phone, and test each extra field: one more overflowed and check_gfx caught it. New techniques: thermal receipt with zigzag clip-path, to-scale backyard lots with fit check, LED scale readout, CSS printed sheet stack with design codes, carton plan derived from the order. Next: before/after slider, map with delivery heat.

@@ -3,7 +3,7 @@
  "drive_index_sheet_id": "1wpOhTVD-F1bNjtDpt6m5yVFacs_x_pXwOI2A6MhegP4",
  "lock_until_utc": "2026-11-23T07:19:02Z",
  "last_run": "2026-11-23T05:52:49Z \u00b7 posts 391-405 made (batches 75-77), Drive 1-405 done; index sheet refreshed at 395 (next ~420)",
- "next_post_no": 406,
+ "next_post_no": 411,
  "posts_done": [
   {
    "n": 1,
@@ -3244,11 +3244,51 @@
    "slides": 1,
    "market": "India",
    "category": "ParkingLot"
+  },
+  {
+   "n": 406,
+   "dir": "posts/0406_CAROUSEL_India_CricketBatMaker",
+   "format": "CAROUSEL",
+   "slides": 5,
+   "market": "India",
+   "category": "CricketBatMaker"
+  },
+  {
+   "n": 407,
+   "dir": "posts/0407_SINGLE_Canada_BackyardRink",
+   "format": "SINGLE",
+   "slides": 1,
+   "market": "Canada",
+   "category": "BackyardRink"
+  },
+  {
+   "n": 408,
+   "dir": "posts/0408_SINGLE_India_GymEquipmentDealer",
+   "format": "SINGLE",
+   "slides": 1,
+   "market": "India",
+   "category": "GymEquipmentDealer"
+  },
+  {
+   "n": 409,
+   "dir": "posts/0409_CAROUSEL_India_BedsheetMaker",
+   "format": "CAROUSEL",
+   "slides": 5,
+   "market": "India",
+   "category": "BedsheetMaker"
+  },
+  {
+   "n": 410,
+   "dir": "posts/0410_SINGLE_USA_MobileRVRepair",
+   "format": "SINGLE",
+   "slides": 1,
+   "market": "USA",
+   "category": "MobileRVRepair"
   }
  ],
  "market_counts": {
-  "India": 284,
-  "Abroad": 121
+  "India": 287,
+  "Abroad": 123
  },
  "used_categories": [
   "Boutique",
@@ -3662,14 +3702,14 @@
   "BusBodyBuilder",
   "Pickleball",
   "Coworking",
-  "ParkingLot"
+  "ParkingLot",
+  "CricketBatMaker",
+  "BackyardRink",
+  "GymEquipmentDealer",
+  "BedsheetMaker",
+  "MobileRVRepair"
  ],
  "recent_palettes": [
-  "paddy gold/harvester red/field green",
-  "indigo/madder red/unbleached cotton",
-  "quartz white/graphite/brass",
-  "black acrylic/gold leaf/brushed steel",
-  "attic pine/insulation cream/frost blue",
   "compost brown/leaf green/straw",
   "engine orange/grease black/denim blue",
   "navy/signal yellow/driveway grey",
@@ -3689,7 +3729,12 @@
   "primer grey/coach blue/signal yellow",
   "court blue/kitchen green/ball yellow",
   "desk oak/ink navy/coral",
-  "asphalt/parking blue/line white"
+  "asphalt/parking blue/line white",
+  "willow cream/leather red/pitch green",
+  "ice blue/midnight navy/board orange",
+  "rubber black/chrome/volt lime",
+  "teal cotton/rose print/ivory",
+  "desert sand/RV teal/rust"
  ],
  "drive_files_done": [
   1,
@@ -4100,66 +4145,6 @@
  ],
  "log": [
   {
-   "n": 376,
-   "date": "2026-11-23",
-   "format": "SINGLE",
-   "market": "India",
-   "category": "ReadyMixConcrete",
-   "palette": "concrete grey/safety orange/drum teal",
-   "fonts": "Archivo Black + Roboto",
-   "layout": "dark 5-photo site ready check + pour board with CSS transit mixer isotypes per 7 m3 coloured by trip state + needs chips + auto message",
-   "dots": 3,
-   "phone": false
-  },
-  {
-   "n": 377,
-   "date": "2026-11-23",
-   "format": "CAROUSEL",
-   "market": "India",
-   "category": "CottonGinning",
-   "palette": "cotton white/boll green/jute brown",
-   "fonts": "Bitter + Open Sans",
-   "layout": "SVG tractor-trolley gate queue + LED now-weighing board, token table + SMS, full/empty trolley + dashed weigh slip, lot rows of CSS strapped bales, CTA tractor + tiles",
-   "dots": 5,
-   "phone": false
-  },
-  {
-   "n": 378,
-   "date": "2026-11-23",
-   "format": "SINGLE",
-   "market": "USA",
-   "category": "LawnAeration",
-   "palette": "turf green/plug brown/flag pink",
-   "fonts": "Poppins + Source Sans 3",
-   "layout": "top-down SVG street map with lots, core-plug pattern lawns + sprinkler flags, sign-up form + dark route-day progress per street",
-   "dots": 2,
-   "phone": false
-  },
-  {
-   "n": 379,
-   "date": "2026-11-23",
-   "format": "SINGLE",
-   "market": "India",
-   "category": "HosieryWholesaler",
-   "palette": "navy/heather grey/coral",
-   "fonts": "Montserrat + Fira Sans",
-   "layout": "before chat strip + colour x size dozen matrix with folded swatches and totals + CSS taped cartons per shop + stock-short alert",
-   "dots": 4,
-   "phone": false
-  },
-  {
-   "n": 380,
-   "date": "2026-11-23",
-   "format": "SINGLE",
-   "market": "India",
-   "category": "GarmentTrimsShop",
-   "palette": "ivory/charcoal/thread teal",
-   "fonts": "Crimson Text + DM Sans",
-   "layout": "phone shade card of CSS zipper swatches + length/buttons/lace/pickup, 3 order pouch cards with CSS zips, 4-hole buttons, lace edges",
-   "dots": 1,
-   "phone": true
-  },
-  {
    "n": 381,
    "date": "2026-11-23",
    "format": "SINGLE",
@@ -4458,14 +4443,69 @@
    "layout": "top-down CSS parking lot 30 bays with cars by pass type + count tiles + number-plate pass list",
    "dots": 2,
    "phone": false
+  },
+  {
+   "n": 406,
+   "date": "2026-11-23",
+   "format": "CAROUSEL",
+   "market": "India",
+   "category": "CricketBatMaker",
+   "palette": "willow cream/leather red/pitch green",
+   "fonts": "Archivo Black + Open Sans",
+   "layout": "SVG front bats under voice-note bubbles + ? chips, side-profile bat with sweet-spot bracket + dark order card + option chips, cleft isotype booked/free + new-order answer, stage bars + LED scale + weight log, tiles CTA",
+   "dots": 3,
+   "phone": false
+  },
+  {
+   "n": 407,
+   "date": "2026-11-23",
+   "format": "SINGLE",
+   "market": "Canada",
+   "category": "BackyardRink",
+   "palette": "ice blue/midnight navy/board orange",
+   "fonts": "Bitter + Roboto",
+   "layout": "3 to-scale top-down backyard lots with rinks + fit check, 5-day crew week chips, dark booking bar",
+   "dots": 5,
+   "phone": false
+  },
+  {
+   "n": 408,
+   "date": "2026-11-23",
+   "format": "SINGLE",
+   "market": "India",
+   "category": "GymEquipmentDealer",
+   "palette": "rubber black/chrome/volt lime",
+   "fonts": "Montserrat + Fira Sans",
+   "layout": "dark machine card with SVG treadmill + service timeline, thermal receipt service report with zigzag edge, service-due list",
+   "dots": 2,
+   "phone": false
+  },
+  {
+   "n": 409,
+   "date": "2026-11-23",
+   "format": "CAROUSEL",
+   "market": "India",
+   "category": "BedsheetMaker",
+   "palette": "teal cotton/rose print/ivory",
+   "fonts": "Lora + Roboto",
+   "layout": "CSS printed sheet stack with codes + which-blue chooser, browser catalogue tiles with size chips, design x size matrix + CSS carton plan, dispatch timeline + buyer message + packed cartons, tiles CTA",
+   "dots": 1,
+   "phone": false
+  },
+  {
+   "n": 410,
+   "date": "2026-11-23",
+   "format": "SINGLE",
+   "market": "USA",
+   "category": "MobileRVRepair",
+   "palette": "desert sand/RV teal/rust",
+   "fonts": "Poppins + Source Sans 3",
+   "layout": "SVG travel trailer with numbered pins + legend, dark tech route, phone booking form with matching numbered problems",
+   "dots": 4,
+   "phone": true
   }
  ],
  "recent_fonts": [
-  "Anton + Source Sans 3",
-  "Lora + Inter",
-  "TeX Gyre Adventor + Roboto",
-  "Gelasio + Poppins",
-  "Cardo + Inter",
   "Montserrat + Open Sans",
   "Archivo Black + Inter",
   "Poppins + Roboto",
@@ -4485,14 +4525,14 @@
   "Anton + Roboto",
   "Montserrat + DM Sans",
   "Cardo + Roboto",
-  "TeX Gyre Adventor + DM Sans"
+  "TeX Gyre Adventor + DM Sans",
+  "Archivo Black + Open Sans",
+  "Bitter + Roboto",
+  "Montserrat + Fira Sans",
+  "Lora + Roboto",
+  "Poppins + Source Sans 3"
  ],
  "recent_layouts": [
-  "slice treemap of acres per village coloured by harvest day + dark farmer form + SVG harvester with capacity bars + village message",
-  "4 CSS wooden block faces + printing tables with long patterned cloth runs by metres + stage count tiles + buyer message",
-  "SVG L-counter plan + spec list + stage chips, template booking grid + drawing, to-scale slab nesting with remnant + CSS stone swatches, prep checklist + install window + text timeline, CTA",
-  "hero CSS acrylic plate with screw caps + job list with cut-locked chips + phone proof chat with mini plates and stage tracker",
-  "two SVG attic cross-sections with clipped wavy insulation and ruler (now vs after) + dark quote form + quote table with depth bars and cubic feet",
   "6 CSS compost beds with brick border, straw band and 8-week meters + FIFO order allocation chips + dark auto message",
   "SVG top-down yard of tractors with job tags, paper job card + who-sees list, 4-column status board + parts list, ready message + vertical repair history, CTA counts",
   "booking form -> parts card, CSS cargo van cutaway with per-job bins on 2 shelves, 4 route cards",
@@ -4512,14 +4552,14 @@
   "SVG top-view bus seat plan with approval badge, dark spec + change versions, yard rows with 6-stage label chips",
   "4 SVG pickleball courts with live status chips + courts x hours booking grid with now line + dark booking bar",
   "CSS coworking floor plan (desk clusters, cabins, room), meeting room slot list + hours meters, QR visitor pass + desk log, bills list + reminder, tiles CTA",
-  "top-down CSS parking lot 30 bays with cars by pass type + count tiles + number-plate pass list"
+  "top-down CSS parking lot 30 bays with cars by pass type + count tiles + number-plate pass list",
+  "SVG front bats under voice-note bubbles + ? chips, side-profile bat with sweet-spot bracket + dark order card + option chips, cleft isotype booked/free + new-order answer, stage bars + LED scale + weight log, tiles CTA",
+  "3 to-scale top-down backyard lots with rinks + fit check, 5-day crew week chips, dark booking bar",
+  "dark machine card with SVG treadmill + service timeline, thermal receipt service report with zigzag edge, service-due list",
+  "CSS printed sheet stack with codes + which-blue chooser, browser catalogue tiles with size chips, design x size matrix + CSS carton plan, dispatch timeline + buyer message + packed cartons, tiles CTA",
+  "SVG travel trailer with numbered pins + legend, dark tech route, phone booking form with matching numbered problems"
  ],
  "used_hashtag_sets": [
-  "#dairyfarm #dairyfarming #milkproduction #farmingindia",
-  "#officetea #chaiwala #teasupply #smallbusinessindia",
-  "#glassshop #mirrorshop #glasscutting #glassworks",
-  "#turnovercleaning #vacationrentalcleaning #shorttermrental #cleaningbusiness",
-  "#poultryfarm #broilerfarming #poultryindia #farmbusiness",
   "#momos #streetfoodindia #momoshop #foodbusinessindia",
   "#labourcontractor #constructionsite #siteattendance #constructionindia",
   "#catsitter #petsitting #catsofinstagram #smallbusinessusa",
@@ -4574,7 +4614,12 @@
   "#busbodybuilder #busbody #coachbuilder #automobileindia",
   "#pickleball #pickleballcourt #pickleballclub #sportsfacility",
   "#coworkingspace #coworkingindia #sharedoffice #officespace",
-  "#parkinglot #parkingmanagement #monthlyparking #smallbusinessindia"
+  "#parkinglot #parkingmanagement #monthlyparking #smallbusinessindia",
+  "#cricketbat #cricketbatmaker #englishwillow #sportsgoodsindia",
+  "#backyardrink #backyardice #outdoorrink #smallbusinesscanada",
+  "#gymequipment #fitnessequipment #treadmillservice #gymsetupindia",
+  "#bedsheets #homefurnishing #bedsheetmanufacturer #textileindia",
+  "#rvrepair #mobilervrepair #rvlife #smallbusinessusa"
  ],
  "drive_index_at_post": 395,
  "old_index_sheets_to_trash": []
