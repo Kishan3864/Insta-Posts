@@ -3,7 +3,7 @@
  "drive_index_sheet_id": "1CNpEPbU0jlBGFMw8drDVw1VrpovdEAW5K1pGyMehY9c",
  "lock_until_utc": "2026-11-23T11:22:53Z",
  "last_run": "2026-11-23T09:49:14Z \u00b7 posts 441-450 made (batches 85-86), Drive 1-450 done; new index sheet at 445 (old trashed); last 10 had 2 carousels (442,448) so next batch needs 1-2 carousels; India 316/450; phone used in 444 only",
- "next_post_no": 451,
+ "next_post_no": 456,
  "posts_done": [
   {
    "n": 1,
@@ -3604,11 +3604,51 @@
    "slides": 1,
    "market": "Canada",
    "category": "Campground"
+  },
+  {
+   "n": 451,
+   "dir": "posts/0451_SINGLE_India_InvisibleGrillInstaller",
+   "format": "SINGLE",
+   "slides": 1,
+   "market": "India",
+   "category": "InvisibleGrillInstaller"
+  },
+  {
+   "n": 452,
+   "dir": "posts/0452_CAROUSEL_India_HandmadeSoapMaker",
+   "format": "CAROUSEL",
+   "slides": 5,
+   "market": "India",
+   "category": "HandmadeSoapMaker"
+  },
+  {
+   "n": 453,
+   "dir": "posts/0453_SINGLE_India_XeroxPrintShop",
+   "format": "SINGLE",
+   "slides": 1,
+   "market": "India",
+   "category": "XeroxPrintShop"
+  },
+  {
+   "n": 454,
+   "dir": "posts/0454_SINGLE_India_TerracottaPotMaker",
+   "format": "SINGLE",
+   "slides": 1,
+   "market": "India",
+   "category": "TerracottaPotMaker"
+  },
+  {
+   "n": 455,
+   "dir": "posts/0455_CAROUSEL_USA_DocumentShredding",
+   "format": "CAROUSEL",
+   "slides": 5,
+   "market": "USA",
+   "category": "DocumentShredding"
   }
  ],
  "market_counts": {
-  "India": 316,
-  "Abroad": 134
+  "India": 320,
+  "Abroad": 135
  },
  "used_categories": [
   "Boutique",
@@ -4067,14 +4107,14 @@
   "CabinetRefacing",
   "IndustrialGasCylinders",
   "LandSurveyor",
-  "Campground"
+  "Campground",
+  "InvisibleGrillInstaller",
+  "HandmadeSoapMaker",
+  "XeroxPrintShop",
+  "TerracottaPotMaker",
+  "DocumentShredding"
  ],
  "recent_palettes": [
-  "graphite/powder mint/hanger yellow",
-  "kraft brown/print green/paper white",
-  "slate blue/clipboard tan/flag red",
-  "muslin white/thread lilac/indigo",
-  "spruce green/frost/tag yellow",
   "pond green/makhana ivory/lotus pink",
   "harness black/copper/signal blue",
   "loam brown/sprout green/report cream",
@@ -4094,7 +4134,12 @@
   "olive shaker/white oak/cream",
   "steel grey/valve brass/cylinder maroon",
   "blueprint ink/graph cream/stake red",
-  "birch white/forest green/canoe red"
+  "birch white/forest green/canoe red",
+  "sky blue/cable silver/brick coral",
+  "oat cream/lavender/olive",
+  "toner black/copy white/highlighter yellow",
+  "clay orange/kiln charcoal/ash cream",
+  "security navy/shred white/lock green"
  ],
  "drive_files_done": [
   1,
@@ -4550,66 +4595,6 @@
  ],
  "log": [
   {
-   "n": 421,
-   "date": "2026-11-23",
-   "format": "SINGLE",
-   "market": "India",
-   "category": "GheeMaker",
-   "palette": "ghee gold/cream/brass brown",
-   "fonts": "Lora + Inter",
-   "layout": "batch equation tiles + SVG jars by size with batch labels and left-after-orders, order list with status chips, phone repeat order",
-   "dots": 1,
-   "phone": true
-  },
-  {
-   "n": 422,
-   "date": "2026-11-23",
-   "format": "CAROUSEL",
-   "market": "India",
-   "category": "PuffedRice",
-   "palette": "rice white/turmeric/indigo",
-   "fonts": "TeX Gyre Adventor + Roboto",
-   "layout": "clear bags with seeded grains + quote cards, shop x day standing order matrix, roast plan tiles + batch ribbon + batch table, dotted van route timeline + paid/bill tiles, icon tiles CTA",
-   "dots": 3,
-   "phone": false
-  },
-  {
-   "n": 423,
-   "date": "2026-11-23",
-   "format": "SINGLE",
-   "market": "India",
-   "category": "BiogasInstaller",
-   "palette": "slurry brown/flame blue/leaf green",
-   "fonts": "Gelasio + DM Sans",
-   "layout": "fixed-dome cross-section coloured by install stage with numbered pins + stage list, survey card with size chip, dark service visit list",
-   "dots": 5,
-   "phone": false
-  },
-  {
-   "n": 424,
-   "date": "2026-11-23",
-   "format": "SINGLE",
-   "market": "India",
-   "category": "TrolleyMaker",
-   "palette": "primer grey/oxide red/hazard yellow",
-   "fonts": "Anton + Source Sans 3",
-   "layout": "side-view trolley SVG with parts by build stage (done/working hatched/next dashed), dark order card, stage-dot board, customer update note",
-   "dots": 2,
-   "phone": false
-  },
-  {
-   "n": 425,
-   "date": "2026-11-23",
-   "format": "SINGLE",
-   "market": "USA",
-   "category": "GroutCleaning",
-   "palette": "tile white/grout grey/aqua",
-   "fonts": "Crimson Text + Open Sans",
-   "layout": "to-scale floor plan with tile-pattern fills per service + carpet hatch, diagonal before/after tile close-up, room sq ft list, navy booking card",
-   "dots": 4,
-   "phone": false
-  },
-  {
    "n": 426,
    "date": "2026-11-23",
    "format": "CAROUSEL",
@@ -4908,14 +4893,69 @@
    "layout": "portrait campground map SVG (lake, loop road, numbered pads by type/status, gate), legend counts row, browser booking form",
    "dots": 1,
    "phone": false
+  },
+  {
+   "n": 451,
+   "date": "2026-11-23",
+   "format": "SINGLE",
+   "market": "India",
+   "category": "InvisibleGrillInstaller",
+   "palette": "sky blue/cable silver/brick coral",
+   "fonts": "Montserrat + Roboto",
+   "layout": "to-scale HTML facade (110 px per m) with cable-gap gradient grills + parapet walls, measure table with totals, cable gap picker recomputed, dark material + site visit card",
+   "dots": 3,
+   "phone": false
+  },
+  {
+   "n": 452,
+   "date": "2026-11-23",
+   "format": "CAROUSEL",
+   "market": "India",
+   "category": "HandmadeSoapMaker",
+   "palette": "oat cream/lavender/olive",
+   "fonts": "Lora + Inter",
+   "layout": "oblique-projection curing rack with bars coloured by batch + ready-now box and batch list with days-left bars, scaled recipe batch card + label, cure gantt with today line, orders with drawn boxes of bars + stock isotype + chat, tiles CTA with mini drawings",
+   "dots": 5,
+   "phone": false
+  },
+  {
+   "n": 453,
+   "date": "2026-11-23",
+   "format": "SINGLE",
+   "market": "India",
+   "category": "XeroxPrintShop",
+   "palette": "toner black/copy white/highlighter yellow",
+   "fonts": "Anton + Fira Sans",
+   "layout": "dark now-printing token card with progress, files-in tiles, token list with status chips, perforated receipt-style weekly statement with per-day bars and totals",
+   "dots": 2,
+   "phone": false
+  },
+  {
+   "n": 454,
+   "date": "2026-11-23",
+   "format": "SINGLE",
+   "market": "India",
+   "category": "TerracottaPotMaker",
+   "palette": "clay orange/kiln charcoal/ash cream",
+   "fonts": "Bitter + Source Sans 3",
+   "layout": "kiln cross-section SVG (brick pattern, firebox flames, three shelves of pot profiles), shelf capacity cards with orders, firing curve with done area and now marker",
+   "dots": 4,
+   "phone": false
+  },
+  {
+   "n": 455,
+   "date": "2026-11-23",
+   "format": "CAROUSEL",
+   "market": "USA",
+   "category": "DocumentShredding",
+   "palette": "security navy/shred white/lock green",
+   "fonts": "Archivo Black + Open Sans",
+   "layout": "HTML street-grid map with fullness heat halos + numbered route pins + dashed route, CSS locked console bin with seeded QR + phone scan screen, route stop list with bin level chips + truck load + rule card, certificate of destruction document + email + past visits, map CTA",
+   "dots": 1,
+   "phone": true
   }
  ],
  "recent_fonts": [
-  "Archivo Black + Inter",
-  "Bitter + Inter",
-  "Anton + Inter",
-  "Cardo + Source Sans 3",
-  "Poppins + Fira Sans",
   "Lora + DM Sans",
   "Montserrat + Source Sans 3",
   "Gelasio + Inter",
@@ -4935,14 +4975,14 @@
   "Gelasio + Roboto",
   "Archivo Black + Fira Sans",
   "Cardo + DM Sans",
-  "Lora + Source Sans 3"
+  "Lora + Source Sans 3",
+  "Montserrat + Roboto",
+  "Lora + Inter",
+  "Anton + Fira Sans",
+  "Bitter + Source Sans 3",
+  "Archivo Black + Open Sans"
  ],
  "recent_layouts": [
-  "chalkboard + overhead conveyor SVG with hanging raw parts and chalk tags, paper job card + job list with shade swatches, arrival vs grouped powder-change strips + oven Gantt with hatched cleaning gaps, powder boxes with fill windows + reorder, job status board + ready message + gate pass, tiles CTA",
-  "4 kraft bags to scale with handle types, flat sheet dieline computed from size + sheets to cut, shop order rows with size chips + green size totals bar",
-  "clipboard notes vs house cross-section with numbered finding pins, CSS tablet area checklist, photo finding cards + count bar, report document page + sent card, week time-grid calendar by ZIP + booking form, tiles CTA",
-  "lane map of karigar homes with heat halos sized by pieces and coloured by due status, late alert + 3 stat tiles, phone give-work slip with SVG buti swatch",
-  "CSS pegboard with 6 hanging manila repair tags on pegs, side-view SVG snowblower with numbered pins + job steps + parts, green owner text card",
   "seeded makhana pops in round sieve trays by grade + kg bars + lot strip, dark lot card + grade split bar + all-lots table, 25 kg sack isotype stock + stock vs orders tiles, FIFO buyer order list + shortfall message, tiles CTA",
   "pegboard harness drawing with wire branches to scale + connectors, cut list in metres for the order, dark stage progress bars + test bench card",
   "CSS clip-path sample pouch rack coloured by stage + legend counts, brown before note, phone soil report with band bars and value markers",
@@ -4962,14 +5002,14 @@
   "to-scale kitchen elevation with labelled door and drawer sizes, door order grouped by size, style picker mini doors + finish swatches, dark job steps",
   "SVG cylinders by gas grouped in yard/customer zone cards, register table + gate scan + totals + gas bar, days-held bars with 60-day line + chat, refill truck with dashed empties + orders + tiles, tiles CTA",
   "graph-paper plot polygon from coordinates with computed side lengths + area, coordinates table, blue area card (m2, sq ft, acres), 4 job step tiles",
-  "portrait campground map SVG (lake, loop road, numbered pads by type/status, gate), legend counts row, browser booking form"
+  "portrait campground map SVG (lake, loop road, numbered pads by type/status, gate), legend counts row, browser booking form",
+  "to-scale HTML facade (110 px per m) with cable-gap gradient grills + parapet walls, measure table with totals, cable gap picker recomputed, dark material + site visit card",
+  "oblique-projection curing rack with bars coloured by batch + ready-now box and batch list with days-left bars, scaled recipe batch card + label, cure gantt with today line, orders with drawn boxes of bars + stock isotype + chat, tiles CTA with mini drawings",
+  "dark now-printing token card with progress, files-in tiles, token list with status chips, perforated receipt-style weekly statement with per-day bars and totals",
+  "kiln cross-section SVG (brick pattern, firebox flames, three shelves of pot profiles), shelf capacity cards with orders, firing curve with done area and now marker",
+  "HTML street-grid map with fullness heat halos + numbered route pins + dashed route, CSS locked console bin with seeded QR + phone scan screen, route stop list with bin level chips + truck load + rule card, certificate of destruction document + email + past visits, map CTA"
  ],
  "used_hashtag_sets": [
-  "#cashewprocessing #cashewnuts #dryfruitsbusiness #foodprocessingindia",
-  "#studylibrary #selfstudylibrary #readingroom #libraryowner",
-  "#rollingshutter #shuttermanufacturer #fabricationwork #weldingworkshop",
-  "#corrugatedboxes #cartonbox #packagingindia #boxmanufacturer #corrugatedpackaging",
-  "#epoxyflooring #garagefloor #flakeflooring #garagemakeover",
   "#cranehire #craneservice #constructionindia #heavyequipment",
   "#rugcleaning #arearugcleaning #rugcare #smallbusinessusa",
   "#arecaplates #arecaleafplates #ecofriendlyplates #smallbusinessindia",
@@ -5024,7 +5064,12 @@
   "#cabinetrefacing #kitchencabinets #kitchenremodel #cabinetmaker",
   "#industrialgas #weldinggas #gascylinders #fabricationindia",
   "#landsurvey #landsurveyor #surveyingindia #plotsurvey",
-  "#campground #rvcamping #campingcanada #campsitebooking"
+  "#campground #rvcamping #campingcanada #campsitebooking",
+  "#invisiblegrill #balconygrill #balconysafety #homeimprovementindia",
+  "#handmadesoap #soapmaker #handmadesoapindia #smallbusinessindia #soapbusiness",
+  "#xeroxshop #printshop #photocopyshop #printingbusinessindia",
+  "#terracotta #terracottapots #potteryindia #kulhad #claypots",
+  "#shreddingservice #documentshredding #papershredding #smallbusinessusa"
  ],
  "drive_index_at_post": 445,
  "old_index_sheets_to_trash": []

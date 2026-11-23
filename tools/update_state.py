@@ -1,17 +1,24 @@
-# usage: python3 tools/update_state.py entries.json  (list of dicts: n,format,slides,market,category,palette,fonts,layout,dots,phone,tags)
-import json,sys,datetime
-s=json.load(open('state.json')); E=json.load(open(sys.argv[1]))
-for e in E:
-    d=f"posts/{e['n']:04d}_{e['format']}_{e['market']}_{e['category']}"
-    if any(p['n']==e['n'] for p in s['posts_done']): continue
-    s['posts_done'].append(dict(n=e['n'],dir=d,format=e['format'],slides=e['slides'],market=e['market'],category=e['category']))
-    s['market_counts']['India' if e['market']=='India' else 'Abroad']+=1
-    s['used_categories'].append(e['category'])
-    for k,key in [('recent_palettes','palette'),('recent_fonts','fonts'),('recent_layouts','layout')]:
-        s[k]=(s[k]+[e[key]])[-25:]
-    s['used_hashtag_sets']=(s['used_hashtag_sets']+[' '.join(e['tags'])])[-60:]
-    s['log']=(s['log']+[dict(n=e['n'],date=str(datetime.date.today()),format=e['format'],market=e['market'],category=e['category'],palette=e['palette'],fonts=e['fonts'],layout=e['layout'],dots=e['dots'],phone=e['phone'])])[-30:]
-    open('index.csv','a').write(f"{e['n']},{e['format']},{e['slides']},{e['market']},{e['category']},https://github.com/Kishan3864/Insta-Posts/tree/main/{d}\n")
-    s['next_post_no']=max(s['next_post_no'],e['n']+1)
-json.dump(s,open('state.json','w'),indent=1)
-print(s['next_post_no'],s['market_counts'])
+# usage: python3 tools/update_state.py batches/bNNN_meta.json  → appends posts to state.json + index.csv
+import json, sys, re, datetime
+from pathlib import Path
+R = Path(__file__).resolve().parent.parent
+meta = json.load(open(sys.argv[1])); s = json.load(open(R / "state.json"))
+for m in meta:
+    d = next(p for p in (R / "posts").glob(f"{m['n']:04d}_*"))
+    fmt, mk, cat = d.name.split("_", 3)[1:]
+    slides = len(list(d.glob("*.jpg")))
+    md = (d / "post.md").read_text()
+    tags = re.search(r"\n(#[^\n]+)\n\n## Alt", md).group(1)
+    s["posts_done"].append(dict(n=m["n"], dir=f"posts/{d.name}", format=fmt, slides=slides, market=mk, category=cat))
+    s["market_counts"]["India" if mk == "India" else "Abroad"] += 1
+    s["used_categories"].append(cat)
+    for k, v in (("recent_palettes", m["palette"]), ("recent_fonts", m["fonts"]), ("recent_layouts", m["layout"]), ("used_hashtag_sets", tags)):
+        s[k].append(v)
+    s["log"].append(dict(n=m["n"], date=datetime.date.today().isoformat(), format=fmt, market=mk, category=cat, palette=m["palette"], fonts=m["fonts"], layout=m["layout"], dots=m["dots"], phone=m["phone"]))
+    with open(R / "index.csv", "a") as f:
+        f.write(f"{m['n']},{fmt},{slides},{mk},{cat},https://github.com/Kishan3864/Insta-Posts/tree/main/posts/{d.name}\n")
+    s["next_post_no"] = m["n"] + 1
+for k, lim in (("recent_palettes", 25), ("recent_fonts", 25), ("recent_layouts", 25), ("log", 30), ("used_hashtag_sets", 60)):
+    s[k] = s[k][-lim:]
+json.dump(s, open(R / "state.json", "w"), indent=1)
+print("next", s["next_post_no"], s["market_counts"])
