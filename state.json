@@ -3,7 +3,7 @@
  "drive_index_sheet_id": "1y3GXyV7vrF7_xKkm5mgdoP0ZRMDQy_BVrqHWlwNL_kM",
  "lock_until_utc": "2026-11-23T03:15:46Z",
  "last_run": "2026-11-23T01:51:58Z \u00b7 posts 336-355 made (batches 64-67), Drive 1-355 done, index sheet refreshed at 345 (next ~370); old sheet 1kVm... still to trash (trash was blocked)",
- "next_post_no": 356,
+ "next_post_no": 361,
  "posts_done": [
   {
    "n": 1,
@@ -2844,11 +2844,51 @@
    "slides": 1,
    "market": "India",
    "category": "EVScooterDealer"
+  },
+  {
+   "n": 356,
+   "dir": "posts/0356_SINGLE_India_BiryaniHandiOrders",
+   "format": "SINGLE",
+   "slides": 1,
+   "market": "India",
+   "category": "BiryaniHandiOrders"
+  },
+  {
+   "n": 357,
+   "dir": "posts/0357_CAROUSEL_India_AgriInputShop",
+   "format": "CAROUSEL",
+   "slides": 5,
+   "market": "India",
+   "category": "AgriInputShop"
+  },
+  {
+   "n": 358,
+   "dir": "posts/0358_SINGLE_USA_SepticPumping",
+   "format": "SINGLE",
+   "slides": 1,
+   "market": "USA",
+   "category": "SepticPumping"
+  },
+  {
+   "n": 359,
+   "dir": "posts/0359_SINGLE_India_CenteringRental",
+   "format": "SINGLE",
+   "slides": 1,
+   "market": "India",
+   "category": "CenteringRental"
+  },
+  {
+   "n": 360,
+   "dir": "posts/0360_CAROUSEL_Canada_Farrier",
+   "format": "CAROUSEL",
+   "slides": 5,
+   "market": "Canada",
+   "category": "Farrier"
   }
  ],
  "market_counts": {
-  "India": 249,
-  "Abroad": 106
+  "India": 252,
+  "Abroad": 108
  },
  "used_categories": [
   "Boutique",
@@ -3212,14 +3252,14 @@
   "LabourContractor",
   "CatSitting",
   "WinterCarStorage",
-  "EVScooterDealer"
+  "EVScooterDealer",
+  "BiryaniHandiOrders",
+  "AgriInputShop",
+  "SepticPumping",
+  "CenteringRental",
+  "Farrier"
  ],
  "recent_palettes": [
-  "newsprint grey/ink black/masthead red",
-  "leaf lime/pipe white/water teal",
-  "matte graphite/asset-tag yellow/screen blue",
-  "sun yellow/panel navy/dust beige",
-  "dumpster green/caution orange/asphalt",
   "steel teal/flame orange/ivory",
   "concrete grey/terracotta/moss",
   "glass sky blue/resin amber/charcoal",
@@ -3239,7 +3279,12 @@
   "brick red/helmet yellow/blueprint navy",
   "whisker grey/yarn pink/mint",
   "garage concrete/battery green/frost blue",
-  "EV teal/charge yellow/road grey"
+  "EV teal/charge yellow/road grey",
+  "saffron orange/handi copper/mint",
+  "loam brown/sprout green/sack cream",
+  "slate navy/heat orange ramp/paper",
+  "galvanized grey/rust orange/sky blue",
+  "saddle tan/forest green/hay cream"
  ],
  "drive_files_done": [
   1,
@@ -3600,66 +3645,6 @@
  ],
  "log": [
   {
-   "n": 326,
-   "date": "2026-11-23",
-   "format": "CAROUSEL",
-   "market": "India",
-   "category": "DroneSpraying",
-   "palette": "paddy green/drone orange/khaki cream",
-   "fonts": "Poppins + Inter",
-   "layout": "SVG patchwork village field map with crop tints, canal and pins (? then F1-F7), field booking table with acre totals, lawnmower flight path progress + pilot day route cards, farmer chat + payment status list, map + tiles CTA",
-   "dots": 3,
-   "phone": false
-  },
-  {
-   "n": 327,
-   "date": "2026-11-23",
-   "format": "SINGLE",
-   "market": "India",
-   "category": "TimberMill",
-   "palette": "sawdust tan/teak brown/blade blue",
-   "fonts": "Bitter + Roboto",
-   "layout": "isometric SVG plank stacks with end-grain plank ends sized by piece count + carpenter order table checked against stock + blue cutting note",
-   "dots": 5,
-   "phone": false
-  },
-  {
-   "n": 328,
-   "date": "2026-11-23",
-   "format": "SINGLE",
-   "market": "USA",
-   "category": "SelfStorage",
-   "palette": "storage orange/concrete grey/ink navy",
-   "fonts": "Anton + Open Sans",
-   "layout": "building elevation of CSS corrugated roll-up doors with unit plates and status tags + browser reserve page counting free units by size",
-   "dots": 2,
-   "phone": false
-  },
-  {
-   "n": 329,
-   "date": "2026-11-23",
-   "format": "SINGLE",
-   "market": "India",
-   "category": "ShoeCleaning",
-   "palette": "chalk white/foam blue/gum brown",
-   "fonts": "Montserrat + DM Sans",
-   "layout": "drying rack of SVG side-profile sneakers with dashed hanging stage tags + phone pair tracker steps",
-   "dots": 4,
-   "phone": true
-  },
-  {
-   "n": 330,
-   "date": "2026-11-23",
-   "format": "CAROUSEL",
-   "market": "Canada",
-   "category": "EscapeRoom",
-   "palette": "dark plum/clue amber/lock teal",
-   "fonts": "Crimson Text + Roboto",
-   "layout": "paper booking diary with double booking boxed in red, browser room/time/players booking, room timeline with hatched 15-min reset blocks + totals, team chat + 3 cards, arched room doors + tiles CTA",
-   "dots": 1,
-   "phone": false
-  },
-  {
    "n": 331,
    "date": "2026-11-23",
    "format": "SINGLE",
@@ -3958,14 +3943,69 @@
    "layout": "3 rows of SVG side-view scooters with test-ride slot strips (booked dark) + rides total + follow-up note",
    "dots": 1,
    "phone": false
+  },
+  {
+   "n": 356,
+   "date": "2026-11-23",
+   "format": "SINGLE",
+   "market": "India",
+   "category": "BiryaniHandiOrders",
+   "palette": "saffron orange/handi copper/mint",
+   "fonts": "Lora + Roboto",
+   "layout": "top-down SVG handis sized by kg on a wooden pickup counter + order list with advance chips + dark kitchen sheet with kg by type, handi sizes, open slots",
+   "dots": 4,
+   "phone": false
+  },
+  {
+   "n": 357,
+   "date": "2026-11-23",
+   "format": "CAROUSEL",
+   "market": "India",
+   "category": "AgriInputShop",
+   "palette": "loam brown/sprout green/sack cream",
+   "fonts": "Montserrat + Source Sans 3",
+   "layout": "4 fanned CSS notebooks with wavy red doubts + farmer bubble, farmer ledger with paid/credit chips + totals, isometric SVG godown stacks + booked tiles, village credit rows + WhatsApp bubble + slip with round CLEARED stamp, stacks + stamp + tiles CTA",
+   "dots": 2,
+   "phone": false
+  },
+  {
+   "n": 358,
+   "date": "2026-11-23",
+   "format": "SINGLE",
+   "market": "USA",
+   "category": "SepticPumping",
+   "palette": "slate navy/heat orange ramp/paper",
+   "fonts": "TeX Gyre Adventor + Inter",
+   "layout": "hexbin heat map of 12 service zones + ramp legend + total card, route days from hottest zones, dark SMS thread with reply-to-book",
+   "dots": 5,
+   "phone": false
+  },
+  {
+   "n": 359,
+   "date": "2026-11-23",
+   "format": "SINGLE",
+   "market": "India",
+   "category": "CenteringRental",
+   "palette": "galvanized grey/rust orange/sky blue",
+   "fonts": "Archivo Black + Open Sans",
+   "layout": "3 site cards with CSS telescopic prop isotype (1 = 50) + item chips + 30-day rent strip, phone return slip with sent/back/short table + SVG signature pad + gate photos",
+   "dots": 3,
+   "phone": true
+  },
+  {
+   "n": 360,
+   "date": "2026-11-23",
+   "format": "CAROUSEL",
+   "market": "Canada",
+   "category": "Farrier",
+   "palette": "saddle tan/forest green/hay cream",
+   "fonts": "Crimson Text + Roboto",
+   "layout": "9 barn cards with SVG horseshoe isotype (tan = due), weeks-since bars with cycle tick, country road SVG map with nearest-neighbour route + stop cards, browser barn portal with due chips + visit note, horseshoe grid + tiles CTA",
+   "dots": 1,
+   "phone": false
   }
  ],
  "recent_fonts": [
-  "Lora + Roboto",
-  "Archivo Black + Inter",
-  "TeX Gyre Adventor + Open Sans",
-  "Gelasio + Inter",
-  "Montserrat + Source Sans 3",
   "Bitter + Inter",
   "Montserrat + Roboto",
   "Poppins + Open Sans",
@@ -3985,14 +4025,14 @@
   "Cardo + Roboto",
   "Poppins + DM Sans",
   "Bitter + Fira Sans",
-  "Archivo Black + DM Sans"
+  "Archivo Black + DM Sans",
+  "Lora + Roboto",
+  "Montserrat + Source Sans 3",
+  "TeX Gyre Adventor + Inter",
+  "Archivo Black + Open Sans",
+  "Crimson Text + Roboto"
  ],
  "recent_layouts": [
-  "flat register with 30-day delivered/paused strips + zigzag receipt bill with derived copy counts and mini calendar",
-  "dark grow room of SVG NFT pipes with plants sized by week + harvest dates, buyer order list, green ready note",
-  "CSS laptops with yellow tag stickers, client cards with tag chips, units-out-per-day bars, return checklist table, laptops + tiles CTA",
-  "top-down SVG rooftop with clean (glare) vs dusty (speckled) panels + rooftop list + phone visit tracker with before/after",
-  "side-view SVG roll-off dumpsters by size with yard/out counts + dispatch table with today status chips + driveway photo note",
   "diagonal before/after split card: diary + missed calls above, rider board with SVG cylinder icons (filled = delivered) + booking message below",
   "SVG basket-weave paver patch + crossed guesses, sq ft x rate order table + pattern swatches, top-down pallets with conic curing rings, truck load bars per trip + customer message, mixed patch + tiles CTA",
   "SVG windshield with numbered star chips and crack + damage legend row + two-column browser booking with taken slots",
@@ -4012,14 +4052,14 @@
   "CSS hard hat isotype per site, gate list rows with time + tick, week attendance P/half/absent grid, pay list with advance chips + message, hats + tiles CTA",
   "SVG key ring with colored client key tags + weekend visit list + phone visit report with photos and task ticks",
   "top-down SVG garage bay map with car silhouettes + battery % badges + open spots, monthly check list + dark low-battery card",
-  "3 rows of SVG side-view scooters with test-ride slot strips (booked dark) + rides total + follow-up note"
+  "3 rows of SVG side-view scooters with test-ride slot strips (booked dark) + rides total + follow-up note",
+  "top-down SVG handis sized by kg on a wooden pickup counter + order list with advance chips + dark kitchen sheet with kg by type, handi sizes, open slots",
+  "4 fanned CSS notebooks with wavy red doubts + farmer bubble, farmer ledger with paid/credit chips + totals, isometric SVG godown stacks + booked tiles, village credit rows + WhatsApp bubble + slip with round CLEARED stamp, stacks + stamp + tiles CTA",
+  "hexbin heat map of 12 service zones + ramp legend + total card, route days from hottest zones, dark SMS thread with reply-to-book",
+  "3 site cards with CSS telescopic prop isotype (1 = 50) + item chips + 30-day rent strip, phone return slip with sent/back/short table + SVG signature pad + gate photos",
+  "9 barn cards with SVG horseshoe isotype (tan = due), weeks-since bars with cycle tick, country road SVG map with nearest-neighbour route + stop cards, browser barn portal with due chips + visit note, horseshoe grid + tiles CTA"
  ],
  "used_hashtag_sets": [
-  "#watchrepair #watchservice #watchshop #smallbusinessindia",
-  "#papad #homemadesnacks #homebusinessindia #womenentrepreneurs",
-  "#hottubservice #spaservice #hottubcare #backyardliving",
-  "#dtpcentre #typingcentre #printingshop #localbusinessindia",
-  "#steelutensils #cateringsupplies #utensilshop #wholesaleindia",
   "#erickshaw #electricrickshaw #evindia #fleetowner",
   "#handloom #handloomsaree #weaversofindia #handwoven",
   "#mealprepbusiness #mealprepdelivery #foodbusiness #smallbusinessusa",
@@ -4074,7 +4114,12 @@
   "#labourcontractor #constructionsite #siteattendance #constructionindia",
   "#catsitter #petsitting #catsofinstagram #smallbusinessusa",
   "#carstorage #winterstorage #classiccars #smallbusinesscanada",
-  "#electricscooter #evindia #evdealer #twowheelerdealer"
+  "#electricscooter #evindia #evdealer #twowheelerdealer",
+  "#biryani #cloudkitchenindia #bulkorders #foodbusinessindia",
+  "#agriinputs #fertilizershop #krishikendra #agribusinessindia",
+  "#septicservice #septicpumping #homeservices #smallbusinessusa",
+  "#centeringmaterial #scaffoldingrental #constructionmaterial #buildersindia",
+  "#farrier #horsecare #equestrian #smallbusinesscanada"
  ],
  "drive_index_at_post": 345,
  "old_index_sheets_to_trash": [
